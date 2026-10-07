@@ -1,6 +1,7 @@
 import type { PublicExperience } from "./catalog";
+import { discoveryEdition44 } from "./daily-discovery-batch-44";
 
-type Discovery = {
+export type Discovery = {
   date: string;
   slug: string;
   title: string;
@@ -10,7 +11,7 @@ type Discovery = {
 };
 
 /** Dated, authored angles on already published guides. No fake new articles or endless random cycle. */
-export const dailyDiscoveries: readonly Discovery[] = [
+const scheduledDiscoveryBase: readonly Discovery[] = [
   {
     date: "2026-09-13",
     slug: "hear-the-church-before-you-climb",
@@ -1076,6 +1077,14 @@ export const dailyDiscoveries: readonly Discovery[] = [
       "Could an encounter become more memorable when its rules protect the possibility that nothing performs for you?",
   },
 ];
+
+const futureEdition44 = new Map(
+  discoveryEdition44.map((entry) => [entry.date, entry]),
+);
+export const dailyDiscoveries: readonly Discovery[] =
+  scheduledDiscoveryBase.map(
+    (entry) => futureEdition44.get(entry.date) ?? entry,
+  );
 
 export function availableDiscoveries(
   items: PublicExperience[],

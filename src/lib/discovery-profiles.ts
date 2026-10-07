@@ -2,6 +2,7 @@ import { discoveryBatch40 } from "./discovery-batch-40";
 import { discoveryBatch41 } from "./discovery-batch-41";
 import { discoveryBatch42 } from "./discovery-batch-42";
 import { discoveryBatch43 } from "./discovery-batch-43";
+import { discoveryBatch44 } from "./discovery-batch-44";
 
 export const participationModes = [
   { value: "hands-on", label: "Make or take part" },
@@ -29,6 +30,7 @@ export type DiscoveryProfile = {
 /** Editorial planning lenses, based on the scope and duration stated in each guide.
  * These are not live session lengths, availability or suitability guarantees. */
 export const discoveryProfiles: Record<string, DiscoveryProfile> = {
+  ...discoveryBatch44,
   ...discoveryBatch43,
   ...discoveryBatch42,
   ...discoveryBatch40,

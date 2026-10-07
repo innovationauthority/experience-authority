@@ -1,6 +1,24 @@
 /** Content hashes keep replaced photographs consistent across responsive image caches.
  * The media test requires an update when an original file changes. */
 export const imageRevisions: Record<string, string> = {
+  "/images/guides/beaune-fallot.jpg": "6d0acd6c4433",
+  "/images/guides/york-chocolate.jpg": "937cb07f935e",
+  "/images/guides/jamaica-appleton.jpg": "c09cf7184363",
+  "/images/guides/florence-leather.jpg": "9e840fcf9eb4",
+  "/images/guides/puebla-talavera.jpg": "0b0d6fc5332a",
+  "/images/guides/nara-gripped-ink.jpg": "b48968af8e48",
+  "/images/guides/carcavelos-surf.jpg": "01e2bc31033f",
+  "/images/guides/chicago-kayak.jpg": "1122967d454a",
+  "/images/guides/amsterdam-jaap-eden.jpg": "04f941fad556",
+  "/images/guides/edinburgh-mary-kings-close.jpg": "5266987bd1e0",
+  "/images/guides/paris-arts-forains.jpg": "095e78c69a65",
+  "/images/guides/kasukabe-flood-chamber.jpg": "485e4b973637",
+  "/images/guides/zurich-hurlimann.jpg": "4ba6dbcc1c38",
+  "/images/guides/kyoto-shoseien.jpg": "0dec7e17071c",
+  "/images/guides/vancouver-bloedel.jpg": "99f47476f404",
+  "/images/guides/dublin-cobblestone.jpg": "f2b5fc1c05a1",
+  "/images/guides/new-orleans-bacchanal.jpg": "ba1333e8cd8d",
+  "/images/guides/paris-rosa-bonheur.jpg": "cebb8bb881cb",
   "/images/guides/parma-san-pier-damiani.jpg": "29911a59a4a4",
   "/images/guides/bogota-catacion-plus.jpg": "e22e9ba4b056",
   "/images/guides/sydney-bush-tucker.jpg": "1211d33ac117",
@@ -233,7 +251,7 @@ export const imageRevisions: Record<string, string> = {
 
 // A single manifest fingerprint fits Next's bounded localPatterns allowlist.
 // Tests require it to change when any original is added or replaced.
-export const imageEdition = "94239e392fb9";
+export const imageEdition = "5707f75924e3";
 
 export function imageSource(src: string) {
   return imageRevisions[src] ? `${src}?v=${imageEdition}` : src;

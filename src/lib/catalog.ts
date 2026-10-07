@@ -1306,6 +1306,16 @@ const connectedLocalAreas: readonly {
 }[] = [
   {
     countrySlug: "portugal",
+    regionSlugs: ["lisbon", "carcavelos"],
+    label: "Lisbon and Carcavelos",
+  },
+  {
+    countrySlug: "japan",
+    regionSlugs: ["tokyo", "kasukabe"],
+    label: "Tokyo and Kasukabe",
+  },
+  {
+    countrySlug: "portugal",
     regionSlugs: ["porto", "vila-nova-de-gaia"],
     label: "Porto and Gaia",
   },

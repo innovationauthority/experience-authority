@@ -1,0 +1,99 @@
+{
+  "edition": "2026-10-07",
+  "automation": "ea-catch-up-pass-7-october-at-16-00",
+  "baseCommit": "771bc91",
+  "verificationStage": "pre-production-push",
+  "catalogue": {
+    "authoredBefore": 226,
+    "authoredAfter": 244,
+    "eligibleBeforeAtEditionDate": 222,
+    "eligibleAfterAtEditionDate": 240,
+    "netNewEligibleGuides": 18,
+    "countriesInEdition": 12,
+    "distinctAreasInEdition": 17,
+    "catalogueCountriesAndTerritories": 107
+  },
+  "quotaSource": "src/lib/discovery-batch-44.ts: edition20261007",
+  "quota": {
+    "eat-drink": 3,
+    "make-learn": 3,
+    "move-water": 3,
+    "explore-reflect": 3,
+    "swim-reset": 3,
+    "shared-rituals": 3
+  },
+  "method": "Existing catalogue, rejected candidates, previous cycles, original research handoff and Git history checked before selection. Guides are original public-source desk research, not EA visits, local validation, partnerships or EA bookings. Ordinary public admission and provider booking are distinguished from special private permission.",
+  "sourceLinks": {
+    "uniqueUrlsChecked": 48,
+    "directHttp200": 46,
+    "directHttp403": 2,
+    "exceptions": [
+      {
+        "url": "https://vancouver.ca/parks-recreation-culture/bloedel-conservatory.aspx",
+        "resolution": "Official page readable through same-day web browsing. Ticket access, seasonal hours, captive birds, accessibility, sensory kits and visitor restrictions checked. No access control bypassed."
+      },
+      {
+        "url": "https://vancouver.ca/parks-recreation-culture/queen-elizabeth-park.aspx",
+        "resolution": "Official page readable through same-day web browsing. Park location and cultivated botanical context checked. No access control bypassed."
+      }
+    ]
+  },
+  "photography": {
+    "realPhotographs": 18,
+    "aiGenerated": 0,
+    "documentedCC0": 3,
+    "officialSourceModerateRisk": 15,
+    "rightsBoundary": "Official-source reuse is not independently cleared. Credit is not permission. The established EA moderate-risk policy is applied transparently, not described as a licence. Named photographers are retained where identified. Generic, poor derivatives, unrelated programmes and agency/conflicted photographs were excluded.",
+    "provenance": "docs/edition-2026-10-07-photo-provenance.json",
+    "creditFormat": "Image: author / source ↗, source opens in a new tab",
+    "visualReview": "All eighteen originals and desktop/mobile rendered guides reviewed. Programme examples, pictured finished objects, prior room arrangements and athlete skill are distinguished from the actual booked activity."
+  },
+  "integration": {
+    "newChapters": ["dublin", "vancouver"],
+    "expandedChapters": ["amsterdam-waterland", "lisbon", "paris", "kyoto"],
+    "connectedAreas": ["Lisbon and Carcavelos", "Tokyo and Kasukabe"],
+    "totalCityChapters": 24,
+    "futureDailyAngles": 18,
+    "publishedDailyHistoryChanged": false,
+    "surfaces": ["Compass", "country and city filters", "interest areas", "fields", "destinations", "collections", "dated releases", "future Daily discovery", "Passport", "journey planner", "sitemap", "canonical URLs", "Article and ImageObject structured data"]
+  },
+  "rejectedOrDeferred": [
+    {
+      "candidate": "Helsinki by Kayak, Natura Viva",
+      "decision": "deferred",
+      "reason": "Summer operating season ended. No current public October departure verified, and winter/extreme paddling is not substituted to meet the quota.",
+      "source": "https://naturaviva.fi/en_US/natura/destinations/vuosaari-paddling-center"
+    },
+    {
+      "candidate": "Anokhi Museum Jaipur formal block-print workshops",
+      "decision": "deferred",
+      "reason": "Official tours page still says private tours and workshops are suspended until further notice. Ordinary gallery access is not represented as the workshop.",
+      "source": "https://www.anokhimuseum.com/tours/"
+    },
+    {
+      "candidate": "Fragonard Paris Perfumer's Apprentice",
+      "decision": "deferred",
+      "reason": "Workshop description found, but a current bookable public session was not verified in this pass. This is not a claim that the programme has closed.",
+      "source": "https://musee-parfum-paris.fragonard.com/en/perfumer-apprentice-workshop/"
+    },
+    {
+      "candidate": "Paris Sewer Museum",
+      "decision": "excluded-duplicate",
+      "reason": "Already represented by an existing guide. Rewriting a title does not count as a new experience."
+    }
+  ],
+  "localVerification": {
+    "unitTests": 95,
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "smokePages": 300,
+    "smokeFailures": 0,
+    "browserGuideChecks": 36,
+    "browserCoreAndDestinationChecks": 72,
+    "widths": [390, 1440],
+    "accessibility": "No automated WCAG 2 A/AA or WCAG 2.1 A/AA violations on audited routes. This is not a claim of complete accessibility certification.",
+    "interactions": ["country and city filter", "new Paris guide discovery", "photo modal", "Escape and focus restoration", "save to Passport", "add to journey", "reload persistence", "keyboard skip link", "analytics denied-consent gate"],
+    "screenshotIncident": "One York desktop screenshot failed to save when disk space ran out. The page checks had passed. The guide was rerun successfully at both widths and both screenshots were visually reviewed.",
+    "productionConfirmation": "Required after main push. Pre-push checks are not represented as confirmation of the live deployment."
+  }
+}

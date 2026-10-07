@@ -16,6 +16,54 @@ export type CityChapter = {
 /** Authored local combinations. These are ideas to adapt, not timed or bookable packages. */
 export const cityChapters: readonly CityChapter[] = [
   {
+    slug: "dublin",
+    name: "Dublin",
+    country: "ireland",
+    regions: ["dublin"],
+    title: "Try the movement. Make room for the tune.",
+    intro:
+      "A Gaelic-games introduction and a traditional music session give Dublin two different shared rhythms. One asks for your first awkward attempt. The other asks you to listen without taking over. They work as separate encounters, not a claim that a visitor becomes part of a club or a musicians' circle in a day.",
+    pace: "A prebooked active session and an independently chosen listening evening, with time to recover and travel.",
+    planning:
+      "The games session meets at Na Fianna on Mobhi Road, while the Cobblestone is in Smithfield. Confirm the coaching date, duration, ability and transport independently. The pub does not reserve front-bar seats or serve food, so plan dinner separately. Under-18s must leave by 9pm. Keep musicians' spaces clear and check current session times. No combined ticket, guaranteed seat, match admission, transfer or EA package is implied.",
+    stops: [
+      {
+        slug: "try-the-games-before-you-watch-the-match",
+        moment: "Begin by trying one movement",
+        why: "A coach gives unfamiliar Gaelic games something you can recognise through your hands and feet. Participation follows the confirmed session, not a competitive fixture.",
+      },
+      {
+        slug: "leave-room-for-dublins-next-tune",
+        moment: "On a suitable evening, change your role",
+        why: "The useful contribution is quiet listening and space for the players. A music session is not another coached activity or a reserved concert seat.",
+      },
+    ],
+  },
+  {
+    slug: "vancouver",
+    name: "Vancouver",
+    country: "canada",
+    regions: ["vancouver"],
+    title: "Join the city by bicycle. Slow down under the dome.",
+    intro:
+      "A guided ride connects Vancouver's park, shoreline and streets. On a separate lighter session, Bloedel's planted enclosure asks for attention at leaf scale. The contrast is between covering ground and staying with a small environment, not between two versions of wild nature.",
+    pace: "Keep most of one day for the five-hour cycle tour and choose a separate short conservatory visit.",
+    planning:
+      "Cycle City's Grand Tour covers roughly twenty kilometres and requires comfortable urban cycling, appropriate weather preparation and its own reservation. Bloedel is in Queen Elizabeth Park and is not assumed to be on the booked cycling route. Its admission and transport are separate. The dome is warm, humid and home to captive birds, so it is not guaranteed quiet. Check both access arrangements and seasonal hours. No shared ticket, bicycle transfer, included lunch or EA package is implied.",
+    stops: [
+      {
+        slug: "join-vancouvers-edges-by-bicycle",
+        moment: "Give movement most of a day",
+        why: "A guided bicycle route connects distinct city edges. Follow the actual route rather than adding unplanned destinations to a group ride.",
+      },
+      {
+        slug: "step-under-vancouvers-planted-dome",
+        moment: "Keep another visit smaller",
+        why: "A short cultivated indoor circuit changes the scale of attention. It is a botanical pause, not a wildlife interaction or continuation of the cycle tour.",
+      },
+    ],
+  },
+  {
     slug: "amsterdam-waterland",
     name: "Amsterdam and Waterland",
     country: "netherlands",
@@ -25,7 +73,7 @@ export const cityChapters: readonly CityChapter[] = [
       "Let Amsterdam change scale. Micropia reveals life too small for an unaided glance, while a lunchtime concert gives a grand institution a short, shared hour. On a separate suitable day, travel north to Watergang and paddle through reed-lined channels. These are three ways of paying attention, not three stops to rush through.",
     pace: "A self-paced museum visit, a calendar-led concert and a separately booked two-hour canoe trip outside Amsterdam.",
     planning:
-      "Micropia and the Concertgebouw are in different parts of Amsterdam and require their own admission arrangements. Lunchtime tickets are limited and releases are date-specific. The Fresh Air canoe tour meets in Watergang, not at Amsterdam Noord, so allow independent transport and check the return journey. Paddling requires fitness and flexibility, and weather may cancel it. Choose different days if that makes the visit calmer. No combined ticket, transfer or package is implied.",
+      "Micropia and the Concertgebouw are in different parts of Amsterdam and require their own admission arrangements. Lunchtime tickets are limited and releases are date-specific. The Fresh Air canoe tour meets in Watergang, not at Amsterdam Noord, so allow independent transport and check the return journey. Paddling requires fitness and flexibility, and weather may cancel it. Jaap Eden's outdoor season starts on 10 October 2026. Check a public rink slot, mandatory gloves and separate skate rental. Admission is not instruction. Choose different days or a winter alternative if that makes the visit calmer. No combined ticket, transfer or package is implied.",
     stops: [
       {
         slug: "look-for-the-life-too-small-to-see",
@@ -41,6 +89,11 @@ export const cityChapters: readonly CityChapter[] = [
         slug: "paddle-below-waterlands-low-bridges",
         moment: "On another session, follow the reeds",
         why: "A guided route outside the city replaces the scale of a landmark with the clearance beneath a small bridge.",
+      },
+      {
+        slug: "follow-amsterdams-winter-ice-loop",
+        moment: "When winter admission fits, choose the rink instead",
+        why: "The maintained outdoor ice season begins on 10 October 2026. Public skating is a separately planned alternative to a paddling session, not a lesson or frozen-canal promise.",
       },
     ],
   },
@@ -157,20 +210,25 @@ export const cityChapters: readonly CityChapter[] = [
   },
   {
     slug: "lisbon",
-    name: "Lisbon",
+    name: "Lisbon and Carcavelos",
     country: "portugal",
-    regions: ["lisbon"],
-    title: "Follow the water. Listen to the room.",
+    regions: ["lisbon", "carcavelos"],
+    title: "Follow the water. Try the coast. Listen to the room.",
     intro:
-      "Begin with an aqueduct most visitors only see from below. On a separately planned evening, enter a former chapel in Alfama and let fado change how you listen. One experience reveals what carries a city, the other asks you to stop moving through it.",
-    pace: "An unhurried daytime crossing and a reserved evening, with travel and rest between them.",
+      "Begin with an aqueduct most visitors only see from below. On another suitable day, a beginner lesson at Carcavelos turns Atlantic water into a moving problem. Keep a separately planned evening for fado in Alfama. These are three roles for attention, not three appointments to force into one day.",
+    pace: "An unhurried city crossing, a separately planned coastal lesson and a reserved evening. Keep transport and recovery between sessions.",
     planning:
-      "The aqueduct entrance is in Campolide, not Alfama. Check the Water Museum's current last entry, weather and elevated-walk suitability. Mesa de Frades is a separate dinner booking with a set menu, deposit and performance rhythm. Confirm dietary needs and the finishing time before choosing return transport. These are independent admissions in different neighbourhoods, not a continuous walking route, combined ticket, transfer or package.",
+      "The aqueduct entrance is in Campolide, not Alfama. Check the Water Museum's current last entry, weather and elevated-walk suitability. Carcavelos is on the coast outside central Lisbon and requires separate transport and a confirmed lesson. The standard group surf format starts at age twelve and depends on sea conditions. Mesa de Frades is a separate dinner booking with a set menu, deposit and performance rhythm. Confirm dietary needs and return transport. These are independent admissions, not a continuous walking route, combined ticket, transfer or package.",
     stops: [
       {
         slug: "cross-lisbon-on-the-route-of-its-water",
         moment: "Begin with a different line across the city",
         why: "The public crossing turns monumental arches into a readable piece of water infrastructure. Keep the walk within the museum's admitted route.",
+      },
+      {
+        slug: "meet-lisbons-coast-on-a-surfboard",
+        moment: "Give another suitable day to the coast",
+        why: "A supervised first lesson changes the water from a view to something you must read. Do not confuse the lesson with independent surfing or included transport.",
       },
       {
         slug: "let-the-fado-room-fall-quiet",
@@ -305,7 +363,7 @@ export const cityChapters: readonly CityChapter[] = [
       "Start with a Paris reference almost everyone knows, then change the scale twice. Give pastry enough time to become technique. Watch a contemporary image take form on a historic loom. Finally, descend into the infrastructure that makes the city above possible.",
     pace: "One substantial booked anchor per day, with the sewer museum kept flexible.",
     planning:
-      "The pastry workshop takes about five and a half hours and is not a casual breakfast stop. The Gobelins workshop visit is a separate reservation with a fixed start, French delivery and significant mobility constraints. The Sewer Museum is a self-guided public visit that can close because of flooding or operational conditions. Le Bal Blomet needs a specific concert date and its own ticket. These addresses are in different parts of Paris. Do not attempt all of them in one day. No transport, combined ticket, meal, translation or package is included.",
+      "The pastry workshop takes about five and a half hours and is not a casual breakfast stop. The Gobelins workshop visit is a separate reservation with a fixed start, French delivery and significant mobility constraints. The Sewer Museum can close because of flooding or operations. Arts Forains requires a date-specific guided ticket, not self-guided admission. Choose either a ticketed Bal Blomet concert or a programmed Rosa Bonheur evening, checking age, queues and access separately. These addresses are in different parts of Paris. Do not attempt all of them in one day. No transport, combined ticket, meal, translation or package is included.",
     stops: [
       {
         slug: "make-the-morning-before-it-reaches-the-cafe",
@@ -326,6 +384,16 @@ export const cityChapters: readonly CityChapter[] = [
         slug: "hear-a-new-trio-in-an-old-paris-room",
         moment: "Let a current programme choose the evening",
         why: "A small live-music room gives a shared end to a day of watching how Paris makes and maintains things. Choose the musician and date before planning around it.",
+      },
+      {
+        slug: "let-pariss-old-fairground-objects-move",
+        moment: "On another date, meet a collection in motion",
+        why: "A guided public visit in Bercy gives old objects an active social role. The offered mechanisms and participation vary, so it is an alternative anchor, not an automatic ride ticket.",
+      },
+      {
+        slug: "let-a-paris-guinguette-open-the-evening",
+        moment: "Or leave an evening for a park-side gathering",
+        why: "Rosa Bonheur's Buttes-Chaumont programme offers a different social format from a concert hall. Check the dance event rather than expecting a dance floor throughout ordinary opening hours.",
       },
     ],
   },
@@ -489,7 +557,7 @@ export const cityChapters: readonly CityChapter[] = [
       "Tea is a recognisable beginning. A scent gallery, a textile pattern and a ride through smaller streets make the city less dependent on a list of sights. Choose the contrast that interests you, not the maximum number of appointments.",
     pace: "One booked anchor and one lighter stop per day.",
     planning:
-      "Camellia Flower is in Higashiyama and is not the same venue as Garden Teahouse. Kunjyukan, the textile and kintsugi studios and the cycle meeting point are separate locations. Confirm travel, languages, opening days and collection. Shikata's urushi trial has age and handling requirements, and the work needs further curing at home. Choose one substantial workshop per day. None is an automatic add-on to another booking.",
+      "Camellia Flower is in Higashiyama and is not the same venue as Garden Teahouse. Kunjyukan, the textile and kintsugi studios and the cycle meeting point are separate locations. Confirm travel, languages, opening days and collection. Shikata's urushi trial has age and handling requirements, and the work needs further curing at home. Shōsei-en offers ordinary daytime garden admission near the station, not access to its buildings or guaranteed evening events. Choose one substantial workshop per day and respect the garden's seasonal last-entry time. None is an automatic add-on to another booking.",
     stops: [
       {
         slug: "a-bowl-of-attention",
@@ -515,6 +583,11 @@ export const cityChapters: readonly CityChapter[] = [
         slug: "repair-a-bowl-without-hiding-the-join",
         moment: "On another day, work with what already exists",
         why: "A repair introduction offers a contrast to making a new pattern. The aftercare and curing period carry the experience beyond the studio and need to fit your journey home.",
+      },
+      {
+        slug: "give-kyoto-one-unhurried-pond-loop",
+        moment: "Leave a lighter interval without a lesson",
+        why: "The garden offers a self-paced outdoor counterpoint to a booked workshop. Ordinary admission concerns paths and pond views, not entry to closed buildings.",
       },
     ],
   },
