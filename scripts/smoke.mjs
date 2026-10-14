@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
 import { dailyEditionRoutes } from "./daily-edition-routes.mjs";
 
 const base = process.env.EA_TEST_URL || "http://127.0.0.1:3100";
@@ -53,6 +54,18 @@ const paths = [
   "/credits",
 ];
 const failures = [];
+const today = new Date().toISOString().slice(0, 10);
+const reviewWindows = JSON.parse(
+  await readFile(
+    new URL("./guide-review-windows.json", import.meta.url),
+    "utf8",
+  ),
+);
+const timeGatedGuides = Object.entries(reviewWindows)
+  .filter(
+    ([, window]) => today < window.availableFrom || today > window.reviewBy,
+  )
+  .map(([path]) => path);
 if (process.env.EA_TEST_DEMO === "true") {
   paths.push(
     "/places/croatia",
@@ -264,6 +277,14 @@ for (const path of paths) {
   const response = await fetch(`${base}${path}`);
   const html = await response.text();
   try {
+    if (process.env.EA_TEST_DEMO !== "true" && timeGatedGuides.includes(path)) {
+      assert.equal(
+        response.status,
+        404,
+        "An out-of-window guide must remain unpublished",
+      );
+      continue;
+    }
     assert.equal(response.status, 200);
     assert.ok(html.includes("<main"));
     const pathname = path.split("?")[0];
@@ -363,6 +384,7 @@ const unpublishedPaths = [
 ];
 if (process.env.EA_TEST_DEMO !== "true")
   unpublishedPaths.push(
+    ...timeGatedGuides,
     "/experiences/learning-the-language-of-clay",
     "/experiences/some-stories-need-distance",
     "/places/italy/emilia-romagna",
@@ -379,6 +401,11 @@ assert.equal(robots.includes("Sitemap:"), liveIndexing);
 const sitemap = await (await fetch(`${base}/sitemap.xml`)).text();
 assert.equal(sitemap.includes("<loc>"), liveIndexing);
 if (liveIndexing) {
+  for (const path of timeGatedGuides)
+    assert.ok(
+      !sitemap.includes(`https://experienceauthority.com${path}</loc>`),
+      `Out-of-window guide in sitemap: ${path}`,
+    );
   assert.ok(sitemap.includes("https://experienceauthority.com/explore"));
   assert.ok(!sitemap.includes("/passport"));
   for (const path of [

@@ -82,6 +82,7 @@ export const interests: readonly Interest[] = [
     name: "Eat & drink",
     fields: ["taste"],
     guideSlugs: [
+      "pass-the-dishes-at-a-copenhagen-long-table",
       "begin-with-rice-not-the-bottle",
       "cook-beyond-the-postcard",
       "build-the-curry-before-the-wok",
@@ -232,6 +233,15 @@ export function filterExperiences(items: PublicExperience[], query: Query) {
   );
 }
 export const territories = [
+  {
+    slug: "malaysia",
+    name: "Malaysia",
+    region: "george-town",
+    regionName: "George Town, Penang",
+    intro:
+      "Begin in George Town with an ordinary street-food purchase and a different way of noticing it. Chendul connects texture, temperature and a working counter without making one bowl speak for the whole country.",
+    image: null,
+  },
   {
     slug: "thailand",
     name: "Thailand",

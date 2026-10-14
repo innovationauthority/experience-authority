@@ -1,0 +1,121 @@
+{
+  "edition": "2026-10-14",
+  "automation": "ea-daily-experience-publishing",
+  "netNewGuides": 18,
+  "primaryAllocations": {
+    "Eat & drink": 3,
+    "Make": 3,
+    "Move": 3,
+    "Explore & reflect": 3,
+    "Reset": 3,
+    "Shared rituals": 3
+  },
+  "catalogue": {
+    "authoredRecordsBefore": 244,
+    "authoredRecordsAfter": 262,
+    "eligiblePublicOn14October": 254,
+    "existingRecordsOutsideReviewWindow": 8,
+    "authoredCountryAndTerritoryCoverage": 108,
+    "newCountry": "Malaysia",
+    "qualification": "Authored records are not all currently public. Expired records remain excluded until a genuine fresh source review. None is counted towards the eighteen new guides."
+  },
+  "method": "Catalogue, previous rejections, research handoff and Git history reviewed before selection. Original public-source desk guides with explicit visitor roles, practical access and evidence limits. No EA attendance, local validation, booking, provider partnership or private permission is claimed.",
+  "sources": {
+    "checkedOn": "2026-10-14",
+    "uniqueUrlsChecked": 50,
+    "directHttp200": 49,
+    "directHttp403": 1,
+    "exception": {
+      "url": "https://www.tripadvisor.com/Attraction_Review-g298082-d27519543-Reviews-Xu_ng_L_ng_Den_Thanh_Truc-Hoi_An_Quang_Nam_Province.html",
+      "resolution": "Search-accessible operator-submitted secondary listing supports identity and Cam Thanh address. Full retrieval is unavailable. Current class facts are taken from the fully rendered live operator site, with conflicting older duration and pickup claims explicitly bounded. No access control is bypassed and the secondary listing is not represented as independent quality validation."
+    }
+  },
+  "photography": {
+    "realPhotographs": 18,
+    "aiGenerated": 0,
+    "documentedLicences": 6,
+    "officialSourceModerateRisk": 12,
+    "rightsBoundary": "Official-source reuse rights are not independently cleared. Credit does not grant permission. The existing EA moderate-risk policy is used transparently. The six licensed derivatives preserve their applicable attribution and share-alike conditions. No licence is invented for press or provider photographs.",
+    "provenance": "docs/edition-2026-10-14-photo-provenance.json",
+    "creditFormat": "Image: author / source ↗, direct source opens in a new tab",
+    "historicalBoundaries": "Penang's photograph is from 2009 and its visible tariff is explicitly not current. Singapore's garden is photographed in 2018 and the library in 2015. Exhibition, concert, workshop and route images do not guarantee future layout, artists, participant results or conditions."
+  },
+  "integration": {
+    "newLocalChapter": "Copenhagen",
+    "expandedLocalChapters": ["Dublin", "Lisbon", "New York City", "Vienna", "Mexico City", "Singapore"],
+    "currentAlternativesKeepChaptersPublic": ["Amsterdam and Waterland", "Singapore", "Sydney"],
+    "publicLocalChaptersOn14October": 25,
+    "futureDailyAngles": 18,
+    "futureDailyDates": "2026-10-27 to 2026-11-13",
+    "previousDailyEditionPreserved": true,
+    "publishedDailyHistoryChanged": false,
+    "surfaces": ["Compass", "country and city filters", "six visitor interests", "editorial fields", "places", "collections", "dated new guides", "future Daily discovery", "connected experiences", "Passport", "journey planning", "sitemap", "canonical URLs", "Article and ImageObject structured data"]
+  },
+  "rejectedOrDeferred": [
+    {
+      "candidate": "Reaching Out, Hoi An folding lantern class",
+      "decision": "deferred",
+      "reason": "The public booking page is sold out and describes a 2024 group product. The undated programme summary does not establish an available 2026 individual class. This is not a claim of permanent closure.",
+      "source": "https://reachingoutvietnam.com/store/Hoi-An-folding-lantern-making-class-p94234435"
+    },
+    {
+      "candidate": "Tropical Spice Garden, Penang cooking school",
+      "decision": "deferred",
+      "reason": "The official class description exists, but the linked booking service returned an access block in normal browsing. A current date, format and duration were not safely verified. The block was not bypassed and the programme is not described as closed.",
+      "source": "https://tropicalspicegarden.com/home/cook"
+    },
+    {
+      "candidate": "Nashville Bluebird Cafe",
+      "decision": "photo-deferred",
+      "reason": "Public programming exists, but available programme assets did not meet the chosen documentary-photo standard. A seemingly useful Commons set was identified as the Bluebird Cafe in Hopland, California, not Nashville, and was rejected. A verified Nashville museum programme is used instead.",
+      "source": "https://bluebirdcafe.com/"
+    },
+    {
+      "candidate": "Salvador Balé Folclórico",
+      "decision": "deferred",
+      "reason": "The discovered 2026 schedule referred to January, not an October visitor performance. No current appropriate session was confirmed."
+    },
+    {
+      "candidate": "Salvador JAM no MAM",
+      "decision": "deferred",
+      "reason": "The official agenda contains a future 31 October session, but the latest linked booking reference was for 10 October and the available current photographs were only 650 pixels wide. The programme is not represented as closed.",
+      "source": "https://www.jamnomam.com.br/agenda"
+    },
+    {
+      "candidate": "Buenos Aires fileteado course with Alfredo Genovese",
+      "decision": "deferred",
+      "reason": "An older course page did not establish a current individual visitor class. A historical course is not republished as a live booking."
+    },
+    {
+      "candidate": "Copenhagen Cisternerne, Seven Deaths",
+      "decision": "not-this-edition",
+      "reason": "An intense mortality-centred programme and complex artwork-image rights are not the appropriate gentle, non-extreme entry for this edition. No judgement about the artwork's quality or programme validity is implied."
+    },
+    {
+      "candidate": "Oaxaca, Jacobo and María Ángeles making class",
+      "decision": "scope-deferred",
+      "reason": "Public workshop observation is not sufficient proof of a bookable hands-on painting class. It is not used to inflate the Make quota."
+    },
+    {
+      "candidate": "Designmuseum Danmark, archived Danish Chair exhibition",
+      "decision": "historical-source-corrected",
+      "reason": "The archived exhibition is not treated as current. The actual permanent Danish Modern exhibition and current 125-chair tunnel are verified and used instead.",
+      "source": "https://designmuseum.dk/en/exhibition/danish-modern/"
+    }
+  ],
+  "localVerification": {
+    "unitTests": 100,
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "smokePages": 300,
+    "unpublishedRoutesChecked": 19,
+    "smokeFailures": 0,
+    "newGuideHtmlAndImageFingerprints": 18,
+    "browserWidths": [390, 1440],
+    "browserFinalConfirmation": "Passed 124 route-and-viewport checks at 390 and 1440 pixels, including all eighteen guides, core pages, all six interest areas, fields, relevant places and six collections. No failures reported.",
+    "accessibilityBoundary": "Automated WCAG A/AA checks are not complete accessibility certification.",
+    "interactions": ["country and city selection", "new Copenhagen guide discovery", "photo modal", "Escape and focus return", "save to Passport", "add to private journey", "reload persistence", "keyboard skip link", "analytics consent gate"],
+    "expiredGuideHandling": "Smoke-test review windows are generated from the catalogue and independently checked by a unit test. Out-of-window guides must return 404 and remain absent from the sitemap rather than being silently skipped or renewed without research."
+  },
+  "productionConfirmation": "Required after main push. Pre-push checks are not a claim that Vercel has published. Confirm the exact commit status, live dated edition, all eighteen guide pages and matching photo fingerprints. Keep the regular Wednesday automation unchanged."
+}

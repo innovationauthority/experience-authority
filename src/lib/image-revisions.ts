@@ -1,6 +1,24 @@
 /** Content hashes keep replaced photographs consistent across responsive image caches.
  * The media test requires an update when an original file changes. */
 export const imageRevisions: Record<string, string> = {
+  "/images/guides/lisbon-nata.jpg": "c7d840857d65",
+  "/images/guides/penang-keng-kwee-chendul.jpg": "159ece216a84",
+  "/images/guides/jerez-tio-pepe.jpg": "9bc16d885aee",
+  "/images/guides/takaoka-nousaku.jpg": "0301d744c1d2",
+  "/images/guides/hoi-an-thanh-truc-lantern.jpg": "842952da2585",
+  "/images/guides/chiang-mai-silver-ring.jpg": "157354fb24e5",
+  "/images/guides/berlin-tempelhofer-cycle.jpg": "feaa64fb36b0",
+  "/images/guides/auckland-cup-sailing.jpg": "d736491d78f5",
+  "/images/guides/new-york-governors-cycle.jpg": "1e447def19cc",
+  "/images/guides/madrid-beti-jai.jpg": "05a228a9e150",
+  "/images/guides/copenhagen-danish-modern.jpg": "e2df725acbe1",
+  "/images/guides/stockholm-vasa-tour.jpg": "4148dc7aa45c",
+  "/images/guides/dublin-glasnevin-gardens.jpg": "8043c60412cc",
+  "/images/guides/singapore-orchid-garden.jpg": "ff8537943464",
+  "/images/guides/mexico-city-vasconcelos-reading.jpg": "5a5fe0b1508e",
+  "/images/guides/nashville-songwriter-session.jpg": "a36c71b55b4f",
+  "/images/guides/vienna-musikverein-standing.jpg": "16943b6c71f2",
+  "/images/guides/copenhagen-absalon-dinner.jpg": "d101f9962fc4",
   "/images/guides/beaune-fallot.jpg": "6d0acd6c4433",
   "/images/guides/york-chocolate.jpg": "937cb07f935e",
   "/images/guides/jamaica-appleton.jpg": "c09cf7184363",
@@ -251,7 +269,7 @@ export const imageRevisions: Record<string, string> = {
 
 // A single manifest fingerprint fits Next's bounded localPatterns allowlist.
 // Tests require it to change when any original is added or replaced.
-export const imageEdition = "5707f75924e3";
+export const imageEdition = "25f89b925c70";
 
 export function imageSource(src: string) {
   return imageRevisions[src] ? `${src}?v=${imageEdition}` : src;

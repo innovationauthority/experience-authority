@@ -1,5 +1,6 @@
 import type { PublicExperience } from "./catalog";
 import { discoveryEdition44 } from "./daily-discovery-batch-44";
+import { discoveryEdition45 } from "./daily-discovery-batch-45";
 
 export type Discovery = {
   date: string;
@@ -1081,9 +1082,15 @@ const scheduledDiscoveryBase: readonly Discovery[] = [
 const futureEdition44 = new Map(
   discoveryEdition44.map((entry) => [entry.date, entry]),
 );
+const futureEdition45 = new Map(
+  discoveryEdition45.map((entry) => [entry.date, entry]),
+);
 export const dailyDiscoveries: readonly Discovery[] =
   scheduledDiscoveryBase.map(
-    (entry) => futureEdition44.get(entry.date) ?? entry,
+    (entry) =>
+      futureEdition45.get(entry.date) ??
+      futureEdition44.get(entry.date) ??
+      entry,
   );
 
 export function availableDiscoveries(

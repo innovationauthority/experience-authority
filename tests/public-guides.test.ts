@@ -42,8 +42,8 @@ test("Arcachon stays a bay-wide chapter regardless of guide order or a more spec
   }
 });
 
-test("guide set contains 244 distinct, sourced public experiences, not Selected or demo records", () => {
-  assert.equal(publicGuides.length, 244);
+test("guide set contains 262 distinct, sourced public experiences, not Selected or demo records", () => {
+  assert.equal(publicGuides.length, 262);
   assert.equal(
     new Set(publicGuides.map((p) => p.id)).size,
     publicGuides.length,
@@ -52,7 +52,7 @@ test("guide set contains 244 distinct, sourced public experiences, not Selected 
     new Set(publicGuides.map((p) => p.slug)).size,
     publicGuides.length,
   );
-  assert.equal(new Set(publicGuides.map((p) => p.countrySlug)).size, 107);
+  assert.equal(new Set(publicGuides.map((p) => p.countrySlug)).size, 108);
   assert.equal(
     new Set(territories.map((place) => place.slug)).size,
     territories.length,
@@ -286,13 +286,16 @@ test("New York connects a recognisable food with living production and a difficu
       guide.countrySlug === "united-states" &&
       guide.regionSlug === "new-york-city",
   );
-  assert.equal(newYork.length, 3);
+  assert.equal(newYork.length, 4);
   assert.deepEqual([...new Set(newYork.map((guide) => guide.field))].sort(), [
+    "move",
     "taste",
     "witness",
     "work",
   ]);
-  assert.ok(newYork.every((guide) => guide.access.includes("No EA booking")));
+  assert.ok(
+    newYork.every((guide) => /No EA .*booking|No EA ferry/.test(guide.access)),
+  );
   assert.match(
     newYork.find(
       (guide) => guide.slug === "open-the-other-side-of-ellis-island",
@@ -419,6 +422,7 @@ test("new regions are derived from real coverage and recommendations favour a re
       "kumano-kodo",
       "kyoto",
       "nara",
+      "takaoka",
       "tokyo",
     ],
   );
@@ -426,7 +430,15 @@ test("new regions are derived from real coverage and recommendations favour a re
     regionsForCountry("spain", publicGuides)
       .map((r) => r.slug)
       .sort(),
-    ["asturias", "barcelona", "madrid", "san-sebastian", "seville", "valencia"],
+    [
+      "asturias",
+      "barcelona",
+      "jerez-de-la-frontera",
+      "madrid",
+      "san-sebastian",
+      "seville",
+      "valencia",
+    ],
   );
   const kyoto = publicGuides.find((p) => p.id === "kyoto-camellia-tea")!;
   assert.equal(relatedExperiences(kyoto, publicGuides)[0].countrySlug, "japan");

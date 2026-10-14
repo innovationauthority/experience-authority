@@ -140,7 +140,7 @@ test("material booking, cultural and image boundaries remain explicit", () => {
 test("new city depth and future daily discoveries connect without fabricating a package", () => {
   for (const slug of ["amsterdam-waterland", "seoul"]) {
     const chapter = cityChapters.find((c) => c.slug === slug)!;
-    assert.equal(chapter.stops.length, slug === "amsterdam-waterland" ? 4 : 3);
+    assert.equal(chapter.stops.length, 3);
     assert.match(chapter.planning, /No.*package|No shared booking/);
     for (const stop of chapter.stops) {
       const guide = publicGuides.find((g) => g.slug === stop.slug)!;

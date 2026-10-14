@@ -112,7 +112,7 @@ test("depiction and booking boundaries survive the release", () => {
   );
   assert.ok(
     resolveCityChapters(publicGuides).some(
-      (chapter) => chapter.slug === "sydney" && chapter.stops.length === 3,
+      (chapter) => chapter.slug === "sydney" && chapter.stops.length === 2,
     ),
   );
 });

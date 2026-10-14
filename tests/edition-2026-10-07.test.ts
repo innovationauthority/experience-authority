@@ -29,7 +29,9 @@ test("7 October adds exactly eighteen distinct guides and three primary allocati
     interests.map((i) => i.slug).sort(),
   );
   const earlier = publicGuides.filter(
-    (g) => !guideBatch44.some((n) => n.id === g.id),
+    (g) =>
+      g.guideReview!.checkedOn <= "2026-10-07" &&
+      !guideBatch44.some((n) => n.id === g.id),
   );
   assert.equal(earlier.length, 226, "All preceding guides remain present");
   for (const [primary, allocated] of Object.entries(edition20261007)) {
@@ -188,7 +190,7 @@ test("local connections and contrasting chapters keep their geographic and booki
   const chapters = resolveCityChapters(publicGuides);
   for (const slug of ["dublin", "vancouver"]) {
     const c = chapters.find((c) => c.slug === slug)!;
-    assert.equal(c.stops.length, 2);
+    assert.equal(c.stops.length, slug === "dublin" ? 3 : 2);
     assert.ok(new Set(c.stops.map((s) => s.item.field)).size >= 2);
     assert.match(c.planning, /No (combined|shared) ticket/);
   }

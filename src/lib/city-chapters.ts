@@ -16,17 +16,46 @@ export type CityChapter = {
 /** Authored local combinations. These are ideas to adapt, not timed or bookable packages. */
 export const cityChapters: readonly CityChapter[] = [
   {
+    slug: "copenhagen",
+    name: "Copenhagen",
+    country: "denmark",
+    regions: ["copenhagen"],
+    title: "Read the object. Share the table.",
+    intro:
+      "Copenhagen's design identity opens through a chair, then changes scale at a shared dinner. One encounter asks you to look closely at an object. The other gives you a small practical role among people. The connection is how ordinary life is arranged, not a claim that museum design explains everyone at the table.",
+    pace: "An unhurried museum visit and a separately booked dinner, on days that actually fit.",
+    planning:
+      "Designmuseum Danmark is at Bredgade 68 and normally closes on Mondays. Absalon is in Vesterbro at Sønder Boulevard 73, not next door. Allow independent travel rather than treating the two as a continuous walking route. Dinner begins at 18:00 and requires arrival by the stated check-in. Confirm diet, access and seating needs before paying. No combined ticket, transfer, reserved conversation or EA package is implied.",
+    stops: [
+      {
+        slug: "learn-to-read-a-chair-in-copenhagen",
+        moment: "Let an ordinary object become less obvious",
+        why: "Compare material, support and proportion before reading the label. A public exhibition is looking, not furniture testing or making.",
+      },
+      {
+        slug: "pass-the-dishes-at-a-copenhagen-long-table",
+        moment: "On a separately booked evening, change your role",
+        why: "A shared plate makes participation practical. The meal invites courteous exchange without promising friendship or access to anyone's private life.",
+      },
+    ],
+  },
+  {
     slug: "dublin",
     name: "Dublin",
     country: "ireland",
     regions: ["dublin"],
-    title: "Try the movement. Make room for the tune.",
+    title: "Try the movement. Slow the morning. Leave room for the tune.",
     intro:
-      "A Gaelic-games introduction and a traditional music session give Dublin two different shared rhythms. One asks for your first awkward attempt. The other asks you to listen without taking over. They work as separate encounters, not a claim that a visitor becomes part of a club or a musicians' circle in a day.",
+      "A Gaelic-games introduction, a botanical pause and a traditional music session give Dublin three different scales of attention. Try a movement, stay with a living detail, then listen without taking over. They work as separate encounters, not a claim that a visitor becomes part of a club or a musicians' circle in a day.",
     pace: "A prebooked active session and an independently chosen listening evening, with time to recover and travel.",
     planning:
-      "The games session meets at Na Fianna on Mobhi Road, while the Cobblestone is in Smithfield. Confirm the coaching date, duration, ability and transport independently. The pub does not reserve front-bar seats or serve food, so plan dinner separately. Under-18s must leave by 9pm. Keep musicians' spaces clear and check current session times. No combined ticket, guaranteed seat, match admission, transfer or EA package is implied.",
+      "The games session meets at Na Fianna on Mobhi Road, the gardens are in Glasnevin and the Cobblestone is in Smithfield. Confirm the coaching date, duration, ability and transport independently. Garden and glasshouse hours change seasonally. The pub does not reserve front-bar seats or serve food, so plan dinner separately. Under-18s must leave by 9pm. Keep musicians' spaces clear and check current session times. No combined ticket, guaranteed seat, match admission, transfer or EA package is implied.",
     stops: [
+      {
+        slug: "give-dublin-a-glasshouse-paced-morning",
+        moment: "Keep another morning unhurried",
+        why: "One open glasshouse and a manageable garden loop offer a cultivated botanical contrast. This is not a recovery treatment or an included extension of the sports session.",
+      },
       {
         slug: "try-the-games-before-you-watch-the-match",
         moment: "Begin by trying one movement",
@@ -68,22 +97,17 @@ export const cityChapters: readonly CityChapter[] = [
     name: "Amsterdam and Waterland",
     country: "netherlands",
     regions: ["amsterdam", "watergang"],
-    title: "Look closer. Listen together. Leave the city at water level.",
+    title: "Look closer. Choose the season's movement.",
     intro:
-      "Let Amsterdam change scale. Micropia reveals life too small for an unaided glance, while a lunchtime concert gives a grand institution a short, shared hour. On a separate suitable day, travel north to Watergang and paddle through reed-lined channels. These are three ways of paying attention, not three stops to rush through.",
-    pace: "A self-paced museum visit, a calendar-led concert and a separately booked two-hour canoe trip outside Amsterdam.",
+      "Let Amsterdam change scale. Micropia reveals life too small for an unaided glance. On a separately confirmed suitable day, travel north to Watergang and paddle through reed-lined channels. In the outdoor ice season, Jaap Eden offers a different movement within the city. Choose the activity that fits conditions rather than treating all three as a day's checklist.",
+    pace: "A self-paced museum visit and either a separately booked Waterland paddle or a suitable public skating slot.",
     planning:
-      "Micropia and the Concertgebouw are in different parts of Amsterdam and require their own admission arrangements. Lunchtime tickets are limited and releases are date-specific. The Fresh Air canoe tour meets in Watergang, not at Amsterdam Noord, so allow independent transport and check the return journey. Paddling requires fitness and flexibility, and weather may cancel it. Jaap Eden's outdoor season starts on 10 October 2026. Check a public rink slot, mandatory gloves and separate skate rental. Admission is not instruction. Choose different days or a winter alternative if that makes the visit calmer. No combined ticket, transfer or package is implied.",
+      "Micropia has its own admission and is not at either activity's meeting point. The Fresh Air canoe tour meets in Watergang, not at Amsterdam Noord, so allow independent transport and check the return journey. Paddling requires fitness and flexibility, and seasonal availability or weather may prevent it. Jaap Eden's outdoor season starts on 10 October 2026. Check a public rink slot, mandatory gloves and separate skate rental. Admission is not instruction. Choose different days or a winter alternative if that makes the visit calmer. No combined ticket, transfer or package is implied.",
     stops: [
       {
         slug: "look-for-the-life-too-small-to-see",
         moment: "Begin with a change of scale",
         why: "A microscope makes familiar surroundings feel less empty without requiring a long scientific tour.",
-      },
-      {
-        slug: "give-lunch-half-an-hour-of-listening",
-        moment: "Let one date choose the music",
-        why: "The changing lunchtime programme offers a short shared pause, with the hall and performers stated in advance.",
       },
       {
         slug: "paddle-below-waterlands-low-bridges",
@@ -213,13 +237,18 @@ export const cityChapters: readonly CityChapter[] = [
     name: "Lisbon and Carcavelos",
     country: "portugal",
     regions: ["lisbon", "carcavelos"],
-    title: "Follow the water. Try the coast. Listen to the room.",
+    title: "Make the layers. Follow the water. Listen to the room.",
     intro:
-      "Begin with an aqueduct most visitors only see from below. On another suitable day, a beginner lesson at Carcavelos turns Atlantic water into a moving problem. Keep a separately planned evening for fado in Alfama. These are three roles for attention, not three appointments to force into one day.",
+      "A familiar pastry opens through its layers. An aqueduct opens through a public crossing. A separately booked coastal lesson changes how you read Atlantic water, while fado asks for a room's shared attention. Choose the roles that suit your trip rather than forcing every encounter into a day.",
     pace: "An unhurried city crossing, a separately planned coastal lesson and a reserved evening. Keep transport and recovery between sessions.",
     planning:
-      "The aqueduct entrance is in Campolide, not Alfama. Check the Water Museum's current last entry, weather and elevated-walk suitability. Carcavelos is on the coast outside central Lisbon and requires separate transport and a confirmed lesson. The standard group surf format starts at age twelve and depends on sea conditions. Mesa de Frades is a separate dinner booking with a set menu, deposit and performance rhythm. Confirm dietary needs and return transport. These are independent admissions, not a continuous walking route, combined ticket, transfer or package.",
+      "The pastry class is at Rua Bernardim Ribeiro 9 and requires its own date, group-size and allergy check. The aqueduct entrance is in Campolide, not Alfama. Check the Water Museum's current last entry, weather and elevated-walk suitability. Carcavelos is on the coast outside central Lisbon and requires separate transport and a confirmed lesson. The standard group surf format starts at age twelve and depends on sea conditions. Mesa de Frades is a separate dinner booking with a set menu, deposit and performance rhythm. Confirm dietary needs and return transport. These are independent admissions, not a continuous walking route, combined ticket, transfer or package.",
     stops: [
+      {
+        slug: "fold-the-pastry-before-the-first-bite",
+        moment: "Begin with the familiar food's unfamiliar steps",
+        why: "Dough and custard make a recognised Lisbon pastry into hands-on attention. The class is not a historic bakery visit or an included meal for the rest of the route.",
+      },
       {
         slug: "cross-lisbon-on-the-route-of-its-water",
         moment: "Begin with a different line across the city",
@@ -268,10 +297,10 @@ export const cityChapters: readonly CityChapter[] = [
     regions: ["new-york-city"],
     title: "Shape the ring. Follow the bottle. Open the other side.",
     intro:
-      "Begin with a New York icon you can make rather than rank. Then follow a reusable seltzer siphon into one of the city's least expected working interiors. Finish on Ellis Island, where the hospital complex adds care, exclusion and preservation to the familiar arrival story.",
+      "Begin with a New York icon you can make rather than rank. Follow a reusable seltzer siphon into a working interior, or choose a lighter Governors Island bicycle outing. Ellis Island offers a separate hospital-history encounter. The islands have different roles and ferry arrangements, not an interchangeable harbour package.",
     pace: "One booked experience per day gives each borough and island crossing enough room.",
     planning:
-      "BagelUp's public classes use live weekend dates and the exact venue must be confirmed during booking. The Brooklyn Seltzer Museum is in Cypress Hills and is usually open for public tours on selected Fridays. Ellis Island requires a separately purchased ferry, security time, early arrival and strict footwear, age and mobility checks. These are three independent bookings in different parts of the city. Do not attempt them as a continuous route or assume a combined ticket, transfer, meal beyond the class or package.",
+      "BagelUp's public classes use live weekend dates and the exact venue must be confirmed during booking. The Brooklyn Seltzer Museum is in Cypress Hills and is usually open for public tours on selected Fridays. Governors Island needs its own ferry, return check and bicycle arrangement. It is not on the Ellis Island ferry route. Ellis Island requires a separately purchased ferry, security time, early arrival and strict footwear, age and mobility checks. Do not attempt them as a continuous route. No combined ticket, transfer, meal beyond the class or package is implied.",
     stops: [
       {
         slug: "make-the-bagel-before-new-york-serves-it",
@@ -282,6 +311,11 @@ export const cityChapters: readonly CityChapter[] = [
         slug: "follow-the-fizz-through-a-working-factory",
         moment: "On a Friday that fits, follow the return",
         why: "See what a refillable glass siphon asks of machinery, maintenance, washing and delivery. The small museum and active works make one everyday drink into a whole urban system.",
+      },
+      {
+        slug: "ride-new-yorks-island-without-the-traffic",
+        moment: "Choose a lighter island outing on another day",
+        why: "A manageable Governors Island ride puts the familiar skyline at a different pace. Bicycle rental and the return ferry remain separately planned.",
       },
       {
         slug: "open-the-other-side-of-ellis-island",
@@ -489,17 +523,22 @@ export const cityChapters: readonly CityChapter[] = [
     name: "Vienna",
     country: "austria",
     regions: ["vienna"],
-    title: "From the riding hall to the vineyard table.",
+    title: "Watch the work. Leave room for the music and table.",
     intro:
-      "Begin with the Vienna of a grand hall, but watch the work rather than expect a gala. Later, a Heuriger moves the visit towards the city's wine-growing edge. One place asks for quiet observation, the other leaves room for a conversation over food.",
+      "A riding hall, a programmed music evening and a Heuriger offer different forms of shared attention. Watch training rather than expect a gala. Choose a real concert rather than only a famous room. Give a meal its own time at the city's wine-growing edge. The three are options for a stay, not a single performance package.",
     pace: "One dated morning session and a separately planned meal.",
     planning:
-      "Book the specific Morning Exercise session at the Hofburg, not a performance ticket. Mayer am Pfarrplatz is in Heiligenstadt, away from the central riding hall, so allow transport time and confirm table availability. This is not a walking itinerary or a combined ticket. Read the training guide's animal-welfare and accessibility boundaries before choosing it.",
+      "Book the specific Morning Exercise session at the Hofburg, not a performance ticket. Mayer am Pfarrplatz is in Heiligenstadt, away from the central riding hall, so allow transport time and confirm table availability. Musikverein concerts require their own ticket. Standing places are offered only for some dates and require sustained physical comfort. Choose an accessible seated alternative where needed. This is not a walking itinerary or a combined ticket. Read each guide's access and responsibility boundaries before choosing it.",
     stops: [
       {
         slug: "watch-the-work-before-the-performance",
         moment: "Begin with patient observation",
         why: "Notice repetition in a room usually associated with spectacle. The day's training is variable and does not promise famous jumps or visitor contact with horses.",
+      },
+      {
+        slug: "listen-to-vienna-from-the-standing-places",
+        moment: "Let an actual concert choose one evening",
+        why: "The Golden Hall becomes a specific listening occasion. Standing availability and physical suitability need their own check, not a promise of any orchestra or gala.",
       },
       {
         slug: "the-vineyard-at-the-table",
@@ -630,7 +669,7 @@ export const cityChapters: readonly CityChapter[] = [
       "See a living agricultural landscape, an avenue temporarily shared differently and a crowd that helps make a spectacle. The connection is participation, but your role changes at each stop.",
     pace: "Several days, with Xochimilco given its own outing.",
     planning:
-      "The avenue programme is tied to its published Sunday calendar. Lucha libre depends on the announced arena and event. Xochimilco is a separate journey within the wider city, not a quick interval between central stops. Check the farm visit's meeting point and return arrangements before combining bookings.",
+      "The avenue programme is tied to its published Sunday calendar. Lucha libre depends on the announced arena and event. Biblioteca Vasconcelos offers a separate reading pause in Buenavista, not a reserved architectural tour. Use in-room rules rather than assuming home-borrowing rights. Xochimilco is a separate journey within the wider city, not a quick interval between central stops. Check the farm visit's meeting point and return arrangements before combining bookings.",
     stops: [
       {
         slug: "mexico-city-grown-on-water",
@@ -641,6 +680,11 @@ export const cityChapters: readonly CityChapter[] = [
         slug: "ride-the-avenue-when-the-cars-step-aside",
         moment: "On the right Sunday",
         why: "Notice what changes when a major street makes room for people moving at another pace. Verify the current route and conditions.",
+      },
+      {
+        slug: "pause-to-read-beneath-mexico-citys-suspended-shelves",
+        moment: "Keep another part of the stay quiet",
+        why: "Reading makes a spectacular public interior useful without turning its readers into a photoshoot. Basic consultation and home borrowing are different services.",
       },
       {
         slug: "hear-the-arena-answer-back",
@@ -654,12 +698,12 @@ export const cityChapters: readonly CityChapter[] = [
     name: "Singapore",
     country: "singapore",
     regions: ["singapore"],
-    title: "A shared table, a wax line and a wilder edge.",
+    title: "A shared table, a wax line and two kinds of green.",
     intro:
-      "Begin with the Singapore people recognise, then follow food into making and the city into its greener margins. The small island is not a reason to compress every experience into one day.",
+      "Begin with the Singapore people recognise, then follow food into making and give its plants a different scale of attention. An orchid garden and a tidal habitat are not interchangeable versions of nature. The small island is not a reason to compress every experience into one day.",
     pace: "Food and making for one day. Choose a separate nature outing.",
     planning:
-      "Confirm hawker stall hours and the batik session first. Coney Island and Sungei Buloh Wetland Reserve are different outings with their own transport, weather and access considerations. Neither is a casual extension of the other. Check NParks' current entrance and closure notices, carry water and let heat or rain change the plan. Esplanade's free Concourse programme is date-specific and separately located, not a guaranteed nightly show or an automatic add-on.",
+      "Confirm hawker stall hours and the batik session first. The National Orchid Garden has separate paid admission within the Botanic Gardens and is a cultivated collection. Coney Island and Sungei Buloh Wetland Reserve are different outings with their own transport, weather and access considerations. Neither is a casual extension of the other or of the orchid garden. Check NParks' current entrance and closure notices, carry water and let heat or rain change the plan. No combined admission, guided wetland tour or transfer is implied.",
     stops: [
       {
         slug: "a-morning-at-the-hawker-table",
@@ -682,9 +726,9 @@ export const cityChapters: readonly CityChapter[] = [
         why: "Sungei Buloh offers an independent wetland walk, with mangroves, hides and changing water levels. Choose it for patient observation rather than adding it automatically to Coney Island. No guided tour or wildlife sighting is included.",
       },
       {
-        slug: "leave-space-for-a-free-concourse-set",
-        moment: "If the calendar fits, listen together",
-        why: "A free public performance can close a city day without turning it into a fixed package. Look up the exact artist, date and duration first.",
+        slug: "follow-singapores-orchids-at-a-slower-pace",
+        moment: "Keep another visit at plant scale",
+        why: "A cultivated orchid collection rewards a slower circuit without pretending to be wild Singapore. Its paid admission and display notices remain separate from the wider gardens.",
       },
     ],
   },
@@ -693,12 +737,12 @@ export const cityChapters: readonly CityChapter[] = [
     name: "Sydney",
     country: "australia",
     regions: ["sydney"],
-    title: "Taste knowledge. Meet the harbour. Try a wave on its terms.",
+    title: "Taste knowledge. Meet the harbour at another scale.",
     intro:
-      "Sydney's water can be an image before it becomes a place. A First Nations-led garden walk begins with living plant knowledge beside the harbour. Maccallum Pool offers a public saltwater swim at another scale. A separate beginner lesson at Manly lets the ocean, instruction and safety conditions determine how much you do. The three experiences are not interchangeable and no single day has to contain them all.",
-    pace: "One booked garden tour and one easy harbour stop. Leave the surf lesson for a separately planned half-day.",
+      "Sydney's water can be an image before it becomes a place. A First Nations-led garden walk begins with living plant knowledge beside the harbour. Maccallum Pool offers a public saltwater swim at another scale, if conditions and your ability suit it. The visitor's role changes between guided learning and an independently assessed swim.",
+    pace: "One booked garden tour and a separately planned harbour stop, with no need to swim if conditions or ability do not fit.",
     planning:
-      "Reserve the tour-only Bush Tucker format and follow the First Nations guide's rules about tasting and photographs. Maccallum Pool is at Cremorne Point, has no lifeguard and closes for cleaning at posted times. Check Council notices, weather and harbour conditions before swimming. Manly is a separate ferry or land journey, and its lesson requires an individual booking, suitability check and suitable sea conditions. None of these access routes is a combined ticket, transfer or EA reservation.",
+      "Reserve the tour-only Bush Tucker format and follow the First Nations guide's rules about tasting and photographs. Maccallum Pool is at Cremorne Point, has no lifeguard and closes for cleaning at posted times. Check Council notices, weather, harbour conditions and your swimming ability before entering. The garden and pool need separate transport and timing. Neither access route is a combined ticket, transfer or EA reservation.",
     stops: [
       {
         slug: "taste-native-plants-with-a-first-nations-guide",
@@ -709,11 +753,6 @@ export const cityChapters: readonly CityChapter[] = [
         slug: "swim-a-sydney-harbour-length",
         moment: "At another point on the harbour",
         why: "The public pool lets the waterline be experienced at body scale, with conditions and safety checked on the day.",
-      },
-      {
-        slug: "learn-to-read-the-water-before-standing",
-        moment: "Keep a different day for the sea",
-        why: "A supervised first surf lesson turns a familiar beach view into an exercise in reading waves and accepting their limits.",
       },
     ],
   },
