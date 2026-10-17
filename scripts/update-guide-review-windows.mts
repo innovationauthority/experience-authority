@@ -15,6 +15,8 @@ const windows = Object.fromEntries(
           .sort()
           .at(-1),
         reviewBy: review.reviewBy,
+        countrySlug: guide.countrySlug,
+        regionSlug: guide.regionSlug,
       },
     ];
   }),

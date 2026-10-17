@@ -42,8 +42,8 @@ test("Arcachon stays a bay-wide chapter regardless of guide order or a more spec
   }
 });
 
-test("guide set contains 262 distinct, sourced public experiences, not Selected or demo records", () => {
-  assert.equal(publicGuides.length, 262);
+test("guide set contains 280 distinct, sourced public experiences, not Selected or demo records", () => {
+  assert.equal(publicGuides.length, 280);
   assert.equal(
     new Set(publicGuides.map((p) => p.id)).size,
     publicGuides.length,
@@ -52,7 +52,7 @@ test("guide set contains 262 distinct, sourced public experiences, not Selected 
     new Set(publicGuides.map((p) => p.slug)).size,
     publicGuides.length,
   );
-  assert.equal(new Set(publicGuides.map((p) => p.countrySlug)).size, 108);
+  assert.equal(new Set(publicGuides.map((p) => p.countrySlug)).size, 109);
   assert.equal(
     new Set(territories.map((place) => place.slug)).size,
     territories.length,
@@ -333,8 +333,10 @@ test("London connects a recognisable market with production work and hidden infr
     (guide) =>
       guide.countrySlug === "united-kingdom" && guide.regionSlug === "london",
   );
-  assert.equal(london.length, 5);
+  assert.equal(london.length, 8);
   assert.deepEqual([...new Set(london.map((guide) => guide.field))].sort(), [
+    "make",
+    "move",
     "restore",
     "taste",
     "witness",
@@ -358,9 +360,10 @@ test("Paris offers a recognisable entry, a living craft and hidden city work", (
   const paris = publicGuides.filter(
     (guide) => guide.countrySlug === "france" && guide.regionSlug === "paris",
   );
-  assert.equal(paris.length, 6);
+  assert.equal(paris.length, 7);
   assert.deepEqual([...new Set(paris.map((guide) => guide.field))].sort(), [
     "gather",
+    "restore",
     "taste",
     "witness",
     "work",

@@ -19,7 +19,7 @@ import { canPublishGuide } from "../src/lib/publication";
 import { guideMediaFor } from "../src/lib/media";
 import { editorialPathways } from "../src/lib/editorial-pathways";
 import { resolveCityChapters } from "../src/lib/city-chapters";
-import { publishedReleases } from "../src/lib/releases";
+import { publishedReleases, guideReleases } from "../src/lib/releases";
 import { imageCreditText } from "../src/lib/media";
 
 test("14 October adds eighteen net-new guides with exactly three primary allocations per area", () => {
@@ -31,9 +31,12 @@ test("14 October adds eighteen net-new guides with exactly three primary allocat
     Object.keys(edition20261014).sort(),
     interests.map((i) => i.slug).sort(),
   );
-  const earlier = publicGuides.filter(
-    (g) => !guideBatch45.some((n) => n.id === g.id),
+  const thisOrFuture = new Set<string>(
+    guideReleases
+      .filter((r) => r.date >= "2026-10-14")
+      .flatMap((r) => [...r.slugs]),
   );
+  const earlier = publicGuides.filter((g) => !thisOrFuture.has(g.slug));
   assert.equal(earlier.length, 244, "All preceding guides remain present");
   for (const [primary, allocated] of Object.entries(edition20261014)) {
     assert.equal(allocated.length, 3);
@@ -180,6 +183,8 @@ test("smoke review windows match all catalogue dates and photo credits do not re
             .sort()
             .at(-1),
           reviewBy: g.guideReview!.reviewBy,
+          countrySlug: g.countrySlug,
+          regionSlug: g.regionSlug,
         },
       ]),
     ),
@@ -225,11 +230,11 @@ test("future discoveries keep every preceding-edition slot and publication histo
 test("local combinations provide contrasting roles without inventing shared reservations", () => {
   const chapters = resolveCityChapters(publicGuides);
   const currentChapters = resolveCityChapters(
-    publicGuides.filter((g) => canPublishGuide(g, "2026-10-14")),
+    publicGuides.filter((g) => canPublishGuide(g, "2026-10-17")),
   );
   assert.equal(
     currentChapters.length,
-    25,
+    27,
     "A stale programme must not strand a city that has contrasting current alternatives",
   );
   for (const slug of ["amsterdam-waterland", "singapore", "sydney"])

@@ -1,6 +1,24 @@
 /** Content hashes keep replaced photographs consistent across responsive image caches.
  * The media test requires an update when an original file changes. */
 export const imageRevisions: Record<string, string> = {
+  "/images/guides/marrakech-amal.jpg": "e2ffd3bc3b54",
+  "/images/guides/lima-skykitchen.jpg": "497100f56174",
+  "/images/guides/valencia-my-first-paella.jpg": "c1a3d47ecee4",
+  "/images/guides/bagru-qala.jpg": "44e9a3492218",
+  "/images/guides/london-lcba-foundation.jpg": "b3d87dd0ab46",
+  "/images/guides/kuala-lumpur-pewter.jpg": "fd57f7c34b13",
+  "/images/guides/valencia-turia-cycle.jpg": "d35648b30b86",
+  "/images/guides/london-thames-riverbus.jpg": "51d0d46d17db",
+  "/images/guides/melbourne-lake-punt.jpg": "0e38d9596ce9",
+  "/images/guides/istanbul-koc-museum.jpg": "9c6f84d97e20",
+  "/images/guides/naples-pietrarsa.jpg": "e2c652ee5d8f",
+  "/images/guides/athens-snfcc-tour.jpg": "64d199d7dd63",
+  "/images/guides/london-chelsea-physic.jpg": "343f1c13b832",
+  "/images/guides/rio-botanic-arboretum.jpg": "fab5f94673b4",
+  "/images/guides/paris-salle-ovale.jpg": "f0ae8de8e9d6",
+  "/images/guides/naples-napulitanata.jpg": "28fa55017203",
+  "/images/guides/budapest-liszt-concert.jpg": "56feefa1a201",
+  "/images/guides/cape-town-athletic-jazz.jpg": "0a8352e927f2",
   "/images/guides/lisbon-nata.jpg": "c7d840857d65",
   "/images/guides/penang-keng-kwee-chendul.jpg": "159ece216a84",
   "/images/guides/jerez-tio-pepe.jpg": "9bc16d885aee",
@@ -269,7 +287,7 @@ export const imageRevisions: Record<string, string> = {
 
 // A single manifest fingerprint fits Next's bounded localPatterns allowlist.
 // Tests require it to change when any original is added or replaced.
-export const imageEdition = "25f89b925c70";
+export const imageEdition = "6e09864d1094";
 
 export function imageSource(src: string) {
   return imageRevisions[src] ? `${src}?v=${imageEdition}` : src;

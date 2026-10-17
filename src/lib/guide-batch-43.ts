@@ -6,11 +6,12 @@ const review = (
   scope: GuideReview["scope"],
   sources: GuideReview["sources"],
   reviewBy = "2026-12-20",
+  reviewedOn = checkedOn,
 ): GuideReview => ({
   basis: "public_sources",
   scope,
   requiresSpecialPermission: false,
-  checkedOn,
+  checkedOn: reviewedOn,
   reviewBy,
   accessUrl: sources[0].url,
   sources,
@@ -150,10 +151,11 @@ export const guideBatch43: PublicExperience[] = [
         {
           title: "Humanitix: Aboriginal Bush Tucker Tour and Experiences",
           url: "https://events.humanitix.com/aboriginal-bush-tucker-tour-and-experiences",
-          note: "Linked public booking calendar and different ticket formats. Availability changes.",
+          note: "Rechecked 17 October: future 22 to 31 October and November tour dates, with separate tour-only and lunch formats. Availability changes.",
         },
       ],
-      "2026-10-15",
+      "2026-11-17",
+      "2026-10-17",
     ),
   },
   {
@@ -660,7 +662,7 @@ export const guideBatch43: PublicExperience[] = [
         {
           title: "North Sydney Council: Maccallum Pool",
           url: "https://www.northsydney.nsw.gov.au/directory-record/1523/maccallum-pool",
-          note: "Current status, harbour-water description and detailed cleaning schedule.",
+          note: "Rechecked 17 October: currently open, with cleaning closures on 21 to 22 and 29 to 30 October. Gate notices remain authoritative.",
         },
         {
           title: "Destination NSW: Maccallum Pool",
@@ -668,7 +670,8 @@ export const guideBatch43: PublicExperience[] = [
           note: "State tourism listing for the exact public pool and Cremorne Point setting.",
         },
       ],
-      "2026-10-15",
+      "2026-11-01",
+      "2026-10-17",
     ),
   },
   {
@@ -779,7 +782,7 @@ export const guideBatch43: PublicExperience[] = [
     ...common,
     ...guideImage("paris-bal-blomet-jazz"),
     kernel:
-      "Choose one current jazz event from Le Bal Blomet's agenda and book that night directly. Settle into the room before the first note, then listen to how the musicians answer one another. The October 2 and 3 Baptiste Trotignon Trio dates are examples on the current calendar, not a permanent promise.",
+      "Choose one current jazz event from Le Bal Blomet's agenda and book that night directly. If you want a trio, choose a programme that actually names one. Settle into the room before the first note, then listen to how the musicians answer one another. The calendar includes other genres and ensemble sizes, so the address alone does not decide the evening.",
     rootedness:
       "Rue Blomet has a layered musical history, while the present venue programmes new concerts across several genres. The useful encounter is a live performance tonight, not a reenactment of any earlier era or a claim that the room never changed.",
     shift:
@@ -801,7 +804,7 @@ export const guideBatch43: PublicExperience[] = [
         {
           title: "Le Bal Blomet: agenda",
           url: "https://www.balblomet.fr/agenda/",
-          note: "Current date-specific concerts and direct event links.",
+          note: "Rechecked 17 October: forthcoming October and November jazz programmes, including a named November trio, with direct event links. Earlier October examples are removed from the copy.",
         },
         {
           title: "Le Bal Blomet: history",
@@ -809,7 +812,8 @@ export const guideBatch43: PublicExperience[] = [
           note: "Venue context, kept distinct from claims about a current performance.",
         },
       ],
-      "2026-10-15",
+      "2026-11-17",
+      "2026-10-17",
     ),
   },
   {

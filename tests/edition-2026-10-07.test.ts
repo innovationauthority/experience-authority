@@ -18,6 +18,7 @@ import { guideMediaFor } from "../src/lib/media";
 import { publishedReleases } from "../src/lib/releases";
 import { editorialPathways } from "../src/lib/editorial-pathways";
 import { resolveCityChapters } from "../src/lib/city-chapters";
+import { guideReleases } from "../src/lib/releases";
 
 test("7 October adds exactly eighteen distinct guides and three primary allocations per area", () => {
   const slugs = Object.values(edition20261007).flat();
@@ -28,11 +29,12 @@ test("7 October adds exactly eighteen distinct guides and three primary allocati
     Object.keys(edition20261007).sort(),
     interests.map((i) => i.slug).sort(),
   );
-  const earlier = publicGuides.filter(
-    (g) =>
-      g.guideReview!.checkedOn <= "2026-10-07" &&
-      !guideBatch44.some((n) => n.id === g.id),
+  const thisOrFuture = new Set<string>(
+    guideReleases
+      .filter((r) => r.date >= "2026-10-07")
+      .flatMap((r) => [...r.slugs]),
   );
+  const earlier = publicGuides.filter((g) => !thisOrFuture.has(g.slug));
   assert.equal(earlier.length, 226, "All preceding guides remain present");
   for (const [primary, allocated] of Object.entries(edition20261007)) {
     assert.equal(allocated.length, 3, primary);

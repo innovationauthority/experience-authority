@@ -59,7 +59,7 @@ test("visitor interests can overlap without duplicating the source record", () =
   );
   assert.equal(
     destinationCoverage(publicGuides, "south-africa").local.length,
-    4,
+    5,
   );
   for (const guide of publicGuides)
     assert.ok(discoveryProfiles[guide.slug], guide.slug);
@@ -82,7 +82,7 @@ test("the new edition deepens familiar routes and opens new countries without ge
   assert.equal(destinationCoverage(publicGuides, "mexico").local.length, 7);
   assert.equal(
     destinationCoverage(publicGuides, "united-kingdom").local.length,
-    11,
+    14,
   );
   assert.equal(
     destinationCoverage(publicGuides, "argentina", "salta").local.length,
@@ -100,7 +100,7 @@ test("the new edition deepens familiar routes and opens new countries without ge
   );
   assert.equal(
     destinationCoverage(publicGuides, "turkiye", "istanbul").local.length,
-    3,
+    4,
   );
   assert.equal(
     destinationCoverage(publicGuides, "south-korea").local.length,

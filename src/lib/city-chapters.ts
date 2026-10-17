@@ -16,6 +16,64 @@ export type CityChapter = {
 /** Authored local combinations. These are ideas to adapt, not timed or bookable packages. */
 export const cityChapters: readonly CityChapter[] = [
   {
+    slug: "valencia",
+    name: "Valencia",
+    country: "spain",
+    regions: ["valencia"],
+    title: "Meet the water. Cook the rice. Follow the old river.",
+    intro:
+      "A public water tribunal, a market-led paella lesson and a bicycle ride through a former riverbed offer three different ways into Valencia. They connect a question about water with food and the shape of the city, without pretending that one encounter explains the others completely.",
+    pace: "One booked cooking morning, a separately chosen garden ride and the tribunal only when its public session actually takes place.",
+    planning:
+      "The morning class meets in Russafa and takes around three and a half hours. The market closes on Sundays. The Water Tribunal's usual Thursday midday session can vary with holidays and business, and must not be treated as a staged show. The Turia ride needs its own bicycle, route and weather check. These are not one continuous guided itinerary. Confirm dates, dietary requirements and physical access independently. No combined ticket, included bicycle, transfer or EA package is implied.",
+    stops: [
+      {
+        slug: "follow-valencias-rice-from-market-to-pan",
+        moment: "Give one morning to the pan",
+        why: "A neighbourhood market and instructed rice preparation make a familiar dish more legible. Book the morning format if shopping matters to you.",
+      },
+      {
+        slug: "watch-valencia-settle-water-in-public",
+        moment: "If the public session fits, become an attentive witness",
+        why: "The tribunal is a working institution, not a performance commissioned for visitors. Observe without interrupting or expecting a particular case.",
+      },
+      {
+        slug: "cycle-valencias-former-river",
+        moment: "On another outing, change the scale",
+        why: "A manageable bicycle section makes the former riverbed a practical connection. Equipment and route planning remain your own responsibility.",
+      },
+    ],
+  },
+  {
+    slug: "naples",
+    name: "Naples",
+    country: "italy",
+    regions: ["naples"],
+    title: "Go below the street. Look along the railway. Hear the refrain.",
+    intro:
+      "A booked underground route, a coastal railway museum and a live song programme let Naples change scale without losing its recognisable character. Follow infrastructure in two different settings, then choose an evening in which the human voice becomes the main event.",
+    pace: "Choose one substantial visit per day and reserve the song programme separately.",
+    planning:
+      "The Galleria Borbonica has a specific guided route with its own physical conditions. Pietrarsa is on the coast by Pietrarsa-San Giorgio a Cremano station, not next door to the old-centre concert room. It normally closes on Mondays and additionally on 28 and 29 October 2026. Napulitanata requires advance registration and reservation. Check every date, language, mobility need and train stop independently. Museum admission is not a heritage-train ticket. No combined reservation, transfer, included meal or EA package is implied.",
+    stops: [
+      {
+        slug: "read-naples-below-the-street",
+        moment: "Book one route below street level",
+        why: "Read the public route's actual surfaces and access conditions before choosing it. Other underground products are not interchangeable.",
+      },
+      {
+        slug: "find-napless-railway-story-beside-the-sea",
+        moment: "Keep a different day for the coast",
+        why: "The original workshops give locomotives an industrial setting. Plan the journey separately and do not assume a heritage train is operating.",
+      },
+      {
+        slug: "hear-the-song-behind-a-familiar-naples-refrain",
+        moment: "Let a confirmed programme choose the evening",
+        why: "A familiar melody becomes a live relationship between performers and listeners. A concert seat does not include another museum or dinner.",
+      },
+    ],
+  },
+  {
     slug: "copenhagen",
     name: "Copenhagen",
     country: "denmark",
@@ -363,8 +421,23 @@ export const cityChapters: readonly CityChapter[] = [
       "Use a market everyone recognises as the way in, then let London reveal two working interiors. One tour follows ingredients and traders. Another makes the labour behind performance visible. A third opens the layers hidden beside an ordinary Underground journey.",
     pace: "Give the market its own morning. Put the two fixed tours on separate days.",
     planning:
-      "The Borough Market public tour is currently listed for selected Friday mornings and lasts about three hours. The Royal Opera House and Hidden London visits are separate timed bookings with routes that can change. Hidden London has the strictest footwear, mobility and confined-space requirements. Sir John Soane's Museum is a separate free visit with limited capacity, not access to its restricted Drawing Office. These meeting points are not a continuous walking itinerary. Confirm every date, language, age rule and access need before paying. No transport, meal beyond stated tastings, combined ticket or package is included.",
+      "Choose only the anchors that fit your stay. Borough Market takes around three hours, while LCBA's dated December foundation needs three whole days. The theatre and Hidden London tours are separate bookings with physical conditions. Soane's house has limited capacity. Chelsea Physic Garden closes on Saturdays. A riverbus ticket needs the correct stops and zones. These locations do not form a continuous walking route. Confirm dates, language, diet, access and transport independently. No combined ticket, meal beyond stated tastings, reserved studio place or EA package is implied.",
     stops: [
+      {
+        slug: "see-london-between-the-riverbus-stops",
+        moment: "Use a real journey as a change of perspective",
+        why: "Tower to Greenwich makes the river a useful connection. Buy the correct zones and check the actual departure rather than assuming a sightseeing cruise.",
+      },
+      {
+        slug: "slow-down-among-chelseas-useful-plants",
+        moment: "Keep another morning deliberately smaller",
+        why: "A paid garden visit changes attention from city scale to a labelled plant. Check the Saturday closure and seasonal hours.",
+      },
+      {
+        slug: "bind-five-ways-of-holding-a-page",
+        moment: "For a making-led stay, reserve three whole days",
+        why: "The dated December foundation is a substantial alternative anchor, not an extra activity squeezed between tours. Check remaining places before arranging a trip around it.",
+      },
       {
         slug: "ask-the-market-where-london-came-from",
         moment: "Begin with a familiar appetite",
@@ -399,6 +472,11 @@ export const cityChapters: readonly CityChapter[] = [
     planning:
       "The pastry workshop takes about five and a half hours and is not a casual breakfast stop. The Gobelins workshop visit is a separate reservation with a fixed start, French delivery and significant mobility constraints. The Sewer Museum can close because of flooding or operations. Arts Forains requires a date-specific guided ticket, not self-guided admission. Choose either a ticketed Bal Blomet concert or a programmed Rosa Bonheur evening, checking age, queues and access separately. These addresses are in different parts of Paris. Do not attempt all of them in one day. No transport, combined ticket, meal, translation or package is included.",
     stops: [
+      {
+        slug: "open-a-book-inside-pariss-salle-ovale",
+        moment: "Give the remarkable room an ordinary purpose",
+        why: "Free public reading offers a different rhythm from a class or guided museum visit. A seat is not guaranteed, and Monday closure still applies.",
+      },
       {
         slug: "make-the-morning-before-it-reaches-the-cafe",
         moment: "Give the familiar thing real time",

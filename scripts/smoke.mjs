@@ -66,6 +66,25 @@ const timeGatedGuides = Object.entries(reviewWindows)
     ([, window]) => today < window.availableFrom || today > window.reviewBy,
   )
   .map(([path]) => path);
+const placeWindows = new Map();
+for (const window of Object.values(reviewWindows)) {
+  for (const path of [
+    `/places/${window.countrySlug}`,
+    `/places/${window.countrySlug}/${window.regionSlug}`,
+  ]) {
+    const windows = placeWindows.get(path) || [];
+    windows.push(window);
+    placeWindows.set(path, windows);
+  }
+}
+// Destinations with no current guide must be absent too, not assumed public forever.
+const timeGatedPlaces = [...placeWindows]
+  .filter(
+    ([, windows]) =>
+      !windows.some((w) => w.availableFrom <= today && today <= w.reviewBy),
+  )
+  .map(([path]) => path);
+const timeGatedRoutes = new Set([...timeGatedGuides, ...timeGatedPlaces]);
 if (process.env.EA_TEST_DEMO === "true") {
   paths.push(
     "/places/croatia",
@@ -272,16 +291,19 @@ if (process.env.EA_TEST_DEMO === "true") {
     "/explore?q=no-such-experience",
   );
 }
+if (process.env.EA_TEST_DEMO !== "true")
+  paths.push(...Object.keys(reviewWindows), ...placeWindows.keys());
+const checkedPaths = [...new Set(paths)];
 const nonces = new Set();
-for (const path of paths) {
+for (const path of checkedPaths) {
   const response = await fetch(`${base}${path}`);
   const html = await response.text();
   try {
-    if (process.env.EA_TEST_DEMO !== "true" && timeGatedGuides.includes(path)) {
+    if (process.env.EA_TEST_DEMO !== "true" && timeGatedRoutes.has(path)) {
       assert.equal(
         response.status,
         404,
-        "An out-of-window guide must remain unpublished",
+        "An out-of-window guide or empty destination must remain unpublished",
       );
       continue;
     }
@@ -384,7 +406,7 @@ const unpublishedPaths = [
 ];
 if (process.env.EA_TEST_DEMO !== "true")
   unpublishedPaths.push(
-    ...timeGatedGuides,
+    ...timeGatedRoutes,
     "/experiences/learning-the-language-of-clay",
     "/experiences/some-stories-need-distance",
     "/places/italy/emilia-romagna",
@@ -401,11 +423,25 @@ assert.equal(robots.includes("Sitemap:"), liveIndexing);
 const sitemap = await (await fetch(`${base}/sitemap.xml`)).text();
 assert.equal(sitemap.includes("<loc>"), liveIndexing);
 if (liveIndexing) {
-  for (const path of timeGatedGuides)
+  for (const path of timeGatedRoutes)
     assert.ok(
       !sitemap.includes(`https://experienceauthority.com${path}</loc>`),
-      `Out-of-window guide in sitemap: ${path}`,
+      `Out-of-window guide or empty destination in sitemap: ${path}`,
     );
+  for (const [path, window] of Object.entries(reviewWindows)) {
+    if (window.availableFrom <= today && today <= window.reviewBy)
+      assert.ok(
+        sitemap.includes(`https://experienceauthority.com${path}</loc>`),
+        `Current guide missing from sitemap: ${path}`,
+      );
+  }
+  for (const path of placeWindows.keys()) {
+    if (!timeGatedRoutes.has(path))
+      assert.ok(
+        sitemap.includes(`https://experienceauthority.com${path}</loc>`),
+        `Current destination missing from sitemap: ${path}`,
+      );
+  }
   assert.ok(sitemap.includes("https://experienceauthority.com/explore"));
   assert.ok(!sitemap.includes("/passport"));
   for (const path of [
@@ -536,7 +572,7 @@ assert.equal(og.headers.get("content-type"), "image/png");
 console.log(
   JSON.stringify(
     {
-      checkedPages: paths.length,
+      checkedPages: checkedPaths.length,
       unpublishedPaths: unpublishedPaths.length,
       uniqueNonces: nonces.size,
       indexing: liveIndexing

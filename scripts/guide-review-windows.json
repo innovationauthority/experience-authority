@@ -1,1050 +1,1682 @@
 {
+  "/experiences/cook-a-tagine-before-lifting-the-lid": {
+    "availableFrom": "2026-10-17",
+    "reviewBy": "2026-12-10",
+    "countrySlug": "morocco",
+    "regionSlug": "marrakech"
+  },
+  "/experiences/cook-lima-beyond-the-ceviche": {
+    "availableFrom": "2026-10-17",
+    "reviewBy": "2026-12-10",
+    "countrySlug": "peru",
+    "regionSlug": "lima"
+  },
+  "/experiences/follow-valencias-rice-from-market-to-pan": {
+    "availableFrom": "2026-10-17",
+    "reviewBy": "2026-12-10",
+    "countrySlug": "spain",
+    "regionSlug": "valencia"
+  },
+  "/experiences/print-a-bagru-repeat-by-hand": {
+    "availableFrom": "2026-10-17",
+    "reviewBy": "2026-11-17",
+    "countrySlug": "india",
+    "regionSlug": "bagru"
+  },
+  "/experiences/bind-five-ways-of-holding-a-page": {
+    "availableFrom": "2026-10-17",
+    "reviewBy": "2026-11-10",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "london"
+  },
+  "/experiences/hammer-a-pewter-dish-in-kuala-lumpur": {
+    "availableFrom": "2026-10-17",
+    "reviewBy": "2026-12-10",
+    "countrySlug": "malaysia",
+    "regionSlug": "kuala-lumpur"
+  },
+  "/experiences/cycle-valencias-former-river": {
+    "availableFrom": "2026-10-17",
+    "reviewBy": "2026-12-10",
+    "countrySlug": "spain",
+    "regionSlug": "valencia"
+  },
+  "/experiences/see-london-between-the-riverbus-stops": {
+    "availableFrom": "2026-10-17",
+    "reviewBy": "2026-12-10",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "london"
+  },
+  "/experiences/drift-through-melbourne-at-pole-length": {
+    "availableFrom": "2026-10-17",
+    "reviewBy": "2026-12-10",
+    "countrySlug": "australia",
+    "regionSlug": "melbourne"
+  },
+  "/experiences/follow-istanbul-through-the-machines": {
+    "availableFrom": "2026-10-17",
+    "reviewBy": "2026-12-10",
+    "countrySlug": "turkiye",
+    "regionSlug": "istanbul"
+  },
+  "/experiences/find-napless-railway-story-beside-the-sea": {
+    "availableFrom": "2026-10-17",
+    "reviewBy": "2026-12-10",
+    "countrySlug": "italy",
+    "regionSlug": "naples"
+  },
+  "/experiences/read-athens-through-a-building-and-its-park": {
+    "availableFrom": "2026-10-17",
+    "reviewBy": "2026-10-30",
+    "countrySlug": "greece",
+    "regionSlug": "athens"
+  },
+  "/experiences/slow-down-among-chelseas-useful-plants": {
+    "availableFrom": "2026-10-17",
+    "reviewBy": "2026-11-17",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "london"
+  },
+  "/experiences/walk-beneath-rios-imperial-palms": {
+    "availableFrom": "2026-10-17",
+    "reviewBy": "2026-12-10",
+    "countrySlug": "brazil",
+    "regionSlug": "rio-de-janeiro"
+  },
+  "/experiences/open-a-book-inside-pariss-salle-ovale": {
+    "availableFrom": "2026-10-17",
+    "reviewBy": "2026-12-10",
+    "countrySlug": "france",
+    "regionSlug": "paris"
+  },
+  "/experiences/hear-the-song-behind-a-familiar-naples-refrain": {
+    "availableFrom": "2026-10-17",
+    "reviewBy": "2026-10-31",
+    "countrySlug": "italy",
+    "regionSlug": "naples"
+  },
+  "/experiences/choose-a-concert-inside-budapests-music-academy": {
+    "availableFrom": "2026-10-17",
+    "reviewBy": "2026-11-10",
+    "countrySlug": "hungary",
+    "regionSlug": "budapest"
+  },
+  "/experiences/make-room-for-a-cape-town-jazz-set": {
+    "availableFrom": "2026-10-17",
+    "reviewBy": "2026-11-01",
+    "countrySlug": "south-africa",
+    "regionSlug": "cape-town"
+  },
   "/experiences/fold-the-pastry-before-the-first-bite": {
     "availableFrom": "2026-10-14",
-    "reviewBy": "2026-12-10"
+    "reviewBy": "2026-12-10",
+    "countrySlug": "portugal",
+    "regionSlug": "lisbon"
   },
   "/experiences/let-the-ice-change-a-penang-spoonful": {
     "availableFrom": "2026-10-14",
-    "reviewBy": "2026-12-10"
+    "reviewBy": "2026-12-10",
+    "countrySlug": "malaysia",
+    "regionSlug": "george-town"
   },
   "/experiences/read-the-cellar-before-tasting-jerez": {
     "availableFrom": "2026-10-14",
-    "reviewBy": "2026-12-10"
+    "reviewBy": "2026-12-10",
+    "countrySlug": "spain",
+    "regionSlug": "jerez-de-la-frontera"
   },
   "/experiences/give-sand-the-shape-of-a-tin-bowl": {
     "availableFrom": "2026-10-14",
-    "reviewBy": "2026-12-10"
+    "reviewBy": "2026-12-10",
+    "countrySlug": "japan",
+    "regionSlug": "takaoka"
   },
   "/experiences/wrap-a-lantern-before-hoi-an-lights-up": {
     "availableFrom": "2026-10-14",
-    "reviewBy": "2026-11-15"
+    "reviewBy": "2026-11-15",
+    "countrySlug": "vietnam",
+    "regionSlug": "hoi-an"
   },
   "/experiences/turn-a-silver-line-into-your-own-ring": {
     "availableFrom": "2026-10-14",
-    "reviewBy": "2026-12-10"
+    "reviewBy": "2026-12-10",
+    "countrySlug": "thailand",
+    "regionSlug": "chiang-mai"
   },
   "/experiences/cycle-the-runway-that-became-a-berlin-park": {
     "availableFrom": "2026-10-14",
-    "reviewBy": "2026-11-10"
+    "reviewBy": "2026-11-10",
+    "countrySlug": "germany",
+    "regionSlug": "berlin"
   },
   "/experiences/take-a-working-role-on-aucklands-harbour": {
     "availableFrom": "2026-10-14",
-    "reviewBy": "2026-12-10"
+    "reviewBy": "2026-12-10",
+    "countrySlug": "new-zealand",
+    "regionSlug": "auckland"
   },
   "/experiences/ride-new-yorks-island-without-the-traffic": {
     "availableFrom": "2026-10-14",
-    "reviewBy": "2026-10-31"
+    "reviewBy": "2026-10-31",
+    "countrySlug": "united-states",
+    "regionSlug": "new-york-city"
   },
   "/experiences/step-inside-madrids-surviving-pelota-court": {
     "availableFrom": "2026-10-14",
-    "reviewBy": "2026-12-10"
+    "reviewBy": "2026-12-10",
+    "countrySlug": "spain",
+    "regionSlug": "madrid"
   },
   "/experiences/learn-to-read-a-chair-in-copenhagen": {
     "availableFrom": "2026-10-14",
-    "reviewBy": "2026-12-10"
+    "reviewBy": "2026-12-10",
+    "countrySlug": "denmark",
+    "regionSlug": "copenhagen"
   },
   "/experiences/read-stockholm-around-a-rescued-ship": {
     "availableFrom": "2026-10-14",
-    "reviewBy": "2026-12-10"
+    "reviewBy": "2026-12-10",
+    "countrySlug": "sweden",
+    "regionSlug": "stockholm"
   },
   "/experiences/give-dublin-a-glasshouse-paced-morning": {
     "availableFrom": "2026-10-14",
-    "reviewBy": "2026-10-31"
+    "reviewBy": "2026-10-31",
+    "countrySlug": "ireland",
+    "regionSlug": "dublin"
   },
   "/experiences/follow-singapores-orchids-at-a-slower-pace": {
     "availableFrom": "2026-10-14",
-    "reviewBy": "2026-12-10"
+    "reviewBy": "2026-12-10",
+    "countrySlug": "singapore",
+    "regionSlug": "singapore"
   },
   "/experiences/pause-to-read-beneath-mexico-citys-suspended-shelves": {
     "availableFrom": "2026-10-14",
-    "reviewBy": "2026-12-10"
+    "reviewBy": "2026-12-10",
+    "countrySlug": "mexico",
+    "regionSlug": "mexico-city"
   },
   "/experiences/hear-a-nashville-song-with-its-writer-in-the-room": {
     "availableFrom": "2026-10-14",
-    "reviewBy": "2026-11-10"
+    "reviewBy": "2026-11-10",
+    "countrySlug": "united-states",
+    "regionSlug": "nashville"
   },
   "/experiences/listen-to-vienna-from-the-standing-places": {
     "availableFrom": "2026-10-14",
-    "reviewBy": "2026-11-15"
+    "reviewBy": "2026-11-15",
+    "countrySlug": "austria",
+    "regionSlug": "vienna"
   },
   "/experiences/pass-the-dishes-at-a-copenhagen-long-table": {
     "availableFrom": "2026-10-14",
-    "reviewBy": "2026-11-15"
+    "reviewBy": "2026-11-15",
+    "countrySlug": "denmark",
+    "regionSlug": "copenhagen"
   },
   "/experiences/follow-the-mustard-seed-through-beaune": {
     "availableFrom": "2026-10-07",
-    "reviewBy": "2026-11-10"
+    "reviewBy": "2026-11-10",
+    "countrySlug": "france",
+    "regionSlug": "beaune"
   },
   "/experiences/taste-york-before-decorating-the-chocolate": {
     "availableFrom": "2026-10-07",
-    "reviewBy": "2026-10-20"
+    "reviewBy": "2026-10-20",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "york"
   },
   "/experiences/follow-jamaican-rum-from-cane-to-tasting": {
     "availableFrom": "2026-10-07",
-    "reviewBy": "2026-11-15"
+    "reviewBy": "2026-11-15",
+    "countrySlug": "jamaica",
+    "regionSlug": "st-elizabeth"
   },
   "/experiences/make-the-cover-before-filling-the-pages": {
     "availableFrom": "2026-10-07",
-    "reviewBy": "2026-12-30"
+    "reviewBy": "2026-12-30",
+    "countrySlug": "italy",
+    "regionSlug": "florence"
   },
   "/experiences/paint-a-talavera-piece-in-puebla": {
     "availableFrom": "2026-10-07",
-    "reviewBy": "2026-12-30"
+    "reviewBy": "2026-12-30",
+    "countrySlug": "mexico",
+    "regionSlug": "puebla"
   },
   "/experiences/leave-your-handprint-in-naras-ink": {
     "availableFrom": "2026-10-07",
-    "reviewBy": "2026-11-20"
+    "reviewBy": "2026-11-20",
+    "countrySlug": "japan",
+    "regionSlug": "nara"
   },
   "/experiences/meet-lisbons-coast-on-a-surfboard": {
     "availableFrom": "2026-10-07",
-    "reviewBy": "2026-11-15"
+    "reviewBy": "2026-11-15",
+    "countrySlug": "portugal",
+    "regionSlug": "carcavelos"
   },
   "/experiences/read-chicagos-buildings-from-a-kayak": {
     "availableFrom": "2026-10-07",
-    "reviewBy": "2026-10-31"
+    "reviewBy": "2026-10-31",
+    "countrySlug": "united-states",
+    "regionSlug": "chicago"
   },
   "/experiences/follow-amsterdams-winter-ice-loop": {
     "availableFrom": "2026-10-07",
-    "reviewBy": "2026-10-18"
+    "reviewBy": "2026-10-18",
+    "countrySlug": "netherlands",
+    "regionSlug": "amsterdam"
   },
   "/experiences/walk-the-edinburgh-street-below-the-street": {
     "availableFrom": "2026-10-07",
-    "reviewBy": "2026-12-30"
+    "reviewBy": "2026-12-30",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "edinburgh"
   },
   "/experiences/let-pariss-old-fairground-objects-move": {
     "availableFrom": "2026-10-07",
-    "reviewBy": "2026-11-15"
+    "reviewBy": "2026-11-15",
+    "countrySlug": "france",
+    "regionSlug": "paris"
   },
   "/experiences/stand-inside-the-room-that-holds-back-a-flood": {
     "availableFrom": "2026-10-07",
-    "reviewBy": "2026-11-10"
+    "reviewBy": "2026-11-10",
+    "countrySlug": "japan",
+    "regionSlug": "kasukabe"
   },
   "/experiences/float-above-zurichs-former-brewery": {
     "availableFrom": "2026-10-07",
-    "reviewBy": "2026-12-30"
+    "reviewBy": "2026-12-30",
+    "countrySlug": "switzerland",
+    "regionSlug": "zurich"
   },
   "/experiences/give-kyoto-one-unhurried-pond-loop": {
     "availableFrom": "2026-10-07",
-    "reviewBy": "2026-12-30"
+    "reviewBy": "2026-12-30",
+    "countrySlug": "japan",
+    "regionSlug": "kyoto"
   },
   "/experiences/step-under-vancouvers-planted-dome": {
     "availableFrom": "2026-10-07",
-    "reviewBy": "2026-12-30"
+    "reviewBy": "2026-12-30",
+    "countrySlug": "canada",
+    "regionSlug": "vancouver"
   },
   "/experiences/leave-room-for-dublins-next-tune": {
     "availableFrom": "2026-10-07",
-    "reviewBy": "2026-11-15"
+    "reviewBy": "2026-11-15",
+    "countrySlug": "ireland",
+    "regionSlug": "dublin"
   },
   "/experiences/let-a-bywater-backyard-set-the-evening": {
     "availableFrom": "2026-10-07",
-    "reviewBy": "2026-11-10"
+    "reviewBy": "2026-11-10",
+    "countrySlug": "united-states",
+    "regionSlug": "new-orleans"
   },
   "/experiences/let-a-paris-guinguette-open-the-evening": {
     "availableFrom": "2026-10-07",
-    "reviewBy": "2026-11-10"
+    "reviewBy": "2026-11-10",
+    "countrySlug": "france",
+    "regionSlug": "paris"
   },
   "/experiences/taste-the-age-of-a-parmigiano-wheel": {
     "availableFrom": "2026-09-27",
-    "reviewBy": "2026-12-20"
+    "reviewBy": "2026-12-20",
+    "countrySlug": "italy",
+    "regionSlug": "parma"
   },
   "/experiences/find-what-the-brewing-method-changes": {
     "availableFrom": "2026-09-27",
-    "reviewBy": "2026-11-20"
+    "reviewBy": "2026-11-20",
+    "countrySlug": "colombia",
+    "regionSlug": "bogota"
   },
   "/experiences/taste-native-plants-with-a-first-nations-guide": {
-    "availableFrom": "2026-09-27",
-    "reviewBy": "2026-10-15"
+    "availableFrom": "2026-10-17",
+    "reviewBy": "2026-11-17",
+    "countrySlug": "australia",
+    "regionSlug": "sydney"
   },
   "/experiences/give-molten-glass-your-first-breath": {
     "availableFrom": "2026-09-27",
-    "reviewBy": "2026-11-20"
+    "reviewBy": "2026-11-20",
+    "countrySlug": "czechia",
+    "regionSlug": "prague"
   },
   "/experiences/place-gold-leaf-by-hand-in-kanazawa": {
     "availableFrom": "2026-09-27",
-    "reviewBy": "2026-11-20"
+    "reviewBy": "2026-11-20",
+    "countrySlug": "japan",
+    "regionSlug": "kanazawa"
   },
   "/experiences/let-a-brush-meet-do-paper": {
     "availableFrom": "2026-09-27",
-    "reviewBy": "2026-11-20"
+    "reviewBy": "2026-11-20",
+    "countrySlug": "vietnam",
+    "regionSlug": "hanoi"
   },
   "/experiences/learn-a-ski-turn-above-copenhagen": {
     "availableFrom": "2026-09-27",
-    "reviewBy": "2026-11-20"
+    "reviewBy": "2026-11-20",
+    "countrySlug": "denmark",
+    "regionSlug": "copenhagen"
   },
   "/experiences/follow-the-forest-water-to-balcoes": {
     "availableFrom": "2026-09-27",
-    "reviewBy": "2026-10-15"
+    "reviewBy": "2026-10-15",
+    "countrySlug": "portugal",
+    "regionSlug": "madeira"
   },
   "/experiences/read-seville-from-paddle-height": {
     "availableFrom": "2026-09-27",
-    "reviewBy": "2026-10-20"
+    "reviewBy": "2026-10-20",
+    "countrySlug": "spain",
+    "regionSlug": "seville"
   },
   "/experiences/read-care-in-sant-paus-courtyards": {
     "availableFrom": "2026-09-27",
-    "reviewBy": "2026-11-20"
+    "reviewBy": "2026-11-20",
+    "countrySlug": "spain",
+    "regionSlug": "barcelona"
   },
   "/experiences/follow-the-building-around-the-music": {
     "availableFrom": "2026-09-27",
-    "reviewBy": "2026-11-20"
+    "reviewBy": "2026-11-20",
+    "countrySlug": "portugal",
+    "regionSlug": "porto"
   },
   "/experiences/watch-a-small-house-change-shape": {
     "availableFrom": "2026-09-27",
-    "reviewBy": "2026-11-20"
+    "reviewBy": "2026-11-20",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "london"
   },
   "/experiences/give-one-cup-the-room-it-deserves": {
     "availableFrom": "2026-09-27",
-    "reviewBy": "2026-11-20"
+    "reviewBy": "2026-11-20",
+    "countrySlug": "vietnam",
+    "regionSlug": "hoi-an"
   },
   "/experiences/swim-a-sydney-harbour-length": {
-    "availableFrom": "2026-09-27",
-    "reviewBy": "2026-10-15"
+    "availableFrom": "2026-10-17",
+    "reviewBy": "2026-11-01",
+    "countrySlug": "australia",
+    "regionSlug": "sydney"
   },
   "/experiences/follow-the-water-through-a-medina-garden": {
     "availableFrom": "2026-09-27",
-    "reviewBy": "2026-11-20"
+    "reviewBy": "2026-11-20",
+    "countrySlug": "morocco",
+    "regionSlug": "marrakech"
   },
   "/experiences/watch-valencia-settle-water-in-public": {
     "availableFrom": "2026-09-27",
-    "reviewBy": "2026-10-20"
+    "reviewBy": "2026-10-20",
+    "countrySlug": "spain",
+    "regionSlug": "valencia"
   },
   "/experiences/hear-a-new-trio-in-an-old-paris-room": {
-    "availableFrom": "2026-09-27",
-    "reviewBy": "2026-10-15"
+    "availableFrom": "2026-10-17",
+    "reviewBy": "2026-11-17",
+    "countrySlug": "france",
+    "regionSlug": "paris"
   },
   "/experiences/leave-space-for-a-free-concourse-set": {
     "availableFrom": "2026-09-27",
-    "reviewBy": "2026-10-07"
+    "reviewBy": "2026-10-07",
+    "countrySlug": "singapore",
+    "regionSlug": "singapore"
   },
   "/experiences/follow-the-mung-bean-to-the-hot-pan": {
     "availableFrom": "2026-09-25",
-    "reviewBy": "2026-12-24"
+    "reviewBy": "2026-12-24",
+    "countrySlug": "south-korea",
+    "regionSlug": "seoul"
   },
   "/experiences/taste-lyon-one-market-counter-at-a-time": {
     "availableFrom": "2026-09-25",
-    "reviewBy": "2026-12-24"
+    "reviewBy": "2026-12-24",
+    "countrySlug": "france",
+    "regionSlug": "lyon"
   },
   "/experiences/taste-what-changes-inside-a-spoonful": {
     "availableFrom": "2026-09-25",
-    "reviewBy": "2026-12-24"
+    "reviewBy": "2026-12-24",
+    "countrySlug": "italy",
+    "regionSlug": "anzola-dellemilia"
   },
   "/experiences/give-delft-blue-a-line-of-your-own": {
     "availableFrom": "2026-09-25",
-    "reviewBy": "2026-12-24"
+    "reviewBy": "2026-12-24",
+    "countrySlug": "netherlands",
+    "regionSlug": "delft"
   },
   "/experiences/build-a-scent-one-decision-at-a-time": {
     "availableFrom": "2026-09-25",
-    "reviewBy": "2026-12-24"
+    "reviewBy": "2026-12-24",
+    "countrySlug": "france",
+    "regionSlug": "grasse"
   },
   "/experiences/make-a-lunch-you-cannot-eat": {
     "availableFrom": "2026-09-25",
-    "reviewBy": "2026-12-24"
+    "reviewBy": "2026-12-24",
+    "countrySlug": "japan",
+    "regionSlug": "tokyo"
   },
   "/experiences/paddle-below-waterlands-low-bridges": {
     "availableFrom": "2026-09-25",
-    "reviewBy": "2026-10-25"
+    "reviewBy": "2026-10-25",
+    "countrySlug": "netherlands",
+    "regionSlug": "watergang"
   },
   "/experiences/join-vancouvers-edges-by-bicycle": {
     "availableFrom": "2026-09-25",
-    "reviewBy": "2026-10-25"
+    "reviewBy": "2026-10-25",
+    "countrySlug": "canada",
+    "regionSlug": "vancouver"
   },
   "/experiences/see-table-mountain-from-a-kayak": {
     "availableFrom": "2026-09-25",
-    "reviewBy": "2026-10-25"
+    "reviewBy": "2026-10-25",
+    "countrySlug": "south-africa",
+    "regionSlug": "cape-town"
   },
   "/experiences/look-for-the-life-too-small-to-see": {
     "availableFrom": "2026-09-25",
-    "reviewBy": "2026-12-24"
+    "reviewBy": "2026-12-24",
+    "countrySlug": "netherlands",
+    "regionSlug": "amsterdam"
   },
   "/experiences/read-the-stream-beneath-seouls-streets": {
     "availableFrom": "2026-09-25",
-    "reviewBy": "2026-12-24"
+    "reviewBy": "2026-12-24",
+    "countrySlug": "south-korea",
+    "regionSlug": "seoul"
   },
   "/experiences/let-the-garden-be-introduced-through-country": {
     "availableFrom": "2026-09-25",
-    "reviewBy": "2026-11-25"
+    "reviewBy": "2026-11-25",
+    "countrySlug": "australia",
+    "regionSlug": "melbourne"
   },
   "/experiences/meet-baths-warm-water-under-open-sky": {
     "availableFrom": "2026-09-25",
-    "reviewBy": "2026-12-24"
+    "reviewBy": "2026-12-24",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "bath"
   },
   "/experiences/give-baden-three-hours-of-warm-water": {
     "availableFrom": "2026-09-25",
-    "reviewBy": "2026-12-24"
+    "reviewBy": "2026-12-24",
+    "countrySlug": "switzerland",
+    "regionSlug": "baden"
   },
   "/experiences/let-oslos-waterline-set-a-slower-pace": {
     "availableFrom": "2026-09-25",
-    "reviewBy": "2026-10-25"
+    "reviewBy": "2026-10-25",
+    "countrySlug": "norway",
+    "regionSlug": "oslo"
   },
   "/experiences/let-the-caller-bring-you-into-the-dance": {
     "availableFrom": "2026-09-25",
-    "reviewBy": "2026-10-25"
+    "reviewBy": "2026-10-25",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "glasgow"
   },
   "/experiences/give-lunch-half-an-hour-of-listening": {
     "availableFrom": "2026-09-25",
-    "reviewBy": "2026-10-09"
+    "reviewBy": "2026-10-09",
+    "countrySlug": "netherlands",
+    "regionSlug": "amsterdam"
   },
   "/experiences/begin-kabuki-with-a-single-act": {
     "availableFrom": "2026-09-25",
-    "reviewBy": "2026-10-09"
+    "reviewBy": "2026-10-09",
+    "countrySlug": "japan",
+    "regionSlug": "tokyo"
   },
   "/experiences/taste-melbourne-across-the-market-counter": {
     "availableFrom": "2026-09-24",
-    "reviewBy": "2026-12-23"
+    "reviewBy": "2026-12-23",
+    "countrySlug": "australia",
+    "regionSlug": "melbourne"
   },
   "/experiences/taste-tea-from-the-tap-and-the-pour": {
     "availableFrom": "2026-09-24",
-    "reviewBy": "2026-12-23"
+    "reviewBy": "2026-12-23",
+    "countrySlug": "taiwan",
+    "regionSlug": "taipei"
   },
   "/experiences/follow-cacao-from-the-museum-to-the-cup": {
     "availableFrom": "2026-09-24",
-    "reviewBy": "2026-12-23"
+    "reviewBy": "2026-12-23",
+    "countrySlug": "mexico",
+    "regionSlug": "mexico-city"
   },
   "/experiences/shape-a-cup-without-a-wheel": {
     "availableFrom": "2026-09-24",
-    "reviewBy": "2026-10-24"
+    "reviewBy": "2026-10-24",
+    "countrySlug": "portugal",
+    "regionSlug": "lisbon"
   },
   "/experiences/cut-a-line-that-catches-the-light": {
     "availableFrom": "2026-09-24",
-    "reviewBy": "2026-12-23"
+    "reviewBy": "2026-12-23",
+    "countrySlug": "japan",
+    "regionSlug": "tokyo"
   },
   "/experiences/build-the-curry-before-the-wok": {
     "availableFrom": "2026-09-24",
-    "reviewBy": "2026-12-23"
+    "reviewBy": "2026-12-23",
+    "countrySlug": "thailand",
+    "regionSlug": "bangkok"
   },
   "/experiences/learn-to-read-the-water-before-standing": {
     "availableFrom": "2026-09-24",
-    "reviewBy": "2026-10-08"
+    "reviewBy": "2026-10-08",
+    "countrySlug": "australia",
+    "regionSlug": "sydney"
   },
   "/experiences/follow-bangkok-at-the-width-of-a-bicycle": {
     "availableFrom": "2026-09-24",
-    "reviewBy": "2026-12-23"
+    "reviewBy": "2026-12-23",
+    "countrySlug": "thailand",
+    "regionSlug": "bangkok"
   },
   "/experiences/ride-between-buenos-aires-city-stories": {
     "availableFrom": "2026-09-24",
-    "reviewBy": "2026-10-24"
+    "reviewBy": "2026-10-24",
+    "countrySlug": "argentina",
+    "regionSlug": "buenos-aires"
   },
   "/experiences/see-singapore-at-the-scale-of-a-model": {
     "availableFrom": "2026-09-24",
-    "reviewBy": "2026-12-23"
+    "reviewBy": "2026-12-23",
+    "countrySlug": "singapore",
+    "regionSlug": "singapore"
   },
   "/experiences/let-a-garden-guide-change-what-you-notice": {
     "availableFrom": "2026-09-24",
-    "reviewBy": "2026-12-23"
+    "reviewBy": "2026-12-23",
+    "countrySlug": "south-africa",
+    "regionSlug": "cape-town"
   },
   "/experiences/read-a-wall-of-words-before-they-print": {
     "availableFrom": "2026-09-24",
-    "reviewBy": "2026-12-23"
+    "reviewBy": "2026-12-23",
+    "countrySlug": "taiwan",
+    "regionSlug": "taipei"
   },
   "/experiences/give-tokyo-an-hour-at-the-bathhouse": {
     "availableFrom": "2026-09-24",
-    "reviewBy": "2026-12-23"
+    "reviewBy": "2026-12-23",
+    "countrySlug": "japan",
+    "regionSlug": "tokyo"
   },
   "/experiences/swim-a-london-length-under-open-sky": {
     "availableFrom": "2026-09-24",
-    "reviewBy": "2026-10-24"
+    "reviewBy": "2026-10-24",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "london"
   },
   "/experiences/leave-room-between-rotoruas-warm-pools": {
     "availableFrom": "2026-09-24",
-    "reviewBy": "2026-12-23"
+    "reviewBy": "2026-12-23",
+    "countrySlug": "new-zealand",
+    "regionSlug": "rotorua"
   },
   "/experiences/watch-a-story-travel-through-a-gesture": {
     "availableFrom": "2026-09-24",
-    "reviewBy": "2026-10-24"
+    "reviewBy": "2026-10-24",
+    "countrySlug": "thailand",
+    "regionSlug": "bangkok"
   },
   "/experiences/hear-the-band-without-a-screen-between-you": {
     "availableFrom": "2026-09-24",
-    "reviewBy": "2026-10-24"
+    "reviewBy": "2026-10-24",
+    "countrySlug": "united-states",
+    "regionSlug": "new-orleans"
   },
   "/experiences/hear-seoul-change-tempo-on-a-saturday": {
     "availableFrom": "2026-09-24",
-    "reviewBy": "2026-12-23"
+    "reviewBy": "2026-12-23",
+    "countrySlug": "south-korea",
+    "regionSlug": "seoul"
   },
   "/experiences/taste-balsamico-before-it-meets-the-plate": {
     "availableFrom": "2026-09-23",
-    "reviewBy": "2026-12-22"
+    "reviewBy": "2026-12-22",
+    "countrySlug": "italy",
+    "regionSlug": "modena"
   },
   "/experiences/meet-tokyo-in-a-cup-of-dashi": {
     "availableFrom": "2026-09-23",
-    "reviewBy": "2026-12-22"
+    "reviewBy": "2026-12-22",
+    "countrySlug": "japan",
+    "regionSlug": "tokyo"
   },
   "/experiences/follow-lambic-from-the-brewery-to-the-glass": {
     "availableFrom": "2026-09-23",
-    "reviewBy": "2026-12-22"
+    "reviewBy": "2026-12-22",
+    "countrySlug": "belgium",
+    "regionSlug": "brussels"
   },
   "/experiences/draw-a-sheet-on-floating-colour": {
     "availableFrom": "2026-09-23",
-    "reviewBy": "2026-12-22"
+    "reviewBy": "2026-12-22",
+    "countrySlug": "italy",
+    "regionSlug": "florence"
   },
   "/experiences/repair-a-bowl-without-hiding-the-join": {
     "availableFrom": "2026-09-23",
-    "reviewBy": "2026-12-22"
+    "reviewBy": "2026-12-22",
+    "countrySlug": "japan",
+    "regionSlug": "kyoto"
   },
   "/experiences/stitch-the-pair-you-take-home": {
     "availableFrom": "2026-09-23",
-    "reviewBy": "2026-12-22"
+    "reviewBy": "2026-12-22",
+    "countrySlug": "spain",
+    "regionSlug": "barcelona"
   },
   "/experiences/try-the-games-before-you-watch-the-match": {
     "availableFrom": "2026-09-23",
-    "reviewBy": "2026-12-22"
+    "reviewBy": "2026-12-22",
+    "countrySlug": "ireland",
+    "regionSlug": "dublin"
   },
   "/experiences/paddle-between-stockholms-island-edges": {
     "availableFrom": "2026-09-23",
-    "reviewBy": "2026-09-30"
+    "reviewBy": "2026-09-30",
+    "countrySlug": "sweden",
+    "regionSlug": "stockholm"
   },
   "/experiences/stand-at-river-level-in-ljubljana": {
     "availableFrom": "2026-09-23",
-    "reviewBy": "2026-10-15"
+    "reviewBy": "2026-10-15",
+    "countrySlug": "slovenia",
+    "regionSlug": "ljubljana"
   },
   "/experiences/cross-lisbon-on-the-route-of-its-water": {
     "availableFrom": "2026-09-23",
-    "reviewBy": "2026-12-22"
+    "reviewBy": "2026-12-22",
+    "countrySlug": "portugal",
+    "regionSlug": "lisbon"
   },
   "/experiences/read-the-veld-with-a-san-guide": {
     "availableFrom": "2026-09-23",
-    "reviewBy": "2026-12-22"
+    "reviewBy": "2026-12-22",
+    "countrySlug": "south-africa",
+    "regionSlug": "west-coast"
   },
   "/experiences/read-naples-below-the-street": {
     "availableFrom": "2026-09-23",
-    "reviewBy": "2026-12-22"
+    "reviewBy": "2026-12-22",
+    "countrySlug": "italy",
+    "regionSlug": "naples"
   },
   "/experiences/give-helsinki-time-between-the-heat": {
     "availableFrom": "2026-09-23",
-    "reviewBy": "2026-10-03"
+    "reviewBy": "2026-10-03",
+    "countrySlug": "finland",
+    "regionSlug": "helsinki"
   },
   "/experiences/let-budapest-slow-to-the-pool": {
     "availableFrom": "2026-09-23",
-    "reviewBy": "2026-12-22"
+    "reviewBy": "2026-12-22",
+    "countrySlug": "hungary",
+    "regionSlug": "budapest"
   },
   "/experiences/meet-la-concha-through-warm-seawater": {
     "availableFrom": "2026-09-23",
-    "reviewBy": "2026-12-22"
+    "reviewBy": "2026-12-22",
+    "countrySlug": "spain",
+    "regionSlug": "san-sebastian"
   },
   "/experiences/let-the-fado-room-fall-quiet": {
     "availableFrom": "2026-09-23",
-    "reviewBy": "2026-12-22"
+    "reviewBy": "2026-12-22",
+    "countrySlug": "portugal",
+    "regionSlug": "lisbon"
   },
   "/experiences/learn-the-step-before-joining-the-floor": {
     "availableFrom": "2026-09-23",
-    "reviewBy": "2026-12-22"
+    "reviewBy": "2026-12-22",
+    "countrySlug": "argentina",
+    "regionSlug": "buenos-aires"
   },
   "/experiences/listen-for-the-conversation-inside-flamenco": {
     "availableFrom": "2026-09-23",
-    "reviewBy": "2026-12-22"
+    "reviewBy": "2026-12-22",
+    "countrySlug": "spain",
+    "regionSlug": "madrid"
   },
   "/experiences/stay-where-the-town-knows-your-host": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-18"
+    "reviewBy": "2026-12-18",
+    "countrySlug": "nepal",
+    "regionSlug": "kavrepalanchok"
   },
   "/experiences/follow-the-colour-back-to-the-wool": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-18"
+    "reviewBy": "2026-12-18",
+    "countrySlug": "peru",
+    "regionSlug": "sacred-valley"
   },
   "/experiences/meet-the-island-through-the-uga": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-18"
+    "reviewBy": "2026-12-18",
+    "countrySlug": "niue",
+    "regionSlug": "north-niue"
   },
   "/experiences/let-the-room-introduce-mindelo": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-18"
+    "reviewBy": "2026-12-18",
+    "countrySlug": "cabo-verde",
+    "regionSlug": "sao-vicente"
   },
   "/experiences/stay-until-the-desert-loses-its-colour": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-18"
+    "reviewBy": "2026-12-18",
+    "countrySlug": "jordan",
+    "regionSlug": "wadi-rum"
   },
   "/experiences/build-hudut-from-the-coconut-outward": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-18"
+    "reviewBy": "2026-12-18",
+    "countrySlug": "belize",
+    "regionSlug": "stann-creek"
   },
   "/experiences/pick-the-leaf-before-the-cup": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-18"
+    "reviewBy": "2026-12-18",
+    "countrySlug": "rwanda",
+    "regionSlug": "nyungwe"
   },
   "/experiences/coil-the-lowcountry-one-stitch-at-a-time": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-18"
+    "reviewBy": "2026-12-18",
+    "countrySlug": "united-states",
+    "regionSlug": "south-carolina-lowcountry"
   },
   "/experiences/raise-a-room-from-a-circle": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-18"
+    "reviewBy": "2026-12-18",
+    "countrySlug": "kyrgyzstan",
+    "regionSlug": "naryn"
   },
   "/experiences/watch-the-body-tension-the-loom": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-18"
+    "reviewBy": "2026-12-18",
+    "countrySlug": "timor-leste",
+    "regionSlug": "dili"
   },
   "/experiences/read-prague-through-a-movement": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-18"
+    "reviewBy": "2026-12-18",
+    "countrySlug": "czechia",
+    "regionSlug": "prague"
   },
   "/experiences/hear-the-flute-before-anyone-plays": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-18"
+    "reviewBy": "2026-12-18",
+    "countrySlug": "slovakia",
+    "regionSlug": "podpolanie"
   },
   "/experiences/walk-where-terere-is-everyday-language": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-18"
+    "reviewBy": "2026-12-18",
+    "countrySlug": "paraguay",
+    "regionSlug": "asuncion"
   },
   "/experiences/meet-the-largest-fish-on-its-terms": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-18"
+    "reviewBy": "2026-12-18",
+    "countrySlug": "djibouti",
+    "regionSlug": "gulf-of-tadjoura"
   },
   "/experiences/let-the-drum-recover-its-history": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-18"
+    "reviewBy": "2026-12-18",
+    "countrySlug": "curacao",
+    "regionSlug": "west-curacao"
   },
   "/experiences/let-the-clay-keep-the-fingerprints": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-18"
+    "reviewBy": "2026-12-18",
+    "countrySlug": "tunisia",
+    "regionSlug": "bizerte"
   },
   "/experiences/meet-the-cloth-before-it-becomes-a-gift": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-18"
+    "reviewBy": "2026-12-18",
+    "countrySlug": "tonga",
+    "regionSlug": "tongatapu"
   },
   "/experiences/enter-sevdah-through-the-room-that-remembers-it": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-18"
+    "reviewBy": "2026-12-18",
+    "countrySlug": "bosnia-and-herzegovina",
+    "regionSlug": "sarajevo"
   },
   "/experiences/watch-silver-become-a-line": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-18"
+    "reviewBy": "2026-12-18",
+    "countrySlug": "kosovo",
+    "regionSlug": "prizren"
   },
   "/experiences/let-the-ballad-move-the-circle": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-18"
+    "reviewBy": "2026-12-18",
+    "countrySlug": "faroe-islands",
+    "regionSlug": "torshavn"
   },
   "/experiences/hear-the-drum-after-sunset": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-18"
+    "reviewBy": "2026-12-18",
+    "countrySlug": "seychelles",
+    "regionSlug": "mahe"
   },
   "/experiences/hear-the-wooden-racket-crack": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-18"
+    "reviewBy": "2026-12-18",
+    "countrySlug": "barbados",
+    "regionSlug": "island-wide"
   },
   "/experiences/follow-cardboard-toward-bay-street": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-18"
+    "reviewBy": "2026-12-18",
+    "countrySlug": "the-bahamas",
+    "regionSlug": "new-providence"
   },
   "/experiences/move-the-stone-that-holds-the-water": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-18"
+    "reviewBy": "2026-12-18",
+    "countrySlug": "united-states",
+    "regionSlug": "oahu"
   },
   "/experiences/choose-the-harvest-before-the-cellar": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-18"
+    "reviewBy": "2026-12-18",
+    "countrySlug": "moldova",
+    "regionSlug": "stefan-voda"
   },
   "/experiences/draw-the-line-that-keeps-the-colour-out": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "romania",
+    "regionSlug": "bucovina"
   },
   "/experiences/meet-the-wine-below-the-cellar-floor": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "georgia",
+    "regionSlug": "kakheti"
   },
   "/experiences/climb-without-making-the-mountain-yours": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "sri-lanka",
+    "regionSlug": "central-highlands"
   },
   "/experiences/let-the-jebena-slow-the-cup": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "ethiopia",
+    "regionSlug": "addis-ababa"
   },
   "/experiences/let-the-lateen-sail-read-lamus-water": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "kenya",
+    "regionSlug": "lamu-archipelago"
   },
   "/experiences/hear-the-mallet-open-the-cloth": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "uganda",
+    "regionSlug": "entebbe"
   },
   "/experiences/begin-haida-gwaii-with-haida-voices": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "canada",
+    "regionSlug": "haida-gwaii"
   },
   "/experiences/let-the-band-open-the-dance-floor": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "united-states",
+    "regionSlug": "lafayette-louisiana"
   },
   "/experiences/watch-rio-build-the-parade-before-carnaval": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "brazil",
+    "regionSlug": "rio-de-janeiro"
   },
   "/experiences/stand-where-the-sound-system-does-the-talking": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "jamaica",
+    "regionSlug": "kingston-jamaica"
   },
   "/experiences/roast-the-cup-on-kilimanjaros-slopes": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "tanzania",
+    "regionSlug": "kilimanjaro-region"
   },
   "/experiences/listen-for-the-turn-inside-mugham": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "azerbaijan",
+    "regionSlug": "baku"
   },
   "/experiences/hear-a-drum-become-an-instrument": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "trinidad-and-tobago",
+    "regionSlug": "port-of-spain"
   },
   "/experiences/read-the-ballroom-above-the-shop": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "bolivia",
+    "regionSlug": "el-alto"
   },
   "/experiences/read-the-island-one-stone-at-a-time": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "montenegro",
+    "regionSlug": "perast"
   },
   "/experiences/read-the-ring-before-the-horse-runs": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "croatia",
+    "regionSlug": "sinj"
   },
   "/experiences/let-the-pony-read-the-mountain": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "lesotho",
+    "regionSlug": "semonkong"
   },
   "/experiences/wait-until-the-turtle-is-ready": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "costa-rica",
+    "regionSlug": "tortuguero"
   },
   "/experiences/read-nubia-before-the-sail-opens": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "egypt",
+    "regionSlug": "aswan"
   },
   "/experiences/watch-one-bolt-cross-the-republic": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "san-marino",
+    "regionSlug": "historic-centre"
   },
   "/experiences/meet-the-rose-before-it-becomes-water": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "oman",
+    "regionSlug": "ad-dakhiliyah"
   },
   "/experiences/walk-inside-the-earthen-ring": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "china",
+    "regionSlug": "fujian"
   },
   "/experiences/follow-the-pearl-back-underwater": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "bahrain",
+    "regionSlug": "muharraq"
   },
   "/experiences/read-a-city-from-the-waterline": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "brunei",
+    "regionSlug": "kampong-ayer"
   },
   "/experiences/let-the-delta-decide-the-route": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "botswana",
+    "regionSlug": "okavango-delta"
   },
   "/experiences/follow-a-sheet-back-to-the-mulberry-branch": {
     "availableFrom": "2026-09-19",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "uzbekistan",
+    "regionSlug": "samarkand"
   },
   "/experiences/follow-kente-one-strip-at-a-time": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "ghana",
+    "regionSlug": "ashanti-region"
   },
   "/experiences/see-lunch-built-from-fire-stone-and-leaves": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "samoa",
+    "regionSlug": "apia"
   },
   "/experiences/take-the-lagoon-one-stroke-at-a-time": {
     "availableFrom": "2026-09-15",
-    "reviewBy": "2026-12-14"
+    "reviewBy": "2026-12-14",
+    "countrySlug": "french-polynesia",
+    "regionSlug": "moorea"
   },
   "/experiences/let-the-city-take-its-evening-walk": {
     "availableFrom": "2026-09-14",
-    "reviewBy": "2026-12-13"
+    "reviewBy": "2026-12-13",
+    "countrySlug": "albania",
+    "regionSlug": "tirana"
   },
   "/experiences/watch-a-town-move-in-prayer": {
     "availableFrom": "2026-09-14",
-    "reviewBy": "2026-12-13"
+    "reviewBy": "2026-12-13",
+    "countrySlug": "luxembourg",
+    "regionSlug": "echternach"
   },
   "/experiences/let-the-leaves-reach-the-water-first": {
     "availableFrom": "2026-09-14",
-    "reviewBy": "2026-12-13"
+    "reviewBy": "2026-12-13",
+    "countrySlug": "vietnam",
+    "regionSlug": "hanoi"
   },
   "/experiences/watch-flowers-enter-the-paper": {
     "availableFrom": "2026-09-14",
-    "reviewBy": "2026-12-13"
+    "reviewBy": "2026-12-13",
+    "countrySlug": "madagascar",
+    "regionSlug": "ambalavao"
   },
   "/experiences/taste-the-distance-from-pod-to-bar": {
     "availableFrom": "2026-09-14",
-    "reviewBy": "2026-12-13"
+    "reviewBy": "2026-12-13",
+    "countrySlug": "sao-tome-and-principe",
+    "regionSlug": "sao-tome"
   },
   "/experiences/meet-the-rose-before-the-perfume": {
     "availableFrom": "2026-09-14",
-    "reviewBy": "2026-12-13"
+    "reviewBy": "2026-12-13",
+    "countrySlug": "bulgaria",
+    "regionSlug": "kazanlak"
   },
   "/experiences/let-the-shadows-move-after-angkor": {
     "availableFrom": "2026-09-14",
-    "reviewBy": "2026-12-13"
+    "reviewBy": "2026-12-13",
+    "countrySlug": "cambodia",
+    "regionSlug": "siem-reap"
   },
   "/experiences/hear-a-landscape-without-instruments": {
     "availableFrom": "2026-09-14",
-    "reviewBy": "2026-12-13"
+    "reviewBy": "2026-12-13",
+    "countrySlug": "portugal",
+    "regionSlug": "serpa"
   },
   "/experiences/learn-hong-kong-one-hand-at-a-time": {
     "availableFrom": "2026-09-14",
-    "reviewBy": "2026-12-13"
+    "reviewBy": "2026-12-13",
+    "countrySlug": "hong-kong",
+    "regionSlug": "central"
   },
   "/experiences/draw-with-silver-in-skopjes-old-bazaar": {
     "availableFrom": "2026-09-14",
-    "reviewBy": "2026-12-13"
+    "reviewBy": "2026-12-13",
+    "countrySlug": "north-macedonia",
+    "regionSlug": "skopje"
   },
   "/experiences/read-a-ship-before-the-sails-arrive": {
     "availableFrom": "2026-09-14",
-    "reviewBy": "2026-12-13"
+    "reviewBy": "2026-12-13",
+    "countrySlug": "indonesia",
+    "regionSlug": "bulukumba"
   },
   "/experiences/read-monument-valley-beyond-the-scenic-drive": {
     "availableFrom": "2026-09-14",
-    "reviewBy": "2026-12-13"
+    "reviewBy": "2026-12-13",
+    "countrySlug": "united-states",
+    "regionSlug": "monument-valley"
   },
   "/experiences/follow-balis-water-before-the-rice": {
     "availableFrom": "2026-09-14",
-    "reviewBy": "2026-12-13"
+    "reviewBy": "2026-12-13",
+    "countrySlug": "indonesia",
+    "regionSlug": "jatiluwih"
   },
   "/experiences/make-tea-before-taipei-drinks-it": {
     "availableFrom": "2026-09-14",
-    "reviewBy": "2026-12-13"
+    "reviewBy": "2026-12-13",
+    "countrySlug": "taiwan",
+    "regionSlug": "pinglin"
   },
   "/experiences/follow-appenzeller-from-vat-to-cellar": {
     "availableFrom": "2026-09-14",
-    "reviewBy": "2026-12-13"
+    "reviewBy": "2026-12-13",
+    "countrySlug": "switzerland",
+    "regionSlug": "appenzellerland"
   },
   "/experiences/watch-a-dhow-take-shape-beside-the-creek": {
     "availableFrom": "2026-09-14",
-    "reviewBy": "2026-12-13"
+    "reviewBy": "2026-12-13",
+    "countrySlug": "united-arab-emirates",
+    "regionSlug": "ajman"
   },
   "/experiences/follow-medellins-flowers-back-to-the-farm": {
     "availableFrom": "2026-09-14",
-    "reviewBy": "2026-12-13"
+    "reviewBy": "2026-12-13",
+    "countrySlug": "colombia",
+    "regionSlug": "medellin-santa-elena"
   },
   "/experiences/read-a-hive-from-the-inside": {
     "availableFrom": "2026-09-14",
-    "reviewBy": "2026-12-13"
+    "reviewBy": "2026-12-13",
+    "countrySlug": "slovenia",
+    "regionSlug": "visnja-gora"
   },
   "/experiences/follow-mastiha-back-to-the-tree": {
     "availableFrom": "2026-09-14",
-    "reviewBy": "2026-12-13"
+    "reviewBy": "2026-12-13",
+    "countrySlug": "greece",
+    "regionSlug": "chios"
   },
   "/experiences/make-halloumi-before-it-reaches-the-plate": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-12-12"
+    "reviewBy": "2026-12-12",
+    "countrySlug": "cyprus",
+    "regionSlug": "troodos-foothills"
   },
   "/experiences/read-a-smoke-sauna-before-the-heat": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-12-12"
+    "reviewBy": "2026-12-12",
+    "countrySlug": "estonia",
+    "regionSlug": "vorumaa"
   },
   "/experiences/fold-a-pattern-into-the-blue": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-12-12"
+    "reviewBy": "2026-12-12",
+    "countrySlug": "el-salvador",
+    "regionSlug": "suchitoto"
   },
   "/experiences/make-the-bagel-before-new-york-serves-it": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-12-12"
+    "reviewBy": "2026-12-12",
+    "countrySlug": "united-states",
+    "regionSlug": "new-york-city"
   },
   "/experiences/follow-the-fizz-through-a-working-factory": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-12-12"
+    "reviewBy": "2026-12-12",
+    "countrySlug": "united-states",
+    "regionSlug": "new-york-city"
   },
   "/experiences/open-the-other-side-of-ellis-island": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-12-12"
+    "reviewBy": "2026-12-12",
+    "countrySlug": "united-states",
+    "regionSlug": "new-york-city"
   },
   "/experiences/make-pasta-until-the-sauce-makes-sense": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-12-12"
+    "reviewBy": "2026-12-12",
+    "countrySlug": "italy",
+    "regionSlug": "rome"
   },
   "/experiences/ride-the-road-rome-built-to-leave-it": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-12-12"
+    "reviewBy": "2026-12-12",
+    "countrySlug": "italy",
+    "regionSlug": "rome"
   },
   "/experiences/put-the-gods-back-among-the-machines": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-12-12"
+    "reviewBy": "2026-12-12",
+    "countrySlug": "italy",
+    "regionSlug": "rome"
   },
   "/experiences/ask-the-market-where-london-came-from": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-12-12"
+    "reviewBy": "2026-12-12",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "london"
   },
   "/experiences/meet-the-work-before-the-curtain-rises": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-12-12"
+    "reviewBy": "2026-12-12",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "london"
   },
   "/experiences/open-a-door-the-underground-left-behind": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-12-12"
+    "reviewBy": "2026-12-12",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "london"
   },
   "/experiences/make-the-morning-before-it-reaches-the-cafe": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-12-12"
+    "reviewBy": "2026-12-12",
+    "countrySlug": "france",
+    "regionSlug": "paris"
   },
   "/experiences/watch-a-picture-grow-one-thread-at-a-time": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-12-12"
+    "reviewBy": "2026-12-12",
+    "countrySlug": "france",
+    "regionSlug": "paris"
   },
   "/experiences/see-what-keeps-paris-moving-underground": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-12-12"
+    "reviewBy": "2026-12-12",
+    "countrySlug": "france",
+    "regionSlug": "paris"
   },
   "/experiences/twist-the-city-before-you-taste-it": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-12-12"
+    "reviewBy": "2026-12-12",
+    "countrySlug": "poland",
+    "regionSlug": "krakow"
   },
   "/experiences/take-the-window-back-to-the-workbench": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-12-12"
+    "reviewBy": "2026-12-12",
+    "countrySlug": "poland",
+    "regionSlug": "krakow"
   },
   "/experiences/watch-a-city-arrive-in-miniature": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-11-26"
+    "reviewBy": "2026-11-26",
+    "countrySlug": "poland",
+    "regionSlug": "krakow"
   },
   "/experiences/meet-the-bay-on-its-working-hours": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-12-12"
+    "reviewBy": "2026-12-12",
+    "countrySlug": "france",
+    "regionSlug": "arcachon-bay"
   },
   "/experiences/read-the-landscape-one-grain-at-a-time": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-12-12"
+    "reviewBy": "2026-12-12",
+    "countrySlug": "france",
+    "regionSlug": "arcachon-bay"
   },
   "/experiences/make-something-from-the-broken-pieces": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-12-12"
+    "reviewBy": "2026-12-12",
+    "countrySlug": "spain",
+    "regionSlug": "barcelona"
   },
   "/experiences/watch-the-work-before-the-performance": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-12-12"
+    "reviewBy": "2026-12-12",
+    "countrySlug": "austria",
+    "regionSlug": "vienna"
   },
   "/experiences/hear-the-church-before-you-climb": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-12-12"
+    "reviewBy": "2026-12-12",
+    "countrySlug": "portugal",
+    "regionSlug": "porto"
   },
   "/experiences/let-the-market-write-your-menu": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-12-12"
+    "reviewBy": "2026-12-12",
+    "countrySlug": "portugal",
+    "regionSlug": "porto"
   },
   "/experiences/find-a-place-through-its-scent": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-12-12"
+    "reviewBy": "2026-12-12",
+    "countrySlug": "japan",
+    "regionSlug": "kyoto"
   },
   "/experiences/draw-a-small-shape-in-flame": {
     "availableFrom": "2026-09-13",
-    "reviewBy": "2026-12-12"
+    "reviewBy": "2026-12-12",
+    "countrySlug": "italy",
+    "regionSlug": "venice"
   },
   "/experiences/lift-a-pattern-from-the-water": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "turkiye",
+    "regionSlug": "istanbul"
   },
   "/experiences/hear-the-arena-answer-back": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "mexico",
+    "regionSlug": "mexico-city"
   },
   "/experiences/begin-with-rice-not-the-bottle": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "south-korea",
+    "regionSlug": "seoul"
   },
   "/experiences/let-the-dog-read-the-forest": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "croatia",
+    "regionSlug": "istria"
   },
   "/experiences/taste-what-time-does-to-port": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "portugal",
+    "regionSlug": "vila-nova-de-gaia"
   },
   "/experiences/let-the-rainforest-be-introduced": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "australia",
+    "regionSlug": "mossman-gorge"
   },
   "/experiences/find-the-citys-wilder-edge": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "singapore",
+    "regionSlug": "singapore"
   },
   "/experiences/spend-an-hour-between-the-hot-rooms": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "south-korea",
+    "regionSlug": "busan"
   },
   "/experiences/step-from-smoke-sauna-into-the-lake": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "finland",
+    "regionSlug": "kuopio"
   },
   "/experiences/cut-the-first-piece-of-a-pattern": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "morocco",
+    "regionSlug": "fez"
   },
   "/experiences/find-the-pulse-before-the-parade": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-10-30"
+    "reviewBy": "2026-10-30",
+    "countrySlug": "uruguay",
+    "regionSlug": "montevideo"
   },
   "/experiences/let-the-ferry-redraw-istanbul": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "turkiye",
+    "regionSlug": "istanbul"
   },
   "/experiences/ride-the-avenue-when-the-cars-step-aside": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "mexico",
+    "regionSlug": "mexico-city"
   },
   "/experiences/let-the-caller-start-the-dance": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-11-20"
+    "reviewBy": "2026-11-20",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "edinburgh"
   },
   "/experiences/follow-the-festa-through-the-streets": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-10-04"
+    "reviewBy": "2026-10-04",
+    "countrySlug": "malta",
+    "regionSlug": "malta-and-gozo"
   },
   "/experiences/follow-the-agave-into-the-still": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "mexico",
+    "regionSlug": "oaxaca"
   },
   "/experiences/read-the-language-of-the-coffee-cup": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "qatar",
+    "regionSlug": "doha"
   },
   "/experiences/stay-while-the-zamba-circles-back": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "argentina",
+    "regionSlug": "salta"
   },
   "/experiences/build-a-pattern-in-colour": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "japan",
+    "regionSlug": "kyoto"
   },
   "/experiences/ride-from-alley-to-river": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "japan",
+    "regionSlug": "kyoto"
   },
   "/experiences/draw-with-wax-in-kampong-gelam": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "singapore",
+    "regionSlug": "singapore"
   },
   "/experiences/walk-the-island-between-forest-and-shore": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "singapore",
+    "regionSlug": "singapore"
   },
   "/experiences/when-the-herds-come-down": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-09-18"
+    "reviewBy": "2026-09-18",
+    "countrySlug": "germany",
+    "regionSlug": "allgaeu"
   },
   "/experiences/set-one-bell-in-motion": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "cambridge"
   },
   "/experiences/paint-the-pattern-you-noticed": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "portugal",
+    "regionSlug": "porto"
   },
   "/experiences/spend-the-night-in-a-temple-town": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "japan",
+    "regionSlug": "koyasan"
   },
   "/experiences/play-the-wall-in-biarritz": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "france",
+    "regionSlug": "biarritz"
   },
   "/experiences/watch-a-stage-made-of-water": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "vietnam",
+    "regionSlug": "hanoi"
   },
   "/experiences/cook-beyond-the-postcard": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "south-africa",
+    "regionSlug": "cape-town"
   },
   "/experiences/learn-the-fold-in-salta": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "argentina",
+    "regionSlug": "salta"
   },
   "/experiences/let-the-coffee-take-its-time": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "bosnia-and-herzegovina",
+    "regionSlug": "sarajevo"
   },
   "/experiences/let-the-drum-lead-the-first-step": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "puerto-rico",
+    "regionSlug": "loiza"
   },
   "/experiences/kimchi-before-the-jar": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "south-korea",
+    "regionSlug": "seoul"
   },
   "/experiences/read-the-desert-at-ground-level": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "namibia",
+    "regionSlug": "swakopmund"
   },
   "/experiences/when-the-sap-starts-to-run": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "canada",
+    "regionSlug": "outaouais"
   },
   "/experiences/the-weight-of-the-tower": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "spain",
+    "regionSlug": "barcelona"
   },
   "/experiences/walk-where-the-sea-was": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "netherlands",
+    "regionSlug": "wadden-sea"
   },
   "/experiences/the-fish-behind-the-islands": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "norway",
+    "regionSlug": "lofoten"
   },
   "/experiences/the-tide-brings-the-horses": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "belgium",
+    "regionSlug": "oostduinkerke"
   },
   "/experiences/when-the-sky-moves-as-one": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "denmark",
+    "regionSlug": "ribe-marshes"
   },
   "/experiences/the-pour-before-the-glass": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "spain",
+    "regionSlug": "asturias"
   },
   "/experiences/a-morning-at-the-hawker-table": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "singapore",
+    "regionSlug": "singapore"
   },
   "/experiences/step-into-the-dance": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "hungary",
+    "regionSlug": "budapest"
   },
   "/experiences/marble-steam-istanbul": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "turkiye",
+    "regionSlug": "istanbul"
   },
   "/experiences/mexico-city-grown-on-water": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "mexico",
+    "regionSlug": "xochimilco"
   },
   "/experiences/stay-for-the-session": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "ireland",
+    "regionSlug": "county-clare"
   },
   "/experiences/a-bowl-of-attention": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "japan",
+    "regionSlug": "kyoto"
   },
   "/experiences/bread-from-the-tonir": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "armenia",
+    "regionSlug": "gegharkunik"
   },
   "/experiences/leave-room-for-devotion": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "japan",
+    "regionSlug": "kumano-kodo"
   },
   "/experiences/make-room-in-the-steam": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "finland",
+    "regionSlug": "tampere"
   },
   "/experiences/venice-through-an-oar": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "italy",
+    "regionSlug": "venice"
   },
   "/experiences/colour-before-cloth": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "laos",
+    "regionSlug": "luang-prabang"
   },
   "/experiences/a-city-in-the-water": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "iceland",
+    "regionSlug": "reykjavik"
   },
   "/experiences/the-vineyard-at-the-table": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "austria",
+    "regionSlug": "vienna"
   },
   "/experiences/before-the-chocolate-bar": {
     "availableFrom": "2026-09-12",
-    "reviewBy": "2026-12-11"
+    "reviewBy": "2026-12-11",
+    "countrySlug": "grenada",
+    "regionSlug": "saint-patrick"
   }
 }

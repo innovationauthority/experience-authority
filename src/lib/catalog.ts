@@ -234,6 +234,15 @@ export function filterExperiences(items: PublicExperience[], query: Query) {
 }
 export const territories = [
   {
+    slug: "india",
+    name: "India",
+    region: "bagru",
+    regionName: "Bagru, Rajasthan",
+    intro:
+      "Begin near Jaipur with a block, pigment and a repeat made by hand. One confirmed Bagru workshop opens a material question without making a short class stand for all of India's textile traditions.",
+    image: null,
+  },
+  {
     slug: "malaysia",
     name: "Malaysia",
     region: "george-town",

@@ -5,9 +5,11 @@ import { edition20260925 } from "./discovery-batch-42";
 import { edition20260927 } from "./discovery-batch-43";
 import { edition20261007 } from "./discovery-batch-44";
 import { edition20261014 } from "./discovery-batch-45";
+import { edition20261017 } from "./discovery-batch-46";
 
 /** Publication dates are distinct from source-check dates. Older undated guides are not backfilled. */
 export const guideReleases = [
+  { date: "2026-10-17", slugs: Object.values(edition20261017).flat() },
   { date: "2026-10-14", slugs: Object.values(edition20261014).flat() },
   { date: "2026-10-07", slugs: Object.values(edition20261007).flat() },
   { date: "2026-09-27", slugs: Object.values(edition20260927).flat() },

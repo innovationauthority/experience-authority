@@ -40,7 +40,8 @@ test("27 September publishes eighteen original guides with three in each primary
         ),
         slug,
       );
-      assert.ok(canPublishGuide(guide, "2026-09-27"), slug);
+      // A genuine subsequent source review may advance checkedOn, not first publication.
+      assert.ok(canPublishGuide(guide, guide.guideReview!.checkedOn), slug);
       assert.ok(!canPublishGuide(guide, "2026-09-26"), slug);
       assert.ok(
         !earlier.some(
@@ -59,7 +60,7 @@ test("27 September publishes eighteen original guides with three in each primary
         slug,
       );
       assert.equal(guide.image, media.src);
-      assert.equal(guide.guideReview?.checkedOn, "2026-09-27");
+      assert.ok(guide.guideReview!.checkedOn >= "2026-09-27");
       assert.match(guide.evidence, /EA has not/);
       assert.doesNotMatch(
         [

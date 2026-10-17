@@ -1,0 +1,126 @@
+{
+  "edition": "2026-10-17",
+  "trigger": "Manual user request: daj novih 18",
+  "netNewGuides": 18,
+  "primaryAllocations": {
+    "Eat & drink": 3,
+    "Make": 3,
+    "Move": 3,
+    "Explore & reflect": 3,
+    "Reset": 3,
+    "Shared rituals": 3
+  },
+  "catalogue": {
+    "authoredRecordsBefore": 262,
+    "authoredRecordsAfter": 280,
+    "eligiblePublicOn17October": 270,
+    "existingRecordsOutsideReviewWindow": 10,
+    "authoredCountryAndTerritoryCoverage": 109,
+    "newCountry": "India",
+    "newEditionCountries": 14,
+    "newEditionCityOrAreaDestinations": 14,
+    "genuinelyRecheckedExistingGuides": ["Sydney Bush Tucker tour", "Sydney Maccallum Pool", "Paris Le Bal Blomet"],
+    "qualification": "The three source renewals are not counted as new guides. Ten expired records remain excluded from public routes and sitemap until genuine re-review. Publication history is distinct from the latest source-check date."
+  },
+  "method": "Existing catalogue, previous rejections, research handoff and Git history reviewed before selection. Original public-source desk guides with explicit visitor roles, practical access and evidence limits. No EA attendance, local validation, booking, provider partnership or private permission is claimed.",
+  "sources": {
+    "checkedOn": "2026-10-17",
+    "uniqueUrlsChecked": 50,
+    "directHttp200": 48,
+    "maintenanceUrlsCheckedSeparately": 6,
+    "allEighteenPrimaryAccessUrls": "HTTP 200 and current programme or access content reviewed",
+    "exceptions": [
+      {
+        "url": "https://londonbookarts.org/collections/workshops",
+        "directStatus": 429,
+        "resolution": "The ordinary browser rendered the workshop collection and December foundation listing. The specific three-day beginner course page returned HTTP 200. Availability is a checked snapshot, not a held seat. No access control was bypassed."
+      },
+      {
+        "url": "https://www.capetown.travel/where-to-see-live-jazz-in-cape-town/",
+        "directStatus": 403,
+        "resolution": "Current tourism article content was available through ordinary web search. The actual venue website and independent future 21 October local event listing were also reviewed. The blocked ticket calendar is not represented as an operator-confirmed future lineup. Direct confirmation of the chosen performance remains required."
+      }
+    ]
+  },
+  "photography": {
+    "realPhotographs": 18,
+    "aiGenerated": 0,
+    "documentedLicences": 8,
+    "officialSourceModerateRisk": 10,
+    "rightsBoundary": "Official-source reuse rights are not independently cleared. Credit does not grant permission. Existing EA moderate-risk policy is used transparently. Licensed derivatives preserve applicable attribution and share-alike conditions. No permission is invented.",
+    "provenance": "docs/edition-2026-10-17-photo-provenance.json",
+    "creditFormat": "Image: author / source ↗, direct source opens in a new tab",
+    "imageEdition": "6e09864d1094",
+    "historicalBoundaries": "Earlier museum displays, garden seasons, rooms and workshop participants are documentary context, not a promise of future conditions. The Athletic image shows its lounge interior, not a musician or a future performance. The Royal Selangor photograph is not used as evidence for old prices or transport."
+  },
+  "integration": {
+    "newLocalChapters": ["Valencia", "Naples"],
+    "expandedLocalChapters": ["London", "Paris"],
+    "publicLocalChaptersOn17October": 27,
+    "futureDailyAngles": 6,
+    "futureDailyDates": "2026-11-14 to 2026-11-19",
+    "precedingDailyEditionsPreserved": true,
+    "publishedDailyHistoryChanged": false,
+    "surfaces": ["Compass", "country and city filters", "six visitor interests", "editorial fields", "places", "collections", "dated new guides", "future Daily discovery", "connected experiences", "Passport", "journey planning", "sitemap", "canonical URLs", "Article and ImageObject structured data"],
+    "planningBoundary": "Complementary local stops do not imply common tickets, combined bookings, included transfers or guaranteed same-day availability."
+  },
+  "rejectedOrDeferred": [
+    {
+      "candidate": "Escuela de Arroces y Paellas",
+      "reason": "The discovered domain served unrelated gambling content and did not establish a current visitor class. No claim about the cause of the domain content is made."
+    },
+    {
+      "candidate": "Studio Bagru workshops",
+      "reason": "Public information states workshops are paused with no new bookings. A different verified hands-on programme is used instead."
+    },
+    {
+      "candidate": "Streetwires visitor workshop",
+      "reason": "The discovered current domain redirected to retail. No current visitor workshop was verified. This is not a claim of permanent closure."
+    },
+    {
+      "candidate": "Villa Indiano individual class",
+      "reason": "Older 2025 dates and a group or event document did not establish a current individual visitor slot."
+    },
+    {
+      "candidate": "Blue Room and Crypt, Cape Town",
+      "reason": "Empty or conflicting programme sources did not establish an appropriate current performance. Neither is declared closed without sufficient evidence."
+    },
+    {
+      "candidate": "Wigmore Hall programme",
+      "reason": "Ordinary access returned 403 and a current future programme was not sufficiently verified. No block was bypassed."
+    },
+    {
+      "candidate": "Basilica Cistern",
+      "reason": "Primary access information was unavailable and current operator or admission sources conflicted. No unverified management-change claim is published."
+    },
+    {
+      "candidate": "Other short LCBA classes",
+      "reason": "Sold-out dates and intermediate courses are not substituted for an available beginner programme."
+    },
+    {
+      "candidate": "Rejected image alternatives",
+      "reason": "Rejected undersized 324-pixel Royal Selangor, 500-pixel paella and 600-pixel punting assets, a different Lima menu image, and a dark Athletic lamp or bar-stool image initially unsuitable for accurate depiction. The final Athletic photograph is explicitly a lounge interior."
+    }
+  ],
+  "localVerification": {
+    "unitTests": 104,
+    "unitFailures": 0,
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "smokePages": 622,
+    "unpublishedPathsChecked": 27,
+    "smokeFailures": 0,
+    "uniqueCspNonces": 606,
+    "newGuideHtmlAndRawPhotoFingerprints": 18,
+    "optimizedWebpPhotographs": 18,
+    "browserWidths": [390, 1440],
+    "browserRouteAndViewportChecks": 122,
+    "browserFailures": 0,
+    "visualReview": "All eighteen guide first views inspected at desktop and mobile sizes. Core surfaces and relevant destinations are included in browser checks.",
+    "accessibilityBoundary": "Automated WCAG A/AA checks report no violations on audited surfaces but are not complete accessibility certification.",
+    "interactions": ["country and city selection", "new Valencia guide discovery", "photo modal", "Escape and focus return", "save to Passport", "add to private journey", "plan name persistence after reload", "keyboard skip link", "analytics consent gate"],
+    "expiryHandling": "The smoke snapshot includes territory metadata and is independently matched to the catalogue by a unit test. All current guides and destinations must appear in sitemap. Expired guides and destinations with no current guides must return 404 and remain absent."
+  },
+  "verificationStage": "Prepublication verification complete",
+  "productionConfirmation": "Confirm exact main commit Vercel success, then live dated edition, eighteen guide pages, raw photograph fingerprints, optimized photographs, smoke suite, desktop and mobile browser checks and consent-sensitive interactions. This pre-push record does not claim deployment. Regular Wednesday automation is unchanged."
+}

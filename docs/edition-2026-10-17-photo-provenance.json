@@ -1,0 +1,842 @@
+[
+  {
+    "guideId": "marrakech-amal",
+    "checkedOn": "2026-10-17",
+    "originalUrl": "https://amalnonprofit.org/assets/img/tg-food4.jpg",
+    "sourceUrl": "https://amalnonprofit.org/targa.html",
+    "originalWidth": 1200,
+    "originalHeight": 799,
+    "sha256": "e2ffd3bc3b540c0dbea390325d43cf2d4340e25a12e17cd08a99e1710976222e"
+  },
+  {
+    "guideId": "lima-skykitchen",
+    "checkedOn": "2026-10-17",
+    "originalUrl": "https://skykitchen.pe/wp-content/uploads/2022/11/IMG_20201126_113320.jpg",
+    "sourceUrl": "https://skykitchen.pe/",
+    "originalWidth": 1800,
+    "originalHeight": 1350,
+    "sha256": "497100f56174b9064507c95aa01a1abaefab882f137cb2103ac3a57eb4547dd2"
+  },
+  {
+    "guideId": "valencia-my-first-paella",
+    "checkedOn": "2026-10-17",
+    "originalUrl": "https://myfirstpaella.es/wp-content/uploads/2022/06/paella-arroz.jpg",
+    "sourceUrl": "https://myfirstpaella.es/paella-workshop/",
+    "originalWidth": 1920,
+    "originalHeight": 682,
+    "sha256": "c1a3d47ecee4b8862940a3bf041f42fc72de3d3c125d1a8e0510b405bec43ca7"
+  },
+  {
+    "guideId": "bagru-qala",
+    "checkedOn": "2026-10-17",
+    "originalUrl": "https://static.wixstatic.com/media/15c6b7_18bc959d30b549a69e9e4023ef795c13~mv2.jpg",
+    "sourceUrl": "https://www.qala-jaipur.com/",
+    "originalWidth": 1500,
+    "originalHeight": 1587,
+    "sha256": "44e9a3492218f2b380c5c99f76c58a7eec2e4901d174847b68d2636a6cba1026"
+  },
+  {
+    "guideId": "london-lcba-foundation",
+    "checkedOn": "2026-10-17",
+    "originalUrl": "https://londonbookarts.org/cdn/shop/files/DSC07912.jpg?v=1781622511",
+    "sourceUrl": "https://londonbookarts.org/collections/workshops/products/introduction-to-bookbinding-three-day-foundation-02-04-december-2026",
+    "originalWidth": 1280,
+    "originalHeight": 1280,
+    "sha256": "b3d87dd0ab46fa9d25193f682f8b6066c57a346a519d729ea0bd74c7c91bcd51"
+  },
+  {
+    "guideId": "kuala-lumpur-pewter",
+    "checkedOn": "2026-10-17",
+    "originalUrl": "https://static.wixstatic.com/media/a49d31_7b69eefbecad4300815c47bfebed48e0.jpg",
+    "sourceUrl": "https://royalselangor.wixsite.com/vc-tourists",
+    "originalWidth": 1417,
+    "originalHeight": 1446,
+    "sha256": "fd57f7c34b138f2c160a17e06479bc53e6bece78eb9ab3717f058529a368af8e"
+  },
+  {
+    "guideId": "valencia-turia-cycle",
+    "checkedOn": "2026-10-17",
+    "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Jardin_del_Turia_-Tramo_X_01.JPG/3840px-Jardin_del_Turia_-Tramo_X_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jardin_del_Turia_-Tramo_X_01.JPG",
+    "originalWidth": 3840,
+    "originalHeight": 2560,
+    "sha256": "d35648b30b86659a92759d7cb362af31e7f4816c1f4644c34306c27b1e059f68",
+    "licenseMetadata": {
+      "DateTime": {
+        "value": "2013-10-04 01:37:00",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Jardin del Turia -Tramo X 01",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Taken with Nikon D3100|Jardín del Turia|Self-published work|People with bicycles in Jardí del Túria",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Tramo X del Jardín del Turia, Valencia.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2013-09-01 11:43:01",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Dorieo\" title=\"User:Dorieo\">Dorieo</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 3.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 3.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-3.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "guideId": "london-thames-riverbus",
+    "checkedOn": "2026-10-17",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Uber_Boat_by_Thames_Clippers_Earth_Clipper_at_Greenwich%2C_27_August_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Uber_Boat_by_Thames_Clippers_Earth_Clipper_at_Greenwich,_27_August_2023.jpg",
+    "originalWidth": 3478,
+    "originalHeight": 2151,
+    "sha256": "51d0d46d17dbb87c5f83f7355820ef49f254980e842e5ce8f01cc44f7976be84",
+    "licenseMetadata": {
+      "DateTime": {
+        "value": "2023-09-25 13:48:06",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Uber Boat by Thames Clippers Earth Clipper at Greenwich, 27 August 2023",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Self-published work|Boats on the River Thames in London|Files with coordinates missing SDC location of creation (51° N, 1° W)|Earth Clipper (ship, 2023)",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "51.483433",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "-0.010386",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "'Earth Clipper' approaching Greenwich Pier on the Thames in London. She is the UK's first hybrid high-speed passenger ferry.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2023-08-27 14:59:48",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:St.501083&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:St.501083 (page does not exist)\">Stanley Hapgood</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "guideId": "melbourne-lake-punt",
+    "checkedOn": "2026-10-17",
+    "originalUrl": "https://puntingonthelake.com.au/wp-content/uploads/2026/09/punting-on-the-lake-2026-1.jpg",
+    "sourceUrl": "https://puntingonthelake.com.au/",
+    "originalWidth": 1200,
+    "originalHeight": 800,
+    "sha256": "0e38d9596ce9e61859f17cce856dcce7f292a1833b385b78456c7f98d9a71fb8"
+  },
+  {
+    "guideId": "istanbul-koc-museum",
+    "checkedOn": "2026-10-17",
+    "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Istanbul_Rahmi_M._Ko%C3%A7_Museum_Rail_car_%E2%80%9CLa_Littorina%E2%80%9D_2015_6013.jpg/3840px-Istanbul_Rahmi_M._Ko%C3%A7_Museum_Rail_car_%E2%80%9CLa_Littorina%E2%80%9D_2015_6013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Istanbul_Rahmi_M._Ko%C3%A7_Museum_Rail_car_%E2%80%9CLa_Littorina%E2%80%9D_2015_6013.jpg",
+    "originalWidth": 3840,
+    "originalHeight": 2556,
+    "sha256": "9c6f84d97e20e75dbbb0876f8af5226e6e5e845207134f9eb693d581af09df8a",
+    "licenseMetadata": {
+      "DateTime": {
+        "value": "2026-03-06 13:21:47",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Istanbul Rahmi M. Koç Museum Rail car “La Littorina” 2015 6013",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Self-published work|Files with coordinates missing SDC location of creation|FS ALn 56.1900 in the Rahmi M. Koç Museum",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "41.041903",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "28.948715",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Rail car “La Littorina”. A railcar is a self-propelled railway vehicle designed to transport passengers. The term is usually used in reference to a single coach with a driver’s cab and engine at both ends. Manufactured by Fiat in 1937 in Italy, the ALn 56 1903 was among a series of self-propelled railcars which operated on the Italian Rail System. The interior and general design of the railcar represents the pre-1930’s European style of decoration. The Littorina was named by an Italian journalist aftger the city of Littoria. Benito Mussolini travelled to this city on a Fiat AL 56, together with Senator Gianni Agnelli of FIAT on the occasion of the newly built city (now Latina). Agnelli liked the nickname “Littorina” after reading it in the newspaper and shortly afterwards FIAT adopted it.\nThe Littorina ALn 56 1903 on display is a rare and important item bearing the technical and aesthetic characteristics of the 1930’s and it is intact with all the original fittings and accessories. The original Fiat emblem and the symbols representing the flag of the Italian National Fascist Party can be seen at both ends of the the railcar which has an innovative design.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2015-12-17 11:23:20",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Dosseman\" title=\"User:Dosseman\">Dosseman</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "guideId": "naples-pietrarsa",
+    "checkedOn": "2026-10-17",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Pietrarsa_railway_museum_46.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pietrarsa_railway_museum_46.JPG",
+    "originalWidth": 3264,
+    "originalHeight": 2448,
+    "sha256": "e2c652ee5d8f0cd623164c08893b8ed43f67fc825459e8c79773832a0790988b",
+    "licenseMetadata": {
+      "DateTime": {
+        "value": "2012-08-18 22:04:33",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Pietrarsa railway museum 46",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Taken with Nikon Coolpix S8200|Self-published work|Files with coordinates missing SDC location of creation|Bayard locomotive (replica) at Pietrarsa railway museum",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "40.822222",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "14.319444",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "A Pietrarsa vasúttörténeti múzeum",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2012-08-02",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:B.Zsolt\" title=\"User:B.Zsolt\">B.Zsolt</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 3.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 3.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-3.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "guideId": "athens-snfcc-tour",
+    "checkedOn": "2026-10-17",
+    "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Stavros_Niarchos_Foundation_Cultural_Center_-_52035725472.png/3840px-Stavros_Niarchos_Foundation_Cultural_Center_-_52035725472.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stavros_Niarchos_Foundation_Cultural_Center_-_52035725472.png",
+    "originalWidth": 3840,
+    "originalHeight": 2492,
+    "sha256": "64d199d7dd6364c3652931a40b8ef851ef35a8650c23e41b22de1b7813078e57",
+    "licenseMetadata": {
+      "DateTime": {
+        "value": "2022-04-30 00:14:10",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Stavros Niarchos Foundation Cultural Center - 52035725472",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Files with coordinates missing SDC location of creation|Greece photographs taken on 2016-10-10|Flickr images reviewed by FlickreviewR 2|2016 in Kallithea|Museum restaurants and cafés in Attica|Courtyard of the Stavros Niarchos Foundation Cultural Center|Cafés in Kallithea",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "quality",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "37.939653",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "23.692295",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "The Agora at the Stavros Niarchos Foundation Cultural Center.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2016-10-10",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/195579022@N08/52035725472/\">https://www.flickr.com/photos/195579022@N08/52035725472/</a>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Strange Traveler",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 2.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 2.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-2.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "guideId": "london-chelsea-physic",
+    "checkedOn": "2026-10-17",
+    "originalUrl": "https://www.chelseaphysicgarden.co.uk/wp-content/uploads/2025/05/CIM_2911.jpg",
+    "sourceUrl": "https://www.chelseaphysicgarden.co.uk/visit/opening-times-and-tickets/",
+    "originalWidth": 2800,
+    "originalHeight": 1869,
+    "sha256": "343f1c13b8325a0b75d330872e00421bcf81bee9434ff515609d898bfc9ea88c"
+  },
+  {
+    "guideId": "rio-botanic-arboretum",
+    "checkedOn": "2026-10-17",
+    "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Palmeiras_Imperiais_Jardim_Bot%C3%A2nico_Rio_de_Janeiro.jpg/3840px-Palmeiras_Imperiais_Jardim_Bot%C3%A2nico_Rio_de_Janeiro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palmeiras_Imperiais_Jardim_Bot%C3%A2nico_Rio_de_Janeiro.jpg",
+    "originalWidth": 3840,
+    "originalHeight": 2560,
+    "sha256": "fab5f94673b4a681bd2dc490fb1e74473c711e01c0b97f737d5d7ca920a3edf1",
+    "licenseMetadata": {
+      "DateTime": {
+        "value": "2015-05-14 20:48:30",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Palmeiras Imperiais Jardim Botânico Rio de Janeiro",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Self-published work|Unidentified Arecaceae|Images from Wiki Loves Earth 2015 in Brazil|Images from Wiki Loves Earth 2015|Uploaded via Campaign:wle-br|Brazil photographs taken on 2015-01-09|Images from Wiki Loves Earth missing SDC depicts|Images from Wiki Loves Earth missing SDC location of creation",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Palmeiras Imperiais Jardim Botânico Rio de Janeiro",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2015-01-09 15:00:45",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:R_faveri&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:R faveri (page does not exist)\">R faveri</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 3.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 3.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-3.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "guideId": "paris-salle-ovale",
+    "checkedOn": "2026-10-17",
+    "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/La_salle_ovale_du_site_Richelieu%2C_Biblioth%C3%A8que_nationale_de_France%2C_Paris_2022.jpg/3840px-La_salle_ovale_du_site_Richelieu%2C_Biblioth%C3%A8que_nationale_de_France%2C_Paris_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_salle_ovale_du_site_Richelieu,_Biblioth%C3%A8que_nationale_de_France,_Paris_2022.jpg",
+    "originalWidth": 3840,
+    "originalHeight": 2707,
+    "sha256": "f0ae8de8e9d63f3b055f4bf1fba4cdea3ad969301d1fcbef19c04aceb5354b61",
+    "licenseMetadata": {
+      "DateTime": {
+        "value": "2022-10-03 02:57:40",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "La salle ovale du site Richelieu, Bibliothèque nationale de France, Paris 2022",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Salle Ovale, site Richelieu|Photographs by Jean-Pierre Dalbéra|Flickr images reviewed by FlickreviewR 2|Files with coordinates missing SDC location of creation (48° N, 2° E)|Flickr images missing SDC published in",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "48.867357",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "2.339036",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "<p><b>La salle ovale, (1897),  architectes Jean-Louis Pascal et son successeur Alfred Recoura. </b>\nSite Richelieu, BNF, Paris\n&lt;a href=\"<a rel=\"nofollow\" class=\"external free\" href=\"https://salleovale.bnf.fr/\">https://salleovale.bnf.fr/</a>\" rel=\"noreferrer nofollow\"&gt;salleovale.bnf.fr/&lt;/a&gt;\nprésentation sonore\n&lt;a href=\"<a rel=\"nofollow\" class=\"external free\" href=\"https://bnf.visite.zone/group/6239fa13c434f97940409fda/\">https://bnf.visite.zone/group/6239fa13c434f97940409fda/</a>\" rel=\"noreferrer nofollow\"&gt;bnf.visite.zone/group/6239fa13c434f97940409fda/&lt;/a&gt;\n</p><p><i>\"Salle emblématique de la BnF I Richelieu, la salle Ovale est ouverte à tous, gratuitement et sans limite d’âge. Parmi les 20 000 volumes disponibles en libre accès, une collection de 9 000 bandes dessinées à découvrir seul ou en famille..\".</i> Extrait du site de la BNF\n</p>\n&lt;a href=\"<a rel=\"nofollow\" class=\"external free\" href=\"https://www.bnf.fr/fr/la-salle-ovale\">https://www.bnf.fr/fr/la-salle-ovale</a>\" rel=\"noreferrer nofollow\"&gt;www.bnf.fr/fr/la-salle-ovale&lt;/a&gt;",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2022-10-02 12:34",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/dalbera/52400129965/\">La salle ovale du site Richelieu (Bibliothèque nationale de France)</a>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/72746018@N00\">Jean-Pierre Dalbéra</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY 2.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution 2.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by/2.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-2.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "guideId": "naples-napulitanata",
+    "checkedOn": "2026-10-17",
+    "originalUrl": "https://www.napulitanata.com/wp-content/uploads/2021/02/DSC0180-scaled.jpg",
+    "sourceUrl": "https://www.napulitanata.com/",
+    "originalWidth": 2560,
+    "originalHeight": 1707,
+    "sha256": "28fa550172035893ea8e8071a36aad12acfec0ac0b8173754682ffed7430d05b"
+  },
+  {
+    "guideId": "budapest-liszt-concert",
+    "checkedOn": "2026-10-17",
+    "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Ferenc_Liszt_Music_Academy.jpg/3840px-Ferenc_Liszt_Music_Academy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ferenc_Liszt_Music_Academy.jpg",
+    "originalWidth": 3840,
+    "originalHeight": 2160,
+    "sha256": "56feefa1a201fab4b6dc49aaaefebb7143303b5766370580ec5c3822fdc81156",
+    "licenseMetadata": {
+      "DateTime": {
+        "value": "2025-02-02 21:36:54",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Ferenc Liszt Music Academy",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Self-published work|Files with coordinates missing SDC location of creation|Interior of the Liszt Academy building, Budapest",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "47.503167",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "19.064306",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Ferenc Liszt Academy of Music interior",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2025-01-18 19:04:15",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Evgenia_Jarabik&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Evgenia Jarabik (page does not exist)\">Evgenia Jarabik</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "guideId": "cape-town-athletic-jazz",
+    "checkedOn": "2026-10-17",
+    "originalUrl": "https://theathletic.co.za/wp-content/uploads/2022/01/banner-1.jpg",
+    "sourceUrl": "https://theathletic.co.za/",
+    "originalWidth": 1920,
+    "originalHeight": 974,
+    "sha256": "0a8352e927f2053b446bf0d5d0f4cf13850a7f13bd34d9c16086ba3a06726e03"
+  }
+]
