@@ -152,7 +152,7 @@ test("precise programme distinctions and current exceptions survive publication"
 test("new local chapters and existing chapters connect distinct roles without fictional packages", () => {
   const current = publicGuides.filter((g) => canPublishGuide(g, "2026-10-20"));
   const chapters = resolveCityChapters(current);
-  assert.equal(chapters.length, 28);
+  assert.equal(chapters.length, 30);
   for (const slug of ["valencia", "naples"]) {
     const c = chapters.find((c) => c.slug === slug)!;
     assert.equal(c.stops.length, 3);

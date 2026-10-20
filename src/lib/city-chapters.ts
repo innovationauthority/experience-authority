@@ -16,6 +16,35 @@ export type CityChapter = {
 /** Authored local combinations. These are ideas to adapt, not timed or bookable packages. */
 export const cityChapters: readonly CityChapter[] = [
   {
+    slug: "new-orleans",
+    name: "New Orleans",
+    country: "united-states",
+    regions: ["new-orleans"],
+    title: "Begin at the cooktop. Leave an evening for listening.",
+    intro:
+      "A hands-on meal, an attentive Preservation Hall set and a Bywater courtyard offer three different roles in New Orleans. Cooking puts a familiar cuisine back into a sequence of tasks. Live music asks you to stop doing and listen. Choose the room and format that fit rather than trying to collect every evening.",
+    pace: "Give the cooking class its own three-hour session and choose music on a separately planned evening.",
+    planning:
+      "The School of Cooking's hands-on class is for adults eighteen and over and is not its demonstration or city-pass product. Declare allergies before booking and confirm the dated menu. Preservation Hall and Bacchanal have different admission, age, seating and music arrangements. Bywater is a separate journey from the French Quarter, not an included stop on the class. Check each programme and the return journey. Alcohol is optional, musicians are working and audience admission is not permission to film a set. No combined ticket, reserved table, transfer or EA package is implied.",
+    stops: [
+      {
+        slug: "cook-a-new-orleans-meal-from-the-first-chop",
+        moment: "Give a familiar meal its preparation back",
+        why: "An instructed adult class connects ingredients, technique and eating. Confirm the actual hands-on menu rather than assuming every gallery dish is included.",
+      },
+      {
+        slug: "hear-the-band-without-a-screen-between-you",
+        moment: "On a separately booked evening, listen closely",
+        why: "A focused Preservation Hall set makes the audience's attention part of the encounter. Read the current ticket and recording rules.",
+      },
+      {
+        slug: "let-a-bywater-backyard-set-the-evening",
+        moment: "Choose a different neighbourhood another night",
+        why: "Bacchanal offers a contrasting courtyard music setting. Admission, tables, weather and the programme need their own check rather than becoming an automatic after-class stop.",
+      },
+    ],
+  },
+  {
     slug: "buenos-aires",
     name: "Buenos Aires",
     country: "argentina",
@@ -218,12 +247,12 @@ export const cityChapters: readonly CityChapter[] = [
     name: "Amsterdam and Waterland",
     country: "netherlands",
     regions: ["amsterdam", "watergang"],
-    title: "Look closer. Choose the season's movement.",
+    title: "Look closer, then see what a house can hold.",
     intro:
-      "Let Amsterdam change scale. Micropia reveals life too small for an unaided glance. On a separately confirmed suitable day, travel north to Watergang and paddle through reed-lined channels. In the outdoor ice season, Jaap Eden offers a different movement within the city. Choose the activity that fits conditions rather than treating all three as a day's checklist.",
-    pace: "A self-paced museum visit and either a separately booked Waterland paddle or a suitable public skating slot.",
+      "Let Amsterdam change scale. Micropia reveals life too small for an unaided glance, while a canal house opens into an attic church. On a separately confirmed suitable day, Watergang replaces museum rooms with reed-lined channels. The contrast is useful without treating all three as a day's checklist.",
+    pace: "Choose one museum at a time and give a separately booked Waterland paddle its own suitable day.",
     planning:
-      "Micropia has its own admission and is not at either activity's meeting point. The Fresh Air canoe tour meets in Watergang, not at Amsterdam Noord, so allow independent transport and check the return journey. Paddling requires fitness and flexibility, and seasonal availability or weather may prevent it. Jaap Eden's outdoor season starts on 10 October 2026. Check a public rink slot, mandatory gloves and separate skate rental. Admission is not instruction. Choose different days or a winter alternative if that makes the visit calmer. No combined ticket, transfer or package is implied.",
+      "Micropia and Our Lord in the Attic have separate admission and locations. The attic museum has narrow stairs, no step-free historic route and an early closure from 11:30 on 21 October 2026. Check the actual date before booking. The Fresh Air canoe tour meets in Watergang, not at Amsterdam Noord, so allow independent transport and check the return journey. Paddling requires fitness and flexibility, and seasonal availability or weather may prevent it. Choose an indoor museum when paddling conditions do not suit the visit. No combined ticket, transfer or package is implied.",
     stops: [
       {
         slug: "look-for-the-life-too-small-to-see",
@@ -236,9 +265,9 @@ export const cityChapters: readonly CityChapter[] = [
         why: "A guided route outside the city replaces the scale of a landmark with the clearance beneath a small bridge.",
       },
       {
-        slug: "follow-amsterdams-winter-ice-loop",
-        moment: "When winter admission fits, choose the rink instead",
-        why: "The maintained outdoor ice season begins on 10 October 2026. Public skating is a separately planned alternative to a paddling session, not a lesson or frozen-canal promise.",
+        slug: "find-a-church-inside-an-amsterdam-house",
+        moment: "On another visit, look behind a familiar frontage",
+        why: "The historic house makes the change of scale physical before the attic church opens above it. Its stairs and date-specific hours need a separate check.",
       },
     ],
   },
@@ -423,15 +452,20 @@ export const cityChapters: readonly CityChapter[] = [
     regions: ["new-york-city"],
     title: "Shape the ring. Follow the bottle. Open the other side.",
     intro:
-      "Begin with a New York icon you can make rather than rank. Follow a reusable seltzer siphon into a working interior, or choose a lighter Governors Island bicycle outing. Ellis Island offers a separate hospital-history encounter. The islands have different roles and ferry arrangements, not an interchangeable harbour package.",
+      "Begin with a New York icon you can make rather than rank. Follow a reusable seltzer siphon into a working interior, choose a lighter Governors Island ride or slow down beside a Brooklyn garden pond. Ellis Island offers a separate hospital-history encounter. These are choices across a stay, not an interchangeable harbour or borough package.",
     pace: "One booked experience per day gives each borough and island crossing enough room.",
     planning:
-      "BagelUp's public classes use live weekend dates and the exact venue must be confirmed during booking. The Brooklyn Seltzer Museum is in Cypress Hills and is usually open for public tours on selected Fridays. Governors Island needs its own ferry, return check and bicycle arrangement. It is not on the Ellis Island ferry route. Ellis Island requires a separately purchased ferry, security time, early arrival and strict footwear, age and mobility checks. Do not attempt them as a continuous route. No combined ticket, transfer, meal beyond the class or package is implied.",
+      "BagelUp's public classes use live weekend dates and the exact venue must be confirmed during booking. The Brooklyn Seltzer Museum is in Cypress Hills and is usually open for public tours on selected Fridays. Brooklyn Botanic Garden is a separate destination with a special-event ticket on 24 October 2026, shorter November hours and entrance notices. Governors Island needs its own ferry, return check and bicycle arrangement. It is not on the Ellis Island ferry route. Ellis Island requires a separately purchased ferry, security time, early arrival and strict footwear, age and mobility checks. Do not attempt them as a continuous route. No combined ticket, transfer, meal beyond the class or package is implied.",
     stops: [
       {
         slug: "make-the-bagel-before-new-york-serves-it",
         moment: "Begin with the New York everyone can taste",
         why: "Roll, boil and bake before you eat. The familiar ring becomes a sequence of texture, timing and heat rather than another contest for the best counter.",
+      },
+      {
+        slug: "let-brooklyn-slow-around-a-garden-pond",
+        moment: "On a different day, give the city a planted pause",
+        why: "A permitted pond-side loop adds a quieter Brooklyn visit. BBG's special ticket on 24 October and seasonal hours must be checked independently of the other bookings.",
       },
       {
         slug: "follow-the-fizz-through-a-working-factory",
@@ -457,15 +491,20 @@ export const cityChapters: readonly CityChapter[] = [
     regions: ["rome"],
     title: "Make the shape. Follow the road. Enter the machine room.",
     intro:
-      "Begin with the Rome almost everyone can picture, then change what makes it memorable. Give pasta enough time to become technique. Ride part of the road that carried the city beyond itself. Finish where ancient sculpture stands inside Rome's first public power station.",
-    pace: "One hands-on session, one outdoor half-day and one flexible museum visit.",
+      "Begin with the Rome almost everyone can picture, then change what makes it memorable. Give pasta enough time to become technique, choose a manageable Appian Way ride or look at sculpture inside a former power station. A botanical garden near Trastevere adds a lighter interval without another lesson.",
+    pace: "Choose one substantial booked or outdoor outing per day and leave a garden pause flexible.",
     planning:
-      "The pasta class is a three-hour paid booking at one of two named locations. Via Appia is outside the central monument circuit and needs a separate weather, surface, traffic, equipment and return check. Centrale Montemartini is on Via Ostiense and works best as its own unhurried visit. Do not force all three into one day. They are separate public offers with no combined ticket, transport, meal beyond the class, bicycle support or package included.",
+      "The pasta class is a three-hour paid booking at one of two named locations. Via Appia is outside the central monument circuit and needs a separate weather, surface, traffic, equipment and return check. Centrale Montemartini is on Via Ostiense and works best as its own unhurried visit. The botanical garden has a separate Trastevere entrance, sloping paths and seasonal last entry. Do not force all four into one day. They are separate public offers with no combined ticket, transport, meal beyond the class, bicycle support or package included.",
     stops: [
       {
         slug: "make-pasta-until-the-sauce-makes-sense",
         moment: "Begin with the thing everyone recognises",
         why: "Roll, cut and fill before you eat. The familiar plate becomes a relationship between dough, shape, filling and sauce rather than another name on a list.",
+      },
+      {
+        slug: "give-trastevere-a-garden-paced-afternoon",
+        moment: "Keep a lighter garden interval on another day",
+        why: "A short botanical-garden loop changes the pace without needing another class. Choose a suitable route on its sloping site and check the day's last entry.",
       },
       {
         slug: "ride-the-road-rome-built-to-leave-it",

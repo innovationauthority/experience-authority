@@ -1,6 +1,24 @@
 /** Content hashes keep replaced photographs consistent across responsive image caches.
  * The media test requires an update when an original file changes. */
 export const imageRevisions: Record<string, string> = {
+  "/images/guides/san-sebastian-mimo-pintxos.jpg": "98086fac1526",
+  "/images/guides/istanbul-yummy-two-continents.jpg": "0ad86a1419ce",
+  "/images/guides/new-orleans-hands-on-cooking.jpg": "ceed02bee6ef",
+  "/images/guides/venice-camacana-mask-decoration.jpg": "792a0001be47",
+  "/images/guides/tokyo-shunkaen-bonsai-class.jpg": "a48a13900db4",
+  "/images/guides/oaxaca-tenido-mano-indigo.jpg": "4ae748832c81",
+  "/images/guides/budapest-childrens-railway.jpg": "7fef3e7ca483",
+  "/images/guides/san-francisco-cable-car.jpg": "29be2c182d49",
+  "/images/guides/montreal-lachine-cycle.jpg": "5b289ee9387f",
+  "/images/guides/amsterdam-attic-church.jpg": "af0bdaca1357",
+  "/images/guides/cape-town-zeitz-guided.jpg": "e31a55d65796",
+  "/images/guides/mexico-city-anahuacalli.jpg": "399c1329863d",
+  "/images/guides/helsinki-oodi-reading.jpg": "b9ed3c7ebb8b",
+  "/images/guides/rome-botanical-pause.jpg": "97861a7528dc",
+  "/images/guides/brooklyn-japanese-garden.jpg": "44bb3807134e",
+  "/images/guides/edinburgh-storytelling-festival.jpg": "e7dae83e4032",
+  "/images/guides/mexico-city-ballet-folklorico.jpg": "5e14b1ead11f",
+  "/images/guides/melbourne-jazzlab-set.jpg": "afe8bc1fc25d",
   "/images/guides/athens-greek-kitchen.jpg": "10162ebc51e8",
   "/images/guides/taipei-cookinn-dumplings.jpg": "4e537e2f0f1d",
   "/images/guides/palermo-streaty-markets.jpg": "2246a6d5f6c2",
@@ -305,7 +323,7 @@ export const imageRevisions: Record<string, string> = {
 
 // A single manifest fingerprint fits Next's bounded localPatterns allowlist.
 // Tests require it to change when any original is added or replaced.
-export const imageEdition = "44aaa397299c";
+export const imageEdition = "8de711ab2488";
 
 export function imageSource(src: string) {
   return imageRevisions[src] ? `${src}?v=${imageEdition}` : src;

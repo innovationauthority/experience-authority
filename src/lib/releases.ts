@@ -7,10 +7,17 @@ import { edition20261007 } from "./discovery-batch-44";
 import { edition20261014 } from "./discovery-batch-45";
 import { edition20261017 } from "./discovery-batch-46";
 import { edition20261020 } from "./discovery-batch-47";
+import { edition20261020SecondPass } from "./discovery-batch-48";
 
 /** Publication dates are distinct from source-check dates. Older undated guides are not backfilled. */
 export const guideReleases = [
-  { date: "2026-10-20", slugs: Object.values(edition20261020).flat() },
+  {
+    date: "2026-10-20",
+    slugs: [
+      ...Object.values(edition20261020SecondPass).flat(),
+      ...Object.values(edition20261020).flat(),
+    ],
+  },
   { date: "2026-10-17", slugs: Object.values(edition20261017).flat() },
   { date: "2026-10-14", slugs: Object.values(edition20261014).flat() },
   { date: "2026-10-07", slugs: Object.values(edition20261007).flat() },

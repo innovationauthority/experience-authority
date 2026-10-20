@@ -234,20 +234,27 @@ test("local combinations provide contrasting roles without inventing shared rese
   );
   assert.equal(
     currentChapters.length,
-    28,
+    30,
     "Only chapters whose complete authored stops are current can be published",
   );
   for (const slug of ["singapore", "sydney", "buenos-aires", "rio-de-janeiro"])
     assert.ok(currentChapters.some((c) => c.slug === slug));
   assert.ok(
-    !currentChapters.some((c) => c.slug === "amsterdam-waterland"),
-    "Expired winter skating must hide the complete Amsterdam chapter, not be silently renewed",
+    currentChapters.some(
+      (c) =>
+        c.slug === "amsterdam-waterland" &&
+        c.stops.some(
+          (s) => s.slug === "find-a-church-inside-an-amsterdam-house",
+        ) &&
+        !c.stops.some((s) => s.slug === "follow-amsterdams-winter-ice-loop"),
+    ),
+    "The freshly checked attic museum can restore the chapter without silently renewing expired winter skating",
   );
   for (const [slug, count] of [
     ["copenhagen", 2],
     ["dublin", 4],
     ["lisbon", 4],
-    ["new-york-city", 4],
+    ["new-york-city", 5],
     ["vienna", 3],
     ["mexico-city", 4],
   ] as const) {

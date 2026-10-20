@@ -1,4 +1,112 @@
 {
+  "/experiences/build-a-pintxo-before-ordering-the-next": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-11-20",
+    "countrySlug": "spain",
+    "regionSlug": "san-sebastian"
+  },
+  "/experiences/let-breakfast-take-you-across-istanbul": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-11-20",
+    "countrySlug": "turkiye",
+    "regionSlug": "istanbul"
+  },
+  "/experiences/cook-a-new-orleans-meal-from-the-first-chop": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-12-20",
+    "countrySlug": "united-states",
+    "regionSlug": "new-orleans"
+  },
+  "/experiences/give-a-venetian-mask-a-face-of-your-own": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-12-20",
+    "countrySlug": "italy",
+    "regionSlug": "venice"
+  },
+  "/experiences/shape-a-young-bonsai-in-tokyo": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-11-20",
+    "countrySlug": "japan",
+    "regionSlug": "tokyo"
+  },
+  "/experiences/watch-oaxacas-blue-appear-in-the-air": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-12-20",
+    "countrySlug": "mexico",
+    "regionSlug": "oaxaca-city"
+  },
+  "/experiences/ride-into-budas-hills-on-a-smaller-railway": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-11-20",
+    "countrySlug": "hungary",
+    "regionSlug": "budapest"
+  },
+  "/experiences/ride-san-francisco-at-the-grip-operators-pace": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-12-20",
+    "countrySlug": "united-states",
+    "regionSlug": "san-francisco"
+  },
+  "/experiences/read-montreal-between-the-canal-locks": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-11-15",
+    "countrySlug": "canada",
+    "regionSlug": "montreal"
+  },
+  "/experiences/find-a-church-inside-an-amsterdam-house": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-12-20",
+    "countrySlug": "netherlands",
+    "regionSlug": "amsterdam"
+  },
+  "/experiences/follow-a-museum-guide-beyond-cape-towns-silo-atrium": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-12-20",
+    "countrySlug": "south-africa",
+    "regionSlug": "cape-town"
+  },
+  "/experiences/read-mexico-citys-volcanic-stone-at-anahuacalli": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-12-20",
+    "countrySlug": "mexico",
+    "regionSlug": "mexico-city"
+  },
+  "/experiences/read-a-little-of-helsinki-from-oodis-top-floor": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-12-20",
+    "countrySlug": "finland",
+    "regionSlug": "helsinki"
+  },
+  "/experiences/give-trastevere-a-garden-paced-afternoon": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-12-20",
+    "countrySlug": "italy",
+    "regionSlug": "rome"
+  },
+  "/experiences/let-brooklyn-slow-around-a-garden-pond": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-12-20",
+    "countrySlug": "united-states",
+    "regionSlug": "new-york-city"
+  },
+  "/experiences/let-edinburgh-tell-you-a-story-out-loud": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-10-31",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "edinburgh"
+  },
+  "/experiences/watch-mexicos-regional-dances-share-one-stage": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-10-31",
+    "countrySlug": "mexico",
+    "regionSlug": "mexico-city"
+  },
+  "/experiences/let-a-brunswick-jazz-room-change-the-evening": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-11-20",
+    "countrySlug": "australia",
+    "regionSlug": "melbourne"
+  },
   "/experiences/cook-athens-from-market-to-table": {
     "availableFrom": "2026-10-20",
     "reviewBy": "2026-12-20",

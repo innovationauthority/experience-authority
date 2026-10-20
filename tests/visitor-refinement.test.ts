@@ -34,7 +34,7 @@ test("NYC is a useful search alias without adding unrelated guides", () => {
   const results = publicGuides.filter((item) =>
     matchesFinder(item, { q: "NYC" }),
   );
-  assert.equal(results.length, 4);
+  assert.equal(results.length, 5);
   assert.ok(results.every((item) => item.regionSlug === "new-york-city"));
 });
 

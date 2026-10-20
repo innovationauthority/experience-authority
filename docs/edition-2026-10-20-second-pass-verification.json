@@ -1,0 +1,277 @@
+{
+  "edition": "2026-10-20",
+  "pass": "second",
+  "batch": 48,
+  "trigger": "Manual user request: daj jos 18",
+  "netNewGuides": 18,
+  "primaryAllocations": {
+    "Eat & drink": 3,
+    "Make": 3,
+    "Move": 3,
+    "Explore & reflect": 3,
+    "Reset": 3,
+    "Shared rituals": 3
+  },
+  "catalogue": {
+    "authoredBefore": 298,
+    "authoredAfter": 316,
+    "eligiblePublicOn20October": 305,
+    "existingRecordsOutsideReviewWindow": 11,
+    "authoredCountriesAndTerritories": 109,
+    "newEditionCountries": 13,
+    "newEditionCityOrAreaDestinations": 17,
+    "qualification": "Eighteen genuinely new programme or public-admission records. Cooking and making are distinct from already published food walks, glass workshops or museum visits. No old source date or expired guide was silently renewed."
+  },
+  "releaseHandling": {
+    "date": "2026-10-20",
+    "guidesOnThisDate": 36,
+    "newestPassFirst": true,
+    "duplicateReleaseDateEntries": false,
+    "previousPassPreserved": true
+  },
+  "method": "Existing catalogue, deferred candidates, previous runs and Git history checked before selection. Original public-source guides distinguish actual visitor participation from marketing. No EA attendance, on-site review, partnership, private permission, joint booking or transfer is implied.",
+  "sources": {
+    "checkedOn": "2026-10-20",
+    "uniqueUrlsChecked": 62,
+    "directHttp200": 62,
+    "exceptions": [],
+    "scope": "Current official programme, transport, cultural-institution and access pages. French, Hungarian, Spanish and Italian sources were used where English material was stale or less specific. Calendars were read without booking, purchasing, submitting a form or contacting a third party."
+  },
+  "photography": {
+    "realPhotographs": 18,
+    "aiGenerated": 0,
+    "documentedLicences": 12,
+    "officialSourceModerateRisk": 6,
+    "rightsBoundary": "Attribution is not permission. Six official-source photographs follow the existing EA moderate-risk policy with explicit disclosure that reuse rights are not independently cleared. Twelve documented Creative Commons photographs retain creator, source, licence and applicable share-alike information. No generative photo editing.",
+    "provenance": "docs/edition-2026-10-20-second-pass-photo-provenance.json",
+    "imageEdition": "8de711ab2488",
+    "creditFormat": "Image: author / source ↗, direct source opens in a new tab",
+    "depictionBoundary": "Historical photographs are not evidence of present weather, staffing, planting, a particular menu or future programme. The Ballet image title and original-date metadata conflict, so no exact capture date is claimed. The actual Oodi third-floor reading area was selected instead of a staircase, robot or ground-floor lobby."
+  },
+  "integration": {
+    "newLocalChapters": [
+      "New Orleans"
+    ],
+    "restoredLocalChapters": [
+      "Amsterdam and Waterland, with a freshly checked attic museum replacing an expired skating stop"
+    ],
+    "expandedLocalChapters": [
+      "Rome",
+      "New York City"
+    ],
+    "authoredLocalChapters": 30,
+    "publicLocalChaptersOn20October": 30,
+    "futureDailyAngles": 6,
+    "futureDailyDates": "2026-11-26 to 2026-12-01",
+    "previousFutureEditionsPreserved": true,
+    "publishedDailyHistoryChanged": false,
+    "surfaces": [
+      "Compass",
+      "country and city filters",
+      "six visitor interests",
+      "editorial fields",
+      "places",
+      "collections",
+      "dated new guides",
+      "future Daily discovery",
+      "connected local experiences",
+      "Passport",
+      "journey planning",
+      "sitemap",
+      "canonical URLs",
+      "Article and ImageObject structured data"
+    ],
+    "boundaries": [
+      "Oaxaca City is distinct from the existing wider Oaxaca mezcal destination.",
+      "The Brooklyn garden uses the existing new-york-city region, not a duplicate new-york destination.",
+      "The Amsterdam chapter does not reopen or renew the expired winter-skating record.",
+      "New Orleans music venues have separate admission, age, seat and programme conditions, with independent transport.",
+      "Local chapters are editable visit ideas, not packaged, timed or jointly bookable itineraries."
+    ]
+  },
+  "publicationBoundaries": [
+    "Montréal canal cycling uses the 13.5-kilometre cycling path, the 15 April to 15 November maintenance window and current Des Seigneurs / CN-Wellington works. Review expires 15 November.",
+    "Edinburgh's actual 21 to 31 October festival and Bellas Artes' checked October programme expire 31 October rather than becoming unverified November promises.",
+    "Amsterdam closes from 11:30 on 21 October. Historic attic access is not step-free and CoVisit is currently unavailable.",
+    "BBG's 24 October Fall Harvest Festival needs a special ticket. Native Flora Garden is under construction and the listed Eastern Parkway entrance is closed.",
+    "Ca' Macana ABC decorates a prepared mask, accepts a free reservation for a paid class and currently requires cash on site.",
+    "Shunkaen's public class is not an apprenticeship, a promise of the founder as teacher or permission to export a living plant.",
+    "The Budapest railway has adult drivers and safety staff. Passengers do not enter staff areas or turn young participants into photographic props.",
+    "Zeitz MOCAA's current included public tour is at 12:30 Monday to Friday, not the stale FAQ schedule or an exclusive architecture tour.",
+    "Cable cars are not wheelchair accessible, carry no bicycles and a single ride is not a transfer or return ticket."
+  ],
+  "rejectedOrDeferred": [
+    {
+      "candidate": "Mokuhankan Print Parties, Tokyo",
+      "reason": "Historical party-room programme did not establish a current public introductory class. Not published from a 2019 listing."
+    },
+    {
+      "candidate": "Takezasado English visitor workshop, Kyoto",
+      "reason": "Old English reopening and temporary-unavailability statements did not establish a confirmed current ordinary class. Deferred, not declared closed."
+    },
+    {
+      "candidate": "Dovecot rug tufting",
+      "reason": "Found 17 October 2026 session was already past and sold out. Not republished as current availability."
+    },
+    {
+      "candidate": "Bo Sang umbrella making",
+      "reason": "Worker painting and demonstrations did not establish a current visitor hands-on class. Not forced into Make."
+    },
+    {
+      "candidate": "Scarpelli mosaic atelier, Florence",
+      "reason": "A working atelier visit did not establish a visitor making lesson."
+    },
+    {
+      "candidate": "Fe y Lola, Oaxaca",
+      "reason": "A public studio visit is not evidence of hands-on dyeing. Selected Teñido a Mano's explicit two-hour programme instead."
+    },
+    {
+      "candidate": "Brooklyn Native Flora Garden",
+      "reason": "Official construction closure. Selected the separately documented Japanese Hill-and-Pond Garden."
+    },
+    {
+      "candidate": "Stale Ballet Folklórico programmes",
+      "reason": "The 2025 INBAL entry and company's May page were not used as October 2026 availability. Current INBAL and dated ticketing listings were checked."
+    },
+    {
+      "candidate": "Rejected photographic alternatives",
+      "reason": "Uncertain-provenance operator image, tiny mask-course derivatives, blurred foliage, an unrelated lobby, a robotics image, obstructing branches, seasonal blossom banner, artist publicity graphics, press clippings and a flat distant canal view were not substituted for relevant documentary photographs."
+    }
+  ],
+  "guidesByPrimaryArea": {
+    "eat-drink": [
+      {
+        "title": "Build a pintxo before ordering the next",
+        "url": "https://experienceauthority.com/experiences/build-a-pintxo-before-ordering-the-next",
+        "eaValue": "Begin at a San Sebastián bar and market, then make pintxos at a teaching kitchen before sitting down to lunch."
+      },
+      {
+        "title": "Let breakfast take you across Istanbul",
+        "url": "https://experienceauthority.com/experiences/let-breakfast-take-you-across-istanbul",
+        "eaValue": "Follow a food-led route from the Spice Market across the Bosphorus to Kadıköy, making the crossing part of the meal."
+      },
+      {
+        "title": "Cook a New Orleans meal from the first chop",
+        "url": "https://experienceauthority.com/experiences/cook-a-new-orleans-meal-from-the-first-chop",
+        "eaValue": "Choose a hands-on French Quarter class and work through a Louisiana meal before sharing it at the table."
+      }
+    ],
+    "make-learn": [
+      {
+        "title": "Give a Venetian mask a face of your own",
+        "url": "https://experienceauthority.com/experiences/give-a-venetian-mask-a-face-of-your-own",
+        "eaValue": "Choose a prepared papier-mâché mask at Ca' Macana and spend an hour learning how decoration changes its character."
+      },
+      {
+        "title": "Shape a young bonsai in Tokyo",
+        "url": "https://experienceauthority.com/experiences/shape-a-young-bonsai-in-tokyo",
+        "eaValue": "Arrange a beginner lesson at Shunkaen and learn to look at a small living tree before deciding how to work on it."
+      },
+      {
+        "title": "Watch Oaxaca's blue appear in the air",
+        "url": "https://experienceauthority.com/experiences/watch-oaxacas-blue-appear-in-the-air",
+        "eaValue": "Join a two-hour indigo session in Oaxaca City and follow a piece of cotton from dye vat to changing blue."
+      }
+    ],
+    "move-water": [
+      {
+        "title": "Ride into Buda's hills on a smaller railway",
+        "url": "https://experienceauthority.com/experiences/ride-into-budas-hills-on-a-smaller-railway",
+        "eaValue": "Take the Children's Railway through Budapest's wooded hills and notice a public transport journey organised on an unusual scale."
+      },
+      {
+        "title": "Ride San Francisco at the grip operator's pace",
+        "url": "https://experienceauthority.com/experiences/ride-san-francisco-at-the-grip-operators-pace",
+        "eaValue": "Take a working cable car through San Francisco and follow the sounds and decisions that a postcard cannot show."
+      },
+      {
+        "title": "Read Montréal between the canal locks",
+        "url": "https://experienceauthority.com/experiences/read-montreal-between-the-canal-locks",
+        "eaValue": "Cycle a manageable stretch of the Lachine Canal and let locks, bridges and old industrial buildings give the city another rhythm."
+      }
+    ],
+    "explore-reflect": [
+      {
+        "title": "Find a church inside an Amsterdam house",
+        "url": "https://experienceauthority.com/experiences/find-a-church-inside-an-amsterdam-house",
+        "eaValue": "Walk through a seventeenth-century canal house and discover the remarkably different room hidden under its roof."
+      },
+      {
+        "title": "Follow a museum guide beyond Cape Town's silo atrium",
+        "url": "https://experienceauthority.com/experiences/follow-a-museum-guide-beyond-cape-towns-silo-atrium",
+        "eaValue": "Begin with Zeitz MOCAA's extraordinary converted grain silo, then give the contemporary art the time that the building attracts."
+      },
+      {
+        "title": "Read Mexico City's volcanic stone at Anahuacalli",
+        "url": "https://experienceauthority.com/experiences/read-mexico-citys-volcanic-stone-at-anahuacalli",
+        "eaValue": "Visit Anahuacalli and follow the conversation between volcanic stone, a twentieth-century building and Diego Rivera's collection."
+      }
+    ],
+    "swim-reset": [
+      {
+        "title": "Read a little of Helsinki from Oodi's top floor",
+        "url": "https://experienceauthority.com/experiences/read-a-little-of-helsinki-from-oodis-top-floor",
+        "eaValue": "Step into Helsinki's central library, browse its open shelves and give a public reading room part of your day."
+      },
+      {
+        "title": "Give Trastevere a garden-paced afternoon",
+        "url": "https://experienceauthority.com/experiences/give-trastevere-a-garden-paced-afternoon",
+        "eaValue": "Enter Sapienza's botanical garden near Trastevere and let planting, paths and shade set a slower Roman hour."
+      },
+      {
+        "title": "Let Brooklyn slow around a garden pond",
+        "url": "https://experienceauthority.com/experiences/let-brooklyn-slow-around-a-garden-pond",
+        "eaValue": "Follow the permitted paths of Brooklyn Botanic Garden's Japanese Hill-and-Pond Garden and watch a small landscape change as you move."
+      }
+    ],
+    "shared-rituals": [
+      {
+        "title": "Let Edinburgh tell you a story out loud",
+        "url": "https://experienceauthority.com/experiences/let-edinburgh-tell-you-a-story-out-loud",
+        "eaValue": "Choose a live story at Edinburgh's October storytelling festival and let a voice, rather than a landmark, hold your attention."
+      },
+      {
+        "title": "Watch Mexico's regional dances share one stage",
+        "url": "https://experienceauthority.com/experiences/watch-mexicos-regional-dances-share-one-stage",
+        "eaValue": "See Ballet Folklórico de México at Bellas Artes and notice how regional dance becomes a carefully made theatre performance."
+      },
+      {
+        "title": "Let a Brunswick jazz room change the evening",
+        "url": "https://experienceauthority.com/experiences/let-a-brunswick-jazz-room-change-the-evening",
+        "eaValue": "Book a set at Melbourne's JazzLab and give a small live-music room, rather than another bar stop, the centre of an evening."
+      }
+    ]
+  },
+  "localVerification": {
+    "unitTests": 112,
+    "unitFailures": 0,
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "smokePages": 664,
+    "unpublishedPathsChecked": 27,
+    "uniqueCspNonces": 648,
+    "smokeFailures": 0,
+    "newGuideHtmlAndRawPhotoFingerprints": 18,
+    "optimizedWebpPhotographs": 18,
+    "browserWidths": [
+      390,
+      1440
+    ],
+    "browserRouteAndViewportChecks": 118,
+    "browserFailures": 0,
+    "visualReview": "All eighteen guide first views inspected on mobile and desktop. Core homepage and Today views also inspected. No broken photographs, horizontal overflow, runtime errors or automated WCAG A/AA violations detected.",
+    "accessibilityBoundary": "Automated checks are regression checks, not a complete accessibility certification.",
+    "interactions": [
+      "country and city filtering",
+      "new New Orleans guide discovery",
+      "photo enlargement, Escape and focus restoration",
+      "save to Passport and add to private journey",
+      "journey-name persistence after reload",
+      "keyboard skip link",
+      "analytics remains behind consent"
+    ]
+  },
+  "verificationStage": "Prepublication verification complete",
+  "productionConfirmation": "This pre-push record does not claim deployment. After push, confirm exact main commit Vercel success, all eighteen live guide pages and photograph fingerprints, optimized images, sitemap, the complete smoke suite and mobile / desktop browser and interaction checks. Keep the regular Wednesday automation unchanged.",
+  "preservedUnrelatedFile": "docs/research-handoff-2026-09-27.json remains untracked and is excluded from this commit."
+}

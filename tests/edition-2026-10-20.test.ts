@@ -104,7 +104,7 @@ test("20 October adds eighteen genuinely new guides and three primary allocation
   );
   assert.equal(
     publishedReleases(publicGuides, "2026-10-20")[0].guides.length,
-    18,
+    36,
   );
   assert.equal(
     publishedReleases(publicGuides, "2026-10-19")[0].date,
@@ -185,7 +185,7 @@ test("programme boundaries keep the actual role, branch, season and conditions v
 test("local chapters connect real choices and never fabricate a combined itinerary", () => {
   const current = publicGuides.filter((g) => canPublishGuide(g, "2026-10-20"));
   const chapters = resolveCityChapters(current);
-  assert.equal(chapters.length, 28);
+  assert.equal(chapters.length, 30);
   for (const [slug, count] of [
     ["buenos-aires", 4],
     ["rio-de-janeiro", 2],
@@ -213,8 +213,21 @@ test("local chapters connect real choices and never fabricate a combined itinera
     /January 2027/,
   );
   assert.ok(
-    !chapters.some((c) => c.slug === "amsterdam-waterland"),
-    "An expired old stop cannot be silently renewed",
+    chapters.some(
+      (c) =>
+        c.slug === "amsterdam-waterland" &&
+        c.stops.some(
+          (s) => s.slug === "find-a-church-inside-an-amsterdam-house",
+        ) &&
+        !c.stops.some((s) => s.slug === "follow-amsterdams-winter-ice-loop"),
+    ),
+    "Fresh attic-museum evidence restores the chapter without renewing expired skating",
+  );
+  assert.ok(
+    !canPublishGuide(
+      publicGuides.find((g) => g.id === "amsterdam-jaap-eden")!,
+      "2026-10-20",
+    ),
   );
   for (const g of guideBatch47) {
     const hasLocal = current.some(
@@ -232,8 +245,8 @@ test("local chapters connect real choices and never fabricate a combined itinera
     assert.equal(connection.item.countrySlug, g.countrySlug);
     if (hasLocal) assert.equal(connection.item.regionSlug, g.regionSlug);
   }
-  assert.equal(publicGuides.length, 298);
-  assert.equal(current.length, 287);
+  assert.equal(publicGuides.length, 316);
+  assert.equal(current.length, 305);
 });
 test("six future discoveries extend rather than overwrite the preceding editions", () => {
   assert.equal(discoveryEdition47.length, 6);
