@@ -16,6 +16,64 @@ export type CityChapter = {
 /** Authored local combinations. These are ideas to adapt, not timed or bookable packages. */
 export const cityChapters: readonly CityChapter[] = [
   {
+    slug: "buenos-aires",
+    name: "Buenos Aires",
+    country: "argentina",
+    regions: ["buenos-aires"],
+    title: "Ride the city. Follow the shade. Let the evening change tempo.",
+    intro:
+      "A guided bicycle circuit, a public botanical garden, beginner tango and conducted percussion offer different roles in Buenos Aires. Choose a movement to learn and another moment simply to notice. These encounters need not share a day to make the city feel more connected.",
+    pace: "Give the ride its own outing, the garden an unhurried visit and each music or dance programme a separately chosen evening.",
+    planning:
+      "The South Circuit covers several neighbourhoods and needs its own ability, traffic and weather check. The botanical garden is in Palermo and closes on Mondays, so do not schedule it before a Monday Lunes Bomba performance. Konex is in Abasto and admits adults eighteen and over. La Viruta Tango AR has a separate class and admission schedule, with no dance partner owed to a visitor. Confirm dates, teaching languages, access and late transport independently. A tango lesson, concert ticket and bicycle booking are not a combined package.",
+    stops: [
+      {
+        slug: "ride-between-buenos-aires-city-stories",
+        moment: "Connect more than one neighbourhood",
+        why: "A guided ride helps the spaces between familiar names become part of the visit. Follow the actual operator's route and ability requirements.",
+      },
+      {
+        slug: "follow-shade-through-buenos-aires",
+        moment: "On a day other than Monday, lower the pace",
+        why: "A labelled plant offers a small observation that can follow you back into the streets. Ordinary entry does not guarantee greenhouse access.",
+      },
+      {
+        slug: "learn-the-step-before-joining-the-floor",
+        moment: "Choose a beginner's evening",
+        why: "Tango begins with attention to another person and a shared floor. Watching remains a complete choice.",
+      },
+      {
+        slug: "follow-the-hands-conducting-buenos-aires",
+        moment: "If a confirmed Monday fits, follow the signal",
+        why: "The percussion ensemble makes part of its composing process visible. This is an adults-only concert, not a lesson or an inherited ritual.",
+      },
+    ],
+  },
+  {
+    slug: "rio-de-janeiro",
+    name: "Rio de Janeiro",
+    country: "brazil",
+    regions: ["rio-de-janeiro"],
+    title: "Look beneath the palms. Listen inside a samba room.",
+    intro:
+      "A botanical garden and a live Lapa programme offer two useful scales of attention. Begin with the familiar palms, then leave the next encounter to people making music in a room. Neither needs to stand for the whole of Rio.",
+    pace: "An independently planned garden visit and a separately booked music evening, with time to travel and recover.",
+    planning:
+      "Jardim Botânico and Lapa are different neighbourhoods, not consecutive stops in a supplied walking route. Ordinary arboretum admission on Wednesdays begins later than on other days. Read weather notices and distinguish member access from public entry. Carioca da Gema has date-specific admission, table conditions and performance times. Confirm age, access and transport before booking. The separately documented Sambadrome rehearsals concern January 2027, not an extra show happening on an October visit. No shared ticket, transfer, meal or EA package is implied.",
+    stops: [
+      {
+        slug: "walk-beneath-rios-imperial-palms",
+        moment: "Let the famous avenue introduce a smaller detail",
+        why: "A public garden becomes more memorable when a leaf or labelled plant shares the attention given to the palm-lined view.",
+      },
+      {
+        slug: "let-a-lapa-samba-room-set-the-evening",
+        moment: "Give another part of the day to a current programme",
+        why: "A booked samba evening offers live musicians and optional audience dancing, not a Carnaval parade, school visit or guaranteed table.",
+      },
+    ],
+  },
+  {
     slug: "valencia",
     name: "Valencia",
     country: "spain",
@@ -104,15 +162,20 @@ export const cityChapters: readonly CityChapter[] = [
     regions: ["dublin"],
     title: "Try the movement. Slow the morning. Leave room for the tune.",
     intro:
-      "A Gaelic-games introduction, a botanical pause and a traditional music session give Dublin three different scales of attention. Try a movement, stay with a living detail, then listen without taking over. They work as separate encounters, not a claim that a visitor becomes part of a club or a musicians' circle in a day.",
-    pace: "A prebooked active session and an independently chosen listening evening, with time to recover and travel.",
+      "A Gaelic-games introduction, a botanical pause, a Claddagh ring workshop and a traditional music session give Dublin different scales of attention. Try a movement, stay with a living detail, shape a small object and listen without taking over. They are separate encounters, not a claim that a visitor becomes part of a club or a musicians' circle in a day.",
+    pace: "Choose one prebooked activity for a morning or afternoon, and leave the garden and listening evening their own time.",
     planning:
-      "The games session meets at Na Fianna on Mobhi Road, the gardens are in Glasnevin and the Cobblestone is in Smithfield. Confirm the coaching date, duration, ability and transport independently. Garden and glasshouse hours change seasonally. The pub does not reserve front-bar seats or serve food, so plan dinner separately. Under-18s must leave by 9pm. Keep musicians' spaces clear and check current session times. No combined ticket, guaranteed seat, match admission, transfer or EA package is implied.",
+      "The games session meets at Na Fianna on Mobhi Road, the gardens are in Glasnevin and the Cobblestone is in Smithfield. Silver Works' Claddagh class needs a separate city-centre booking, with age and stair restrictions and a confirmed venue. Plan coaching ability, transport and workshop dates independently. Garden hours change seasonally. The pub does not reserve front-bar seats or serve food, and under-18s must leave by 9pm. Keep musicians' spaces clear. No combined ticket, guaranteed seat, match admission, transfer or EA package is implied.",
     stops: [
       {
         slug: "give-dublin-a-glasshouse-paced-morning",
         moment: "Keep another morning unhurried",
         why: "One open glasshouse and a manageable garden loop offer a cultivated botanical contrast. This is not a recovery treatment or an included extension of the sports session.",
+      },
+      {
+        slug: "make-the-irish-ring-you-can-read",
+        moment: "Give a symbol a practical making problem",
+        why: "A separately booked Claddagh class adds silver, fit and finish to an Irish form. It has age and stair restrictions, and some processes are demonstrated rather than performed by visitors.",
       },
       {
         slug: "try-the-games-before-you-watch-the-match",
@@ -242,13 +305,18 @@ export const cityChapters: readonly CityChapter[] = [
     name: "Taipei",
     country: "taiwan",
     regions: ["taipei"],
-    title: "Read the type. Rethink the tea.",
+    title: "Read the type. Fold the dumpling. Rethink the tea.",
     intro:
-      "In Datong, words can become rows of metal and tea can arrive from a tap. Pair a respectful look inside Ri Xing with an independent stop at Wangtea Lab. The connection is not nostalgia. It is the way a familiar thing changes when you notice its method.",
-    pace: "Two short visits, with the foundry's limited public days deciding whether they fit the same day.",
+      "Words can become rows of metal, a wrapper can hold soup and tea can arrive from a tap. Ri Xing, a separately booked CookInn class and Wangtea Lab offer three methods behind familiar things. Choose the parts that interest you without making them a single rushed outing.",
+    pace: "Keep the three-hour class its own outing. The foundry's limited public days decide whether a separate short visit fits your stay.",
     planning:
-      "Ri Xing currently opens to visitors on Wednesdays, Fridays and Saturdays, with calendar exceptions. Do not remove type or expect a hands-on class. Wangtea Lab has a broader opening pattern, but drinks and seats depend on the day. Check alcohol, milk and caffeine individually. Confirm both addresses, access needs and travel between them. This is an editorial pairing, not a guided walking route, shared booking or included tasting.",
+      "Ri Xing currently opens to visitors on Wednesdays, Fridays and Saturdays, with calendar exceptions. Do not remove type or expect a hands-on class. CookInn's three-hour dumpling class requires a confirmed date, branch, language and minimum group. Discuss food allergies and dietary variants before booking. Wangtea Lab has a broader opening pattern, but drinks and seats depend on the day. Check alcohol, milk and caffeine individually, and allow separate transport between actual addresses. No shared booking, walking tour, transfer, included tasting or package is implied.",
     stops: [
+      {
+        slug: "fold-taipeis-soup-inside-a-dumpling",
+        moment: "Give a different morning to the fold",
+        why: "A booked cooking class turns a recognisable dish into wrapper, filling and seal. Its meal and confirmed branch have their own conditions.",
+      },
       {
         slug: "read-a-wall-of-words-before-they-print",
         moment: "Meet language as an inventory",

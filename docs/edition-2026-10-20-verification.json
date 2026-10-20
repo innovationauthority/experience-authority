@@ -1,0 +1,139 @@
+{
+  "edition": "2026-10-20",
+  "trigger": "Manual user request: daj novih 18",
+  "netNewGuides": 18,
+  "primaryAllocations": {
+    "Eat & drink": 3,
+    "Make": 3,
+    "Move": 3,
+    "Explore & reflect": 3,
+    "Reset": 3,
+    "Shared rituals": 3
+  },
+  "catalogue": {
+    "authoredRecordsBefore": 280,
+    "authoredRecordsAfter": 298,
+    "eligiblePublicOn20October": 287,
+    "existingRecordsOutsideReviewWindow": 11,
+    "authoredCountryAndTerritoryCoverage": 109,
+    "newEditionCountries": 15,
+    "newEditionCityOrAreaDestinations": 17,
+    "qualification": "No existing source date was silently renewed. The expired Amsterdam winter-skating stop and its complete authored chapter remain gated. Earlier guides remain in the catalogue and release history, not in public routes when their evidence expires."
+  },
+  "method": "Existing catalogue, rejected candidates, prior editions and Git history checked before selection. Each original public-source guide distinguishes what a visitor can actually do from operator claims and unverified conditions. No EA attendance, local validation, partnership, combined reservation or private permission is implied.",
+  "sources": {
+    "checkedOn": "2026-10-20",
+    "uniqueUrlsChecked": 51,
+    "directHttp200": 49,
+    "allEighteenPrimaryAccessUrls": "HTTP 200. Current programme and access content reviewed, including Japanese and Portuguese sources rather than stale English variants.",
+    "exceptions": [
+      {
+        "url": "https://www.travel.taipei/en/pictorial/article/58270",
+        "directStatus": 403,
+        "resolution": "The official 2024 contextual report was available through ordinary web search. Current class and branch conditions come from the school's accessible primary pages. No access control was bypassed."
+      },
+      {
+        "url": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-chi-lin-nunnery-and-nan-lian-garden.html",
+        "directStatus": 403,
+        "resolution": "The Tourism Board's context was available through ordinary web search. Actual address, hours and public entry come from the accessible government LCSD page. No access control was bypassed."
+      }
+    ]
+  },
+  "photography": {
+    "realPhotographs": 18,
+    "aiGenerated": 0,
+    "documentedLicences": 8,
+    "officialSourceModerateRisk": 10,
+    "rightsBoundary": "Official-source reuse rights are not independently cleared. Credit does not grant permission. Existing EA moderate-risk policy is disclosed, not described as legal clearance. Licensed derivatives retain the named creator, source, licence and applicable share-alike terms. Embedded creator credits are preserved.",
+    "provenance": "docs/edition-2026-10-20-photo-provenance.json",
+    "creditFormat": "Image: author / source ↗, direct source opens in a new tab",
+    "imageEdition": "44aaa397299c",
+    "depictionBoundaries": "The 2007 Ubin village scene, 2009 Vienna globe, 2017 Aalto exterior, 2018 Nan Lian view and 2021 performance or shore photos do not establish present conditions. Porto's 9 October 2026 rehearsal image is not evidence of a public rehearsal. Aalto interior visitor photographs were avoided because of the museum's non-commercial photography restriction. Granada's official empty-room image does not promise private bathing."
+  },
+  "integration": {
+    "newLocalChapters": ["Buenos Aires", "Rio de Janeiro"],
+    "expandedLocalChapters": ["Dublin", "Taipei"],
+    "authoredLocalChapters": 29,
+    "publicLocalChaptersOn20October": 28,
+    "futureDailyAngles": 6,
+    "futureDailyDates": "2026-11-20 to 2026-11-25",
+    "precedingDailyEditionsPreserved": true,
+    "publishedDailyHistoryChanged": false,
+    "surfaces": [
+      "Compass",
+      "country and city filters",
+      "six visitor interests",
+      "editorial fields",
+      "places",
+      "collections",
+      "dated new guides",
+      "future Daily discovery",
+      "connected experiences",
+      "Passport",
+      "journey planning",
+      "sitemap",
+      "canonical URLs",
+      "Article and ImageObject structured data"
+    ],
+    "planningBoundary": "Local complements are not a package. Buenos Aires' botanical garden is closed on Mondays, so it cannot precede a Monday Bomba concert. Rio garden and Lapa have separate transport, access and admission. January 2027 rehearsals are not October 2026 shows."
+  },
+  "rejectedOrDeferred": [
+    {
+      "candidate": "Preservation Hall, New Orleans",
+      "reason": "Exact programme already published in batch 41. Removed from this new batch and replaced with the separately researched Rio samba venue. Never counted as a new guide."
+    },
+    {
+      "candidate": "Art Naji, Fez",
+      "reason": "Discovered official domain redirected to unrelated gambling content. No current public workshop verified, and no cause of the redirect is alleged. Other Fez alternatives did not establish a sufficient exact public programme."
+    },
+    {
+      "candidate": "Estufa Fria, Lisbon",
+      "reason": "Primary retrieval returned 403 and seasonal-hour summaries conflicted. Deferred without declaring closure or inventing current access."
+    },
+    {
+      "candidate": "Old Kanshundo English and school-group listings",
+      "reason": "Different course contents and schedules. The actual Japanese general course and its current request form determine the guide, including written language material rather than a promised English-speaking teacher."
+    },
+    {
+      "candidate": "Stale Carioca da Gema English and homepage calendars",
+      "reason": "Past September programmes are not used as future availability. Current Portuguese October show calendar supplies the actual dates. A venue gallery is used only as photographic context."
+    },
+    {
+      "candidate": "Rejected photo alternatives",
+      "reason": "Undersized derivatives, a mislabelled GoBoat Odense image, an old skyline view, a different Dublin plain-ring workshop, generic cocktail and artist publicity images, an empty Rio room, a small distant ferry and unrelated park or temple pictures were rejected. No AI photographs were used."
+    }
+  ],
+  "localVerification": {
+    "unitTests": 108,
+    "unitFailures": 0,
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "smokePages": 643,
+    "unpublishedPathsChecked": 27,
+    "smokeFailures": 0,
+    "uniqueCspNonces": 627,
+    "newGuideHtmlAndRawPhotoFingerprints": 18,
+    "optimizedWebpPhotographs": 18,
+    "browserWidths": [390, 1440],
+    "browserStatus": "passed",
+    "interactionStatus": "passed",
+    "accessibilityBoundary": "Automated WCAG A/AA checks are regression checks, not complete accessibility certification.",
+    "expiryHandling": "The review-window smoke snapshot covers all 298 authored guides and includes country and region metadata. Eleven expired guides remain excluded and return 404, as do destinations with no current guide.",
+    "browserRouteAndViewportChecks": 118,
+    "browserFailures": 0,
+    "visualReview": "All eighteen new guide first views inspected at 390px and 1440px. Core homepage, New, Today, Compass, relevant destinations, collections and six interests are included in browser checks. Photographs and credits remain legible, with no missing photos or horizontal overflow.",
+    "interactions": [
+      "country and city selection",
+      "new Taipei guide discovery",
+      "photo enlargement",
+      "Escape and focus return",
+      "save to Passport",
+      "add to private journey",
+      "journey name persistence after reload",
+      "keyboard skip link",
+      "analytics consent gate"
+    ]
+  },
+  "verificationStage": "Prepublication verification complete",
+  "productionConfirmation": "This pre-push record does not claim deployment. Confirm exact main commit Vercel success, then the dated edition, eighteen public guide pages, raw image fingerprints, optimized images, full smoke suite, mobile and desktop browser checks and consent-sensitive interactions. Regular Wednesday automation is unchanged."
+}

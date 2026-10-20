@@ -1,6 +1,24 @@
 /** Content hashes keep replaced photographs consistent across responsive image caches.
  * The media test requires an update when an original file changes. */
 export const imageRevisions: Record<string, string> = {
+  "/images/guides/athens-greek-kitchen.jpg": "10162ebc51e8",
+  "/images/guides/taipei-cookinn-dumplings.jpg": "4e537e2f0f1d",
+  "/images/guides/palermo-streaty-markets.jpg": "2246a6d5f6c2",
+  "/images/guides/kyoto-kanshundo-wagashi.jpg": "ec4f939ee039",
+  "/images/guides/seoul-donglim-knots.jpg": "3e56ca0bc4e4",
+  "/images/guides/dublin-claddagh-ring.jpg": "9f9df59aca9d",
+  "/images/guides/copenhagen-goboat-classic.jpg": "7f7141ab5a9a",
+  "/images/guides/lisbon-cacilhas-ferry.jpg": "a7f659ca462c",
+  "/images/guides/singapore-ubin-cycle.jpg": "08e97dead621",
+  "/images/guides/barcelona-palau-guided.jpg": "93273564654e",
+  "/images/guides/vienna-globe-museum.jpg": "129fb9412ad2",
+  "/images/guides/helsinki-aalto-house.jpg": "f09a623004b3",
+  "/images/guides/buenos-aires-botanical-pause.jpg": "571b32ed1bb1",
+  "/images/guides/hong-kong-nan-lian-pause.jpg": "1f3d03fe3c7d",
+  "/images/guides/granada-hammam-water.jpg": "bb01e141dc7f",
+  "/images/guides/rio-carioca-samba.jpg": "14458fce3bcf",
+  "/images/guides/buenos-aires-bomba-tiempo.jpg": "e3853e791016",
+  "/images/guides/porto-casa-musica-concert.jpg": "96a95e3c05bf",
   "/images/guides/marrakech-amal.jpg": "e2ffd3bc3b54",
   "/images/guides/lima-skykitchen.jpg": "497100f56174",
   "/images/guides/valencia-my-first-paella.jpg": "c1a3d47ecee4",
@@ -287,7 +305,7 @@ export const imageRevisions: Record<string, string> = {
 
 // A single manifest fingerprint fits Next's bounded localPatterns allowlist.
 // Tests require it to change when any original is added or replaced.
-export const imageEdition = "6e09864d1094";
+export const imageEdition = "44aaa397299c";
 
 export function imageSource(src: string) {
   return imageRevisions[src] ? `${src}?v=${imageEdition}` : src;

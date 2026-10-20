@@ -1,0 +1,954 @@
+[
+  {
+    "guideId": "athens-greek-kitchen",
+    "checkedOn": "2026-10-20",
+    "sourceUrl": "https://www.greekkitchenathens.com/cooking-in-athens",
+    "originalUrl": "https://static.wixstatic.com/media/91785d_960d634c86fc4ee89ed20e56b2b497e5~mv2.jpeg",
+    "downloadUrl": "https://static.wixstatic.com/media/91785d_960d634c86fc4ee89ed20e56b2b497e5~mv2.jpeg",
+    "downloadedWidth": 1530,
+    "downloadedHeight": 1530,
+    "sha256": "10162ebc51e821dac7880c5ab05624c1ec34aca459e7b8827796bd6698f2e826"
+  },
+  {
+    "guideId": "taipei-cookinn-dumplings",
+    "checkedOn": "2026-10-20",
+    "sourceUrl": "https://cookinn.tw/signature-taiwanese-dumplings-and-noodles-2/",
+    "originalUrl": "https://cookinn.tw/wp-content/uploads/2024/09/WJY_8625-scaled.jpg",
+    "downloadUrl": "https://cookinn.tw/wp-content/uploads/2024/09/WJY_8625-scaled.jpg",
+    "downloadedWidth": 1707,
+    "downloadedHeight": 2560,
+    "sha256": "4e537e2f0f1d8c72d658c6f3dde61c1fbd412038629f66a9e1c6091ed009878f"
+  },
+  {
+    "guideId": "palermo-streaty-markets",
+    "checkedOn": "2026-10-20",
+    "sourceUrl": "https://www.streaty.com/street-food-tours/palermo-morning-tour/",
+    "originalUrl": "https://www.streaty.com/wp-content/uploads/2023/01/arancine.jpg",
+    "downloadUrl": "https://www.streaty.com/wp-content/uploads/2023/01/arancine.jpg",
+    "downloadedWidth": 1125,
+    "downloadedHeight": 954,
+    "sha256": "2246a6d5f6c2b0bba4d6d4c98839f08e98c0d3a256897cf93b4cdaa80fc39112"
+  },
+  {
+    "guideId": "kyoto-kanshundo-wagashi",
+    "checkedOn": "2026-10-20",
+    "sourceUrl": "https://www.kanshundo.co.jp/class/",
+    "originalUrl": "https://www.kanshundo.co.jp/wp-content/uploads/2026/05/教室-一般.jpg",
+    "downloadUrl": "https://www.kanshundo.co.jp/wp-content/uploads/2026/05/教室-一般.jpg",
+    "downloadedWidth": 4032,
+    "downloadedHeight": 3024,
+    "sha256": "ec4f939ee039259766f1b0afd9c93041c5ed59701439d6185b5a4aa619bd03e6"
+  },
+  {
+    "guideId": "seoul-donglim-knots",
+    "checkedOn": "2026-10-20",
+    "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=97767",
+    "originalUrl": "https://tong.visitkorea.or.kr/cms/resource/80/4101080_image2_1.jpg",
+    "downloadUrl": "https://tong.visitkorea.or.kr/cms/resource/80/4101080_image2_1.jpg",
+    "downloadedWidth": 940,
+    "downloadedHeight": 627,
+    "sha256": "3e56ca0bc4e4aa7e90b550978127ce1707aac315bfeef6163794c716866eb130"
+  },
+  {
+    "guideId": "dublin-claddagh-ring",
+    "checkedOn": "2026-10-20",
+    "sourceUrl": "https://silverworks.ie/workshop/make-your-own-claddagh-ring-workshop/",
+    "originalUrl": "https://silverworks.ie/wp-content/uploads/2024/10/Silverworks-Claddagh-Forge-workshop-11_websize.jpg",
+    "downloadUrl": "https://silverworks.ie/wp-content/uploads/2024/10/Silverworks-Claddagh-Forge-workshop-11_websize.jpg",
+    "downloadedWidth": 1600,
+    "downloadedHeight": 1067,
+    "sha256": "9f9df59aca9da2e1cb45ef9f83320e73f8364f1f63393d65c1eb7ddc0257fd5f"
+  },
+  {
+    "guideId": "copenhagen-goboat-classic",
+    "checkedOn": "2026-10-20",
+    "sourceUrl": "https://goboat.dk/en/copenhagen",
+    "originalUrl": "https://ik.imagekit.io/goboat/production/prod/sites/3/2022/11/28122438/goboat-boat-group-of-friends-cph-scaled.jpg",
+    "downloadUrl": "https://ik.imagekit.io/goboat/production/prod/sites/3/2022/11/28122438/goboat-boat-group-of-friends-cph-scaled.jpg",
+    "downloadedWidth": 2560,
+    "downloadedHeight": 1709,
+    "sha256": "7f7141ab5a9a5568fe67da640f944940c3dc09b7a4f913b859be075d4b02b4ef"
+  },
+  {
+    "guideId": "lisbon-cacilhas-ferry",
+    "checkedOn": "2026-10-20",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cacilhas_-_Portugal_(51223259590).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Cacilhas_-_Portugal_%2851223259590%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Cacilhas_-_Portugal_%2851223259590%29.jpg/1920px-Cacilhas_-_Portugal_%2851223259590%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "downloadedWidth": 1920,
+    "downloadedHeight": 1205,
+    "sha256": "a7f659ca462c4e20c38609e5eac9e59b3a5aefdce2e8b4f252a8a50477cd6dbe",
+    "licenseMetadata": {
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Cacilhas_-_Portugal_%2851223259590%29.jpg/1920px-Cacilhas_-_Portugal_%2851223259590%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1600,
+      "thumbheight": 1004,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Cacilhas_-_Portugal_%2851223259590%29.jpg/3840px-Cacilhas_-_Portugal_%2851223259590%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Cacilhas_-_Portugal_%2851223259590%29.jpg/1920px-Cacilhas_-_Portugal_%2851223259590%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1600,
+        "height": 1004,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Cacilhas_-_Portugal_%2851223259590%29.jpg/3840px-Cacilhas_-_Portugal_%2851223259590%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Cacilhas_-_Portugal_%2851223259590%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cacilhas_-_Portugal_(51223259590).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=106334439",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-06-06 19:15:23",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Cacilhas - Portugal (51223259590)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Cacilhas|Ferries in Lisbon|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Photographs by Vitor Oliveira",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "38.690040",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-9.157620",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Cacilhas - Portugal 🇵🇹",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2021-05-29 12:21",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/vitor107/51223259590/\">Cacilhas - Portugal 🇵🇹</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/21446942@N00\">Vitor Oliveira</a> from Torres Vedras, PORTUGAL",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    }
+  },
+  {
+    "guideId": "singapore-ubin-cycle",
+    "checkedOn": "2026-10-20",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pulau_Ubin_8,_Aug_07.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Pulau_Ubin_8%2C_Aug_07.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Pulau_Ubin_8%2C_Aug_07.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "downloadedWidth": 1600,
+    "downloadedHeight": 1200,
+    "originalWidth": 1600,
+    "originalHeight": 1200,
+    "sha256": "08e97dead621974c94e2ae4244059f1b9a55135d6d5d6f6174b6422c5349746a",
+    "licenseMetadata": {
+      "size": 726850,
+      "width": 1600,
+      "height": 1200,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Pulau_Ubin_8%2C_Aug_07.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 1920,
+      "thumbheight": 1440,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/09/Pulau_Ubin_8%2C_Aug_07.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1440
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Pulau_Ubin_8%2C_Aug_07.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pulau_Ubin_8,_Aug_07.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=2581065",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2007-08-18 15:17:19",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Pulau Ubin 8, Aug 07",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|Taken with Canon PowerShot A520|CC-BY-SA-3.0,2.5,2.0,1.0|License migration redundant|Self-published work|Bicycles on Pulau Ubin",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Pulau Ubin, Singapore",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2007-08",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sengkang&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sengkang (page does not exist)\">Sengkang</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    }
+  },
+  {
+    "guideId": "barcelona-palau-guided",
+    "checkedOn": "2026-10-20",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palau_de_la_M%C3%BAsica_-_Interior_general_(2).JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Palau_de_la_M%C3%BAsica_-_Interior_general_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Palau_de_la_M%C3%BAsica_-_Interior_general_%282%29.JPG/1920px-Palau_de_la_M%C3%BAsica_-_Interior_general_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "downloadedWidth": 1920,
+    "downloadedHeight": 1276,
+    "originalWidth": 2929,
+    "originalHeight": 1947,
+    "sha256": "93273564654e36627b84e6e0288fd7200a6e2fc7111ea1f196940284638203b8",
+    "licenseMetadata": {
+      "size": 1091414,
+      "width": 2929,
+      "height": 1947,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Palau_de_la_M%C3%BAsica_-_Interior_general_%282%29.JPG/1920px-Palau_de_la_M%C3%BAsica_-_Interior_general_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1920,
+      "thumbheight": 1276,
+      "responsiveUrls": {
+        "2": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Palau_de_la_M%C3%BAsica_-_Interior_general_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Palau_de_la_M%C3%BAsica_-_Interior_general_%282%29.JPG/1920px-Palau_de_la_M%C3%BAsica_-_Interior_general_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1276,
+        "srcset": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Palau_de_la_M%C3%BAsica_-_Interior_general_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Palau_de_la_M%C3%BAsica_-_Interior_general_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Palau_de_la_M%C3%BAsica_-_Interior_general_(2).JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=5021033",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2008-10-18 22:07:30",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Palau de la Música - Interior general (2)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Nikon D70s|Self-published work|Cultural heritage monuments in Spain with known IDs|Cultural heritage monuments in Spain missing SDC location of creation|Cultural heritage monuments in Spain missing SDC depicts|Concert Hall of Palau de la Música Catalana",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<table cellspacing=\"4\" style=\"width=100%; text-align:left; color:#000; background:#F9FFF0; border:1px solid #BBA22C; margin:1px;\">\n<tbody><tr>\n<td style=\"width:32px; height:32px;\"><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Icone_chateau_fort.svg/40px-Icone_chateau_fort.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"30\" height=\"30\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Icone_chateau_fort.svg/60px-Icone_chateau_fort.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"400\" data-file-height=\"400\"></span></span>\n</td>\n<td style=\"font-size:9pt; padding:1pt; line-height:1.1em;\"><p><span lang=\"en\" class=\"description en\">This is a photo of a <a href=\"https://en.wikipedia.org/wiki/Monument_(Spain)\" class=\"extiw\" title=\"en:Monument (Spain)\">monument</a> listed in the Catalan heritage register of Béns Culturals d'Interès Nacional and the Spanish heritage register of <a href=\"https://en.wikipedia.org/wiki/Bien_de_Inter%C3%A9s_Cultural\" class=\"extiw\" title=\"en:Bien de Interés Cultural\">Bienes de Interés Cultural</a> under the reference </span><span style=\"white-space:nowrap;\"><a rel=\"nofollow\" class=\"external text\" href=\"https://invarquit.cultura.gencat.cat/card/65\">RI-51-0003864</a>.</span></p>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Lohen11\" title=\"User:Lohen11\">Lohen11</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    }
+  },
+  {
+    "guideId": "vienna-globe-museum",
+    "checkedOn": "2026-10-20",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Globenmuseum_Vienna_20091010_497.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Globenmuseum_Vienna_20091010_497.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Globenmuseum_Vienna_20091010_497.JPG/1920px-Globenmuseum_Vienna_20091010_497.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "downloadedWidth": 1920,
+    "downloadedHeight": 1280,
+    "sha256": "129fb9412ad2ecd733fd0c761dec69c7141a20b7572abf550f7706cf0821cf3a",
+    "licenseMetadata": {
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Globenmuseum_Vienna_20091010_497.JPG/1920px-Globenmuseum_Vienna_20091010_497.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1600,
+      "thumbheight": 1067,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Globenmuseum_Vienna_20091010_497.JPG/3840px-Globenmuseum_Vienna_20091010_497.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Globenmuseum_Vienna_20091010_497.JPG/1920px-Globenmuseum_Vienna_20091010_497.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1600,
+        "height": 1067,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Globenmuseum_Vienna_20091010_497.JPG/3840px-Globenmuseum_Vienna_20091010_497.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Globenmuseum_Vienna_20091010_497.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Globenmuseum_Vienna_20091010_497.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=8635820",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2009-11-29 23:02:33",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Globenmuseum Vienna 20091010 497",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 450D|Globes in the Globenmuseum",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Globenmuseum, Wien, 2009",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2009-10",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\">Self-photographed</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Politikaner\" title=\"User:Politikaner\">Politikaner</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "Attribution ShareAlike 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    }
+  },
+  {
+    "guideId": "helsinki-aalto-house",
+    "checkedOn": "2026-10-20",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alvar_Aallon_kotitalo.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Alvar_Aallon_kotitalo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Alvar_Aallon_kotitalo.jpg/1920px-Alvar_Aallon_kotitalo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "downloadedWidth": 1920,
+    "downloadedHeight": 1155,
+    "sha256": "f09a623004b31c898ae80c65d89acb2ff85c900163888c4fbe60b443359aa9f9",
+    "licenseMetadata": {
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Alvar_Aallon_kotitalo.jpg/1920px-Alvar_Aallon_kotitalo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1600,
+      "thumbheight": 962,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Alvar_Aallon_kotitalo.jpg/3840px-Alvar_Aallon_kotitalo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Alvar_Aallon_kotitalo.jpg/1920px-Alvar_Aallon_kotitalo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1600,
+        "height": 962,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Alvar_Aallon_kotitalo.jpg/3840px-Alvar_Aallon_kotitalo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Alvar_Aallon_kotitalo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Alvar_Aallon_kotitalo.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=61463289",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-08-03 12:27:05",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Alvar Aallon kotitalo",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Villa Aalto (Helsinki)|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Alvar Aallon kotitalo Munkkiniemessä",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-08-03 12:12:37",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Hezzu\" title=\"User:Hezzu\">Hezzu</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    }
+  },
+  {
+    "guideId": "buenos-aires-botanical-pause",
+    "checkedOn": "2026-10-20",
+    "sourceUrl": "https://www.argentina.gob.ar/jardin-botanico-carlos-thays",
+    "originalUrl": "https://www.argentina.gob.ar/sites/default/files/jbotanicocnm.jpg",
+    "downloadUrl": "https://www.argentina.gob.ar/sites/default/files/jbotanicocnm.jpg",
+    "downloadedWidth": 1754,
+    "downloadedHeight": 1080,
+    "sha256": "571b32ed1bb181fddf46d145f65bbaffcc8a397acc62bd2a0ca9f190a5378665"
+  },
+  {
+    "guideId": "hong-kong-nan-lian-pause",
+    "checkedOn": "2026-10-20",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nan_Lian_Garden_201807.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Nan_Lian_Garden_201807.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Nan_Lian_Garden_201807.jpg/1920px-Nan_Lian_Garden_201807.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "downloadedWidth": 1920,
+    "downloadedHeight": 1280,
+    "sha256": "1f3d03fe3c7da5acdeeb407d5735e9f21fd02abdef0471618c6e89a6d668542e",
+    "licenseMetadata": {
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Nan_Lian_Garden_201807.jpg/1920px-Nan_Lian_Garden_201807.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1600,
+      "thumbheight": 1067,
+      "responsiveUrls": {
+        "2": "https://upload.wikimedia.org/wikipedia/commons/8/86/Nan_Lian_Garden_201807.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Nan_Lian_Garden_201807.jpg/1920px-Nan_Lian_Garden_201807.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1600,
+        "height": 1067,
+        "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/86/Nan_Lian_Garden_201807.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Nan_Lian_Garden_201807.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nan_Lian_Garden_201807.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=91051123",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2020-06-08 15:09:10",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Nan Lian Garden 201807",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Nan Lian Garden|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Nan Lian Garden",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-07",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Wpcpey&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Wpcpey (page does not exist)\">Wpcpey</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    }
+  },
+  {
+    "guideId": "granada-hammam-water",
+    "checkedOn": "2026-10-20",
+    "sourceUrl": "https://granada.hammamalandalus.com/en/hammam-experiences/",
+    "originalUrl": "https://granada.hammamalandalus.com/wp-content/uploads/sites/3/2022/10/GRX_BRANDING_Arquitectura_2022_HD_44.jpg",
+    "downloadUrl": "https://granada.hammamalandalus.com/wp-content/uploads/sites/3/2022/10/GRX_BRANDING_Arquitectura_2022_HD_44.jpg",
+    "downloadedWidth": 1773,
+    "downloadedHeight": 1182,
+    "sha256": "bb01e141dc7f30391acc08f73644c44b9f90a55b62d09df04ea5927fe89cdda6"
+  },
+  {
+    "guideId": "rio-carioca-samba",
+    "checkedOn": "2026-10-20",
+    "sourceUrl": "https://www.barcariocadagema.com.br/home",
+    "originalUrl": "https://static.wixstatic.com/media/e8323b_3b3c0ef6f409431c9a4ac1b07f4311fc~mv2.jpg",
+    "downloadUrl": "https://static.wixstatic.com/media/e8323b_3b3c0ef6f409431c9a4ac1b07f4311fc~mv2.jpg",
+    "downloadedWidth": 6016,
+    "downloadedHeight": 4016,
+    "sha256": "14458fce3bcf451f9f7b3020ccaa91dee96c30a0b56792f47c9a722eabc17d6a"
+  },
+  {
+    "guideId": "buenos-aires-bomba-tiempo",
+    "checkedOn": "2026-10-20",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_Bomba_de_Tiempo_at_Ciudad_Cultural_Konex,_15_February_2021_-_03.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/La_Bomba_de_Tiempo_at_Ciudad_Cultural_Konex%2C_15_February_2021_-_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/La_Bomba_de_Tiempo_at_Ciudad_Cultural_Konex%2C_15_February_2021_-_03.jpg/1920px-La_Bomba_de_Tiempo_at_Ciudad_Cultural_Konex%2C_15_February_2021_-_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "downloadedWidth": 1920,
+    "downloadedHeight": 1272,
+    "sha256": "e3853e7910163158ad5ba7e63e0fc35841075d0d3be3c73cf11e98b1429bd086",
+    "licenseMetadata": {
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/La_Bomba_de_Tiempo_at_Ciudad_Cultural_Konex%2C_15_February_2021_-_03.jpg/1920px-La_Bomba_de_Tiempo_at_Ciudad_Cultural_Konex%2C_15_February_2021_-_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1600,
+      "thumbheight": 1060,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/La_Bomba_de_Tiempo_at_Ciudad_Cultural_Konex%2C_15_February_2021_-_03.jpg/3840px-La_Bomba_de_Tiempo_at_Ciudad_Cultural_Konex%2C_15_February_2021_-_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/La_Bomba_de_Tiempo_at_Ciudad_Cultural_Konex%2C_15_February_2021_-_03.jpg/1920px-La_Bomba_de_Tiempo_at_Ciudad_Cultural_Konex%2C_15_February_2021_-_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1600,
+        "height": 1060,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/La_Bomba_de_Tiempo_at_Ciudad_Cultural_Konex%2C_15_February_2021_-_03.jpg/3840px-La_Bomba_de_Tiempo_at_Ciudad_Cultural_Konex%2C_15_February_2021_-_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/La_Bomba_de_Tiempo_at_Ciudad_Cultural_Konex%2C_15_February_2021_-_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:La_Bomba_de_Tiempo_at_Ciudad_Cultural_Konex,_15_February_2021_-_03.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=193857750",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-06-14 16:49:27",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "La Bomba de Tiempo at Ciudad Cultural Konex, 15 February 2021 - 03",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|All media needing categories as of 2026|Media needing categories as of 14 June 2026",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "La Bomba de Tiempo performing at Ciudad Cultural Konex in Buenos Aires, Argentina, on 15 February 2021.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2021-02-15 21:11:02",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nicolaflam&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nicolaflam (page does not exist)\">Nicolaflam</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    }
+  },
+  {
+    "guideId": "porto-casa-musica-concert",
+    "checkedOn": "2026-10-20",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casa_da_M%C3%BAsica_2026_6.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Casa_da_M%C3%BAsica_2026_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Casa_da_M%C3%BAsica_2026_6.jpg/1920px-Casa_da_M%C3%BAsica_2026_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "downloadedWidth": 1920,
+    "downloadedHeight": 1280,
+    "sha256": "96a95e3c05bffdcbb37b1c8dc8411a727ccf3c7462b5dd45a7bde8f2ab89e51f",
+    "licenseMetadata": {
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Casa_da_M%C3%BAsica_2026_6.jpg/1920px-Casa_da_M%C3%BAsica_2026_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1600,
+      "thumbheight": 1067,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Casa_da_M%C3%BAsica_2026_6.jpg/3840px-Casa_da_M%C3%BAsica_2026_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Casa_da_M%C3%BAsica_2026_6.jpg/1920px-Casa_da_M%C3%BAsica_2026_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1600,
+        "height": 1067,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Casa_da_M%C3%BAsica_2026_6.jpg/3840px-Casa_da_M%C3%BAsica_2026_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Casa_da_M%C3%BAsica_2026_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Casa_da_M%C3%BAsica_2026_6.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=201543678",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-10-11 18:14:14",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Casa da Música 2026 6",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Creative Commons Attribution 4.0 missing SDC copyright license|Creative Commons Attribution missing SDC copyright status|Self-published work missing SDC copyright license|Sala Suggia|Portugal photographs taken on 2026-10-09",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Interior of Casa da Música, Porto Portugal",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2026-10-09 10:02:52",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Joseolgon\" title=\"User:Joseolgon\">Joseolgon</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    }
+  }
+]

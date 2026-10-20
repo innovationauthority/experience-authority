@@ -42,8 +42,8 @@ test("Arcachon stays a bay-wide chapter regardless of guide order or a more spec
   }
 });
 
-test("guide set contains 280 distinct, sourced public experiences, not Selected or demo records", () => {
-  assert.equal(publicGuides.length, 280);
+test("guide set contains 298 distinct, sourced public experiences, not Selected or demo records", () => {
+  assert.equal(publicGuides.length, 298);
   assert.equal(
     new Set(publicGuides.map((p) => p.id)).size,
     publicGuides.length,
@@ -436,6 +436,7 @@ test("new regions are derived from real coverage and recommendations favour a re
     [
       "asturias",
       "barcelona",
+      "granada",
       "jerez-de-la-frontera",
       "madrid",
       "san-sebastian",
@@ -459,6 +460,7 @@ test("connected guides prefer local contrast and label wider geography honestly"
       "paint-the-pattern-you-noticed",
       "hear-the-church-before-you-climb",
       "follow-the-building-around-the-music",
+      "hear-the-room-you-came-to-see-in-porto",
     ].includes(gaiaConnections[0].item.slug),
   );
   assert.equal(gaiaConnections[0].scope, "connected_area");

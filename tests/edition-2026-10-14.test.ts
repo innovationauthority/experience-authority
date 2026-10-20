@@ -230,18 +230,22 @@ test("future discoveries keep every preceding-edition slot and publication histo
 test("local combinations provide contrasting roles without inventing shared reservations", () => {
   const chapters = resolveCityChapters(publicGuides);
   const currentChapters = resolveCityChapters(
-    publicGuides.filter((g) => canPublishGuide(g, "2026-10-17")),
+    publicGuides.filter((g) => canPublishGuide(g, "2026-10-20")),
   );
   assert.equal(
     currentChapters.length,
-    27,
-    "A stale programme must not strand a city that has contrasting current alternatives",
+    28,
+    "Only chapters whose complete authored stops are current can be published",
   );
-  for (const slug of ["amsterdam-waterland", "singapore", "sydney"])
+  for (const slug of ["singapore", "sydney", "buenos-aires", "rio-de-janeiro"])
     assert.ok(currentChapters.some((c) => c.slug === slug));
+  assert.ok(
+    !currentChapters.some((c) => c.slug === "amsterdam-waterland"),
+    "Expired winter skating must hide the complete Amsterdam chapter, not be silently renewed",
+  );
   for (const [slug, count] of [
     ["copenhagen", 2],
-    ["dublin", 3],
+    ["dublin", 4],
     ["lisbon", 4],
     ["new-york-city", 4],
     ["vienna", 3],

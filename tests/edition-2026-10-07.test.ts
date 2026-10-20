@@ -192,7 +192,7 @@ test("local connections and contrasting chapters keep their geographic and booki
   const chapters = resolveCityChapters(publicGuides);
   for (const slug of ["dublin", "vancouver"]) {
     const c = chapters.find((c) => c.slug === slug)!;
-    assert.equal(c.stops.length, slug === "dublin" ? 3 : 2);
+    assert.equal(c.stops.length, slug === "dublin" ? 4 : 2);
     assert.ok(new Set(c.stops.map((s) => s.item.field)).size >= 2);
     assert.match(c.planning, /No (combined|shared) ticket/);
   }

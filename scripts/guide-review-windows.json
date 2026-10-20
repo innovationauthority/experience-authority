@@ -1,4 +1,112 @@
 {
+  "/experiences/cook-athens-from-market-to-table": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-12-20",
+    "countrySlug": "greece",
+    "regionSlug": "athens"
+  },
+  "/experiences/fold-taipeis-soup-inside-a-dumpling": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-12-20",
+    "countrySlug": "taiwan",
+    "regionSlug": "taipei"
+  },
+  "/experiences/taste-palermo-between-the-market-counters": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-12-20",
+    "countrySlug": "italy",
+    "regionSlug": "palermo"
+  },
+  "/experiences/shape-a-kyoto-season-in-sweet-paste": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-12-20",
+    "countrySlug": "japan",
+    "regionSlug": "kyoto"
+  },
+  "/experiences/tie-a-small-piece-of-seoul-by-hand": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-11-20",
+    "countrySlug": "south-korea",
+    "regionSlug": "seoul"
+  },
+  "/experiences/make-the-irish-ring-you-can-read": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-12-20",
+    "countrySlug": "ireland",
+    "regionSlug": "dublin"
+  },
+  "/experiences/take-the-tiller-in-copenhagen": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-11-20",
+    "countrySlug": "denmark",
+    "regionSlug": "copenhagen"
+  },
+  "/experiences/give-lisbon-a-ten-minute-change-of-shore": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-11-20",
+    "countrySlug": "portugal",
+    "regionSlug": "lisbon"
+  },
+  "/experiences/cycle-singapore-at-island-pace": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-11-20",
+    "countrySlug": "singapore",
+    "regionSlug": "singapore"
+  },
+  "/experiences/find-barcelonas-daylight-inside-a-concert-hall": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-12-20",
+    "countrySlug": "spain",
+    "regionSlug": "barcelona"
+  },
+  "/experiences/turn-the-world-around-in-vienna": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-12-20",
+    "countrySlug": "austria",
+    "regionSlug": "vienna"
+  },
+  "/experiences/notice-how-the-aaltos-made-room-for-living": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-11-20",
+    "countrySlug": "finland",
+    "regionSlug": "helsinki"
+  },
+  "/experiences/follow-shade-through-buenos-aires": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-12-20",
+    "countrySlug": "argentina",
+    "regionSlug": "buenos-aires"
+  },
+  "/experiences/pause-where-kowloons-towers-meet-a-garden": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-12-20",
+    "countrySlug": "hong-kong",
+    "regionSlug": "kowloon"
+  },
+  "/experiences/make-time-for-granadas-warm-rooms": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-11-20",
+    "countrySlug": "spain",
+    "regionSlug": "granada"
+  },
+  "/experiences/let-a-lapa-samba-room-set-the-evening": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-11-10",
+    "countrySlug": "brazil",
+    "regionSlug": "rio-de-janeiro"
+  },
+  "/experiences/follow-the-hands-conducting-buenos-aires": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-11-03",
+    "countrySlug": "argentina",
+    "regionSlug": "buenos-aires"
+  },
+  "/experiences/hear-the-room-you-came-to-see-in-porto": {
+    "availableFrom": "2026-10-20",
+    "reviewBy": "2026-11-10",
+    "countrySlug": "portugal",
+    "regionSlug": "porto"
+  },
   "/experiences/cook-a-tagine-before-lifting-the-lid": {
     "availableFrom": "2026-10-17",
     "reviewBy": "2026-12-10",
