@@ -1285,6 +1285,7 @@ const additionalRegionNames: Readonly<Record<string, string>> = {
   "france/boulogne-billancourt": "Boulogne-Billancourt, Paris area",
   "france/nantes": "Nantes",
   "sweden/nacka": "Nacka, Stockholm area",
+  "germany/meissen": "Meissen",
   "austria/salzburg": "Salzburg",
   "greece/athens": "Athens",
   "netherlands/rotterdam": "Rotterdam",

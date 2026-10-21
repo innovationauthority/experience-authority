@@ -16,6 +16,35 @@ export type CityChapter = {
 /** Authored local combinations. These are ideas to adapt, not timed or bookable packages. */
 export const cityChapters: readonly CityChapter[] = [
   {
+    slug: "ljubljana",
+    name: "Ljubljana",
+    country: "slovenia",
+    regions: ["ljubljana"],
+    title: "Make something last. Leave room for a walk.",
+    intro:
+      "An umbrella repair, a printed impression and an unhurried park visit offer three different ways into Ljubljana. Choose one workshop or spread them across your stay. The point is to notice the work behind everyday things, then give the city time without another appointment.",
+    pace: "One confirmed workshop and a flexible daylight park pause, with the second workshop saved for another day if it suits you.",
+    planning:
+      "Book Dežnik and tipoRenesansa separately through their published public programmes. Confirm language, group size, age suitability, physical access and what you may bring or take home. The workshops have different locations and schedules. Jakopič Promenade is an independent park visit, not a guided extension or guaranteed exhibition. Check weather and local notices, and arrange movement between the stops yourself. No combined ticket, timed walking route, shared reservation or EA booking is provided.",
+    stops: [
+      {
+        slug: "give-an-umbrella-another-life-in-ljubljana",
+        moment: "Choose a small act of repair",
+        why: "Learning how the frame works turns an ordinary object into a memory with a practical future. Let the repairer choose the task suited to the session.",
+      },
+      {
+        slug: "print-ljubljanas-alphabet-one-impression-at-a-time",
+        moment: "Or give an impression physical form",
+        why: "The letterpress workshop offers a different kind of hands-on attention. Treat it as a separately booked choice, not a second stop squeezed into an assumed schedule.",
+      },
+      {
+        slug: "leave-room-for-a-slow-walk-through-ljubljanas-tivoli",
+        moment: "Leave a daylight interval unstructured",
+        why: "The promenade and its changing displays provide a lower-pressure contrast. Walk only as far as conditions and your energy allow.",
+      },
+    ],
+  },
+  {
     slug: "athens",
     name: "Athens",
     country: "greece",

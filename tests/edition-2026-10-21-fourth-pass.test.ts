@@ -35,7 +35,7 @@ test("fourth 21 October pass adds eighteen distinct guides with three in each pr
     interests.map((i) => i.slug).sort(),
   );
   const earlier = publicGuides.filter((g) => !slugs.includes(g.slug));
-  assert.equal(earlier.length, 406);
+  assert.equal(earlier.length, 424);
   for (const [area, allocated] of Object.entries(edition20261021FourthPass)) {
     assert.equal(allocated.length, 3);
     for (const slug of allocated) {
@@ -84,10 +84,10 @@ test("fourth 21 October pass adds eighteen distinct guides with three in each pr
       assert.ok(prose.split(/\s+/).length >= 300, slug);
     }
   }
-  assert.equal(publicGuides.length, 424);
+  assert.equal(publicGuides.length, 442);
   assert.equal(
     publicGuides.filter((g) => canPublishGuide(g, "2026-10-21")).length,
-    410,
+    428,
   );
 });
 
@@ -149,8 +149,8 @@ test("access boundaries preserve the actual activity, geography and evidence", (
 test("Hamburg and Oslo connect contrasting public experiences without a fabricated package", () => {
   const current = publicGuides.filter((g) => canPublishGuide(g, "2026-10-21"));
   const chapters = resolveCityChapters(current);
-  assert.equal(cityChapters.length, 44);
-  assert.equal(chapters.length, 43);
+  assert.equal(cityChapters.length, 45);
+  assert.equal(chapters.length, 44);
   for (const name of ["hamburg", "oslo"]) {
     const c = chapters.find((c) => c.slug === name)!;
     assert.equal(c.stops.length, 2);
@@ -178,7 +178,7 @@ test("Hamburg and Oslo connect contrasting public experiences without a fabricat
 });
 test("six holiday-aware discoveries append without overwriting or repeating earlier slots", () => {
   assert.equal(discoveryEdition52.length, 6);
-  assert.equal(dailyDiscoveries.length, 121);
+  assert.equal(dailyDiscoveries.length, 127);
   for (const d of discoveryEdition52) {
     assert.ok(d.date >= "2026-12-25" && d.date <= "2026-12-30");
     assert.ok(d.angle.length > 180);
@@ -198,15 +198,15 @@ test("six holiday-aware discoveries append without overwriting or repeating earl
       dailyDiscoveries.find((x) => x.date === d.date),
       d,
     );
-  assert.equal(new Set(dailyDiscoveries.map((d) => d.date)).size, 121);
-  assert.equal(new Set(dailyDiscoveries.map((d) => d.slug)).size, 121);
+  assert.equal(new Set(dailyDiscoveries.map((d) => d.date)).size, 127);
+  assert.equal(new Set(dailyDiscoveries.map((d) => d.slug)).size, 127);
   assert.match(discoveryEdition52[0].notice, /Christmas Day as closed/);
 });
 test("five passes remain one dated release with ninety unique guides", () => {
   assert.equal(guideReleases.filter((r) => r.date === "2026-10-21").length, 1);
   const release = publishedReleases(publicGuides, "2026-10-21")[0];
-  assert.equal(release.guides.length, 108);
-  assert.equal(new Set(release.guides.map((g) => g.id)).size, 108);
+  assert.equal(release.guides.length, 126);
+  assert.equal(new Set(release.guides.map((g) => g.id)).size, 126);
   assert.equal(
     publishedReleases(publicGuides, "2026-10-20")[0].guides.length,
     36,

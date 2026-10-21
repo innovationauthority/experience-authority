@@ -1,0 +1,3173 @@
+[
+  {
+    "guideId": "istanbul-vefa-boza",
+    "candidate": "vefa-bozacisi-1",
+    "title": "Boza service at Vefa Bozacısı",
+    "alt": "A worker pours boza behind the counter inside Istanbul's Vefa Bozacısı shop",
+    "rationale": "Actual Vefa shop service makes the drink and its ordinary hospitality setting legible. Selected over a historic exterior and a less focused room view.",
+    "depiction": "Historical documentary view of service, not today's staff, serving format or an EA visit.",
+    "id": "vefa-bozacisi-1",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Istanbul_Vefa_Bozaci_4881.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "metadata": {
+      "title": "File:Istanbul Vefa Bozaci 4881.jpg",
+      "size": 311099,
+      "width": 1600,
+      "height": 1065,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Istanbul_Vefa_Bozaci_4881.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 1920,
+      "thumbheight": 1278,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Istanbul_Vefa_Bozaci_4881.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1278
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Istanbul_Vefa_Bozaci_4881.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Istanbul_Vefa_Bozaci_4881.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=76754556",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-02-21 19:00:11",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Istanbul Vefa Bozaci 4881",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Vefa Bozacısı|Turkey photographs taken on 2015-12-08|Self-published work|December 2015 in Istanbul|Files with coordinates missing SDC location of creation|Men at work in Istanbul",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "41.015187",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "28.958385",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "From the Wikipedia article: In 1876, brothers Haci Ibrahim and Haci Sadik established a boza shop in the Istanbul district of Vefa, close to the then center of entertainment, Direklerarası. This boza, with its thick consistency and tart flavor, became famous throughout the city, and is the only boza shop dating from that period still in business today. The firm is now run by Haci Sadik and Haci Ibrahim's great-great-grandchildren. \nThe vessel it's poured from is an intermediate one: it's \"brewn\" in much larger vessels behind the door that's open.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-12-08 12:39:02",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Dosseman\" title=\"User:Dosseman\">Dosseman</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:Istanbul_Vefa_Bozaci_4881.jpg",
+    "width": 1600,
+    "height": 1065
+  },
+  {
+    "guideId": "stockholm-ostermalm-counter-lunch",
+    "candidate": "-stermalms-saluhall-2",
+    "title": "Inside Östermalms Saluhall",
+    "alt": "Food counters and shoppers beneath the high roof of Stockholm's Östermalms Saluhall",
+    "rationale": "The post-renovation 2020 interior shows the actual food-hall setting. Earlier pre-renovation photographs were excluded to avoid misrepresenting the room.",
+    "depiction": "Documentary interior context, not a guarantee that the pictured traders or products remain unchanged.",
+    "id": "-stermalms-saluhall-2",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/%C3%96stermalms_saluhall_March_2020_05.jpg/1920px-%C3%96stermalms_saluhall_March_2020_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "metadata": {
+      "title": "File:Östermalms saluhall March 2020 05.jpg",
+      "size": 20784814,
+      "width": 6016,
+      "height": 4016,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/%C3%96stermalms_saluhall_March_2020_05.jpg/1920px-%C3%96stermalms_saluhall_March_2020_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1920,
+      "thumbheight": 1282,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/%C3%96stermalms_saluhall_March_2020_05.jpg/3840px-%C3%96stermalms_saluhall_March_2020_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/%C3%96stermalms_saluhall_March_2020_05.jpg/1920px-%C3%96stermalms_saluhall_March_2020_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1282,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/%C3%96stermalms_saluhall_March_2020_05.jpg/3840px-%C3%96stermalms_saluhall_March_2020_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/%C3%96stermalms_saluhall_March_2020_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:%C3%96stermalms_saluhall_March_2020_05.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=87745115",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2020-03-06 16:44:56",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Östermalms saluhall March 2020 05",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Östermalms saluhall|Self-published work|Images by Arild Vågen|Media created by technology pool of Wikimedia Sverige|Årets Stockholmsbyggnad 2021",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Östermalms saluhall.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2020-03-06 16:02:08",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:ArildV\" title=\"User:ArildV\">Arild Vågen</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:%C3%96stermalms_saluhall_March_2020_05.jpg",
+    "width": 1920,
+    "height": 1282
+  },
+  {
+    "guideId": "singapore-ya-kun-kaya",
+    "candidate": "ya-kun-kaya-toast-1",
+    "title": "Kaya toast at Ya Kun in Singapore",
+    "alt": "Crisp slices of kaya toast served on a red plate at a Ya Kun outlet in Singapore",
+    "rationale": "The licensed photograph identifies the exact food at the Singapore business. Attractive breakfast-set photographs from Indonesian and Malaysian branches were excluded.",
+    "depiction": "A past serving of the named toast, not today's portion, branch menu or an included breakfast set.",
+    "id": "ya-kun-kaya-toast-1",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Kaya_toast_from_Ya_Kun_Kaya_Toast%2C_Singapore_-_20160813.jpg/1920px-Kaya_toast_from_Ya_Kun_Kaya_Toast%2C_Singapore_-_20160813.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "metadata": {
+      "title": "File:Kaya toast from Ya Kun Kaya Toast, Singapore - 20160813.jpg",
+      "size": 1438127,
+      "width": 3264,
+      "height": 2448,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Kaya_toast_from_Ya_Kun_Kaya_Toast%2C_Singapore_-_20160813.jpg/1920px-Kaya_toast_from_Ya_Kun_Kaya_Toast%2C_Singapore_-_20160813.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1920,
+      "thumbheight": 1440,
+      "responsiveUrls": {
+        "2": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Kaya_toast_from_Ya_Kun_Kaya_Toast%2C_Singapore_-_20160813.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Kaya_toast_from_Ya_Kun_Kaya_Toast%2C_Singapore_-_20160813.jpg/1920px-Kaya_toast_from_Ya_Kun_Kaya_Toast%2C_Singapore_-_20160813.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1440,
+        "srcset": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Kaya_toast_from_Ya_Kun_Kaya_Toast%2C_Singapore_-_20160813.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Kaya_toast_from_Ya_Kun_Kaya_Toast%2C_Singapore_-_20160813.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kaya_toast_from_Ya_Kun_Kaya_Toast,_Singapore_-_20160813.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=51986610",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-10-01 18:05:15",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Kaya toast from Ya Kun Kaya Toast, Singapore - 20160813",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Ya Kun Kaya Toast|Self-published work|Files with coordinates missing SDC location of creation|Singapore photographs taken on 2016-08-13",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "1.293233",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "103.853653",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<a href=\"https://en.wikipedia.org/wiki/Kaya_toast\" class=\"extiw\" title=\"w:Kaya toast\">Kaya toast</a> from <a href=\"https://en.wikipedia.org/wiki/Ya_Kun_Kaya_Toast\" class=\"extiw\" title=\"w:Ya Kun Kaya Toast\">Ya Kun Kaya Toast</a>, Singapore.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-08-13 19:23:41",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Jacklee\" title=\"User:Jacklee\">Jacklee</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:Kaya_toast_from_Ya_Kun_Kaya_Toast,_Singapore_-_20160813.jpg",
+    "width": 1920,
+    "height": 1440
+  },
+  {
+    "guideId": "meissen-underglaze-painting",
+    "candidate": "meissen-diy-2",
+    "title": "DIY porcelain painting at MEISSEN",
+    "alt": "Small painted porcelain dishes, brushes and a cup arranged on a MEISSEN workshop table",
+    "photographer": "MEISSEN",
+    "rationale": "The current public DIY product supplies this clear landscape photograph of the actual objects and tools. An unrelated overglaze-painting demonstration was rejected.",
+    "depiction": "Operator-published workshop object photograph. Individual photographer not named. Imprint and visitor terms checked without an express image-reuse restriction being found. Existing moderate-risk editorial policy applied, not permission clearance.",
+    "id": "meissen-diy-2",
+    "url": "https://www.erlebniswelt-meissen.com/media/catalog/product/cache/6d459e9ac7a576684200063be7b222c8/_/m/_mg_5994-bearbeitet_1000x720__1.jpg",
+    "source": "https://www.erlebniswelt-meissen.com/en/do-it-yourself-bei-meissen-2026.html",
+    "width": 1000,
+    "height": 720
+  },
+  {
+    "guideId": "tokyo-ameshin-candy-shaping",
+    "candidate": "ameshin-1",
+    "title": "Shaping candy at Ameshin",
+    "alt": "Hands use small scissors to shape a soft piece of candy on a stick at Ameshin",
+    "rationale": "The licensed documentary action photograph shows the real scissors-and-sugar craft at Ameshin. It explains the visitor activity better than a finished display sculpture.",
+    "depiction": "Documented craft process, not a promise that beginners produce a professional sculpture or work without supervision.",
+    "id": "ameshin-1",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Amezaiku_cut02_ameshin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "metadata": {
+      "title": "File:Amezaiku cut02 ameshin.JPG",
+      "size": 210016,
+      "width": 1600,
+      "height": 1600,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Amezaiku_cut02_ameshin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 1920,
+      "thumbheight": 1920,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Amezaiku_cut02_ameshin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1920
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Amezaiku_cut02_ameshin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Amezaiku_cut02_ameshin.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=40697914",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-06-03 15:32:47",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Amezaiku cut02 ameshin",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Amezaiku|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "浅草 飴細工 アメシン(Asakusa Amezaiku Ameshin) 手塚新理(Shinri Tezuka)氏による、飴細工の金魚の製作。第2段階。大まかな形を作る。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-06-04",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:%E6%B5%B7%E7%8D%BA\" title=\"User:海獺\">海獺</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:Amezaiku_cut02_ameshin.JPG",
+    "width": 1600,
+    "height": 1600
+  },
+  {
+    "guideId": "ljubljana-umbrella-mending",
+    "candidate": "umbrella-1",
+    "title": "Umbrella repair at Dežnik",
+    "alt": "Hands mending an umbrella.",
+    "photographer": "Primož Lukežič / Ljubljana Tourism",
+    "rationale": "Official bookable-workshop imagery shows the repair task directly. The photographer is named by Ljubljana Tourism. A fashion-related umbrella image was excluded.",
+    "depiction": "Official photograph illustrating the public workshop. General terms checked. Rights have not been separately licensed to EA and the image is not evidence of EA participation.",
+    "id": "umbrella-1",
+    "url": "https://www.visitljubljana.com/assets/Upload/images/Kreativne-delavnice-deznikarica-Primoz-Lukezic.jpg",
+    "source": "https://www.visitljubljana.com/en/visitors/tours-and-trips/mend-your-umbrella",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "guideId": "wellington-zealandia-day-walk",
+    "candidate": "zealandia-karori-reservoir-0",
+    "title": "The reservoir valley at Zealandia",
+    "alt": "Trees and a hillside reflected in the historic reservoir at Wellington's Zealandia sanctuary",
+    "rationale": "The licensed wide landscape clearly identifies the restored reservoir valley. Its 2017 date is retained as context, not a promise of current water levels or sightings.",
+    "depiction": "Judi Lapsley Miller's 2017 reservoir photograph. Water levels and vegetation change, and current track access must be checked separately.",
+    "id": "zealandia-karori-reservoir-0",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/20170409_Zealandia_013-Pano.jpg/1920px-20170409_Zealandia_013-Pano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "metadata": {
+      "title": "File:20170409 Zealandia 013-Pano.jpg",
+      "size": 35027982,
+      "width": 8866,
+      "height": 4987,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/20170409_Zealandia_013-Pano.jpg/1920px-20170409_Zealandia_013-Pano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1920,
+      "thumbheight": 1080,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/20170409_Zealandia_013-Pano.jpg/3840px-20170409_Zealandia_013-Pano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/20170409_Zealandia_013-Pano.jpg/1920px-20170409_Zealandia_013-Pano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1080,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/20170409_Zealandia_013-Pano.jpg/3840px-20170409_Zealandia_013-Pano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/20170409_Zealandia_013-Pano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:20170409_Zealandia_013-Pano.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=74197351",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-11-07 00:31:25",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "20170409 Zealandia 013-Pano",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Lower Karori Dam|Karori Wildlife Sanctuary|Images with extracted images|Uploaded with LrMediaWiki|Photographs by Judi Lapsley Miller",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "View of the lower valley at Zealandia EcoSanctuary, including Roto Kawau (lower reservoir), New Zealand and the historic valve tower.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-04-09",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Judi Lapsley Miller",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:20170409_Zealandia_013-Pano.jpg",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "guideId": "san-sebastian-igueldo-funicular",
+    "candidate": "monte-igueldo-funicular-2",
+    "title": "Monte Igueldo funicular",
+    "alt": "A red Monte Igueldo funicular carriage on its steep track in San Sebastián",
+    "rationale": "The licensed photograph shows the actual carriage and inclined transport mechanism, providing a precise visual link to the ride rather than a generic coastal panorama.",
+    "depiction": "A historical view of the funicular, not a current operating or accessibility guarantee.",
+    "id": "monte-igueldo-funicular-2",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/San_Sebasti%C3%A1n_%28RPS_14-09-2014%29_Funicular_de_Igueldo.png/1920px-San_Sebasti%C3%A1n_%28RPS_14-09-2014%29_Funicular_de_Igueldo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "metadata": {
+      "title": "File:San Sebastián (RPS 14-09-2014) Funicular de Igueldo.png",
+      "size": 17363331,
+      "width": 3671,
+      "height": 2248,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/San_Sebasti%C3%A1n_%28RPS_14-09-2014%29_Funicular_de_Igueldo.png/1920px-San_Sebasti%C3%A1n_%28RPS_14-09-2014%29_Funicular_de_Igueldo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1920,
+      "thumbheight": 1176,
+      "responsiveUrls": {
+        "2": "https://upload.wikimedia.org/wikipedia/commons/c/c8/San_Sebasti%C3%A1n_%28RPS_14-09-2014%29_Funicular_de_Igueldo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/San_Sebasti%C3%A1n_%28RPS_14-09-2014%29_Funicular_de_Igueldo.png/1920px-San_Sebasti%C3%A1n_%28RPS_14-09-2014%29_Funicular_de_Igueldo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1176,
+        "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/c8/San_Sebasti%C3%A1n_%28RPS_14-09-2014%29_Funicular_de_Igueldo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/San_Sebasti%C3%A1n_%28RPS_14-09-2014%29_Funicular_de_Igueldo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:San_Sebasti%C3%A1n_(RPS_14-09-2014)_Funicular_de_Igueldo.png",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=41992294",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-07-31 19:10:28",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "San Sebastián (RPS 14-09-2014) Funicular de Igueldo",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Funicular of Igeldo, Donostia-San Sebastián|Self-published work|Files by User:Raimundo Pastor|2014 in Donostia-San Sebastián|2014 in transport in the Basque Autonomous Community|Spain photographs taken on 2014-09-14",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "43.321161",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-2.008638",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Monte Igeldo funicular at the top station (<a href=\"//commons.wikimedia.org/wiki/San_Sebastian\" class=\"mw-redirect\" title=\"San Sebastian\">San Sebastian</a>, <a href=\"//commons.wikimedia.org/wiki/Spain\" class=\"mw-redirect\" title=\"Spain\">Spain</a>)",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2014-09-14",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Raimundo_Pastor\" title=\"User:Raimundo Pastor\">Raimundo Pastor</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:San_Sebasti%C3%A1n_(RPS_14-09-2014)_Funicular_de_Igueldo.png",
+    "width": 1920,
+    "height": 1176
+  },
+  {
+    "guideId": "stockholm-djurgarden-ferry",
+    "candidate": "djurg-rdsf-rjan-0",
+    "title": "Djurgården ferries in Stockholm",
+    "alt": "Two Djurgården passenger ferries cross Stockholm's water beside the city waterfront",
+    "rationale": "The actual local ferries are readable against the waterfront. This is a stronger match for the public-transport crossing than a terminal-only night scene.",
+    "depiction": "Documentary route context. Boats, piers, works and schedules can change and a pictured vessel is not guaranteed.",
+    "id": "djurg-rdsf-rjan-0",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Djurg%C3%A5rdsf%C3%A4rjan_8_och_10.jpg/1920px-Djurg%C3%A5rdsf%C3%A4rjan_8_och_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "metadata": {
+      "title": "File:Djurgårdsfärjan 8 och 10.jpg",
+      "size": 4307629,
+      "width": 3150,
+      "height": 2175,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Djurg%C3%A5rdsf%C3%A4rjan_8_och_10.jpg/1920px-Djurg%C3%A5rdsf%C3%A4rjan_8_och_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1920,
+      "thumbheight": 1326,
+      "responsiveUrls": {
+        "2": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Djurg%C3%A5rdsf%C3%A4rjan_8_och_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Djurg%C3%A5rdsf%C3%A4rjan_8_och_10.jpg/1920px-Djurg%C3%A5rdsf%C3%A4rjan_8_och_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1326,
+        "srcset": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Djurg%C3%A5rdsf%C3%A4rjan_8_och_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Djurg%C3%A5rdsf%C3%A4rjan_8_och_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Djurg%C3%A5rdsf%C3%A4rjan_8_och_10.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=6908842",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-08-12 16:35:19",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Djurgårdsfärjan 8 och 10",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Djurgården 10 (ship, 1982)|Djurgården 8 (ship, 1977)|Self-published work|Watercraft in motion|Photographs by Holger Ellgaard|Watercraft in Stockholm",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Djurgårdsfärjan \"Djurgården 8\" och \"Djurgården 10\" i Stockholm",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2009",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Holger.Ellgaard\" title=\"User:Holger.Ellgaard\">Holger.Ellgaard</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "I, the copyright holder of this work, hereby publish it under the following license:",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:Djurg%C3%A5rdsf%C3%A4rjan_8_och_10.jpg",
+    "width": 1920,
+    "height": 1326
+  },
+  {
+    "guideId": "london-crossness-guided",
+    "candidate": "crossness-colours",
+    "title": "Restored ironwork at Crossness",
+    "alt": "Red, cream and green ornamental ironwork inside London's Crossness pumping station",
+    "rationale": "A high-resolution licensed detail makes the unexpected decorative quality of this infrastructure site clear. Selected over a darker low-resolution interior.",
+    "depiction": "Restored decorative ironwork in the actual station. Not evidence that an engine runs during an ordinary guided tour.",
+    "id": "crossness-colours",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Colours_of_Crossness.jpg/1920px-Colours_of_Crossness.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "metadata": {
+      "title": "File:Colours of Crossness.jpg",
+      "size": 5887113,
+      "width": 4272,
+      "height": 2848,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Colours_of_Crossness.jpg/1920px-Colours_of_Crossness.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1920,
+      "thumbheight": 1280,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Colours_of_Crossness.jpg/3840px-Colours_of_Crossness.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Colours_of_Crossness.jpg/1920px-Colours_of_Crossness.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1280,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Colours_of_Crossness.jpg/3840px-Colours_of_Crossness.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Colours_of_Crossness.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Colours_of_Crossness.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=73243901",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-09-30 15:09:09",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Colours of Crossness",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Interior of Crossness Pumping Station|Images from Wiki Loves Monuments 2018|Self-published work|Listed buildings in England with known IDs|Uploaded via Campaign:wlm-gb-eng|United Kingdom photographs taken on 2016-10-09|Images from Wiki Loves Monuments 2018 in England|Images from Wiki Loves Monuments 2018 in the United Kingdom|WLM-UK 2018 unfiltered 09-30",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "51.509100",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "0.138333",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Crossness Pumping Station<br>\n<style data-mw-deduplicate=\"TemplateStyles:r1254222110\">.mw-parser-output .messagebox{margin:4px 0;width:auto;border-collapse:collapse;border:2px solid var(--border-color-progressive,#6485d1);background-color:var(--background-color-neutral-subtle,#fbfcff);color:var(--color-base,#202122);box-sizing:border-box;border-inline-start-width:8px}.mw-parser-output .messagebox.mbox-small{font-size:88%;line-height:1.25em}.mw-parser-output .mbox-warning,.mw-parser-output .mbox-speedy{border:2px solid var(--border-color-error,#b22222);background:var(--background-color-error-subtle,#ffdbdb);border-inline-start-width:8px}.mw-parser-output .mbox-serious,.mw-parser-output .mbox-delete,.mw-parser-output .mbox-stop{border:2px solid var(--border-color-error,#b22222);border-inline-start-width:8px}.mw-parser-output .mbox-issue,.mw-parser-output .mbox-content{border:2px solid #f28500;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-query,.mw-parser-output .mbox-style{border:2px solid #f4c430;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-shit{border:2px solid #960;border-inline-start-width:8px}.mw-parser-output .mbox-license{border:2px solid #88a;border-inline-start-width:initial}.mw-parser-output .mbox-legal{border:2px solid var(--border-color-notice,#666);background:var(--background-color-base,#fff);border-inline-start-width:8px}.mw-parser-output .mbox-honor{border:2px solid #ca3;background:var(--background-color-warning-subtle,#fcf4db);border-inline-start-width:8px}.mw-parser-output .mbox-growth{border:2px solid #8d4;background:var(--background-color-success-subtle,#d5fdf4);border-inline-start-width:8px}.mw-parser-output .mbox-move{border:2px solid #93c;border-inline-start-width:8px}.mw-parser-output .mbox-protection,.mw-parser-output .mbox-message{border:2px solid var(--border-color-base,#aaa);border-inline-start-width:8px}.mw-parser-output .messagebox .mbox-text{border:none;padding:0.25em 0.9em;width:100%}.mw-parser-output .messagebox .mbox-image{border:none;padding-top:2px;padding-bottom:2px;padding-inline-start:0.9em;padding-inline-end:0;text-align:center}.mw-parser-output .messagebox .mbox-imageright{border:none;padding-top:2px;padding-bottom:2px;padding-inline-start:0;padding-inline-end:0.9em;text-align:center}.mw-parser-output .messagebox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .messagebox .mbox-invalid-type{text-align:center}@media(min-width:720px){.mw-parser-output .messagebox{margin:4px 10%}.mw-parser-output .messagebox.mbox-small{clear:right;float:right;margin:4px 0 4px 1em;width:238px}}body.skin--responsive .mw-parser-output table.messagebox img{max-width:none!important}</style><table class=\"plainlinks messagebox mbox-message\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Wikidata-logo.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/40px-Wikidata-logo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"30\" height=\"17\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/60px-Wikidata-logo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1050\" data-file-height=\"590\"></a></span></td><td class=\"mbox-text\"><a href=\"https://www.wikidata.org/wiki/Wikidata:Main_page\" class=\"extiw\" title=\"wikidata:Wikidata:Main page\">Wikidata</a> has <a href=\"https://www.wikidata.org/wiki/Q5188737\" class=\"extiw\" title=\"d:Q5188737\">entry Crossness Pumping Station <small>(Q5188737)</small></a> with data related to this item.</td></tr></tbody></table>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-10-09 11:53:15",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Caz19&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Caz19 (page does not exist)\">Caz19</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:Colours_of_Crossness.jpg",
+    "width": 1920,
+    "height": 1280
+  },
+  {
+    "guideId": "porto-cpf-camera-collection",
+    "candidate": "centro-portugues-fotografia-2",
+    "title": "Camera collection at Centro Português de Fotografia",
+    "alt": "Historic cameras displayed in glass cases inside Porto's Centro Português de Fotografia",
+    "rationale": "The licensed photograph shows the cameras that are the guide's actual focus. More dramatic building-only views were rejected in favour of a direct content match.",
+    "depiction": "A documentary collection view, not a guarantee of the current arrangement or permission to handle equipment.",
+    "id": "centro-portugues-fotografia-2",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Aparatos_fotogr%C3%A1ficos_expuestos_en_el_%22Centro_Portugu%C3%AAs_de_Fotografia%22._Oporto%2C_Portugal.jpg/1920px-Aparatos_fotogr%C3%A1ficos_expuestos_en_el_%22Centro_Portugu%C3%AAs_de_Fotografia%22._Oporto%2C_Portugal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "metadata": {
+      "title": "File:Aparatos fotográficos expuestos en el \"Centro Português de Fotografia\". Oporto, Portugal.jpg",
+      "size": 7458595,
+      "width": 8000,
+      "height": 6000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Aparatos_fotogr%C3%A1ficos_expuestos_en_el_%22Centro_Portugu%C3%AAs_de_Fotografia%22._Oporto%2C_Portugal.jpg/1920px-Aparatos_fotogr%C3%A1ficos_expuestos_en_el_%22Centro_Portugu%C3%AAs_de_Fotografia%22._Oporto%2C_Portugal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1920,
+      "thumbheight": 1440,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Aparatos_fotogr%C3%A1ficos_expuestos_en_el_%22Centro_Portugu%C3%AAs_de_Fotografia%22._Oporto%2C_Portugal.jpg/3840px-Aparatos_fotogr%C3%A1ficos_expuestos_en_el_%22Centro_Portugu%C3%AAs_de_Fotografia%22._Oporto%2C_Portugal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Aparatos_fotogr%C3%A1ficos_expuestos_en_el_%22Centro_Portugu%C3%AAs_de_Fotografia%22._Oporto%2C_Portugal.jpg/1920px-Aparatos_fotogr%C3%A1ficos_expuestos_en_el_%22Centro_Portugu%C3%AAs_de_Fotografia%22._Oporto%2C_Portugal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1440,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Aparatos_fotogr%C3%A1ficos_expuestos_en_el_%22Centro_Portugu%C3%AAs_de_Fotografia%22._Oporto%2C_Portugal.jpg/3840px-Aparatos_fotogr%C3%A1ficos_expuestos_en_el_%22Centro_Portugu%C3%AAs_de_Fotografia%22._Oporto%2C_Portugal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Aparatos_fotogr%C3%A1ficos_expuestos_en_el_%22Centro_Portugu%C3%AAs_de_Fotografia%22._Oporto%2C_Portugal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Aparatos_fotogr%C3%A1ficos_expuestos_en_el_%22Centro_Portugu%C3%AAs_de_Fotografia%22._Oporto,_Portugal.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=121259259",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-07-30 11:57:46",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Aparatos fotográficos expuestos en el \"Centro Português de Fotografia\". Oporto, Portugal",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Large format cameras|Centro Português de Fotografia|Enlargers|Self-published work|July 2022 in Porto",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Dos cámaras fotográficas de madera (a la izquierda y derecha); dos ampliadoras de madera; y otros aparatos fotográficos expuestos en el Centro Portugués de Fotografía.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-07-19 14:22:33",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:CARLOS_TEIXIDOR_CADENAS\" title=\"User:CARLOS TEIXIDOR CADENAS\">CARLOS TEIXIDOR CADENAS</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:Aparatos_fotogr%C3%A1ficos_expuestos_en_el_%22Centro_Portugu%C3%AAs_de_Fotografia%22._Oporto,_Portugal.jpg",
+    "width": 1920,
+    "height": 1440
+  },
+  {
+    "guideId": "palermo-stanze-maiolica",
+    "candidate": "palermo-1",
+    "title": "Maiolica walls at Stanze al Genio",
+    "alt": "",
+    "photographer": "Stanze al Genio",
+    "rationale": "The museum's own large photograph presents the actual collection and room with clear colour and detail. A restoration-work photograph was excluded because visitors do not perform restoration.",
+    "depiction": "Museum-published collection context. Individual photographer not named. On-site photographic restrictions do not constitute an image-reuse licence. Existing moderate-risk official-source policy applied.",
+    "id": "palermo-1",
+    "url": "https://stanzealgenio.com/wp-content/uploads/slider/cache/16ad51c93c9f0dcd8a952d280f39c885/0A0A2213-scaled.jpg",
+    "source": "https://stanzealgenio.com/",
+    "width": 1920,
+    "height": 1281
+  },
+  {
+    "guideId": "new-york-wave-hill-garden",
+    "candidate": "wave-hill-pergola-1",
+    "title": "The Hudson view from Wave Hill",
+    "alt": "Flowering planting and the pergola frame a Hudson River view at Wave Hill in the Bronx",
+    "rationale": "The licensed landscape connects the actual garden foreground with the Hudson view. It supports the pause described without substituting a generic New York park.",
+    "depiction": "Seasonal documentary view. Flowers, light and seating availability will not necessarily match the photograph.",
+    "id": "wave-hill-pergola-1",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Wave_Hill_-_20220616_-_20_-_Hudson_River_and_Palisades_as_seen_from_pergola_at_Great_Lawn_overlook.jpg/1920px-Wave_Hill_-_20220616_-_20_-_Hudson_River_and_Palisades_as_seen_from_pergola_at_Great_Lawn_overlook.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "metadata": {
+      "title": "File:Wave Hill - 20220616 - 20 - Hudson River and Palisades as seen from pergola at Great Lawn overlook.jpg",
+      "size": 3763678,
+      "width": 3848,
+      "height": 2565,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Wave_Hill_-_20220616_-_20_-_Hudson_River_and_Palisades_as_seen_from_pergola_at_Great_Lawn_overlook.jpg/1920px-Wave_Hill_-_20220616_-_20_-_Hudson_River_and_Palisades_as_seen_from_pergola_at_Great_Lawn_overlook.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1920,
+      "thumbheight": 1280,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Wave_Hill_-_20220616_-_20_-_Hudson_River_and_Palisades_as_seen_from_pergola_at_Great_Lawn_overlook.jpg/3840px-Wave_Hill_-_20220616_-_20_-_Hudson_River_and_Palisades_as_seen_from_pergola_at_Great_Lawn_overlook.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Wave_Hill_-_20220616_-_20_-_Hudson_River_and_Palisades_as_seen_from_pergola_at_Great_Lawn_overlook.jpg/1920px-Wave_Hill_-_20220616_-_20_-_Hudson_River_and_Palisades_as_seen_from_pergola_at_Great_Lawn_overlook.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1280,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Wave_Hill_-_20220616_-_20_-_Hudson_River_and_Palisades_as_seen_from_pergola_at_Great_Lawn_overlook.jpg/3840px-Wave_Hill_-_20220616_-_20_-_Hudson_River_and_Palisades_as_seen_from_pergola_at_Great_Lawn_overlook.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Wave_Hill_-_20220616_-_20_-_Hudson_River_and_Palisades_as_seen_from_pergola_at_Great_Lawn_overlook.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Wave_Hill_-_20220616_-_20_-_Hudson_River_and_Palisades_as_seen_from_pergola_at_Great_Lawn_overlook.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=120029829",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-07-03 01:24:49",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Wave Hill - 20220616 - 20 - Hudson River and Palisades as seen from pergola at Great Lawn overlook",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "The Palisades (Hudson River)|Self-published work|Pergolas in the United States|Files with coordinates missing SDC location of creation|Views across the Hudson River from Wave Hill|June 2022 in the Bronx, New York City|Wave Hill, 16 June 2022",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "40.898628",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-73.912392",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Of all the vantage points at the premises of Wave Hill Public Garden in the Bronx from which to view the Palisades and the Hudson River, the overlook at the west end of the Lower Lawn is the best - but the pergola on the Great Lawn, styled with a profusion of intricately arranged seasonal potted plants into an ambience redolent of a tropical oasis - is the most verdant. As seen during a June 2022 visit.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-06-16 14:38:43",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Andre_Carrotflower\" title=\"User:Andre Carrotflower\">Andre Carrotflower</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:Wave_Hill_-_20220616_-_20_-_Hudson_River_and_Palisades_as_seen_from_pergola_at_Great_Lawn_overlook.jpg",
+    "width": 1920,
+    "height": 1280
+  },
+  {
+    "guideId": "mexico-city-unam-botanical-pause",
+    "candidate": "unam-jardin-botanico-0",
+    "title": "UNAM botanical garden",
+    "alt": "A garden path passes trees and spiky plants at UNAM's botanical garden in Mexico City",
+    "rationale": "A licensed photograph of the actual garden gives the public-path setting. Official UNAM images were excluded because the institution explicitly restricts commercial reuse.",
+    "depiction": "Garden context, not a verified current route, species identification or universal accessibility claim.",
+    "id": "unam-jardin-botanico-0",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Acceso_al_Jard%C3%ADn_Bot%C3%A1nico_del_Instituto_de_Biolog%C3%ADa_%28UNAM%29..jpg/1920px-Acceso_al_Jard%C3%ADn_Bot%C3%A1nico_del_Instituto_de_Biolog%C3%ADa_%28UNAM%29..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "metadata": {
+      "title": "File:Acceso al Jardín Botánico del Instituto de Biología (UNAM)..jpg",
+      "size": 5339334,
+      "width": 3456,
+      "height": 2304,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Acceso_al_Jard%C3%ADn_Bot%C3%A1nico_del_Instituto_de_Biolog%C3%ADa_%28UNAM%29..jpg/1920px-Acceso_al_Jard%C3%ADn_Bot%C3%A1nico_del_Instituto_de_Biolog%C3%ADa_%28UNAM%29..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1920,
+      "thumbheight": 1280,
+      "responsiveUrls": {
+        "2": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Acceso_al_Jard%C3%ADn_Bot%C3%A1nico_del_Instituto_de_Biolog%C3%ADa_%28UNAM%29..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Acceso_al_Jard%C3%ADn_Bot%C3%A1nico_del_Instituto_de_Biolog%C3%ADa_%28UNAM%29..jpg/1920px-Acceso_al_Jard%C3%ADn_Bot%C3%A1nico_del_Instituto_de_Biolog%C3%ADa_%28UNAM%29..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1280,
+        "srcset": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Acceso_al_Jard%C3%ADn_Bot%C3%A1nico_del_Instituto_de_Biolog%C3%ADa_%28UNAM%29..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Acceso_al_Jard%C3%ADn_Bot%C3%A1nico_del_Instituto_de_Biolog%C3%ADa_%28UNAM%29..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Acceso_al_Jard%C3%ADn_Bot%C3%A1nico_del_Instituto_de_Biolog%C3%ADa_(UNAM)..jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=49389860",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-06-11 23:16:15",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Acceso al Jardín Botánico del Instituto de Biología (UNAM).",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Jardín Botánico de UNAM|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "El jardín Botánico del Instituto de Biología es el segundo más antiguo a nivel nacional.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-02-13",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rominaojedag16&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rominaojedag16 (page does not exist)\">Rominaojedag16</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:Acceso_al_Jard%C3%ADn_Bot%C3%A1nico_del_Instituto_de_Biolog%C3%ADa_(UNAM)..jpg",
+    "width": 1920,
+    "height": 1280
+  },
+  {
+    "guideId": "ljubljana-tivoli-promenade-pause",
+    "candidate": "tivoli-ljubljana-promenade-0",
+    "title": "Tivoli's promenade and fountain",
+    "alt": "A fountain and the long tree-lined promenade in Ljubljana's Tivoli Park",
+    "rationale": "The licensed photograph places the reader at the exact promenade rather than a generic woodland trail. Its composition keeps the urban park's scale and walking setting visible.",
+    "depiction": "A seasonal park photograph, not a promise of fountain operation, exhibition content or current weather.",
+    "id": "tivoli-ljubljana-promenade-0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Park_Tivoli_-_Ljubljana_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "metadata": {
+      "title": "File:Park Tivoli - Ljubljana (2).jpg",
+      "size": 846292,
+      "width": 1600,
+      "height": 1200,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Park_Tivoli_-_Ljubljana_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 1920,
+      "thumbheight": 1440,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Park_Tivoli_-_Ljubljana_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1440
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Park_Tivoli_-_Ljubljana_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Park_Tivoli_-_Ljubljana_(2).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=16205563",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2011-08-24 05:56:02",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Park Tivoli - Ljubljana (2)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Casio Exilim EX-S2|Tivoli City Park|Boy with a Fish|Jakopič Promenade|Panoramio images reviewed by trusted users|Photos from Panoramio|SpomenikSVN warning|De minimis without reason|Ballet (Batič)|Files with coordinates missing SDC location of creation|Slovenia photographs taken on 2006-08-12|Photos from Panoramio ID 7158",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "46.053825",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "14.497249",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Tivoli City Park, Ljubljana. View from Tivoli Castle. At the bottom of the image, the dogs created by Anton Dominik Fernkorn (1813-1878). In the front, Boy with a Fish, a replica of a fountain from 1870. Behind it, the statue Ballet, work of Stojan Batič (1957). In the background, Jakopič Promenade, architecturally arranged by Jože Plečnik.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "12 August 2006, 18:30 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161014125702/http://www.panoramio.com/photo/22137105\">Park Tivoli - Ljubljana</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161104133430/http://www.panoramio.com/user/7158\">kajikawa</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:Park_Tivoli_-_Ljubljana_(2).jpg",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "guideId": "paris-sainte-chapelle-concert",
+    "candidate": "sainte-chapelle-paris-upper-chapel-1",
+    "title": "Sainte-Chapelle's upper chapel",
+    "alt": "Tall stained-glass windows and a richly coloured vaulted ceiling inside Paris's Sainte-Chapelle",
+    "rationale": "Diego Delso's licensed architectural photograph precisely identifies the concert setting. It is explicitly historical and not sold as the current concert seating or restoration condition.",
+    "depiction": "2022 architectural photograph, before the restoration scaffolding reported from 2025. Not a concert in progress, promised seat view or guarantee of daylight.",
+    "id": "sainte-chapelle-paris-upper-chapel-1",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Santa_Capilla%2C_Par%C3%ADs%2C_Francia%2C_2022-11-01%2C_DD_80-82_HDR.jpg/1920px-Santa_Capilla%2C_Par%C3%ADs%2C_Francia%2C_2022-11-01%2C_DD_80-82_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "metadata": {
+      "title": "File:Santa Capilla, París, Francia, 2022-11-01, DD 80-82 HDR.jpg",
+      "size": 11924147,
+      "width": 8567,
+      "height": 5711,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Santa_Capilla%2C_Par%C3%ADs%2C_Francia%2C_2022-11-01%2C_DD_80-82_HDR.jpg/1920px-Santa_Capilla%2C_Par%C3%ADs%2C_Francia%2C_2022-11-01%2C_DD_80-82_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1920,
+      "thumbheight": 1280,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Santa_Capilla%2C_Par%C3%ADs%2C_Francia%2C_2022-11-01%2C_DD_80-82_HDR.jpg/3840px-Santa_Capilla%2C_Par%C3%ADs%2C_Francia%2C_2022-11-01%2C_DD_80-82_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Santa_Capilla%2C_Par%C3%ADs%2C_Francia%2C_2022-11-01%2C_DD_80-82_HDR.jpg/1920px-Santa_Capilla%2C_Par%C3%ADs%2C_Francia%2C_2022-11-01%2C_DD_80-82_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1280,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Santa_Capilla%2C_Par%C3%ADs%2C_Francia%2C_2022-11-01%2C_DD_80-82_HDR.jpg/3840px-Santa_Capilla%2C_Par%C3%ADs%2C_Francia%2C_2022-11-01%2C_DD_80-82_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Santa_Capilla%2C_Par%C3%ADs%2C_Francia%2C_2022-11-01%2C_DD_80-82_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Santa_Capilla,_Par%C3%ADs,_Francia,_2022-11-01,_DD_80-82_HDR.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=136876108",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-11-16 09:28:06",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Santa Capilla, París, Francia, 2022-11-01, DD 80-82 HDR",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 5DS R|Self-published work|Images of France by User:Poco a poco|Featured pictures on Wikipedia, Persian|Featured pictures by User:Poco a poco|Images by User:Poco a poco|Sainte-Chapelle (Upper chapel)|Featured pictures of France by User:Poco a poco|Featured pictures on Commons by User:Poco a poco|Featured pictures of interiors by User:Poco a poco|Paris photographs taken on 2022-11-01|Featured pictures of churches in Paris|Images by User:Poco a poco taken in 2022|Featured pictures in Persian language Wikipedia by User:Poco a poco|Pictures of the Year/2025 (finalist)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality|featured|poty",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Upper chapel of the <a href=\"https://en.wikipedia.org/wiki/Sainte-Chapelle\" class=\"extiw\" title=\"en:Sainte-Chapelle\">Sainte-Chapelle</a>, located in the medieval <a href=\"https://en.wikipedia.org/wiki/Palais_de_la_Cit%C3%A9\" class=\"extiw\" title=\"en:Palais de la Cité\">Palais de la Cité</a> (residence of the Kings of France until the 14th century), Île de la Cité in the Seine, Paris, France. It was commissioned by King Louis IX and its construction began sometime after 1238 and the chapel was consecrated on 26 April 1248. The Sainte-Chapelle is considered among the highest achievements of the <a href=\"https://en.wikipedia.org/wiki/Rayonnant\" class=\"extiw\" title=\"en:Rayonnant\">Rayonnant</a> period of Gothic architecture, and it has one of the most extensive 13th-century stained glass collections anywhere in the world",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-11-01 16:48:59",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Diego Delso",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:Santa_Capilla,_Par%C3%ADs,_Francia,_2022-11-01,_DD_80-82_HDR.jpg",
+    "width": 1920,
+    "height": 1280
+  },
+  {
+    "guideId": "helsinki-temppeliaukio-concert",
+    "candidate": "temppeliaukio-interior-2",
+    "title": "Inside Temppeliaukio Church",
+    "alt": "Rock walls and the broad copper dome surround seating inside Helsinki's Temppeliaukio Church",
+    "rationale": "A documented licensed architectural view by Suicasmo shows the exact venue. An alternative with an ambiguous photographer label was excluded rather than guessing attribution.",
+    "depiction": "Architecture and audience-space context, not a current performance or guaranteed seating and lighting arrangement.",
+    "id": "temppeliaukio-interior-2",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Interior_of_Temppeliaukio_Church_20180802.jpg/1920px-Interior_of_Temppeliaukio_Church_20180802.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "metadata": {
+      "title": "File:Interior of Temppeliaukio Church 20180802.jpg",
+      "size": 6324649,
+      "width": 5184,
+      "height": 3456,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Interior_of_Temppeliaukio_Church_20180802.jpg/1920px-Interior_of_Temppeliaukio_Church_20180802.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1920,
+      "thumbheight": 1280,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Interior_of_Temppeliaukio_Church_20180802.jpg/3840px-Interior_of_Temppeliaukio_Church_20180802.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Interior_of_Temppeliaukio_Church_20180802.jpg/1920px-Interior_of_Temppeliaukio_Church_20180802.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1280,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Interior_of_Temppeliaukio_Church_20180802.jpg/3840px-Interior_of_Temppeliaukio_Church_20180802.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Interior_of_Temppeliaukio_Church_20180802.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Interior_of_Temppeliaukio_Church_20180802.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=91241932",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2020-06-16 08:22:55",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Interior of Temppeliaukio Church 20180802",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Interior of Temppeliaukio Church|Self-published work|Churches in Helsinki photographed in 2018",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Interior of Temppeliaukio Church",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-08-02 09:06:38",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Suicasmo\" title=\"User:Suicasmo\">Suicasmo</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:Interior_of_Temppeliaukio_Church_20180802.jpg",
+    "width": 1920,
+    "height": 1280
+  },
+  {
+    "guideId": "seville-torres-macarena-flamenco",
+    "candidate": "seville-stage-original",
+    "title": "Flamenco in the Torres Macarena programme",
+    "alt": "A flamenco dancer and accompanying musicians in a black-and-white photograph published by Torres Macarena",
+    "photographer": "Peña Flamenca Torres Macarena",
+    "rationale": "The association publishes this genuine performance photograph on its own homepage. The 1500-pixel original was recovered instead of enlarging the 576-pixel preview. No performer identity or current lineup is invented.",
+    "depiction": "Official association-published performance context, not a promised performer, seat or event date. Individual photographer is not named. Moderate-risk official-source policy applied without claiming a licence.",
+    "id": "seville-stage-original",
+    "url": "https://www.xn--peaflamencatorresmacarena-9nc.com/wp-content/uploads/go-x/u/7eeb0670-8f61-42cc-9b8d-a2c3022899e3/image.jpg",
+    "source": "https://www.xn--peaflamencatorresmacarena-9nc.com/",
+    "format": "jpeg",
+    "mediaType": "image/jpeg",
+    "size": 230642,
+    "width": 1500,
+    "height": 1000,
+    "space": "srgb",
+    "channels": 3,
+    "depth": "uchar",
+    "density": 96,
+    "chromaSubsampling": "4:2:0",
+    "isProgressive": false,
+    "isPalette": false,
+    "resolutionUnit": "inch",
+    "hasProfile": false,
+    "hasAlpha": false,
+    "orientation": 1,
+    "autoOrient": {
+      "width": 1500,
+      "height": 1000
+    },
+    "exif": {
+      "type": "Buffer",
+      "data": [
+        69,
+        120,
+        105,
+        102,
+        0,
+        0,
+        73,
+        73,
+        42,
+        0,
+        8,
+        0,
+        0,
+        0,
+        6,
+        0,
+        18,
+        1,
+        3,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        26,
+        1,
+        5,
+        0,
+        1,
+        0,
+        0,
+        0,
+        164,
+        0,
+        0,
+        0,
+        27,
+        1,
+        5,
+        0,
+        1,
+        0,
+        0,
+        0,
+        172,
+        0,
+        0,
+        0,
+        40,
+        1,
+        3,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        19,
+        2,
+        3,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        105,
+        135,
+        4,
+        0,
+        1,
+        0,
+        0,
+        0,
+        86,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        144,
+        7,
+        0,
+        4,
+        0,
+        0,
+        0,
+        48,
+        50,
+        51,
+        49,
+        1,
+        145,
+        7,
+        0,
+        4,
+        0,
+        0,
+        0,
+        1,
+        2,
+        3,
+        0,
+        0,
+        160,
+        7,
+        0,
+        4,
+        0,
+        0,
+        0,
+        48,
+        49,
+        48,
+        48,
+        1,
+        160,
+        3,
+        0,
+        1,
+        0,
+        0,
+        0,
+        255,
+        255,
+        0,
+        0,
+        2,
+        160,
+        3,
+        0,
+        1,
+        0,
+        0,
+        0,
+        220,
+        5,
+        0,
+        0,
+        3,
+        160,
+        3,
+        0,
+        1,
+        0,
+        0,
+        0,
+        232,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        96,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        96,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "xmpAsString": "<x:xmpmeta xmlns:x='adobe:ns:meta/'>\n        <rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>\n\n        <rdf:Description rdf:about=''\n        xmlns:dc='http://purl.org/dc/elements/1.1/'>\n        <dc:title>\n        <rdf:Alt>\n        <rdf:li xml:lang='x-default'>Imagen de portada - 59</rdf:li>\n        </rdf:Alt>\n        </dc:title>\n        </rdf:Description>\n\n        <rdf:Description rdf:about=''\n        xmlns:Attrib='http://ns.attribution.com/ads/1.0/'>\n        <Attrib:Ads>\n        <rdf:Seq>\n        <rdf:li rdf:parseType='Resource'>\n        <Attrib:Created>2024-10-01</Attrib:Created>\n        <Attrib:ExtId>fccf790c-54c9-4a98-b68f-4b4d281446f2</Attrib:ExtId>\n        <Attrib:FbId>525265914179580</Attrib:FbId>\n        <Attrib:TouchType>2</Attrib:TouchType>\n        </rdf:li>\n        </rdf:Seq>\n        </Attrib:Ads>\n        </rdf:Description>\n\n        <rdf:Description rdf:about=''\n        xmlns:pdf='http://ns.adobe.com/pdf/1.3/'>\n        <pdf:Author>Dirección de Comunicación</pdf:Author>\n        </rdf:Description>\n\n        <rdf:Description rdf:about=''\n        xmlns:xmp='http://ns.adobe.com/xap/1.0/'>\n        <xmp:CreatorTool>Canva (Renderer)</xmp:CreatorTool>\n        </rdf:Description>\n        \n        </rdf:RDF>\n        </x:xmpmeta>",
+    "xmp": {
+      "type": "Buffer",
+      "data": [
+        60,
+        120,
+        58,
+        120,
+        109,
+        112,
+        109,
+        101,
+        116,
+        97,
+        32,
+        120,
+        109,
+        108,
+        110,
+        115,
+        58,
+        120,
+        61,
+        39,
+        97,
+        100,
+        111,
+        98,
+        101,
+        58,
+        110,
+        115,
+        58,
+        109,
+        101,
+        116,
+        97,
+        47,
+        39,
+        62,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        114,
+        100,
+        102,
+        58,
+        82,
+        68,
+        70,
+        32,
+        120,
+        109,
+        108,
+        110,
+        115,
+        58,
+        114,
+        100,
+        102,
+        61,
+        39,
+        104,
+        116,
+        116,
+        112,
+        58,
+        47,
+        47,
+        119,
+        119,
+        119,
+        46,
+        119,
+        51,
+        46,
+        111,
+        114,
+        103,
+        47,
+        49,
+        57,
+        57,
+        57,
+        47,
+        48,
+        50,
+        47,
+        50,
+        50,
+        45,
+        114,
+        100,
+        102,
+        45,
+        115,
+        121,
+        110,
+        116,
+        97,
+        120,
+        45,
+        110,
+        115,
+        35,
+        39,
+        62,
+        10,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        114,
+        100,
+        102,
+        58,
+        68,
+        101,
+        115,
+        99,
+        114,
+        105,
+        112,
+        116,
+        105,
+        111,
+        110,
+        32,
+        114,
+        100,
+        102,
+        58,
+        97,
+        98,
+        111,
+        117,
+        116,
+        61,
+        39,
+        39,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        120,
+        109,
+        108,
+        110,
+        115,
+        58,
+        100,
+        99,
+        61,
+        39,
+        104,
+        116,
+        116,
+        112,
+        58,
+        47,
+        47,
+        112,
+        117,
+        114,
+        108,
+        46,
+        111,
+        114,
+        103,
+        47,
+        100,
+        99,
+        47,
+        101,
+        108,
+        101,
+        109,
+        101,
+        110,
+        116,
+        115,
+        47,
+        49,
+        46,
+        49,
+        47,
+        39,
+        62,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        100,
+        99,
+        58,
+        116,
+        105,
+        116,
+        108,
+        101,
+        62,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        114,
+        100,
+        102,
+        58,
+        65,
+        108,
+        116,
+        62,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        114,
+        100,
+        102,
+        58,
+        108,
+        105,
+        32,
+        120,
+        109,
+        108,
+        58,
+        108,
+        97,
+        110,
+        103,
+        61,
+        39,
+        120,
+        45,
+        100,
+        101,
+        102,
+        97,
+        117,
+        108,
+        116,
+        39,
+        62,
+        73,
+        109,
+        97,
+        103,
+        101,
+        110,
+        32,
+        100,
+        101,
+        32,
+        112,
+        111,
+        114,
+        116,
+        97,
+        100,
+        97,
+        32,
+        45,
+        32,
+        53,
+        57,
+        60,
+        47,
+        114,
+        100,
+        102,
+        58,
+        108,
+        105,
+        62,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        47,
+        114,
+        100,
+        102,
+        58,
+        65,
+        108,
+        116,
+        62,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        47,
+        100,
+        99,
+        58,
+        116,
+        105,
+        116,
+        108,
+        101,
+        62,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        47,
+        114,
+        100,
+        102,
+        58,
+        68,
+        101,
+        115,
+        99,
+        114,
+        105,
+        112,
+        116,
+        105,
+        111,
+        110,
+        62,
+        10,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        114,
+        100,
+        102,
+        58,
+        68,
+        101,
+        115,
+        99,
+        114,
+        105,
+        112,
+        116,
+        105,
+        111,
+        110,
+        32,
+        114,
+        100,
+        102,
+        58,
+        97,
+        98,
+        111,
+        117,
+        116,
+        61,
+        39,
+        39,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        120,
+        109,
+        108,
+        110,
+        115,
+        58,
+        65,
+        116,
+        116,
+        114,
+        105,
+        98,
+        61,
+        39,
+        104,
+        116,
+        116,
+        112,
+        58,
+        47,
+        47,
+        110,
+        115,
+        46,
+        97,
+        116,
+        116,
+        114,
+        105,
+        98,
+        117,
+        116,
+        105,
+        111,
+        110,
+        46,
+        99,
+        111,
+        109,
+        47,
+        97,
+        100,
+        115,
+        47,
+        49,
+        46,
+        48,
+        47,
+        39,
+        62,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        65,
+        116,
+        116,
+        114,
+        105,
+        98,
+        58,
+        65,
+        100,
+        115,
+        62,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        114,
+        100,
+        102,
+        58,
+        83,
+        101,
+        113,
+        62,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        114,
+        100,
+        102,
+        58,
+        108,
+        105,
+        32,
+        114,
+        100,
+        102,
+        58,
+        112,
+        97,
+        114,
+        115,
+        101,
+        84,
+        121,
+        112,
+        101,
+        61,
+        39,
+        82,
+        101,
+        115,
+        111,
+        117,
+        114,
+        99,
+        101,
+        39,
+        62,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        65,
+        116,
+        116,
+        114,
+        105,
+        98,
+        58,
+        67,
+        114,
+        101,
+        97,
+        116,
+        101,
+        100,
+        62,
+        50,
+        48,
+        50,
+        52,
+        45,
+        49,
+        48,
+        45,
+        48,
+        49,
+        60,
+        47,
+        65,
+        116,
+        116,
+        114,
+        105,
+        98,
+        58,
+        67,
+        114,
+        101,
+        97,
+        116,
+        101,
+        100,
+        62,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        65,
+        116,
+        116,
+        114,
+        105,
+        98,
+        58,
+        69,
+        120,
+        116,
+        73,
+        100,
+        62,
+        102,
+        99,
+        99,
+        102,
+        55,
+        57,
+        48,
+        99,
+        45,
+        53,
+        52,
+        99,
+        57,
+        45,
+        52,
+        97,
+        57,
+        56,
+        45,
+        98,
+        54,
+        56,
+        102,
+        45,
+        52,
+        98,
+        52,
+        100,
+        50,
+        56,
+        49,
+        52,
+        52,
+        54,
+        102,
+        50,
+        60,
+        47,
+        65,
+        116,
+        116,
+        114,
+        105,
+        98,
+        58,
+        69,
+        120,
+        116,
+        73,
+        100,
+        62,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        65,
+        116,
+        116,
+        114,
+        105,
+        98,
+        58,
+        70,
+        98,
+        73,
+        100,
+        62,
+        53,
+        50,
+        53,
+        50,
+        54,
+        53,
+        57,
+        49,
+        52,
+        49,
+        55,
+        57,
+        53,
+        56,
+        48,
+        60,
+        47,
+        65,
+        116,
+        116,
+        114,
+        105,
+        98,
+        58,
+        70,
+        98,
+        73,
+        100,
+        62,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        65,
+        116,
+        116,
+        114,
+        105,
+        98,
+        58,
+        84,
+        111,
+        117,
+        99,
+        104,
+        84,
+        121,
+        112,
+        101,
+        62,
+        50,
+        60,
+        47,
+        65,
+        116,
+        116,
+        114,
+        105,
+        98,
+        58,
+        84,
+        111,
+        117,
+        99,
+        104,
+        84,
+        121,
+        112,
+        101,
+        62,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        47,
+        114,
+        100,
+        102,
+        58,
+        108,
+        105,
+        62,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        47,
+        114,
+        100,
+        102,
+        58,
+        83,
+        101,
+        113,
+        62,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        47,
+        65,
+        116,
+        116,
+        114,
+        105,
+        98,
+        58,
+        65,
+        100,
+        115,
+        62,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        47,
+        114,
+        100,
+        102,
+        58,
+        68,
+        101,
+        115,
+        99,
+        114,
+        105,
+        112,
+        116,
+        105,
+        111,
+        110,
+        62,
+        10,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        114,
+        100,
+        102,
+        58,
+        68,
+        101,
+        115,
+        99,
+        114,
+        105,
+        112,
+        116,
+        105,
+        111,
+        110,
+        32,
+        114,
+        100,
+        102,
+        58,
+        97,
+        98,
+        111,
+        117,
+        116,
+        61,
+        39,
+        39,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        120,
+        109,
+        108,
+        110,
+        115,
+        58,
+        112,
+        100,
+        102,
+        61,
+        39,
+        104,
+        116,
+        116,
+        112,
+        58,
+        47,
+        47,
+        110,
+        115,
+        46,
+        97,
+        100,
+        111,
+        98,
+        101,
+        46,
+        99,
+        111,
+        109,
+        47,
+        112,
+        100,
+        102,
+        47,
+        49,
+        46,
+        51,
+        47,
+        39,
+        62,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        112,
+        100,
+        102,
+        58,
+        65,
+        117,
+        116,
+        104,
+        111,
+        114,
+        62,
+        68,
+        105,
+        114,
+        101,
+        99,
+        99,
+        105,
+        195,
+        179,
+        110,
+        32,
+        100,
+        101,
+        32,
+        67,
+        111,
+        109,
+        117,
+        110,
+        105,
+        99,
+        97,
+        99,
+        105,
+        195,
+        179,
+        110,
+        60,
+        47,
+        112,
+        100,
+        102,
+        58,
+        65,
+        117,
+        116,
+        104,
+        111,
+        114,
+        62,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        47,
+        114,
+        100,
+        102,
+        58,
+        68,
+        101,
+        115,
+        99,
+        114,
+        105,
+        112,
+        116,
+        105,
+        111,
+        110,
+        62,
+        10,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        114,
+        100,
+        102,
+        58,
+        68,
+        101,
+        115,
+        99,
+        114,
+        105,
+        112,
+        116,
+        105,
+        111,
+        110,
+        32,
+        114,
+        100,
+        102,
+        58,
+        97,
+        98,
+        111,
+        117,
+        116,
+        61,
+        39,
+        39,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        120,
+        109,
+        108,
+        110,
+        115,
+        58,
+        120,
+        109,
+        112,
+        61,
+        39,
+        104,
+        116,
+        116,
+        112,
+        58,
+        47,
+        47,
+        110,
+        115,
+        46,
+        97,
+        100,
+        111,
+        98,
+        101,
+        46,
+        99,
+        111,
+        109,
+        47,
+        120,
+        97,
+        112,
+        47,
+        49,
+        46,
+        48,
+        47,
+        39,
+        62,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        120,
+        109,
+        112,
+        58,
+        67,
+        114,
+        101,
+        97,
+        116,
+        111,
+        114,
+        84,
+        111,
+        111,
+        108,
+        62,
+        67,
+        97,
+        110,
+        118,
+        97,
+        32,
+        40,
+        82,
+        101,
+        110,
+        100,
+        101,
+        114,
+        101,
+        114,
+        41,
+        60,
+        47,
+        120,
+        109,
+        112,
+        58,
+        67,
+        114,
+        101,
+        97,
+        116,
+        111,
+        114,
+        84,
+        111,
+        111,
+        108,
+        62,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        47,
+        114,
+        100,
+        102,
+        58,
+        68,
+        101,
+        115,
+        99,
+        114,
+        105,
+        112,
+        116,
+        105,
+        111,
+        110,
+        62,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        47,
+        114,
+        100,
+        102,
+        58,
+        82,
+        68,
+        70,
+        62,
+        10,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        60,
+        47,
+        120,
+        58,
+        120,
+        109,
+        112,
+        109,
+        101,
+        116,
+        97,
+        62
+      ]
+    }
+  }
+]

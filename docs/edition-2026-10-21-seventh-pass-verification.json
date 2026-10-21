@@ -1,0 +1,827 @@
+{
+  "qaFollowup": "First local browser run stalled on optimized variants of two existing Slovenian photographs. Direct originals remained 200 and intact. Restarting the isolated QA server restored both as 200 WebP. Entire browser audit repeated on the unchanged final build. No old image replaced or test skipped.",
+  "edition": "2026-10-21",
+  "batch": 55,
+  "trigger": "Manual user request: jos 18",
+  "netNewGuides": 18,
+  "primaryAllocations": {
+    "eat-drink": 3,
+    "make-learn": 3,
+    "move-water": 3,
+    "explore-reflect": 3,
+    "swim-reset": 3,
+    "shared-rituals": 3
+  },
+  "catalogue": {
+    "authoredBefore": 424,
+    "authoredAfter": 442,
+    "eligibleBefore": 410,
+    "eligibleAfter": 428,
+    "expiredRetainedAndGated": 14,
+    "authoredCountries": 110,
+    "eligibleCountries": 109,
+    "newCountries": [],
+    "batchCountries": 15,
+    "batchPlaces": 16
+  },
+  "release": {
+    "date": "2026-10-21",
+    "guides": 126,
+    "passes": 7,
+    "duplicateDateEntries": false
+  },
+  "method": "Existing catalogue, previous rejected candidates and git history checked. Original public-source desk guides, not on-site reviews, local validation, EA Selected, partnerships or bookings. No third-party contact, permission request or paid transaction performed.",
+  "sources": {
+    "checkedOn": "2026-10-21",
+    "uniqueUrls": 63,
+    "results": [
+      {
+        "url": "https://www.vefa.com.tr/index.php?dil=en&sayfa=iletisim",
+        "status": 200,
+        "finalUrl": "https://www.vefa.com.tr/index.php?dil=en&sayfa=iletisim",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.vefa.com.tr/index.php?dil=en&sayfa=tarihce",
+        "status": 200,
+        "finalUrl": "https://www.vefa.com.tr/index.php?dil=en&sayfa=tarihce",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://goturkiye.com/branding/press-releases/the-unique-turkish-flavours-that-warm-up-istanbul-winters-salep-and-boza",
+        "status": 200,
+        "finalUrl": "https://goturkiye.com/branding/press-releases/the-unique-turkish-flavours-that-warm-up-istanbul-winters-salep-and-boza",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://en.ostermalmshallen.se/visit-us/",
+        "status": 200,
+        "finalUrl": "https://en.ostermalmshallen.se/visit-us/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://en.ostermalmshallen.se/",
+        "status": 200,
+        "finalUrl": "https://en.ostermalmshallen.se/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.visitstockholm.com/see-do/attractions/district-guide-ostermalm/",
+        "status": 200,
+        "finalUrl": "https://www.visitstockholm.com/see-do/attractions/district-guide-ostermalm/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://app.yakun.com/find-us",
+        "status": 200,
+        "finalUrl": "https://app.yakun.com/find-us",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://app.yakun.com/kaya-toast-with-butter.html",
+        "status": 200,
+        "finalUrl": "https://app.yakun.com/kaya-toast-with-butter.html",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://app.yakun.com/faq",
+        "status": 200,
+        "finalUrl": "https://app.yakun.com/faq",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.erlebniswelt-meissen.com/en/do-it-yourself-bei-meissen-2026.html",
+        "status": 200,
+        "finalUrl": "https://www.erlebniswelt-meissen.com/en/do-it-yourself-bei-meissen-2026.html",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.erlebniswelt-meissen.com/en",
+        "status": 200,
+        "finalUrl": "https://www.erlebniswelt-meissen.com/en",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://greatertokyo.jp/see-and-do/872/",
+        "status": 200,
+        "finalUrl": "https://greatertokyo.jp/see-and-do/872/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.japan.travel/en/au/news-blog/create-adorable-confectionery-at-an-amezaiku-workshop-in-asakusa/",
+        "status": 200,
+        "finalUrl": "https://www.japan.travel/en/au/news-blog/create-adorable-confectionery-at-an-amezaiku-workshop-in-asakusa/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.visitljubljana.com/en/visitors/tours-and-trips/mend-your-umbrella",
+        "status": 200,
+        "finalUrl": "https://www.visitljubljana.com/en/visitors/tours-and-trips/mend-your-umbrella",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.slovenia.info/en/stories/ljubljana-europe-s-best-city-destination-for-creativity-in-2026",
+        "status": 200,
+        "finalUrl": "https://www.slovenia.info/en/stories/ljubljana-europe-s-best-city-destination-for-creativity-in-2026",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.visitzealandia.com/",
+        "status": 403,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.visitzealandia.com/about/",
+        "status": 403,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.visitzealandia.com/visit/",
+        "status": 403,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.monteigueldo.es/organiza-tu-visita",
+        "status": 200,
+        "finalUrl": "https://www.monteigueldo.es/organiza-tu-visita",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.monteigueldo.es/faq",
+        "status": 200,
+        "finalUrl": "https://www.monteigueldo.es/faq",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.euskadi.eus/gobierno-vasco/-/es/parques-tematicos-atracciones/parque-de-atracciones-del-monte-igueldo/",
+        "status": null,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://sl.se/reseplanering/var-trafik/pendelbatarna",
+        "status": 200,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://sl.se/reseplanering/tillganglighet/sl-trafikens-tillganglighet/pendelbatarnas-tillganglighet",
+        "status": 200,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://sl.se/biljetter/res-med-betalkort/har-kan-du-blippa-ditt-betalkort",
+        "status": 200,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://crossness.org.uk/guided-tours/",
+        "status": 200,
+        "finalUrl": "https://crossness.org.uk/guided-tours/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://crossness.org.uk/visit/",
+        "status": 200,
+        "finalUrl": "https://crossness.org.uk/visit/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://crossness.org.uk/accessibility/",
+        "status": 200,
+        "finalUrl": "https://crossness.org.uk/accessibility/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://cpf.pt/visitar/",
+        "status": 200,
+        "finalUrl": "https://cpf.pt/visitar/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://cpf.pt/nucleo-museologico-antonio-pedro-vicente/",
+        "status": 200,
+        "finalUrl": "https://cpf.pt/nucleo-museologico-antonio-pedro-vicente/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://stanzealgenio.com/organizza-la-tua-visita/",
+        "status": 200,
+        "finalUrl": "https://stanzealgenio.com/organizza-la-tua-visita/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://stanzealgenio.com/accessibilita/",
+        "status": 200,
+        "finalUrl": "https://stanzealgenio.com/accessibilita/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=21&id=173&tp=68",
+        "status": 200,
+        "finalUrl": "https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=21&id=173&tp=68",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://www.wavehill.org/visit",
+        "status": 200,
+        "finalUrl": "https://www.wavehill.org/visit",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.wavehill.org/visitor-guidelines",
+        "status": 200,
+        "finalUrl": "https://www.wavehill.org/visitor-guidelines",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.wavehill.org/visit/accessibility",
+        "status": 200,
+        "finalUrl": "https://www.wavehill.org/visit/accessibility",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://ib.unam.mx/ib/jb/",
+        "status": 200,
+        "finalUrl": "https://ib.unam.mx/ib/jb/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://ib.unam.mx/ib/jb/como-llegar/",
+        "status": 200,
+        "finalUrl": "https://ib.unam.mx/ib/jb/como-llegar/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.visitljubljana.com/en/poi/jakopic-promenade",
+        "status": 200,
+        "finalUrl": "https://www.visitljubljana.com/en/poi/jakopic-promenade",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.ljubljana.si/sl/ljubljana/zelena",
+        "status": 200,
+        "finalUrl": "https://www.ljubljana.si/sl/ljubljana/zelena",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.euromusicproductions.fr/calendrierdesconcerts",
+        "status": 200,
+        "finalUrl": "https://www.euromusicproductions.fr/calendrierdesconcerts",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.euromusicproductions.fr/",
+        "status": 200,
+        "finalUrl": "https://www.euromusicproductions.fr/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.theatreinparis.com/en/show/sainte-chapelle-concert-series",
+        "status": 403,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://temppeliaukionkirkko.fi/en/index/tapahtumat.html",
+        "status": 200,
+        "finalUrl": "https://temppeliaukionkirkko.fi/en/index/tapahtumat.html",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://temppeliaukionkirkko.fi/",
+        "status": 200,
+        "finalUrl": "https://temppeliaukionkirkko.fi/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://kilvenkuoro.fi/fi/2026/08/27/7756/",
+        "status": 200,
+        "finalUrl": "https://kilvenkuoro.fi/fi/2026/08/27/7756/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.xn--peaflamencatorresmacarena-9nc.com/programacion/",
+        "status": 200,
+        "finalUrl": "https://www.xn--peaflamencatorresmacarena-9nc.com/programacion/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.xn--peaflamencatorresmacarena-9nc.com/nuestra-historia/",
+        "status": 200,
+        "finalUrl": "https://www.xn--peaflamencatorresmacarena-9nc.com/nuestra-historia/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Vefa_Bozaci_4881.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Istanbul_Vefa_Bozaci_4881.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:%C3%96stermalms_saluhall_March_2020_05.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:%C3%96stermalms_saluhall_March_2020_05.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Kaya_toast_from_Ya_Kun_Kaya_Toast,_Singapore_-_20160813.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Kaya_toast_from_Ya_Kun_Kaya_Toast,_Singapore_-_20160813.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Amezaiku_cut02_ameshin.JPG",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Amezaiku_cut02_ameshin.JPG",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:20170409_Zealandia_013-Pano.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:20170409_Zealandia_013-Pano.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:San_Sebasti%C3%A1n_(RPS_14-09-2014)_Funicular_de_Igueldo.png",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:San_Sebasti%C3%A1n_(RPS_14-09-2014)_Funicular_de_Igueldo.png",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Djurg%C3%A5rdsf%C3%A4rjan_8_och_10.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 3.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Djurg%C3%A5rdsf%C3%A4rjan_8_och_10.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Colours_of_Crossness.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Colours_of_Crossness.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Aparatos_fotogr%C3%A1ficos_expuestos_en_el_%22Centro_Portugu%C3%AAs_de_Fotografia%22._Oporto,_Portugal.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Aparatos_fotogr%C3%A1ficos_expuestos_en_el_%22Centro_Portugu%C3%AAs_de_Fotografia%22._Oporto,_Portugal.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://stanzealgenio.com/",
+        "status": 200,
+        "finalUrl": "https://stanzealgenio.com/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Wave_Hill_-_20220616_-_20_-_Hudson_River_and_Palisades_as_seen_from_pergola_at_Great_Lawn_overlook.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Wave_Hill_-_20220616_-_20_-_Hudson_River_and_Palisades_as_seen_from_pergola_at_Great_Lawn_overlook.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Acceso_al_Jard%C3%ADn_Bot%C3%A1nico_del_Instituto_de_Biolog%C3%ADa_(UNAM)..jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Acceso_al_Jard%C3%ADn_Bot%C3%A1nico_del_Instituto_de_Biolog%C3%ADa_(UNAM)..jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Park_Tivoli_-_Ljubljana_(2).jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY 3.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Park_Tivoli_-_Ljubljana_(2).jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Santa_Capilla,_Par%C3%ADs,_Francia,_2022-11-01,_DD_80-82_HDR.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Santa_Capilla,_Par%C3%ADs,_Francia,_2022-11-01,_DD_80-82_HDR.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Interior_of_Temppeliaukio_Church_20180802.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Interior_of_Temppeliaukio_Church_20180802.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://www.xn--peaflamencatorresmacarena-9nc.com/",
+        "status": 200,
+        "finalUrl": "https://www.xn--peaflamencatorresmacarena-9nc.com/",
+        "method": "Direct retrieval saved during this research run"
+      }
+    ],
+    "importantBoundaries": [
+      "Ameshin operator HTTPS certificate is invalid. Not bypassed or linked as working checkout. Current Greater Tokyo public workshop listing and JNTO corroboration retained. Reader must confirm date, language, age and availability directly using the regional listing contact. No live reservation claimed.",
+      "Meissen DIY uses underglaze blue on the specified mug or dish. The object is fired and shipped later, not taken home that day. Recommended age and shipping destination must be checked.",
+      "Zealandia official content checked through public indexing because direct automated retrieval returns 403. No track-status or wildlife guarantee. The 2017 reservoir photograph does not represent current water levels.",
+      "SL line 82 tickets are validated before boarding. Skeppsholmen is a request stop. Direct website responses are JavaScript shells, so the underlying official public indexed content was also checked.",
+      "Monte Igueldo explicitly states stair access and lack of wheelchair adaptation. The ride is separate from individual amusement rides. Regional source checked through web retrieval after shell network failure.",
+      "Crossness ordinary guided tours are not steaming days. The railway is reported out of service. Upper machinery levels are not universally step-free.",
+      "Stanze al Genio is an ordinary bookable house museum, not permission to enter a private home. First-floor stairs have no lift or stairlift. Visitor photography limits are retained.",
+      "Wave Hill has designated food areas and specific garden rules. Its photo does not promise a flowering season, seat or current weather.",
+      "UNAM botanical garden is free for ordinary visits but university holidays and campus transport schedules matter. Commercial photographic sessions require separate authorisation. No official restricted-use photo copied.",
+      "Sainte-Chapelle concert and daytime tickets differ. November to mid-December 2026 interruption is explicit. Ticket listing has inconsistent reopening wording, so the exact dated event must be confirmed. Restoration scaffolding is reported and the 2022 photo is identified as historical.",
+      "Temppeliaukio concerts, sightseeing and worship are distinct. The November 2026 event confirms public programming, not a January concert. Cancelled listings are not presented as available.",
+      "Torres Macarena currently advertises admission at the door with no online ticket sale. Member-reserved chairs and no-food/no-drink performance-room rules remain explicit."
+    ]
+  },
+  "photographs": {
+    "count": 18,
+    "documentedLicense": 14,
+    "officialSourceNotIndependentlyCleared": 4,
+    "aiGenerated": 0,
+    "credit": "Image: author / source ↗",
+    "rightsNote": "Four official-source photographs use the established moderate-risk editorial policy. Attribution does not grant permission. No claim of independent clearance, public-domain status or unnamed photographer identity.",
+    "officialSourceSites": [
+      "MEISSEN",
+      "Ljubljana Tourism",
+      "Stanze al Genio",
+      "Peña Flamenca Torres Macarena"
+    ],
+    "excluded": [
+      "Barcelona chocolate museum workshop images: explicit written-permission condition and no sufficiently matched licensed alternative.",
+      "UNAM official photographs: restrictive non-commercial reuse notice. Used licensed Commons image instead.",
+      "Meissen overglaze demonstration: wrong process for the blue DIY session.",
+      "Kaya breakfast sets at Indonesian and Malaysian branches: wrong country for the Singapore guide.",
+      "Temppeliaukio alternative with ambiguous Artist value Link: attribution not guessed.",
+      "Sainte-Chapelle photochrom and nineteenth-century illustration: not current documentary photography.",
+      "Low-resolution Seville preview: used the 1500-pixel source image without upscaling.",
+      "Umbrella-fashion photograph: not the repair process."
+    ]
+  },
+  "connections": {
+    "newChapter": "Ljubljana",
+    "authoredChapters": 45,
+    "eligibleChapters": 44,
+    "collections": 6,
+    "dailyDiscoveriesAdded": 6,
+    "dailyDiscoveriesTotal": 127,
+    "newDailyDateRange": [
+      "2027-01-12",
+      "2027-01-17"
+    ],
+    "note": "Two independently bookable craft choices and a flexible Tivoli pause. No invented shared tickets, transfers or fixed walking schedule. All other guides enter existing local and thematic recommendation logic."
+  },
+  "rejectedCandidates": [
+    {
+      "name": "London Mail Rail",
+      "reason": "Previously deferred. Current ordinary access and evacuation requirements could not be reconciled against non-staging operator evidence. Replaced with Crossness."
+    },
+    {
+      "name": "Barcelona Museu de la Xocolata workshop",
+      "reason": "Public programme exists, but source explicitly restricts image reuse and an adequate licensed workshop photograph was not obtained. Replaced with Ljubljana umbrella repair."
+    },
+    {
+      "name": "Singapore generic hawker breakfast as another entry",
+      "reason": "Already covered. The new guide is specifically kaya toast and kopi at Ya Kun, not another hawker-centre programme or duplicate of the shared-table guide."
+    }
+  ],
+  "guidesByArea": {
+    "eat-drink": [
+      {
+        "title": "Taste Istanbul's winter in a glass of boza",
+        "place": "Istanbul, Vefa",
+        "url": "https://experienceauthority.com/experiences/taste-istanbuls-winter-in-a-glass-of-boza",
+        "eaValue": "A city's seasons can be carried by a texture as much as by a landscape."
+      },
+      {
+        "title": "Build a Stockholm lunch from the food-hall counter",
+        "place": "Stockholm, Östermalm",
+        "url": "https://experienceauthority.com/experiences/build-a-stockholm-lunch-from-the-food-hall-counter",
+        "eaValue": "A market becomes easier to read when you ask about a preparation instead of ordering the most photographed dish."
+      },
+      {
+        "title": "Learn Singapore's breakfast rhythm with kaya and kopi",
+        "place": "Singapore",
+        "url": "https://experienceauthority.com/experiences/learn-singapores-breakfast-rhythm-with-kaya-and-kopi",
+        "eaValue": "A small breakfast order can make a city's everyday routines feel more legible."
+      }
+    ],
+    "make-learn": [
+      {
+        "title": "Paint a line in Meissen's blue before the firing",
+        "place": "Meissen",
+        "url": "https://experienceauthority.com/experiences/paint-a-line-in-meissens-blue-before-the-firing",
+        "eaValue": "A celebrated material becomes less distant when you discover what one line asks of your hand."
+      },
+      {
+        "title": "Find a rabbit in a soft piece of sugar in Asakusa",
+        "place": "Tokyo, Asakusa",
+        "url": "https://experienceauthority.com/experiences/find-a-rabbit-in-a-soft-piece-of-sugar-in-asakusa",
+        "eaValue": "Making something edible can be an exercise in timing and restraint, not just decoration."
+      },
+      {
+        "title": "Give an umbrella another life in Ljubljana",
+        "place": "Ljubljana",
+        "url": "https://experienceauthority.com/experiences/give-an-umbrella-another-life-in-ljubljana",
+        "eaValue": "A trip can change your relationship with something you already own, rather than give you another thing to buy."
+      }
+    ],
+    "move-water": [
+      {
+        "title": "Walk into Wellington's regenerating valley at Zealandia",
+        "place": "Wellington, Karori",
+        "url": "https://experienceauthority.com/experiences/walk-into-wellingtons-regenerating-valley-at-zealandia",
+        "eaValue": "A city walk can show how a landscape is being repaired, not just what it looks like today."
+      },
+      {
+        "title": "Watch La Concha open out from Monte Igueldo",
+        "place": "San Sebastián",
+        "url": "https://experienceauthority.com/experiences/watch-la-concha-open-out-from-monte-igueldo",
+        "eaValue": "A place you think you have understood can rearrange itself after a short change in height."
+      },
+      {
+        "title": "Make Stockholm's islands part of the journey",
+        "place": "Stockholm, Slussen to Djurgården",
+        "url": "https://experienceauthority.com/experiences/make-stockholms-islands-part-of-the-journey",
+        "eaValue": "Travelling across a city's water can explain its geography better than standing beside it."
+      }
+    ],
+    "explore-reflect": [
+      {
+        "title": "Look for civic beauty inside London's Crossness",
+        "place": "London, Thamesmead",
+        "url": "https://experienceauthority.com/experiences/look-for-civic-beauty-inside-londons-crossness",
+        "eaValue": "Infrastructure can be an expression of civic ambition, not merely something a city hides."
+      },
+      {
+        "title": "Follow a camera through Porto's former prison",
+        "place": "Porto",
+        "url": "https://experienceauthority.com/experiences/follow-a-camera-through-portos-former-prison",
+        "eaValue": "Before judging what a photograph shows, consider the tool and position that made it possible."
+      },
+      {
+        "title": "Read Palermo's floors on the walls at Stanze al Genio",
+        "place": "Palermo, Kalsa",
+        "url": "https://experienceauthority.com/experiences/read-palermos-floors-on-the-walls-at-stanze-al-genio",
+        "eaValue": "Something once walked over can become a way of understanding how people composed a room."
+      }
+    ],
+    "swim-reset": [
+      {
+        "title": "Give New York a longer view at Wave Hill",
+        "place": "New York City, Riverdale",
+        "url": "https://experienceauthority.com/experiences/give-new-york-a-longer-view-at-wave-hill",
+        "eaValue": "New York can be understood through a long view and a deliberately small amount of movement."
+      },
+      {
+        "title": "Slow down among Mexico's plants at UNAM",
+        "place": "Mexico City, Ciudad Universitaria",
+        "url": "https://experienceauthority.com/experiences/slow-down-among-mexicos-plants-at-unam",
+        "eaValue": "A city pause can make a country's plant diversity feel specific rather than decorative."
+      },
+      {
+        "title": "Leave room for a slow walk through Ljubljana's Tivoli",
+        "place": "Ljubljana, Tivoli Park",
+        "url": "https://experienceauthority.com/experiences/leave-room-for-a-slow-walk-through-ljubljanas-tivoli",
+        "eaValue": "A place can become memorable through the attention you give an ordinary public walk."
+      }
+    ],
+    "shared-rituals": [
+      {
+        "title": "Hear Paris through the glass of Sainte-Chapelle",
+        "place": "Paris, Île de la Cité",
+        "url": "https://experienceauthority.com/experiences/hear-paris-through-the-glass-of-sainte-chapelle",
+        "eaValue": "An internationally recognisable building can become specific through an hour of shared attention."
+      },
+      {
+        "title": "Listen inside Helsinki's rock-cut concert room",
+        "place": "Helsinki, Töölö",
+        "url": "https://experienceauthority.com/experiences/listen-inside-helsinkis-rock-cut-concert-room",
+        "eaValue": "A striking interior can be a reason to stop looking and start listening."
+      },
+      {
+        "title": "Listen to flamenco in Seville's Torres Macarena peña",
+        "place": "Seville, Macarena",
+        "url": "https://experienceauthority.com/experiences/listen-to-flamenco-in-sevilles-torres-macarena-pena",
+        "eaValue": "A familiar art form becomes more particular when you choose a named performer and respect the room's own rhythm."
+      }
+    ]
+  },
+  "qa": {
+    "tests": {
+      "passed": 152,
+      "failed": 0
+    },
+    "typescript": "passed",
+    "productionBuild": "passed",
+    "browser": {
+      "checked": 118,
+      "failures": [],
+      "viewports": [
+        390,
+        1440
+      ],
+      "checks": "New guides, relevant places, categories, collections, Home, Today and Compass. Image loading, overflow, credits, canonicals, schema, denied analytics consent, runtime errors and automated WCAG checks. Screenshots visually reviewed."
+    },
+    "interactions": {
+      "results": [
+        {
+          "width": 390,
+          "checks": [
+            "country and city filters",
+            "new Ljubljana guide",
+            "photo modal and focus restoration",
+            "save and plan",
+            "reload persistence",
+            "keyboard skip link",
+            "consent gate"
+          ]
+        },
+        {
+          "width": 1440,
+          "checks": [
+            "country and city filters",
+            "new Ljubljana guide",
+            "photo modal and focus restoration",
+            "save and plan",
+            "reload persistence",
+            "keyboard skip link",
+            "consent gate"
+          ]
+        }
+      ]
+    },
+    "smoke": {
+      "checkedPages": 816,
+      "unpublishedPaths": 30,
+      "uniqueNonces": 797,
+      "indexing": "public pages indexable; utilities, filters and empty fields excluded",
+      "crawlerRules": "passed",
+      "socialImage": "passed",
+      "failures": []
+    },
+    "localProductionProof": {
+      "checkedAt": "2026-10-21T18:28:37.323Z",
+      "base": "http://127.0.0.1:3102",
+      "results": [
+        {
+          "url": "https://experienceauthority.com/experiences/taste-istanbuls-winter-in-a-glass-of-boza",
+          "status": 200,
+          "photoSha256": "9b34a777fa8cdda17ab6336e70e90718fd08a4f76433ab84d5da6babfabcaa38",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/build-a-stockholm-lunch-from-the-food-hall-counter",
+          "status": 200,
+          "photoSha256": "4d293f9fbd49e9952bba69ef2b6a2b0510ed0e57e1605ec2d3eeac29e75f5bdb",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/learn-singapores-breakfast-rhythm-with-kaya-and-kopi",
+          "status": 200,
+          "photoSha256": "6d08fa5f5f3f3c2660253e4f3d4a67c2926cd8fc04401ce565df0b145cb59e46",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/paint-a-line-in-meissens-blue-before-the-firing",
+          "status": 200,
+          "photoSha256": "b156b452048b34e833698f2586a44eb2ae62d3d616ddbf2168bfefbf6691e803",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/find-a-rabbit-in-a-soft-piece-of-sugar-in-asakusa",
+          "status": 200,
+          "photoSha256": "90fd0956fb5a46b088c16d5a7b67e76be4022ab64c59a43b1d0a8e3ddb3a83c8",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/give-an-umbrella-another-life-in-ljubljana",
+          "status": 200,
+          "photoSha256": "4de70a89f943301bbe25d6f8ea82df10688362f88aa46c6e8d18d4199e6ce0d1",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/walk-into-wellingtons-regenerating-valley-at-zealandia",
+          "status": 200,
+          "photoSha256": "51941b482a1d94748f865039f3ccc89e64954fb95520ddade199aaf346c0f9f8",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/watch-la-concha-open-out-from-monte-igueldo",
+          "status": 200,
+          "photoSha256": "2f599ac6c7e1d9bce538403baf5abc03905b2d5cd89ab2eb0f498ee846c2e23e",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/make-stockholms-islands-part-of-the-journey",
+          "status": 200,
+          "photoSha256": "92421d80d7f280c7cc861760e3b3353bb2df2abcd0653390bac3bb9a839882d5",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/look-for-civic-beauty-inside-londons-crossness",
+          "status": 200,
+          "photoSha256": "5af4eb179bbb4e903e45f01bae6a255da174fa9df39aad91863842726dc04fdc",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/follow-a-camera-through-portos-former-prison",
+          "status": 200,
+          "photoSha256": "d5f7f471eeb78492892e57a2271a0acaee69991b86f540c61015b9ebc863a886",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/read-palermos-floors-on-the-walls-at-stanze-al-genio",
+          "status": 200,
+          "photoSha256": "e921dab5a3c988a97e5d3a092fdf9c6d475d55dea207389c7443735b6a98e6c7",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/give-new-york-a-longer-view-at-wave-hill",
+          "status": 200,
+          "photoSha256": "862b973390b2b1a740fa1311999482e5a6b6d34588acb3ac18f312aef8a210d3",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/slow-down-among-mexicos-plants-at-unam",
+          "status": 200,
+          "photoSha256": "6caed6170dbd264d0f087bdde2b144b4273a238d6da586fe5be66f6d3b631500",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/leave-room-for-a-slow-walk-through-ljubljanas-tivoli",
+          "status": 200,
+          "photoSha256": "0a90e8bfe69b329b7e89ec29486baa0f205336b56ef198c2b68d01e47cf662eb",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/hear-paris-through-the-glass-of-sainte-chapelle",
+          "status": 200,
+          "photoSha256": "e777d9b2e2a8a1b6fe068b0daa97fade3fedf80ca5d00ab36d341d5ba93b0aa0",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/listen-inside-helsinkis-rock-cut-concert-room",
+          "status": 200,
+          "photoSha256": "0ce29c990dd4f12726a1d75e7145acac3c2e4cbbdd7dabb1846aec3e5d246981",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/listen-to-flamenco-in-sevilles-torres-macarena-pena",
+          "status": 200,
+          "photoSha256": "e91040967fb2021d10df47cbfff27eec79707915b5a2922560c97b965e3f8b83",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        }
+      ],
+      "expiredGuidesExcluded": 14,
+      "totalAuthored": 442,
+      "eligiblePublic": 428
+    },
+    "publicDeployment": "Awaiting commit and verification of the resulting public deployment. Final evidence stored separately after deployment."
+  }
+}

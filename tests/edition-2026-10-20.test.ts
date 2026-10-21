@@ -245,7 +245,7 @@ test("local chapters connect real choices and never fabricate a combined itinera
     assert.equal(connection.item.countrySlug, g.countrySlug);
     if (hasLocal) assert.equal(connection.item.regionSlug, g.regionSlug);
   }
-  assert.equal(publicGuides.length, 424);
+  assert.equal(publicGuides.length, 442);
   assert.equal(current.length, 305);
 });
 test("six future discoveries extend rather than overwrite the preceding editions", () => {

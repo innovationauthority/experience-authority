@@ -107,6 +107,114 @@
     "countrySlug": "taiwan",
     "regionSlug": "taipei"
   },
+  "/experiences/taste-istanbuls-winter-in-a-glass-of-boza": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "turkiye",
+    "regionSlug": "istanbul"
+  },
+  "/experiences/build-a-stockholm-lunch-from-the-food-hall-counter": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "sweden",
+    "regionSlug": "stockholm"
+  },
+  "/experiences/learn-singapores-breakfast-rhythm-with-kaya-and-kopi": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "singapore",
+    "regionSlug": "singapore"
+  },
+  "/experiences/paint-a-line-in-meissens-blue-before-the-firing": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "germany",
+    "regionSlug": "meissen"
+  },
+  "/experiences/find-a-rabbit-in-a-soft-piece-of-sugar-in-asakusa": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "japan",
+    "regionSlug": "tokyo"
+  },
+  "/experiences/give-an-umbrella-another-life-in-ljubljana": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "slovenia",
+    "regionSlug": "ljubljana"
+  },
+  "/experiences/walk-into-wellingtons-regenerating-valley-at-zealandia": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "new-zealand",
+    "regionSlug": "wellington"
+  },
+  "/experiences/watch-la-concha-open-out-from-monte-igueldo": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "spain",
+    "regionSlug": "san-sebastian"
+  },
+  "/experiences/make-stockholms-islands-part-of-the-journey": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "sweden",
+    "regionSlug": "stockholm"
+  },
+  "/experiences/look-for-civic-beauty-inside-londons-crossness": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "london"
+  },
+  "/experiences/follow-a-camera-through-portos-former-prison": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "portugal",
+    "regionSlug": "porto"
+  },
+  "/experiences/read-palermos-floors-on-the-walls-at-stanze-al-genio": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "italy",
+    "regionSlug": "palermo"
+  },
+  "/experiences/give-new-york-a-longer-view-at-wave-hill": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "united-states",
+    "regionSlug": "new-york-city"
+  },
+  "/experiences/slow-down-among-mexicos-plants-at-unam": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "mexico",
+    "regionSlug": "mexico-city"
+  },
+  "/experiences/leave-room-for-a-slow-walk-through-ljubljanas-tivoli": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "slovenia",
+    "regionSlug": "ljubljana"
+  },
+  "/experiences/hear-paris-through-the-glass-of-sainte-chapelle": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "france",
+    "regionSlug": "paris"
+  },
+  "/experiences/listen-inside-helsinkis-rock-cut-concert-room": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "finland",
+    "regionSlug": "helsinki"
+  },
+  "/experiences/listen-to-flamenco-in-sevilles-torres-macarena-pena": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "spain",
+    "regionSlug": "seville"
+  },
   "/experiences/unwrap-salzburg-one-chocolate-layer-at-a-time": {
     "availableFrom": "2026-10-21",
     "reviewBy": "2027-01-18",

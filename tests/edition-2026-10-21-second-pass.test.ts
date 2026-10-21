@@ -34,7 +34,7 @@ test("the second 21 October pass adds eighteen new experiences, exactly three pe
     interests.map((i) => i.slug).sort(),
   );
   const earlier = publicGuides.filter((g) => !slugs.includes(g.slug));
-  assert.equal(earlier.length, 406);
+  assert.equal(earlier.length, 424);
   for (const [area, allocated] of Object.entries(edition20261021SecondPass)) {
     assert.equal(allocated.length, 3);
     for (const slug of allocated) {
@@ -83,10 +83,10 @@ test("the second 21 October pass adds eighteen new experiences, exactly three pe
       assert.ok(prose.split(/\s+/).length >= 250, slug);
     }
   }
-  assert.equal(publicGuides.length, 424);
+  assert.equal(publicGuides.length, 442);
   assert.equal(
     publicGuides.filter((g) => canPublishGuide(g, "2026-10-21")).length,
-    410,
+    428,
   );
 });
 
@@ -202,8 +202,8 @@ test("critical visitor-role, date, venue and access boundaries are not lost in i
 test("Prague and Montréal become useful complete local chapters without reopening expired guides", () => {
   const current = publicGuides.filter((g) => canPublishGuide(g, "2026-10-21"));
   const chapters = resolveCityChapters(current);
-  assert.equal(cityChapters.length, 44);
-  assert.equal(chapters.length, 43);
+  assert.equal(cityChapters.length, 45);
+  assert.equal(chapters.length, 44);
   assert.equal(chapters.find((c) => c.slug === "prague")!.stops.length, 3);
   assert.equal(chapters.find((c) => c.slug === "montreal")!.stops.length, 2);
   for (const name of ["prague", "montreal"]) {
@@ -290,8 +290,8 @@ test("six new future discoveries preserve all earlier authored angles and avoid 
 test("same-day passes merge into one honest same-day release", () => {
   assert.equal(guideReleases.filter((r) => r.date === "2026-10-21").length, 1);
   const release = publishedReleases(publicGuides, "2026-10-21")[0];
-  assert.equal(release.guides.length, 108);
-  assert.equal(new Set(release.guides.map((g) => g.id)).size, 108);
+  assert.equal(release.guides.length, 126);
+  assert.equal(new Set(release.guides.map((g) => g.id)).size, 126);
   assert.equal(
     publishedReleases(publicGuides, "2026-10-20")[0].guides.length,
     36,
