@@ -1,0 +1,806 @@
+{
+  "edition": "2026-10-21",
+  "batch": 56,
+  "trigger": "Manual user request: another 18",
+  "netNewGuides": 18,
+  "primaryAllocations": {
+    "eat-drink": 3,
+    "make-learn": 3,
+    "move-water": 3,
+    "explore-reflect": 3,
+    "swim-reset": 3,
+    "shared-rituals": 3
+  },
+  "catalogue": {
+    "authoredBefore": 442,
+    "authoredAfter": 460,
+    "eligibleBefore": 428,
+    "eligibleAfter": 446,
+    "expiredRetainedAndGated": 14,
+    "authoredCountries": 110,
+    "eligibleCountries": 109,
+    "newCountries": [],
+    "batchCountries": 16,
+    "batchPlaces": 16
+  },
+  "release": {
+    "date": "2026-10-21",
+    "guides": 144,
+    "passes": 8,
+    "duplicateDateEntries": false
+  },
+  "method": "Original public-source desk guides. Existing catalogue, rejected candidates and prior releases checked for programme and geographic duplicates. Not on-site reviews, locally validated selections, partnerships or EA bookings. No private permission request, external contact or paid transaction made.",
+  "sources": {
+    "checkedOn": "2026-10-21",
+    "uniqueUrls": 59,
+    "results": [
+      {
+        "url": "https://www.maisonantoine.be/index.php",
+        "status": null,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://maisonantoine.be/index.php/notre-histoire",
+        "status": null,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.karakoygulluoglu.com/blog/icerik/karakoy-gulluoglu-nereye-gitti",
+        "status": null,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.karakoygulluoglu.com/en/about-us",
+        "status": 403,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://english.visitseoul.net/shopping/Tongin-Market_/282",
+        "status": 200,
+        "finalUrl": "https://english.visitseoul.net/shopping/Tongin-Market_/282",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.korea.net/NewsFocus/Society/view?articleId=117922",
+        "status": 200,
+        "finalUrl": "https://www.korea.net/NewsFocus/Society/view?articleId=117922",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://typa.ee/en/typa-centre/workshops/handmade-paper/",
+        "status": 200,
+        "finalUrl": "https://typa.ee/en/typa-centre/workshops/handmade-paper/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://visitestonia.com/en/craft-paper-workshop-in-typa",
+        "status": 200,
+        "finalUrl": "https://visitestonia.com/en/craft-paper-workshop-in-typa",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.cupnoodles-museum.jp/en/osaka_ikeda/attractions/cr-factory/",
+        "status": 200,
+        "finalUrl": "https://www.cupnoodles-museum.jp/en/osaka_ikeda/attractions/cr-factory/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.cupnoodles-museum.jp/en/osaka_ikeda/guide/faq/",
+        "status": 200,
+        "finalUrl": "https://www.cupnoodles-museum.jp/en/osaka_ikeda/guide/faq/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.cupnoodles-museum.jp/en/osaka_ikeda/guide/admission/",
+        "status": 200,
+        "finalUrl": "https://www.cupnoodles-museum.jp/en/osaka_ikeda/guide/admission/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://ramgopalbluepottery.in/hands-on/",
+        "status": 200,
+        "finalUrl": "https://ramgopalbluepottery.in/hands-on/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://handicrafts.nic.in/crafts/All_Crafts/Craft_Categories/Mud/Terracotta%26Pottery/Blue_pottery/Blue_potterywebpage.html",
+        "status": null,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.translink.ca/schedules-and-maps/seabus.aspx",
+        "status": 200,
+        "finalUrl": "https://www.translink.ca/schedules-and-maps/seabus.aspx",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.translink.ca/trip-planner",
+        "status": 200,
+        "finalUrl": "https://www.translink.ca/trip-planner",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://www.goldengate.org/bridge/visiting-the-bridge/bikes-pedestrians/",
+        "status": 200,
+        "finalUrl": "https://www.goldengate.org/bridge/visiting-the-bridge/bikes-pedestrians/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.nps.gov/thingstodo/bike-the-golden-gate-bridge.htm",
+        "status": 200,
+        "finalUrl": "https://www.nps.gov/thingstodo/bike-the-golden-gate-bridge.htm",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.telefericdemontjuic.cat/en",
+        "status": 200,
+        "finalUrl": "https://www.telefericdemontjuic.cat/en",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.telefericdemontjuic.cat/en/teleferic-information",
+        "status": 200,
+        "finalUrl": "https://www.telefericdemontjuic.cat/en/teleferic-information",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.carnavalet.paris.fr/visiter/informations-pratiques?page=1",
+        "status": 503,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://parismusees.paris.fr/en/node/4645",
+        "status": null,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.nkp.cz/en/events/astronomical-tower-and-baroque-library",
+        "status": 200,
+        "finalUrl": "https://www.nkp.cz/en/events/astronomical-tower-and-baroque-library",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.nkp.cz/program-akci/astronomicka-vez-a-barokni-knihovna",
+        "status": 200,
+        "finalUrl": "https://www.nkp.cz/program-akci/astronomicka-vez-a-barokni-knihovna",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://praguecitytourism.com/care-for-cultural-heritage-and-operation-of-important-monuments/clementinum-astronomical-tower-and-baroque-library/",
+        "status": 200,
+        "finalUrl": "https://praguecitytourism.com/care-for-cultural-heritage-and-operation-of-important-monuments/clementinum-astronomical-tower-and-baroque-library/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://mim.cl/planifica-tu-visita",
+        "status": 200,
+        "finalUrl": "https://mim.cl/planifica-tu-visita",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://mim.cl/museos/museo-interactivo-mirador",
+        "status": 200,
+        "finalUrl": "https://mim.cl/museos/museo-interactivo-mirador",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://mim.cl/",
+        "status": 200,
+        "finalUrl": "https://mim.cl/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://portal.mim.cl/comprar-entradas",
+        "status": 200,
+        "finalUrl": "https://portal.mim.cl/comprar-entradas",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.realgabinete.com.br/Visite-o-RGPL/Visiting-RGPL",
+        "status": 200,
+        "finalUrl": "https://www.realgabinete.com.br/Visite-o-RGPL/Visiting-RGPL",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.realgabinete.com.br/",
+        "status": 200,
+        "finalUrl": "https://www.realgabinete.com.br/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://english.seoul.go.kr/may-seonyudo-park/",
+        "status": 200,
+        "finalUrl": "https://english.seoul.go.kr/may-seonyudo-park/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://english.seoul.go.kr/seonyudo-park-at-night/",
+        "status": 200,
+        "finalUrl": "https://english.seoul.go.kr/seonyudo-park-at-night/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.anima-garden.com/visit/",
+        "status": 200,
+        "finalUrl": "https://www.anima-garden.com/visit/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.anima-garden.com/shuttle/",
+        "status": 200,
+        "finalUrl": "https://www.anima-garden.com/shuttle/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://visitmarrakech.com/en/listing/anima-garden/",
+        "status": 200,
+        "finalUrl": "https://visitmarrakech.com/en/listing/anima-garden/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.cinemateca.pt/Programacao.aspx",
+        "status": 200,
+        "finalUrl": "https://www.cinemateca.pt/Programacao.aspx",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.cinemateca.pt/faqs.aspx",
+        "status": 200,
+        "finalUrl": "https://www.cinemateca.pt/faqs.aspx",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.cinemateca.pt/OutrasPaginas/Contactos/Sede.aspx",
+        "status": 200,
+        "finalUrl": "https://www.cinemateca.pt/OutrasPaginas/Contactos/Sede.aspx",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.nch.ie/",
+        "status": 200,
+        "finalUrl": "https://www.nch.ie/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.nch.ie/plan-your-visit/book-your-tickets/",
+        "status": 200,
+        "finalUrl": "https://www.nch.ie/plan-your-visit/book-your-tickets/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.nch.ie/plan-your-visit/accessibility/",
+        "status": 200,
+        "finalUrl": "https://www.nch.ie/plan-your-visit/accessibility/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.ceskafilharmonie.cz/en/whats-on/",
+        "status": 200,
+        "finalUrl": "https://www.ceskafilharmonie.cz/en/whats-on/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.ceskafilharmonie.cz/en/individual-concert-tickets/",
+        "status": 200,
+        "finalUrl": "https://www.ceskafilharmonie.cz/en/individual-concert-tickets/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.ceskafilharmonie.cz/en/practical-information/",
+        "status": 200,
+        "finalUrl": "https://www.ceskafilharmonie.cz/en/practical-information/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Belgian_food_(Maison_Antoine).004_-_Brussel.JPG",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Belgian_food_(Maison_Antoine).004_-_Brussel.JPG",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Korea_Tongin_Market_01_(12920987714).jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 2.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Korea_Tongin_Market_01_(12920987714).jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Space3_ManaKaasik.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Space3_ManaKaasik.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Burrard_Otter_with_Vancouver_skyline_2.JPG",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 3.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Burrard_Otter_with_Vancouver_skyline_2.JPG",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge_from_southern_tower.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge_from_southern_tower.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Teleferique_de_Montjuic,_barcelone_2018.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Teleferique_de_Montjuic,_barcelone_2018.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Salle_des_enseignes_04269.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Salle_des_enseignes_04269.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Clementinum_baroque_library_7.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Clementinum_baroque_library_7.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Museo_Interactivo_Mirador.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 3.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Museo_Interactivo_Mirador.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:%E3%83%AA%E3%82%AA%E3%81%AE%E5%B9%BB%E6%83%B3%E5%9B%B3%E6%9B%B8%E9%A4%A8_Real_Gabinete_Portugues_de_Leitura_(8735773218).jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 2.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:%E3%83%AA%E3%82%AA%E3%81%AE%E5%B9%BB%E6%83%B3%E5%9B%B3%E6%9B%B8%E9%A4%A8_Real_Gabinete_Portugues_de_Leitura_(8735773218).jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Seonyudo_Park.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 2.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Seonyudo_Park.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://www.anima-garden.com/",
+        "status": 200,
+        "finalUrl": "https://www.anima-garden.com/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:CinematecaPortuguesa_05.JPG",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 3.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:CinematecaPortuguesa_05.JPG",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Nch-interior.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Nch-interior.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Rudolfinum-Dvo%C5%99%C3%A1kova-s%C3%AD%C5%88-04.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Rudolfinum-Dvo%C5%99%C3%A1kova-s%C3%AD%C5%88-04.jpg",
+        "status": 200
+      }
+    ],
+    "importantBoundaries": [
+      "Maison Antoine direct retrieval failed. Publicly indexed official location and history checked instead. Café seating and dietary suitability are not implied by a takeaway purchase.",
+      "Karaköy Güllüoğlu current Kemankeş Caddesi 67 shop address is distinguished from its former premises and production site. Official pages were publicly indexed when direct retrieval was restricted.",
+      "Visit Seoul has conflicting weekday information for the Tongin lunchbox operation. The contradiction is explicit. Ordinary market opening is not proof that token exchange and participating stalls are operating.",
+      "TYPA paper workshop needs booking and a minimum charge. Drying, language and accessibility must be confirmed. The visitor makes paper rather than merely watches a demonstration.",
+      "Ikeda Chicken Ramen Factory is a paired workshop, not the My CUPNOODLES decoration activity or the Yokohama museum. Staff supervise steaming and frying.",
+      "Jaipur blue pottery is a quartz-based body. The public workshop, English or Hindi teaching and later firing are distinguished from a staff demonstration and from an ordinary clay wheel class.",
+      "SeaBus is public transport, not an open-deck sightseeing cruise. Golden Gate cycling follows the current authority sidewalk rules and is for confident riders. Montjuïc cable car is distinct from the port cable car and the funicular.",
+      "Carnavalet permanent collections are free for ordinary individual visits. Monday closure is explicit. The photo shows the post-renovation gallery, not the former hanging arrangement.",
+      "Klementinum public tours view the Baroque library from its entrance. There are 172 stairs and no lift. Review expires on 31 December 2026, matching the current dated official listing rather than assuming a confirmed 2027 programme.",
+      "MIM announced a 20 October 2026 weather closure. This is explicitly disclosed. Neither regular opening hours nor its future activity calendar are presented as confirmation of reopening for a particular date. Reader must check current notices and dated admission before travel. The interior photograph is historical.",
+      "Rio public visiting does not include researcher access, a reading seat or permission to handle books. Seonyudo is a garden, not a bathing location. ANIMA is outside Marrakech and any shuttle requires separate advance arrangements.",
+      "Cinemateca prohibits visitor photography inside. A licensed exterior image is used. Film language, subtitles, age limits and content must be checked for the selected screening.",
+      "National Concert Hall balcony access is not step-free. The Czech Philharmonic guide requires an actual Prague performance by that orchestra, not any event in the same hall or an overseas tour date."
+    ]
+  },
+  "photographs": {
+    "count": 18,
+    "documentedLicense": 14,
+    "officialSourceNotIndependentlyCleared": 4,
+    "aiGenerated": 0,
+    "credit": "Image: author / source ↗",
+    "rightsNote": "Four official-source photographs follow the existing moderate-risk editorial policy. Attribution is not permission or independent licence clearance. Where an individual photographer is unconfirmed, only the confirmed institutional source is credited.",
+    "officialSourceSites": [
+      "Karaköy Güllüoğlu",
+      "CUPNOODLES MUSEUM OSAKA IKEDA",
+      "Ram Gopal Blue Pottery",
+      "ANIMA Garden"
+    ],
+    "excluded": [
+      "Unrelated businesses named Maison Antoine.",
+      "Yokohama museum photographs for the Ikeda activity.",
+      "Gunsan Seonyudo island photographs for the Seoul park.",
+      "Pre-renovation Carnavalet hanging arrangements.",
+      "Unrelated sculpture parks and low-quality or mismatched bridge images."
+    ],
+    "attributionCorrection": "Tongin image description identifies Jeon Han. Credit retains Jeon Han / Korea.net rather than only the publishing agency."
+  },
+  "connections": {
+    "authoredChapters": 45,
+    "eligibleChapters": 44,
+    "newRegionLabels": [
+      "Tartu",
+      "Ikeda",
+      "Jaipur"
+    ],
+    "collections": 6,
+    "dailyDiscoveriesAdded": 1,
+    "dailyDiscoveriesTotal": 128,
+    "newDailyDate": "2027-01-18",
+    "note": "One Rio reading-room prompt added within its review window. No artificial extension of the existing discovery queue beyond verified source windows. All guides join the existing local recommendations, Compass, places and planning logic without invented shared bookings or transfers."
+  },
+  "rejectedCandidates": [
+    {
+      "name": "Tallinn Labora papermaking",
+      "reason": "Public activity exists, but image reproduction restrictions and no adequate licensed activity photo. Replaced with TYPA Tartu."
+    },
+    {
+      "name": "Buenos Aires Alfredo Genovese fileteado",
+      "reason": "Photo reuse requires permission and programme date evidence was inconsistent. Replaced with a documented Jaipur workshop."
+    },
+    {
+      "name": "Cape Town Kirstenbosch summer concerts",
+      "reason": "Upcoming 2026/27 official season was not sufficiently confirmed. Third-party expected programmes were not used as current availability."
+    },
+    {
+      "name": "Paris Maison La Roche",
+      "reason": "Photographic and architectural reproduction conditions not sufficiently resolved for this pass."
+    }
+  ],
+  "guidesByArea": {
+    "eat-drink": [
+      {
+        "title": "Make a Brussels pause out of a portion of frites",
+        "place": "Brussels, Place Jourdan",
+        "url": "https://experienceauthority.com/experiences/make-a-brussels-pause-out-of-a-portion-of-frites",
+        "eaValue": "A familiar food becomes a way to notice how a neighbourhood shares its space."
+      },
+      {
+        "title": "Compare baklava's layers at a Karaköy counter",
+        "place": "Istanbul, Karaköy",
+        "url": "https://experienceauthority.com/experiences/compare-baklavas-layers-at-a-karakoy-counter",
+        "eaValue": "Sweetness stops being the whole story when you can distinguish the structure underneath it."
+      },
+      {
+        "title": "Build a Seoul lunch with Tongin Market's tokens",
+        "place": "Seoul, Tongin Market",
+        "url": "https://experienceauthority.com/experiences/build-a-seoul-lunch-with-tongin-markets-tokens",
+        "eaValue": "Instead of receiving a fixed menu, you learn a market by making choices within it."
+      }
+    ],
+    "make-learn": [
+      {
+        "title": "Lift a sheet of paper from water in Tartu",
+        "place": "Tartu, TYPA centre",
+        "url": "https://experienceauthority.com/experiences/lift-a-sheet-of-paper-from-water-in-tartu",
+        "eaValue": "A page becomes a made object before it becomes a surface for words."
+      },
+      {
+        "title": "Make instant noodles from flour in Ikeda",
+        "place": "Ikeda, Osaka Prefecture",
+        "url": "https://experienceauthority.com/experiences/make-instant-noodles-from-flour-in-ikeda",
+        "eaValue": "Convenience becomes something designed through several material changes, not simply something bought in a packet."
+      },
+      {
+        "title": "Draw a blue-pottery pattern in Jaipur",
+        "place": "Jaipur, Ram Gopal Blue Pottery",
+        "url": "https://experienceauthority.com/experiences/draw-a-blue-pottery-pattern-in-jaipur",
+        "eaValue": "A decorative pattern becomes a sequence of choices made before the finished colour exists."
+      }
+    ],
+    "move-water": [
+      {
+        "title": "Cross Vancouver by SeaBus and watch the city change",
+        "place": "Vancouver and North Vancouver, Burrard Inlet",
+        "url": "https://experienceauthority.com/experiences/cross-vancouver-by-seabus-and-watch-the-city-change",
+        "eaValue": "The water becomes a route through the city rather than a boundary at its edge."
+      },
+      {
+        "title": "Feel the scale of the Golden Gate Bridge by bike",
+        "place": "San Francisco, Golden Gate Bridge",
+        "url": "https://experienceauthority.com/experiences/feel-the-scale-of-the-golden-gate-bridge-by-bike",
+        "eaValue": "An instantly recognisable silhouette becomes a place you have to navigate with care."
+      },
+      {
+        "title": "Read Barcelona's shape from the Montjuïc cable car",
+        "place": "Barcelona, Montjuïc",
+        "url": "https://experienceauthority.com/experiences/read-barcelonas-shape-from-the-montjuic-cable-car",
+        "eaValue": "A city you have been navigating street by street becomes easier to understand as a whole."
+      }
+    ],
+    "explore-reflect": [
+      {
+        "title": "Decode old Paris through its shop signs",
+        "place": "Paris, Musée Carnavalet",
+        "url": "https://experienceauthority.com/experiences/decode-old-paris-through-its-shop-signs",
+        "eaValue": "A shop sign becomes a small piece of urban communication rather than decorative nostalgia."
+      },
+      {
+        "title": "Follow books and sunlight up Prague's Klementinum",
+        "place": "Prague, Klementinum",
+        "url": "https://experienceauthority.com/experiences/follow-books-and-sunlight-up-pragues-klementinum",
+        "eaValue": "The beautiful room becomes part of a working history of how people recorded and measured their world."
+      },
+      {
+        "title": "Test an assumption at Santiago's interactive museum",
+        "place": "Santiago, La Granja",
+        "url": "https://experienceauthority.com/experiences/test-an-assumption-at-santiagos-interactive-museum",
+        "eaValue": "A museum becomes somewhere to revise an idea instead of somewhere to collect correct answers."
+      }
+    ],
+    "swim-reset": [
+      {
+        "title": "Pause beneath Rio's towering library shelves",
+        "place": "Rio de Janeiro, Real Gabinete Português de Leitura",
+        "url": "https://experienceauthority.com/experiences/pause-beneath-rios-towering-library-shelves",
+        "eaValue": "A spectacular interior becomes a reason to pay quieter attention rather than to take more photographs."
+      },
+      {
+        "title": "Find a garden inside Seoul's old waterworks",
+        "place": "Seoul, Seonyudo Park",
+        "url": "https://experienceauthority.com/experiences/find-a-garden-inside-seouls-old-waterworks",
+        "eaValue": "Rest can happen in a place that remembers work rather than in a landscape made to hide it."
+      },
+      {
+        "title": "Let a garden change your pace outside Marrakech",
+        "place": "Ourika Valley, outside Marrakech",
+        "url": "https://experienceauthority.com/experiences/let-a-garden-change-your-pace-outside-marrakech",
+        "eaValue": "A garden becomes a place to spend time, not a backdrop you have finished with after finding the famous view."
+      }
+    ],
+    "shared-rituals": [
+      {
+        "title": "Give a Lisbon evening to a film beyond your usual queue",
+        "place": "Lisbon, Cinemateca Portuguesa",
+        "url": "https://experienceauthority.com/experiences/give-a-lisbon-evening-to-a-film-you-did-not-choose-by-algorithm",
+        "eaValue": "The question changes from what you already want to watch to what a thoughtful programme might help you discover."
+      },
+      {
+        "title": "Hear an orchestra find its shape in Dublin",
+        "place": "Dublin, National Concert Hall",
+        "url": "https://experienceauthority.com/experiences/hear-an-orchestra-find-its-shape-in-dublin",
+        "eaValue": "A large ensemble becomes easier to hear when you follow one line instead of trying to understand everything at once."
+      },
+      {
+        "title": "Listen to Prague with the Czech Philharmonic",
+        "place": "Prague, Rudolfinum",
+        "url": "https://experienceauthority.com/experiences/listen-to-prague-with-the-czech-philharmonic",
+        "eaValue": "A landmark becomes a place with a present-tense purpose rather than an interior you have merely seen."
+      }
+    ]
+  },
+  "qa": {
+    "tests": {
+      "passed": 158,
+      "failed": 0
+    },
+    "typescript": "passed",
+    "productionBuild": "passed",
+    "browser": {
+      "checked": 118,
+      "failures": [],
+      "viewports": [
+        390,
+        1440
+      ],
+      "checks": "Home, Today, Compass, new guides, destinations, fields and collections. All photographs load, no horizontal overflow, source credits open safely, canonicals and schema exist, denied analytics stays blocked, no runtime errors or automated WCAG violations. Screenshots visually reviewed."
+    },
+    "interactions": {
+      "results": [
+        {
+          "width": 390,
+          "checks": [
+            "country and city filters",
+            "new Seoul guide",
+            "photo modal and focus restoration",
+            "save and plan",
+            "reload persistence",
+            "keyboard skip link",
+            "consent gate"
+          ]
+        },
+        {
+          "width": 1440,
+          "checks": [
+            "country and city filters",
+            "new Seoul guide",
+            "photo modal and focus restoration",
+            "save and plan",
+            "reload persistence",
+            "keyboard skip link",
+            "consent gate"
+          ]
+        }
+      ]
+    },
+    "smoke": {
+      "checkedPages": 837,
+      "unpublishedPaths": 30,
+      "uniqueNonces": 818,
+      "indexing": "public pages indexable; utilities, filters and empty fields excluded",
+      "crawlerRules": "passed",
+      "socialImage": "passed",
+      "failures": []
+    },
+    "localProductionProof": {
+      "checkedAt": "2026-10-21T21:28:56.978Z",
+      "base": "http://127.0.0.1:3102",
+      "results": [
+        {
+          "url": "https://experienceauthority.com/experiences/make-a-brussels-pause-out-of-a-portion-of-frites",
+          "status": 200,
+          "photoSha256": "69c6f18d114f42fbdd05ef7c352ad4adc676415a3f08fcdcdd475528c64bba7b",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/compare-baklavas-layers-at-a-karakoy-counter",
+          "status": 200,
+          "photoSha256": "9d8a59aaa4bf0c334e3c2c07eba7444a9b64db047e48ab9cebaf29adebf21da2",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/build-a-seoul-lunch-with-tongin-markets-tokens",
+          "status": 200,
+          "photoSha256": "a11043bc509131d471439196524f1839a0adc91064d1bf9df94489ba88546213",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/lift-a-sheet-of-paper-from-water-in-tartu",
+          "status": 200,
+          "photoSha256": "4419a623c8730e80d7a7ea06377c97ddf7dc98760593b32e02f822e5fa5dfa07",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/make-instant-noodles-from-flour-in-ikeda",
+          "status": 200,
+          "photoSha256": "ff24b623680441567c09927b6754e83fdddaf9c4351c77eabdc2f8f7dd78efa9",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/draw-a-blue-pottery-pattern-in-jaipur",
+          "status": 200,
+          "photoSha256": "1050dc3ac91ad7f09edc96a60457eb28e660908d5371006def778d159a36ee75",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/cross-vancouver-by-seabus-and-watch-the-city-change",
+          "status": 200,
+          "photoSha256": "0c60bd09c430a7ccab6d3b3bdc754a51dad75488a16fb26942b3fdacd4a811d1",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/feel-the-scale-of-the-golden-gate-bridge-by-bike",
+          "status": 200,
+          "photoSha256": "b76f53f8e1cf615450074c40da12661aadd9646aa30dbe76c157eee8b4975b86",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/read-barcelonas-shape-from-the-montjuic-cable-car",
+          "status": 200,
+          "photoSha256": "9f5a641a56e99ef3eec04925e0bc1f93794955a59a1a671b2737a01fb9e4552e",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/decode-old-paris-through-its-shop-signs",
+          "status": 200,
+          "photoSha256": "7c194e57a50d315fb7aeb1bde797372e36a37b3e8f1cae618349bddc00523de1",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/follow-books-and-sunlight-up-pragues-klementinum",
+          "status": 200,
+          "photoSha256": "f2b73ad37cd78cd7f36e42956a83af8d1e1a040e851bf9d9bbf0fee9da30377f",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/test-an-assumption-at-santiagos-interactive-museum",
+          "status": 200,
+          "photoSha256": "459a15f3fa3a759a645b35208d06de24b3ece0f15aee968069554c0f048b3eba",
+          "sitemap": true,
+          "sources": 4,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/pause-beneath-rios-towering-library-shelves",
+          "status": 200,
+          "photoSha256": "56d6c303924cecfee34bf38525288a5edf3b158e3d82f151b13750abb5192d34",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/find-a-garden-inside-seouls-old-waterworks",
+          "status": 200,
+          "photoSha256": "ba553e4a7887d72b871f524906c9f7b262d4a86d53ab651690279c4a98d7cdfa",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/let-a-garden-change-your-pace-outside-marrakech",
+          "status": 200,
+          "photoSha256": "5de3bf8268ea804eddee4a2c11cda82fe85821d8a986615b34d608a77d7b783b",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/give-a-lisbon-evening-to-a-film-you-did-not-choose-by-algorithm",
+          "status": 200,
+          "photoSha256": "2302df9f528fdcab20dd5eb32513fd376b4208bf8fc8008f8d5e24d793108e48",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/hear-an-orchestra-find-its-shape-in-dublin",
+          "status": 200,
+          "photoSha256": "9f3f0be16199ad377ba0b7f501d592d167f5515f77c2c1df7bba995fa2bffd1f",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/listen-to-prague-with-the-czech-philharmonic",
+          "status": 200,
+          "photoSha256": "4eb6f07b7c8f41c7173ed3d7e727e139f372d3cb4f04039fbf1289b542735b60",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        }
+      ],
+      "expiredGuidesExcluded": 14,
+      "totalAuthored": 460,
+      "eligiblePublic": 446
+    },
+    "publicDeployment": "Not yet deployed at the time of this pre-publication record. Commit and public checks recorded separately after deployment."
+  }
+}

@@ -98,16 +98,16 @@ test("21 October adds eighteen genuinely new guides with exactly three primary a
   assert.equal(guideReleases.filter((r) => r.date === "2026-10-21").length, 1);
   assert.equal(
     publishedReleases(publicGuides, "2026-10-21")[0].guides.length,
-    126,
+    144,
   );
   assert.equal(
     publishedReleases(publicGuides, "2026-10-20")[0].guides.length,
     36,
   );
-  assert.equal(publicGuides.length, 442);
+  assert.equal(publicGuides.length, 460);
   assert.equal(
     publicGuides.filter((g) => canPublishGuide(g, "2026-10-21")).length,
-    428,
+    446,
   );
 });
 
@@ -225,7 +225,7 @@ test("five new local chapters connect different roles without re-opening expired
   }
   assert.equal(
     current.filter((g) => !guideBatch49.some((n) => n.id === g.id)).length,
-    410,
+    428,
   );
 });
 

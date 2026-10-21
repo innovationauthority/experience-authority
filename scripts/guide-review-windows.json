@@ -107,6 +107,114 @@
     "countrySlug": "taiwan",
     "regionSlug": "taipei"
   },
+  "/experiences/make-a-brussels-pause-out-of-a-portion-of-frites": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "belgium",
+    "regionSlug": "brussels"
+  },
+  "/experiences/compare-baklavas-layers-at-a-karakoy-counter": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "turkiye",
+    "regionSlug": "istanbul"
+  },
+  "/experiences/build-a-seoul-lunch-with-tongin-markets-tokens": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "south-korea",
+    "regionSlug": "seoul"
+  },
+  "/experiences/lift-a-sheet-of-paper-from-water-in-tartu": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "estonia",
+    "regionSlug": "tartu"
+  },
+  "/experiences/make-instant-noodles-from-flour-in-ikeda": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "japan",
+    "regionSlug": "ikeda"
+  },
+  "/experiences/draw-a-blue-pottery-pattern-in-jaipur": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "india",
+    "regionSlug": "jaipur"
+  },
+  "/experiences/cross-vancouver-by-seabus-and-watch-the-city-change": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "canada",
+    "regionSlug": "vancouver"
+  },
+  "/experiences/feel-the-scale-of-the-golden-gate-bridge-by-bike": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "united-states",
+    "regionSlug": "san-francisco"
+  },
+  "/experiences/read-barcelonas-shape-from-the-montjuic-cable-car": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "spain",
+    "regionSlug": "barcelona"
+  },
+  "/experiences/decode-old-paris-through-its-shop-signs": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "france",
+    "regionSlug": "paris"
+  },
+  "/experiences/follow-books-and-sunlight-up-pragues-klementinum": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-31",
+    "countrySlug": "czechia",
+    "regionSlug": "prague"
+  },
+  "/experiences/test-an-assumption-at-santiagos-interactive-museum": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "chile",
+    "regionSlug": "santiago"
+  },
+  "/experiences/pause-beneath-rios-towering-library-shelves": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "brazil",
+    "regionSlug": "rio-de-janeiro"
+  },
+  "/experiences/find-a-garden-inside-seouls-old-waterworks": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "south-korea",
+    "regionSlug": "seoul"
+  },
+  "/experiences/let-a-garden-change-your-pace-outside-marrakech": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "morocco",
+    "regionSlug": "marrakech"
+  },
+  "/experiences/give-a-lisbon-evening-to-a-film-you-did-not-choose-by-algorithm": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "portugal",
+    "regionSlug": "lisbon"
+  },
+  "/experiences/hear-an-orchestra-find-its-shape-in-dublin": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "ireland",
+    "regionSlug": "dublin"
+  },
+  "/experiences/listen-to-prague-with-the-czech-philharmonic": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "czechia",
+    "regionSlug": "prague"
+  },
   "/experiences/taste-istanbuls-winter-in-a-glass-of-boza": {
     "availableFrom": "2026-10-21",
     "reviewBy": "2027-01-18",

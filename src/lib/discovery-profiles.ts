@@ -14,6 +14,7 @@ import { discoveryBatch52 } from "./discovery-batch-52";
 import { discoveryBatch53 } from "./discovery-batch-53";
 import { discoveryBatch54 } from "./discovery-batch-54";
 import { discoveryBatch55 } from "./discovery-batch-55";
+import { discoveryBatch56 } from "./discovery-batch-56";
 
 export const participationModes = [
   { value: "hands-on", label: "Make or take part" },
@@ -42,6 +43,7 @@ export type DiscoveryProfile = {
  * These are not live session lengths, availability or suitability guarantees. */
 export const discoveryProfiles: Record<string, DiscoveryProfile> = {
   ...discoveryBatch51,
+  ...discoveryBatch56,
   ...discoveryBatch55,
   ...discoveryBatch54,
   ...discoveryBatch53,

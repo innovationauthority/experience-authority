@@ -1226,6 +1226,9 @@ export const territories = [
 ] as const;
 // Area labels can differ from a guide's specific site. Never let the last guide rename the area.
 const additionalRegionNames: Readonly<Record<string, string>> = {
+  "estonia/tartu": "Tartu",
+  "japan/ikeda": "Ikeda",
+  "india/jaipur": "Jaipur",
   "czechia/ponikla": "Poniklá",
   "new-zealand/wellington": "Wellington",
   "belgium/ghent": "Ghent",

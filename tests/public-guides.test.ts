@@ -42,8 +42,8 @@ test("Arcachon stays a bay-wide chapter regardless of guide order or a more spec
   }
 });
 
-test("guide set contains 442 distinct, sourced public experiences, not Selected or demo records", () => {
-  assert.equal(publicGuides.length, 442);
+test("guide set contains 460 distinct, sourced public experiences, not Selected or demo records", () => {
+  assert.equal(publicGuides.length, 460);
   assert.equal(
     new Set(publicGuides.map((p) => p.id)).size,
     publicGuides.length,
@@ -366,7 +366,7 @@ test("Paris offers a recognisable entry, a living craft and hidden city work", (
   const paris = publicGuides.filter(
     (guide) => guide.countrySlug === "france" && guide.regionSlug === "paris",
   );
-  assert.equal(paris.length, 10);
+  assert.equal(paris.length, 11);
   assert.deepEqual([...new Set(paris.map((guide) => guide.field))].sort(), [
     "gather",
     "learn",
@@ -427,6 +427,7 @@ test("new regions are derived from real coverage and recommendations favour a re
       .map((r) => r.slug)
       .sort(),
     [
+      "ikeda",
       "kanazawa",
       "kasukabe",
       "koyasan",
