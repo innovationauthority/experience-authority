@@ -1,0 +1,1567 @@
+{
+  "checkedOn": "2026-10-21",
+  "records": [
+    {
+      "guideId": "porto-gazela-cachorrinho",
+      "candidate": "gazela-food-full",
+      "title": "A small sandwich, still warm",
+      "alt": "A hand lifts a piece of cachorrinho with melted cheese from a plate at Gazela in Porto.",
+      "photographer": "Cervejaria Gazela. Individual photographer not named",
+      "depiction": "Gazela's own historical serving photograph. Plates, fillings and service can change. The drink shown is optional and is not included in this guide.",
+      "rationale": "The actual sandwich and a hand taking a piece make the eating experience concrete. The dark website background, staff group, fries and francesinha photographs were rejected as misleading or weaker subjects.",
+      "source": "https://cervejariagazela.eatbu.com/?lang=pt",
+      "downloadUrl": "https://cdn.website.dish.co/media/0b/8e/1684844/Cervejaria-Gazela-CE3D688F-1513-4391-9F0E-FCE197CCFAA3.jpg",
+      "width": 1280,
+      "height": 1343,
+      "sha256": "7ded6cf0f91096282d392d63e851faea27d989e79a7a02ed14b49aebe3de676d",
+      "bytes": 257084,
+      "processing": "Resized without enlargement and JPEG encoded quality 92. No generative editing.",
+      "commonsMetadata": null
+    },
+    {
+      "guideId": "alboraya-daniel-horchata",
+      "candidate": "horchata-daniel-1",
+      "title": "The pastry meets the glass",
+      "alt": "A glass of horchata and a sugar-dusted farton sit on a plate with a Daniel-branded napkin.",
+      "depiction": "Horchata and a farton photographed at Daniel. This is historical food context, not a promise of today's glassware, pastry size or branch setting.",
+      "rationale": "The licensed photograph shows both parts of the proposed tasting and identifies Daniel on the napkin. A portrait-format drink-only image was less informative for the visitor.",
+      "source": "https://commons.wikimedia.org/wiki/File:Horchata_y_Farton.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Horchata_y_Farton.jpg/1920px-Horchata_y_Farton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1440,
+      "sha256": "da16b8fb172658c87ab8084e0f115f531a53c83169ce05dd926948104a799592",
+      "bytes": 611186,
+      "processing": "Resized without enlargement and JPEG encoded quality 92. No generative editing.",
+      "commonsMetadata": {
+        "title": "File:Horchata y Farton.jpg",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Horchata_y_Farton.jpg",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2017-12-23 23:16:13",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Horchata y Farton",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Flickr images reviewed by FlickreviewR 2|Orxateria Daniel, Alboraia|Glasses of orxata de xufa",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Orxateria Daniel, Alboraia.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2010-06-22 17:25",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/organikal/4844082520/\">Horchata y Farton</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/9441365@N05\">Julie Gibbons</a> from Scotland",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY 2.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution 2.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by/2.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-2.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "guideId": "osaka-kuromon-lunch",
+      "candidate": "kuromon-market-food-2",
+      "title": "Let the counter suggest lunch",
+      "alt": "Prepared seafood and skewers are displayed at a food counter inside Osaka's Kuromon Market.",
+      "depiction": "A Kuromon Market counter photographed in June 2017. The pictured products and prices are historical, not a recommended stall or a guaranteed current menu.",
+      "rationale": "This documented Kuromon food counter puts the ordinary act of choosing lunch in view. The photograph is not used as evidence of current food handling, prices or stock.",
+      "source": "https://commons.wikimedia.org/wiki/File:Seafood_in_Kuromon_Market,_Osaka_on_June_7th,_2017.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Seafood_in_Kuromon_Market%2C_Osaka_on_June_7th%2C_2017.jpg/1920px-Seafood_in_Kuromon_Market%2C_Osaka_on_June_7th%2C_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "42b70c8174fc111ed803d47fc52af193d4932dc780d3948fa5eb4ea26bfc9cc3",
+      "bytes": 681390,
+      "processing": "Resized without enlargement and JPEG encoded quality 92. No generative editing.",
+      "commonsMetadata": {
+        "title": "File:Seafood in Kuromon Market, Osaka on June 7th, 2017.jpg",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Seafood_in_Kuromon_Market,_Osaka_on_June_7th,_2017.jpg",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2020-11-15 12:30:08",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Seafood in Kuromon Market, Osaka on June 7th, 2017",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Kuromon Market|Self-published work|Uploaded from Korean Wikipedia using UploadWizard|Food displayed for sale in Japan|Files with coordinates missing SDC location of creation|June 2017 in Osaka|Uploaded via Campaign:ko",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "34.665833",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "135.506944",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "2017년 6월 구로몬시장의 해산물 진열",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2017-06-07 09:27:56",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Choi2451\" title=\"User:Choi2451\">Choi2451</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 3.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 3.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/3.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-3.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "guideId": "tallinn-kalev-marzipan",
+      "candidate": "kalev-process",
+      "title": "A face made with a brush",
+      "alt": "Hand-painted marzipan animal figures, including a pink and white dog, in Kalev's confectionery photograph.",
+      "photographer": "Kalev / Orkla Eesti AS. Individual photographer not named",
+      "depiction": "Kalev's own marzipan photograph illustrates the confectionery medium, not a guaranteed class template or a participant's result. The separate Visit Estonia workshop photographs were excluded after its reuse conditions were reviewed.",
+      "rationale": "The operator's sharp close-up communicates the small edible painting surface directly. It is honestly labelled as finished marzipan, not a documentary image of a session at Rotermann.",
+      "source": "https://kalev.eu/en/how-our-sweets-are-made/",
+      "downloadUrl": "https://kalev.eu/wp-content/uploads/2023/09/sokolaadi-valmistamine-martsipan-kalev-edited.jpg",
+      "width": 784,
+      "height": 784,
+      "sha256": "467504c9876f8019b9b5e325c2a3f25f774743151004952714cb15b61c007d18",
+      "bytes": 76305,
+      "processing": "Resized without enlargement and JPEG encoded quality 92. No generative editing.",
+      "commonsMetadata": null
+    },
+    {
+      "guideId": "seville-barroazul-cuerda-seca",
+      "candidate": "barro-official-1",
+      "title": "Colour held by a boundary",
+      "alt": "A hand applies green ceramic colour inside a geometric cuerda seca design in a BarroAzul workshop image.",
+      "photographer": "BarroAzul Gestión Cultural. Individual photographer not named",
+      "depiction": "BarroAzul's photograph of cuerda seca work on a larger patterned piece. It illustrates the technique, not the size or design guaranteed in the shorter visitor session.",
+      "rationale": "A close view of colour being applied shows the precise process described in the guide. The older black-and-white workshop image was rejected because it concealed the colour work.",
+      "source": "https://www.barroazul.es/en_GB/descripcion",
+      "downloadUrl": "https://www.barroazul.es/web/image/3771-3e434ea3/Evento%20%27%20Crea%20tu%20mural%20en%20%22cuerda%20seca%22%20%2810112024%29%27%20cover%20image.webp",
+      "width": 1600,
+      "height": 1197,
+      "sha256": "4b21b02d298fe417264f8e46caf38a1bdf61fc474149bebf4f19c76d118cfb7a",
+      "bytes": 302354,
+      "processing": "Resized without enlargement and JPEG encoded quality 92. No generative editing.",
+      "commonsMetadata": null
+    },
+    {
+      "guideId": "kyoto-adachi-kumihimo",
+      "candidate": "kumihimo-better-0",
+      "title": "A pattern carried by a cord",
+      "alt": "Five differently patterned kumihimo cords and small braided accessories arranged against a plain background.",
+      "depiction": "Five kumihimo braid examples photographed by Ködermaus. Technique context only, not Adachi's premises, supplied materials, class patterns or visitor results. The operator's insecure site and separately restricted tourism and DOMYO photographs were not used for media.",
+      "rationale": "The high-resolution licensed comparison makes the resulting braid structures visible without mislabelling another workshop as Adachi. The caption explicitly distinguishes craft context from a venue photograph.",
+      "source": "https://commons.wikimedia.org/wiki/File:Kumihimo_Five_Braids.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Kumihimo_Five_Braids.jpg/1920px-Kumihimo_Five_Braids.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1638,
+      "sha256": "ffdf779610dc88121b6c0f49214b7c0a97511033b3d03226ffe276e191c0889f",
+      "bytes": 827281,
+      "processing": "Resized without enlargement and JPEG encoded quality 92. No generative editing.",
+      "commonsMetadata": {
+        "title": "File:Kumihimo Five Braids.jpg",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kumihimo_Five_Braids.jpg",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2012-11-26 09:35:41",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Kumihimo Five Braids",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Kumihimo|Self-published work",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Braids in Kumihimo style",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2012-11-26 10:23:48",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:K%C3%B6dermaus\" title=\"User:Ködermaus\">Ködermaus</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 3.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 3.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/3.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-3.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "guideId": "bilbao-artxanda-funicular",
+      "candidate": "artxanda-funicular-2",
+      "title": "Bilbao begins to tilt",
+      "alt": "The red Artxanda funicular carriage stands at its sloping covered platform in Bilbao.",
+      "depiction": "The Artxanda funicular photographed in 2018 by Marco Almbauer. Historical transport context, not a guarantee of today's carriage or station conditions.",
+      "rationale": "This clear licensed image identifies the actual red vehicle and steep boarding setting. Reflections and obstructed cab views in the other candidates obscured the experience.",
+      "source": "https://commons.wikimedia.org/wiki/File:Funicular_de_Artxanda_2018.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Funicular_de_Artxanda_2018.jpg/1920px-Funicular_de_Artxanda_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1280,
+      "sha256": "93ca383c9830a38d4dde0794f07598905165bcabbbd8ea0a3bbf7b8b5b3a726d",
+      "bytes": 568678,
+      "processing": "Resized without enlargement and JPEG encoded quality 92. No generative editing.",
+      "commonsMetadata": {
+        "title": "File:Funicular de Artxanda 2018.jpg",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Funicular_de_Artxanda_2018.jpg",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2019-02-04 21:07:01",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Funicular de Artxanda 2018",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "CC-Zero|Funicular de Artxanda|Self-published work",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Funicular de Artxanda",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2018-08",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:A,Ocram\" title=\"User:A,Ocram\">Marco Almbauer</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Zero, Public Domain Dedication",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "guideId": "hamburg-hadag-62",
+      "candidate": "hadag-ferry-62-1",
+      "title": "The harbour is a route",
+      "alt": "A red and white HADAG passenger ferry passes close to a Hamburg harbour pier beneath a cloudy sky.",
+      "depiction": "A historical HADAG ferry photograph. Vessel assignment and advertising wraps change. It does not guarantee this boat on route 62 or represent a private sightseeing cruise.",
+      "rationale": "The ferry and public pier make the transport setting legible in a wide crop. A narrow deck portrait and a darker vessel frame were less useful for understanding the crossing.",
+      "source": "https://commons.wikimedia.org/wiki/File:Tramwaj_wodny_Hamburg.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Tramwaj_wodny_Hamburg.jpg/1920px-Tramwaj_wodny_Hamburg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1440,
+      "sha256": "d52533469d4925116c3608eaa588683b2d6c3c6dafe0752b489724362c3b9d86",
+      "bytes": 718201,
+      "processing": "Resized without enlargement and JPEG encoded quality 92. No generative editing.",
+      "commonsMetadata": {
+        "title": "File:Tramwaj wodny Hamburg.jpg",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tramwaj_wodny_Hamburg.jpg",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2009-07-05 15:48:40",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Tramwaj wodny Hamburg",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "GFDL|Taken with Canon PowerShot A80|License migration completed|Harmonie (ship, 2001)|Ferry routes in Hamburg",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Water tram in Hamburg",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2006",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a href=\"https://pl.wikipedia.org/wiki/Plik:Tramwaj_wodny_Hamburg.jpg\" class=\"extiw\" title=\"pl:Plik:Tramwaj wodny Hamburg.jpg\">pl.wikipedia.org</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"https://pl.wikipedia.org/wiki/Wikipedysta:MaciejKa\" class=\"extiw\" title=\"pl:Wikipedysta:MaciejKa\">pl:Wikipedysta:MaciejKa</a>",
+            "source": "commons-desc-page"
+          },
+          "Permission": {
+            "value": "<table style=\"width:100%; clear:both; margin:0.5em auto; background-color: var(--background-color-neutral-subtle, #f9f9f9); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #e0e0e0); border-spacing: 8px; box-sizing: border-box; padding: 0;\" dir=\"ltr\" lang=\"en\" class=\"layouttemplate licensetpl\">\n<tbody><tr>\n<td><span class=\"noviewer\" typeof=\"mw:File\"><span title=\"GNU head\"><img alt=\"GNU head\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Heckert_GNU_white.svg/120px-Heckert_GNU_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"63\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Heckert_GNU_white.svg/250px-Heckert_GNU_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"535\" data-file-height=\"523\"></span></span>\n</td>\n<td>Permission is granted to copy, distribute and/or modify this document under the terms of the <b><a href=\"https://en.wikipedia.org/wiki/en:GNU_Free_Documentation_License\" class=\"extiw\" title=\"w:en:GNU Free Documentation License\">GNU Free Documentation License</a></b>, Version 1.2 or any later version published by the <a href=\"https://en.wikipedia.org/wiki/en:Free_Software_Foundation\" class=\"extiw\" title=\"w:en:Free Software Foundation\">Free Software Foundation</a>; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section entitled <i><a href=\"//commons.wikimedia.org/wiki/Commons:GNU_Free_Documentation_License,_version_1.2\" title=\"Commons:GNU Free Documentation License, version 1.2\">GNU Free Documentation License</a></i>.<span class=\"licensetpl_link\" style=\"display:none;\">http://www.gnu.org/copyleft/fdl.html</span><span class=\"licensetpl_short\" style=\"display:none;\">GFDL</span><span class=\"licensetpl_long\" style=\"display:none;\">GNU Free Documentation License</span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span>\n</td></tr></tbody></table>\n<table style=\"width:100%; clear:both; text-align:center; margin:0.5em auto; background-color:var(--background-color-neutral-subtle, #f8f9fa); border:var(--border-subtle, 2px solid #c8ccd1); padding: 0; border-spacing: 8px; color:var(--color-base, #202122);\" dir=\"ltr\" class=\"layouttemplate licensetpl\" lang=\"en\">\n<tbody><tr>\n<td style=\"width:90px;\" rowspan=\"4\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"share alike\"><img alt=\"share alike\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Cc-sa.svg/40px-Cc-sa.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Cc-sa.svg/60px-Cc-sa.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span>\n</td>\n<td>This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by-sa/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by-sa/3.0/deed.en\">Attribution-Share Alike 3.0 Unported</a> license.\n</td>\n<td style=\"width:90px;\" rowspan=\"4\">\n</td></tr>\n<tr style=\"text-align:center;\">\n<td>\n</td></tr>\n<tr style=\"text-align:left;\">\n<td>\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>\n<li><b>share alike</b> – If you remix, transform, or build upon the material, you must distribute your contributions under the <a href=\"https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses\" class=\"extiw\" title=\"ccorg:share-your-work/licensing-considerations/compatible-licenses\">same or compatible license</a> as the original.</li></ul></dd></dl>\n</td></tr>\n<tr style=\"text-align:center;\">\n<td><span style=\"font-size:90%;\">This licensing tag was added to this file as part of the GFDL <a href=\"https://meta.wikimedia.org/wiki/Licensing_update\" class=\"extiw\" title=\"meta:Licensing update\">licensing update</a>.</span><span class=\"licensetpl_link\" style=\"display:none;\">http://creativecommons.org/licenses/by-sa/3.0/</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY-SA 3.0</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution-Share Alike 3.0</span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span>\n</td></tr></tbody></table>",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 3.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 3.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-3.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "guideId": "seoul-yeouinaru-cycling",
+      "candidate": "yeouido-river-0",
+      "title": "Seoul at river level",
+      "alt": "Yeouido Hangang Park's riverside paths, open spaces and skyline seen from Mapo Bridge in Seoul.",
+      "depiction": "A view of the actual Yeouido riverside park from Mapo Bridge. Landscape context, not a photograph of the Yeouinaru rental counter, a guaranteed cycle route or a current season preview.",
+      "rationale": "This licensed wide view establishes the correct riverbank and available spatial scale. An inland Yeouido Park bicycle photo and a different bike-share station were rejected to avoid confusing location and rental systems.",
+      "source": "https://commons.wikimedia.org/wiki/File:Yeouido_Hangang_Park_from_Mapo_Bridge_1.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Yeouido_Hangang_Park_from_Mapo_Bridge_1.jpg/1920px-Yeouido_Hangang_Park_from_Mapo_Bridge_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1258,
+      "sha256": "5593cefaf3c1a0a82bb30999116c4cc5836aada8e1a77f1961be7f426321a7ef",
+      "bytes": 683383,
+      "processing": "Resized without enlargement and JPEG encoded quality 92. No generative editing.",
+      "commonsMetadata": {
+        "title": "File:Yeouido Hangang Park from Mapo Bridge 1.jpg",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Yeouido_Hangang_Park_from_Mapo_Bridge_1.jpg",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2022-12-22 17:29:48",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Yeouido Hangang Park from Mapo Bridge 1",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Self-published work|NoFoP-South Korea|Incidental views of 63 Building|Yeouido Hangang Park",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "quality",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Yeouido Hangang Park from Mapo Bridge",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2022-12-01 09:15:42",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kallerna\" title=\"User:Kallerna\">kallerna</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "guideId": "franeker-eisinga-planetarium",
+      "candidate": "planetarium-franeker-22--better-0",
+      "title": "The ceiling has a larger idea",
+      "alt": "Visitors look up at the blue mechanical planetarium ceiling inside Eise Eisinga's house in Franeker.",
+      "depiction": "The planetarium room with visitors in a historical photograph by bertknot. Visitor numbers and explanations vary. No access to a particular guide or position in the room is promised.",
+      "rationale": "The full room and ceiling establish the astonishing domestic scale of the model. A close-up of one hanging sphere was rejected because it lost the relationship between the house and the solar system.",
+      "source": "https://commons.wikimedia.org/wiki/File:Planetarium_Franeker_(22)_(43841234734).jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Planetarium_Franeker_%2822%29_%2843841234734%29.jpg/1920px-Planetarium_Franeker_%2822%29_%2843841234734%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1281,
+      "sha256": "e56706c0c03d107af23c80deb382bb03c2a2ef35c6331a3196088477f95a6bbb",
+      "bytes": 631208,
+      "processing": "Resized without enlargement and JPEG encoded quality 92. No generative editing.",
+      "commonsMetadata": {
+        "title": "File:Planetarium Franeker (22) (43841234734).jpg",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Planetarium_Franeker_(22)_(43841234734).jpg",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2019-08-05 02:00:15",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Planetarium Franeker (22) (43841234734)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Planetariumkamer Eise Eisinga Planetarium|Flickr images reviewed by FlickreviewR 2",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Eise Eisinga Planetarium in Franeker",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2018-07-11 15:34",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/bertknot/43841234734/\">Planetarium Franeker (22)</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/58607562@N00\">bertknot</a> from scarborough, australia",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 2.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 2.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/2.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-2.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "guideId": "london-dennis-severs-silent",
+      "candidate": "dennis-severs-house-0",
+      "title": "The story begins at the door",
+      "alt": "The brick facade and dark entrance of Dennis Severs' House on Folgate Street in Spitalfields, London.",
+      "depiction": "Dennis Severs' House exterior photographed by Tom Parnell. Location context only. Interior photography is prohibited during the public visit, and no interior image is implied here.",
+      "rationale": "A high-resolution licensed photograph identifies the real entrance without violating the house's interior photography boundary. Low-resolution street thumbnails were excluded.",
+      "source": "https://commons.wikimedia.org/wiki/File:Dennis_Severs%27_House_(14933516640).jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Dennis_Severs%27_House_%2814933516640%29.jpg/1920px-Dennis_Severs%27_House_%2814933516640%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 2880,
+      "sha256": "f16e5b9291c02e49ada6b222848c7753359e5c1afc5f24b3e9b7cbe188110d36",
+      "bytes": 1575933,
+      "processing": "Resized without enlargement and JPEG encoded quality 92. No generative editing.",
+      "commonsMetadata": {
+        "title": "File:Dennis Severs' House (14933516640).jpg",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Dennis_Severs%27_House_(14933516640).jpg",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2022-01-15 09:13:30",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Dennis Severs' House (14933516640)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Dennis Severs' House|Flickr images reviewed by FlickreviewR 2|Photographs by Tom Parnell|Files with coordinates missing SDC location of creation (51° N, 1° W)",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "51.521047",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "-0.077923",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "An experience. Not entirely sure I enjoyed it, but it was certainly immersive.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2014-04-13 13:18",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/itmpa/14933516640/\">Dennis Severs' House</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/97595808@N00\">Tom Parnell</a> from Scottish Borders, Scotland",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 2.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 2.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/2.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-2.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "guideId": "mexico-city-map-materials",
+      "candidate": "museo-arte-popular-mexico-interior-0",
+      "title": "Follow the material beyond the shape",
+      "alt": "Colourful sculptural creatures displayed beneath white arches at Mexico City's Museo de Arte Popular.",
+      "depiction": "A historical Museo de Arte Popular display photographed by Gobierno CDMX. The objects are exhibition context, not a guarantee of what is currently on display or a claim that visitors make these pieces.",
+      "rationale": "The government's CC0 photograph shows actual museum objects clearly and gives making a tangible presence. A narrow atrium-only photograph was rejected because it reduced the collection to architecture.",
+      "source": "https://commons.wikimedia.org/wiki/File:Museo_de_Arte_Popular_(MAP)_CG9A5243_(39630886005).jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Museo_de_Arte_Popular_%28MAP%29_CG9A5243_%2839630886005%29.jpg/1920px-Museo_de_Arte_Popular_%28MAP%29_CG9A5243_%2839630886005%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1280,
+      "sha256": "f0b5f65a45258dc527f4173864a0e4f32fdb80892f9ea79c66aa955f3fb7bfc5",
+      "bytes": 478180,
+      "processing": "Resized without enlargement and JPEG encoded quality 92. No generative editing.",
+      "commonsMetadata": {
+        "title": "File:Museo de Arte Popular (MAP) CG9A5243 (39630886005).jpg",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Museo_de_Arte_Popular_(MAP)_CG9A5243_(39630886005).jpg",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2018-12-31 04:31:46",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Museo de Arte Popular (MAP) CG9A5243 (39630886005)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "CC-Zero|Interiors of museums in Mexico|Flickr images reviewed by FlickreviewR 2",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Museo de Arte Popular (MAP)",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2018-02-27 15:28",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/140660272@N07/39630886005/\">CG9A5243</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/140660272@N07\">Gobierno CDMX</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Zero, Public Domain Dedication",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "guideId": "oslo-deichman-reading",
+      "candidate": "deichman-bj-rvika-interior-1",
+      "title": "A civic room for your own hour",
+      "alt": "Reading areas, bookshelves and people across the open interior of Deichman Bjørvika library in Oslo.",
+      "depiction": "A documented Deichman Bjørvika interior photographed by Ssu. Historical public-space context. A particular table, noise level, exhibition or seat is not guaranteed.",
+      "rationale": "This licensed interior includes the actual working library and its occupants rather than isolating a ceiling detail. It supports the invitation to read without promising an empty room.",
+      "source": "https://commons.wikimedia.org/wiki/File:Deichman_Bj%C3%B8rvika,_interior_(2).jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Deichman_Bj%C3%B8rvika%2C_interior_%282%29.jpg/1920px-Deichman_Bj%C3%B8rvika%2C_interior_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1440,
+      "sha256": "bbcf03e9bf3217d701ce4165f9fe0aad951c6b0fd76bb2545a655e162c0cc02c",
+      "bytes": 922016,
+      "processing": "Resized without enlargement and JPEG encoded quality 92. No generative editing.",
+      "commonsMetadata": {
+        "title": "File:Deichman Bjørvika, interior (2).jpg",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Deichman_Bj%C3%B8rvika,_interior_(2).jpg",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2021-10-28 19:01:40",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Deichman Bjørvika, interior (2)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Interior of Deichman Bjørvika|Self-published work|Files with coordinates missing SDC location of creation",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "59.908772",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "10.753119",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Deichman Bjørvika, interior",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2021-10-20 14:10:19",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ssu&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ssu (page does not exist)\">Ssu</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "guideId": "istanbul-ataturk-arboretum",
+      "candidate": "atat-rk-arboretumu-pond-better-0",
+      "title": "Give one tree your attention",
+      "alt": "Trees and their reflections surround the south pond at Atatürk Arboretum in Istanbul.",
+      "depiction": "Atatürk Arboretum's south pond photographed in 2023 by Antimuonium. Seasonal landscape context, not a promise of current colour, water conditions or access along every edge.",
+      "rationale": "The documented pond view shows the actual living collection with a clear, calm composition. Gate-only and close leaf-floor images were rejected because they gave too little sense of the visitor setting.",
+      "source": "https://commons.wikimedia.org/wiki/File:Istanbul,_Atat%C3%BCrk_Arboretumu,_south_pond_from_north,_2023.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Istanbul%2C_Atat%C3%BCrk_Arboretumu%2C_south_pond_from_north%2C_2023.jpg/1920px-Istanbul%2C_Atat%C3%BCrk_Arboretumu%2C_south_pond_from_north%2C_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1055,
+      "sha256": "3494e03e876c5bbadf337194ec2fa46aa35fd2598778d8eb7b0418ca5380c546",
+      "bytes": 621305,
+      "processing": "Resized without enlargement and JPEG encoded quality 92. No generative editing.",
+      "commonsMetadata": {
+        "title": "File:Istanbul, Atatürk Arboretumu, south pond from north, 2023.jpg",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Istanbul,_Atat%C3%BCrk_Arboretumu,_south_pond_from_north,_2023.jpg",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2023-08-17 22:26:10",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Istanbul, Atatürk Arboretumu, south pond from north, 2023",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Atatürk Arboretum|Self-published work|Files with coordinates missing SDC location of creation",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "41.175142",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "28.986153",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Vue globale de l'étang le plus au sud (depuis le nord) dans l'<a href=\"https://fr.wikipedia.org/wiki/Arboretum_Atat%C3%BCrk\" class=\"extiw\" title=\"fr:Arboretum Atatürk\">arboretum Atatürk</a> en Turquie.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2023-08-16 13:22:31",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Antimuonium\" title=\"User:Antimuonium\">Antimuonium</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "guideId": "melbourne-city-baths-swim",
+      "candidate": "melbourne-city-baths-pool-1",
+      "title": "A public building with a daily use",
+      "alt": "The red brick and cream facade of Melbourne City Baths faces Swanston Street beneath its domed roof features.",
+      "depiction": "Melbourne City Baths exterior photographed by Rexness. Historic location context, not an image of current pool lanes, changing facilities or admission arrangements.",
+      "rationale": "A crisp openly licensed view identifies the actual civic bathing building. A synchronised-swimming event image was rejected because it would suggest a performance rather than casual pool use.",
+      "source": "https://commons.wikimedia.org/wiki/File:City_Baths_(4505221796).jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/City_Baths_%284505221796%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1800,
+      "height": 1200,
+      "sha256": "cb5857b54cfe8679709c7137c1b14dc9a497360cd4f4d92288adb1761f0ecd87",
+      "bytes": 482504,
+      "processing": "Resized without enlargement and JPEG encoded quality 92. No generative editing.",
+      "commonsMetadata": {
+        "title": "File:City Baths (4505221796).jpg",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:City_Baths_(4505221796).jpg",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2023-10-27 14:52:07",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "City Baths (4505221796)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Melbourne City Baths|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Files from Rexness Flickr stream",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "-37.806961",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "144.962968",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "The building was first built in 1860 and housed public baths, which were intended to stop people from bathing in the Yarra River. The baths were rebuilt in 1903 and designed by John James Clark. Now, it houses a swimming pool, squash courts and a gymnasium.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2010-04-09 21:32",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/rexness/4505221796/\">City Baths</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/25287507@N02\">Rexness</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 2.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 2.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/2.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-2.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "guideId": "london-wiltons-performance",
+      "candidate": "wiltons-exact-1",
+      "title": "A room waiting for the next note",
+      "alt": "Rows of audience chairs face the stage beneath the decorated balcony inside Wilton's Music Hall in London.",
+      "depiction": "Wilton's Music Hall interior photographed by Paul the Archivist in 2017. The seating and production setup are historical, not a guarantee of today's show or seat layout.",
+      "rationale": "The licensed auditorium photograph shows an audience configuration suited to the guide. A wedding table layout and the venue bar were rejected as misleading for a performance visit.",
+      "source": "https://commons.wikimedia.org/wiki/File:Wilton%27s_Music_Hall,_London_12.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Wilton%27s_Music_Hall%2C_London_12.jpg/1920px-Wilton%27s_Music_Hall%2C_London_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1440,
+      "sha256": "cc2543d75f7ab4d16b012645eda000b6f04cf3c50e04e6250671cf94191e7671",
+      "bytes": 753893,
+      "processing": "Resized without enlargement and JPEG encoded quality 92. No generative editing.",
+      "commonsMetadata": {
+        "title": "File:Wilton's Music Hall, London 12.jpg",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Wilton%27s_Music_Hall,_London_12.jpg",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2017-09-22 00:24:07",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Wilton's Music Hall, London 12",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Interior of Wilton's Music Hall|Self-published work|Listed buildings in England with known IDs|Images from Wiki Loves Monuments 2017|Uploaded via Campaign:wlm-gb-eng|Images from Wiki Loves Monuments 2017 in England|Images from Wiki Loves Monuments 2017 in the United Kingdom|Buildings in London photographed in 2017|London photographs taken on 2017-09-16|Photographs taken during Open House London 2017|WLM-UK 2017 unfiltered 09-22",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "51.510700",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "-0.066930",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Wilton's Music Hall<br>\n<style data-mw-deduplicate=\"TemplateStyles:r1254222110\">.mw-parser-output .messagebox{margin:4px 0;width:auto;border-collapse:collapse;border:2px solid var(--border-color-progressive,#6485d1);background-color:var(--background-color-neutral-subtle,#fbfcff);color:var(--color-base,#202122);box-sizing:border-box;border-inline-start-width:8px}.mw-parser-output .messagebox.mbox-small{font-size:88%;line-height:1.25em}.mw-parser-output .mbox-warning,.mw-parser-output .mbox-speedy{border:2px solid var(--border-color-error,#b22222);background:var(--background-color-error-subtle,#ffdbdb);border-inline-start-width:8px}.mw-parser-output .mbox-serious,.mw-parser-output .mbox-delete,.mw-parser-output .mbox-stop{border:2px solid var(--border-color-error,#b22222);border-inline-start-width:8px}.mw-parser-output .mbox-issue,.mw-parser-output .mbox-content{border:2px solid #f28500;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-query,.mw-parser-output .mbox-style{border:2px solid #f4c430;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-shit{border:2px solid #960;border-inline-start-width:8px}.mw-parser-output .mbox-license{border:2px solid #88a;border-inline-start-width:initial}.mw-parser-output .mbox-legal{border:2px solid var(--border-color-notice,#666);background:var(--background-color-base,#fff);border-inline-start-width:8px}.mw-parser-output .mbox-honor{border:2px solid #ca3;background:var(--background-color-warning-subtle,#fcf4db);border-inline-start-width:8px}.mw-parser-output .mbox-growth{border:2px solid #8d4;background:var(--background-color-success-subtle,#d5fdf4);border-inline-start-width:8px}.mw-parser-output .mbox-move{border:2px solid #93c;border-inline-start-width:8px}.mw-parser-output .mbox-protection,.mw-parser-output .mbox-message{border:2px solid var(--border-color-base,#aaa);border-inline-start-width:8px}.mw-parser-output .messagebox .mbox-text{border:none;padding:0.25em 0.9em;width:100%}.mw-parser-output .messagebox .mbox-image{border:none;padding-top:2px;padding-bottom:2px;padding-inline-start:0.9em;padding-inline-end:0;text-align:center}.mw-parser-output .messagebox .mbox-imageright{border:none;padding-top:2px;padding-bottom:2px;padding-inline-start:0;padding-inline-end:0.9em;text-align:center}.mw-parser-output .messagebox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .messagebox .mbox-invalid-type{text-align:center}@media(min-width:720px){.mw-parser-output .messagebox{margin:4px 10%}.mw-parser-output .messagebox.mbox-small{clear:right;float:right;margin:4px 0 4px 1em;width:238px}}body.skin--responsive .mw-parser-output table.messagebox img{max-width:none!important}</style><table class=\"plainlinks messagebox mbox-message\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Wikidata-logo.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/40px-Wikidata-logo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"30\" height=\"17\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/60px-Wikidata-logo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1050\" data-file-height=\"590\"></a></span></td><td class=\"mbox-text\"><a href=\"https://www.wikidata.org/wiki/Wikidata:Main_page\" class=\"extiw\" title=\"wikidata:Wikidata:Main page\">Wikidata</a> has <a href=\"https://www.wikidata.org/wiki/Q8023341\" class=\"extiw\" title=\"d:Q8023341\">entry Wilton's Music Hall <small>(Q8023341)</small></a> with data related to this item.</td></tr></tbody></table>",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2017-09-16 10:14:49",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Paul_the_Archivist&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Paul the Archivist (page does not exist)\">Paul the Archivist</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "guideId": "hamburg-elbphilharmonie-concert",
+      "candidate": "elbphilharmonie-interior-better-0",
+      "title": "Follow the audience towards the hall",
+      "alt": "Visitors climb the broad interior steps towards the Grosser Saal entrance inside Hamburg's Elbphilharmonie.",
+      "depiction": "The Elbphilharmonie's Grand Hall approach, not the auditorium or a particular concert. Historical visitor context, with no promise of a current event, performer or ticket availability.",
+      "rationale": "The licensed photograph shows people entering the actual performance space and preserves the distinction between public exterior views and a concert visit. Restricted press images were not assumed to allow every commercial reuse.",
+      "source": "https://commons.wikimedia.org/wiki/File:Interior_of_the_Elbphilharmonie_05.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Interior_of_the_Elbphilharmonie_05.jpg/1920px-Interior_of_the_Elbphilharmonie_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1440,
+      "sha256": "77e5cadba8153c877570ca3d8b8fe3612d1578147e4f40d5ac6d8a4c633ef823",
+      "bytes": 624856,
+      "processing": "Resized without enlargement and JPEG encoded quality 92. No generative editing.",
+      "commonsMetadata": {
+        "title": "File:Interior of the Elbphilharmonie 05.jpg",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Interior_of_the_Elbphilharmonie_05.jpg",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2024-09-07 13:24:10",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Interior of the Elbphilharmonie 05",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Self-published work|Interior of the Elbphilharmonie",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Interior of the Elbphilharmonie",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2024-08-29 19:40:52",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Arths-at\" title=\"User:Arths-at\">Arths-at</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "guideId": "oslo-frank-znort-sunday",
+      "candidate": "frank-znort-quartet-1",
+      "title": "Sunday has another set",
+      "alt": "Musician Hans Erik Wagner performs at Blå in Oslo in a black-and-white concert photograph.",
+      "depiction": "Hans Erik Wagner at Blå in 2019, photographed by Tore Sætre in the Frank Znort Quartet context. Historical performance evidence, not a promised future lineup, instrument or set time.",
+      "rationale": "This sharply documented licensed performance image identifies a musician at the relevant venue. The tiny band thumbnail was rejected, and the historical date is retained rather than presented as a current concert.",
+      "source": "https://commons.wikimedia.org/wiki/File:Hans_Erik_Wagner_Bl%C3%A5_2019_(234611).jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Hans_Erik_Wagner_Bl%C3%A5_2019_%28234611%29.jpg/1920px-Hans_Erik_Wagner_Bl%C3%A5_2019_%28234611%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1723,
+      "sha256": "24b937d348c0d808a35021e9210a5e8e2b4bef460e4f8c538007e3c5523c4a3f",
+      "bytes": 1173784,
+      "processing": "Resized without enlargement and JPEG encoded quality 92. No generative editing.",
+      "commonsMetadata": {
+        "title": "File:Hans Erik Wagner Blå 2019 (234611).jpg",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hans_Erik_Wagner_Bl%C3%A5_2019_(234611).jpg",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2020-05-06 18:39:15",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Hans Erik Wagner Blå 2019 (234611)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Frank Znort Quartet|Hans Erik Wagner|Blå (music venue)|Taken with Canon EOS 5D Mark IV and Canon EF 70-200mm F2.8L II USM|2018 photographs by Tore Sætre|Uploaded with LrMediaWiki|Files by User:Toresetre|Files with coordinates missing SDC location of creation|Musicians on stage in Norway|Musicians from Norway in 2019|December 2019 in Oslo|2019 concerts in Norway|Norway photographs taken on 2019-12-01|Concert photography by Tore Sætre",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "59.920157",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "10.752870",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Hans Erik Wagner in a concert with Frank Znort Quartet at Blå, Oslo. The concert took place on 1. December 2019.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2019-12-01",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Toresetre\" title=\"User:Toresetre\">Tore Sætre</a>",
+            "source": "commons-desc-page"
+          },
+          "Permission": {
+            "value": "<table align=\"centre\" style=\"width:100%; background-color:#f8f8f8; border:2px solid #e0e0e0; padding:8px;\">\n<tbody><tr>\n<td align=\"centre\"><i><a href=\"https://upload.wikimedia.org/wikipedia/commons/a/ad/Hans_Erik_Wagner_Bl%C3%A5_2019_%28234611%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" class=\"internal\" title=\"Hans Erik Wagner Blå 2019 (234611).jpg\">This photo</a> was taken by <b><a href=\"//commons.wikimedia.org/wiki/User:Toresetre\" title=\"User:Toresetre\">Tore Sætre</a></b>, some rights reserved</i>. <br>\n<p>The photo is available under the <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution ShareAlike 4.0</a> license. <br>\nAttribution instructions:<br>\n1) Credit <b>Photo: Tore Sætre / Wikimedia</b> in the immediate vicinity of the image.<br>\n2) You are welcome (but not required) to add a link to <a rel=\"nofollow\" class=\"external text\" href=\"http://www.setre.net/\">http://www.setre.net/</a>, or to my social accounts <b>@toresetrephoto</b> on Twitter and Instagram .<br>\nPlease avoid altering the image unless necessary for format or size. If you use it outside the Wiki community, I’d appreciate a short note about how it’s being used.\nFor a closer crop, higher resolution, or alternative licensing, you can reach me at <i>tore@setre.net</i>.<br>\n</p>\n<figure class=\"mw-halign-left\" typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Cc-srr.png\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Cc-srr.png/120px-Cc-srr.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"88\" height=\"29\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Cc-srr.png/250px-Cc-srr.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"800\" data-file-height=\"262\"></a><figcaption></figcaption></figure>\n</td></tr></tbody></table>",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    }
+  ]
+}

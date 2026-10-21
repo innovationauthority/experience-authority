@@ -1,0 +1,593 @@
+{
+  "edition": "2026-10-21",
+  "batch": 52,
+  "trigger": "Manual user request: mozes jos 18",
+  "netNewGuides": 18,
+  "primaryAllocations": {
+    "Eat & drink": 3,
+    "Make": 3,
+    "Move": 3,
+    "Explore & reflect": 3,
+    "Reset": 3,
+    "Shared rituals": 3
+  },
+  "catalogue": {
+    "authoredBefore": 370,
+    "authoredAfter": 388,
+    "eligibleBefore": 356,
+    "eligibleAfter": 374,
+    "expiredRetainedAndGated": 14,
+    "countries": 109,
+    "batchCountries": 12,
+    "batchPlaces": 15
+  },
+  "release": {
+    "date": "2026-10-21",
+    "guides": 72,
+    "passes": 4,
+    "duplicateDateEntries": false
+  },
+  "method": "Existing catalogue, rejected candidates, earlier passes and git history checked before research. Original public-source desk guides, not EA visits, provider partnerships, direct booking or local validation.",
+  "sources": {
+    "checkedOn": "2026-10-21",
+    "uniqueUrls": 52,
+    "exceptions": [
+      {
+        "url": "https://kuromon.com/en/official-store-map/",
+        "status": 403,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.cultura.cdmx.gob.mx/recintos/museos/map",
+        "status": null,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://cultura.cdmx.gob.mx/index.php/comunicacion/nota/080-26",
+        "status": null,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.melbourne.vic.gov.au/swim-melbourne-city-baths",
+        "status": 403,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      }
+    ],
+    "report": "work/ea-2026-10-21-fourth-pass-source-links.json",
+    "note": "Four official URLs were checked through indexed official content rather than a successful direct automated HTTP request. Osaka and Melbourne also have directly retrievable municipal tourism corroboration. Mexico City municipal museum and anniversary pages were indexed. Restrictions were not bypassed."
+  },
+  "photography": {
+    "realPhotographs": 18,
+    "aiGenerated": 0,
+    "documentedCreativeCommons": 15,
+    "officialModerateRisk": 3,
+    "note": "Gazela, Kalev and BarroAzul operator photographs have no independently obtained reproduction permission. Credits do not grant permission. Explicitly restricted alternatives were excluded. Context-only images and historical conditions are disclosed.",
+    "imageEdition": "2db9cfa06558",
+    "provenance": "docs/edition-2026-10-21-fourth-pass-photo-provenance.json"
+  },
+  "connections": {
+    "newChapters": [
+      "hamburg",
+      "oslo"
+    ],
+    "authoredChapters": 42,
+    "eligibleChapters": 41,
+    "newDiscoveries": 6,
+    "totalAuthoredDiscoveries": 109,
+    "dates": "2026-12-25 to 2026-12-30",
+    "holidayCaveat": "Christmas Day planetarium edition explicitly says museum closed and invites planning a later visit.",
+    "collections": 6
+  },
+  "rejectedOrCorrected": [
+    {
+      "candidate": "Les Halles de Lyon",
+      "reason": "Already represented in batch 42. No duplicate programme under another title."
+    },
+    {
+      "candidate": "Florence Scarpelli workshop",
+      "reason": "Prior rejection retained. No adequately established public hands-on workshop."
+    },
+    {
+      "candidate": "New Orleans Preservation Hall",
+      "reason": "Already represented in batch 41."
+    },
+    {
+      "candidate": "Saung Angklung Udjo source",
+      "reason": "Previously associated performance URL served unrelated gambling spam. Not published or linked."
+    },
+    {
+      "candidate": "St Kilda Sea Baths",
+      "reason": "Conflicting pool/spa closure notices prevented a reliable current public-swim claim. Replaced with Melbourne City Baths."
+    },
+    {
+      "candidate": "Visit Estonia marzipan photographs",
+      "reason": "Explicit reuse restrictions. Used Kalev's separate operator-owned finished-figure photograph, not a claimed class image."
+    },
+    {
+      "candidate": "DOMYO workshop/photo alternative",
+      "reason": "Availability template and explicit photo restrictions made this a weaker choice. Adachi access is sourced through secure official tourism listings and telephone confirmation."
+    },
+    {
+      "candidate": "Adachi insecure operator URL",
+      "reason": "No HTTPS support. Not used as a public payment or booking link. Secure official tourism contact used, address discrepancy and language conditions disclosed."
+    },
+    {
+      "candidate": "BarroAzul old studio address and inconsistent calendar title",
+      "reason": "Current Covadonga address and dated course confirmation take priority. Copied conflicting date is not promised as bookable."
+    },
+    {
+      "candidate": "Frank Znort old 2025 event",
+      "reason": "Replaced with official 25 October 2026 event. Conflicting end times disclosed, not guessed."
+    },
+    {
+      "candidate": "Elbphilharmonie restricted press photography",
+      "reason": "No assumed commercial reproduction permission. Licensed visitor approach photograph used and explicitly not labelled auditorium or concert."
+    },
+    {
+      "candidate": "Misleading image alternatives",
+      "reason": "Wrong Seoul bicycle system, inland park, wedding/event-only interiors and unrelated food photographs excluded."
+    }
+  ],
+  "verification": {
+    "unitTests": {
+      "passed": 134,
+      "failed": 0
+    },
+    "typescript": "Passed",
+    "productionBuild": "Passed with production indexing flags",
+    "localRouteSmoke": {
+      "checkedPages": 748,
+      "unpublishedPaths": 31,
+      "uniqueCspNonces": 728,
+      "failures": 0
+    },
+    "localBrowser": {
+      "routeViewportChecks": 116,
+      "viewports": [
+        390,
+        1440
+      ],
+      "automatedAccessibilityViolations": 0,
+      "brokenImages": 0,
+      "horizontalOverflow": 0,
+      "runtimeErrors": 0
+    },
+    "localInteractions": {
+      "checks": 14,
+      "scope": "Country/city filters, Hamburg guide, photo modal/focus restoration, save, plan, reload persistence, keyboard skip link and consent gate"
+    },
+    "newGuideProof": {
+      "passed": 18,
+      "rawImageSha256Matches": 18,
+      "optimizedWebpResponses": 18,
+      "expiredExcluded": 14
+    },
+    "visualReview": "All 18 mobile and desktop guide openings, home, Today, New and Hamburg/Oslo destination chapters inspected. Images with contextual rather than exact-activity depictions have explicit boundaries.",
+    "production": "Pending commit and push. Deployment and public verification will be recorded in work/ea-2026-10-21-fourth-pass-final-production-verification.json. No completed deployment claimed here."
+  },
+  "guides": [
+    {
+      "primaryArea": "eat-drink",
+      "slug": "find-portos-smaller-sandwich-at-the-counter",
+      "title": "Find Porto's smaller sandwich at the counter",
+      "url": "https://experienceauthority.com/experiences/find-portos-smaller-sandwich-at-the-counter",
+      "place": "Porto",
+      "country": "Portugal",
+      "value": "Give the cachorrinho its own moment: a small, hot sandwich that makes a different Porto lunch from a francesinha.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2027-01-18",
+      "sources": [
+        {
+          "title": "Gazela: current branches and contacts",
+          "url": "https://www.cervejariagazela.pt/",
+          "note": "Use this main directory for branch choice, not the older hosted address."
+        },
+        {
+          "title": "Gazela: cachorrinho and public service",
+          "url": "https://cervejariagazela.eatbu.com/?lang=pt",
+          "note": "Operator-hosted account of its signature snack. Address differs from the main directory."
+        }
+      ]
+    },
+    {
+      "primaryArea": "eat-drink",
+      "slug": "dip-a-farton-into-alborayas-horchata",
+      "title": "Dip a farton into Alboraya's horchata",
+      "url": "https://experienceauthority.com/experiences/dip-a-farton-into-alborayas-horchata",
+      "place": "Alboraya, near Valencia",
+      "country": "Spain",
+      "value": "Make a short journey beyond central Valencia for a cold glass of chufa horchata and the pastry made to meet it.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2027-01-18",
+      "sources": [
+        {
+          "title": "Daniel: branch contacts",
+          "url": "https://www.horchateria-daniel.es/contacto/",
+          "note": "Alboraya address and separate Valencia branches."
+        },
+        {
+          "title": "Artisan horchata-makers: Daniel",
+          "url": "https://artesanosdelahorchata.com/anfitriones/daniel-2/",
+          "note": "Regional trade association context, not an independent food review."
+        }
+      ]
+    },
+    {
+      "primaryArea": "eat-drink",
+      "slug": "build-an-osaka-lunch-one-kuromon-counter-at-a-time",
+      "title": "Build an Osaka lunch one Kuromon counter at a time",
+      "url": "https://experienceauthority.com/experiences/build-an-osaka-lunch-one-kuromon-counter-at-a-time",
+      "place": "Osaka",
+      "country": "Japan",
+      "value": "Choose a small lunch in Kuromon's covered market and let the counters, rather than a checklist, decide its shape.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2027-01-18",
+      "sources": [
+        {
+          "title": "Kuromon Market: official store map",
+          "url": "https://kuromon.com/en/official-store-map/",
+          "note": "Association directory and the market's public food offer."
+        },
+        {
+          "title": "Osaka Convention and Tourism Bureau: Kuromon",
+          "url": "https://osaka-info.jp/en/spot/kuromon-market/",
+          "note": "Location and market context."
+        }
+      ]
+    },
+    {
+      "primaryArea": "make-learn",
+      "slug": "paint-a-small-marzipan-character-in-tallinn",
+      "title": "Paint a small marzipan character in Tallinn",
+      "url": "https://experienceauthority.com/experiences/paint-a-small-marzipan-character-in-tallinn",
+      "place": "Tallinn",
+      "country": "Estonia",
+      "value": "Trade the confectionery counter for a brush and turn a small marzipan figure into something unmistakably your own.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2027-01-18",
+      "sources": [
+        {
+          "title": "Kalev: confectionery workshop",
+          "url": "https://kalev.eu/en/how-our-sweets-are-made/",
+          "note": "Marzipan painting, two-hour format and registration contact."
+        },
+        {
+          "title": "Visit Estonia: Kalev workshop",
+          "url": "https://visitestonia.com/en/kalev-confectionery-workshop-marzipan-and-chocolate",
+          "note": "Roseni 7, upstairs Rotermann workshop and available activities."
+        }
+      ]
+    },
+    {
+      "primaryArea": "make-learn",
+      "slug": "keep-sevilles-tile-colours-apart-by-hand",
+      "title": "Keep Seville's tile colours apart by hand",
+      "url": "https://experienceauthority.com/experiences/keep-sevilles-tile-colours-apart-by-hand",
+      "place": "Seville",
+      "country": "Spain",
+      "value": "Try cuerda seca in Triana and discover that a tile's pattern depends as much on its boundaries as its colours.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2027-01-18",
+      "sources": [
+        {
+          "title": "BarroAzul: dated workshops",
+          "url": "https://www.barroazul.es/en_GB/events",
+          "note": "Live sessions, language and availability. Verify inconsistent copied titles before booking."
+        },
+        {
+          "title": "BarroAzul: activity descriptions",
+          "url": "https://www.barroazul.es/en_GB/descripcion",
+          "note": "Cuerda seca, duration, firing delay and current Covadonga address."
+        }
+      ]
+    },
+    {
+      "primaryArea": "make-learn",
+      "slug": "braid-a-small-kyoto-cord-one-crossing-at-a-time",
+      "title": "Braid a small Kyoto cord one crossing at a time",
+      "url": "https://experienceauthority.com/experiences/braid-a-small-kyoto-cord-one-crossing-at-a-time",
+      "place": "Kyoto",
+      "country": "Japan",
+      "value": "Move weighted threads around a braiding stand at Adachi Kumihimo and watch a pattern appear below your hands.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2027-01-18",
+      "sources": [
+        {
+          "title": "Kyoto tourism council: kumihimo experience",
+          "url": "https://shugakuryoko.kyoto.travel/experience/53/",
+          "note": "Updated July 2026, courses, advance booking and contact details."
+        },
+        {
+          "title": "Kyoto Prefecture Tourism Federation: Adachi",
+          "url": "https://www.kyoto-kankou.or.jp/info_search/3487",
+          "note": "Venue identity, public visitor offer and contact."
+        }
+      ]
+    },
+    {
+      "primaryArea": "move-water",
+      "slug": "watch-bilbao-change-shape-on-the-artxanda-climb",
+      "title": "Watch Bilbao change shape on the Artxanda climb",
+      "url": "https://experienceauthority.com/experiences/watch-bilbao-change-shape-on-the-artxanda-climb",
+      "place": "Bilbao",
+      "country": "Spain",
+      "value": "Take the short municipal funicular ride to Artxanda and let Bilbao's river, slopes and neighbourhoods settle into a larger picture.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2027-01-18",
+      "sources": [
+        {
+          "title": "Artxanda Funicular: hours and fares",
+          "url": "https://funicularartxanda.bilbao.eus/horarios-y-tarifas/",
+          "note": "Municipal schedule, seasonal hours and service frequency."
+        },
+        {
+          "title": "Artxanda Funicular: official site",
+          "url": "https://funicularartxanda.bilbao.eus/",
+          "note": "Operator information and notices."
+        }
+      ]
+    },
+    {
+      "primaryArea": "move-water",
+      "slug": "cross-hamburgs-working-harbour-on-ferry-62",
+      "title": "Cross Hamburg's working harbour on ferry 62",
+      "url": "https://experienceauthority.com/experiences/cross-hamburgs-working-harbour-on-ferry-62",
+      "place": "Hamburg",
+      "country": "Germany",
+      "value": "Use an ordinary harbour ferry to see Hamburg as a place of crossings, ship traffic and working waterfronts.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2027-01-18",
+      "sources": [
+        {
+          "title": "HADAG: route 62",
+          "url": "https://hadag.de/de/linien/62/",
+          "note": "Route and pier sequence, linked to live journey planning."
+        },
+        {
+          "title": "HADAG: service notices",
+          "url": "https://www.hadag.de/de/aktuelles/",
+          "note": "Dated changes, weather and temporary diversions."
+        }
+      ]
+    },
+    {
+      "primaryArea": "move-water",
+      "slug": "borrow-a-bicycle-for-seouls-river-level-view",
+      "title": "Borrow a bicycle for Seoul's river-level view",
+      "url": "https://experienceauthority.com/experiences/borrow-a-bicycle-for-seouls-river-level-view",
+      "place": "Seoul",
+      "country": "South Korea",
+      "value": "Start at Yeouinaru's park rental counter and choose a short, reversible ride beside the Han instead of a distance challenge.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2027-01-18",
+      "sources": [
+        {
+          "title": "Seoul Hangang: bicycle rental",
+          "url": "https://hangang.seoul.go.kr/www/contents/758.do",
+          "note": "September 2026 rental guide, Yeouinaru location, winter hours and rules."
+        },
+        {
+          "title": "Seoul: Hangang parks",
+          "url": "https://english.seoul.go.kr/service/amusement/hangang/hangang-parks/",
+          "note": "Municipal park context and public facilities."
+        }
+      ]
+    },
+    {
+      "primaryArea": "explore-reflect",
+      "slug": "find-a-solar-system-in-a-franeker-living-room",
+      "title": "Find a solar system in a Franeker living room",
+      "url": "https://experienceauthority.com/experiences/find-a-solar-system-in-a-franeker-living-room",
+      "place": "Franeker",
+      "country": "Netherlands",
+      "value": "Enter a house where the ceiling became a working model of the planets, then look for the mechanism that keeps its promise.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2027-01-18",
+      "sources": [
+        {
+          "title": "Eisinga Planetarium: plan your visit",
+          "url": "https://www.eisinga-planetarium.nl/en/plan-your-visit/",
+          "note": "Pre-booking, seasonal Monday opening and accessible alternatives."
+        },
+        {
+          "title": "Eisinga Planetarium: the planetarium",
+          "url": "https://www.eisinga-planetarium.nl/en/the-planetarium/",
+          "note": "Ceiling model, mechanism and museum context."
+        }
+      ]
+    },
+    {
+      "primaryArea": "explore-reflect",
+      "slug": "read-a-london-house-without-speaking",
+      "title": "Read a London house without speaking",
+      "url": "https://experienceauthority.com/experiences/read-a-london-house-without-speaking",
+      "place": "London",
+      "country": "United Kingdom",
+      "value": "Take the Silent Day Visit at Dennis Severs' House and let objects, sounds and unfinished-looking moments build an imagined household.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2027-01-18",
+      "sources": [
+        {
+          "title": "Dennis Severs' House: Silent Day Visit",
+          "url": "https://checkout.dennissevershouse.co.uk/events/dennissevershouse/537369",
+          "note": "Named visit, booking and physical and photography restrictions."
+        },
+        {
+          "title": "Dennis Severs' House: official introduction",
+          "url": "https://dennissevershouse.co.uk/",
+          "note": "The artistic house and different visit formats."
+        }
+      ]
+    },
+    {
+      "primaryArea": "explore-reflect",
+      "slug": "follow-a-material-through-mexicos-popular-arts",
+      "title": "Follow a material through Mexico's popular arts",
+      "url": "https://experienceauthority.com/experiences/follow-a-material-through-mexicos-popular-arts",
+      "place": "Mexico City",
+      "country": "Mexico",
+      "value": "Choose one material at the Museo de Arte Popular and discover how much geography, skill and imagination it can hold.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2027-01-18",
+      "sources": [
+        {
+          "title": "Mexico City Culture: Museo de Arte Popular",
+          "url": "https://www.cultura.cdmx.gob.mx/recintos/museos/map",
+          "note": "Municipal museum record, address and regular visiting hours."
+        },
+        {
+          "title": "Mexico City Culture: MAP's twentieth anniversary",
+          "url": "https://cultura.cdmx.gob.mx/index.php/comunicacion/nota/080-26",
+          "note": "2026 municipal confirmation of museum programming and access."
+        }
+      ]
+    },
+    {
+      "primaryArea": "swim-reset",
+      "slug": "borrow-an-hour-not-a-book-in-oslo",
+      "title": "Borrow an hour, not a book, in Oslo",
+      "url": "https://experienceauthority.com/experiences/borrow-an-hour-not-a-book-in-oslo",
+      "place": "Oslo",
+      "country": "Norway",
+      "value": "Make Deichman Bjørvika a real reading pause, not just an architectural stop between the station and the waterfront.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2027-01-18",
+      "sources": [
+        {
+          "title": "Deichman Bjørvika: branch information",
+          "url": "https://deichman.no/bibliotekene/bj%C3%B8rvika",
+          "note": "Address, current hours and the six-floor library's uses."
+        },
+        {
+          "title": "Deichman: information in English",
+          "url": "https://deichman.no/in-english",
+          "note": "Welcome, conduct rules and separate borrowing eligibility."
+        }
+      ]
+    },
+    {
+      "primaryArea": "swim-reset",
+      "slug": "read-a-tree-label-in-istanbuls-living-collection",
+      "title": "Read a tree label in Istanbul's living collection",
+      "url": "https://experienceauthority.com/experiences/read-a-tree-label-in-istanbuls-living-collection",
+      "place": "Bahçeköy, Istanbul",
+      "country": "Türkiye",
+      "value": "Leave the central sightseeing circuit for a slower walk among the trees and ponds of Atatürk Arboretum.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2027-01-18",
+      "sources": [
+        {
+          "title": "Türkiye Ministry of Education: Atatürk Arboretum",
+          "url": "https://okuldisiogrenme.eba.gov.tr/mekan-detay/ataturk-arboretumu-2712",
+          "note": "Public visitor context and official contact. Confirm current hours and fees directly."
+        },
+        {
+          "title": "General Directorate of Forestry: Atatürk Arboretum",
+          "url": "https://www.ogm.gov.tr/tr/haberler/genel-mudurumuz-ataturk-arboretumunda-incelemelerde-bulundu",
+          "note": "Institutional context only, not a current timetable."
+        }
+      ]
+    },
+    {
+      "primaryArea": "swim-reset",
+      "slug": "give-melbournes-city-baths-a-few-unhurried-lengths",
+      "title": "Give Melbourne's City Baths a few unhurried lengths",
+      "url": "https://experienceauthority.com/experiences/give-melbournes-city-baths-a-few-unhurried-lengths",
+      "place": "Melbourne",
+      "country": "Australia",
+      "value": "Step off Swanston Street for an ordinary indoor swim in a historic public bathing building that still has a daily job.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2027-01-18",
+      "sources": [
+        {
+          "title": "City of Melbourne: swimming at City Baths",
+          "url": "https://www.melbourne.vic.gov.au/swim-melbourne-city-baths",
+          "note": "Operator source for current casual swimming arrangements. Check directly before travel."
+        },
+        {
+          "title": "What's On Melbourne: Melbourne City Baths",
+          "url": "https://whatson.melbourne.vic.gov.au/things-to-do/melbourne-city-baths",
+          "note": "Municipal visitor record, pool, address and building history."
+        },
+        {
+          "title": "What's On Melbourne: the city's pools",
+          "url": "https://whatson.melbourne.vic.gov.au/article/melbournes-best-pools",
+          "note": "Additional municipal confirmation of casual swimming at City Baths."
+        }
+      ]
+    },
+    {
+      "primaryArea": "shared-rituals",
+      "slug": "let-a-live-show-fill-wiltons-music-hall",
+      "title": "Let a live show fill Wilton's Music Hall",
+      "url": "https://experienceauthority.com/experiences/let-a-live-show-fill-wiltons-music-hall",
+      "place": "London",
+      "country": "United Kingdom",
+      "value": "Go to Wilton's for a performance you actually want to hear and let the historic hall become a room full of people again.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2027-01-18",
+      "sources": [
+        {
+          "title": "Wilton's Music Hall: current programme",
+          "url": "https://wiltons.org.uk/whats-on/",
+          "note": "Dated shows, format and booking status."
+        },
+        {
+          "title": "Wilton's Music Hall: accessibility",
+          "url": "https://wiltons.org.uk/visit-us/accessibility/",
+          "note": "Ground-floor access, balcony stairs, children and bag rules."
+        }
+      ]
+    },
+    {
+      "primaryArea": "shared-rituals",
+      "slug": "hear-hamburg-from-a-seat-in-the-elbphilharmonie",
+      "title": "Hear Hamburg from a seat in the Elbphilharmonie",
+      "url": "https://experienceauthority.com/experiences/hear-hamburg-from-a-seat-in-the-elbphilharmonie",
+      "place": "Hamburg",
+      "country": "Germany",
+      "value": "Move beyond the familiar waterfront silhouette and choose a concert that gives the building a reason to gather people.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2027-01-18",
+      "sources": [
+        {
+          "title": "Elbphilharmonie: what's on",
+          "url": "https://www.elbphilharmonie.de/en/whats-on/",
+          "note": "Dated concerts and distinctions between halls and venues."
+        },
+        {
+          "title": "Elbphilharmonie: plan your visit",
+          "url": "https://www.elbphilharmonie.de/en/plan-your-visit",
+          "note": "Arrival, concert access and dated transport notices."
+        }
+      ]
+    },
+    {
+      "primaryArea": "shared-rituals",
+      "slug": "give-an-oslo-sunday-to-the-frank-znort-quartet",
+      "title": "Give an Oslo Sunday to the Frank Znort Quartet",
+      "url": "https://experienceauthority.com/experiences/give-an-oslo-sunday-to-the-frank-znort-quartet",
+      "place": "Oslo",
+      "country": "Norway",
+      "value": "Join a longstanding Sunday music gathering at Blå and hear a much larger ensemble than its modest name suggests.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2027-01-18",
+      "sources": [
+        {
+          "title": "Blå: Frank Znort, 25 October 2026",
+          "url": "https://www.blaaoslo.no/events/frank-znort-quartet/0juVt7PWPx",
+          "note": "Forthcoming Sunday and residency context. Conflicting time fields require direct confirmation."
+        },
+        {
+          "title": "Blå: practical information",
+          "url": "https://www.blaaoslo.no/praktisk-info",
+          "note": "Venue address, seasonal arrangements and event-specific timing."
+        }
+      ]
+    }
+  ]
+}

@@ -35,7 +35,7 @@ test("third 21 October pass adds eighteen distinct guides with three in each pri
     interests.map((i) => i.slug).sort(),
   );
   const earlier = publicGuides.filter((g) => !slugs.includes(g.slug));
-  assert.equal(earlier.length, 352);
+  assert.equal(earlier.length, 370);
   for (const [area, allocated] of Object.entries(edition20261021ThirdPass)) {
     assert.equal(allocated.length, 3);
     for (const slug of allocated) {
@@ -84,10 +84,10 @@ test("third 21 October pass adds eighteen distinct guides with three in each pri
       assert.ok(prose.split(/\s+/).length >= 300, slug);
     }
   }
-  assert.equal(publicGuides.length, 370);
+  assert.equal(publicGuides.length, 388);
   assert.equal(
     publicGuides.filter((g) => canPublishGuide(g, "2026-10-21")).length,
-    356,
+    374,
   );
 });
 test("all eighteen new documentary photographs have explicit provenance and exact-place context", () => {
@@ -159,8 +159,8 @@ test("visitor roles, timed programmes and important access limitations remain ex
 test("three complementary local chapters remain complete, sourced and separately planned", () => {
   const current = publicGuides.filter((g) => canPublishGuide(g, "2026-10-21"));
   const chapters = resolveCityChapters(current);
-  assert.equal(cityChapters.length, 40);
-  assert.equal(chapters.length, 39);
+  assert.equal(cityChapters.length, 42);
+  assert.equal(chapters.length, 41);
   for (const name of ["brussels", "stockholm", "san-francisco"]) {
     const c = chapters.find((c) => c.slug === name)!;
     assert.ok(c);
@@ -194,7 +194,7 @@ test("three complementary local chapters remain complete, sourced and separately
 });
 test("six appended discoveries preserve prior authored slots and expire with their evidence", () => {
   assert.equal(discoveryEdition51.length, 6);
-  assert.equal(dailyDiscoveries.length, 103);
+  assert.equal(dailyDiscoveries.length, 109);
   for (const d of discoveryEdition51) {
     assert.ok(d.date >= "2026-12-19" && d.date <= "2026-12-24");
     assert.ok(d.angle.length > 180);
@@ -224,11 +224,11 @@ test("six appended discoveries preserve prior authored slots and expire with the
     dailyDiscoveries.length,
   );
 });
-test("three same-day passes form one fifty-four-guide release without duplicate publication dates", () => {
+test("four same-day passes form one seventy-two-guide release without duplicate publication dates", () => {
   assert.equal(guideReleases.filter((r) => r.date === "2026-10-21").length, 1);
   const release = publishedReleases(publicGuides, "2026-10-21")[0];
-  assert.equal(release.guides.length, 54);
-  assert.equal(new Set(release.guides.map((g) => g.id)).size, 54);
+  assert.equal(release.guides.length, 72);
+  assert.equal(new Set(release.guides.map((g) => g.id)).size, 72);
   assert.equal(
     publishedReleases(publicGuides, "2026-10-20")[0].guides.length,
     36,

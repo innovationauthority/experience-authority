@@ -7,6 +7,7 @@ import { discoveryEdition48 } from "./daily-discovery-batch-48";
 import { discoveryEdition49 } from "./daily-discovery-batch-49";
 import { discoveryEdition50 } from "./daily-discovery-batch-50";
 import { discoveryEdition51 } from "./daily-discovery-batch-51";
+import { discoveryEdition52 } from "./daily-discovery-batch-52";
 
 export type Discovery = {
   date: string;
@@ -1119,6 +1120,7 @@ export const dailyDiscoveries: readonly Discovery[] = [
       entry,
   ),
   ...discoveryEdition51,
+  ...discoveryEdition52,
 ];
 
 export function availableDiscoveries(

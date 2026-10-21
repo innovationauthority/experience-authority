@@ -16,6 +16,54 @@ export type CityChapter = {
 /** Authored local combinations. These are ideas to adapt, not timed or bookable packages. */
 export const cityChapters: readonly CityChapter[] = [
   {
+    slug: "hamburg",
+    name: "Hamburg",
+    country: "germany",
+    regions: ["hamburg"],
+    title: "Cross the harbour. Give the evening to the music.",
+    intro:
+      "A working ferry and a concert offer two ways to join Hamburg rather than only look at it. Read the waterfront from route 62, then return to the Elbphilharmonie for a performance chosen by the music, not just the building.",
+    pace: "A flexible daytime crossing and a separately booked concert, with a generous break between them.",
+    planning:
+      "Check the live ferry timetable, ticket rules and return pier before boarding. A ferry journey does not reserve a seat or guarantee a connection to the concert. Confirm that the performance ticket is for the Elbphilharmonie, not the separate Laeiszhalle. A Plaza ticket is not concert admission. Review current transport and bridge works, accessibility, event age guidance and arrival instructions. Allow time to eat, change plans and reach the hall independently. This is an editorial pairing, not a package, continuous walking route, shared reservation or EA booking.",
+    stops: [
+      {
+        slug: "cross-hamburgs-working-harbour-on-ferry-62",
+        moment: "During the day, follow a public crossing",
+        why: "A regular transport route reveals the relationship between piers, shore neighbourhoods and the working port. Choose a segment that leaves room for the return.",
+      },
+      {
+        slug: "hear-hamburg-from-a-seat-in-the-elbphilharmonie",
+        moment: "At a confirmed concert, let the room gather",
+        why: "Choose an artist or programme you want to hear and give the performance your full attention. The evening works independently of whether the ferry weather cooperates.",
+      },
+    ],
+  },
+  {
+    slug: "oslo",
+    name: "Oslo",
+    country: "norway",
+    regions: ["oslo"],
+    title: "A quiet page. A Sunday with another rhythm.",
+    intro:
+      "Use Deichman Bjørvika as a library, then let a suitable Sunday lead to live music at Blå. The contrast gives Oslo room for both private attention and a shared evening without turning either place into a staged local encounter.",
+    pace: "A reading pause on a public-opening day and a separately checked Sunday music visit, together or on different days.",
+    planning:
+      "Reading in the library is distinct from borrowing, which has residence and identification requirements. Check holiday opening and choose an appropriate reading area. Blå's event timing, age rules, identification, admission and accessible entry need direct confirmation. A quieter acoustic set and the late club programme are not interchangeable. Do not assume an outdoor performance, free entry or a reserved seat. These venues are in different parts of Oslo. Arrange transport, meals and the return independently. This is not a timed route, combined ticket, guaranteed programme or EA-hosted evening.",
+    stops: [
+      {
+        slug: "borrow-an-hour-not-a-book-in-oslo",
+        moment: "Begin with time that does not need filling",
+        why: "A civic reading room offers a useful pause without a purchase. Let the library's actual floor rules and available seats shape the visit.",
+      },
+      {
+        slug: "give-an-oslo-sunday-to-the-frank-znort-quartet",
+        moment: "On a confirmed Sunday, join the next set",
+        why: "A recurring musical gathering gives the evening a specific local focus. Choose a set and a return plan that suit your energy and the venue's admission conditions.",
+      },
+    ],
+  },
+  {
     slug: "brussels",
     name: "Brussels",
     country: "belgium",

@@ -1,6 +1,24 @@
 /** Content hashes keep replaced photographs consistent across responsive image caches.
  * The media test requires an update when an original file changes. */
 export const imageRevisions: Record<string, string> = {
+  "/images/guides/porto-gazela-cachorrinho.jpg": "7ded6cf0f910",
+  "/images/guides/alboraya-daniel-horchata.jpg": "da16b8fb1726",
+  "/images/guides/osaka-kuromon-lunch.jpg": "42b70c8174fc",
+  "/images/guides/tallinn-kalev-marzipan.jpg": "467504c9876f",
+  "/images/guides/seville-barroazul-cuerda-seca.jpg": "4b21b02d298f",
+  "/images/guides/kyoto-adachi-kumihimo.jpg": "ffdf779610dc",
+  "/images/guides/bilbao-artxanda-funicular.jpg": "93ca383c9830",
+  "/images/guides/hamburg-hadag-62.jpg": "d52533469d49",
+  "/images/guides/seoul-yeouinaru-cycling.jpg": "5593cefaf3c1",
+  "/images/guides/franeker-eisinga-planetarium.jpg": "e56706c0c03d",
+  "/images/guides/london-dennis-severs-silent.jpg": "f16e5b9291c0",
+  "/images/guides/mexico-city-map-materials.jpg": "f0b5f65a4525",
+  "/images/guides/oslo-deichman-reading.jpg": "bbcf03e9bf32",
+  "/images/guides/istanbul-ataturk-arboretum.jpg": "3494e03e876c",
+  "/images/guides/melbourne-city-baths-swim.jpg": "cb5857b54cfe",
+  "/images/guides/london-wiltons-performance.jpg": "cc2543d75f7a",
+  "/images/guides/hamburg-elbphilharmonie-concert.jpg": "77e5cadba815",
+  "/images/guides/oslo-frank-znort-sunday.jpg": "24b937d348c0",
   "/images/guides/brussels-dandoy-waffles.jpg": "278703dcbc2e",
   "/images/guides/buenos-aires-las-violetas-merienda.jpg": "8bbf19e64933",
   "/images/guides/bangkok-nang-loeng-lunch.jpg": "6c70a7431ce8",
@@ -377,7 +395,7 @@ export const imageRevisions: Record<string, string> = {
 
 // A single manifest fingerprint fits Next's bounded localPatterns allowlist.
 // Tests require it to change when any original is added or replaced.
-export const imageEdition = "71680662dc49";
+export const imageEdition = "2db9cfa06558";
 
 export function imageSource(src: string) {
   return imageRevisions[src] ? `${src}?v=${imageEdition}` : src;
