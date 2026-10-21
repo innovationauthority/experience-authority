@@ -33,7 +33,7 @@ test("fifth October 21 pass adds eighteen new programmes, three per primary area
     interests.map((i) => i.slug).sort(),
   );
   const earlier = publicGuides.filter((g) => !slugs.includes(g.slug));
-  assert.equal(earlier.length, 388);
+  assert.equal(earlier.length, 406);
   for (const [area, allocated] of Object.entries(edition20261021FifthPass)) {
     assert.equal(allocated.length, 3);
     for (const slug of allocated) {
@@ -83,10 +83,10 @@ test("fifth October 21 pass adds eighteen new programmes, three per primary area
       assert.ok(prose.split(/\s+/).length >= 300, slug);
     }
   }
-  assert.equal(publicGuides.length, 406);
+  assert.equal(publicGuides.length, 424);
   assert.equal(
     publicGuides.filter((g) => canPublishGuide(g, "2026-10-21")).length,
-    392,
+    410,
   );
 });
 test("all eighteen new photographs have subject-specific review and honest rights records", () => {
@@ -168,8 +168,8 @@ test("Lima connects a class and a public pause without a fabricated package", ()
     regionsForCountry("peru", current).find((r) => r.slug === "lima")?.name,
     "Lima",
   );
-  assert.equal(cityChapters.length, 43);
-  assert.equal(chapters.length, 42);
+  assert.equal(cityChapters.length, 44);
+  assert.equal(chapters.length, 43);
   const lima = chapters.find((c) => c.slug === "lima")!;
   assert.equal(lima.stops.length, 2);
   assert.equal(new Set(lima.stops.map((s) => s.item.field)).size, 2);
@@ -195,9 +195,9 @@ test("Lima connects a class and a public pause without a fabricated package", ()
 });
 test("six new daily discoveries respect the year boundary and holiday uncertainty", () => {
   assert.equal(discoveryEdition53.length, 6);
-  assert.equal(dailyDiscoveries.length, 115);
-  assert.equal(new Set(dailyDiscoveries.map((d) => d.date)).size, 115);
-  assert.equal(new Set(dailyDiscoveries.map((d) => d.slug)).size, 115);
+  assert.equal(dailyDiscoveries.length, 121);
+  assert.equal(new Set(dailyDiscoveries.map((d) => d.date)).size, 121);
+  assert.equal(new Set(dailyDiscoveries.map((d) => d.slug)).size, 121);
   assert.equal(discoveryEdition53[0].date, "2026-12-31");
   assert.equal(discoveryEdition53.at(-1)!.date, "2027-01-05");
   for (const d of discoveryEdition53) {
@@ -220,11 +220,11 @@ test("six new daily discoveries respect the year boundary and holiday uncertaint
     /does not confirm this specific January date/,
   );
 });
-test("five same-day passes remain one dated release with ninety unique guides", () => {
+test("six same-day passes remain one dated release with 108 unique guides", () => {
   assert.equal(guideReleases.filter((r) => r.date === "2026-10-21").length, 1);
   const release = publishedReleases(publicGuides, "2026-10-21")[0];
-  assert.equal(release.guides.length, 90);
-  assert.equal(new Set(release.guides.map((g) => g.id)).size, 90);
+  assert.equal(release.guides.length, 108);
+  assert.equal(new Set(release.guides.map((g) => g.id)).size, 108);
   assert.equal(
     publishedReleases(publicGuides, "2026-10-20")[0].guides.length,
     36,

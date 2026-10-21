@@ -16,6 +16,30 @@ export type CityChapter = {
 /** Authored local combinations. These are ideas to adapt, not timed or bookable packages. */
 export const cityChapters: readonly CityChapter[] = [
   {
+    slug: "athens",
+    name: "Athens",
+    country: "greece",
+    regions: ["athens"],
+    title: "Begin with a bowl. Follow an idea through its gears.",
+    intro:
+      "A dairy-shop breakfast near Omonia and a technology museum in Kolonaki offer two small-scale ways into Athens. Taste something before adding to it, then look closely at how a reconstructed mechanism works. Both reward attention more than a long list of stops.",
+    pace: "A short breakfast and a separately planned museum visit, with an unhurried journey between neighbourhoods.",
+    planning:
+      "Check Stani's opening, products, ingredients and seating directly. A dairy-shop purchase does not include a tasting lesson. At Kotsanas, confirm the Athens location, admission, language support and any access needs. The exhibits are modern reconstructions, not intact ancient machines, and interaction is only as staff permit. Arrange travel between Omonia and Kolonaki independently, allowing for heat, traffic and your own pace. This is not a timed walking route, shared ticket, meal package or EA reservation.",
+    stops: [
+      {
+        slug: "begin-an-athens-morning-with-yoghurt-at-stani",
+        moment: "Begin with a modest breakfast",
+        why: "A bowl of yoghurt gives the morning a specific texture and setting. Ask about milk and toppings, then let the visit stay small.",
+      },
+      {
+        slug: "follow-an-ancient-idea-through-its-gears-in-athens",
+        moment: "On a separate visit, give one mechanism your attention",
+        why: "Follow an input through a reconstruction and ask what is known and what has been interpreted. One clear explanation can outlast a hurried look at every model.",
+      },
+    ],
+  },
+  {
     slug: "lima",
     name: "Lima",
     country: "peru",

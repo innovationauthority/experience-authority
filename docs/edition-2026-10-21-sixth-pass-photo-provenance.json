@@ -1,0 +1,1651 @@
+[
+  {
+    "guideId": "salzburg-furst-mozartkugel",
+    "candidate": "furst-mozartkugel-0",
+    "photographer": "Clemens Pfeiffer / Wikimedia Commons",
+    "title": "Fürst Mozartkugeln and a cut chocolate",
+    "alt": "Silver-wrapped Fürst Mozartkugeln beside a cut chocolate showing its layered centre",
+    "rationale": "The actual branded chocolates and cut centre support the guide's texture comparison. Clear close view remains legible in wide and square crops. Author recovered from the Commons file page rather than guessed from missing API metadata.",
+    "depiction": "Clemens Pfeiffer's 2005 product photograph, not today's batch or evidence of a current recipe inspection.",
+    "id": "furst-mozartkugel-0",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Mozartkugeln-Fuerst.jpg/1920px-Mozartkugeln-Fuerst.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "metadata": {
+      "title": "File:Mozartkugeln-Fuerst.jpg",
+      "size": 1070011,
+      "width": 2272,
+      "height": 1704,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Mozartkugeln-Fuerst.jpg/1920px-Mozartkugeln-Fuerst.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1920,
+      "thumbheight": 1440,
+      "responsiveUrls": {
+        "2": "https://upload.wikimedia.org/wikipedia/commons/3/34/Mozartkugeln-Fuerst.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Mozartkugeln-Fuerst.jpg/1920px-Mozartkugeln-Fuerst.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1440,
+        "srcset": "https://upload.wikimedia.org/wikipedia/commons/3/34/Mozartkugeln-Fuerst.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Mozartkugeln-Fuerst.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mozartkugeln-Fuerst.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=398805",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2005-11-02 21:45:36",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Mozartkugeln-Fuerst",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Aluminium foil|Files with no machine-readable author|Files with no machine-readable source|Mozartkugel|Media missing infobox template|Confiserie Fürst, Salzburg|Cross sections of sugar confectionery|Ball-shaped sugar confectionery|Unwrapped candy with wrapper|Mozartkugel displayed for sale",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.5",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.5",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.5",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.5",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:Mozartkugeln-Fuerst.jpg",
+    "width": 1920,
+    "height": 1440
+  },
+  {
+    "guideId": "naples-scaturchio-sfogliatelle",
+    "candidate": "scaturchio-riccia",
+    "photographer": "Scaturchio",
+    "title": "Scaturchio's sfogliatella riccia",
+    "alt": "A single ridged sfogliatella riccia dusted with sugar on a white plate at Scaturchio",
+    "rationale": "The operator identifies this exact product photograph as sfogliatella riccia. The visible ridges directly explain the guide's subject and avoid substituting a different cream-topped pastry from the same gallery.",
+    "depiction": "Official product photograph of the riccia, not both compared pastries or a guaranteed serving on the day. Photographer not individually identified by the source.",
+    "id": "scaturchio-riccia",
+    "url": "https://scaturchio.it/wp-content/uploads/2020/06/Sfogliatella_riccia-2-scaled.jpg",
+    "source": "https://scaturchio.it/prodotti/sfogliatella-riccia/",
+    "width": 2560,
+    "height": 2560
+  },
+  {
+    "guideId": "athens-stani-yoghurt",
+    "candidate": "stani-own-yoghurt",
+    "photographer": "Stani Athens",
+    "title": "Stani yoghurt with honey and walnuts",
+    "alt": "Sheep-milk yoghurt covered with honey and walnut pieces on a Stani-branded white plate",
+    "rationale": "The dairy's own product page labels the linked full-size photograph as sheep-milk yoghurt with honey and walnuts. Texture and identifiable plate are clear. The unrelated Commons result and restricted city-tourism photograph are rejected.",
+    "depiction": "Legacy official product photograph, not proof of today's portion or toppings. Photographer not individually named. The source's unsupported health claims are not reproduced.",
+    "id": "stani-own-yoghurt",
+    "url": "https://www.stani1931.com/files/DSCN0948.JPG",
+    "source": "https://www.stani1931.com/en_products.html",
+    "width": 2288,
+    "height": 1712
+  },
+  {
+    "guideId": "ljubljana-tiporenesansa-letterpress",
+    "candidate": "tipo-renesansa-0",
+    "title": "tipoRenesansa in Ljubljana",
+    "alt": "A small printing press outside the stone-fronted tipoRenesansa studio entrance in Ljubljana",
+    "rationale": "Identifiable studio lettering and a physical press connect the image to the actual workshop address. The photograph is used as premises context, not falsely described as a participant printing a poster.",
+    "depiction": "The studio exterior and displayed press, not a workshop in progress or a promise that the outdoor display remains unchanged.",
+    "id": "tipo-renesansa-0",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/TipoRenesansa_%E2%80%94_awesome_letterpress_studio_%2848701623971%29.jpg/1920px-TipoRenesansa_%E2%80%94_awesome_letterpress_studio_%2848701623971%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "metadata": {
+      "title": "File:TipoRenesansa — awesome letterpress studio (48701623971).jpg",
+      "size": 6577449,
+      "width": 5144,
+      "height": 3430,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/TipoRenesansa_%E2%80%94_awesome_letterpress_studio_%2848701623971%29.jpg/1920px-TipoRenesansa_%E2%80%94_awesome_letterpress_studio_%2848701623971%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1920,
+      "thumbheight": 1280,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/TipoRenesansa_%E2%80%94_awesome_letterpress_studio_%2848701623971%29.jpg/3840px-TipoRenesansa_%E2%80%94_awesome_letterpress_studio_%2848701623971%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/TipoRenesansa_%E2%80%94_awesome_letterpress_studio_%2848701623971%29.jpg/1920px-TipoRenesansa_%E2%80%94_awesome_letterpress_studio_%2848701623971%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1280,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/TipoRenesansa_%E2%80%94_awesome_letterpress_studio_%2848701623971%29.jpg/3840px-TipoRenesansa_%E2%80%94_awesome_letterpress_studio_%2848701623971%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/TipoRenesansa_%E2%80%94_awesome_letterpress_studio_%2848701623971%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:TipoRenesansa_%E2%80%94_awesome_letterpress_studio_(48701623971).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=82256891",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-09-17 08:42:03",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "TipoRenesansa — awesome letterpress studio (48701623971)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Machines in Slovenia|Flickr images reviewed by FlickreviewR 2|Shops in Ljubljanica",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "tipoRenesansa — awesome letterpress studio",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2019-08-31 13:57",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/bexwalton/48701623971/\">tipoRenesansa — awesome letterpress studio</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/7831824@N04\">Bex Walton</a> from London, England",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:TipoRenesansa_%E2%80%94_awesome_letterpress_studio_(48701623971).jpg",
+    "width": 1920,
+    "height": 1280
+  },
+  {
+    "guideId": "siem-reap-khmer-pottery-wheel",
+    "candidate": "khmer-ceramics-pottery-2",
+    "title": "Potter at Khmer Ceramics",
+    "alt": "A potter shapes a clay bowl at Khmer Ceramics Centre with tools and greenery around the work area",
+    "rationale": "The Commons record names the actual centre and the hands-on wheel process is plainly visible. This is a stronger subject match than the kiln-building or finished-vessel alternatives.",
+    "depiction": "A potter working at Khmer Ceramics Centre. The person is not identified as the reader's future teacher and the image does not promise a particular class setup.",
+    "id": "khmer-ceramics-pottery-2",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Potter_making_a_bowl_at_Khmer_ceramics_Centre.JPG/1920px-Potter_making_a_bowl_at_Khmer_ceramics_Centre.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "metadata": {
+      "title": "File:Potter making a bowl at Khmer ceramics Centre.JPG",
+      "size": 1897993,
+      "width": 4084,
+      "height": 2722,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Potter_making_a_bowl_at_Khmer_ceramics_Centre.JPG/1920px-Potter_making_a_bowl_at_Khmer_ceramics_Centre.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1920,
+      "thumbheight": 1280,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Potter_making_a_bowl_at_Khmer_ceramics_Centre.JPG/3840px-Potter_making_a_bowl_at_Khmer_ceramics_Centre.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Potter_making_a_bowl_at_Khmer_ceramics_Centre.JPG/1920px-Potter_making_a_bowl_at_Khmer_ceramics_Centre.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1280,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Potter_making_a_bowl_at_Khmer_ceramics_Centre.JPG/3840px-Potter_making_a_bowl_at_Khmer_ceramics_Centre.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Potter_making_a_bowl_at_Khmer_ceramics_Centre.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Potter_making_a_bowl_at_Khmer_ceramics_Centre.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=41202708",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-06-26 05:29:04",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Potter making a bowl at Khmer ceramics Centre",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Khmer Ceramics & Fine Arts Centre|Self-published work|Potters from Cambodia",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Potter making a bowl on a traditional pottery wheel",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-05-04 11:09:32",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sok_CHHAN&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sok CHHAN (page does not exist)\">Sok CHHAN</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:Potter_making_a_bowl_at_Khmer_ceramics_Centre.JPG",
+    "width": 1920,
+    "height": 1280
+  },
+  {
+    "guideId": "mae-rim-poopoopaper-craft",
+    "candidate": "poop-process-original",
+    "photographer": "Elephant POOPOOPAPER Park",
+    "title": "Screening paper fibres at POOPOOPAPER Park",
+    "alt": "A worker at Elephant POOPOOPAPER Park holds a screen with a wet layer of paper fibres",
+    "rationale": "The official image shows the actual park and wet fibre screen, supporting the material-process guide. The full-resolution original is used instead of the blurred thumbnail or park-logo images.",
+    "depiction": "Official process photograph showing a worker and fibre screen, not proof that every tour participant performs this exact stage. Photographer not individually identified.",
+    "id": "poop-process-original",
+    "url": "https://static.wixstatic.com/media/ebe8b4_a202b2a7457f43e697e90172b3018b5c~mv2.jpg",
+    "source": "https://www.poopoopaperpark.com/",
+    "width": 3000,
+    "height": 4000
+  },
+  {
+    "guideId": "nantes-grand-elephant-ride",
+    "candidate": "nantes-grand-elephant-2",
+    "title": "The Grand Éléphant in Nantes",
+    "alt": "The wooden and steel Grand Éléphant stands beneath the former shipyard hall in Nantes",
+    "rationale": "The mechanical elephant's head, body, tusks and surrounding industrial hall identify the actual attraction. This avoids the earlier disconnected railing details and makes clear that the subject is a machine, not a living animal.",
+    "depiction": "The mechanical sculpture at Les Machines de l'île, not a live departure or a guaranteed passenger viewpoint. The photographer's licence does not imply an EA relationship with the sculpture's creators.",
+    "id": "nantes-grand-elephant-2",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Elephant_de_nantes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "metadata": {
+      "title": "File:Elephant de nantes.jpg",
+      "size": 1067176,
+      "width": 1314,
+      "height": 1305,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Elephant_de_nantes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 1920,
+      "thumbheight": 1907,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Elephant_de_nantes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1907
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Elephant_de_nantes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Elephant_de_nantes.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=145767022",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-02-24 12:16:48",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Elephant de nantes",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Grand éléphant|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Le Grand éléphant est l'une des machines de l'île de Nantes, créé par la compagnie de théâtre de rue « La Machine ».",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-02-03 15:26:35",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Fontewin&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Fontewin (page does not exist)\">Fontewin</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:Elephant_de_nantes.jpg",
+    "width": 1314,
+    "height": 1305
+  },
+  {
+    "guideId": "rotterdam-watertaxi-crossing",
+    "candidate": "rotterdam-2025",
+    "title": "A Rotterdam Watertaxi on the river",
+    "alt": "A yellow Rotterdam Watertaxi crosses the river in front of waterfront buildings and a landing",
+    "rationale": "The actual yellow transport boat is visible within Rotterdam's river setting. It communicates the point-to-point journey more accurately than an empty pier or a dominant cruise ship.",
+    "depiction": "A 2025 Watertaxi photograph. The wake is not a promise of speed, weather, vessel assignment or a specific route.",
+    "id": "rotterdam-2025",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Watertaxi_Rotterdam_%282025%29.jpg/1920px-Watertaxi_Rotterdam_%282025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "metadata": {
+      "title": "File:Watertaxi Rotterdam (2025).jpg",
+      "size": 5046060,
+      "width": 4272,
+      "height": 2848,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Watertaxi_Rotterdam_%282025%29.jpg/1920px-Watertaxi_Rotterdam_%282025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1920,
+      "thumbheight": 1280,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Watertaxi_Rotterdam_%282025%29.jpg/3840px-Watertaxi_Rotterdam_%282025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Watertaxi_Rotterdam_%282025%29.jpg/1920px-Watertaxi_Rotterdam_%282025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1280,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Watertaxi_Rotterdam_%282025%29.jpg/3840px-Watertaxi_Rotterdam_%282025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Watertaxi_Rotterdam_%282025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Watertaxi_Rotterdam_(2025).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=180638721",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-12-25 09:44:20",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Watertaxi Rotterdam (2025)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Watertaxi Rotterdam|December 2025 in Rotterdam|South Holland photographs taken on 2025-12-24",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Een Watertaxi vaart op hoge snelheid vlak langs de Erasmusbrug.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2025-12-24 11:03:28",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Sneeuwvlakte\" title=\"User:Sneeuwvlakte\">Sneeuwvlakte</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:Watertaxi_Rotterdam_(2025).jpg",
+    "width": 1920,
+    "height": 1280
+  },
+  {
+    "guideId": "singapore-henderson-waves-walk",
+    "candidate": "henderson-waves-2",
+    "title": "Henderson Waves pedestrian deck",
+    "alt": "The timber deck and curved pale ribs of Henderson Waves lead towards trees in Singapore",
+    "rationale": "The walkable deck and wave structure directly show the visitor's experience rather than only a distant skyline. The clear central route remains legible across card and detail crops.",
+    "depiction": "Bridge architecture and deck context, not evidence that all surrounding paths are currently open.",
+    "id": "henderson-waves-2",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Henderson_waves_modul_2.jpg/1920px-Henderson_waves_modul_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "metadata": {
+      "title": "File:Henderson waves modul 2.jpg",
+      "size": 2073249,
+      "width": 3456,
+      "height": 2304,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Henderson_waves_modul_2.jpg/1920px-Henderson_waves_modul_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1920,
+      "thumbheight": 1280,
+      "responsiveUrls": {
+        "2": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Henderson_waves_modul_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Henderson_waves_modul_2.jpg/1920px-Henderson_waves_modul_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1280,
+        "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Henderson_waves_modul_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Henderson_waves_modul_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Henderson_waves_modul_2.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=70084083",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-06-20 08:40:38",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Henderson waves modul 2",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Henderson Waves|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Henderson waves modul",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-03-24 08:45:58",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Raynaldsantika&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Raynaldsantika (page does not exist)\">Raynaldsantika</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:Henderson_waves_modul_2.jpg",
+    "width": 1920,
+    "height": 1280
+  },
+  {
+    "guideId": "athens-kotsanas-mechanisms",
+    "candidate": "kotsanas-athens-2",
+    "title": "An Antikythera mechanism reconstruction at Kotsanas",
+    "alt": "A reconstructed Antikythera mechanism in a display case at the Kotsanas Museum in Athens",
+    "rationale": "The named reconstruction matches the museum's technology focus. It is explicitly described as a modern model, avoiding a false suggestion that this is the original archaeological mechanism.",
+    "depiction": "Kotsanas's reconstruction of the Antikythera mechanism, photographed from the back. Display and interaction availability can change.",
+    "id": "kotsanas-athens-2",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Mechanism_of_Antikythera_-_Kotsanas%27_version_-_back_side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "metadata": {
+      "title": "File:Mechanism of Antikythera - Kotsanas' version - back side.jpg",
+      "size": 239031,
+      "width": 1200,
+      "height": 1600,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Mechanism_of_Antikythera_-_Kotsanas%27_version_-_back_side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 1920,
+      "thumbheight": 2560,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Mechanism_of_Antikythera_-_Kotsanas%27_version_-_back_side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 2560
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Mechanism_of_Antikythera_-_Kotsanas%27_version_-_back_side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mechanism_of_Antikythera_-_Kotsanas%27_version_-_back_side.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=159163438",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-02-05 11:06:49",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Mechanism of Antikythera - Kotsanas' version - back side",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Antikythera Mechanism|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Mechanism of Antikythera (back side) by Kostas Kotsanas, at the Kotsanas Museum of Ancient Greek Technology, in Athens, Greece.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2025-02-05",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Denexeitelos&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Denexeitelos (page does not exist)\">Denexeitelos</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:Mechanism_of_Antikythera_-_Kotsanas%27_version_-_back_side.jpg",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "guideId": "zagreb-broken-relationships",
+    "candidate": "museum-broken-relationships-zagreb-2",
+    "title": "Inside Zagreb's Museum of Broken Relationships",
+    "alt": "Small personal objects displayed on white plinths inside Zagreb's Museum of Broken Relationships",
+    "rationale": "The room view explains the ordinary-object exhibition format without centring a private letter or a sensational story. Light walls and readable spatial structure work in both desktop and mobile crops.",
+    "depiction": "An earlier museum interior, not a list of objects guaranteed to remain on display. Personal narratives are not transcribed from the photograph.",
+    "id": "museum-broken-relationships-zagreb-2",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Zagreb_%27s_Museum_of_Broken_Relationships_fourth_room.jpg/1920px-Zagreb_%27s_Museum_of_Broken_Relationships_fourth_room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "metadata": {
+      "title": "File:Zagreb 's Museum of Broken Relationships fourth room.jpg",
+      "size": 951725,
+      "width": 2048,
+      "height": 1536,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Zagreb_%27s_Museum_of_Broken_Relationships_fourth_room.jpg/1920px-Zagreb_%27s_Museum_of_Broken_Relationships_fourth_room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1920,
+      "thumbheight": 1440,
+      "responsiveUrls": {
+        "2": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Zagreb_%27s_Museum_of_Broken_Relationships_fourth_room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Zagreb_%27s_Museum_of_Broken_Relationships_fourth_room.jpg/1920px-Zagreb_%27s_Museum_of_Broken_Relationships_fourth_room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1440,
+        "srcset": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Zagreb_%27s_Museum_of_Broken_Relationships_fourth_room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Zagreb_%27s_Museum_of_Broken_Relationships_fourth_room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Zagreb_%27s_Museum_of_Broken_Relationships_fourth_room.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=26450404",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-06-02 07:54:19",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Zagreb 's Museum of Broken Relationships fourth room",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Museum of Broken Relationships|Self-published work|Interiors of museums in Croatia|Files with coordinates missing SDC location of creation|Taken with Samsung GT-N7100|Croatia photographs taken on 2013-05-01|Building interiors in Zagreb",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "45.815000",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "15.973611",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Zagreb 's Museum of Broken Relationships : fourth room of the exhibition",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2013-05-01 10:11:49",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Prosopee\" title=\"User:Prosopee\">Prosopee</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:Zagreb_%27s_Museum_of_Broken_Relationships_fourth_room.jpg",
+    "width": 1920,
+    "height": 1440
+  },
+  {
+    "guideId": "lyon-miniature-interiors",
+    "candidate": "lyon-miniature-3",
+    "photographer": "Musée Cinéma et Miniature",
+    "title": "A miniature chair reveals the scale of a room",
+    "alt": "A gloved hand holds a tiny chair in front of a detailed miniature interior at Lyon's museum",
+    "rationale": "The gloved hand makes the model's scale immediately legible and connects directly to the guide's way of looking. This is a real museum collection photograph from its official gallery, not a generated room or film still.",
+    "depiction": "Official miniature-collection photograph. Individual photographer and model attribution are not supplied with this gallery image, so neither is invented. It does not mean visitors may touch the exhibits.",
+    "id": "lyon-miniature-3",
+    "url": "https://expositions.museeminiatureetcinema.fr/_astro/gallery-04_ykkgze_21bBqV.png",
+    "source": "https://expositions.museeminiatureetcinema.fr/en/",
+    "width": 1800,
+    "height": 1272
+  },
+  {
+    "guideId": "boulogne-albert-kahn-gardens",
+    "candidate": "albert-kahn-garden-1",
+    "title": "A bridge in the Albert Kahn garden",
+    "alt": "A red garden bridge crosses water among dense green planting in the Albert Kahn garden",
+    "rationale": "The documented garden location and contrast between bridge, water and planting support the landscape-transition guide. The image is not labelled as an October or winter condition.",
+    "depiction": "One Japanese-inspired garden scene at Musée Albert-Kahn, not a current seasonal view or a guarantee that this path is open.",
+    "id": "albert-kahn-garden-1",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Jardin_Albert_Kahn_Pont_Japonais.JPG/1920px-Jardin_Albert_Kahn_Pont_Japonais.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "metadata": {
+      "title": "File:Jardin Albert Kahn Pont Japonais.JPG",
+      "size": 4662481,
+      "width": 4000,
+      "height": 3000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Jardin_Albert_Kahn_Pont_Japonais.JPG/1920px-Jardin_Albert_Kahn_Pont_Japonais.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1920,
+      "thumbheight": 1440,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Jardin_Albert_Kahn_Pont_Japonais.JPG/3840px-Jardin_Albert_Kahn_Pont_Japonais.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Jardin_Albert_Kahn_Pont_Japonais.JPG/1920px-Jardin_Albert_Kahn_Pont_Japonais.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1440,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Jardin_Albert_Kahn_Pont_Japonais.JPG/3840px-Jardin_Albert_Kahn_Pont_Japonais.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Jardin_Albert_Kahn_Pont_Japonais.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Jardin_Albert_Kahn_Pont_Japonais.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=12823443",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2011-01-27 18:31:15",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Jardin Albert Kahn Pont Japonais",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon PowerShot SX200 IS|CC-Zero|Self-published work|Japanese garden of the musée départemental Albert-Kahn",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Garden Albert Kahn Japanese Bridge - Paris",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2010-05",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Dinkum",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:Jardin_Albert_Kahn_Pont_Japonais.JPG",
+    "width": 1920,
+    "height": 1440
+  },
+  {
+    "guideId": "dublin-iveagh-gardens-pause",
+    "candidate": "iveagh-gardens-2",
+    "title": "A quiet view inside Iveagh Gardens",
+    "alt": "A green lawn and intersecting paths surround a garden statue under trees in Dublin's Iveagh Gardens",
+    "rationale": "A wide documentary view of the actual public garden offers visual room and identifiable landscape context. It supports a self-paced pause without inventing a secluded private retreat.",
+    "depiction": "Iveagh Gardens in an earlier season, not proof of today's foliage, event setup or crowd level.",
+    "id": "iveagh-gardens-2",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Iveagh_Gardens%2C_Dublin_City_Park.jpg/1920px-Iveagh_Gardens%2C_Dublin_City_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "metadata": {
+      "title": "File:Iveagh Gardens, Dublin City Park.jpg",
+      "size": 3421616,
+      "width": 5805,
+      "height": 3870,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Iveagh_Gardens%2C_Dublin_City_Park.jpg/1920px-Iveagh_Gardens%2C_Dublin_City_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1920,
+      "thumbheight": 1280,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Iveagh_Gardens%2C_Dublin_City_Park.jpg/3840px-Iveagh_Gardens%2C_Dublin_City_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Iveagh_Gardens%2C_Dublin_City_Park.jpg/1920px-Iveagh_Gardens%2C_Dublin_City_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1280,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Iveagh_Gardens%2C_Dublin_City_Park.jpg/3840px-Iveagh_Gardens%2C_Dublin_City_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Iveagh_Gardens%2C_Dublin_City_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Iveagh_Gardens,_Dublin_City_Park.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=86967283",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2020-02-12 18:09:28",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Iveagh Gardens, Dublin City Park",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Images from Wiki Loves Folklore 2020 in Ireland|Iveagh Gardens|Self-published work|Images from Wiki Loves Folklore 2020|Uploaded via Campaign:wllove",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<table cellspacing=\"0\" style=\"width:600px; text-align:start; color:#000; background:#ddd; border:1px solid #bbb; margin:1px;\" lang=\"en\" dir=\"ltr\" class=\"layouttemplate\">\n<tbody><tr>\n<td style=\"width:22px; height:22px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Wiki-Loves-Love-logo.svg\" class=\"mw-file-description\" title=\"Logo Wiki Loves Love\"><img alt=\"Logo Wiki Loves Love\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Wiki-Loves-Love-logo.svg/40px-Wiki-Loves-Love-logo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"22\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Wiki-Loves-Love-logo.svg/60px-Wiki-Loves-Love-logo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1024\" data-file-height=\"1024\"></a></span>\n</td>\n<td style=\"padding:1pt; line-height:1.1em;\">This photo has been taken in the country: <b>Ireland</b>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2019-01-15 03:21:53",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Oliver_Gargan&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Oliver Gargan (page does not exist)\">Oliver Gargan</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:Iveagh_Gardens,_Dublin_City_Park.jpg",
+    "width": 1920,
+    "height": 1280
+  },
+  {
+    "guideId": "nacka-hellasgarden-sauna",
+    "candidate": "hellasg-rden-1",
+    "title": "Hellasgården recreation centre",
+    "alt": "Low wooden buildings at Hellasgården stand beside a path and autumn-coloured trees in Nacka",
+    "rationale": "The documented recreation-centre setting is clear and inviting without photographing bathers. It is honestly used as exterior context, not mislabelled as the sauna interior or a verified reopening image.",
+    "depiction": "Exterior of the Hellasgården recreation centre. The photograph does not establish the sauna's current operation, interior or lake safety.",
+    "id": "hellasg-rden-1",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Hellasg%C3%A5rden.jpg/1920px-Hellasg%C3%A5rden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "metadata": {
+      "title": "File:Hellasgården.jpg",
+      "size": 5437280,
+      "width": 4000,
+      "height": 2500,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Hellasg%C3%A5rden.jpg/1920px-Hellasg%C3%A5rden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1920,
+      "thumbheight": 1200,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Hellasg%C3%A5rden.jpg/3840px-Hellasg%C3%A5rden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Hellasg%C3%A5rden.jpg/1920px-Hellasg%C3%A5rden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1200,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Hellasg%C3%A5rden.jpg/3840px-Hellasg%C3%A5rden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Hellasg%C3%A5rden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hellasg%C3%A5rden.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=42819555",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-09-01 10:48:33",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Hellasgården",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Nikon D7100|Hellasgården|Taken with AF-S DX Nikkor 16-85mm f/3.5-5.6G ED VR|Self-published work|Photos by Esquilo|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "59.289722",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "18.160833",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<a href=\"https://sv.wikipedia.org/wiki/Hellasg%C3%A5rden\" class=\"extiw\" title=\"sv:Hellasgården\">Hellasgården</a> i <a href=\"https://sv.wikipedia.org/wiki/Nacka_kommun\" class=\"extiw\" title=\"sv:Nacka kommun\">Nacka</a>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2014-10-11",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Esquilo\" title=\"User:Esquilo\">Esquilo</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "Johan Fredriksson, the copyright holder of this work, hereby publishes it under the following license:",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Johan Fredriksson",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:Hellasg%C3%A5rden.jpg",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "guideId": "london-wigmore-lunchtime",
+    "candidate": "wigmore-hall-interior-1",
+    "title": "Wigmore Hall auditorium",
+    "alt": "Rows of seats face the stage and painted apse inside London's Wigmore Hall auditorium",
+    "rationale": "The recognisable concert room is shown clearly from an audience perspective. Unlike the foyer and restaurant alternatives, it directly supports the listening experience without implying a particular artist is appearing.",
+    "depiction": "The auditorium between performances, not a ticketed view guarantee or documentation of an advertised 2026 concert.",
+    "id": "wigmore-hall-interior-1",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Auditorium_-_Wigmore_Hall_-_geograph.org.uk_-_3763920.jpg/1920px-Auditorium_-_Wigmore_Hall_-_geograph.org.uk_-_3763920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "metadata": {
+      "title": "File:Auditorium - Wigmore Hall - geograph.org.uk - 3763920.jpg",
+      "size": 3038354,
+      "width": 3781,
+      "height": 2766,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Auditorium_-_Wigmore_Hall_-_geograph.org.uk_-_3763920.jpg/1920px-Auditorium_-_Wigmore_Hall_-_geograph.org.uk_-_3763920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1920,
+      "thumbheight": 1405,
+      "responsiveUrls": {
+        "2": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Auditorium_-_Wigmore_Hall_-_geograph.org.uk_-_3763920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Auditorium_-_Wigmore_Hall_-_geograph.org.uk_-_3763920.jpg/1920px-Auditorium_-_Wigmore_Hall_-_geograph.org.uk_-_3763920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1405,
+        "srcset": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Auditorium_-_Wigmore_Hall_-_geograph.org.uk_-_3763920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Auditorium_-_Wigmore_Hall_-_geograph.org.uk_-_3763920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Auditorium_-_Wigmore_Hall_-_geograph.org.uk_-_3763920.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=122673131",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-09-05 10:04:25",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Auditorium - Wigmore Hall - geograph.org.uk - 3763920",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Images from Geograph Britain and Ireland|Wigmore Hall|Building interiors in the City of Westminster|Photographs of London by Anthony O'Neil",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "51.516715",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-0.148299",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Auditorium - Wigmore Hall <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Auditorium_-_Wigmore_Hall_-_geograph.org.uk_-_3763920.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2013-11-28",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/photo/3763920\">Geograph Britain and Ireland</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Auditorium_-_Wigmore_Hall_-_geograph.org.uk_-_3763920.jpg#P7482\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/41966\">Anthony O'Neil</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Auditorium_-_Wigmore_Hall_-_geograph.org.uk_-_3763920.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "<i>Auditorium - Wigmore Hall</i> by Anthony O'Neil",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:Auditorium_-_Wigmore_Hall_-_geograph.org.uk_-_3763920.jpg",
+    "width": 1920,
+    "height": 1405
+  },
+  {
+    "guideId": "vienna-staatsoper-standing",
+    "candidate": "vienna-state-opera-auditorium-0",
+    "title": "Vienna State Opera auditorium",
+    "alt": "The red-seated auditorium and tiers of boxes inside the Vienna State Opera seen from above",
+    "rationale": "The full auditorium conveys the working performance space and its scale. The caption explicitly distinguishes architectural context from the view offered by a standing-room ticket.",
+    "depiction": "Jorge Royan's auditorium photograph, not a view promised from any standing position or the set of the reader's chosen production.",
+    "id": "vienna-state-opera-auditorium-0",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Vienna_-_Vienna_Opera_main_auditorium_-_9750.jpg/1920px-Vienna_-_Vienna_Opera_main_auditorium_-_9750.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "metadata": {
+      "title": "File:Vienna - Vienna Opera main auditorium - 9750.jpg",
+      "size": 4401721,
+      "width": 4368,
+      "height": 2912,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Vienna_-_Vienna_Opera_main_auditorium_-_9750.jpg/1920px-Vienna_-_Vienna_Opera_main_auditorium_-_9750.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1920,
+      "thumbheight": 1280,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Vienna_-_Vienna_Opera_main_auditorium_-_9750.jpg/3840px-Vienna_-_Vienna_Opera_main_auditorium_-_9750.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Vienna_-_Vienna_Opera_main_auditorium_-_9750.jpg/1920px-Vienna_-_Vienna_Opera_main_auditorium_-_9750.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1280,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Vienna_-_Vienna_Opera_main_auditorium_-_9750.jpg/3840px-Vienna_-_Vienna_Opera_main_auditorium_-_9750.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Vienna_-_Vienna_Opera_main_auditorium_-_9750.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vienna_-_Vienna_Opera_main_auditorium_-_9750.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=23405955",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-09-24 15:07:24",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Vienna - Vienna Opera main auditorium - 9750",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 5D|Seats of theaters|Self-published work|Information field template with formatting|Electric chandeliers in Austria|Photos of Austria by User:jorgeroyan|Auditorium of the Vienna State Opera|Chandeliers in opera houses",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Vienna Opera main auditorium, Vienna, Austria",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2007",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Jorge Royan",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "I, the copyright holder of this work, hereby publish it under the following license:",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "© Jorge Royan / <a rel=\"nofollow\" class=\"external free\" href=\"http://www.royan.com.ar\">http://www.royan.com.ar</a>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:Vienna_-_Vienna_Opera_main_auditorium_-_9750.jpg",
+    "width": 1920,
+    "height": 1280
+  },
+  {
+    "guideId": "sydney-utzon-chamber-music",
+    "candidate": "utzon-room-0",
+    "photographer": "Brian Voon Yee Yap / Wikimedia Commons",
+    "title": "Inside the Utzon Room",
+    "alt": "Visitors stand inside the Utzon Room beside its colourful tapestry and timber-lined ceiling",
+    "rationale": "The licensed photograph documents the actual smaller room, not the main concert hall or a generic Opera House exterior. It remains a useful architectural view at its native resolution without fabricated enlargement.",
+    "depiction": "An earlier architectural view of the Utzon Room without concert seating. It is not a photograph of the current Utzon Music programme or a guaranteed seat view.",
+    "id": "utzon-room-0",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/AUS_NSW_Opera_House_DSC05119.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "metadata": {
+      "title": "File:AUS NSW Opera House DSC05119.jpg",
+      "size": 259193,
+      "width": 1024,
+      "height": 768,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/AUS_NSW_Opera_House_DSC05119.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 1920,
+      "thumbheight": 1440,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/AUS_NSW_Opera_House_DSC05119.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1920,
+        "height": 1440
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/AUS_NSW_Opera_House_DSC05119.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:AUS_NSW_Opera_House_DSC05119.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=2167944",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2007-05-28 10:25:10",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "AUS NSW Opera House DSC05119",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|License migration completed|Self-published work|Sydney Opera House interior|Sydney Opera House structural detail|FoP-Australia",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Utzon Room, Sydney Opera House, Australia.",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "Originally uploaded to the English Wikipedia. Information about the author copied from a copy uploaded to the Japanese Wiki with the same name. <a class=\"external autonumber\" data-mw-original-href=\"http://ja.wikipedia.org/wiki/%E7%94%BB%E5%83%8F:AUS_NSW_Opera_House_DSC05119.jpg\" href=\"https://ja.wikipedia.org/wiki/%E7%94%BB%E5%83%8F:AUS_NSW_Opera_House_DSC05119.jpg\">[1]</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Photo taken and supplied by Brian Voon Yee Yap.",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "This reproduction is permitted under the <a rel=\"nofollow\" class=\"external text\" href=\"http://www.austlii.edu.au/au/legis/cth/consol_act/ca1968133/#s65\">Australian Copyright Act, sections 65–68</a>, which state (emphasis added):\n<ul><li><a rel=\"nofollow\" class=\"external text\" href=\"http://www.austlii.edu.au/au/legis/cth/consol_act/ca1968133/s65.html\">(65)</a> (1) This section applies to <b>sculptures</b> and to <b>works of artistic craftsmanship</b> of the kind referred to in <a rel=\"nofollow\" class=\"external text\" href=\"http://www8.austlii.edu.au/cgi-bin/viewdoc/au/legis/cth/consol_act/ca1968133/s10.html#artistic_work\">paragraph (c) of the definition of artistic work in section 10</a>. (2) The copyright in a work to which this section applies that is <b>situated, otherwise than temporarily, in a public place, or in premises open to the public</b>, is not infringed by the making of a painting, drawing, engraving or photograph of the work or by the inclusion of the work in a cinematograph film or in a television broadcast.</li>\n<li><a rel=\"nofollow\" class=\"external text\" href=\"http://www.austlii.edu.au/au/legis/cth/consol_act/ca1968133/s66.html\">(66)</a> The copyright in a <b>building or a model of a building</b> is not infringed by the making of a [reproduction].</li>\n<li><a rel=\"nofollow\" class=\"external text\" href=\"http://www.austlii.edu.au/au/legis/cth/consol_act/ca1968133/s68.html\">(68)</a> The copyright in an <b>artistic work</b> is not infringed by the publication of a [reproduction] if, by virtue of section 65, section 66 or section 67, the making of […] did not constitute an infringement of the copyright.</li></ul>\nThis freedom applies to two-dimensional works <i>only</i> if they are considered \"artistic works.\" See <a href=\"//commons.wikimedia.org/wiki/Commons:CRT/Australia#FOP\" class=\"mw-redirect\" title=\"Commons:CRT/Australia\">COM:CRT/Australia#FOP</a> for more information.",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "source": "https://commons.wikimedia.org/wiki/File:AUS_NSW_Opera_House_DSC05119.jpg",
+    "width": 1024,
+    "height": 768
+  }
+]

@@ -1,0 +1,258 @@
+{
+  "qaFollowup": "Initial image checks stalled for two existing Athens photographs. Both originals remained intact. Restarting the local production process restored optimized delivery (200, WebP). Final browser audit rerun on the final build. No existing photographs were replaced to hide the problem.",
+  "edition": "2026-10-21",
+  "batch": 54,
+  "trigger": "Manual user request: jos 18",
+  "netNewGuides": 18,
+  "primaryAllocations": {
+    "eat-drink": 3,
+    "make-learn": 3,
+    "move-water": 3,
+    "explore-reflect": 3,
+    "swim-reset": 3,
+    "shared-rituals": 3
+  },
+  "catalogue": {
+    "authoredBefore": 406,
+    "authoredAfter": 424,
+    "eligibleBefore": 392,
+    "eligibleAfter": 410,
+    "expiredRetainedAndGated": 14,
+    "countries": 110,
+    "newCountries": [],
+    "batchCountries": 14,
+    "batchPlaces": 17
+  },
+  "release": {
+    "date": "2026-10-21",
+    "guides": 108,
+    "passes": 6,
+    "duplicateDateEntries": false
+  },
+  "method": "Existing catalogue, prior rejections and git history checked before research. Original public-source desk guides, not on-site reviews, EA Selected, partnerships or bookings. No third-party permission request or contact sent.",
+  "sources": {
+    "checkedOn": "2026-10-21",
+    "uniqueUrls": 56,
+    "exceptions": [
+      {
+        "url": "https://albert-kahn.hauts-de-seine.fr/en/visit/useful-information",
+        "status": null,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://albert-kahn.hauts-de-seine.fr/les-collections/presentation/jardin",
+        "status": null,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      }
+    ],
+    "importantBoundaries": [
+      "Hellasgården announces sauna maintenance 26 to 28 October. Conflicting August text is not treated as an alternative reopening date. Summary warns readers to confirm.",
+      "Henderson Waves is not declared closed. A separate park footpath has works expected through March 2028, and part of Forest Walk lacks lighting during works. No uninterrupted Southern Ridges route promised.",
+      "Khmer Ceramics current product offers five wheel attempts, one fired piece next day after 18:00 and no included hotel transfers. Current River Road venue used.",
+      "Kotsanas objects are modern reconstructions, not intact ancient machines.",
+      "Albert-Kahn annual January closure means its guide is not used as a January Daily Discovery visit recommendation.",
+      "Wigmore web access restrictions were not bypassed. Official 2026/27 PDFs and a dated YCAT recital establish current programming, not live ticket inventory.",
+      "Vienna uses the current 435-standing-place and 10:00 day-of sales information, not obsolete queue advice or cardholder-only prices.",
+      "Stani is the actual Athens dairy shop. Legacy official health claims are not reproduced.",
+      "Utzon Music is a series of dated events. The January discovery is a planning prompt, not a concert advertised for that day."
+    ]
+  },
+  "photographs": {
+    "count": 18,
+    "documentedLicense": 14,
+    "officialSourceNotIndependentlyCleared": 4,
+    "aiGenerated": 0,
+    "credit": "Image: author / source ↗",
+    "rightsNote": "Four official-source photographs use the existing moderate-risk editorial policy, not a claim of permission. Credit does not clear rights. Individually unnamed photographers are not invented.",
+    "contextOnly": [
+      "tipoRenesansa exterior rather than a workshop in progress",
+      "Hellasgården buildings rather than bathers or sauna interior",
+      "Vienna auditorium rather than a promised standing-place view",
+      "Utzon Room architecture rather than the current concert or seating plan"
+    ],
+    "excluded": [
+      "This is Athens Stani photograph: terms require written permission and image depicts a different dessert.",
+      "Commons Stani search result: unrelated US business, not the Athens shop.",
+      "Scaturchio cream-topped pastry alternatives: not the riccia described in the comparison.",
+      "Nantes detail-only and obstructed images: weak explanation of the full mechanical elephant.",
+      "Sydney current concert image: selected the documented licensed room photograph instead of an uncleared named-performer photo.",
+      "Lyon generic or confusing collection views: selected the actual model-and-hand photograph that makes scale readable."
+    ]
+  },
+  "connections": {
+    "newChapter": "Athens",
+    "authoredChapters": 44,
+    "eligibleChapters": 43,
+    "collections": 7,
+    "dailyDiscoveriesAdded": 6,
+    "dailyDiscoveriesTotal": 121,
+    "newDailyDateRange": [
+      "2027-01-06",
+      "2027-01-11"
+    ],
+    "note": "Two contrasting Athens stops, independently planned. Other guides enter existing related-place and collection logic. No invented transfers or joint tickets."
+  },
+  "rejectedCandidates": [
+    {
+      "name": "Previously covered programme variants",
+      "reason": "Exact IDs, slugs and access programmes checked against 406 existing authored records. No existing experience re-counted under a new title."
+    },
+    {
+      "name": "January visit promises for seasonal or scheduled venues",
+      "reason": "No unverified opening or performance is asserted. Daily prompts explicitly require a confirmed operating/event date."
+    }
+  ],
+  "guidesByArea": {
+    "eat-drink": [
+      {
+        "title": "Unwrap Salzburg one chocolate layer at a time",
+        "place": "Salzburg",
+        "url": "https://experienceauthority.com/experiences/unwrap-salzburg-one-chocolate-layer-at-a-time",
+        "eaValue": "A souvenir can tell you more when you taste its construction before carrying its name home."
+      },
+      {
+        "title": "Compare the two shells of Naples' sfogliatella",
+        "place": "Naples",
+        "url": "https://experienceauthority.com/experiences/compare-the-two-shells-of-naples-sfogliatella",
+        "eaValue": "Two versions of a familiar pastry can teach you how much of a food's identity is carried by texture."
+      },
+      {
+        "title": "Begin an Athens morning with yoghurt at Stani",
+        "place": "Athens, Omonia",
+        "url": "https://experienceauthority.com/experiences/begin-an-athens-morning-with-yoghurt-at-stani",
+        "eaValue": "A city can become more particular through the ordinary breakfast it makes room for."
+      }
+    ],
+    "make-learn": [
+      {
+        "title": "Print Ljubljana's alphabet one impression at a time",
+        "place": "Ljubljana",
+        "url": "https://experienceauthority.com/experiences/print-ljubljanas-alphabet-one-impression-at-a-time",
+        "eaValue": "Letters become small pieces of physical design before they become something to read."
+      },
+      {
+        "title": "Centre the clay before carving it in Siem Reap",
+        "place": "Siem Reap",
+        "url": "https://experienceauthority.com/experiences/centre-the-clay-before-carving-it-in-siem-reap",
+        "eaValue": "An ornament becomes easier to appreciate once you have had to place a line on an uneven surface yourself."
+      },
+      {
+        "title": "Follow a fibre into paper in Mae Rim",
+        "place": "Mae Rim, Chiang Mai area",
+        "url": "https://experienceauthority.com/experiences/follow-a-fibre-into-paper-in-mae-rim",
+        "eaValue": "Waste can become a more precise question when you follow the actual process rather than stop at an eco label."
+      }
+    ],
+    "move-water": [
+      {
+        "title": "Ride a moving piece of Nantes' shipyard imagination",
+        "place": "Nantes, Île de Nantes",
+        "url": "https://experienceauthority.com/experiences/ride-a-moving-piece-of-nantes-shipyard-imagination",
+        "eaValue": "A familiar animal shape becomes a way to see engineering as movement rather than a static exhibit."
+      },
+      {
+        "title": "Make the river part of your Rotterdam route",
+        "place": "Rotterdam",
+        "url": "https://experienceauthority.com/experiences/make-the-river-part-of-your-rotterdam-route",
+        "eaValue": "A river stops being the backdrop to a city when it becomes the route between your next two stops."
+      },
+      {
+        "title": "Walk the ribs of Singapore's Henderson Waves",
+        "place": "Singapore, Southern Ridges",
+        "url": "https://experienceauthority.com/experiences/walk-the-ribs-of-singapores-henderson-waves",
+        "eaValue": "A bridge can do more than get you across when its structure gives you places to stop."
+      }
+    ],
+    "explore-reflect": [
+      {
+        "title": "Follow an ancient idea through its gears in Athens",
+        "place": "Athens, Kolonaki",
+        "url": "https://experienceauthority.com/experiences/follow-an-ancient-idea-through-its-gears-in-athens",
+        "eaValue": "An invention becomes more legible when you can trace what each part contributes instead of memorising its name."
+      },
+      {
+        "title": "Let an ordinary object tell its story in Zagreb",
+        "place": "Zagreb, Upper Town",
+        "url": "https://experienceauthority.com/experiences/let-an-ordinary-object-tell-its-story-in-zagreb",
+        "eaValue": "An unremarkable thing can become difficult to forget once you know what somebody attached to it."
+      },
+      {
+        "title": "Look for a whole room in a Lyon miniature",
+        "place": "Lyon, Vieux Lyon",
+        "url": "https://experienceauthority.com/experiences/look-for-a-whole-room-in-a-lyon-miniature",
+        "eaValue": "Realism becomes a collection of deliberate choices rather than a trick you either believe or dismiss."
+      }
+    ],
+    "swim-reset": [
+      {
+        "title": "Change landscapes without leaving Albert Kahn's garden",
+        "place": "Boulogne-Billancourt, Paris area",
+        "url": "https://experienceauthority.com/experiences/change-landscapes-without-leaving-albert-kahns-garden",
+        "eaValue": "You can become more attentive to a place by noticing where its atmosphere changes, not only where its landmarks stand."
+      },
+      {
+        "title": "Leave a little of Dublin unplanned in Iveagh Gardens",
+        "place": "Dublin",
+        "url": "https://experienceauthority.com/experiences/leave-a-little-of-dublin-unplanned-in-iveagh-gardens",
+        "eaValue": "A pause can be a deliberate part of a journey rather than the empty space between more important plans."
+      },
+      {
+        "title": "Give a Stockholm day a sauna pause at Hellasgården",
+        "place": "Hellasgården, Nacka, Stockholm area",
+        "url": "https://experienceauthority.com/experiences/give-a-stockholm-day-a-sauna-pause-at-hellasgarden",
+        "eaValue": "A memorable pause can be modest and shared, without needing a treatment menu or a physical challenge."
+      }
+    ],
+    "shared-rituals": [
+      {
+        "title": "Give London's lunch hour to live chamber music",
+        "place": "London, Marylebone",
+        "url": "https://experienceauthority.com/experiences/give-londons-lunch-hour-to-live-chamber-music",
+        "eaValue": "Live music can belong in the middle of an ordinary day rather than require an entire formal evening."
+      },
+      {
+        "title": "Join Vienna's opera audience from a standing place",
+        "place": "Vienna",
+        "url": "https://experienceauthority.com/experiences/join-viennas-opera-audience-from-a-standing-place",
+        "eaValue": "A landmark becomes more than a façade when you give time to the activity it was built to hold."
+      },
+      {
+        "title": "Hear Sydney's Opera House at a more intimate scale",
+        "place": "Sydney, Bennelong Point",
+        "url": "https://experienceauthority.com/experiences/hear-sydneys-opera-house-at-a-more-intimate-scale",
+        "eaValue": "An internationally familiar building can still contain a form of attention you did not expect from its exterior."
+      }
+    ]
+  },
+  "qa": {
+    "tests": {
+      "passed": 146,
+      "failed": 0
+    },
+    "typescript": "passed",
+    "productionBuild": "passed",
+    "browser": {
+      "checked": 120,
+      "failures": [],
+      "viewports": [
+        390,
+        1440
+      ],
+      "checks": "All new guides, relevant destinations, fields, collections and core surfaces. Image loading, overflow, credits, canonicals, sourced Article and ImageObject schema, denied analytics consent, runtime and automated WCAG checks. Screenshots visually inspected."
+    },
+    "interaction": "14 checks across desktop and mobile: Athens country/city filtering, image enlargement and focus restoration, Passport saving, planning persistence, keyboard skip link and analytics consent gate.",
+    "smoke": {
+      "checkedPages": 797,
+      "unpublishedPaths": 30,
+      "uniqueNonces": 778,
+      "indexing": "public pages indexable; utilities, filters and empty fields excluded",
+      "crawlerRules": "passed",
+      "socialImage": "passed",
+      "failures": []
+    },
+    "localProductionProof": "18 new guide URLs, original photograph hashes, optimized WebP, sources, canonicals, schema, sitemap and 14 expired-guide exclusions verified.",
+    "publicDeployment": "Awaiting commit and public deployment. Final deployment evidence is recorded separately after verifying the public site."
+  }
+}
