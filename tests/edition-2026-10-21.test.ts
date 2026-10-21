@@ -160,6 +160,14 @@ test("new visitor roles and current operating constraints stay explicit", () => 
   );
   assert.match(byId("kyoto-funaoka-sento").responsibility, /Tuesday closure/);
   assert.match(
+    byId("kyoto-funaoka-sento").rootedness,
+    /dates its beginnings to 1923/,
+  );
+  assert.doesNotMatch(
+    byId("kyoto-funaoka-sento").rootedness,
+    /building dates from 1923/,
+  );
+  assert.match(
     byId("kyoto-funaoka-sento").responsibility,
     /translated summaries differ/,
   );

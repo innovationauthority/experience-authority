@@ -617,7 +617,7 @@ export const guideBatch49: PublicExperience[] = [
     kernel:
       "Check the current opening arrangement, remove your shoes and follow the bathhouse's entry instructions. Wash before using the shared tubs and choose a comfortable, short soak rather than trying every facility. The building's decorative detail can enter your attention without becoming a photography task. Afterwards, leave time to cool down before returning to the street.",
     rootedness:
-      "Funaoka's building dates from 1923 and is documented by Kyoto's tourism office as registered cultural heritage. It also remains a public bath used by people with their own routines. The name Onsen does not establish a natural hot-spring, medical or therapeutic claim. A sentō visit is different from a private spa appointment or a tour of the bathing rooms.",
+      "Funaoka dates its beginnings to 1923. Kyoto's tourism office documents its historic bathing and changing-room buildings as registered cultural heritage. It also remains a public bath used by people with their own routines. The name Onsen does not establish a natural hot-spring, medical or therapeutic claim. A sentō visit is different from a private spa appointment or a tour of the bathing rooms.",
     shift:
       "Kyoto's heritage becomes a setting for an ordinary shared practice, not only something viewed from outside.",
     humanReturn:
@@ -648,7 +648,7 @@ export const guideBatch49: PublicExperience[] = [
         {
           title: "Kyoto City Tourism: Funaoka Onsen",
           url: "https://ja.kyoto.travel/tourism/single01.php?category_id=2&tourism_id=2483",
-          note: "1923 building and registered cultural-heritage context, not current operating hours.",
+          note: "1923 founding and registered cultural-heritage context, not a construction date for every present building or current operating hours.",
         },
       ],
       "2026-11-21",

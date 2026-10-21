@@ -168,8 +168,23 @@
       "expiredGuidesExcluded": 14
     },
     "gitDiffCheck": "Passed",
-    "production": "Pending explicit commit, push, Vercel success and separate live proof. Final confirmation is recorded outside this pre-deploy report.",
-    "visualReview": "All eighteen new guide openings inspected at mobile and desktop sizes, plus Home, New and Today. Full-page screenshots retained in the local QA output."
+    "production": "Initial production fully verified as recorded above. The wording-only Funaoka precision is a follow-up commit. Exact final Vercel status and post-deploy checks are retained in work/ea-2026-10-21-final-production-verification.json.",
+    "visualReview": "All eighteen new guide openings inspected at mobile and desktop sizes, plus Home, New and Today. Full-page screenshots retained in the local QA output.",
+    "initialProduction": {
+      "commit": "2955f2a8c31eedb76ff3dfa79c377bd57fdc16e3",
+      "vercel": "https://vercel.com/sspasic/experience-authority/FCzW8m4XdUr3coeoRKGm19P5YJ2x",
+      "status": "success",
+      "guideProof": 18,
+      "imageSha256Matches": 18,
+      "optimizedWebp": 18,
+      "routeChecks": 684,
+      "unpublishedPaths": 32,
+      "uniqueNonces": 663,
+      "browserViewportChecks": 118,
+      "interactionChecks": 14,
+      "failures": 0
+    },
+    "finalSourcePrecision": "The final reread distinguishes Funaoka's 1923 founding from a construction date for all its present heritage buildings. Two source-precision assertions were added. All 116 tests, TypeScript and the production build were repeated successfully after this wording-only correction."
   },
   "guides": [
     {
