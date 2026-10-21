@@ -1,4 +1,112 @@
 {
+  "/experiences/compare-brussels-and-liege-one-waffle-at-a-time": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "belgium",
+    "regionSlug": "brussels"
+  },
+  "/experiences/give-buenos-aires-an-afternoon-at-las-violetas": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "argentina",
+    "regionSlug": "buenos-aires"
+  },
+  "/experiences/let-nang-loeng-choose-a-bangkok-lunch": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "thailand",
+    "regionSlug": "bangkok"
+  },
+  "/experiences/paint-a-lisbon-tile-and-collect-it-after-firing": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "portugal",
+    "regionSlug": "lisbon"
+  },
+  "/experiences/make-a-brussels-chocolate-with-your-own-balance-of-flavours": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "belgium",
+    "regionSlug": "brussels"
+  },
+  "/experiences/paint-the-inside-of-a-tokyo-wind-chime": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "japan",
+    "regionSlug": "tokyo"
+  },
+  "/experiences/let-bangkok-unfold-between-the-river-piers": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "thailand",
+    "regionSlug": "bangkok"
+  },
+  "/experiences/read-lake-lucerne-from-a-working-passenger-boat": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "switzerland",
+    "regionSlug": "lucerne"
+  },
+  "/experiences/follow-kyotos-river-gorge-by-slow-train": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-11-21",
+    "countrySlug": "japan",
+    "regionSlug": "kyoto"
+  },
+  "/experiences/find-the-silk-behind-valencias-streets": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "spain",
+    "regionSlug": "valencia"
+  },
+  "/experiences/read-stockholm-through-a-collectors-house": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-19",
+    "countrySlug": "sweden",
+    "regionSlug": "stockholm"
+  },
+  "/experiences/climb-a-buenos-aires-building-written-like-a-poem": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-11-21",
+    "countrySlug": "argentina",
+    "regionSlug": "buenos-aires"
+  },
+  "/experiences/slow-tokyo-to-the-distance-between-garden-stones": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-19",
+    "countrySlug": "japan",
+    "regionSlug": "tokyo"
+  },
+  "/experiences/meet-the-capes-plants-on-a-gentler-city-walk": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "south-africa",
+    "regionSlug": "cape-town"
+  },
+  "/experiences/let-a-san-francisco-garden-change-your-pace": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-19",
+    "countrySlug": "united-states",
+    "regionSlug": "san-francisco"
+  },
+  "/experiences/learn-the-next-london-dance-from-the-caller": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-03",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "london"
+  },
+  "/experiences/find-your-first-swing-step-in-a-berlin-ballroom": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-11-24",
+    "countrySlug": "germany",
+    "regionSlug": "berlin"
+  },
+  "/experiences/follow-a-taipei-opera-through-gesture-and-song": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-11-14",
+    "countrySlug": "taiwan",
+    "regionSlug": "taipei"
+  },
   "/experiences/build-a-montreal-lunch-at-jean-talon-market": {
     "availableFrom": "2026-10-21",
     "reviewBy": "2026-12-21",

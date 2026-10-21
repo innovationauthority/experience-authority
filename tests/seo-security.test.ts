@@ -137,10 +137,10 @@ test("destination lists describe only visible guides and journal pages enter the
     "/places/japan/kyoto",
     [...local, hidden],
   )!;
-  assert.equal(data.mainEntity.numberOfItems, 9);
+  assert.equal(data.mainEntity.numberOfItems, 10);
   assert.deepEqual(
     data.mainEntity.itemListElement.map((item) => item.position),
-    [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
   );
   assert.ok(!JSON.stringify(data).includes("hidden"));
   assert.equal(

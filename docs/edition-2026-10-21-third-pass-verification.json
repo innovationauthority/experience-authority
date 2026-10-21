@@ -1,0 +1,736 @@
+{
+  "edition": "2026-10-21",
+  "batch": 51,
+  "trigger": "Manual user request: jos 18",
+  "netNewGuides": 18,
+  "primaryAllocations": {
+    "Eat & drink": 3,
+    "Make": 3,
+    "Move": 3,
+    "Explore & reflect": 3,
+    "Reset": 3,
+    "Shared rituals": 3
+  },
+  "catalogue": {
+    "authoredBefore": 352,
+    "authoredAfter": 370,
+    "eligibleBefore": 338,
+    "eligibleAfter": 356,
+    "expiredRetainedAndGated": 14,
+    "countries": 109,
+    "batchCountries": 13,
+    "batchCities": 14
+  },
+  "release": {
+    "date": "2026-10-21",
+    "guides": 54,
+    "passes": 3,
+    "duplicateDateEntries": false
+  },
+  "method": "Existing catalogue, previous reports, research candidates and git history checked for duplicate venues, programmes and concepts. Original public-source desk guides, not EA visits, provider partnerships or local validation.",
+  "sources": {
+    "checkedOn": "2026-10-21",
+    "uniqueUrls": 56,
+    "exceptions": [],
+    "report": "work/ea-2026-10-21-third-pass-source-links.json"
+  },
+  "photography": {
+    "realPhotographs": 18,
+    "aiGenerated": 0,
+    "documentedCreativeCommons": 13,
+    "officialModerateRisk": 5,
+    "note": "Five official images have no independently obtained reproduction permission. Credits do not grant permission. Explicitly restricted photographs were rejected. Context and historical dates disclosed.",
+    "imageEdition": "71680662dc49",
+    "provenance": "docs/edition-2026-10-21-third-pass-photo-provenance.json",
+    "records": [
+      {
+        "guideId": "brussels-dandoy-waffles",
+        "source": "https://commons.wikimedia.org/wiki/File:Waffle_with_strawberry_and_icecream_(1431212608).jpg",
+        "photographer": "pelican from Tokyo, Japan",
+        "rightsBasis": "documented_license",
+        "licenseName": "CC BY-SA 2.0",
+        "depiction": "A waffle at Dandoy in September 2007. Current recipes, toppings, plates and branch interiors may differ. Resized and responsively cropped under the stated licence. No EA attendance, partnership or future conditions are implied."
+      },
+      {
+        "guideId": "buenos-aires-las-violetas-merienda",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_del_Caf%C3%A9_Las_Violetas.jpg",
+        "photographer": "Cadaverexquisito",
+        "rightsBasis": "documented_license",
+        "licenseName": "CC BY-SA 3.0",
+        "depiction": "Las Violetas at Rivadavia and Medrano, photographed in 2010. Staff, customers, table arrangements and menus are historical. Resized and responsively cropped under the stated licence. No EA attendance, partnership or future conditions are implied."
+      },
+      {
+        "guideId": "bangkok-nang-loeng-lunch",
+        "source": "https://www.flickr.com/photos/150596023@N08/51361933592/",
+        "photographer": "Streets of Food / www.streetsoffood.com",
+        "rightsBasis": "documented_license",
+        "licenseName": "CC BY 2.0",
+        "depiction": "A meal photographed at Nang Loeng Pork Curry & Stew Rice, published by Streets of Food in August 2021. Photo: Streets of Food, www.streetsoffood.com. It is one historical market serving, not a guaranteed menu, food-safety assessment or promise that every counter serves it. Resized and responsively cropped under CC BY 2.0. No EA attendance or provider partnership is implied."
+      },
+      {
+        "guideId": "lisbon-graca-tile-painting",
+        "source": "https://commons.wikimedia.org/wiki/File:Azulejos_Gra%C3%A7a_Lisboa_Portugal.jpg",
+        "photographer": "LightWord",
+        "rightsBasis": "documented_license",
+        "licenseName": "CC BY-SA 4.0",
+        "depiction": "Azulejos on a wall in Graça, Lisbon, photographed by LightWord on 8 November 2022. Neighbourhood context, not the Lisbon Tile Painting studio, a class photograph, a supplied template or a participant's result. The existing wall tiles are not for handling or removal. Resized and responsively cropped under CC BY-SA 4.0. No EA attendance or partnership is implied."
+      },
+      {
+        "guideId": "brussels-gerbaud-chocolate-workshop",
+        "source": "https://www.flickr.com/photos/miguel_discart/23804956771/",
+        "photographer": "Miguel Discart & Kiri Karma",
+        "rightsBasis": "documented_license",
+        "licenseName": "CC BY-SA 2.0",
+        "depiction": "Laurent Gerbaud Chocolatier's chocolate workshop on 14 November 2015, photographed by Miguel Discart & Kiri Karma. Historical process context, not a guarantee of the current instructor, ingredients, furniture or class size. Resized and responsively cropped under CC BY-SA 2.0. No EA attendance or partnership is implied."
+      },
+      {
+        "guideId": "tokyo-maruyoshi-furin",
+        "source": "https://www.edo-fuurin.com/en/workshopContents?name=0",
+        "photographer": "Shinohara Maruyoshi Fuurin. Individual photographer not named",
+        "rightsBasis": "official_source",
+        "licenseName": "Official source photograph. Reuse rights not independently cleared",
+        "depiction": "Shinohara Maruyoshi's workshop image. It illustrates painting prepared glass, not a glassblowing session or a guarantee of the pictured design. Reuse rights have not been independently cleared. Attribution is not permission. No EA attendance, partnership or future conditions are implied."
+      },
+      {
+        "guideId": "bangkok-chao-phraya-boat",
+        "source": "https://chaophrayatouristboat.com/tourist_boat",
+        "photographer": "Chao Phraya Tourist Boat. Individual photographer not named",
+        "rightsBasis": "official_source",
+        "licenseName": "Official source photograph. Reuse rights not independently cleared",
+        "depiction": "The operator's tourist-boat photograph at Wat Arun. Vessel assignment, wrap, stopping pattern, river conditions and visibility can change. Reuse rights have not been independently cleared. Attribution is not permission. No EA attendance, partnership or future conditions are implied."
+      },
+      {
+        "guideId": "lucerne-sgv-lake-cruise",
+        "source": "https://commons.wikimedia.org/wiki/File:CIRRUS_(ship)-Weggis-lake_Lucerne-01ASD.jpg",
+        "photographer": "Asurnipal",
+        "rightsBasis": "documented_license",
+        "licenseName": "CC BY-SA 4.0",
+        "depiction": "The Cirrus near Weggis on 8 October 2023. It is fleet and landscape context, not a promise that this vessel operates the selected Beckenried round trip. Resized and responsively cropped under the stated licence. No EA attendance, partnership or future conditions are implied."
+      },
+      {
+        "guideId": "kyoto-sagano-railway",
+        "source": "https://commons.wikimedia.org/wiki/File:Sagano_Scenic_Railway_Hozu_River_2016-08-26.jpg",
+        "photographer": "pang yu liu from Taoyuan, TW",
+        "rightsBasis": "documented_license",
+        "licenseName": "CC BY-SA 2.0",
+        "depiction": "The Hozu River from a Sagano train on 26 August 2016. Summer leaves and water colour are historical, not a forecast for autumn or winter. Resized and responsively cropped under the stated licence. No EA attendance, partnership or future conditions are implied."
+      },
+      {
+        "guideId": "valencia-silk-museum",
+        "source": "https://www.comunitatvalenciana.com/en/valencia/valencia/museums/the-fine-art-of-silk-college",
+        "photographer": "Turisme Comunitat Valenciana. Individual photographer not named",
+        "rightsBasis": "official_source",
+        "licenseName": "Official source photograph. Reuse rights not independently cleared",
+        "depiction": "The Valencia Silk Museum's loom and textile display in regional tourism imagery. A pictured loom does not guarantee a live demonstration or visitor handling. Reuse rights have not been independently cleared. Attribution is not permission. No EA attendance, partnership or future conditions are implied."
+      },
+      {
+        "guideId": "stockholm-hallwyl-house",
+        "source": "https://commons.wikimedia.org/wiki/File:Rum_i_Hallwylska_museet_3.JPG",
+        "photographer": "Jan Ainali",
+        "rightsBasis": "documented_license",
+        "licenseName": "CC BY-SA 3.0",
+        "depiction": "A historical interior of the Hallwyl Museum photographed by Jan Ainali. The current open-room route and exhibitions must be checked separately. Resized and responsively cropped under the stated licence. No EA attendance, partnership or future conditions are implied."
+      },
+      {
+        "guideId": "buenos-aires-barolo-day-tour",
+        "source": "https://commons.wikimedia.org/wiki/File:Buenos_Aires_-_Avenida_de_Mayo_-_Palacio_Barolo_-_Interior_(b).jpg",
+        "photographer": "Beatrice Murch from Buenos  Aires, Argentina",
+        "rightsBasis": "documented_license",
+        "licenseName": "CC BY 2.0",
+        "depiction": "Palacio Barolo's interior photographed by Beatrice Murch in September 2007. Public routes and access restrictions can differ today. Resized and responsively cropped under the stated licence. No EA attendance, partnership or future conditions are implied."
+      },
+      {
+        "guideId": "tokyo-kiyosumi-garden",
+        "source": "https://commons.wikimedia.org/wiki/File:Kiyosumi_Garden_(9224572179).jpg",
+        "photographer": "Guilhem Vellut from Annecy, France",
+        "rightsBasis": "documented_license",
+        "licenseName": "CC BY 2.0",
+        "depiction": "Kiyosumi Garden on 6 July 2013. Planting, weather and path access may change. This image predates the disclosed October 2026 path works. Resized and responsively cropped under the stated licence. No EA attendance, partnership or future conditions are implied."
+      },
+      {
+        "guideId": "cape-town-green-point-pause",
+        "source": "https://commons.wikimedia.org/wiki/File:Signal_Hill_from_Green_Point_Park.jpg",
+        "photographer": "Pierre-Selim",
+        "rightsBasis": "documented_license",
+        "licenseName": "CC BY-SA 2.0",
+        "depiction": "Green Point Park photographed on 24 July 2018. This is context for an urban garden visit, not identification of every plant or a current access assessment. Resized and responsively cropped under the stated licence. No EA attendance, partnership or future conditions are implied."
+      },
+      {
+        "guideId": "san-francisco-japanese-tea-garden",
+        "source": "https://commons.wikimedia.org/wiki/File:Moon_bridge_in_Japanese_Tea_Garden_(San_Francisco)_(TK7).JPG",
+        "photographer": "Tobias Kleinlercher / Wikipedia",
+        "rightsBasis": "documented_license",
+        "licenseName": "CC BY-SA 3.0",
+        "depiction": "The Japanese Tea Garden on 1 September 2016. Conditions and planting are historical, and this viewpoint does not certify a step-free route. Resized and responsively cropped under the stated licence. No EA attendance, partnership or future conditions are implied."
+      },
+      {
+        "guideId": "london-cecil-country-dance",
+        "source": "https://www.efdss.org/learning/adults/dance/english-country-dancing",
+        "photographer": "English Folk Dance and Song Society. Individual photographer not named",
+        "rightsBasis": "official_source",
+        "licenseName": "Official source photograph. Reuse rights not independently cleared",
+        "depiction": "EFDSS's published English Country Dancing photograph. It is not a guarantee of these participants, musicians, room or a specific future class. Reuse rights have not been independently cleared. Attribution is not permission. No EA attendance, partnership or future conditions are implied."
+      },
+      {
+        "guideId": "berlin-claerchens-ballroom",
+        "source": "https://commons.wikimedia.org/wiki/File:Cl%C3%A4rchens_Ballhaus,_Spiegelsaal04.jpg",
+        "photographer": "Nicor",
+        "rightsBasis": "documented_license",
+        "licenseName": "CC BY-SA 3.0",
+        "depiction": "An undated Spiegelsaal photograph uploaded in 2012. Furnishings and operation have changed. It is historical venue context, not a photograph of the current swing class. Resized and responsively cropped under the stated licence. No EA attendance, partnership or future conditions are implied."
+      },
+      {
+        "guideId": "taipei-eye-opera",
+        "source": "https://www.taipeieye.com/en/",
+        "photographer": "TaipeiEYE. Individual photographer not named",
+        "rightsBasis": "official_source",
+        "licenseName": "Official source photograph. Reuse rights not independently cleared",
+        "depiction": "The Mermaid's Tale, a Taiwanese-opera production, as pictured by TaipeiEYE. This is production publicity, not an EA visit, a guarantee of the exact cast or an image of the later Peking-opera programme. Reuse rights have not been independently cleared. Attribution is not permission. No EA attendance, partnership or future conditions are implied."
+      }
+    ]
+  },
+  "integrations": {
+    "chaptersAdded": [
+      "Brussels",
+      "Stockholm",
+      "San Francisco"
+    ],
+    "authoredChapters": 40,
+    "eligibleChapters": 39,
+    "dailyDiscoveriesAdded": 6,
+    "totalDailyDiscoveries": 103,
+    "newDailyDates": "19–24 December 2026",
+    "collections": 7,
+    "newGuidesInSearchDestinationsCategoriesSitemapSchema": true,
+    "existingReviewDatesAndGatesPreserved": true
+  },
+  "rejectedOrDeferred": [
+    {
+      "candidate": "Seoul Hanji House",
+      "reason": "Official temporary closure, reopening planned March 2027. Older tourism listing insufficient."
+    },
+    {
+      "candidate": "Bukchon mother-of-pearl programme",
+      "reason": "2025 programme not current enough, no satisfactory current documentary image."
+    },
+    {
+      "candidate": "Florence Scuola del Cuoio",
+      "reason": "Existing batch 44 programme, duplicate."
+    },
+    {
+      "candidate": "Dublin Silver Works Claddagh",
+      "reason": "Existing batch 47 programme, duplicate."
+    },
+    {
+      "candidate": "Barcelona Espai Boisa pottery",
+      "reason": "Candidate premise incorrect. Venue offers cooking, not the proposed pottery experience."
+    },
+    {
+      "candidate": "Lisbon Sant'Anna workshop",
+      "reason": "Current direct workshop offer not adequately confirmed. Replaced by Graça."
+    },
+    {
+      "candidate": "Clärchens Thursday standard/Latin dance",
+      "reason": "Older schedule insufficient. Replaced by officially linked dated beginner swing session."
+    },
+    {
+      "candidate": "Lisbon studio publicity photograph",
+      "reason": "Legal notice requires prior written permission. Replaced by licensed Graça azulejo context photo."
+    },
+    {
+      "candidate": "Gerbaud shop publicity photograph",
+      "reason": "Shop terms expressly restrict reproduction. Replaced by Creative Commons photograph of an actual Gerbaud workshop."
+    },
+    {
+      "candidate": "TAT Nang Loeng photograph",
+      "reason": "Published disclaimer restricts unauthorised reuse. Replaced by Streets of Food CC BY photograph."
+    },
+    {
+      "candidate": "Stockholm kayak as complementary chapter stop",
+      "reason": "Existing review window expired. Kept out of public chapter without extending its dates."
+    }
+  ],
+  "verification": {
+    "unitTests": {
+      "passed": 128,
+      "failed": 0
+    },
+    "typescript": "Passed",
+    "productionBuild": "Passed",
+    "localRouteSmoke": {
+      "checkedPages": 724,
+      "unpublishedPaths": 32,
+      "uniqueCspNonces": 703,
+      "failures": 0
+    },
+    "localBrowser": {
+      "routeViewportChecks": 114,
+      "viewports": [
+        390,
+        1440
+      ],
+      "automatedAccessibilityViolations": 0,
+      "brokenImages": 0,
+      "horizontalOverflow": 0,
+      "runtimeErrors": 0
+    },
+    "localInteractions": {
+      "checks": 14,
+      "scope": "Country/city filters, new guide, photograph modal and focus restoration, save, plan, reload persistence, keyboard skip link and consent gate"
+    },
+    "newGuideProof": {
+      "passed": 18,
+      "rawImageSha256Matches": 18,
+      "optimizedWebpResponses": 18,
+      "expiredExcluded": 14
+    },
+    "visualReview": "All 18 mobile and desktop guide openings, Home and Today, New listing and all three complementary chapter surfaces reviewed. San Francisco destination label broadened to city now that it contains a garden as well as cable cars.",
+    "production": "Pending commit and push. Exact deployment and public checks will be recorded in work/ea-2026-10-21-third-pass-final-production-verification.json. No completed deployment claimed here."
+  },
+  "guides": [
+    {
+      "primaryArea": "eat-drink",
+      "slug": "compare-brussels-and-liege-one-waffle-at-a-time",
+      "title": "Compare Brussels and Liège one waffle at a time",
+      "url": "https://experienceauthority.com/experiences/compare-brussels-and-liege-one-waffle-at-a-time",
+      "place": "Brussels",
+      "country": "Belgium",
+      "value": "Order two regional waffles at a Brussels tearoom and discover why their difference is in the dough, not the toppings.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2026-12-21",
+      "sources": [
+        {
+          "title": "Maison Dandoy: Brussels and Liège waffles",
+          "url": "https://maisondandoy.com/waffles",
+          "note": "Two distinct preparations and the branches that serve them."
+        },
+        {
+          "title": "Maison Dandoy: boutiques",
+          "url": "https://maisondandoy.com/boutiques",
+          "note": "Current branch addresses and published hours."
+        }
+      ]
+    },
+    {
+      "primaryArea": "eat-drink",
+      "slug": "give-buenos-aires-an-afternoon-at-las-violetas",
+      "title": "Give Buenos Aires an afternoon at Las Violetas",
+      "url": "https://experienceauthority.com/experiences/give-buenos-aires-an-afternoon-at-las-violetas",
+      "place": "Buenos Aires",
+      "country": "Argentina",
+      "value": "Make room for merienda in an Almagro café where stained glass, pastries and an unhurried table belong to the same afternoon.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2026-12-21",
+      "sources": [
+        {
+          "title": "Las Violetas: confitería",
+          "url": "https://www.lasvioletas.com/confiteria/",
+          "note": "Operator's afternoon-tea and pastry offer."
+        },
+        {
+          "title": "Las Violetas: contact and reservations",
+          "url": "https://www.lasvioletas.com/contacto/",
+          "note": "Rivadavia 3899 address, daily service and reservation contact."
+        },
+        {
+          "title": "Buenos Aires: Las Violetas heritage record",
+          "url": "https://buenosaires.gob.ar/areas/cultura/cpphc/sitios/detalle.php?id=35",
+          "note": "Municipal confirmation of the café's identity and history."
+        }
+      ]
+    },
+    {
+      "primaryArea": "eat-drink",
+      "slug": "let-nang-loeng-choose-a-bangkok-lunch",
+      "title": "Let Nang Loeng choose a Bangkok lunch",
+      "url": "https://experienceauthority.com/experiences/let-nang-loeng-choose-a-bangkok-lunch",
+      "place": "Bangkok",
+      "country": "Thailand",
+      "value": "Choose lunch and a Thai sweet in a working market instead of treating Bangkok's food as a list of famous dishes.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2026-12-21",
+      "sources": [
+        {
+          "title": "Thailand 2026: Nang Loeng Market",
+          "url": "https://www.am2026thailand.go.th/th/explore-bangkok/nang-loeng-market",
+          "note": "Government visitor guide, address and general access. Individual stall hours vary."
+        },
+        {
+          "title": "Tourism Authority of Thailand: Nang Loeng Market",
+          "url": "https://www.thailandtravel.or.jp/nang-loeng-market/",
+          "note": "Japanese-language official context for prepared food and Thai sweets."
+        }
+      ]
+    },
+    {
+      "primaryArea": "make-learn",
+      "slug": "paint-a-lisbon-tile-and-collect-it-after-firing",
+      "title": "Paint a Lisbon tile and collect it after firing",
+      "url": "https://experienceauthority.com/experiences/paint-a-lisbon-tile-and-collect-it-after-firing",
+      "place": "Lisbon",
+      "country": "Portugal",
+      "value": "Work a brush across an unfired tile in Graça, then leave time in Lisbon for the kiln to finish what you started.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2026-12-21",
+      "sources": [
+        {
+          "title": "Lisbon Tile Painting: public sessions and collection",
+          "url": "https://lisbontilepainting.com/",
+          "note": "One- and two-tile formats, booking, address and next-day firing/collection conditions."
+        },
+        {
+          "title": "Visit My Lisbon: tile-painting workshop",
+          "url": "https://visitmylisbon.com/tile-painting-lisbon/",
+          "note": "Partner description of the same Graça activity, not independent quality validation."
+        }
+      ]
+    },
+    {
+      "primaryArea": "make-learn",
+      "slug": "make-a-brussels-chocolate-with-your-own-balance-of-flavours",
+      "title": "Make a Brussels chocolate with your own balance of flavours",
+      "url": "https://experienceauthority.com/experiences/make-a-brussels-chocolate-with-your-own-balance-of-flavours",
+      "place": "Brussels",
+      "country": "Belgium",
+      "value": "Mould and decorate small chocolates at Laurent Gerbaud's Saturday workshop, then compare what different cacao and additions do to the taste.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2026-12-21",
+      "sources": [
+        {
+          "title": "Laurent Gerbaud: Saturday Chocolate Workshop",
+          "url": "https://shop.chocolatsgerbaud.be/en/products/chocolate-workshop",
+          "note": "Current bookable public format, ninety-minute schedule, moulding/decorating sequence and address."
+        },
+        {
+          "title": "Laurent Gerbaud: workshops",
+          "url": "https://www.chocolatsgerbaud.be/en/workshop-en/",
+          "note": "Distinguishes public Saturday beginner sessions from private corporate events."
+        }
+      ]
+    },
+    {
+      "primaryArea": "make-learn",
+      "slug": "paint-the-inside-of-a-tokyo-wind-chime",
+      "title": "Paint the inside of a Tokyo wind chime",
+      "url": "https://experienceauthority.com/experiences/paint-the-inside-of-a-tokyo-wind-chime",
+      "place": "Tokyo",
+      "country": "Japan",
+      "value": "Choose a pre-blown glass bell at Shinohara Maruyoshi and paint on its inner surface, where the curve changes every brushstroke.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2026-12-21",
+      "sources": [
+        {
+          "title": "Shinohara Maruyoshi: painting workshop",
+          "url": "https://www.edo-fuurin.com/en/workshopContents?name=0",
+          "note": "Inside painting, duration, second-floor access, booking confirmation and take-home format."
+        },
+        {
+          "title": "Shinohara Maruyoshi: workshop options",
+          "url": "https://www.edo-fuurin.com/en/workshop",
+          "note": "Separates painting from glassblowing."
+        },
+        {
+          "title": "Shinohara Maruyoshi: questions",
+          "url": "https://www.edo-fuurin.com/en/question",
+          "note": "Craft context and the bell's sounding edge."
+        }
+      ]
+    },
+    {
+      "primaryArea": "move-water",
+      "slug": "let-bangkok-unfold-between-the-river-piers",
+      "title": "Let Bangkok unfold between the river piers",
+      "url": "https://experienceauthority.com/experiences/let-bangkok-unfold-between-the-river-piers",
+      "place": "Bangkok",
+      "country": "Thailand",
+      "value": "Use the blue-flag river service to connect two Bangkok stops, watching how the city changes between the landing stages.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2026-12-21",
+      "sources": [
+        {
+          "title": "Chao Phraya Tourist Boat: official service",
+          "url": "https://chaophrayatouristboat.com/",
+          "note": "Operator identity, tickets and current service information."
+        },
+        {
+          "title": "Chao Phraya Tourist Boat: fleet and route",
+          "url": "https://chaophrayatouristboat.com/tourist_boat",
+          "note": "Vessel photographs and published route map. Not the separate express-boat timetable."
+        }
+      ]
+    },
+    {
+      "primaryArea": "move-water",
+      "slug": "read-lake-lucerne-from-a-working-passenger-boat",
+      "title": "Read Lake Lucerne from a working passenger boat",
+      "url": "https://experienceauthority.com/experiences/read-lake-lucerne-from-a-working-passenger-boat",
+      "place": "Lucerne",
+      "country": "Switzerland",
+      "value": "Take the scheduled Lucerne–Beckenried round trip and watch the lake's shores change without turning the outing into a mountain excursion.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2026-12-21",
+      "sources": [
+        {
+          "title": "SGV: Short Lake Cruise",
+          "url": "https://webshop.lakelucerne.ch/en/products/short-lake-cruise",
+          "note": "Lucerne–Beckenried route, duration, pier and winter direct-trip distinction."
+        },
+        {
+          "title": "SGV: timetable",
+          "url": "https://www.lakelucerne.ch/en/information/timetable/",
+          "note": "Current seasonal timetable and notices."
+        }
+      ]
+    },
+    {
+      "primaryArea": "move-water",
+      "slug": "follow-kyotos-river-gorge-by-slow-train",
+      "title": "Follow Kyoto's river gorge by slow train",
+      "url": "https://experienceauthority.com/experiences/follow-kyotos-river-gorge-by-slow-train",
+      "place": "Kyoto",
+      "country": "Japan",
+      "value": "Ride the Sagano train beside the Hozu River, then make a separate, deliberate plan for getting back to Kyoto.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2026-11-21",
+      "sources": [
+        {
+          "title": "Sagano Scenic Railway: train information",
+          "url": "https://www.sagano-kanko.co.jp/en/train-info/",
+          "note": "Route, running times and date-specific operations."
+        },
+        {
+          "title": "Sagano Scenic Railway: FAQ",
+          "url": "https://www.sagano-kanko.co.jp/en/faq/",
+          "note": "Separate one-way tickets, JR Pass exclusion, open car and station/wheelchair constraints."
+        }
+      ]
+    },
+    {
+      "primaryArea": "explore-reflect",
+      "slug": "find-the-silk-behind-valencias-streets",
+      "title": "Find the silk behind Valencia's streets",
+      "url": "https://experienceauthority.com/experiences/find-the-silk-behind-valencias-streets",
+      "place": "Valencia",
+      "country": "Spain",
+      "value": "Step into the former silk guild's rooms and connect a decorative fabric to the work, trade and records behind it.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2026-12-21",
+      "sources": [
+        {
+          "title": "Silk Museum of Valencia: museum and admission",
+          "url": "https://www.museodelasedavalencia.com/en/museum/",
+          "note": "Operator information, collection and current opening hours."
+        },
+        {
+          "title": "Comunitat Valenciana: College of the Fine Art of Silk",
+          "url": "https://www.comunitatvalenciana.com/en/valencia/valencia/museums/the-fine-art-of-silk-college",
+          "note": "Regional context for the guild building, decorated rooms and collection."
+        },
+        {
+          "title": "Visit Valencia: Silk Museum",
+          "url": "https://www.visitvalencia.com/en/what-to-do-valencia/valencian-culture/museum-in-valencia/silk-museum",
+          "note": "City corroboration. Operator notices take precedence where listed hours differ."
+        }
+      ]
+    },
+    {
+      "primaryArea": "explore-reflect",
+      "slug": "read-stockholm-through-a-collectors-house",
+      "title": "Read Stockholm through a collector's house",
+      "url": "https://experienceauthority.com/experiences/read-stockholm-through-a-collectors-house",
+      "place": "Stockholm",
+      "country": "Sweden",
+      "value": "Walk the Hallwyl Museum's reception rooms at your own pace and ask what a carefully preserved home chooses to remember.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2027-01-19",
+      "sources": [
+        {
+          "title": "Hallwyl Museum: visit at your own pace",
+          "url": "https://hallwylskamuseet.se/en/visit-us/visit-at-your-own-pace/",
+          "note": "Independent first-floor reception-room scope."
+        },
+        {
+          "title": "Hallwyl Museum: accessibility",
+          "url": "https://hallwylskamuseet.se/en/visit-us/accessibility/",
+          "note": "No lift, stairs, wheelchair and walker exclusion, texts and seating aids."
+        },
+        {
+          "title": "Hallwyl Museum: history of the house",
+          "url": "https://hallwylskamuseet.se/en/history-of-the-house/",
+          "note": "Institutional history and the collector's house context."
+        }
+      ]
+    },
+    {
+      "primaryArea": "explore-reflect",
+      "slug": "climb-a-buenos-aires-building-written-like-a-poem",
+      "title": "Climb a Buenos Aires building written like a poem",
+      "url": "https://experienceauthority.com/experiences/climb-a-buenos-aires-building-written-like-a-poem",
+      "place": "Buenos Aires",
+      "country": "Argentina",
+      "value": "Join a daylight tour of Palacio Barolo and follow the relationship between a literary idea, an office building and the city above it.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2026-11-21",
+      "sources": [
+        {
+          "title": "Palacio Barolo Tours: daytime visits",
+          "url": "https://palaciobarolotours.com.ar/visitas-guiadas-diurnas/",
+          "note": "Bilingual tour, duration, fourteen elevator floors plus eight stair floors, balcony and weather warnings."
+        },
+        {
+          "title": "Palacio Barolo: official building site",
+          "url": "https://palaciobarolo.com.ar/?lang=en",
+          "note": "Building identity and architectural context, separate from live ticket availability."
+        }
+      ]
+    },
+    {
+      "primaryArea": "swim-reset",
+      "slug": "slow-tokyo-to-the-distance-between-garden-stones",
+      "title": "Slow Tokyo to the distance between garden stones",
+      "url": "https://experienceauthority.com/experiences/slow-tokyo-to-the-distance-between-garden-stones",
+      "place": "Tokyo",
+      "country": "Japan",
+      "value": "Follow the pond edge at Kiyosumi and notice how a few stones and changing viewpoints can slow a Tokyo afternoon.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2027-01-19",
+      "sources": [
+        {
+          "title": "Tokyo Metropolitan Park Association: Kiyosumi Garden",
+          "url": "https://www.tokyo-park.or.jp/park/kiyosumi/",
+          "note": "Paid garden, hours, address, garden history and visitor information."
+        },
+        {
+          "title": "Kiyosumi Garden: 22–23 October path closure",
+          "url": "https://www.tokyo-park.or.jp/park/kiyosumi/news/2026/park_info_15.html",
+          "note": "Dated restriction around the artificial hill, not a whole-garden closure."
+        }
+      ]
+    },
+    {
+      "primaryArea": "swim-reset",
+      "slug": "meet-the-capes-plants-on-a-gentler-city-walk",
+      "title": "Meet the Cape's plants on a gentler city walk",
+      "url": "https://experienceauthority.com/experiences/meet-the-capes-plants-on-a-gentler-city-walk",
+      "place": "Cape Town",
+      "country": "South Africa",
+      "value": "Take a low-key walk through Green Point's biodiversity garden and put names to the Cape plants beneath the city skyline.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2026-12-21",
+      "sources": [
+        {
+          "title": "City of Cape Town: Green Point Park and Biodiversity Showcase Garden",
+          "url": "https://www.capetown.gov.za/see-all-city-facilities/our-recreational-facilities/regional-parks/green-point-park-and-biodiversity-showcase-garden/",
+          "note": "Public facility, opening hours, ordinary free access and separately arranged guiding."
+        },
+        {
+          "title": "Cape Town Green Map: Biodiversity Showcase Garden",
+          "url": "https://www.capetowngreenmap.co.za/cape-town-green-map-online-map/nature/garden/biodiversity-showcase-garden",
+          "note": "Garden's indigenous-plant and educational context."
+        }
+      ]
+    },
+    {
+      "primaryArea": "swim-reset",
+      "slug": "let-a-san-francisco-garden-change-your-pace",
+      "title": "Let a San Francisco garden change your pace",
+      "url": "https://experienceauthority.com/experiences/let-a-san-francisco-garden-change-your-pace",
+      "place": "San Francisco",
+      "country": "United States",
+      "value": "Walk the Japanese Tea Garden slowly enough to connect its paths and planting with the Japanese American history behind the place.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2027-01-19",
+      "sources": [
+        {
+          "title": "Gardens of Golden Gate Park: Japanese Tea Garden",
+          "url": "https://gggp.org/japanese-tea-garden/",
+          "note": "Garden identity, landscape and historical context."
+        },
+        {
+          "title": "Gardens of Golden Gate Park: admission and hours",
+          "url": "https://gggp.org/visit/admissions-hours/",
+          "note": "Seasonal last entry and Monday/Wednesday/Friday free-hour conditions."
+        }
+      ]
+    },
+    {
+      "primaryArea": "shared-rituals",
+      "slug": "learn-the-next-london-dance-from-the-caller",
+      "title": "Learn the next London dance from the caller",
+      "url": "https://experienceauthority.com/experiences/learn-the-next-london-dance-from-the-caller",
+      "place": "London",
+      "country": "United Kingdom",
+      "value": "Join an English country-dance class at Cecil Sharp House, where a caller and live musicians help a room of people move together.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2026-12-03",
+      "sources": [
+        {
+          "title": "EFDSS: English Country Dancing",
+          "url": "https://www.efdss.org/learning/adults/dance/english-country-dancing",
+          "note": "Current autumn dates, beginner welcome, no-partner policy, age bands and live music."
+        },
+        {
+          "title": "EFDSS: 5 November 2026 class",
+          "url": "https://www.efdss.org/whats-on/28-classes-and-courses/16112-english-country-dancing-5-nov-26",
+          "note": "Specific upcoming dated public session."
+        },
+        {
+          "title": "EFDSS: access at Cecil Sharp House",
+          "url": "https://www.efdss.org/access-at-cecil-sharp-house",
+          "note": "Lift entrance, assistance, toilets and hearing-loop information."
+        }
+      ]
+    },
+    {
+      "primaryArea": "shared-rituals",
+      "slug": "find-your-first-swing-step-in-a-berlin-ballroom",
+      "title": "Find your first swing step in a Berlin ballroom",
+      "url": "https://experienceauthority.com/experiences/find-your-first-swing-step-in-a-berlin-ballroom",
+      "place": "Berlin",
+      "country": "Germany",
+      "value": "Take a beginner swing class in Clärchens' Spiegelsaal, then stay to practise when the lesson becomes a social evening.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2026-11-24",
+      "sources": [
+        {
+          "title": "Clärchens: public dance programme",
+          "url": "https://claerchensball.haus/tanz/",
+          "note": "Venue's beginner swing description and link to the teaching team."
+        },
+        {
+          "title": "Swing auf Socken: 10 November 2026",
+          "url": "https://www.swingaufsocken.de/event-details/swing-im-spiegelsaal-2026-11-10-19-15",
+          "note": "Dated beginner class, solo participation, registration, recorded-music practice and card-only payment."
+        }
+      ]
+    },
+    {
+      "primaryArea": "shared-rituals",
+      "slug": "follow-a-taipei-opera-through-gesture-and-song",
+      "title": "Follow a Taipei opera through gesture and song",
+      "url": "https://experienceauthority.com/experiences/follow-a-taipei-opera-through-gesture-and-song",
+      "place": "Taipei",
+      "country": "Taiwan",
+      "value": "Choose a dated TaipeiEYE performance and let movement, music and projected translations give you more than one way into the story.",
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2026-11-14",
+      "sources": [
+        {
+          "title": "TaipeiEYE: current productions",
+          "url": "https://www.taipeieye.com/en/program/nowshowing/",
+          "note": "The Mermaid's Tale through 14 November and subsequent separately labelled productions."
+        },
+        {
+          "title": "TaipeiEYE: theatre introduction",
+          "url": "https://www.taipeieye.com/en/aboutus/1/",
+          "note": "Venue, performing-arts context and projected translation provision."
+        },
+        {
+          "title": "TaipeiEYE: FAQ",
+          "url": "https://www.taipeieye.com/en/faq/",
+          "note": "Arrival, accessible seating, photography and audience rules."
+        }
+      ]
+    }
+  ]
+}

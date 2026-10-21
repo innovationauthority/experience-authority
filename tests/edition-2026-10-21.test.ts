@@ -98,16 +98,16 @@ test("21 October adds eighteen genuinely new guides with exactly three primary a
   assert.equal(guideReleases.filter((r) => r.date === "2026-10-21").length, 1);
   assert.equal(
     publishedReleases(publicGuides, "2026-10-21")[0].guides.length,
-    36,
+    54,
   );
   assert.equal(
     publishedReleases(publicGuides, "2026-10-20")[0].guides.length,
     36,
   );
-  assert.equal(publicGuides.length, 352);
+  assert.equal(publicGuides.length, 370);
   assert.equal(
     publicGuides.filter((g) => canPublishGuide(g, "2026-10-21")).length,
-    338,
+    356,
   );
 });
 
@@ -204,7 +204,7 @@ test("new visitor roles and current operating constraints stay explicit", () => 
 test("five new local chapters connect different roles without re-opening expired source windows", () => {
   const current = publicGuides.filter((g) => canPublishGuide(g, "2026-10-21"));
   const chapters = resolveCityChapters(current);
-  assert.equal(chapters.length, 36);
+  assert.equal(chapters.length, 39);
   for (const slug of ["berlin", "hanoi", "edinburgh", "madrid", "florence"]) {
     const c = chapters.find((c) => c.slug === slug)!;
     assert.equal(c.stops.length, 3, slug);
@@ -225,7 +225,7 @@ test("five new local chapters connect different roles without re-opening expired
   }
   assert.equal(
     current.filter((g) => !guideBatch49.some((n) => n.id === g.id)).length,
-    320,
+    338,
   );
 });
 

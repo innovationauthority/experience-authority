@@ -1,6 +1,24 @@
 /** Content hashes keep replaced photographs consistent across responsive image caches.
  * The media test requires an update when an original file changes. */
 export const imageRevisions: Record<string, string> = {
+  "/images/guides/brussels-dandoy-waffles.jpg": "278703dcbc2e",
+  "/images/guides/buenos-aires-las-violetas-merienda.jpg": "8bbf19e64933",
+  "/images/guides/bangkok-nang-loeng-lunch.jpg": "6c70a7431ce8",
+  "/images/guides/lisbon-graca-tile-painting.jpg": "539ecf448ad1",
+  "/images/guides/brussels-gerbaud-chocolate-workshop.jpg": "ea8ea19fd01c",
+  "/images/guides/tokyo-maruyoshi-furin.jpg": "1bafc7f4db22",
+  "/images/guides/bangkok-chao-phraya-boat.jpg": "a3eb2cd6ea51",
+  "/images/guides/lucerne-sgv-lake-cruise.jpg": "ba91db42791c",
+  "/images/guides/kyoto-sagano-railway.jpg": "73c7fd38e95a",
+  "/images/guides/valencia-silk-museum.jpg": "59b5bbbfd606",
+  "/images/guides/stockholm-hallwyl-house.jpg": "c32ac447ddc8",
+  "/images/guides/buenos-aires-barolo-day-tour.jpg": "c368ae13d092",
+  "/images/guides/tokyo-kiyosumi-garden.jpg": "7f57be7adf83",
+  "/images/guides/cape-town-green-point-pause.jpg": "98d0b70356c5",
+  "/images/guides/san-francisco-japanese-tea-garden.jpg": "28d873a19fb1",
+  "/images/guides/london-cecil-country-dance.jpg": "daf3bee2e641",
+  "/images/guides/berlin-claerchens-ballroom.jpg": "504f6ed465e0",
+  "/images/guides/taipei-eye-opera.jpg": "fbd727c2a6fc",
   "/images/guides/montreal-jean-talon-market.jpg": "de83ccec5266",
   "/images/guides/naples-avpn-pizza-day.jpg": "61807240d7d2",
   "/images/guides/lisbon-conserveira-counter.jpg": "3f8e92d2e224",
@@ -359,7 +377,7 @@ export const imageRevisions: Record<string, string> = {
 
 // A single manifest fingerprint fits Next's bounded localPatterns allowlist.
 // Tests require it to change when any original is added or replaced.
-export const imageEdition = "ea5ce96e029f";
+export const imageEdition = "71680662dc49";
 
 export function imageSource(src: string) {
   return imageRevisions[src] ? `${src}?v=${imageEdition}` : src;

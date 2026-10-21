@@ -16,6 +16,83 @@ export type CityChapter = {
 /** Authored local combinations. These are ideas to adapt, not timed or bookable packages. */
 export const cityChapters: readonly CityChapter[] = [
   {
+    slug: "brussels",
+    name: "Brussels",
+    country: "belgium",
+    regions: ["brussels"],
+    title: "Taste the difference. Make the next decision yourself.",
+    intro:
+      "Two waffle recipes and a chocolate-making session give familiar Belgian flavours a more active role. Compare first, then use your own judgement at a workshop table. Cantillon adds a separate adult option for following a drink back to the equipment and processes behind it.",
+    pace: "A flexible waffle stop, a confirmed chocolate session and an optional separate brewery visit.",
+    planning:
+      "Choose Dandoy's actual waffle-serving branch and check ingredients and seating. Laurent Gerbaud's Saturday workshop needs a dated place confirmed directly. A gift voucher is not a reservation, and the task uses prepared chocolate rather than making it from cocoa beans. Cantillon is a different venue with its own opening days, age rules and visit arrangements. Alcohol tasting is for adults of legal drinking age and is optional, not essential to this combination. Check allergy and access needs separately. No shared ticket, walking route, transport or EA booking is supplied.",
+    stops: [
+      {
+        slug: "compare-brussels-and-liege-one-waffle-at-a-time",
+        moment: "Give a familiar treat a second texture",
+        why: "Comparing two preparations shifts the attention from elaborate toppings to what the waffle itself is doing. Order only what suits the group and current availability.",
+      },
+      {
+        slug: "make-a-brussels-chocolate-with-your-own-balance-of-flavours",
+        moment: "At a booked session, make a flavour choice",
+        why: "Prepared chocolate and dried or candied fruit give a beginner a real decision. Leave room for the full workshop rather than treating it as a quick shop visit.",
+      },
+      {
+        slug: "follow-lambic-from-the-brewery-to-the-glass",
+        moment: "For interested adults, follow another process separately",
+        why: "Cantillon connects equipment and fermentation with a tasting. Ordinary admission does not promise active brewing, and alcohol need not be part of everyone's Brussels visit.",
+      },
+    ],
+  },
+  {
+    slug: "stockholm",
+    name: "Stockholm",
+    country: "sweden",
+    regions: ["stockholm"],
+    title: "Read a room. Look around a rescued ship.",
+    intro:
+      "Hallwyl House and the Vasa Museum give Stockholm two very different preserved worlds. One begins with an accumulation of household objects, the other with a ship too large to understand at a glance. Move from a choice someone made for a room to the decisions behind a vessel, giving each museum its own time.",
+    pace: "Two separately planned museum visits across the stay, with enough time to return to a detail.",
+    planning:
+      "Hallwyl's ordinary self-guided route covers reception rooms, not every part of the house, and there is no lift. It is not wheelchair or walker accessible. Vasa has separate admission, tour languages and visitor arrangements. Check opening days, current exhibitions, accessible routes and any holiday restrictions for each museum before travel. The houses are in different parts of Stockholm, so arrange transport and each admission separately. This is not a continuous walking route, shared reservation, combined ticket or EA package.",
+    stops: [
+      {
+        slug: "read-stockholm-through-a-collectors-house",
+        moment: "Start small, with an object someone chose to keep",
+        why: "A room can reveal choices about collecting, comfort and preservation without being mistaken for the life of an entire city.",
+      },
+      {
+        slug: "read-stockholm-around-a-rescued-ship",
+        moment: "On another visit, let one object change the scale",
+        why: "An included public tour can introduce the Vasa before you return to a detail independently. The visit is around the ship, not on board.",
+      },
+    ],
+  },
+  {
+    slug: "san-francisco",
+    name: "San Francisco",
+    country: "united-states",
+    regions: ["san-francisco"],
+    title: "Listen to the street. Then give the garden time.",
+    intro:
+      "A working cable car brings San Francisco's gradients, junctions and shared streets into focus. The Japanese Tea Garden in Golden Gate Park offers a contrasting pace through planting, paths and carefully framed views. The contrast works across a stay without pretending the two places sit beside one another.",
+    pace: "One public-transport ride and a separately planned garden pause, with time for the journey between districts.",
+    planning:
+      "The cable car is not the F-line streetcar and does not run to Golden Gate Park. Arrange that transfer separately and check SFMTA's actual route, queues and access limitations. Cable cars are not wheelchair accessible. Garden admission, seasonal closing time and any tea-house purchase are separate. Choose suitable garden paths instead of assuming the steep moon bridge is necessary or accessible. Check current closures and weather. This is not a supplied walking route, combined ticket, transport package or guarantee of a quiet garden.",
+    stops: [
+      {
+        slug: "ride-san-francisco-at-the-grip-operators-pace",
+        moment: "Let the city move at the operator's pace",
+        why: "The bell, grip mechanism and gradients turn a famous image into a working journey shared with other passengers.",
+      },
+      {
+        slug: "let-a-san-francisco-garden-change-your-pace",
+        moment: "Elsewhere in the city, make a smaller circuit",
+        why: "A garden visit can be about a single view and an unhurried return, without requiring a tea ceremony or every bridge and path.",
+      },
+    ],
+  },
+  {
     slug: "prague",
     name: "Prague",
     country: "czechia",

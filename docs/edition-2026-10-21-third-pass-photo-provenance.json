@@ -1,0 +1,1373 @@
+{
+  "checkedOn": "2026-10-21",
+  "records": [
+    {
+      "guideId": "brussels-dandoy-waffles",
+      "candidate": "Dandoy-waffle-0",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Waffle_with_strawberry_and_icecream_%281431212608%29.jpg/1920px-Waffle_with_strawberry_and_icecream_%281431212608%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "commonsMetadata": {
+        "title": "File:Waffle with strawberry and icecream (1431212608).jpg",
+        "size": 1747195,
+        "width": 3008,
+        "height": 2000,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Waffle_with_strawberry_and_icecream_%281431212608%29.jpg/1920px-Waffle_with_strawberry_and_icecream_%281431212608%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1920,
+        "thumbheight": 1277,
+        "responsiveUrls": {
+          "2": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Waffle_with_strawberry_and_icecream_%281431212608%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Waffle_with_strawberry_and_icecream_%281431212608%29.jpg/1920px-Waffle_with_strawberry_and_icecream_%281431212608%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1920,
+          "height": 1277,
+          "srcset": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Waffle_with_strawberry_and_icecream_%281431212608%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Waffle_with_strawberry_and_icecream_%281431212608%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Waffle_with_strawberry_and_icecream_(1431212608).jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77826565",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2019-04-06 21:01:03",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Waffle with strawberry and icecream (1431212608)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Sweet food of Japan|Flickr images reviewed by FlickreviewR 2|Files from pelican's Flickr stream",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "In Dandoy, near Grand Place, Brussels, Belgium.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2007-09-19 20:45",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/pelican/1431212608/\">Waffle with strawberry and icecream</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/85936780@N00\">pelican</a> from Tokyo, Japan",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 2.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 2.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/2.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-2.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "flickrLicense": null,
+      "flickrSource": null,
+      "sourceWidth": 1920,
+      "sourceHeight": 1277,
+      "sha256": "278703dcbc2ece5ab4a482e1ebd842f08b8dac535dede1ef4a5c514c68866326",
+      "bytes": 465674,
+      "processing": "Resized without enlargement to maximum 1800 pixels wide and encoded JPEG quality 92. Responsive display can crop. No generative editing.",
+      "visualReview": "Approved after comparing alternative photographs on 21 October 2026. Explicitly restricted publicity images excluded."
+    },
+    {
+      "guideId": "buenos-aires-las-violetas-merienda",
+      "candidate": "Las-Violetas-interior-0",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Interior_del_Caf%C3%A9_Las_Violetas.jpg/1920px-Interior_del_Caf%C3%A9_Las_Violetas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "commonsMetadata": {
+        "title": "File:Interior del Café Las Violetas.jpg",
+        "size": 2261753,
+        "width": 3648,
+        "height": 2736,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Interior_del_Caf%C3%A9_Las_Violetas.jpg/1920px-Interior_del_Caf%C3%A9_Las_Violetas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1920,
+        "thumbheight": 1440,
+        "responsiveUrls": {
+          "2": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Interior_del_Caf%C3%A9_Las_Violetas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Interior_del_Caf%C3%A9_Las_Violetas.jpg/1920px-Interior_del_Caf%C3%A9_Las_Violetas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1920,
+          "height": 1440,
+          "srcset": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Interior_del_Caf%C3%A9_Las_Violetas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Interior_del_Caf%C3%A9_Las_Violetas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Interior_del_Caf%C3%A9_Las_Violetas.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=11960969",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2010-11-04 02:56:26",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Interior del Café Las Violetas",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Las Violetas|GFDL|Taken with Nikon Coolpix S203|License migration redundant|Self-published work|November 2010 in Buenos Aires|FoP-Argentina|Building interiors in Buenos Aires|Anonymous people of Buenos Aires",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Interior del Café \"Las Violetas\", situado en Medrano y Rivadavia, en la ciudad de Buenos Aires. Café fundado en 1884.",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Cadaverexquisito&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Cadaverexquisito (page does not exist)\">Cadaverexquisito</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 3.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 3.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/3.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-3.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "flickrLicense": null,
+      "flickrSource": null,
+      "sourceWidth": 1920,
+      "sourceHeight": 1440,
+      "sha256": "8bbf19e6493380b5e81141e9ab24771bd3ff5ba976f60d98dba71fe780e43698",
+      "bytes": 863363,
+      "processing": "Resized without enlargement to maximum 1800 pixels wide and encoded JPEG quality 92. Responsive display can crop. No generative editing.",
+      "visualReview": "Approved after comparing alternative photographs on 21 October 2026. Explicitly restricted publicity images excluded."
+    },
+    {
+      "guideId": "bangkok-nang-loeng-lunch",
+      "candidate": "flickr-51361933592",
+      "downloadUrl": "https://live.staticflickr.com/65535/51361933592_7a96bf72c0_k.jpg",
+      "commonsMetadata": null,
+      "flickrLicense": "https://creativecommons.org/licenses/by/2.0/deed.en",
+      "flickrSource": "https://www.flickr.com/photos/150596023@N08/51361933592/",
+      "sourceWidth": 2048,
+      "sourceHeight": 1406,
+      "sha256": "6c70a7431ce8cbc999b265e0e993415f276250d112907c0906bd250f6ed80d81",
+      "bytes": 798429,
+      "processing": "Resized without enlargement to maximum 1800 pixels wide and encoded JPEG quality 92. Responsive display can crop. No generative editing.",
+      "visualReview": "Approved after comparing alternative photographs on 21 October 2026. Explicitly restricted publicity images excluded."
+    },
+    {
+      "guideId": "lisbon-graca-tile-painting",
+      "candidate": "graca-licensed-4",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Azulejos_Gra%C3%A7a_Lisboa_Portugal.jpg/1920px-Azulejos_Gra%C3%A7a_Lisboa_Portugal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "commonsMetadata": {
+        "title": "File:Azulejos Graça Lisboa Portugal.jpg",
+        "size": 6642475,
+        "width": 3072,
+        "height": 4080,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Azulejos_Gra%C3%A7a_Lisboa_Portugal.jpg/1920px-Azulejos_Gra%C3%A7a_Lisboa_Portugal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1920,
+        "thumbheight": 2550,
+        "responsiveUrls": {
+          "2": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Azulejos_Gra%C3%A7a_Lisboa_Portugal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Azulejos_Gra%C3%A7a_Lisboa_Portugal.jpg/1920px-Azulejos_Gra%C3%A7a_Lisboa_Portugal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1920,
+          "height": 2550,
+          "srcset": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Azulejos_Gra%C3%A7a_Lisboa_Portugal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Azulejos_Gra%C3%A7a_Lisboa_Portugal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Azulejos_Gra%C3%A7a_Lisboa_Portugal.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=146495188",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2024-03-17 16:03:31",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Azulejos Graça Lisboa Portugal",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Self-published work|Azulejos in Lisbon",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Azulejos on a wall in Graça neighborhood in Lisbon, Portugal",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2022-11-08 16:18:34",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:LightWord\" title=\"User:LightWord\">LightWord</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "flickrLicense": null,
+      "flickrSource": null,
+      "sourceWidth": 1920,
+      "sourceHeight": 2550,
+      "sha256": "539ecf448ad137ae4fc42b5a2169dbce30590f4a6cd6d4a81f24e33fa92c9cff",
+      "bytes": 1695635,
+      "processing": "Resized without enlargement to maximum 1800 pixels wide and encoded JPEG quality 92. Responsive display can crop. No generative editing.",
+      "visualReview": "Approved after comparing alternative photographs on 21 October 2026. Explicitly restricted publicity images excluded."
+    },
+    {
+      "guideId": "brussels-gerbaud-chocolate-workshop",
+      "candidate": "flickr-23804956771",
+      "downloadUrl": "https://live.staticflickr.com/593/23804956771_268c725308_6k.jpg",
+      "commonsMetadata": null,
+      "flickrLicense": "https://creativecommons.org/licenses/by-sa/2.0/deed.en",
+      "flickrSource": "https://www.flickr.com/photos/miguel_discart/23804956771/",
+      "sourceWidth": 6000,
+      "sourceHeight": 3376,
+      "sha256": "ea8ea19fd01cf53e92a80b25b19cc54a19644a649739cf86d6ae7585540ca178",
+      "bytes": 374291,
+      "processing": "Resized without enlargement to maximum 1800 pixels wide and encoded JPEG quality 92. Responsive display can crop. No generative editing.",
+      "visualReview": "Approved after comparing alternative photographs on 21 October 2026. Explicitly restricted publicity images excluded."
+    },
+    {
+      "guideId": "tokyo-maruyoshi-furin",
+      "candidate": "furinDetails-1",
+      "downloadUrl": "https://www.edo-fuurin.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FworkshopPage_top.52cee5a2.jpg&w=3840&q=75",
+      "commonsMetadata": null,
+      "flickrLicense": null,
+      "flickrSource": "https://www.edo-fuurin.com/en/workshopContents?name=0",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sha256": "1bafc7f4db22597dce792f96a490bd3a3f31e827c53848931eba87f106be3d39",
+      "bytes": 200962,
+      "processing": "Resized without enlargement to maximum 1800 pixels wide and encoded JPEG quality 92. Responsive display can crop. No generative editing.",
+      "visualReview": "Approved after comparing alternative photographs on 21 October 2026. Explicitly restricted publicity images excluded."
+    },
+    {
+      "guideId": "bangkok-chao-phraya-boat",
+      "candidate": "bangkok-chao-phraya-boat-6",
+      "downloadUrl": "https://chaophrayatouristboat.com/img/tourist_boat/ctb2-watarun.png",
+      "commonsMetadata": null,
+      "flickrLicense": null,
+      "flickrSource": "https://chaophrayatouristboat.com/tourist_boat",
+      "sourceWidth": 1370,
+      "sourceHeight": 770,
+      "sha256": "a3eb2cd6ea51aad330134d007e798768ff9bf60648bb274d7971db3d0ac93881",
+      "bytes": 278278,
+      "processing": "Resized without enlargement to maximum 1800 pixels wide and encoded JPEG quality 92. Responsive display can crop. No generative editing.",
+      "visualReview": "Approved after comparing alternative photographs on 21 October 2026. Explicitly restricted publicity images excluded."
+    },
+    {
+      "guideId": "lucerne-sgv-lake-cruise",
+      "candidate": "SGV-motor-ship-Lucerne-0",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/CIRRUS_%28ship%29-Weggis-lake_Lucerne-01ASD.jpg/1920px-CIRRUS_%28ship%29-Weggis-lake_Lucerne-01ASD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "commonsMetadata": {
+        "title": "File:CIRRUS (ship)-Weggis-lake Lucerne-01ASD.jpg",
+        "size": 4816896,
+        "width": 4592,
+        "height": 3056,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/CIRRUS_%28ship%29-Weggis-lake_Lucerne-01ASD.jpg/1920px-CIRRUS_%28ship%29-Weggis-lake_Lucerne-01ASD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1920,
+        "thumbheight": 1278,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/CIRRUS_%28ship%29-Weggis-lake_Lucerne-01ASD.jpg/3840px-CIRRUS_%28ship%29-Weggis-lake_Lucerne-01ASD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/CIRRUS_%28ship%29-Weggis-lake_Lucerne-01ASD.jpg/1920px-CIRRUS_%28ship%29-Weggis-lake_Lucerne-01ASD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1920,
+          "height": 1278,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/CIRRUS_%28ship%29-Weggis-lake_Lucerne-01ASD.jpg/3840px-CIRRUS_%28ship%29-Weggis-lake_Lucerne-01ASD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/CIRRUS_%28ship%29-Weggis-lake_Lucerne-01ASD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:CIRRUS_(ship)-Weggis-lake_Lucerne-01ASD.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=138972784",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2023-10-15 19:48:29",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "CIRRUS (ship)-Weggis-lake Lucerne-01ASD",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Self-published work|Lake Lucerne in Weggis|Cirrus (ship, 2009)|Photographs by Asurnipal-Vierwaldstättersee",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Katamaran (Motor vessel) Cirrus of the Lake Lucerne Navigation Company (SGV AG), Switzerland.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2023-10-08",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Asurnipal\" title=\"User:Asurnipal\">Asurnipal</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "flickrLicense": null,
+      "flickrSource": null,
+      "sourceWidth": 1920,
+      "sourceHeight": 1278,
+      "sha256": "ba91db42791cf368579a3fd4ad47cbed559a1287a49ce3755b65e47df3b71580",
+      "bytes": 586840,
+      "processing": "Resized without enlargement to maximum 1800 pixels wide and encoded JPEG quality 92. Responsive display can crop. No generative editing.",
+      "visualReview": "Approved after comparing alternative photographs on 21 October 2026. Explicitly restricted publicity images excluded."
+    },
+    {
+      "guideId": "kyoto-sagano-railway",
+      "candidate": "Sagano-train-river-2",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Sagano_Scenic_Railway_Hozu_River_2016-08-26.jpg/1920px-Sagano_Scenic_Railway_Hozu_River_2016-08-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "commonsMetadata": {
+        "title": "File:Sagano Scenic Railway Hozu River 2016-08-26.jpg",
+        "size": 48363874,
+        "width": 7952,
+        "height": 5304,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Sagano_Scenic_Railway_Hozu_River_2016-08-26.jpg/1920px-Sagano_Scenic_Railway_Hozu_River_2016-08-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1920,
+        "thumbheight": 1281,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Sagano_Scenic_Railway_Hozu_River_2016-08-26.jpg/3840px-Sagano_Scenic_Railway_Hozu_River_2016-08-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Sagano_Scenic_Railway_Hozu_River_2016-08-26.jpg/1920px-Sagano_Scenic_Railway_Hozu_River_2016-08-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1920,
+          "height": 1281,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Sagano_Scenic_Railway_Hozu_River_2016-08-26.jpg/3840px-Sagano_Scenic_Railway_Hozu_River_2016-08-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Sagano_Scenic_Railway_Hozu_River_2016-08-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sagano_Scenic_Railway_Hozu_River_2016-08-26.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=55295642",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2017-01-24 04:06:18",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Sagano Scenic Railway Hozu River 2016-08-26",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Flickr images reviewed by FlickreviewR|August 2016 in Kyoto|Files with coordinates missing SDC location of creation|August 2016 in rail transport in Kyoto prefecture|Japan photographs taken on 2016-08-26|Files uploaded by User:Adeletron 3030|Views from Sagano Scenic Railway",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "35.017597",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "135.624083",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "View of Hozu River from a Sagano Scenic Railway train",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2016-08-26 09:26",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/pangyuliu/29307732156/\">2016-08-26 09.26.29</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/75442282@N00\">pang yu liu</a> from Taoyuan, TW",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 2.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 2.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/2.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-2.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "flickrLicense": null,
+      "flickrSource": null,
+      "sourceWidth": 1920,
+      "sourceHeight": 1281,
+      "sha256": "73c7fd38e95aa810b37b683ccb5ed64435c9bd957cafbc133c55244976dbdf89",
+      "bytes": 902735,
+      "processing": "Resized without enlargement to maximum 1800 pixels wide and encoded JPEG quality 92. Responsive display can crop. No generative editing.",
+      "visualReview": "Approved after comparing alternative photographs on 21 October 2026. Explicitly restricted publicity images excluded."
+    },
+    {
+      "guideId": "valencia-silk-museum",
+      "candidate": "www.comunitatvalenciana.-2",
+      "downloadUrl": "https://multimedia.comunitatvalenciana.com/D50D64FE8AEB40EC9E12599BA4DEAAA5/img/209155962BFE4EA2A2A728E1B836218B/CM_Art_Major_de_la_Seda_03.jpg?responsive",
+      "commonsMetadata": null,
+      "flickrLicense": null,
+      "flickrSource": "https://www.comunitatvalenciana.com/en/valencia/valencia/museums/the-fine-art-of-silk-college",
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "sha256": "59b5bbbfd606c57ff21617603df6bc4ac5661207a8e3cb174651223e60358ee7",
+      "bytes": 609870,
+      "processing": "Resized without enlargement to maximum 1800 pixels wide and encoded JPEG quality 92. Responsive display can crop. No generative editing.",
+      "visualReview": "Approved after comparing alternative photographs on 21 October 2026. Explicitly restricted publicity images excluded."
+    },
+    {
+      "guideId": "stockholm-hallwyl-house",
+      "candidate": "Hallwyl-museum-interior-1",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Rum_i_Hallwylska_museet_3.JPG/1920px-Rum_i_Hallwylska_museet_3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "commonsMetadata": {
+        "title": "File:Rum i Hallwylska museet 3.JPG",
+        "size": 2733847,
+        "width": 3812,
+        "height": 2592,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Rum_i_Hallwylska_museet_3.JPG/1920px-Rum_i_Hallwylska_museet_3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1920,
+        "thumbheight": 1306,
+        "responsiveUrls": {
+          "2": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Rum_i_Hallwylska_museet_3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Rum_i_Hallwylska_museet_3.JPG/1920px-Rum_i_Hallwylska_museet_3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1920,
+          "height": 1306,
+          "srcset": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Rum_i_Hallwylska_museet_3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Rum_i_Hallwylska_museet_3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Rum_i_Hallwylska_museet_3.JPG",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=19921246",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2012-06-16 18:23:30",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Rum i Hallwylska museet 3",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Taken with Sony DSLR-A200|Interior of Hallwyl House|Self-published work|Hallwylska photo hunt 2012",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Rum i Hallwylska museet.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2012-06-11",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Ainali\" title=\"User:Ainali\">Jan Ainali</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 3.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 3.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/3.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-3.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "flickrLicense": null,
+      "flickrSource": null,
+      "sourceWidth": 1920,
+      "sourceHeight": 1306,
+      "sha256": "c32ac447ddc8a57cb9996010453d9b5bea0c934c177c0c0a86a72b35d3ec7b89",
+      "bytes": 517309,
+      "processing": "Resized without enlargement to maximum 1800 pixels wide and encoded JPEG quality 92. Responsive display can crop. No generative editing.",
+      "visualReview": "Approved after comparing alternative photographs on 21 October 2026. Explicitly restricted publicity images excluded."
+    },
+    {
+      "guideId": "buenos-aires-barolo-day-tour",
+      "candidate": "Palacio-Barolo-interior-2",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Buenos_Aires_-_Avenida_de_Mayo_-_Palacio_Barolo_-_Interior_%28b%29.jpg/1920px-Buenos_Aires_-_Avenida_de_Mayo_-_Palacio_Barolo_-_Interior_%28b%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "commonsMetadata": {
+        "title": "File:Buenos Aires - Avenida de Mayo - Palacio Barolo - Interior (b).jpg",
+        "size": 1608674,
+        "width": 3024,
+        "height": 1998,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Buenos_Aires_-_Avenida_de_Mayo_-_Palacio_Barolo_-_Interior_%28b%29.jpg/1920px-Buenos_Aires_-_Avenida_de_Mayo_-_Palacio_Barolo_-_Interior_%28b%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1920,
+        "thumbheight": 1269,
+        "responsiveUrls": {
+          "2": "https://upload.wikimedia.org/wikipedia/commons/2/21/Buenos_Aires_-_Avenida_de_Mayo_-_Palacio_Barolo_-_Interior_%28b%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Buenos_Aires_-_Avenida_de_Mayo_-_Palacio_Barolo_-_Interior_%28b%29.jpg/1920px-Buenos_Aires_-_Avenida_de_Mayo_-_Palacio_Barolo_-_Interior_%28b%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1920,
+          "height": 1269,
+          "srcset": "https://upload.wikimedia.org/wikipedia/commons/2/21/Buenos_Aires_-_Avenida_de_Mayo_-_Palacio_Barolo_-_Interior_%28b%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Buenos_Aires_-_Avenida_de_Mayo_-_Palacio_Barolo_-_Interior_%28b%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Buenos_Aires_-_Avenida_de_Mayo_-_Palacio_Barolo_-_Interior_(b).jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=3113181",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2007-11-17 19:16:28",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Buenos Aires - Avenida de Mayo - Palacio Barolo - Interior (b)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Palacio Barolo|Taken with Nikon D40|Flickr images reviewed by FlickreviewR|Files supported by Wikimedia Argentina|Floors in Argentina|Files with coordinates missing SDC location of creation|Photographs by Beatrice Murch",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "-34.609667",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "-58.385972",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Escaleras interiores del Palacio Barolo, Avenida de Mayo, Buenos Aires, Argentina.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2007-09-21 16:56",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/82439748@N00/1424956838/\">Looking down the openings to the ground floor</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/82439748@N00\">Beatrice Murch</a> from Buenos  Aires, Argentina",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY 2.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution 2.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by/2.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-2.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "flickrLicense": null,
+      "flickrSource": null,
+      "sourceWidth": 1920,
+      "sourceHeight": 1269,
+      "sha256": "c368ae13d0929aba5a28e94627e8de1ab1511ac461970270fe41f433189b2557",
+      "bytes": 464719,
+      "processing": "Resized without enlargement to maximum 1800 pixels wide and encoded JPEG quality 92. Responsive display can crop. No generative editing.",
+      "visualReview": "Approved after comparing alternative photographs on 21 October 2026. Explicitly restricted publicity images excluded."
+    },
+    {
+      "guideId": "tokyo-kiyosumi-garden",
+      "candidate": "Kiyosumi-garden-1",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Kiyosumi_Garden_%289224572179%29.jpg/1920px-Kiyosumi_Garden_%289224572179%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "commonsMetadata": {
+        "title": "File:Kiyosumi Garden (9224572179).jpg",
+        "size": 5022279,
+        "width": 3648,
+        "height": 2736,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Kiyosumi_Garden_%289224572179%29.jpg/1920px-Kiyosumi_Garden_%289224572179%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1920,
+        "thumbheight": 1440,
+        "responsiveUrls": {
+          "2": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Kiyosumi_Garden_%289224572179%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Kiyosumi_Garden_%289224572179%29.jpg/1920px-Kiyosumi_Garden_%289224572179%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1920,
+          "height": 1440,
+          "srcset": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Kiyosumi_Garden_%289224572179%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Kiyosumi_Garden_%289224572179%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kiyosumi_Garden_(9224572179).jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=148633360",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2024-05-22 23:48:47",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Kiyosumi Garden (9224572179)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Flickr images reviewed by FlickreviewR 2|Pond in Kiyosumi Gardens|Photographs of Tokyo by Guilhem Vellut",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Kiyosumi Garden",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2013-07-06 14:57",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/o_0/9224572179/\">Kiyosumi Garden</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/22539273@N00\">Guilhem Vellut</a> from Annecy, France",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY 2.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution 2.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by/2.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-2.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "flickrLicense": null,
+      "flickrSource": null,
+      "sourceWidth": 1920,
+      "sourceHeight": 1440,
+      "sha256": "7f57be7adf8314c6e4486383e1957bb800c4a618ecee92a4bb87cf767e89236d",
+      "bytes": 1034819,
+      "processing": "Resized without enlargement to maximum 1800 pixels wide and encoded JPEG quality 92. Responsive display can crop. No generative editing.",
+      "visualReview": "Approved after comparing alternative photographs on 21 October 2026. Explicitly restricted publicity images excluded."
+    },
+    {
+      "guideId": "cape-town-green-point-pause",
+      "candidate": "Green-Point-Urban-Park-5",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Signal_Hill_from_Green_Point_Park.jpg/1920px-Signal_Hill_from_Green_Point_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "commonsMetadata": {
+        "title": "File:Signal Hill from Green Point Park.jpg",
+        "size": 7724229,
+        "width": 4460,
+        "height": 2509,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Signal_Hill_from_Green_Point_Park.jpg/1920px-Signal_Hill_from_Green_Point_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1920,
+        "thumbheight": 1080,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Signal_Hill_from_Green_Point_Park.jpg/3840px-Signal_Hill_from_Green_Point_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Signal_Hill_from_Green_Point_Park.jpg/1920px-Signal_Hill_from_Green_Point_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1920,
+          "height": 1080,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Signal_Hill_from_Green_Point_Park.jpg/3840px-Signal_Hill_from_Green_Point_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Signal_Hill_from_Green_Point_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Signal_Hill_from_Green_Point_Park.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=131424690",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2023-05-02 10:57:48",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Signal Hill from Green Point Park",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Green Point Common|Flickr images reviewed by FlickreviewR 2",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Viewed from park in Green Point, Cape Town",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2018-07-24 16:56:15",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/pierre-selim/28885470187/\">https://www.flickr.com/photos/pierre-selim/28885470187/</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Pierre-Selim",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 2.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 2.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/2.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-2.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "flickrLicense": null,
+      "flickrSource": null,
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "sha256": "98d0b70356c5527d0f4da6a1c51728c912a3b64150263ad4fad1ded2a88ad2b7",
+      "bytes": 743257,
+      "processing": "Resized without enlargement to maximum 1800 pixels wide and encoded JPEG quality 92. Responsive display can crop. No generative editing.",
+      "visualReview": "Approved after comparing alternative photographs on 21 October 2026. Explicitly restricted publicity images excluded."
+    },
+    {
+      "guideId": "san-francisco-japanese-tea-garden",
+      "candidate": "Moon-bridge-Japanese-Tea-Garden-TK7-0",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Moon_bridge_in_Japanese_Tea_Garden_%28San_Francisco%29_%28TK7%29.JPG/1920px-Moon_bridge_in_Japanese_Tea_Garden_%28San_Francisco%29_%28TK7%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "commonsMetadata": {
+        "title": "File:Moon bridge in Japanese Tea Garden (San Francisco) (TK7).JPG",
+        "size": 17016216,
+        "width": 5760,
+        "height": 3840,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Moon_bridge_in_Japanese_Tea_Garden_%28San_Francisco%29_%28TK7%29.JPG/1920px-Moon_bridge_in_Japanese_Tea_Garden_%28San_Francisco%29_%28TK7%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1920,
+        "thumbheight": 1280,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Moon_bridge_in_Japanese_Tea_Garden_%28San_Francisco%29_%28TK7%29.JPG/3840px-Moon_bridge_in_Japanese_Tea_Garden_%28San_Francisco%29_%28TK7%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Moon_bridge_in_Japanese_Tea_Garden_%28San_Francisco%29_%28TK7%29.JPG/1920px-Moon_bridge_in_Japanese_Tea_Garden_%28San_Francisco%29_%28TK7%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1920,
+          "height": 1280,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Moon_bridge_in_Japanese_Tea_Garden_%28San_Francisco%29_%28TK7%29.JPG/3840px-Moon_bridge_in_Japanese_Tea_Garden_%28San_Francisco%29_%28TK7%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Moon_bridge_in_Japanese_Tea_Garden_%28San_Francisco%29_%28TK7%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Moon_bridge_in_Japanese_Tea_Garden_(San_Francisco)_(TK7).JPG",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=52562769",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2016-10-27 19:09:33",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Moon bridge in Japanese Tea Garden (San Francisco) (TK7)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Japanese Tea Garden (San Francisco)|Supported by Wikimedia Österreich|Moon bridge in Japanese Tea Garden (San Francisco)|Files with coordinates missing SDC location of creation|Chamaecyparis pisifera cultivars|Flora and fauna in Golden Gate Park|Images by TheTokl on 2016-09-01",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "37.770097",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "-122.469850",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Moon bridge in Japanese Tea Garden (San Francisco) (TK7)",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2016-09-01",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"https://de.wikipedia.org/wiki/Benutzer:TheTokl\" class=\"extiw\" title=\"de:Benutzer:TheTokl\">Tobias Kleinlercher / Wikipedia</a>",
+            "source": "commons-desc-page"
+          },
+          "Permission": {
+            "value": "<a href=\"https://de.wikipedia.org/wiki/Benutzer:TheTokl\" class=\"extiw\" title=\"de:Benutzer:TheTokl\">Tobias Kleinlercher / Wikipedia</a>",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 3.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 3.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/3.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-3.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "flickrLicense": null,
+      "flickrSource": null,
+      "sourceWidth": 1920,
+      "sourceHeight": 1280,
+      "sha256": "28d873a19fb1171190f222ca2d2a1b7190374a11e7344ebaad83d78fc2a90c0a",
+      "bytes": 1049960,
+      "processing": "Resized without enlargement to maximum 1800 pixels wide and encoded JPEG quality 92. Responsive display can crop. No generative editing.",
+      "visualReview": "Approved after comparing alternative photographs on 21 October 2026. Explicitly restricted publicity images excluded."
+    },
+    {
+      "guideId": "london-cecil-country-dance",
+      "candidate": "london-country-class",
+      "downloadUrl": "https://www.efdss.org/images/present/Education-adults/2026-ecd.JPG",
+      "commonsMetadata": null,
+      "flickrLicense": null,
+      "flickrSource": "https://www.efdss.org/learning/adults/dance/english-country-dancing",
+      "sourceWidth": 5184,
+      "sourceHeight": 2916,
+      "sha256": "daf3bee2e641968c60343501d2f97214cc5a746e58f1225dd473105bfc1b9d7a",
+      "bytes": 491659,
+      "processing": "Resized without enlargement to maximum 1800 pixels wide and encoded JPEG quality 92. Responsive display can crop. No generative editing.",
+      "visualReview": "Approved after comparing alternative photographs on 21 October 2026. Explicitly restricted publicity images excluded."
+    },
+    {
+      "guideId": "berlin-claerchens-ballroom",
+      "candidate": "Cl-rchens-Spiegelsaal-5",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Cl%C3%A4rchens_Ballhaus%2C_Spiegelsaal04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "commonsMetadata": {
+        "title": "File:Clärchens Ballhaus, Spiegelsaal04.jpg",
+        "size": 1043420,
+        "width": 1166,
+        "height": 778,
+        "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Cl%C3%A4rchens_Ballhaus%2C_Spiegelsaal04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "thumbwidth": 1920,
+        "thumbheight": 1281,
+        "thumbattribs": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Cl%C3%A4rchens_Ballhaus%2C_Spiegelsaal04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1920,
+          "height": 1281
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Cl%C3%A4rchens_Ballhaus%2C_Spiegelsaal04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cl%C3%A4rchens_Ballhaus,_Spiegelsaal04.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=22822321",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2012-11-23 00:30:53",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Clärchens Ballhaus, Spiegelsaal04",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Clärchens Ballhaus|Taken with Canon EOS 400D|Self-published work|Unknown date|Files with coordinates missing SDC location of creation",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "52.526944",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "13.396667",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Clärchens Ballhaus, Spiegelsaal",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "Unknown date",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Nicor\" title=\"User:Nicor\">Nicor</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 3.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 3.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/3.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-3.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "flickrLicense": null,
+      "flickrSource": null,
+      "sourceWidth": 1166,
+      "sourceHeight": 778,
+      "sha256": "504f6ed465e03e7f14bbf130895857e9c74659eaaac6d7b3682661455e3bb6e9",
+      "bytes": 265899,
+      "processing": "Resized without enlargement to maximum 1800 pixels wide and encoded JPEG quality 92. Responsive display can crop. No generative editing.",
+      "visualReview": "Approved after comparing alternative photographs on 21 October 2026. Explicitly restricted publicity images excluded."
+    },
+    {
+      "guideId": "taipei-eye-opera",
+      "candidate": "taipei-eye-opera-0",
+      "downloadUrl": "https://imagedelivery.net/bTInZQYb29eMT89_ikxXTQ/2c322bc9-bc5f-4e52-c96d-e5f18cb53e00/public",
+      "commonsMetadata": null,
+      "flickrLicense": null,
+      "flickrSource": "https://www.taipeieye.com/en/",
+      "sourceWidth": 1219,
+      "sourceHeight": 768,
+      "sha256": "fbd727c2a6fcf55a7bc64290ec8746cc2dc980d02521beebf1cf9a7163178048",
+      "bytes": 166602,
+      "processing": "Resized without enlargement to maximum 1800 pixels wide and encoded JPEG quality 92. Responsive display can crop. No generative editing.",
+      "visualReview": "Approved after comparing alternative photographs on 21 October 2026. Explicitly restricted publicity images excluded."
+    }
+  ]
+}

@@ -1282,12 +1282,14 @@ const additionalRegionNames: Readonly<Record<string, string>> = {
   "united-kingdom/bath": "Bath",
   "united-kingdom/glasgow": "Glasgow",
   "switzerland/baden": "Baden",
+  "switzerland/lucerne": "Lucerne",
   "norway/oslo": "Oslo",
   "france/arcachon-bay": "Arcachon Bay",
   "poland/krakow": "Kraków",
   "italy/rome": "Rome",
   "portugal/serpa": "Serpa",
   "united-states/new-york-city": "New York City",
+  "united-states/san-francisco": "San Francisco",
 };
 
 function regionDisplayName(country: string, region: string, fallback: string) {
