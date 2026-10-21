@@ -1217,6 +1217,10 @@ export const territories = [
 ] as const;
 // Area labels can differ from a guide's specific site. Never let the last guide rename the area.
 const additionalRegionNames: Readonly<Record<string, string>> = {
+  "czechia/ponikla": "Poniklá",
+  "new-zealand/wellington": "Wellington",
+  "belgium/ghent": "Ghent",
+  "canada/montreal": "Montréal",
   "south-africa/west-coast": "West Coast",
   "nepal/kavrepalanchok": "Panauti",
   "peru/sacred-valley": "Sacred Valley",

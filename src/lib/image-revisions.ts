@@ -1,6 +1,24 @@
 /** Content hashes keep replaced photographs consistent across responsive image caches.
  * The media test requires an update when an original file changes. */
 export const imageRevisions: Record<string, string> = {
+  "/images/guides/montreal-jean-talon-market.jpg": "de83ccec5266",
+  "/images/guides/naples-avpn-pizza-day.jpg": "61807240d7d2",
+  "/images/guides/lisbon-conserveira-counter.jpg": "3f8e92d2e224",
+  "/images/guides/ponikla-rautis-bead-ornament.jpg": "4853fcfb0bbb",
+  "/images/guides/prague-truhlar-marionette.jpg": "45475e9602a6",
+  "/images/guides/kyoto-yamamoto-roketsu.jpg": "d948c439bf13",
+  "/images/guides/paris-canauxrama-saint-martin.jpg": "ca6c6ecff2d8",
+  "/images/guides/melbourne-city-circle-tram.jpg": "878c57ace7cc",
+  "/images/guides/wellington-kelburn-cable-car.jpg": "046a69d9f834",
+  "/images/guides/london-leighton-house.jpg": "5a06c7f27adb",
+  "/images/guides/rome-museo-delle-mura.jpg": "52fdfa666994",
+  "/images/guides/berlin-museum-der-dinge.jpg": "4253bcd071cc",
+  "/images/guides/new-york-met-cloisters-pause.jpg": "3f4118f91e25",
+  "/images/guides/lisbon-estufa-fria-pause.jpg": "a00e1d910eec",
+  "/images/guides/copenhagen-glyptotek-winter-garden.jpg": "cddece59e00e",
+  "/images/guides/ghent-sunday-carillon.jpg": "7846057af61f",
+  "/images/guides/dublin-ifi-archive-lunchtime.jpg": "72570bb57677",
+  "/images/guides/amsterdam-bimhuis-concert.jpg": "6aa04e526fae",
   "/images/guides/hanoi-giang-egg-coffee.jpg": "60bcde2262f2",
   "/images/guides/nice-socca-chez-pipo.jpg": "c21b4dc4ece6",
   "/images/guides/vienna-sperl-coffeehouse.jpg": "997a8c04e035",
@@ -341,7 +359,7 @@ export const imageRevisions: Record<string, string> = {
 
 // A single manifest fingerprint fits Next's bounded localPatterns allowlist.
 // Tests require it to change when any original is added or replaced.
-export const imageEdition = "b9ab48f2efb8";
+export const imageEdition = "ea5ce96e029f";
 
 export function imageSource(src: string) {
   return imageRevisions[src] ? `${src}?v=${imageEdition}` : src;

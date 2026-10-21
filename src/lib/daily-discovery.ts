@@ -5,6 +5,7 @@ import { discoveryEdition46 } from "./daily-discovery-batch-46";
 import { discoveryEdition47 } from "./daily-discovery-batch-47";
 import { discoveryEdition48 } from "./daily-discovery-batch-48";
 import { discoveryEdition49 } from "./daily-discovery-batch-49";
+import { discoveryEdition50 } from "./daily-discovery-batch-50";
 
 export type Discovery = {
   date: string;
@@ -1101,9 +1102,13 @@ const futureEdition48 = new Map(
 const futureEdition49 = new Map(
   discoveryEdition49.map((entry) => [entry.date, entry]),
 );
+const futureEdition50 = new Map(
+  discoveryEdition50.map((entry) => [entry.date, entry]),
+);
 export const dailyDiscoveries: readonly Discovery[] =
   scheduledDiscoveryBase.map(
     (entry) =>
+      futureEdition50.get(entry.date) ??
       futureEdition49.get(entry.date) ??
       futureEdition48.get(entry.date) ??
       futureEdition47.get(entry.date) ??

@@ -1,0 +1,370 @@
+{
+  "edition": "2026-10-21",
+  "batch": 50,
+  "trigger": "Manual user request: jos 18",
+  "netNewGuides": 18,
+  "primaryAllocations": {
+    "Eat & drink": 3,
+    "Make": 3,
+    "Move": 3,
+    "Explore & reflect": 3,
+    "Reset": 3,
+    "Shared rituals": 3
+  },
+  "catalogue": {
+    "authoredBefore": 334,
+    "authoredAfter": 352,
+    "eligibleBeforeThisBatchOn21October": 320,
+    "eligibleAfterOn21October": 338,
+    "expiredRecordsRetainedButGated": 14,
+    "authoredCountriesAndTerritories": 109,
+    "newEditionCountriesAndTerritories": 15,
+    "newEditionCitiesAndAreas": 17,
+    "qualification": "Eighteen new public-source records, each counted once. Earlier dates and expired records are preserved. This pass deepens existing destination coverage without claiming eighteen new countries."
+  },
+  "releaseHandling": {
+    "date": "2026-10-21",
+    "guidesOnThisDate": 36,
+    "passesOnThisDate": 2,
+    "previous20OctoberReleaseGuides": 36,
+    "duplicateReleaseDateEntries": false
+  },
+  "method": "The 334-guide catalogue, previous reports, candidate records and Git history were checked. Original desk-guide copy distinguishes the advertised visitor task, context and access from provider marketing. No EA attendance, local validation, provider partnership, booking, purchase, private permission or joint transport is implied.",
+  "sources": {
+    "checkedOn": "2026-10-21",
+    "uniqueUrlsChecked": 62,
+    "directRetrievalSnapshots": 37,
+    "commonsLicenseApiRecords": 16,
+    "officialIndexedContentChecks": 9,
+    "exceptions": [
+      {
+        "url": "https://www.marionety.com/workshop/",
+        "status": 401,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://transport.vic.gov.au/route/timetable/15834",
+        "status": 403,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.visitmelbourne.com/Regions/Melbourne/practical-information/Getting-around.aspx",
+        "status": 403,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.visitvictoria.com/practical-information/getting-here-and-around/public-transport",
+        "status": 403,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.metmuseum.org/plan-your-visit/met-cloisters",
+        "status": 429,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.metmuseum.org/art/collection/search/470314",
+        "status": null,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.metmuseum.org/visit-guides/accessibility-at-the-met-cloisters",
+        "status": null,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.lisboa.pt/pontos-de-interesse/detalhe/estufa-fria-de-lisboa",
+        "status": 403,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://estufafria.lisboa.pt/fileadmin/estufa_fria/explorar/FolhetoApresentacao_EstufaFriaLisboa.pdf",
+        "status": null,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      }
+    ],
+    "scope": "Operator programmes, official transport and tourism institutions, municipal museums, public-market administration and film archives. No access-control bypass, booking, payment, form submission or provider contact occurred. Indexed-source checks are explicitly not labelled successful direct HTTP responses."
+  },
+  "photography": {
+    "realPhotographs": 18,
+    "aiGenerated": 0,
+    "documentedLicences": 16,
+    "officialSourceModerateRisk": 2,
+    "rightsBoundary": "Attribution is not permission. AVPN and Prague City Tourism images retain an explicit not-independently-cleared statement under the existing EA moderate-risk policy. Expressly prohibited Museum der Dinge and Yamamoto imagery was rejected. Open licences, creator, direct source and share-alike obligations are retained for sixteen images.",
+    "provenance": "docs/edition-2026-10-21-second-pass-photo-provenance.json",
+    "imageEdition": "ea5ce96e029f",
+    "creditFormat": "Image: author / source ↗, opening the direct source in a new tab",
+    "visualRefinement": "The first Wellington cityscape lost its cable car in the desktop crop. Final visual review selected Heidi Meudt's December 2025 portrait. Rautis bead painting is explicitly production context, not a visitor painting lesson. Historical Yamamoto tools are not mislabelled as the current brush-based class. The Met architectural object's medieval date is not used as a photographic date."
+  },
+  "integration": {
+    "newLocalChapters": ["Prague", "Montréal"],
+    "authoredLocalChapters": 37,
+    "publicLocalChaptersOn21October": 36,
+    "qualification": "Valencia's chapter remains hidden while one required guide's evidence window is expired. Every chapter still requires its complete sequence.",
+    "newAreaLabels": ["Poniklá", "Wellington", "Ghent"],
+    "normalisedExistingAreaLabel": "Montréal",
+    "futureDailyAngles": 6,
+    "futureDailyDates": "2026-12-08 to 2026-12-13",
+    "previousAuthoredFutureEditionsPreserved": true,
+    "publishedDailyHistoryChanged": false,
+    "surfaces": [
+      "Compass",
+      "country and city filters",
+      "six visitor interests",
+      "editorial fields",
+      "destinations",
+      "collections",
+      "dated new-guide release",
+      "future Daily discovery",
+      "connected experiences",
+      "Passport",
+      "journey planning",
+      "sitemap",
+      "canonical URLs",
+      "Article and ImageObject structured data"
+    ]
+  },
+  "rejectedOrDeferred": [
+    {
+      "candidate": "Istanbul Les Arts Turcs ebru",
+      "reason": "Already published in batch 14. Not repackaged as a new record."
+    },
+    {
+      "candidate": "Rome Centrale Montemartini",
+      "reason": "Already published in batch 21. Replaced by Museo delle Mura, with a distinct visitor role."
+    },
+    {
+      "candidate": "Florence Scuola del Cuoio book-cover class",
+      "reason": "Already published in batch 44. A new title would not constitute a new experience."
+    },
+    {
+      "candidate": "Puppets in Prague as a short current in-person tourist class",
+      "reason": "Current primary in-person offers are long summer 2027 courses, while shorter current programmes found were online. Published the separately verified Marionety Truhlář small-marionette workshop instead."
+    },
+    {
+      "candidate": "Mokuhankan Print Parties",
+      "reason": "Older experience pages conflicted with a current collection-access account describing the former Print Party space as a proposed future gallery. No current public workshop established."
+    },
+    {
+      "candidate": "Ateliers d'Ailleurs Marrakech short zellige class",
+      "reason": "A legacy public three-hour format exists, but old testimonials and dynamically displayed rating windows did not establish current session availability strongly enough for this edition. Deferred, not declared permanently closed."
+    },
+    {
+      "candidate": "London Mail Rail",
+      "reason": "Deferred pending a stronger current public-source reconciliation of ride evacuation, accessibility and ticket conditions. No draft was published from staging-domain content."
+    },
+    {
+      "candidate": "Museum der Dinge and Yamamoto official photographs",
+      "reason": "Express reuse restrictions require permission. Not used. Licensed documentary alternatives retain exact-location and historical-context boundaries."
+    },
+    {
+      "candidate": "Generic Estufa Fria animal and roof-only photographs",
+      "reason": "Did not explain the proposed garden walk. Replaced with a licensed view of the actual planted visitor path."
+    },
+    {
+      "candidate": "Wellington broad cityscape",
+      "reason": "The car disappeared in desktop responsive cropping. Replaced before publication with a newer licensed portrait."
+    },
+    {
+      "candidate": "Conserveira de Lisboa as an on-site tasting or cannery tour",
+      "reason": "Not established by the public evidence. Published only an ordinary counter purchase for a later meal."
+    },
+    {
+      "candidate": "Free daily IFI film at a fixed lunchtime",
+      "reason": "Current October sessions have different times and require a ticket. Short review window ends 27 October, with no invented future-month programme."
+    }
+  ],
+  "verification": {
+    "unitTests": {
+      "passed": 122,
+      "failed": 0,
+      "log": "work/ea-50-tests-final.txt"
+    },
+    "typescript": "Passed with no diagnostics",
+    "productionBuild": "Passed",
+    "localRouteSmoke": {
+      "checkedPages": 705,
+      "unpublishedPaths": 32,
+      "uniqueCspNonces": 684,
+      "failures": 0
+    },
+    "localBrowser": {
+      "routeViewportChecks": 118,
+      "viewports": [390, 1440],
+      "accessibility": "No automated WCAG A/AA violations on inspected pages",
+      "brokenImages": 0,
+      "horizontalOverflow": 0,
+      "runtimeErrors": 0,
+      "analytics": "No Google tag before consent; tests explicitly deny consent",
+      "additionalChapterChecks": 4
+    },
+    "localInteractions": {
+      "checks": 14,
+      "scope": "Country and city filters, new Prague guide, photo modal and focus restoration, Passport save, journey addition and persistence, keyboard skip link, consent gate"
+    },
+    "newGuideProof": {
+      "passed": 18,
+      "rawImageSha256Matches": 18,
+      "optimizedWebpResponses": 18,
+      "expiredGuidesExcluded": 14
+    },
+    "gitDiffCheck": "Passed",
+    "visualReview": "All eighteen new guide openings inspected at desktop and mobile sizes. Home, New, Today and the complementary chapter surfaces checked. One lead photograph replaced after visual review.",
+    "production": "Pending commit and push. Public verification must be recorded after the exact Vercel deployment in work/ea-2026-10-21-second-pass-final-production-verification.json. This document does not claim a completed deployment."
+  },
+  "guides": [
+    {
+      "primaryArea": "Eat & drink",
+      "slug": "build-a-montreal-lunch-at-jean-talon-market",
+      "url": "https://experienceauthority.com/experiences/build-a-montreal-lunch-at-jean-talon-market",
+      "title": "Build a Montréal lunch at Jean-Talon Market",
+      "eaValue": "Choose a few things to eat in Little Italy and let the labels, seasons and stallholders complicate your first idea of Québec.",
+      "reviewBy": "2026-12-21"
+    },
+    {
+      "primaryArea": "Eat & drink",
+      "slug": "stretch-the-dough-before-tasting-naples",
+      "url": "https://experienceauthority.com/experiences/stretch-the-dough-before-tasting-naples",
+      "title": "Stretch the dough before tasting Naples",
+      "eaValue": "Mix, stretch and dress pizza at AVPN's Naples school, then sit down to understand what your hands just attempted.",
+      "reviewBy": "2026-11-21"
+    },
+    {
+      "primaryArea": "Eat & drink",
+      "slug": "choose-lisbon-by-the-fish-inside-the-tin",
+      "url": "https://experienceauthority.com/experiences/choose-lisbon-by-the-fish-inside-the-tin",
+      "title": "Choose Lisbon by the fish inside the tin",
+      "eaValue": "Visit Conserveira de Lisboa's counter and choose by species and preparation before choosing by the wrapper.",
+      "reviewBy": "2026-11-21"
+    },
+    {
+      "primaryArea": "Make",
+      "slug": "turn-loose-glass-beads-into-a-ponikla-ornament",
+      "url": "https://experienceauthority.com/experiences/turn-loose-glass-beads-into-a-ponikla-ornament",
+      "title": "Turn loose glass beads into a Poniklá ornament",
+      "eaValue": "Watch how hollow beads are made at Rautis, then assemble a small ornament from prepared pieces in its public creative workshop.",
+      "reviewBy": "2026-12-21"
+    },
+    {
+      "primaryArea": "Make",
+      "slug": "give-a-prague-marionette-its-first-movement",
+      "url": "https://experienceauthority.com/experiences/give-a-prague-marionette-its-first-movement",
+      "title": "Give a Prague marionette its first movement",
+      "eaValue": "Build a character from prepared wooden parts at Marionety Truhlář, then discover what changes when it hangs from strings.",
+      "reviewBy": "2026-11-21"
+    },
+    {
+      "primaryArea": "Make",
+      "slug": "draw-kyoto-in-wax-before-the-indigo-arrives",
+      "url": "https://experienceauthority.com/experiences/draw-kyoto-in-wax-before-the-indigo-arrives",
+      "title": "Draw Kyoto in wax before the indigo arrives",
+      "eaValue": "Trace a design with hot wax at Yamamoto's Kyoto studio and follow what the dye leaves white.",
+      "reviewBy": "2026-12-21"
+    },
+    {
+      "primaryArea": "Move",
+      "slug": "let-paris-rise-around-a-canal-boat",
+      "url": "https://experienceauthority.com/experiences/let-paris-rise-around-a-canal-boat",
+      "title": "Let Paris rise around a canal boat",
+      "eaValue": "Travel through the Canal Saint-Martin's locks and covered Bastille section, where the city changes height around you.",
+      "reviewBy": "2026-12-21"
+    },
+    {
+      "primaryArea": "Move",
+      "slug": "read-melbourne-from-a-city-circle-tram",
+      "url": "https://experienceauthority.com/experiences/read-melbourne-from-a-city-circle-tram",
+      "title": "Read Melbourne from a City Circle tram",
+      "eaValue": "Use the free heritage Route 35 to connect street names, corners and landmarks at the pace of an ordinary tram ride.",
+      "reviewBy": "2026-11-21"
+    },
+    {
+      "primaryArea": "Move",
+      "slug": "rise-above-wellington-in-a-working-cable-car",
+      "url": "https://experienceauthority.com/experiences/rise-above-wellington-in-a-working-cable-car",
+      "title": "Rise above Wellington in a working cable car",
+      "eaValue": "Climb from Lambton Quay to Kelburn in a few minutes, then let the harbour view explain the hill you just travelled.",
+      "reviewBy": "2026-12-21"
+    },
+    {
+      "primaryArea": "Explore & reflect",
+      "slug": "find-a-victorian-painters-world-behind-a-london-door",
+      "url": "https://experienceauthority.com/experiences/find-a-victorian-painters-world-behind-a-london-door",
+      "title": "Find a Victorian painter's world behind a London door",
+      "eaValue": "Enter Leighton House and move from a London street into a home built around an artist's work and collected objects.",
+      "reviewBy": "2026-12-21"
+    },
+    {
+      "primaryArea": "Explore & reflect",
+      "slug": "look-out-from-inside-romes-city-wall",
+      "url": "https://experienceauthority.com/experiences/look-out-from-inside-romes-city-wall",
+      "title": "Look out from inside Rome's city wall",
+      "eaValue": "Enter the Museo delle Mura at Porta San Sebastiano and discover a city boundary from the space within it.",
+      "reviewBy": "2026-11-21"
+    },
+    {
+      "primaryArea": "Explore & reflect",
+      "slug": "meet-berlin-in-a-cabinet-of-ordinary-things",
+      "url": "https://experienceauthority.com/experiences/meet-berlin-in-a-cabinet-of-ordinary-things",
+      "title": "Meet Berlin in a cabinet of ordinary things",
+      "eaValue": "Look through the Museum der Dinge's open storage and give a familiar household object more attention than its designer expected.",
+      "reviewBy": "2026-12-21"
+    },
+    {
+      "primaryArea": "Reset",
+      "slug": "find-a-manhattan-pause-between-medieval-columns",
+      "url": "https://experienceauthority.com/experiences/find-a-manhattan-pause-between-medieval-columns",
+      "title": "Find a Manhattan pause between medieval columns",
+      "eaValue": "Head to The Met Cloisters in Upper Manhattan and let a courtyard change the pace of a museum visit.",
+      "reviewBy": "2026-12-21"
+    },
+    {
+      "primaryArea": "Reset",
+      "slug": "walk-into-lisbons-unheated-garden",
+      "url": "https://experienceauthority.com/experiences/walk-into-lisbons-unheated-garden",
+      "title": "Walk into Lisbon's unheated garden",
+      "eaValue": "Step from Parque Eduardo VII into Estufa Fria and follow filtered light through a different kind of city garden.",
+      "reviewBy": "2026-11-21"
+    },
+    {
+      "primaryArea": "Reset",
+      "slug": "give-copenhagen-an-hour-beneath-the-winter-garden-dome",
+      "url": "https://experienceauthority.com/experiences/give-copenhagen-an-hour-beneath-the-winter-garden-dome",
+      "title": "Give Copenhagen an hour beneath the winter-garden dome",
+      "eaValue": "Include the Glyptotek's palm-filled Winter Garden in a museum visit and make a deliberate pause part of looking at art.",
+      "reviewBy": "2026-12-21"
+    },
+    {
+      "primaryArea": "Shared rituals",
+      "slug": "hear-ghent-played-from-above-the-square",
+      "url": "https://experienceauthority.com/experiences/hear-ghent-played-from-above-the-square",
+      "title": "Hear Ghent played from above the square",
+      "eaValue": "Be near the Belfry on Sunday morning and listen for a live player in a sound that usually seems to belong to the city itself.",
+      "reviewBy": "2026-11-21"
+    },
+    {
+      "primaryArea": "Shared rituals",
+      "slug": "let-an-archive-film-interrupt-a-dublin-lunchtime",
+      "url": "https://experienceauthority.com/experiences/let-an-archive-film-interrupt-a-dublin-lunchtime",
+      "title": "Let an archive film interrupt a Dublin lunchtime",
+      "eaValue": "Take a public cinema seat at the Irish Film Institute and give a short archival programme part of your Temple Bar afternoon.",
+      "reviewBy": "2026-10-27"
+    },
+    {
+      "primaryArea": "Shared rituals",
+      "slug": "give-amsterdam-a-seat-beside-the-jazz-stage",
+      "url": "https://experienceauthority.com/experiences/give-amsterdam-a-seat-beside-the-jazz-stage",
+      "title": "Give Amsterdam a seat beside the jazz stage",
+      "eaValue": "Choose a live BIMHUIS concert by what you want to hear and let the room become an evening's destination.",
+      "reviewBy": "2026-11-04"
+    }
+  ]
+}

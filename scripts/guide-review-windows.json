@@ -1,4 +1,112 @@
 {
+  "/experiences/build-a-montreal-lunch-at-jean-talon-market": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "canada",
+    "regionSlug": "montreal"
+  },
+  "/experiences/stretch-the-dough-before-tasting-naples": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-11-21",
+    "countrySlug": "italy",
+    "regionSlug": "naples"
+  },
+  "/experiences/choose-lisbon-by-the-fish-inside-the-tin": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-11-21",
+    "countrySlug": "portugal",
+    "regionSlug": "lisbon"
+  },
+  "/experiences/turn-loose-glass-beads-into-a-ponikla-ornament": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "czechia",
+    "regionSlug": "ponikla"
+  },
+  "/experiences/give-a-prague-marionette-its-first-movement": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-11-21",
+    "countrySlug": "czechia",
+    "regionSlug": "prague"
+  },
+  "/experiences/draw-kyoto-in-wax-before-the-indigo-arrives": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "japan",
+    "regionSlug": "kyoto"
+  },
+  "/experiences/let-paris-rise-around-a-canal-boat": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "france",
+    "regionSlug": "paris"
+  },
+  "/experiences/read-melbourne-from-a-city-circle-tram": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-11-21",
+    "countrySlug": "australia",
+    "regionSlug": "melbourne"
+  },
+  "/experiences/rise-above-wellington-in-a-working-cable-car": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "new-zealand",
+    "regionSlug": "wellington"
+  },
+  "/experiences/find-a-victorian-painters-world-behind-a-london-door": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "london"
+  },
+  "/experiences/look-out-from-inside-romes-city-wall": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-11-21",
+    "countrySlug": "italy",
+    "regionSlug": "rome"
+  },
+  "/experiences/meet-berlin-in-a-cabinet-of-ordinary-things": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "germany",
+    "regionSlug": "berlin"
+  },
+  "/experiences/find-a-manhattan-pause-between-medieval-columns": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "united-states",
+    "regionSlug": "new-york-city"
+  },
+  "/experiences/walk-into-lisbons-unheated-garden": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-11-21",
+    "countrySlug": "portugal",
+    "regionSlug": "lisbon"
+  },
+  "/experiences/give-copenhagen-an-hour-beneath-the-winter-garden-dome": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "denmark",
+    "regionSlug": "copenhagen"
+  },
+  "/experiences/hear-ghent-played-from-above-the-square": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-11-21",
+    "countrySlug": "belgium",
+    "regionSlug": "ghent"
+  },
+  "/experiences/let-an-archive-film-interrupt-a-dublin-lunchtime": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-10-27",
+    "countrySlug": "ireland",
+    "regionSlug": "dublin"
+  },
+  "/experiences/give-amsterdam-a-seat-beside-the-jazz-stage": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-11-04",
+    "countrySlug": "netherlands",
+    "regionSlug": "amsterdam"
+  },
   "/experiences/find-hanois-coffee-beneath-the-egg-cream": {
     "availableFrom": "2026-10-21",
     "reviewBy": "2026-12-21",

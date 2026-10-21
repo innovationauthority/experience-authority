@@ -42,8 +42,8 @@ test("Arcachon stays a bay-wide chapter regardless of guide order or a more spec
   }
 });
 
-test("guide set contains 334 distinct, sourced public experiences, not Selected or demo records", () => {
-  assert.equal(publicGuides.length, 334);
+test("guide set contains 352 distinct, sourced public experiences, not Selected or demo records", () => {
+  assert.equal(publicGuides.length, 352);
   assert.equal(
     new Set(publicGuides.map((p) => p.id)).size,
     publicGuides.length,
@@ -286,7 +286,7 @@ test("New York connects a recognisable food with living production and a difficu
       guide.countrySlug === "united-states" &&
       guide.regionSlug === "new-york-city",
   );
-  assert.equal(newYork.length, 6);
+  assert.equal(newYork.length, 7);
   assert.deepEqual([...new Set(newYork.map((guide) => guide.field))].sort(), [
     "gather",
     "move",
@@ -313,8 +313,9 @@ test("Rome moves from a familiar food to ancient infrastructure and an unexpecte
   const rome = publicGuides.filter(
     (guide) => guide.countrySlug === "italy" && guide.regionSlug === "rome",
   );
-  assert.equal(rome.length, 4);
+  assert.equal(rome.length, 5);
   assert.deepEqual([...new Set(rome.map((guide) => guide.field))].sort(), [
+    "learn",
     "move",
     "restore",
     "taste",
@@ -336,8 +337,9 @@ test("London connects a recognisable market with production work and hidden infr
     (guide) =>
       guide.countrySlug === "united-kingdom" && guide.regionSlug === "london",
   );
-  assert.equal(london.length, 8);
+  assert.equal(london.length, 9);
   assert.deepEqual([...new Set(london.map((guide) => guide.field))].sort(), [
+    "learn",
     "make",
     "move",
     "restore",
@@ -363,10 +365,11 @@ test("Paris offers a recognisable entry, a living craft and hidden city work", (
   const paris = publicGuides.filter(
     (guide) => guide.countrySlug === "france" && guide.regionSlug === "paris",
   );
-  assert.equal(paris.length, 8);
+  assert.equal(paris.length, 9);
   assert.deepEqual([...new Set(paris.map((guide) => guide.field))].sort(), [
     "gather",
     "learn",
+    "move",
     "restore",
     "taste",
     "witness",

@@ -16,6 +16,59 @@ export type CityChapter = {
 /** Authored local combinations. These are ideas to adapt, not timed or bookable packages. */
 export const cityChapters: readonly CityChapter[] = [
   {
+    slug: "prague",
+    name: "Prague",
+    country: "czechia",
+    regions: ["prague"],
+    title: "Give the object movement. Read the movement's history.",
+    intro:
+      "A short glassblowing encounter, a small-marionette workshop and Tyrš House's account of the Sokol movement offer three different kinds of Prague attention. Choose one making task, then give the history visit its own time. Two workshops do not need to compete for the same afternoon.",
+    pace: "One confirmed making session and a separately planned heritage visit across a stay.",
+    planning:
+      "PRAGL's hot-shop session and Marionety Truhlář's three-to-four-hour puppet workshop are separate businesses. The glass object needs cooling and later collection. The marionette uses prepared wooden parts, not a raw-block carving course. Confirm ages, tools, language, actual venue and access for each. Tyrš House has a separate public visitor route and current programme check. Admission does not promise a Sokol class or participation in a members' session. These stops are not a continuous walking route, combined workshop, shared ticket or EA package. Do not force all three into one day.",
+    stops: [
+      {
+        slug: "give-molten-glass-your-first-breath",
+        moment: "At a booked hot-shop session, work with a changing material",
+        why: "The glassmaker controls the heat while a visitor makes a brief supervised contribution. Plan later collection rather than assuming a hot object can leave immediately.",
+      },
+      {
+        slug: "give-a-prague-marionette-its-first-movement",
+        moment: "On another appointment, build a character that can move",
+        why: "Prepared components make a three-to-four-hour introduction possible. The result is a first assembly, not a compressed carving apprenticeship.",
+      },
+      {
+        slug: "read-prague-through-a-movement",
+        moment: "Give a historical movement its own context",
+        why: "Tyrš House offers a public way into Sokol's history. Seeing the place is not permission to join a private training session or claim a present-day performance.",
+      },
+    ],
+  },
+  {
+    slug: "montreal",
+    name: "Montréal",
+    country: "canada",
+    regions: ["montreal"],
+    title: "Let the market choose a meal. Let the canal set a pace.",
+    intro:
+      "Jean-Talon Market and a manageable Lachine Canal ride offer contrasting parts of Montréal. Shopping brings the day down to ingredients and conversations. Cycling makes the city's distance, water and former industrial edges physical. They are separate outings to adapt, not an invented market-to-canal route.",
+    pace: "A flexible market meal and, on another suitable part of the stay, a weather-appropriate canal ride.",
+    planning:
+      "Jean-Talon is in Little Italy, not beside the proposed Lachine Canal cycling segment. Plan travel between areas separately. Buy only the food you can safely carry and store, and do not assume every ingredient is from Québec or that samples are included. The canal needs a suitable bicycle, lawful cycling surfaces, current Parks Canada notices and an exit or turnaround suited to the rider. October market-wall work, colder conditions and winter surface changes affect the two outings differently. No picnic delivery, bicycle hire, transfer, continuous itinerary or combined booking is supplied.",
+    stops: [
+      {
+        slug: "build-a-montreal-lunch-at-jean-talon-market",
+        moment: "Make the first choice at a working food counter",
+        why: "A small meal becomes a way to compare origins, seasons and preparation. The market remains an ordinary shopping place, not a guaranteed tasting tour.",
+      },
+      {
+        slug: "read-montreal-between-the-canal-locks",
+        moment: "On a suitable separate outing, follow the canal's pace",
+        why: "A manageable ride gives water and former infrastructure a place in the visit. Check bicycle access and conditions, rather than assuming navigation season means a clear winter path.",
+      },
+    ],
+  },
+  {
     slug: "berlin",
     name: "Berlin",
     country: "germany",
