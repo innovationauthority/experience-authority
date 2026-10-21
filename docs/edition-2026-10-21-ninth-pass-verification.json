@@ -1,0 +1,964 @@
+{
+  "edition": "2026-10-21",
+  "batch": 57,
+  "trigger": "Manual user request: another 18, resumed after interruption",
+  "checkedAt": "2026-10-21T23:07:22.283Z",
+  "dateBasis": "Catalogue publication and source-check dates follow the existing UTC contract. The user-facing local date is 22 October in Europe/Zagreb.",
+  "netNewGuides": 18,
+  "primaryAllocations": {
+    "eat-drink": 3,
+    "make-learn": 3,
+    "move-water": 3,
+    "explore-reflect": 3,
+    "swim-reset": 3,
+    "shared-rituals": 3
+  },
+  "catalogue": {
+    "authoredBefore": 460,
+    "authoredAfter": 478,
+    "eligibleBefore": 446,
+    "eligibleAfter": 464,
+    "expiredRetainedAndGated": 14,
+    "authoredCountries": 110,
+    "eligibleCountries": 109,
+    "batchCountries": 11,
+    "batchPlaces": 16
+  },
+  "release": {
+    "date": "2026-10-21",
+    "guides": 162,
+    "passes": 9,
+    "duplicateDateEntries": false
+  },
+  "method": "Original public-source desk guides. Catalogue, rejected candidates and prior releases checked for duplicate programmes. Not on-site reviews, local validation, partnerships or EA bookings. No contact, private permission request or purchase made.",
+  "sources": {
+    "checkedOn": "2026-10-21",
+    "count": 50,
+    "results": [
+      {
+        "url": "https://www.konnopke-imbiss.de/en",
+        "status": 200,
+        "finalUrl": "https://www.konnopke-imbiss.de/en",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.visitberlin.de/en/konnopke",
+        "status": 200,
+        "finalUrl": "https://www.visitberlin.de/en/konnopke",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.manze.co.uk/",
+        "status": 200,
+        "finalUrl": "https://www.manze.co.uk/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.manze.co.uk/opening-times",
+        "status": 200,
+        "finalUrl": "https://www.manze.co.uk/opening-times/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.caffesicilia.it/",
+        "status": 200,
+        "finalUrl": "https://www.caffesicilia.it/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.caffesicilia.it/wp-content/uploads/2026/10/31-menu-A5.pdf",
+        "status": 200,
+        "finalUrl": "https://www.caffesicilia.it/wp-content/uploads/2026/10/31-menu-A5.pdf",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://hwiho.imweb.me/Class",
+        "status": 200,
+        "finalUrl": "https://hwiho.imweb.me/Class",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://hwiho.imweb.me/Reservation",
+        "status": 200,
+        "finalUrl": "https://hwiho.imweb.me/Reservation",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://tabooworkshop.com/",
+        "status": 200,
+        "finalUrl": "https://tabooworkshop.com/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://hoiancreativecity.com/en/taboo-bamboo-workshop-hoi-an",
+        "status": 200,
+        "finalUrl": "https://hoiancreativecity.com/en/taboo-bamboo-workshop-hoi-an",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://kokomosaico.com/en/courses/two-hour-mosaic-workshop-ravenna",
+        "status": 200,
+        "finalUrl": "https://kokomosaico.com/en/courses/two-hour-mosaic-workshop-ravenna",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://kokomosaico.com/en/courses/calendar",
+        "status": 200,
+        "finalUrl": "https://kokomosaico.com/en/courses/calendar",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.ravennacittadelmosaico.it/en/activity/tour-short-class-of-mosaic-in-ravenna/",
+        "status": 200,
+        "finalUrl": "https://www.ravennacittadelmosaico.it/en/activity/tour-short-class-of-mosaic-in-ravenna/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.rioc.ny.gov/community/transportation/tram",
+        "status": 200,
+        "finalUrl": "https://www.rioc.ny.gov/community/transportation/tram",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://portal.311.nyc.gov/article/?kanumber=KA-01618",
+        "status": 200,
+        "finalUrl": "https://portal.311.nyc.gov/article/?kanumber=KA-01618",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://www.nparks.gov.sg/visit/parks/central-catchment-nature-reserve/activities/hiking-nature-walk",
+        "status": 200,
+        "finalUrl": "https://www.nparks.gov.sg/visit/parks/central-catchment-nature-reserve/activities/hiking-nature-walk",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.nparks.gov.sg/visit/parks/central-catchment-nature-reserve",
+        "status": 200,
+        "finalUrl": "https://www.nparks.gov.sg/visit/parks/park-detail/central-catchment-nature-reserve",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://www.bondinho.com.br/pt",
+        "status": 200,
+        "finalUrl": "https://www.bondinho.com.br/pt",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://bondinho.com.br/perguntas-frequentes",
+        "status": 200,
+        "finalUrl": "https://bondinho.com.br/perguntas-frequentes",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.camera-obscura.co.uk/attractions/the-camera-obscura",
+        "status": 200,
+        "finalUrl": "https://www.camera-obscura.co.uk/attractions/the-camera-obscura/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.camera-obscura.co.uk/accessibility/",
+        "status": 200,
+        "finalUrl": "https://www.camera-obscura.co.uk/accessibility/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://opificiodellepietredure.cultura.gov.it/museo/biglietti/",
+        "status": null,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://opificiodellepietredure.cultura.gov.it/",
+        "status": null,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.valencia.es/es/-/infociudad-la-lonja-y-consulado-del-mar",
+        "status": 200,
+        "finalUrl": "https://www.valencia.es/es/-/infociudad-la-lonja-y-consulado-del-mar",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.visitvalencia.com/en/what-to-do-valencia/valencian-culture/monuments-in-valencia/lonja-silk-exchange",
+        "status": 200,
+        "finalUrl": "https://www.visitvalencia.com/en/what-to-do-valencia/valencian-culture/monuments-in-valencia/lonja-silk-exchange",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://garfieldconservatory.org/visit/",
+        "status": 403,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://garfieldconservatory.org/gardens/indoor-gardens/",
+        "status": null,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.drneilsgarden.co.uk/visit-the-garden",
+        "status": 200,
+        "finalUrl": "https://www.drneilsgarden.co.uk/visit-the-garden",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.drneilsgarden.co.uk/planning-your-visit",
+        "status": 200,
+        "finalUrl": "https://www.drneilsgarden.co.uk/planning-your-visit",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://shunkoin.com/archives/842",
+        "status": 200,
+        "finalUrl": "https://shunkoin.com/archives/842",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://shunkoin.com/en",
+        "status": 200,
+        "finalUrl": "https://shunkoin.com/en",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.ntj.jac.go.jp/en/theatre/noh/",
+        "status": 503,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.ntj.jac.go.jp/schedule/nou/2026/85030/?lan=e",
+        "status": 503,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.ntj.jac.go.jp/en/your_visit/faqs/",
+        "status": 503,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.barefootbowling.com.au/barefoot-bowls",
+        "status": 200,
+        "finalUrl": "https://www.barefootbowling.com.au/barefoot-bowls",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.barefootbowling.com.au/faq",
+        "status": 200,
+        "finalUrl": "https://www.barefootbowling.com.au/faq",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://greenmilljazz.com/calendar/",
+        "status": 200,
+        "finalUrl": "https://greenmilljazz.com/calendar/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://greenmilljazz.com/faqs/",
+        "status": 200,
+        "finalUrl": "https://greenmilljazz.com/faqs/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Curry_rot-wei%C3%9F_von_Konnopke%27s_Imbiss_(120FAITH_4206).jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Curry_rot-wei%C3%9F_von_Konnopke%27s_Imbiss_(120FAITH_4206).jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Pie_mash_and_liquor_Manze_Bermondsey.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 3.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Pie_mash_and_liquor_Manze_Bermondsey.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Roosevelt_Island_Tramway_half-way_view_towards_Manhattan,_2021-10-01.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Roosevelt_Island_Tramway_half-way_view_towards_Manhattan,_2021-10-01.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Tree_Top_Walk,_Singapore.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 3.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Tree_Top_Walk,_Singapore.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Sugarloaf_Cable_Car_viewed_from_Rio_de_Janeiro,_Brazil.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Sugarloaf_Cable_Car_viewed_from_Rio_de_Janeiro,_Brazil.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Opificio_delle_pietre_dure,_antichi_macchinari_e_campionario_04.JPG",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY 3.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Opificio_delle_pietre_dure,_antichi_macchinari_e_campionario_04.JPG",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Lonja_de_la_Seda_de_Valencia.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 2.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Lonja_de_la_Seda_de_Valencia.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Garfield_Park_Conservatory,_Palm_House,_Chicago,_IL.JPG",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 3.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Garfield_Park_Conservatory,_Palm_House,_Chicago,_IL.JPG",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Dr_Neil%27s_Garden_-_geograph.org.uk_-_7785878.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 2.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Dr_Neil%27s_Garden_-_geograph.org.uk_-_7785878.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:National-Noh-Theater-01.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 3.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:National-Noh-Theater-01.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://www.barefootbowling.com.au/",
+        "status": 200,
+        "finalUrl": "https://www.barefootbowling.com.au/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Thaddeus_Tukes_at_the_Green_Mill_Cocktail_Lounge.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-21",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Thaddeus_Tukes_at_the_Green_Mill_Cocktail_Lounge.jpg",
+        "status": 200
+      }
+    ]
+  },
+  "photographs": {
+    "total": 18,
+    "documentedLicences": 11,
+    "officialSourceEditorialReuse": 7,
+    "aiGenerated": 0,
+    "note": "Official-source reuse follows the existing owner-approved moderate-risk policy. Attribution is not permission and independent reuse clearance is not claimed. All images inspected, identified and credited with direct source links. Low-resolution promotional banners, unrelated Manze shops, Almoina cathedral images and beginner-inappropriate workshop outcomes rejected."
+  },
+  "rejectedOrDeferred": [
+    {
+      "candidate": "Valencia L’Almoina archaeological museum",
+      "reason": "Current municipal listing states temporary closure for waterproofing and improvement works. Older open-hours listings are insufficient.",
+      "source": "https://www.valencia.es/cas/infociudad/-/asset_publisher/DFHqZCbLF0Iv/content/infociudad-l-almoina-centro-arqueologico"
+    },
+    {
+      "candidate": "Jacobo and María Ángeles short painting workshop",
+      "reason": "The old visitor page is unavailable. Current site establishes guided visits and longer teaching but not the proposed short painting format. Replaced with a documented two-hour Ravenna course."
+    },
+    {
+      "candidate": "Treorchy male choir rehearsal",
+      "reason": "Visitor access, recruitment sessions and rehearsal schedules could not be reconciled sufficiently for an ordinary public visit without further contact."
+    },
+    {
+      "candidate": "Istanbul Basilica Cistern",
+      "reason": "Conflicting current operator information and misleading unofficial ticket sites left the access route insufficiently clear in this pass."
+    },
+    {
+      "candidate": "Florence Il Papiro, Hong Kong Star Ferry and Wellington Cable Car",
+      "reason": "Already represented in the catalogue. Not counted as new experiences."
+    }
+  ],
+  "evidenceCorrections": [
+    "The café homepage links the October 2026 menu, not the now-404 March menu. Page 10 checked visually and in text for almond granita, separate tasting servings and table-service surcharge.",
+    "Garfield entry is ticketed. Resident eligibility is not a universal free-entry offer, and the Fern Room is not wheelchair accessible.",
+    "HWIHO one-day decoration is distinct from regular traditional lacquer training. A bilingual website does not guarantee English teaching.",
+    "La Llotja is distinct from the existing Silk Museum guide. Tower booking is separate and the conflicting schedules are not promised.",
+    "National Noh subtitle support is programme-specific. Shunkoin and the Noh guide have shorter dated review windows.",
+    "Daily discovery remains at 128 existing entries rather than scheduling new material beyond its evidence-review window."
+  ],
+  "guides": [
+    {
+      "area": "eat-drink",
+      "id": "berlin-konnopke-currywurst",
+      "title": "Eat currywurst beneath Berlin's elevated railway",
+      "url": "https://experienceauthority.com/experiences/eat-currywurst-beneath-berlins-elevated-railway",
+      "eaValue": "An ordinary takeaway becomes a small lesson in how Berlin fits food and movement together.",
+      "sources": [
+        {
+          "title": "Konnopke's: menu, location and opening",
+          "url": "https://www.konnopke-imbiss.de/en",
+          "note": "Primary information for the current kiosk and family history."
+        },
+        {
+          "title": "Visit Berlin: Konnopke's",
+          "url": "https://www.visitberlin.de/en/konnopke",
+          "note": "Destination authority corroboration of the railway setting and public food stop."
+        }
+      ],
+      "reviewBy": "2027-01-18"
+    },
+    {
+      "area": "eat-drink",
+      "id": "london-manze-pie-mash",
+      "title": "Learn what liquor means at a London pie shop",
+      "url": "https://experienceauthority.com/experiences/learn-what-liquor-means-at-a-london-pie-shop",
+      "eaValue": "A local staple becomes more interesting when its history includes arrivals as well as continuity.",
+      "sources": [
+        {
+          "title": "M. Manze: food and shop history",
+          "url": "https://www.manze.co.uk/",
+          "note": "Primary descriptions of pie, mash, parsley liquor and the Tower Bridge Road branch."
+        },
+        {
+          "title": "M. Manze: branch opening times",
+          "url": "https://www.manze.co.uk/opening-times",
+          "note": "Check the specific branch rather than online delivery availability."
+        }
+      ],
+      "reviewBy": "2027-01-18"
+    },
+    {
+      "area": "eat-drink",
+      "id": "noto-sicilia-almond-granita",
+      "title": "Taste almond as granita in Noto",
+      "url": "https://experienceauthority.com/experiences/taste-almond-as-granita-in-noto",
+      "eaValue": "A familiar nut becomes something you notice through temperature and texture rather than crunch.",
+      "sources": [
+        {
+          "title": "Caffè Sicilia: location and café",
+          "url": "https://www.caffesicilia.it/",
+          "note": "Primary café information and source of the documentary product photograph."
+        },
+        {
+          "title": "Caffè Sicilia: current published menu",
+          "url": "https://www.caffesicilia.it/wp-content/uploads/2026/10/31-menu-A5.pdf",
+          "note": "Lists almond granita, serving formats, brioche and table-service charge. Availability must be checked on the day."
+        }
+      ],
+      "reviewBy": "2027-01-18"
+    },
+    {
+      "area": "make-learn",
+      "id": "seoul-hwiho-mother-of-pearl",
+      "title": "Arrange mother-of-pearl into a small Seoul object",
+      "url": "https://experienceauthority.com/experiences/arrange-mother-of-pearl-into-a-small-seoul-object",
+      "eaValue": "The decoration changes even when your design stays still, because the light becomes part of the surface.",
+      "sources": [
+        {
+          "title": "HWIHO: one-day and regular classes",
+          "url": "https://hwiho.imweb.me/Class",
+          "note": "Distinguishes small-object decoration from regular traditional craft teaching."
+        },
+        {
+          "title": "HWIHO: reservations and contact",
+          "url": "https://hwiho.imweb.me/Reservation",
+          "note": "Primary route to confirm a class, language and fourth-floor access."
+        }
+      ],
+      "reviewBy": "2027-01-18"
+    },
+    {
+      "area": "make-learn",
+      "id": "hoi-an-taboo-bamboo",
+      "title": "Make a small bamboo object in Hội An",
+      "url": "https://experienceauthority.com/experiences/make-a-small-bamboo-object-in-hoi-an",
+      "eaValue": "Bamboo stops being a decorative shorthand for place and becomes a material with limits, joints and possibilities.",
+      "sources": [
+        {
+          "title": "Taboo Bamboo Workshop: official site",
+          "url": "https://tabooworkshop.com/",
+          "note": "Primary craft business, Cẩm Thanh location and booking contact."
+        },
+        {
+          "title": "Hội An Creative City: Taboo Bamboo Workshop",
+          "url": "https://hoiancreativecity.com/en/taboo-bamboo-workshop-hoi-an",
+          "note": "Municipal creative-city account of hands-on visitor participation and documentary workshop photographs."
+        }
+      ],
+      "reviewBy": "2027-01-18"
+    },
+    {
+      "area": "make-learn",
+      "id": "ravenna-koko-mosaic",
+      "title": "Set a small mosaic in Ravenna",
+      "url": "https://experienceauthority.com/experiences/set-a-small-mosaic-in-ravenna",
+      "eaValue": "A mosaic becomes a sequence of placements rather than a picture made from anonymous little squares.",
+      "sources": [
+        {
+          "title": "Koko Mosaico: two-hour course",
+          "url": "https://kokomosaico.com/en/courses/two-hour-mosaic-workshop-ravenna",
+          "note": "Primary description of materials, method, duration and approximate project size."
+        },
+        {
+          "title": "Koko Mosaico: current course calendar",
+          "url": "https://kokomosaico.com/en/courses/calendar",
+          "note": "Short courses are by appointment, distinct from dated intensive courses."
+        },
+        {
+          "title": "Ravenna Città del Mosaico: public short class",
+          "url": "https://www.ravennacittadelmosaico.it/en/activity/tour-short-class-of-mosaic-in-ravenna/",
+          "note": "Destination listing corroborates visitor access, address and Italian or English teaching. Confirm the booked language."
+        }
+      ],
+      "reviewBy": "2027-01-18"
+    },
+    {
+      "area": "move-water",
+      "id": "new-york-roosevelt-island-tram",
+      "title": "Cross the East River above the traffic",
+      "url": "https://experienceauthority.com/experiences/cross-the-east-river-above-the-traffic",
+      "eaValue": "A skyline becomes something you move through on the way to an inhabited island.",
+      "sources": [
+        {
+          "title": "RIOC: tram information",
+          "url": "https://www.rioc.ny.gov/community/transportation/tram",
+          "note": "Current official route, payment, schedule and accessibility information."
+        },
+        {
+          "title": "NYC 311: Roosevelt Island Tram",
+          "url": "https://portal.311.nyc.gov/article/?kanumber=KA-01618",
+          "note": "City information for the public transport connection."
+        }
+      ],
+      "reviewBy": "2027-01-18"
+    },
+    {
+      "area": "move-water",
+      "id": "singapore-treetop-canopy-walk",
+      "title": "Walk at canopy height in Singapore",
+      "url": "https://experienceauthority.com/experiences/walk-at-canopy-height-in-singapore",
+      "eaValue": "The forest becomes layered, with the canopy revealed as habitat rather than a green ceiling.",
+      "sources": [
+        {
+          "title": "NParks: Central Catchment hiking routes",
+          "url": "https://www.nparks.gov.sg/visit/parks/central-catchment-nature-reserve/activities/hiking-nature-walk",
+          "note": "Primary route, duration, hours, suitability and safety guidance."
+        },
+        {
+          "title": "NParks: Central Catchment Nature Reserve",
+          "url": "https://www.nparks.gov.sg/visit/parks/central-catchment-nature-reserve",
+          "note": "Official reserve information and current visitor notices."
+        }
+      ],
+      "reviewBy": "2027-01-18"
+    },
+    {
+      "area": "move-water",
+      "id": "rio-sugarloaf-two-stage-ascent",
+      "title": "Read Rio between two cable-car stations",
+      "url": "https://experienceauthority.com/experiences/read-rio-between-two-cable-car-stations",
+      "eaValue": "The celebrated panorama becomes a map you can read instead of a view you only recognise.",
+      "sources": [
+        {
+          "title": "Parque Bondinho: official tickets and visitor information",
+          "url": "https://www.bondinho.com.br/pt",
+          "note": "Primary public access route for the Sugarloaf cable cars."
+        },
+        {
+          "title": "Parque Bondinho: frequently asked questions",
+          "url": "https://bondinho.com.br/perguntas-frequentes",
+          "note": "Current ticket categories, weather interruptions and visitor conditions."
+        }
+      ],
+      "reviewBy": "2027-01-18"
+    },
+    {
+      "area": "explore-reflect",
+      "id": "edinburgh-camera-obscura-live-city",
+      "title": "Watch Edinburgh appear on a table",
+      "url": "https://experienceauthority.com/experiences/watch-edinburgh-appear-on-a-table",
+      "eaValue": "The city becomes an optical event, and you begin to notice the difference between seeing a place and seeing its image.",
+      "sources": [
+        {
+          "title": "Camera Obscura: the show",
+          "url": "https://www.camera-obscura.co.uk/attractions/the-camera-obscura",
+          "note": "Primary explanation of the daylight image and recorded poor-weather or after-dark alternative."
+        },
+        {
+          "title": "Camera Obscura: accessibility",
+          "url": "https://www.camera-obscura.co.uk/accessibility/",
+          "note": "Stair count, absence of lift and practical visitor guidance."
+        }
+      ],
+      "reviewBy": "2027-01-18"
+    },
+    {
+      "area": "explore-reflect",
+      "id": "florence-opificio-stone-pictures",
+      "title": "Find the stone inside a Florentine picture",
+      "url": "https://experienceauthority.com/experiences/find-the-stone-inside-a-florentine-picture",
+      "eaValue": "Colour becomes something selected from a material, not only something applied to it.",
+      "sources": [
+        {
+          "title": "Opificio delle Pietre Dure: museum tickets",
+          "url": "https://opificiodellepietredure.cultura.gov.it/museo/biglietti/",
+          "note": "Primary hours, public admission and authorised ticket route."
+        },
+        {
+          "title": "Opificio delle Pietre Dure: museum and institution",
+          "url": "https://opificiodellepietredure.cultura.gov.it/",
+          "note": "Institutional collection context. Museum admission is distinct from conservation-laboratory access."
+        }
+      ],
+      "reviewBy": "2027-01-18"
+    },
+    {
+      "area": "explore-reflect",
+      "id": "valencia-llotja-stone-columns",
+      "title": "Read Valencia's trading history in a stone forest",
+      "url": "https://experienceauthority.com/experiences/read-valencias-trading-history-in-a-stone-forest",
+      "eaValue": "A beautiful room becomes a public statement about how a city valued its commercial life.",
+      "sources": [
+        {
+          "title": "Valencia municipality: La Lonja and Consulate of the Sea",
+          "url": "https://www.valencia.es/es/-/infociudad-la-lonja-y-consulado-del-mar",
+          "note": "Primary public hours, ticket route, architectural context and separate tower arrangements."
+        },
+        {
+          "title": "Visit Valencia: the Silk Exchange",
+          "url": "https://www.visitvalencia.com/en/what-to-do-valencia/valencian-culture/monuments-in-valencia/lonja-silk-exchange",
+          "note": "Destination authority context for the columned hall and trading complex."
+        }
+      ],
+      "reviewBy": "2027-01-18"
+    },
+    {
+      "area": "swim-reset",
+      "id": "chicago-garfield-glasshouse-pause",
+      "title": "Give Chicago an hour under glass",
+      "url": "https://experienceauthority.com/experiences/give-chicago-an-hour-under-glass",
+      "eaValue": "The city acquires another scale when a leaf, a trunk and a room of filtered light become enough to look at.",
+      "sources": [
+        {
+          "title": "Garfield Park Conservatory: plan your visit",
+          "url": "https://garfieldconservatory.org/visit/",
+          "note": "Primary current admission, hours, access and visitor rules."
+        },
+        {
+          "title": "Garfield Park Conservatory: indoor gardens",
+          "url": "https://garfieldconservatory.org/gardens/indoor-gardens/",
+          "note": "Primary context for the living indoor collection. Room access must be checked for the visit."
+        }
+      ],
+      "reviewBy": "2027-01-18"
+    },
+    {
+      "area": "swim-reset",
+      "id": "edinburgh-dr-neils-garden",
+      "title": "Pause by the loch in Dr Neil's Garden",
+      "url": "https://experienceauthority.com/experiences/pause-by-the-loch-in-dr-neils-garden",
+      "eaValue": "An Edinburgh day can include attention without another climb, performance or list of sights to complete.",
+      "sources": [
+        {
+          "title": "Dr Neil's Garden: visiting",
+          "url": "https://www.drneilsgarden.co.uk/visit-the-garden",
+          "note": "Trust information for public opening, free entry and the garden's setting."
+        },
+        {
+          "title": "Dr Neil's Garden: planning your visit",
+          "url": "https://www.drneilsgarden.co.uk/planning-your-visit",
+          "note": "Primary entrance directions, slopes, steps, visitor rules and current café closure."
+        }
+      ],
+      "reviewBy": "2027-01-18"
+    },
+    {
+      "area": "swim-reset",
+      "id": "kyoto-shunkoin-kissako",
+      "title": "Sit with tea and a question at Shunkoin",
+      "url": "https://experienceauthority.com/experiences/sit-with-tea-and-a-question-at-shunkoin",
+      "eaValue": "A temple visit becomes a chance to practise attention and ask a question, rather than only observe a room.",
+      "sources": [
+        {
+          "title": "Shunkoin: October to December 2026 programme",
+          "url": "https://shunkoin.com/archives/842",
+          "note": "Primary current Kissako schedule, booking links, content, language and winter restrictions."
+        },
+        {
+          "title": "Shunkoin: official temple information",
+          "url": "https://shunkoin.com/en",
+          "note": "Confirms the temple and distinguishes its different public programmes."
+        }
+      ],
+      "reviewBy": "2026-12-30"
+    },
+    {
+      "area": "shared-rituals",
+      "id": "tokyo-national-noh-performance",
+      "title": "Follow a noh performance one gesture at a time",
+      "url": "https://experienceauthority.com/experiences/follow-a-noh-performance-one-gesture-at-a-time",
+      "eaValue": "Understanding can begin with attention to one element, even before the whole dramatic language becomes familiar.",
+      "sources": [
+        {
+          "title": "Japan Arts Council: National Noh Theatre",
+          "url": "https://www.ntj.jac.go.jp/en/theatre/noh/",
+          "note": "Current programme and official booking route for the Sendagaya venue."
+        },
+        {
+          "title": "Japan Arts Council: November 6 regular performance",
+          "url": "https://www.ntj.jac.go.jp/schedule/nou/2026/85030/?lan=e",
+          "note": "Dated evidence of public performance, bilingual seat-back subtitles and wheelchair-space arrangements. Not a promise that every programme offers these features."
+        },
+        {
+          "title": "Japan Arts Council: visitor FAQs",
+          "url": "https://www.ntj.jac.go.jp/en/your_visit/faqs/",
+          "note": "Official general attendance and recording guidance."
+        }
+      ],
+      "reviewBy": "2026-11-20"
+    },
+    {
+      "area": "shared-rituals",
+      "id": "melbourne-fitzroy-barefoot-bowls",
+      "title": "Learn the curve on a Fitzroy bowling green",
+      "url": "https://experienceauthority.com/experiences/learn-the-curve-on-a-fitzroy-bowling-green",
+      "eaValue": "A slow-looking game becomes a lively conversation about line, weight and the curve you did not quite expect.",
+      "sources": [
+        {
+          "title": "Fitzroy Victoria: barefoot bowls",
+          "url": "https://www.barefootbowling.com.au/barefoot-bowls",
+          "note": "Primary two-hour public hire, equipment, demonstration and footwear conditions."
+        },
+        {
+          "title": "Fitzroy Victoria: FAQs",
+          "url": "https://www.barefootbowling.com.au/faq",
+          "note": "Booking confirmation, weather, accessibility, family supervision and synthetic-green information."
+        }
+      ],
+      "reviewBy": "2027-01-18"
+    },
+    {
+      "area": "shared-rituals",
+      "id": "chicago-green-mill-jazz",
+      "title": "Give a Green Mill jazz set your attention",
+      "url": "https://experienceauthority.com/experiences/give-a-green-mill-jazz-set-your-attention",
+      "eaValue": "A night out becomes more memorable when you follow the exchange inside the music instead of collecting the venue name.",
+      "sources": [
+        {
+          "title": "Green Mill: current calendar",
+          "url": "https://greenmilljazz.com/calendar/",
+          "note": "Primary live programme and event-specific times and charges."
+        },
+        {
+          "title": "Green Mill: FAQs",
+          "url": "https://greenmilljazz.com/faqs/",
+          "note": "Confirms 21-plus entry, identification, cash-only payment, no reservations and no advance ticket sales."
+        }
+      ],
+      "reviewBy": "2027-01-18"
+    }
+  ],
+  "verification": {
+    "tests": {
+      "passed": 162,
+      "failed": 0
+    },
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "localBrowser": {
+      "passed": 118,
+      "failed": 0
+    },
+    "smoke": {
+      "checkedPages": 857,
+      "unpublishedPaths": 30,
+      "uniqueNonces": 838,
+      "indexing": "public pages indexable; utilities, filters and empty fields excluded",
+      "crawlerRules": "passed",
+      "socialImage": "passed",
+      "failures": []
+    },
+    "proof": {
+      "checkedAt": "2026-10-21T22:50:25.876Z",
+      "base": "http://127.0.0.1:3102",
+      "results": [
+        {
+          "url": "https://experienceauthority.com/experiences/eat-currywurst-beneath-berlins-elevated-railway",
+          "status": 200,
+          "photoSha256": "92c67bc6607ff98dbd0b184c7e9f28c9c908cfd4afee80d0ad7b189ac27671f2",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/learn-what-liquor-means-at-a-london-pie-shop",
+          "status": 200,
+          "photoSha256": "bf4febd182f89eea59c76e21ac509868d317bbcb8dd9640c283739d33d7ce6c1",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/taste-almond-as-granita-in-noto",
+          "status": 200,
+          "photoSha256": "264d989620d794cad94362ad4e60df63df74025af9e9e92e830ebe5f709c6a15",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/arrange-mother-of-pearl-into-a-small-seoul-object",
+          "status": 200,
+          "photoSha256": "b0f50860f582391747ae78569bc44a297ffb2edc23de19fccabe1f680f8ca9ed",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/make-a-small-bamboo-object-in-hoi-an",
+          "status": 200,
+          "photoSha256": "35004899d9f5601e4f33e9237595f501549195f7f41bd73396607bd32e5696b1",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/set-a-small-mosaic-in-ravenna",
+          "status": 200,
+          "photoSha256": "574a85bea49e303db15e30ebb34205380524522cf2272f0cb09fa2993bfe1809",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/cross-the-east-river-above-the-traffic",
+          "status": 200,
+          "photoSha256": "df056f1014b52549a4f9914832dc74d520f05b2dc74559d9dbf9269cbf5f982f",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/walk-at-canopy-height-in-singapore",
+          "status": 200,
+          "photoSha256": "7f4df807888e14d53f7d1de7a6fc97de81dbbeb0ec500024d4f7e48490998262",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/read-rio-between-two-cable-car-stations",
+          "status": 200,
+          "photoSha256": "21cfd612bb9e2508c274b27886fb941a3e2dd43763b43f1279ab34a047e3853e",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/watch-edinburgh-appear-on-a-table",
+          "status": 200,
+          "photoSha256": "0e035d1bcc883d656e798a6201d54868948a1c0cb7d025db403547f6acf98c01",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/find-the-stone-inside-a-florentine-picture",
+          "status": 200,
+          "photoSha256": "8ca9ce88c9c5264a1ab8321516e614776eb730f52bac0d549ab76acce25b2f0a",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/read-valencias-trading-history-in-a-stone-forest",
+          "status": 200,
+          "photoSha256": "b33b9934ea1d9fa820c253230ab3853779ffb3e11d4de7927dc9d8d681ebe38b",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/give-chicago-an-hour-under-glass",
+          "status": 200,
+          "photoSha256": "fe3f46662266ea5e643879d3cd11699e5275c30752b3b4556b7c97ab3b462692",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/pause-by-the-loch-in-dr-neils-garden",
+          "status": 200,
+          "photoSha256": "9f7306c91e325d0dc1faab2cd79a6af298dcd748982e6cf222ef964ccb57808c",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/sit-with-tea-and-a-question-at-shunkoin",
+          "status": 200,
+          "photoSha256": "3d023d64d5e428246897699164ea83b1d440a8f45ff97234593385e865edd0fe",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/follow-a-noh-performance-one-gesture-at-a-time",
+          "status": 200,
+          "photoSha256": "d5ed631441bf3f6ec4d173c28ecc459f646cfcebaa919bd6de9468fbd28be7ab",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/learn-the-curve-on-a-fitzroy-bowling-green",
+          "status": 200,
+          "photoSha256": "173493ea2c3ace7ebd0e0120910a43a93d0c44ffac593702c405eb9d5640fdad",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/give-a-green-mill-jazz-set-your-attention",
+          "status": 200,
+          "photoSha256": "ab30dc7e5b1718a9940631020ae83892ed9c952ba5c884141fb721ae1a754eb9",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        }
+      ],
+      "expiredGuidesExcluded": 14,
+      "totalAuthored": 478,
+      "eligiblePublic": 464
+    },
+    "interactions": {
+      "results": [
+        {
+          "width": 390,
+          "checks": [
+            "country and city filters",
+            "new Seoul guide",
+            "photo modal and focus restoration",
+            "save and plan",
+            "reload persistence",
+            "keyboard skip link",
+            "consent gate"
+          ]
+        },
+        {
+          "width": 1440,
+          "checks": [
+            "country and city filters",
+            "new Seoul guide",
+            "photo modal and focus restoration",
+            "save and plan",
+            "reload persistence",
+            "keyboard skip link",
+            "consent gate"
+          ]
+        }
+      ]
+    },
+    "publicDeployment": "Not yet deployed when this pre-publication record was written. Exact commit and production verification recorded separately after deployment."
+  }
+}

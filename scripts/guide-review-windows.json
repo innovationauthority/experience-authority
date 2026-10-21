@@ -107,6 +107,114 @@
     "countrySlug": "taiwan",
     "regionSlug": "taipei"
   },
+  "/experiences/eat-currywurst-beneath-berlins-elevated-railway": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "germany",
+    "regionSlug": "berlin"
+  },
+  "/experiences/learn-what-liquor-means-at-a-london-pie-shop": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "london"
+  },
+  "/experiences/taste-almond-as-granita-in-noto": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "italy",
+    "regionSlug": "noto"
+  },
+  "/experiences/arrange-mother-of-pearl-into-a-small-seoul-object": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "south-korea",
+    "regionSlug": "seoul"
+  },
+  "/experiences/make-a-small-bamboo-object-in-hoi-an": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "vietnam",
+    "regionSlug": "hoi-an"
+  },
+  "/experiences/set-a-small-mosaic-in-ravenna": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "italy",
+    "regionSlug": "ravenna"
+  },
+  "/experiences/cross-the-east-river-above-the-traffic": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "united-states",
+    "regionSlug": "new-york-city"
+  },
+  "/experiences/walk-at-canopy-height-in-singapore": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "singapore",
+    "regionSlug": "singapore"
+  },
+  "/experiences/read-rio-between-two-cable-car-stations": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "brazil",
+    "regionSlug": "rio-de-janeiro"
+  },
+  "/experiences/watch-edinburgh-appear-on-a-table": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "edinburgh"
+  },
+  "/experiences/find-the-stone-inside-a-florentine-picture": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "italy",
+    "regionSlug": "florence"
+  },
+  "/experiences/read-valencias-trading-history-in-a-stone-forest": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "spain",
+    "regionSlug": "valencia"
+  },
+  "/experiences/give-chicago-an-hour-under-glass": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "united-states",
+    "regionSlug": "chicago"
+  },
+  "/experiences/pause-by-the-loch-in-dr-neils-garden": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "edinburgh"
+  },
+  "/experiences/sit-with-tea-and-a-question-at-shunkoin": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-30",
+    "countrySlug": "japan",
+    "regionSlug": "kyoto"
+  },
+  "/experiences/follow-a-noh-performance-one-gesture-at-a-time": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-11-20",
+    "countrySlug": "japan",
+    "regionSlug": "tokyo"
+  },
+  "/experiences/learn-the-curve-on-a-fitzroy-bowling-green": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "australia",
+    "regionSlug": "melbourne"
+  },
+  "/experiences/give-a-green-mill-jazz-set-your-attention": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2027-01-18",
+    "countrySlug": "united-states",
+    "regionSlug": "chicago"
+  },
   "/experiences/make-a-brussels-pause-out-of-a-portion-of-frites": {
     "availableFrom": "2026-10-21",
     "reviewBy": "2027-01-18",

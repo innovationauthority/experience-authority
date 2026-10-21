@@ -1,6 +1,24 @@
 /** Content hashes keep replaced photographs consistent across responsive image caches.
  * The media test requires an update when an original file changes. */
 export const imageRevisions: Record<string, string> = {
+  "/images/guides/berlin-konnopke-currywurst.jpg": "92c67bc6607f",
+  "/images/guides/london-manze-pie-mash.jpg": "bf4febd182f8",
+  "/images/guides/noto-sicilia-almond-granita.jpg": "264d989620d7",
+  "/images/guides/seoul-hwiho-mother-of-pearl.jpg": "b0f50860f582",
+  "/images/guides/hoi-an-taboo-bamboo.jpg": "35004899d9f5",
+  "/images/guides/ravenna-koko-mosaic.jpg": "574a85bea49e",
+  "/images/guides/new-york-roosevelt-island-tram.jpg": "df056f1014b5",
+  "/images/guides/singapore-treetop-canopy-walk.jpg": "7f4df807888e",
+  "/images/guides/rio-sugarloaf-two-stage-ascent.jpg": "21cfd612bb9e",
+  "/images/guides/edinburgh-camera-obscura-live-city.jpg": "0e035d1bcc88",
+  "/images/guides/florence-opificio-stone-pictures.jpg": "8ca9ce88c9c5",
+  "/images/guides/valencia-llotja-stone-columns.jpg": "b33b9934ea1d",
+  "/images/guides/chicago-garfield-glasshouse-pause.jpg": "fe3f46662266",
+  "/images/guides/edinburgh-dr-neils-garden.jpg": "9f7306c91e32",
+  "/images/guides/kyoto-shunkoin-kissako.jpg": "3d023d64d5e4",
+  "/images/guides/tokyo-national-noh-performance.jpg": "d5ed631441bf",
+  "/images/guides/melbourne-fitzroy-barefoot-bowls.jpg": "173493ea2c3a",
+  "/images/guides/chicago-green-mill-jazz.jpg": "ab30dc7e5b17",
   "/images/guides/brussels-jourdan-frites.jpg": "69c6f18d114f",
   "/images/guides/istanbul-karakoy-baklava.jpg": "9d8a59aaa4bf",
   "/images/guides/seoul-tongin-token-lunch.jpg": "a11043bc5091",
@@ -467,7 +485,7 @@ export const imageRevisions: Record<string, string> = {
 
 // A single manifest fingerprint fits Next's bounded localPatterns allowlist.
 // Tests require it to change when any original is added or replaced.
-export const imageEdition = "12f08e48455c";
+export const imageEdition = "0ae13c9b4714";
 
 export function imageSource(src: string) {
   return imageRevisions[src] ? `${src}?v=${imageEdition}` : src;

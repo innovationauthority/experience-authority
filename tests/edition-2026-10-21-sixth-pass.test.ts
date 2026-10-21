@@ -32,7 +32,7 @@ test("sixth pass adds eighteen distinct experiences and three primary allocation
     interests.map((i) => i.slug).sort(),
   );
   const earlier = publicGuides.filter((g) => !slugs.includes(g.slug));
-  assert.equal(earlier.length, 442);
+  assert.equal(earlier.length, 460);
   for (const [area, allocated] of Object.entries(edition20261021SixthPass)) {
     assert.equal(allocated.length, 3);
     for (const slug of allocated) {
@@ -81,10 +81,10 @@ test("sixth pass adds eighteen distinct experiences and three primary allocation
       assert.ok(prose.split(/\s+/).length >= 300, slug);
     }
   }
-  assert.equal(publicGuides.length, 460);
+  assert.equal(publicGuides.length, 478);
   assert.equal(
     publicGuides.filter((g) => canPublishGuide(g, "2026-10-21")).length,
-    446,
+    464,
   );
 });
 
@@ -176,9 +176,9 @@ test("six new daily discoveries extend publication without pretending to schedul
   }
 });
 
-test("eight same-day passes remain one release of 144 unique guides", () => {
+test("nine same-day passes remain one release of 162 unique guides", () => {
   assert.equal(guideReleases.filter((r) => r.date === "2026-10-21").length, 1);
   const release = publishedReleases(publicGuides, "2026-10-21")[0];
-  assert.equal(release.guides.length, 144);
-  assert.equal(new Set(release.guides.map((g) => g.id)).size, 144);
+  assert.equal(release.guides.length, 162);
+  assert.equal(new Set(release.guides.map((g) => g.id)).size, 162);
 });

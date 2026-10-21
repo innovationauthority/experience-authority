@@ -42,8 +42,8 @@ test("Arcachon stays a bay-wide chapter regardless of guide order or a more spec
   }
 });
 
-test("guide set contains 460 distinct, sourced public experiences, not Selected or demo records", () => {
-  assert.equal(publicGuides.length, 460);
+test("guide set contains 478 distinct, sourced public experiences, not Selected or demo records", () => {
+  assert.equal(publicGuides.length, 478);
   assert.equal(
     new Set(publicGuides.map((p) => p.id)).size,
     publicGuides.length,
@@ -286,7 +286,7 @@ test("New York connects a recognisable food with living production and a difficu
       guide.countrySlug === "united-states" &&
       guide.regionSlug === "new-york-city",
   );
-  assert.equal(newYork.length, 8);
+  assert.equal(newYork.length, 9);
   assert.deepEqual([...new Set(newYork.map((guide) => guide.field))].sort(), [
     "gather",
     "move",
@@ -337,7 +337,7 @@ test("London connects a recognisable market with production work and hidden infr
     (guide) =>
       guide.countrySlug === "united-kingdom" && guide.regionSlug === "london",
   );
-  assert.equal(london.length, 14);
+  assert.equal(london.length, 15);
   assert.deepEqual([...new Set(london.map((guide) => guide.field))].sort(), [
     "gather",
     "learn",
