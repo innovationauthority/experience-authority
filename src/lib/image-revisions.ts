@@ -1,6 +1,24 @@
 /** Content hashes keep replaced photographs consistent across responsive image caches.
  * The media test requires an update when an original file changes. */
 export const imageRevisions: Record<string, string> = {
+  "/images/guides/madrid-san-gines-churros.jpg": "571027a53fb0",
+  "/images/guides/montreal-schwartz-smoked-meat.jpg": "cf755ab42fe0",
+  "/images/guides/bangkok-thipsamai-padthai.jpg": "ef2c0de3c101",
+  "/images/guides/tokyo-ozu-washi-sheet.jpg": "d319b5b02d9c",
+  "/images/guides/ubud-widya-batik-cap.jpg": "dba7c7760802",
+  "/images/guides/seoul-bukchon-small-loom.jpg": "8e677a60ba8a",
+  "/images/guides/sydney-manly-ferry.jpg": "ef5028427660",
+  "/images/guides/rio-santa-teresa-bonde.jpg": "0e2320281617",
+  "/images/guides/hong-kong-ding-ding.jpg": "aa9d4ba61eef",
+  "/images/guides/johannesburg-origins-rock-art.jpg": "570ef36617b7",
+  "/images/guides/nairobi-museum-human-origins.jpg": "2e7552fae18a",
+  "/images/guides/santiago-chile-before-chile.jpg": "5d5c37bf5008",
+  "/images/guides/vancouver-nitobe-garden.jpg": "66c2bae1aae7",
+  "/images/guides/lima-olivar-pause.jpg": "032aca7a969d",
+  "/images/guides/taipei-beitou-library.jpg": "0dd74d009739",
+  "/images/guides/bandung-udjo-angklung.jpg": "d08904800b1a",
+  "/images/guides/nashville-station-inn-jam.jpg": "c25ba3c51a33",
+  "/images/guides/buenos-aires-colon-performance.jpg": "d23787e2e1be",
   "/images/guides/porto-gazela-cachorrinho.jpg": "7ded6cf0f910",
   "/images/guides/alboraya-daniel-horchata.jpg": "da16b8fb1726",
   "/images/guides/osaka-kuromon-lunch.jpg": "42b70c8174fc",
@@ -395,7 +413,7 @@ export const imageRevisions: Record<string, string> = {
 
 // A single manifest fingerprint fits Next's bounded localPatterns allowlist.
 // Tests require it to change when any original is added or replaced.
-export const imageEdition = "2db9cfa06558";
+export const imageEdition = "37920a81f3aa";
 
 export function imageSource(src: string) {
   return imageRevisions[src] ? `${src}?v=${imageEdition}` : src;

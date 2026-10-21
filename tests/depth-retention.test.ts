@@ -15,9 +15,9 @@ import {
 import { publishedReleases, recentGuideReleases } from "../src/lib/releases";
 import { addPassportGuides, type PassportData } from "../src/lib/passport";
 
-test("forty-two complete local chapters offer real contrasting experiences and planning constraints", () => {
+test("forty-three complete local chapters offer real contrasting experiences and planning constraints", () => {
   const resolved = resolveCityChapters(publicGuides);
-  assert.equal(resolved.length, 42);
+  assert.equal(resolved.length, 43);
   for (const chapter of resolved) {
     assert.ok(chapter.stops.length >= 2);
     assert.equal(
@@ -86,9 +86,9 @@ test("local planning preserves the named venue and visitor role, including Singa
 });
 
 test("daily editions are authored, distinct, date-gated and do not silently loop", () => {
-  assert.equal(dailyDiscoveries.length, 109);
-  assert.equal(new Set(dailyDiscoveries.map((item) => item.slug)).size, 109);
-  assert.equal(new Set(dailyDiscoveries.map((item) => item.date)).size, 109);
+  assert.equal(dailyDiscoveries.length, 115);
+  assert.equal(new Set(dailyDiscoveries.map((item) => item.slug)).size, 115);
+  assert.equal(new Set(dailyDiscoveries.map((item) => item.date)).size, 115);
   assert.equal(availableDiscoveries(publicGuides, "2026-09-12").length, 0);
   assert.equal(availableDiscoveries(publicGuides, "2026-09-13").length, 1);
   assert.equal(availableDiscoveries(publicGuides, "2026-09-20").length, 8);
@@ -137,13 +137,13 @@ test("release dates are independent from source checks and expire out of the new
   );
   assert.equal(recentGuideReleases(publicGuides, "2026-09-15").length, 81);
   assert.equal(recentGuideReleases(publicGuides, "2026-10-20").length, 162);
-  assert.equal(recentGuideReleases(publicGuides, "2026-10-24").length, 216);
-  assert.equal(recentGuideReleases(publicGuides, "2026-10-25").length, 198);
-  assert.equal(recentGuideReleases(publicGuides, "2026-10-26").length, 180);
-  assert.equal(recentGuideReleases(publicGuides, "2026-10-27").length, 180);
-  assert.equal(recentGuideReleases(publicGuides, "2026-10-28").length, 162);
-  assert.equal(recentGuideReleases(publicGuides, "2026-11-08").length, 144);
-  assert.equal(recentGuideReleases(publicGuides, "2026-11-15").length, 126);
+  assert.equal(recentGuideReleases(publicGuides, "2026-10-24").length, 234);
+  assert.equal(recentGuideReleases(publicGuides, "2026-10-25").length, 216);
+  assert.equal(recentGuideReleases(publicGuides, "2026-10-26").length, 198);
+  assert.equal(recentGuideReleases(publicGuides, "2026-10-27").length, 198);
+  assert.equal(recentGuideReleases(publicGuides, "2026-10-28").length, 180);
+  assert.equal(recentGuideReleases(publicGuides, "2026-11-08").length, 162);
+  assert.equal(recentGuideReleases(publicGuides, "2026-11-15").length, 144);
   assert.equal(publishedReleases([], "2026-09-13").length, 0);
   const changedChecks = publicGuides.map((item) => ({
     ...item,

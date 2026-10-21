@@ -16,6 +16,30 @@ export type CityChapter = {
 /** Authored local combinations. These are ideas to adapt, not timed or bookable packages. */
 export const cityChapters: readonly CityChapter[] = [
   {
+    slug: "lima",
+    name: "Lima",
+    country: "peru",
+    regions: ["lima"],
+    title: "Make the meal. Leave room for the trees.",
+    intro:
+      "A cooking class in Miraflores and a pause in San Isidro give Lima two different rhythms. Learn what holds a Peruvian meal together, then let the olive grove offer a smaller, unstructured encounter with the city. Choose separate parts of your stay if that leaves more room to enjoy both.",
+    pace: "A confirmed three-hour cooking class and a separate daylight park visit, with generous travel time between districts.",
+    planning:
+      "Book SkyKitchen's Peruvian Classics format directly and confirm the address, language, minimum group, dietary needs and rooftop access. A market tour is a separate extra. El Olivar is an ordinary public park, not a guided continuation of the class. Follow municipal notices and paths, leave trees and wildlife undisturbed and check any access needs. Arrange transport between Miraflores and San Isidro independently. No shared ticket, harvest, timed walking route, transfer or EA booking is included.",
+    stops: [
+      {
+        slug: "cook-lima-beyond-the-ceviche",
+        moment: "Begin with a meal you help make",
+        why: "The booked class gives familiar dishes a practical sequence. Let its full duration and dietary arrangements determine that part of the day.",
+      },
+      {
+        slug: "find-a-slower-lima-between-the-olive-trees",
+        moment: "On a separate daylight pause, make less of a plan",
+        why: "A short public path through the grove offers an urban contrast to the teaching kitchen. It works without adding another ticket or promising a secluded retreat.",
+      },
+    ],
+  },
+  {
     slug: "hamburg",
     name: "Hamburg",
     country: "germany",

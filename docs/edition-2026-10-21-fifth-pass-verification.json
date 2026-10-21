@@ -1,0 +1,273 @@
+{
+  "edition": "2026-10-21",
+  "batch": 53,
+  "trigger": "Manual user request: daj jos 18",
+  "netNewGuides": 18,
+  "primaryAllocations": {
+    "eat-drink": 3,
+    "make-learn": 3,
+    "move-water": 3,
+    "explore-reflect": 3,
+    "swim-reset": 3,
+    "shared-rituals": 3
+  },
+  "catalogue": {
+    "authoredBefore": 388,
+    "authoredAfter": 406,
+    "eligibleBefore": 374,
+    "eligibleAfter": 392,
+    "expiredRetainedAndGated": 14,
+    "countries": 110,
+    "newCountry": "Chile",
+    "batchCountries": 16,
+    "batchPlaces": 18
+  },
+  "release": {
+    "date": "2026-10-21",
+    "guides": 90,
+    "passes": 5,
+    "duplicateDateEntries": false
+  },
+  "method": "Existing catalogue, earlier rejected candidates and git history checked. Original public-source desk guides, not on-site reviews, EA Selected, partnerships or bookings. No third-party contact or consent request sent.",
+  "sources": {
+    "checkedOn": "2026-10-21",
+    "uniqueUrls": 55,
+    "exceptions": [
+      {
+        "url": "https://www.ozuwashi.net/en/workshop.html",
+        "status": null,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.ozuwashi.net/en/reservation/papermaking2/index.php",
+        "status": null,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.rj.gov.br/bondesdesantateresa/",
+        "status": null,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.travel.taipei/en/attraction/details/538",
+        "status": 403,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      }
+    ],
+    "importantBoundaries": [
+      "Santa Teresa bonde suspended on 21 October 2026. Closure is prominent in summary and responsibility. No reopening guarantee.",
+      "Thipsamai footer conflicts on daily versus Tuesday opening. Tuesday is treated as a closure warning.",
+      "Ozu direct site timed out. Official indexed details corroborated by GO TOKYO's January 2026 workshop listing.",
+      "Bukchon Saturday Jigmulnori loom class, not Donglim knotting or a separate mother-of-pearl studio.",
+      "Santiago Textile and South Andean room closures remain explicit.",
+      "Udjo weekday morning and early afternoon are group-only, distinct from ordinary afternoon public access.",
+      "Station Inn current October 25 and November 1 jam dates are not a guarantee for the January Daily Discovery date."
+    ]
+  },
+  "photographs": {
+    "count": 18,
+    "documentedLicense": 16,
+    "officialSourceNotIndependentlyCleared": 2,
+    "aiGenerated": 0,
+    "credit": "Image: author / source ↗",
+    "contextOnly": [
+      "Ozu exterior, not its workshop",
+      "Bukchon craft-centre courtyard, not a weaving class",
+      "Nairobi museum hall, not the human-origins room",
+      "Santiago museum cultural map, not the exact Chile gallery"
+    ],
+    "excluded": [
+      "GO TOKYO permission-controlled stock",
+      "Station Inn official photographs requiring written permission",
+      "Seoul unrelated tassel-making portrait",
+      "Old Santa Teresa photographs normalising riding on exterior steps",
+      "Santiago dark plate and geographically mismatched objects",
+      "El Olivar night photographs"
+    ]
+  },
+  "connections": {
+    "newChapter": "Lima",
+    "authoredChapters": 43,
+    "eligibleChapters": 42,
+    "collections": 7,
+    "dailyDiscoveriesAdded": 6,
+    "dailyDiscoveriesTotal": 115,
+    "newDailyDateRange": [
+      "2026-12-31",
+      "2027-01-05"
+    ],
+    "note": "Holiday-aware planning, no guaranteed New Year opening or specific January jam. Existing local related-guide logic preserved."
+  },
+  "rejectedCandidates": [
+    {
+      "name": "Dublin Silver Works Claddagh",
+      "reason": "Already covered, not net new."
+    },
+    {
+      "name": "Buenos Aires La Bomba de Tiempo",
+      "reason": "Already covered, not net new."
+    },
+    {
+      "name": "Kanazawa Hakuichi gold leaf",
+      "reason": "Already covered, not net new."
+    },
+    {
+      "name": "Seoul Donglim knotting",
+      "reason": "Already covered. The selected loom class is a different craft and public programme."
+    },
+    {
+      "name": "Mokuhankan Tokyo print parties",
+      "reason": "Older visitor programme not established as currently bookable."
+    },
+    {
+      "name": "Clay Café Hout Bay",
+      "reason": "Preformed-object painting offered a weaker local-process fit, with roughly five-week firing turnaround."
+    },
+    {
+      "name": "Officine Nora Florence",
+      "reason": "Current short public beginner format not sufficiently established."
+    },
+    {
+      "name": "Meticulous Ink letterpress",
+      "reason": "Moved to Chippenham, not Bath. Availability needed confirmation, so held for later research."
+    }
+  ],
+  "guidesByArea": {
+    "eat-drink": [
+      {
+        "title": "Give Madrid's churros time in the chocolate",
+        "place": "Madrid",
+        "url": "https://experienceauthority.com/experiences/give-madrids-churros-time-in-the-chocolate",
+        "eaValue": "Something familiar becomes more revealing when you pay attention to how its two parts are eaten together."
+      },
+      {
+        "title": "Taste Montréal's smoked meat at the deli table",
+        "place": "Montréal",
+        "url": "https://experienceauthority.com/experiences/taste-montreals-smoked-meat-at-the-deli-table",
+        "eaValue": "A sandwich becomes a way to recognise a city's particular food vocabulary, not just a large portion of meat."
+      },
+      {
+        "title": "Open the egg around Bangkok's pad thai",
+        "place": "Bangkok",
+        "url": "https://experienceauthority.com/experiences/open-the-egg-around-bangkoks-pad-thai",
+        "eaValue": "Recognition can be the beginning of curiosity when you ask what makes this version different."
+      }
+    ],
+    "make-learn": [
+      {
+        "title": "Lift a sheet of paper from water in Tokyo",
+        "place": "Tokyo, Nihonbashi",
+        "url": "https://experienceauthority.com/experiences/lift-a-sheet-of-paper-from-water-in-tokyo",
+        "eaValue": "Paper stops looking like an empty background and becomes something deliberately made."
+      },
+      {
+        "title": "Repeat a copper stamp across batik in Ubud",
+        "place": "Ubud, Bali",
+        "url": "https://experienceauthority.com/experiences/repeat-a-copper-stamp-across-batik-in-ubud",
+        "eaValue": "A repeated pattern can begin to look more human once you have tried to align it yourself."
+      },
+      {
+        "title": "Weave a small line through Bukchon's craft day",
+        "place": "Seoul, Bukchon",
+        "url": "https://experienceauthority.com/experiences/weave-a-small-line-through-bukchons-craft-day",
+        "eaValue": "A neighbourhood becomes more than a backdrop when you spend part of the visit learning a material process there."
+      }
+    ],
+    "move-water": [
+      {
+        "title": "Let the Manly ferry open Sydney Harbour",
+        "place": "Sydney",
+        "url": "https://experienceauthority.com/experiences/let-the-manly-ferry-open-sydney-harbour",
+        "eaValue": "The space between destinations becomes part of the destination itself."
+      },
+      {
+        "title": "Climb into Santa Teresa on Rio's yellow bonde",
+        "place": "Rio de Janeiro",
+        "url": "https://experienceauthority.com/experiences/climb-into-santa-teresa-on-rios-yellow-bonde",
+        "eaValue": "A climb can explain the relationship between a neighbourhood and the city below it."
+      },
+      {
+        "title": "Read Hong Kong Island from a ding ding",
+        "place": "Hong Kong Island",
+        "url": "https://experienceauthority.com/experiences/read-hong-kong-island-from-a-ding-ding",
+        "eaValue": "Moving more slowly can reveal connections that a fast underground journey hides."
+      }
+    ],
+    "explore-reflect": [
+      {
+        "title": "Learn to look at rock art in Johannesburg",
+        "place": "Johannesburg",
+        "url": "https://experienceauthority.com/experiences/learn-to-look-at-rock-art-in-johannesburg",
+        "eaValue": "Looking becomes more interesting when you separate your first guess from an explanation supported by evidence."
+      },
+      {
+        "title": "Put human time beside Nairobi's museum tools",
+        "place": "Nairobi",
+        "url": "https://experienceauthority.com/experiences/put-human-time-beside-nairobis-museum-tools",
+        "eaValue": "A small object can make the human timescale feel larger than the monuments normally used to measure a trip."
+      },
+      {
+        "title": "Meet Chile before the map in Santiago",
+        "place": "Santiago",
+        "url": "https://experienceauthority.com/experiences/meet-chile-before-the-map-in-santiago",
+        "eaValue": "A country can become a layered geography of peoples and practices rather than a single cultural label."
+      }
+    ],
+    "swim-reset": [
+      {
+        "title": "Take one slow circuit of Vancouver's Nitobe Garden",
+        "place": "Vancouver, UBC",
+        "url": "https://experienceauthority.com/experiences/take-one-slow-circuit-of-vancouvers-nitobe-garden",
+        "eaValue": "A change in viewpoint can make a small place feel spacious without adding another activity."
+      },
+      {
+        "title": "Find a slower Lima between the olive trees",
+        "place": "Lima, San Isidro",
+        "url": "https://experienceauthority.com/experiences/find-a-slower-lima-between-the-olive-trees",
+        "eaValue": "A city can offer relief through a familiar public space rather than a separate escape from it."
+      },
+      {
+        "title": "Read a few pages inside Beitou's wooden library",
+        "place": "Taipei, Beitou",
+        "url": "https://experienceauthority.com/experiences/read-a-few-pages-inside-beitous-wooden-library",
+        "eaValue": "An admired building can become a useful part of your day without needing a purchase or a guided tour."
+      }
+    ],
+    "shared-rituals": [
+      {
+        "title": "Become one note in Bandung's angklung audience",
+        "place": "Bandung, West Java",
+        "url": "https://experienceauthority.com/experiences/become-one-note-in-bandungs-angklung-audience",
+        "eaValue": "Participation becomes cooperation when your small part only makes sense alongside other people's parts."
+      },
+      {
+        "title": "Listen around Nashville's bluegrass picking circle",
+        "place": "Nashville",
+        "url": "https://experienceauthority.com/experiences/listen-around-nashvilles-bluegrass-picking-circle",
+        "eaValue": "A music city becomes more legible when you hear how players listen to one another, not only how they perform for an audience."
+      },
+      {
+        "title": "Hear Buenos Aires from a seat in the Colón",
+        "place": "Buenos Aires",
+        "url": "https://experienceauthority.com/experiences/hear-buenos-aires-from-a-seat-in-the-colon",
+        "eaValue": "An architectural landmark becomes a place where people are doing something together now."
+      }
+    ]
+  },
+  "qa": {
+    "tests": {
+      "passed": 140,
+      "failed": 0
+    },
+    "typescript": "passed",
+    "productionBuild": "passed",
+    "browser": "122 unique route/viewport states passed across desktop and mobile. Initial desktop-home image-load timeout resolved on isolated repeat. Includes all 18 guides, relevant destinations, fields and seven collections. Automated accessibility checks passed, photographs and layouts visually reviewed.",
+    "interaction": "14 checks passed across desktop and mobile, including Lima filtering, image enlargement and focus return, Passport saving, planning persistence, keyboard access and denied analytics consent.",
+    "smoke": "773 routes checked, 31 unpublished paths gated, 753 distinct CSP nonces, zero failures. Local production proof verified all 18 guide URLs, photographs, optimized WebP, canonicals, schema, sitemap and 14 expired-guide exclusions.",
+    "publicDeployment": "not yet published"
+  }
+}

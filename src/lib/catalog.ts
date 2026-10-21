@@ -234,6 +234,15 @@ export function filterExperiences(items: PublicExperience[], query: Query) {
 }
 export const territories = [
   {
+    slug: "chile",
+    name: "Chile",
+    region: "santiago",
+    regionName: "Santiago",
+    intro:
+      "Begin in Santiago with the peoples and material histories that precede a modern map. A focused museum visit opens questions about place and continuity without pretending one gallery represents every living community in Chile.",
+    image: null,
+  },
+  {
     slug: "india",
     name: "India",
     region: "bagru",
@@ -1279,6 +1288,7 @@ const additionalRegionNames: Readonly<Record<string, string>> = {
   "netherlands/watergang": "Watergang, Waterland",
   "netherlands/delft": "Delft",
   "canada/vancouver": "Vancouver",
+  "peru/lima": "Lima",
   "united-kingdom/bath": "Bath",
   "united-kingdom/glasgow": "Glasgow",
   "switzerland/baden": "Baden",

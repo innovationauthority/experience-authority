@@ -102,7 +102,7 @@ test("second 20 October pass adds eighteen distinct guides with three primary al
     publishedReleases(publicGuides, "2026-10-20")[0].guides.length,
     36,
   );
-  assert.equal(publicGuides.length, 388);
+  assert.equal(publicGuides.length, 406);
   assert.equal(
     publishedReleases(publicGuides, "2026-10-20")[0].guides[0].slug,
     guideBatch48[0].slug,
