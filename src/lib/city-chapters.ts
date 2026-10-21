@@ -16,6 +16,151 @@ export type CityChapter = {
 /** Authored local combinations. These are ideas to adapt, not timed or bookable packages. */
 export const cityChapters: readonly CityChapter[] = [
   {
+    slug: "berlin",
+    name: "Berlin",
+    country: "germany",
+    regions: ["berlin"],
+    title: "Change the scale. Change the sense.",
+    intro:
+      "A former runway, a sunken neighbourhood garden and a fragrance studio offer three different ways to pay attention in Berlin. Use movement for scale, a park for a pause and guided smelling for a smaller creative decision. None needs to explain the whole city.",
+    pace: "Choose one substantial outing and leave the other encounters for separately planned parts of a stay.",
+    planning:
+      "Tempelhofer Feld needs suitable riding conditions, a bicycle and a check of seasonal gate times. Körnerpark's sunken layout requires its own entrance and mobility check. Frau Tonis is on Zimmerstraße, not inside either park. Its workshop voucher and separately confirmed appointment are different steps, and retail hours do not guarantee a session. Check language, scent sensitivities and tool or access assistance before paying. These places do not form a supplied cycling route or walking itinerary. No combined ticket, transfer or EA package is implied.",
+    stops: [
+      {
+        slug: "cycle-the-runway-that-became-a-berlin-park",
+        moment: "Give the city room to open",
+        why: "A manageable ride makes the scale of shared public space physical. Stay on permitted surfaces and plan around the actual gate closing.",
+      },
+      {
+        slug: "step-below-neukoellns-streets-into-koernerpark",
+        moment: "On another outing, lower the pace",
+        why: "The garden's change in level makes a small neighbourhood pause distinctive. Café service, fountains and gallery events are separate, variable extras.",
+      },
+      {
+        slug: "compose-a-berlin-scent-by-smelling-before-naming",
+        moment: "Let a confirmed appointment change the sense",
+        why: "A guided comparison of prepared house fragrances offers a different creative role. It is not professional training or a guaranteed vacancy after buying a voucher.",
+      },
+    ],
+  },
+  {
+    slug: "hanoi",
+    name: "Hanoi",
+    country: "vietnam",
+    regions: ["hanoi"],
+    title: "Find the cup. Move the brush. Watch the water become a stage.",
+    intro:
+      "Egg coffee, Vietnamese calligraphy and a public water-puppet performance connect taste, making and looking in Hanoi. Let one familiar Old Quarter stop introduce a less expected material or movement. These are complementary choices, not a guided tour of everything local.",
+    pace: "Keep a café pause flexible, give the workshop a confirmed session and choose the theatre's actual performance time separately.",
+    planning:
+      "Giảng's Nguyễn Hữu Huân branch differs from its other café addresses. Ask about egg, dairy and access rather than assuming every coffee is suitable. Confirm Zó's actual workshop venue, language, materials and session before travelling. Reserve each dated activity separately. A Thăng Long theatre ticket is for a dated public performance, not backstage access or an opportunity to handle puppets. Leave enough time to reach each address and respect rules about photography and occupied tables. No shared reservation, food tour, transfer or EA package is implied.",
+    stops: [
+      {
+        slug: "find-hanois-coffee-beneath-the-egg-cream",
+        moment: "Give the Old Quarter one deliberate pause",
+        why: "The contrast between topping and coffee makes an ordinary order newly legible. Choose the actual branch and check its service conditions.",
+      },
+      {
+        slug: "let-a-brush-meet-do-paper",
+        moment: "At a separately booked table, make a mark",
+        why: "A guided introduction gives the paper beneath the brush a role in the experience. It is not a claim to mastery or access to a paper-making village.",
+      },
+      {
+        slug: "watch-a-stage-made-of-water",
+        moment: "Let a real performance choose another part of the day",
+        why: "Water changes how a figure can appear and move. Watch as an audience member without assuming a private demonstration or backstage visit.",
+      },
+    ],
+  },
+  {
+    slug: "edinburgh",
+    name: "Edinburgh",
+    country: "united-kingdom",
+    regions: ["edinburgh"],
+    title: "Read the street. Assemble the object. Follow the caller.",
+    intro:
+      "A historical close, a Harris Tweed bag workshop and a public ceilidh offer three distinct roles in Edinburgh. Start with a recognisable street, then let a prepared component or an explained dance make the city less passive. Choose what suits your curiosity and physical comfort.",
+    pace: "One booked daytime experience and, on a suitable separate evening, a public dance.",
+    planning:
+      "Mary King's Close is an enclosed historical guided route with many stairs, no lift and a minimum age of five. This chapter does not recommend a paranormal product. Islander's session is for participants twelve and above and uses prepared components. Confirm the selected Edinburgh workshop address rather than borrowing one from an older listing. The ceilidh has a separate dated ticket, venue and participation arrangement. You may watch rather than dance. Confirm languages, mobility needs, current dates and late transport independently. The short-lived October storytelling festival is not assumed to run throughout the year. No combined ticket or transfer is implied.",
+    stops: [
+      {
+        slug: "walk-the-edinburgh-street-below-the-street",
+        moment: "Choose a historical route below the present street",
+        why: "The guide interprets a particular enclosed site. Read the steps and sensory conditions before deciding whether the visit fits.",
+      },
+      {
+        slug: "give-harris-tweed-a-bag-shaped-afternoon",
+        moment: "On another session, choose the parts yourself",
+        why: "A cloth panel and prepared bag components put some of the object's decisions in your hands. The weaving has already happened in the Outer Hebrides.",
+      },
+      {
+        slug: "let-the-caller-start-the-dance",
+        moment: "If a confirmed public evening fits, learn the pattern",
+        why: "A caller can make the room's next movement less mysterious. Participation is optional and the actual programme needs a separate booking check.",
+      },
+    ],
+  },
+  {
+    slug: "madrid",
+    name: "Madrid",
+    country: "spain",
+    regions: ["madrid"],
+    title: "Read the platform. Look across the court. Listen to the exchange.",
+    intro:
+      "A former metro station, a restored pelota court and a live flamenco room reveal three different kinds of Madrid attention. Two make past public spaces easier to read. The third asks you to follow people making something happen now. They need not share one day.",
+    pace: "Choose one heritage visit and leave the performance for a separately booked evening.",
+    planning:
+      "Chamberí's free guided museum visit needs advance reservation and has its own monthly place release. Beti Jai's public access and any guided activity require a separate current check. Visiting the restored court does not promise a match. Cardamomo is a dated commercial performance with its own seating, age and admission terms, not an extension of either heritage ticket. Confirm actual addresses, languages and accessibility for each. Do not enter metro tracks, cross museum barriers or treat a working performance as permission to record. No combined reservation, transfer or EA package is implied.",
+    stops: [
+      {
+        slug: "step-off-madrids-timetable-at-chamberi",
+        moment: "Stop at a station trains no longer serve",
+        why: "A guide connects tiles, advertising and the former commuter route. The museum visit is not independent tunnel exploration.",
+      },
+      {
+        slug: "step-inside-madrids-surviving-pelota-court",
+        moment: "Give a restored sports space its own visit",
+        why: "The court makes another former urban gathering space visible. A sporting performance is not guaranteed by admission.",
+      },
+      {
+        slug: "listen-for-the-conversation-inside-flamenco",
+        moment: "On a booked evening, follow the exchange",
+        why: "Voice, guitar, clapping and movement form a live relationship. Let the musicians' programme matter more than collecting a generic flamenco image.",
+      },
+    ],
+  },
+  {
+    slug: "florence",
+    name: "Florence",
+    country: "italy",
+    regions: ["florence"],
+    title: "Make a surface. Make a cover. Leave time for a page.",
+    intro:
+      "Paper marbling, an adult book-cover workshop and a quiet library pause put a different kind of attention beside Florence's famous sights. Choose one making session rather than collecting both, then leave a smaller interval simply for reading something of your own.",
+    pace: "One separately arranged making session and a flexible library visit on an open day.",
+    planning:
+      "Il Papiro's marbling session and Scuola del Cuoio's three-hour adult leather-cover workshop are different businesses and bookings. Confirm the actual teaching venue, language, materials, tools and any collection time. The leather workshop is eighteen and above and does not imply a non-animal alternative. Biblioteca delle Oblate has free public entry, but registration conditions apply to some collection services. Bring your own reading and check the limited evening opening of selected spaces. Do not assume a reserved café table, cathedral view or a continuous walking route between all three. No combined workshop, ticket or transfer is implied.",
+    stops: [
+      {
+        slug: "draw-a-sheet-on-floating-colour",
+        moment: "Let a moving surface take a pattern",
+        why: "A paper-marbling introduction gives a familiar decorated sheet a process. Confirm the actual public class rather than assuming an unbooked shop demonstration.",
+      },
+      {
+        slug: "make-the-cover-before-filling-the-pages",
+        moment: "On a different session, consider the object around the paper",
+        why: "The instructed adult workshop connects cutting, assembly and finishing. It is separate from professional training and uses leather.",
+      },
+      {
+        slug: "bring-a-book-to-florences-oblate-courtyard",
+        moment: "Leave one interval without a making task",
+        why: "A public library lets your own reading become part of the visit. Quiet use and an available seat matter more than a particular photograph.",
+      },
+    ],
+  },
+  {
     slug: "new-orleans",
     name: "New Orleans",
     country: "united-states",

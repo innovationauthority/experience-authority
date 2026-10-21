@@ -1,4 +1,112 @@
 {
+  "/experiences/find-hanois-coffee-beneath-the-egg-cream": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "vietnam",
+    "regionSlug": "hanoi"
+  },
+  "/experiences/taste-nice-in-a-hot-piece-of-socca": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "france",
+    "regionSlug": "nice"
+  },
+  "/experiences/give-a-viennese-coffeehouse-an-unhurried-hour": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "austria",
+    "regionSlug": "vienna"
+  },
+  "/experiences/give-harris-tweed-a-bag-shaped-afternoon": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "edinburgh"
+  },
+  "/experiences/compose-a-berlin-scent-by-smelling-before-naming": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-11-21",
+    "countrySlug": "germany",
+    "regionSlug": "berlin"
+  },
+  "/experiences/lift-a-sheet-of-paper-from-a-taipei-rooftop-vat": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-11-21",
+    "countrySlug": "taiwan",
+    "regionSlug": "taipei"
+  },
+  "/experiences/let-the-star-ferry-put-hong-kong-in-motion": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "hong-kong",
+    "regionSlug": "central"
+  },
+  "/experiences/cross-to-wards-island-and-let-toronto-recede": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-14",
+    "countrySlug": "canada",
+    "regionSlug": "toronto"
+  },
+  "/experiences/walk-from-bondi-to-tamarama-with-time-to-look": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-11-21",
+    "countrySlug": "australia",
+    "regionSlug": "sydney"
+  },
+  "/experiences/meet-portos-trees-at-canopy-height": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "portugal",
+    "regionSlug": "porto"
+  },
+  "/experiences/step-off-madrids-timetable-at-chamberi": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-11-21",
+    "countrySlug": "spain",
+    "regionSlug": "madrid"
+  },
+  "/experiences/hear-the-instruments-inside-pariss-music-museum": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "france",
+    "regionSlug": "paris"
+  },
+  "/experiences/step-below-neukoellns-streets-into-koernerpark": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "germany",
+    "regionSlug": "berlin"
+  },
+  "/experiences/give-kyoto-an-ordinary-bathhouse-evening": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-11-21",
+    "countrySlug": "japan",
+    "regionSlug": "kyoto"
+  },
+  "/experiences/bring-a-book-to-florences-oblate-courtyard": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "italy",
+    "regionSlug": "florence"
+  },
+  "/experiences/give-a-greenwich-village-jazz-set-your-full-attention": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-11-30",
+    "countrySlug": "united-states",
+    "regionSlug": "new-york-city"
+  },
+  "/experiences/watch-a-sardana-circle-form-outside-barcelonas-cathedral": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-11-08",
+    "countrySlug": "spain",
+    "regionSlug": "barcelona"
+  },
+  "/experiences/hear-a-pipe-organ-inside-a-tokyo-buddhist-temple": {
+    "availableFrom": "2026-10-21",
+    "reviewBy": "2026-12-21",
+    "countrySlug": "japan",
+    "regionSlug": "tokyo"
+  },
   "/experiences/build-a-pintxo-before-ordering-the-next": {
     "availableFrom": "2026-10-20",
     "reviewBy": "2026-11-20",

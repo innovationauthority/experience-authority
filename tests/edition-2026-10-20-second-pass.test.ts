@@ -30,7 +30,11 @@ test("second 20 October pass adds eighteen distinct guides with three primary al
     Object.keys(edition20261020SecondPass).sort(),
     interests.map((i) => i.slug).sort(),
   );
-  const earlier = publicGuides.filter((g) => !slugs.some((s) => s === g.slug));
+  const earlier = publicGuides.filter(
+    (g) =>
+      g.guideReview!.checkedOn <= "2026-10-20" &&
+      !slugs.some((s) => s === g.slug),
+  );
   assert.equal(earlier.length, 298);
   for (const [area, allocated] of Object.entries(edition20261020SecondPass)) {
     assert.equal(allocated.length, 3);
@@ -98,7 +102,7 @@ test("second 20 October pass adds eighteen distinct guides with three primary al
     publishedReleases(publicGuides, "2026-10-20")[0].guides.length,
     36,
   );
-  assert.equal(publicGuides.length, 316);
+  assert.equal(publicGuides.length, 334);
   assert.equal(
     publishedReleases(publicGuides, "2026-10-20")[0].guides[0].slug,
     guideBatch48[0].slug,

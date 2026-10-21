@@ -1,0 +1,302 @@
+{
+  "edition": "2026-10-21",
+  "batch": 49,
+  "trigger": "Manual user request: jos tolko, followed by nastavi",
+  "netNewGuides": 18,
+  "primaryAllocations": {
+    "Eat & drink": 3,
+    "Make": 3,
+    "Move": 3,
+    "Explore & reflect": 3,
+    "Reset": 3,
+    "Shared rituals": 3
+  },
+  "catalogue": {
+    "authoredBefore": 316,
+    "authoredAfter": 334,
+    "eligibleBeforeThisBatchOn21October": 302,
+    "eligibleAfterOn21October": 320,
+    "expiredRecordsRetainedButGated": 14,
+    "newlyExpiredSince20October": [
+      "York chocolate",
+      "Seville guided river kayak",
+      "Valencia Water Tribunal"
+    ],
+    "authoredCountriesAndTerritories": 109,
+    "newEditionCountriesAndTerritories": 14,
+    "newEditionCitiesAndAreas": 17,
+    "qualification": "Exactly eighteen distinct new records. Earlier records and publication dates are preserved. No expired guide or source date was silently renewed."
+  },
+  "releaseHandling": {
+    "date": "2026-10-21",
+    "guidesOnThisDate": 18,
+    "previous20OctoberReleaseGuides": 36,
+    "duplicateReleaseDateEntries": false
+  },
+  "method": "Catalogue, deferred candidates, previous reports and Git history checked before selection. Public-source guides distinguish visitor actions from operator marketing. No EA attendance, local validation, provider partnership, purchase, private permission, joint booking or transfer is implied.",
+  "sources": {
+    "checkedOn": "2026-10-21",
+    "uniqueUrlsChecked": 60,
+    "directHttp200": 58,
+    "automatedAccessExceptions": [
+      {
+        "url": "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves/hunter_park",
+        "directFetchStatus": 403,
+        "browserStatus": 403,
+        "validation": "The official council page was read through ordinary web retrieval on 21 October. The local automated browser received a security-verification page. No challenge bypass attempted. The separate council remediation page returned 200 and establishes the route's closure boundary."
+      },
+      {
+        "url": "https://serralves.byblueticket.pt/Eventos/11210",
+        "directFetch": "TypeError: fetch failed",
+        "browserStatus": 500,
+        "validation": "The official current park product was available in normal web search, with its indexed content crawled the previous day. A fresh open encountered a redirect loop and the local browser received an explicit Web Page Blocked response. No bypass attempted. The two current Serralves institutional route/park sources returned 200. No date, stock, price or ticket availability is guaranteed."
+      }
+    ],
+    "scope": "Official operators, municipal institutions, transport authorities, bathhouse union and dance federation. Current Japanese source corrects stale translated Kyoto bath hours. Current temple schedule image was visually read. No booking, payment, form submission or third-party contact occurred."
+  },
+  "photography": {
+    "realPhotographs": 18,
+    "aiGenerated": 0,
+    "documentedLicences": 15,
+    "officialSourceModerateRisk": 3,
+    "rightsBoundary": "Attribution is not permission. The three operator-published class photographs follow the established EA moderate-risk policy and explicitly state that reuse rights are not independently cleared. Fifteen openly licensed photographs retain creator, direct source, licence and applicable share-alike attribution. Expressly restricted city-tourism images and ambiguous outside-publication images were not used.",
+    "provenance": "docs/edition-2026-10-21-photo-provenance.json",
+    "imageEdition": "b9ab48f2efb8",
+    "creditFormat": "Image: author / source ↗ with a direct source in a new tab",
+    "depictionBoundary": "Historical documentary images never establish current layout, staffing, admission or weather. Nice's licensed socca image is explicitly wider local context, not a false claim that its vendor is Chez Pipo. The 1974 Toronto image and pre-replacement Tokyo organ photograph were rejected. The Toronto guide uses a non-generative central crop of a June 2026 panorama."
+  },
+  "integration": {
+    "newLocalChapters": [
+      "Berlin",
+      "Hanoi",
+      "Edinburgh",
+      "Madrid",
+      "Florence"
+    ],
+    "authoredLocalChapters": 35,
+    "publicLocalChaptersOn21October": 34,
+    "qualification": "Valencia's existing chapter is currently hidden because its Water Tribunal evidence window expired. The full-sequence safety rule is retained, not weakened.",
+    "futureDailyAngles": 6,
+    "futureDailyDates": "2026-12-02 to 2026-12-07",
+    "previousAuthoredFutureEditionsPreserved": true,
+    "publishedDailyHistoryChanged": false,
+    "surfaces": [
+      "Compass",
+      "country and city filters",
+      "six visitor interests",
+      "editorial fields",
+      "destinations",
+      "collections",
+      "dated new-guide release",
+      "future Daily discovery",
+      "connected experiences",
+      "Passport",
+      "journey planning",
+      "sitemap",
+      "canonical URLs",
+      "Article and ImageObject structured data"
+    ]
+  },
+  "rejectedOrNarrowed": [
+    {
+      "candidate": "Chiang Mai Baan Celadon visitor pottery class",
+      "reason": "A clear current direct public hands-on programme was not established. A factory or retail visit was not relabelled as a class."
+    },
+    {
+      "candidate": "Suntory Organ Promenade as a current shared experience",
+      "reason": "Available initial programme results referred to older years or past summer dates. Replaced by a temple programme with a current October 2026 to March 2027 schedule."
+    },
+    {
+      "candidate": "Uninterrupted Bondi to Bronte or Coogee coastal walk",
+      "reason": "Current council notices document North Bronte cliff closures. Published only the bounded South Bondi to Tamarama outing, with no rock or barrier bypass."
+    },
+    {
+      "candidate": "A guaranteed Sunday-through-late-night Funaoka opening from older translated listings",
+      "reason": "The current Japanese bathhouse-union listing has Tuesday closure and different closing hours. Conflict is explicit and reconfirmation advised."
+    },
+    {
+      "candidate": "Serralves guided school/family workshop as ordinary park admission",
+      "reason": "Different ticket, date and visitor role. The guide concerns independent daytime park entry only."
+    },
+    {
+      "candidate": "A 25 October Sagrada Família ballada as the cathedral event",
+      "reason": "Different venue. The cathedral guide uses the actual 24 October agenda and organiser's 8 November closing announcement."
+    },
+    {
+      "candidate": "Oblate collection consultation without registration",
+      "reason": "Free public entry does not remove separate registration conditions for document services. The published suggestion begins with the visitor's own reading."
+    },
+    {
+      "candidate": "Frau Tonis as raw-ingredient perfume manufacture by the visitor",
+      "reason": "The actual product is guided co-composition using the existing house-fragrance palette and expert preparation."
+    }
+  ],
+  "verification": {
+    "unitTests": {
+      "passed": 116,
+      "failed": 0,
+      "log": "work/ea-49-tests-final.txt"
+    },
+    "typescript": "Passed with no diagnostics",
+    "productionBuild": "Passed",
+    "localRouteSmoke": {
+      "checkedPages": 684,
+      "unpublishedPaths": 32,
+      "uniqueCspNonces": 663,
+      "failures": 0
+    },
+    "localBrowser": {
+      "routeViewportChecks": 118,
+      "viewports": [
+        390,
+        1440
+      ],
+      "accessibility": "No automated WCAG A/AA violations on inspected pages",
+      "brokenImages": 0,
+      "horizontalOverflow": 0,
+      "runtimeErrors": 0,
+      "analytics": "No Google tag before consent; tests explicitly deny consent"
+    },
+    "localInteractions": {
+      "checks": 14,
+      "scope": "Country and city filters, new Berlin guide, photo modal with focus restoration, Passport save, journey addition and persistence, keyboard skip link, consent gate"
+    },
+    "newGuideProof": {
+      "passed": 18,
+      "rawImageSha256Matches": 18,
+      "optimizedWebpResponses": 18,
+      "expiredGuidesExcluded": 14
+    },
+    "gitDiffCheck": "Passed",
+    "production": "Pending explicit commit, push, Vercel success and separate live proof. Final confirmation is recorded outside this pre-deploy report.",
+    "visualReview": "All eighteen new guide openings inspected at mobile and desktop sizes, plus Home, New and Today. Full-page screenshots retained in the local QA output."
+  },
+  "guides": [
+    {
+      "primaryArea": "Eat & drink",
+      "slug": "find-hanois-coffee-beneath-the-egg-cream",
+      "url": "https://experienceauthority.com/experiences/find-hanois-coffee-beneath-the-egg-cream",
+      "title": "Find Hanoi's coffee beneath the egg cream",
+      "eaValue": "Order egg coffee at Café Giảng's Nguyễn Hữu Huân address and let a small cup interrupt your Old Quarter walk."
+    },
+    {
+      "primaryArea": "Eat & drink",
+      "slug": "taste-nice-in-a-hot-piece-of-socca",
+      "url": "https://experienceauthority.com/experiences/taste-nice-in-a-hot-piece-of-socca",
+      "title": "Taste Nice in a hot piece of socca",
+      "eaValue": "Share a freshly served chickpea pancake near Nice's port and pay attention to the crisp edge before it softens."
+    },
+    {
+      "primaryArea": "Eat & drink",
+      "slug": "give-a-viennese-coffeehouse-an-unhurried-hour",
+      "url": "https://experienceauthority.com/experiences/give-a-viennese-coffeehouse-an-unhurried-hour",
+      "title": "Give a Viennese coffeehouse an unhurried hour",
+      "eaValue": "Sit down at Café Sperl and let the room, a coffee and something to read become a proper part of the day."
+    },
+    {
+      "primaryArea": "Make",
+      "slug": "give-harris-tweed-a-bag-shaped-afternoon",
+      "url": "https://experienceauthority.com/experiences/give-harris-tweed-a-bag-shaped-afternoon",
+      "title": "Give Harris Tweed a bag-shaped afternoon",
+      "eaValue": "Choose a cloth panel and prepared components at an Edinburgh workshop, then assemble the bag you will carry away."
+    },
+    {
+      "primaryArea": "Make",
+      "slug": "compose-a-berlin-scent-by-smelling-before-naming",
+      "url": "https://experienceauthority.com/experiences/compose-a-berlin-scent-by-smelling-before-naming",
+      "title": "Compose a Berlin scent by smelling before naming",
+      "eaValue": "Compare house fragrances with a scent expert and choose a personal combination at Frau Tonis in Berlin."
+    },
+    {
+      "primaryArea": "Make",
+      "slug": "lift-a-sheet-of-paper-from-a-taipei-rooftop-vat",
+      "url": "https://experienceauthority.com/experiences/lift-a-sheet-of-paper-from-a-taipei-rooftop-vat",
+      "title": "Lift a sheet of paper from a Taipei rooftop vat",
+      "eaValue": "Join the Suho Memorial Paper Museum's scheduled papermaking session and watch wet fibres become something you can hold."
+    },
+    {
+      "primaryArea": "Move",
+      "slug": "let-the-star-ferry-put-hong-kong-in-motion",
+      "url": "https://experienceauthority.com/experiences/let-the-star-ferry-put-hong-kong-in-motion",
+      "title": "Let the Star Ferry put Hong Kong in motion",
+      "eaValue": "Take the scheduled Central to Tsim Sha Tsui crossing and give the harbour a practical role in your day."
+    },
+    {
+      "primaryArea": "Move",
+      "slug": "cross-to-wards-island-and-let-toronto-recede",
+      "url": "https://experienceauthority.com/experiences/cross-to-wards-island-and-let-toronto-recede",
+      "title": "Cross to Ward's Island and let Toronto recede",
+      "eaValue": "Use the municipal ferry to reach Toronto's islands, then choose a manageable public-path walk with the return timetable in mind."
+    },
+    {
+      "primaryArea": "Move",
+      "slug": "walk-from-bondi-to-tamarama-with-time-to-look",
+      "url": "https://experienceauthority.com/experiences/walk-from-bondi-to-tamarama-with-time-to-look",
+      "title": "Walk from Bondi to Tamarama with time to look",
+      "eaValue": "Take a bounded section of Sydney's coastal path and let rock, surf and the next bay share your attention."
+    },
+    {
+      "primaryArea": "Explore & reflect",
+      "slug": "meet-portos-trees-at-canopy-height",
+      "url": "https://experienceauthority.com/experiences/meet-portos-trees-at-canopy-height",
+      "title": "Meet Porto's trees at canopy height",
+      "eaValue": "Walk Serralves' elevated timber route and look across a park from a level normally left to branches."
+    },
+    {
+      "primaryArea": "Explore & reflect",
+      "slug": "step-off-madrids-timetable-at-chamberi",
+      "url": "https://experienceauthority.com/experiences/step-off-madrids-timetable-at-chamberi",
+      "title": "Step off Madrid's timetable at Chamberí",
+      "eaValue": "Book a guided visit to a former metro station and read the tiled advertising of a platform trains no longer serve."
+    },
+    {
+      "primaryArea": "Explore & reflect",
+      "slug": "hear-the-instruments-inside-pariss-music-museum",
+      "url": "https://experienceauthority.com/experiences/hear-the-instruments-inside-pariss-music-museum",
+      "title": "Hear the instruments inside Paris's music museum",
+      "eaValue": "Use the Musée de la musique's listening guide to connect an instrument in a case with the sound it can make."
+    },
+    {
+      "primaryArea": "Reset",
+      "slug": "step-below-neukoellns-streets-into-koernerpark",
+      "url": "https://experienceauthority.com/experiences/step-below-neukoellns-streets-into-koernerpark",
+      "title": "Step below Neukölln's streets into Körnerpark",
+      "eaValue": "Find a sunken public garden in Berlin and let the change in level give an ordinary pause a different setting."
+    },
+    {
+      "primaryArea": "Reset",
+      "slug": "give-kyoto-an-ordinary-bathhouse-evening",
+      "url": "https://experienceauthority.com/experiences/give-kyoto-an-ordinary-bathhouse-evening",
+      "title": "Give Kyoto an ordinary bathhouse evening",
+      "eaValue": "Enter Funaoka Onsen as a bather, not a spectator, and let a historic neighbourhood sentō slow the evening."
+    },
+    {
+      "primaryArea": "Reset",
+      "slug": "bring-a-book-to-florences-oblate-courtyard",
+      "url": "https://experienceauthority.com/experiences/bring-a-book-to-florences-oblate-courtyard",
+      "title": "Bring a book to Florence's Oblate courtyard",
+      "eaValue": "Use a public library's quieter spaces for a reading pause instead of making the next stop another ticket."
+    },
+    {
+      "primaryArea": "Shared rituals",
+      "slug": "give-a-greenwich-village-jazz-set-your-full-attention",
+      "url": "https://experienceauthority.com/experiences/give-a-greenwich-village-jazz-set-your-full-attention",
+      "title": "Give a Greenwich Village jazz set your full attention",
+      "eaValue": "Book one Village Vanguard set and let a small listening room, rather than a long evening's checklist, decide the pace."
+    },
+    {
+      "primaryArea": "Shared rituals",
+      "slug": "watch-a-sardana-circle-form-outside-barcelonas-cathedral",
+      "url": "https://experienceauthority.com/experiences/watch-a-sardana-circle-form-outside-barcelonas-cathedral",
+      "title": "Watch a sardana circle form outside Barcelona's cathedral",
+      "eaValue": "Choose a confirmed public ballada and listen to the cobla before deciding whether to join the dance."
+    },
+    {
+      "primaryArea": "Shared rituals",
+      "slug": "hear-a-pipe-organ-inside-a-tokyo-buddhist-temple",
+      "url": "https://experienceauthority.com/experiences/hear-a-pipe-organ-inside-a-tokyo-buddhist-temple",
+      "title": "Hear a pipe organ inside a Tokyo Buddhist temple",
+      "eaValue": "Attend Tsukiji Hongwanji's scheduled lunchtime concert and hear an unexpected instrument within a working temple."
+    }
+  ]
+}

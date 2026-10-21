@@ -42,8 +42,8 @@ test("Arcachon stays a bay-wide chapter regardless of guide order or a more spec
   }
 });
 
-test("guide set contains 316 distinct, sourced public experiences, not Selected or demo records", () => {
-  assert.equal(publicGuides.length, 316);
+test("guide set contains 334 distinct, sourced public experiences, not Selected or demo records", () => {
+  assert.equal(publicGuides.length, 334);
   assert.equal(
     new Set(publicGuides.map((p) => p.id)).size,
     publicGuides.length,
@@ -286,8 +286,9 @@ test("New York connects a recognisable food with living production and a difficu
       guide.countrySlug === "united-states" &&
       guide.regionSlug === "new-york-city",
   );
-  assert.equal(newYork.length, 5);
+  assert.equal(newYork.length, 6);
   assert.deepEqual([...new Set(newYork.map((guide) => guide.field))].sort(), [
+    "gather",
     "move",
     "restore",
     "taste",
@@ -362,9 +363,10 @@ test("Paris offers a recognisable entry, a living craft and hidden city work", (
   const paris = publicGuides.filter(
     (guide) => guide.countrySlug === "france" && guide.regionSlug === "paris",
   );
-  assert.equal(paris.length, 7);
+  assert.equal(paris.length, 8);
   assert.deepEqual([...new Set(paris.map((guide) => guide.field))].sort(), [
     "gather",
+    "learn",
     "restore",
     "taste",
     "witness",
@@ -463,6 +465,7 @@ test("connected guides prefer local contrast and label wider geography honestly"
       "hear-the-church-before-you-climb",
       "follow-the-building-around-the-music",
       "hear-the-room-you-came-to-see-in-porto",
+      "meet-portos-trees-at-canopy-height",
     ].includes(gaiaConnections[0].item.slug),
   );
   assert.equal(gaiaConnections[0].scope, "connected_area");
