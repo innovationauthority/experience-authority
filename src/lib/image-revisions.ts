@@ -1,6 +1,24 @@
 /** Content hashes keep replaced photographs consistent across responsive image caches.
  * The media test requires an update when an original file changes. */
 export const imageRevisions: Record<string, string> = {
+  "/images/guides/athens-krinos-loukoumades.jpg": "1e64993e7b0f",
+  "/images/guides/copenhagen-schonnemann-smorrebrod.jpg": "967683693038",
+  "/images/guides/porto-santiago-francesinha.jpg": "2fdf76165d65",
+  "/images/guides/porto-house-filigree-workshop.jpg": "2c81683cfb7d",
+  "/images/guides/seoul-yhlayuen-seal.jpg": "df898f7b0ddb",
+  "/images/guides/kuala-lumpur-batik-boutique.jpg": "c279b89fc4ee",
+  "/images/guides/budapest-zugliget-chairlift.jpg": "afef96081fb2",
+  "/images/guides/oslo-hovedoya-ferry-walk.jpg": "2b5387e2195f",
+  "/images/guides/dubrovnik-city-walls-walk.jpg": "8f7a45f172aa",
+  "/images/guides/bologna-archiginnasio-theatre.jpg": "b3c5934f66ad",
+  "/images/guides/osaka-housing-living-street.jpg": "78e354d5ee47",
+  "/images/guides/new-york-transit-museum-cars.jpg": "64e05876a73b",
+  "/images/guides/vienna-amalienbad-swim.jpg": "a1a6c81b0681",
+  "/images/guides/kyoto-murinan-water-garden.jpg": "c835d69a4ad7",
+  "/images/guides/singapore-chinese-garden-pause.jpg": "26fe2ea53efe",
+  "/images/guides/krakow-hejnal-listening.jpg": "c804ef407cc5",
+  "/images/guides/hanoi-binh-minh-jazz.jpg": "517710af6bbe",
+  "/images/guides/vienna-porgy-bess-listening.jpg": "de5740ce94d5",
   "/images/guides/berlin-konnopke-currywurst.jpg": "92c67bc6607f",
   "/images/guides/london-manze-pie-mash.jpg": "bf4febd182f8",
   "/images/guides/noto-sicilia-almond-granita.jpg": "264d989620d7",
@@ -485,7 +503,7 @@ export const imageRevisions: Record<string, string> = {
 
 // A single manifest fingerprint fits Next's bounded localPatterns allowlist.
 // Tests require it to change when any original is added or replaced.
-export const imageEdition = "0ae13c9b4714";
+export const imageEdition = "1c19b3654a5d";
 
 export function imageSource(src: string) {
   return imageRevisions[src] ? `${src}?v=${imageEdition}` : src;

@@ -34,7 +34,9 @@ test("third 21 October pass adds eighteen distinct guides with three in each pri
     Object.keys(edition20261021ThirdPass).sort(),
     interests.map((i) => i.slug).sort(),
   );
-  const earlier = publicGuides.filter((g) => !slugs.includes(g.slug));
+  const earlier = publicGuides.filter(
+    (g) => !slugs.includes(g.slug) && g.guideReview!.checkedOn <= "2026-10-21",
+  );
   assert.equal(earlier.length, 460);
   for (const [area, allocated] of Object.entries(edition20261021ThirdPass)) {
     assert.equal(allocated.length, 3);
@@ -84,7 +86,10 @@ test("third 21 October pass adds eighteen distinct guides with three in each pri
       assert.ok(prose.split(/\s+/).length >= 300, slug);
     }
   }
-  assert.equal(publicGuides.length, 478);
+  assert.equal(
+    publicGuides.filter((g) => g.guideReview!.checkedOn <= "2026-10-21").length,
+    478,
+  );
   assert.equal(
     publicGuides.filter((g) => canPublishGuide(g, "2026-10-21")).length,
     464,

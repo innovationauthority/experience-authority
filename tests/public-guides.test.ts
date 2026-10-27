@@ -42,8 +42,8 @@ test("Arcachon stays a bay-wide chapter regardless of guide order or a more spec
   }
 });
 
-test("guide set contains 478 distinct, sourced public experiences, not Selected or demo records", () => {
-  assert.equal(publicGuides.length, 478);
+test("guide set contains 496 distinct, sourced public experiences, not Selected or demo records", () => {
+  assert.equal(publicGuides.length, 496);
   assert.equal(
     new Set(publicGuides.map((p) => p.id)).size,
     publicGuides.length,
@@ -286,9 +286,10 @@ test("New York connects a recognisable food with living production and a difficu
       guide.countrySlug === "united-states" &&
       guide.regionSlug === "new-york-city",
   );
-  assert.equal(newYork.length, 9);
+  assert.equal(newYork.length, 10);
   assert.deepEqual([...new Set(newYork.map((guide) => guide.field))].sort(), [
     "gather",
+    "learn",
     "move",
     "restore",
     "taste",
@@ -296,7 +297,9 @@ test("New York connects a recognisable food with living production and a difficu
     "work",
   ]);
   assert.ok(
-    newYork.every((guide) => /No EA .*booking|No EA ferry/.test(guide.access)),
+    newYork.every((guide) =>
+      /No EA .*booking|No EA ferry|No EA ticket/.test(guide.access),
+    ),
   );
   assert.match(
     newYork.find(
@@ -404,12 +407,13 @@ test("public guide headlines avoid sensational, extreme and objectifying travel 
   assert.equal(kuopio.title, "Make an evening of the smoke sauna");
   assert.match(kuopio.responsibility, /swimming are optional/);
 });
-test("Kraków offers three distinct, connected reasons to stay with an honest event boundary", () => {
+test("Kraków offers four distinct, connected reasons to stay with an honest event boundary", () => {
   const krakow = publicGuides.filter(
     (guide) => guide.countrySlug === "poland" && guide.regionSlug === "krakow",
   );
-  assert.equal(krakow.length, 3);
+  assert.equal(krakow.length, 4);
   assert.deepEqual([...new Set(krakow.map((guide) => guide.field))].sort(), [
+    "gather",
     "make",
     "taste",
     "witness",
@@ -475,6 +479,7 @@ test("connected guides prefer local contrast and label wider geography honestly"
       "hear-the-room-you-came-to-see-in-porto",
       "meet-portos-trees-at-canopy-height",
       "follow-a-camera-through-portos-former-prison",
+      "fit-a-silver-thread-into-portos-filigree",
     ].includes(gaiaConnections[0].item.slug),
   );
   assert.equal(gaiaConnections[0].scope, "connected_area");

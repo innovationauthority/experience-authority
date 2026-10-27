@@ -1,4 +1,112 @@
 {
+  "/experiences/break-the-crust-of-an-athens-loukouma": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2027-01-24",
+    "countrySlug": "greece",
+    "regionSlug": "athens"
+  },
+  "/experiences/read-a-copenhagen-lunch-one-open-sandwich-at-a-time": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2027-01-24",
+    "countrySlug": "denmark",
+    "regionSlug": "copenhagen"
+  },
+  "/experiences/find-the-sauce-inside-portos-francesinha": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2027-01-24",
+    "countrySlug": "portugal",
+    "regionSlug": "porto"
+  },
+  "/experiences/fit-a-silver-thread-into-portos-filigree": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2027-01-24",
+    "countrySlug": "portugal",
+    "regionSlug": "porto"
+  },
+  "/experiences/carve-a-name-into-stone-in-insadong": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2027-01-24",
+    "countrySlug": "south-korea",
+    "regionSlug": "seoul"
+  },
+  "/experiences/let-wax-hold-a-line-in-kuala-lumpur": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2027-01-24",
+    "countrySlug": "malaysia",
+    "regionSlug": "kuala-lumpur"
+  },
+  "/experiences/let-budapest-appear-between-the-trees": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2027-01-24",
+    "countrySlug": "hungary",
+    "regionSlug": "budapest"
+  },
+  "/experiences/take-an-oslo-city-ticket-to-an-island-walk": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2027-01-24",
+    "countrySlug": "norway",
+    "regionSlug": "oslo"
+  },
+  "/experiences/walk-dubrovnik-between-rooftops-and-sea": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2027-01-24",
+    "countrySlug": "croatia",
+    "regionSlug": "dubrovnik"
+  },
+  "/experiences/read-a-bologna-lecture-room-carved-in-wood": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2027-01-24",
+    "countrySlug": "italy",
+    "regionSlug": "bologna"
+  },
+  "/experiences/walk-through-a-day-in-recreated-old-osaka": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2026-11-26",
+    "countrySlug": "japan",
+    "regionSlug": "osaka"
+  },
+  "/experiences/step-inside-the-subways-new-york-used-to-ride": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2027-01-24",
+    "countrySlug": "united-states",
+    "regionSlug": "new-york-city"
+  },
+  "/experiences/swim-through-viennas-everyday-architecture": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2027-01-24",
+    "countrySlug": "austria",
+    "regionSlug": "vienna"
+  },
+  "/experiences/follow-water-through-murin-ans-borrowed-landscape": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2027-01-24",
+    "countrySlug": "japan",
+    "regionSlug": "kyoto"
+  },
+  "/experiences/slow-a-singapore-afternoon-beside-the-chinese-garden": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2027-01-24",
+    "countrySlug": "singapore",
+    "regionSlug": "singapore"
+  },
+  "/experiences/let-krakows-next-hour-begin-with-a-trumpet": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2027-01-24",
+    "countrySlug": "poland",
+    "regionSlug": "krakow"
+  },
+  "/experiences/hear-hanoi-answer-in-jazz": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2026-12-26",
+    "countrySlug": "vietnam",
+    "regionSlug": "hanoi"
+  },
+  "/experiences/hear-viennas-musical-life-beyond-the-concert-hall": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2026-12-26",
+    "countrySlug": "austria",
+    "regionSlug": "vienna"
+  },
   "/experiences/compare-brussels-and-liege-one-waffle-at-a-time": {
     "availableFrom": "2026-10-21",
     "reviewBy": "2026-12-21",

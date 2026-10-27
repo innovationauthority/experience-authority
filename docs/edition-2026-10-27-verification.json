@@ -1,0 +1,266 @@
+{
+  "edition": "2026-10-27",
+  "batch": 58,
+  "trigger": "User request: dodaj 18",
+  "netNewGuides": 18,
+  "primaryAllocations": {
+    "eat-drink": 3,
+    "make-learn": 3,
+    "move-water": 3,
+    "explore-reflect": 3,
+    "swim-reset": 3,
+    "shared-rituals": 3
+  },
+  "catalogue": {
+    "authoredBefore": 478,
+    "authoredAfter": 496,
+    "eligibleBefore": 454,
+    "eligibleAfter": 472,
+    "expiredOrTimeGated": 24,
+    "batchCountries": 15,
+    "batchPlaces": 16
+  },
+  "method": "Original public-source guides, not on-site EA reviews, partnerships or local validation. No private contact, booking, purchase or third-party permission request was made.",
+  "guides": [
+    {
+      "id": "athens-krinos-loukoumades",
+      "slug": "break-the-crust-of-an-athens-loukouma",
+      "title": "Break the crust of an Athens loukouma",
+      "country": "Greece",
+      "area": "athens",
+      "field": "taste",
+      "summary": "At Krinos, a plate of loukoumades turns an Athens shopping street into a short lesson in heat, honey and texture.",
+      "url": "https://experienceauthority.com/experiences/break-the-crust-of-an-athens-loukouma"
+    },
+    {
+      "id": "copenhagen-schonnemann-smorrebrod",
+      "slug": "read-a-copenhagen-lunch-one-open-sandwich-at-a-time",
+      "title": "Read a Copenhagen lunch one open sandwich at a time",
+      "country": "Denmark",
+      "area": "copenhagen",
+      "field": "taste",
+      "summary": "Sit down to smørrebrød at Schønnemann and discover how rye bread holds together a lunch that is eaten with a knife and fork.",
+      "url": "https://experienceauthority.com/experiences/read-a-copenhagen-lunch-one-open-sandwich-at-a-time"
+    },
+    {
+      "id": "porto-santiago-francesinha",
+      "slug": "find-the-sauce-inside-portos-francesinha",
+      "title": "Find the sauce inside Porto's francesinha",
+      "country": "Portugal",
+      "area": "porto",
+      "field": "taste",
+      "summary": "Take a seat at Café Santiago for a francesinha and discover why this Porto sandwich needs a plate, cutlery and room in your day.",
+      "url": "https://experienceauthority.com/experiences/find-the-sauce-inside-portos-francesinha"
+    },
+    {
+      "id": "porto-house-filigree-workshop",
+      "slug": "fit-a-silver-thread-into-portos-filigree",
+      "title": "Fit a silver thread into Porto's filigree",
+      "country": "Portugal",
+      "area": "porto",
+      "field": "make",
+      "summary": "At House of Filigree, a two-hour introductory workshop turns delicate silver ornament into a set of decisions made with your own hands.",
+      "url": "https://experienceauthority.com/experiences/fit-a-silver-thread-into-portos-filigree"
+    },
+    {
+      "id": "seoul-yhlayuen-seal",
+      "slug": "carve-a-name-into-stone-in-insadong",
+      "title": "Carve a name into stone in Insadong",
+      "country": "South Korea",
+      "area": "seoul",
+      "field": "make",
+      "summary": "Make a personal stone seal at Yhlayuen and discover how a carved surface becomes a name on paper only after it meets ink.",
+      "url": "https://experienceauthority.com/experiences/carve-a-name-into-stone-in-insadong"
+    },
+    {
+      "id": "kuala-lumpur-batik-boutique",
+      "slug": "let-wax-hold-a-line-in-kuala-lumpur",
+      "title": "Let wax hold a line in Kuala Lumpur",
+      "country": "Malaysia",
+      "area": "kuala-lumpur",
+      "field": "make",
+      "summary": "Choose a small batik project at Batik Boutique and watch a wax boundary change what colour can do on cloth.",
+      "url": "https://experienceauthority.com/experiences/let-wax-hold-a-line-in-kuala-lumpur"
+    },
+    {
+      "id": "budapest-zugliget-chairlift",
+      "slug": "let-budapest-appear-between-the-trees",
+      "title": "Let Budapest appear between the trees",
+      "country": "Hungary",
+      "area": "budapest",
+      "field": "move",
+      "summary": "Ride the Zugliget chairlift above the wooded Buda slopes and notice the city opening beyond a journey that is deliberately slow.",
+      "url": "https://experienceauthority.com/experiences/let-budapest-appear-between-the-trees"
+    },
+    {
+      "id": "oslo-hovedoya-ferry-walk",
+      "slug": "take-an-oslo-city-ticket-to-an-island-walk",
+      "title": "Take an Oslo city ticket to an island walk",
+      "country": "Norway",
+      "area": "oslo",
+      "field": "move",
+      "summary": "Board the public ferry at Aker Brygge, step onto Hovedøya and walk between woodland and monastery ruins within sight of Oslo.",
+      "url": "https://experienceauthority.com/experiences/take-an-oslo-city-ticket-to-an-island-walk"
+    },
+    {
+      "id": "dubrovnik-city-walls-walk",
+      "slug": "walk-dubrovnik-between-rooftops-and-sea",
+      "title": "Walk Dubrovnik between rooftops and sea",
+      "country": "Croatia",
+      "area": "dubrovnik",
+      "field": "move",
+      "summary": "Walk the city walls as a changing view of Dubrovnik's roofs, streets and coastline, not just a high place to take the same photograph.",
+      "url": "https://experienceauthority.com/experiences/walk-dubrovnik-between-rooftops-and-sea"
+    },
+    {
+      "id": "bologna-archiginnasio-theatre",
+      "slug": "read-a-bologna-lecture-room-carved-in-wood",
+      "title": "Read a Bologna lecture room carved in wood",
+      "country": "Italy",
+      "area": "bologna",
+      "field": "learn",
+      "summary": "Step into the Archiginnasio's anatomical theatre and see how a room was designed to organise looking, teaching and authority.",
+      "url": "https://experienceauthority.com/experiences/read-a-bologna-lecture-room-carved-in-wood"
+    },
+    {
+      "id": "osaka-housing-living-street",
+      "slug": "walk-through-a-day-in-recreated-old-osaka",
+      "title": "Walk through a day in recreated old Osaka",
+      "country": "Japan",
+      "area": "osaka",
+      "field": "learn",
+      "summary": "At the Museum of Housing and Living, a full-size reconstructed street lets you examine ordinary urban life while indoor light moves from day towards night.",
+      "url": "https://experienceauthority.com/experiences/walk-through-a-day-in-recreated-old-osaka"
+    },
+    {
+      "id": "new-york-transit-museum-cars",
+      "slug": "step-inside-the-subways-new-york-used-to-ride",
+      "title": "Step inside the subways New York used to ride",
+      "country": "United States",
+      "area": "new-york-city",
+      "field": "learn",
+      "summary": "Descend into the New York Transit Museum and compare historic subway cars from the platform of a real former station.",
+      "url": "https://experienceauthority.com/experiences/step-inside-the-subways-new-york-used-to-ride"
+    },
+    {
+      "id": "vienna-amalienbad-swim",
+      "slug": "swim-through-viennas-everyday-architecture",
+      "title": "Swim through Vienna's everyday architecture",
+      "country": "Austria",
+      "area": "vienna",
+      "field": "restore",
+      "summary": "Take an ordinary public swim at Amalienbad, where a striking historic hall remains a place to change, enter the water and do a few lengths.",
+      "url": "https://experienceauthority.com/experiences/swim-through-viennas-everyday-architecture"
+    },
+    {
+      "id": "kyoto-murinan-water-garden",
+      "slug": "follow-water-through-murin-ans-borrowed-landscape",
+      "title": "Follow water through Murin-an's borrowed landscape",
+      "country": "Japan",
+      "area": "kyoto",
+      "field": "restore",
+      "summary": "At Murin-an, follow a garden stream with your eyes and notice where a small Kyoto garden begins to borrow the hills beyond it.",
+      "url": "https://experienceauthority.com/experiences/follow-water-through-murin-ans-borrowed-landscape"
+    },
+    {
+      "id": "singapore-chinese-garden-pause",
+      "slug": "slow-a-singapore-afternoon-beside-the-chinese-garden",
+      "title": "Slow a Singapore afternoon beside the Chinese Garden",
+      "country": "Singapore",
+      "area": "singapore",
+      "field": "restore",
+      "summary": "Follow water, bridges and garden landmarks through the Chinese Garden at Jurong Lake, leaving room for a pause instead of another city checklist.",
+      "url": "https://experienceauthority.com/experiences/slow-a-singapore-afternoon-beside-the-chinese-garden"
+    },
+    {
+      "id": "krakow-hejnal-listening",
+      "slug": "let-krakows-next-hour-begin-with-a-trumpet",
+      "title": "Let Kraków's next hour begin with a trumpet",
+      "country": "Poland",
+      "area": "krakow",
+      "field": "gather",
+      "summary": "Pause in the Main Market Square before the hour and listen for the live hejnał from St Mary's taller tower.",
+      "url": "https://experienceauthority.com/experiences/let-krakows-next-hour-begin-with-a-trumpet"
+    },
+    {
+      "id": "hanoi-binh-minh-jazz",
+      "slug": "hear-hanoi-answer-in-jazz",
+      "title": "Hear Hanoi answer in jazz",
+      "country": "Vietnam",
+      "area": "hanoi",
+      "field": "gather",
+      "summary": "Spend a set at Bình Minh Jazz Club and encounter Hanoi through musicians working with improvisation, familiar standards and their own changing programme.",
+      "url": "https://experienceauthority.com/experiences/hear-hanoi-answer-in-jazz"
+    },
+    {
+      "id": "vienna-porgy-bess-listening",
+      "slug": "hear-viennas-musical-life-beyond-the-concert-hall",
+      "title": "Hear Vienna's musical life beyond the concert hall",
+      "country": "Austria",
+      "area": "vienna",
+      "field": "gather",
+      "summary": "Choose a live performance at Porgy & Bess and give Vienna's present-tense musical life the attention usually reserved for its classical landmarks.",
+      "url": "https://experienceauthority.com/experiences/hear-viennas-musical-life-beyond-the-concert-hall"
+    }
+  ],
+  "photographs": {
+    "total": 18,
+    "documentedLicense": 7,
+    "officialSourceReuseNotIndependentlyCleared": 11,
+    "policy": "Existing owner-authorised official-source editorial reuse policy. Full credit and source link do not constitute permission. No generated photographs.",
+    "review": "All eighteen selected photographs and desktop/mobile guide crops were visually inspected. Specific provenance and depiction boundaries are in the media manifest."
+  },
+  "rejectedOrDeferred": [
+    {
+      "candidate": "Barcelona HANDMADE espadrilles",
+      "reason": "Existing programme in batch 40, not a new guide."
+    },
+    {
+      "candidate": "Buenos Aires La Viruta tango",
+      "reason": "Close duplicate of an existing venue/programme."
+    },
+    {
+      "candidate": "Paris Le Foodist croissant class",
+      "reason": "Insufficient distinction from the existing Paris croissant experience."
+    },
+    {
+      "candidate": "Dublin Cobblestone, Buenos Aires La Bomba de Tiempo, Florence Il Papiro and Kyoto Shikata kintsugi",
+      "reason": "Already covered in previous batches."
+    },
+    {
+      "candidate": "Antwerp Plantin-Moretus Museum",
+      "reason": "Closed until December 2026, deferred rather than presented as currently available."
+    },
+    {
+      "candidate": "Turin National Cinema Museum",
+      "reason": "Upcoming November restrictions made this a weaker current publication choice."
+    },
+    {
+      "candidate": "Claus Porto soap workshop",
+      "reason": "Large minimum group requirement does not fit the ordinary individual visitor entry sought."
+    },
+    {
+      "candidate": "Seoul Saegimsori",
+      "reason": "Custom seal retail did not establish visitor carving participation."
+    }
+  ],
+  "rejectedPhotographs": [
+    "Generated Batik Boutique product mock-ups, replaced with a real 2023 workshop photograph",
+    "Hanoi outdoor concert, not the club room",
+    "Gressholmen photograph misaligned with Hovedøya",
+    "Blurred municipal Amalienbad image, replaced with credited tourism-board photograph",
+    "Grainy Bologna and Porgy & Bess archive images",
+    "Kraków noticeboard/office photographs",
+    "Singapore aerial photographs predating the 2024 garden renewal"
+  ],
+  "checks": {
+    "unitTests": "169 passed, 0 failed",
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "newGuideLocalProof": "18/18 passed, including canonical, indexability, schema, sitemap, original image hashes and WebP optimization",
+    "browser": "All eighteen guide headers reviewed at 1440×1000 and 390×844, no horizontal overflow. All eighteen desktop hero images loaded. Source credit targets checked. Mobile home, Today, Compass, new edition, three destination pages and six field pages checked. Photo dialog focus return and Passport save/unsave verified.",
+    "analytics": "No Google analytics scripts observed on reviewed mobile pages before consent. Existing consent tests passed.",
+    "fullRouteSmoke": "877 unique routes passed, including 42 unpublished paths, 846 unique CSP nonces, crawler rules and the social image. The initial run exposed eighteen duplicate path prefixes in the test list, which were corrected before the passing rerun.",
+    "deployment": "Not yet deployed"
+  }
+}

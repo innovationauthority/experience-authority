@@ -1,0 +1,1879 @@
+{
+  "checkedOn": "2026-10-27",
+  "batch": 58,
+  "photos": [
+    {
+      "guideId": "athens-krinos-loukoumades",
+      "id": "krinos-0",
+      "url": "https://www.thisisathens.org/sites/default/files/styles/place_image/public/2019-03/TGR_Cafes_Krinos.jpg?h=eebbabb7&itok=lyWUFiPV",
+      "source": "https://www.thisisathens.org/cafes-bakeries/krinos",
+      "width": 1037,
+      "height": 570,
+      "media": {
+        "guideId": "athens-krinos-loukoumades",
+        "src": "/images/guides/athens-krinos-loukoumades.jpg",
+        "title": "Golden loukoumades on a white plate beside a Krinos napkin in Athens",
+        "alt": "Golden loukoumades on a white plate beside a Krinos napkin in Athens",
+        "photographer": "Thomas Gravanis / This is Athens",
+        "sourceUrl": "https://www.thisisathens.org/cafes-bakeries/krinos",
+        "licenseName": "Official source photograph. Reuse rights not independently cleared",
+        "licenseUrl": "https://www.thisisathens.org/cafes-bakeries/krinos",
+        "rightsBasis": "official_source",
+        "rightsCheckedOn": "2026-10-27",
+        "visualReview": {
+          "outcome": "approved",
+          "checkedOn": "2026-10-27",
+          "rationale": "The plate and named napkin identify the actual sweet-shop serving. Its crisp surface reads clearly without substituting a generic Greek dessert."
+        },
+        "depiction": "A historical serving. Current ingredients, portions and presentation can differ. Reuse rights have not been independently cleared. Attribution is not permission. No EA attendance, partnership or future conditions are implied."
+      }
+    },
+    {
+      "guideId": "copenhagen-schonnemann-smorrebrod",
+      "id": "schonnemann-1",
+      "url": "https://files.guidedanmark.org/files/382/825_Restaurant_Schnnemann.jpg",
+      "source": "https://www.visitcopenhagen.com/copenhagen/planning/schonnemann-gdk412669",
+      "alt": "Schønnemann",
+      "width": 1024,
+      "height": 576,
+      "media": {
+        "guideId": "copenhagen-schonnemann-smorrebrod",
+        "src": "/images/guides/copenhagen-schonnemann-smorrebrod.jpg",
+        "title": "A colourful plated lunch dish photographed by Restaurant Schønnemann in Copenhagen",
+        "alt": "A colourful plated lunch dish photographed by Restaurant Schønnemann in Copenhagen",
+        "photographer": "Restaurant Schønnemann / Visit Copenhagen",
+        "sourceUrl": "https://www.visitcopenhagen.com/copenhagen/planning/schonnemann-gdk412669",
+        "licenseName": "Official source photograph. Reuse rights not independently cleared",
+        "licenseUrl": "https://www.visitcopenhagen.com/copenhagen/planning/schonnemann-gdk412669",
+        "rightsBasis": "official_source",
+        "rightsCheckedOn": "2026-10-27",
+        "visualReview": {
+          "outcome": "approved",
+          "checkedOn": "2026-10-27",
+          "rationale": "The restaurant's own food photograph offers a specific lunch reference rather than an unrelated Copenhagen streetscape. Ingredients are not identified beyond the evidence."
+        },
+        "depiction": "An official restaurant dish photograph, not a claim about today's menu or a specific booked meal. Reuse rights have not been independently cleared. Attribution is not permission. No EA attendance, partnership or future conditions are implied."
+      }
+    },
+    {
+      "guideId": "porto-santiago-francesinha",
+      "id": "santiago-dish",
+      "url": "https://cafesantiago.pt/wp-content/uploads/2023/02/francesinha5.jpg",
+      "source": "https://cafesantiago.pt/en/",
+      "width": 900,
+      "height": 750,
+      "media": {
+        "guideId": "porto-santiago-francesinha",
+        "src": "/images/guides/porto-santiago-francesinha.jpg",
+        "title": "A francesinha topped with cheese and an egg beside chips and a sauce boat at Café Santiago",
+        "alt": "A francesinha topped with cheese and an egg beside chips and a sauce boat at Café Santiago",
+        "photographer": "Café Santiago",
+        "sourceUrl": "https://cafesantiago.pt/en/",
+        "licenseName": "Official source photograph. Reuse rights not independently cleared",
+        "licenseUrl": "https://cafesantiago.pt/en/",
+        "rightsBasis": "official_source",
+        "rightsCheckedOn": "2026-10-27",
+        "visualReview": {
+          "outcome": "approved",
+          "checkedOn": "2026-10-27",
+          "rationale": "The actual dish, chips and separate sauce boat make the guide's focus legible. Selected instead of a photograph showing the branding of a different Santiago branch."
+        },
+        "depiction": "An official product photograph. Current portions, ingredients and sauce recipe are not established by the image. Reuse rights have not been independently cleared. Attribution is not permission. No EA attendance, partnership or future conditions are implied."
+      }
+    },
+    {
+      "guideId": "porto-house-filigree-workshop",
+      "id": "filigree-0",
+      "url": "https://houseoffiligree.com/cdn/shop/files/workshop-image1_2500x2500.jpg?v=1683293095",
+      "source": "https://houseoffiligree.com/en/pages/filigree-workshop",
+      "alt": "",
+      "width": 2500,
+      "height": 782,
+      "media": {
+        "guideId": "porto-house-filigree-workshop",
+        "src": "/images/guides/porto-house-filigree-workshop.jpg",
+        "title": "Hands arranging fine silver filigree details at House of Filigree in Porto",
+        "alt": "Hands arranging fine silver filigree details at House of Filigree in Porto",
+        "photographer": "House of Filigree",
+        "sourceUrl": "https://houseoffiligree.com/en/pages/filigree-workshop",
+        "licenseName": "Official source photograph. Reuse rights not independently cleared",
+        "licenseUrl": "https://houseoffiligree.com/en/pages/filigree-workshop",
+        "rightsBasis": "official_source",
+        "rightsCheckedOn": "2026-10-27",
+        "visualReview": {
+          "outcome": "approved",
+          "checkedOn": "2026-10-27",
+          "rationale": "The close view makes fine metalwork and hand technique visible. Professional work is shown as context, not a promise of what a beginner will complete."
+        },
+        "depiction": "Professional filigree work. The beginner workshop does not promise this level of complexity or the pictured object. Reuse rights have not been independently cleared. Attribution is not permission. No EA attendance, partnership or future conditions are implied."
+      }
+    },
+    {
+      "guideId": "seoul-yhlayuen-seal",
+      "id": "seal-1",
+      "url": "https://korea-jeongak.com/assets/experience-group-stamps.jpg",
+      "source": "https://korea-jeongak.com/",
+      "alt": "단체 워크샵에서 완성된 이름 도장 배열",
+      "width": 1600,
+      "height": 1200,
+      "media": {
+        "guideId": "seoul-yhlayuen-seal",
+        "src": "/images/guides/seoul-yhlayuen-seal.jpg",
+        "title": "Finished stone name seals and red impressions displayed by Yhlayuen in Seoul",
+        "alt": "Finished stone name seals and red impressions displayed by Yhlayuen in Seoul",
+        "photographer": "Yhlayuen",
+        "sourceUrl": "https://korea-jeongak.com/",
+        "licenseName": "Official source photograph. Reuse rights not independently cleared",
+        "licenseUrl": "https://korea-jeongak.com/",
+        "rightsBasis": "official_source",
+        "rightsCheckedOn": "2026-10-27",
+        "visualReview": {
+          "outcome": "approved",
+          "checkedOn": "2026-10-27",
+          "rationale": "Stone objects and their printed impressions explain the activity more clearly than a posed group photograph. Designs are examples, not guaranteed workshop outcomes."
+        },
+        "depiction": "Example finished seals. Materials, characters and available designs depend on the actual session. Reuse rights have not been independently cleared. Attribution is not permission. No EA attendance, partnership or future conditions are implied."
+      }
+    },
+    {
+      "guideId": "kuala-lumpur-batik-boutique",
+      "id": "batik-1",
+      "url": "https://batikboutique.com/cdn/shop/files/9S6A8547.jpg?crop=center&height=1152&v=1686712069&width=1728",
+      "source": "https://batikboutique.com/pages/batik-workshop",
+      "alt": "Participants learning traditional batik-making techniques in a creative workshop.",
+      "width": 1728,
+      "height": 1152,
+      "media": {
+        "guideId": "kuala-lumpur-batik-boutique",
+        "src": "/images/guides/kuala-lumpur-batik-boutique.jpg",
+        "title": "Participants working on cloth beside a wax pot at a Batik Boutique workshop in Kuala Lumpur",
+        "alt": "Participants working on cloth beside a wax pot at a Batik Boutique workshop in Kuala Lumpur",
+        "photographer": "Batik Boutique",
+        "sourceUrl": "https://batikboutique.com/pages/batik-workshop",
+        "licenseName": "Official source photograph. Reuse rights not independently cleared",
+        "licenseUrl": "https://batikboutique.com/pages/batik-workshop",
+        "rightsBasis": "official_source",
+        "rightsCheckedOn": "2026-10-27",
+        "visualReview": {
+          "outcome": "approved",
+          "checkedOn": "2026-10-27",
+          "rationale": "A documented 2023 workshop photograph shows people using the tools in a real class. Generated product mock-ups on the same site were explicitly excluded."
+        },
+        "depiction": "A 2023 documentary class. The pictured participants, group size and designs are not promised for future bookings. Reuse rights have not been independently cleared. Attribution is not permission. No EA attendance, partnership or future conditions are implied."
+      }
+    },
+    {
+      "guideId": "budapest-zugliget-chairlift",
+      "id": "zugliget-chairlift-2",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Budapest_Chairlift_1.jpg/1920px-Budapest_Chairlift_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Budapest_Chairlift_1.jpg",
+      "metadata": {
+        "title": "File:Budapest Chairlift 1.jpg",
+        "size": 9841160,
+        "width": 5160,
+        "height": 3375,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Budapest_Chairlift_1.jpg/1920px-Budapest_Chairlift_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1920,
+        "thumbheight": 1256,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Budapest_Chairlift_1.jpg/3840px-Budapest_Chairlift_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Budapest_Chairlift_1.jpg/1920px-Budapest_Chairlift_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1920,
+          "height": 1256,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Budapest_Chairlift_1.jpg/3840px-Budapest_Chairlift_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Budapest_Chairlift_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Budapest_Chairlift_1.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=131495293",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2023-05-03 18:18:50",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Budapest Chairlift 1",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Budapest Chairlift|Self-published work|Hungary photographs taken on 2023-03-19",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "quality",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Budapest Chairlift.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2023-03-19 14:16:20",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kallerna\" title=\"User:Kallerna\">kallerna</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "width": 1920,
+      "height": 1256,
+      "commons": {
+        "title": "File:Budapest Chairlift 1.jpg",
+        "size": 9841160,
+        "width": 5160,
+        "height": 3375,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Budapest_Chairlift_1.jpg/1920px-Budapest_Chairlift_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1920,
+        "thumbheight": 1256,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Budapest_Chairlift_1.jpg/3840px-Budapest_Chairlift_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Budapest_Chairlift_1.jpg/1920px-Budapest_Chairlift_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1920,
+          "height": 1256,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Budapest_Chairlift_1.jpg/3840px-Budapest_Chairlift_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Budapest_Chairlift_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Budapest_Chairlift_1.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=131495293",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2023-05-03 18:18:50",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Budapest Chairlift 1",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Budapest Chairlift|Self-published work|Hungary photographs taken on 2023-03-19",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "quality",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Budapest Chairlift.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2023-03-19 14:16:20",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kallerna\" title=\"User:Kallerna\">kallerna</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "media": {
+        "guideId": "budapest-zugliget-chairlift",
+        "src": "/images/guides/budapest-zugliget-chairlift.jpg",
+        "title": "Open chairlift seats descending through woodland towards the city of Budapest",
+        "alt": "Open chairlift seats descending through woodland towards the city of Budapest",
+        "photographer": "kallerna",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Budapest_Chairlift_1.jpg",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "rightsBasis": "documented_license",
+        "rightsCheckedOn": "2026-10-27",
+        "visualReview": {
+          "outcome": "approved",
+          "checkedOn": "2026-10-27",
+          "rationale": "The open seats, wooded slope and city in the distance explain the route. Selected for clear documentary detail rather than generic Budapest skyline imagery."
+        },
+        "depiction": "A historical view in a particular season. Current weather, foliage and service are not guaranteed. Resized and responsively cropped under the stated licence. No EA attendance, partnership or future conditions are implied."
+      }
+    },
+    {
+      "guideId": "oslo-hovedoya-ferry-walk",
+      "id": "hovedoya-ferry-1",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Hoved%C3%B8ya_seen_from_Oslofjorden_2022-08-17_07.jpg/1920px-Hoved%C3%B8ya_seen_from_Oslofjorden_2022-08-17_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Hoved%C3%B8ya_seen_from_Oslofjorden_2022-08-17_07.jpg",
+      "metadata": {
+        "title": "File:Hovedøya seen from Oslofjorden 2022-08-17 07.jpg",
+        "size": 24294582,
+        "width": 8384,
+        "height": 5612,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Hoved%C3%B8ya_seen_from_Oslofjorden_2022-08-17_07.jpg/1920px-Hoved%C3%B8ya_seen_from_Oslofjorden_2022-08-17_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1920,
+        "thumbheight": 1285,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Hoved%C3%B8ya_seen_from_Oslofjorden_2022-08-17_07.jpg/3840px-Hoved%C3%B8ya_seen_from_Oslofjorden_2022-08-17_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Hoved%C3%B8ya_seen_from_Oslofjorden_2022-08-17_07.jpg/1920px-Hoved%C3%B8ya_seen_from_Oslofjorden_2022-08-17_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1920,
+          "height": 1285,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Hoved%C3%B8ya_seen_from_Oslofjorden_2022-08-17_07.jpg/3840px-Hoved%C3%B8ya_seen_from_Oslofjorden_2022-08-17_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Hoved%C3%B8ya_seen_from_Oslofjorden_2022-08-17_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hoved%C3%B8ya_seen_from_Oslofjorden_2022-08-17_07.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=137337093",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2023-09-10 17:57:36",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Hovedøya seen from Oslofjorden 2022-08-17 07",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "CC-Zero|Hovedøya|Self-published work|Norway photographs taken on 2022-08-17|Images from Wiki Loves Monuments 2023|Images from Wiki Loves Monuments missing SDC depicts|Images from Wiki Loves Monuments missing SDC location of creation|Photographs by Leonhard Lenz|Images from Wiki Loves Monuments 2023 in Norway",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "The northeast side of Hovedøya seen from a ferry in the Oslofjord.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "Taken on 17 August 2022, 09:53:16",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:GPSLeo\" title=\"User:GPSLeo\">Leonhard Lenz</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Zero, Public Domain Dedication",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "width": 1920,
+      "height": 1285,
+      "commons": {
+        "title": "File:Hovedøya seen from Oslofjorden 2022-08-17 07.jpg",
+        "size": 24294582,
+        "width": 8384,
+        "height": 5612,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Hoved%C3%B8ya_seen_from_Oslofjorden_2022-08-17_07.jpg/1920px-Hoved%C3%B8ya_seen_from_Oslofjorden_2022-08-17_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1920,
+        "thumbheight": 1285,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Hoved%C3%B8ya_seen_from_Oslofjorden_2022-08-17_07.jpg/3840px-Hoved%C3%B8ya_seen_from_Oslofjorden_2022-08-17_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Hoved%C3%B8ya_seen_from_Oslofjorden_2022-08-17_07.jpg/1920px-Hoved%C3%B8ya_seen_from_Oslofjorden_2022-08-17_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1920,
+          "height": 1285,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Hoved%C3%B8ya_seen_from_Oslofjorden_2022-08-17_07.jpg/3840px-Hoved%C3%B8ya_seen_from_Oslofjorden_2022-08-17_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Hoved%C3%B8ya_seen_from_Oslofjorden_2022-08-17_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hoved%C3%B8ya_seen_from_Oslofjorden_2022-08-17_07.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=137337093",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2023-09-10 17:57:36",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Hovedøya seen from Oslofjorden 2022-08-17 07",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "CC-Zero|Hovedøya|Self-published work|Norway photographs taken on 2022-08-17|Images from Wiki Loves Monuments 2023|Images from Wiki Loves Monuments missing SDC depicts|Images from Wiki Loves Monuments missing SDC location of creation|Photographs by Leonhard Lenz|Images from Wiki Loves Monuments 2023 in Norway",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "The northeast side of Hovedøya seen from a ferry in the Oslofjord.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "Taken on 17 August 2022, 09:53:16",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:GPSLeo\" title=\"User:GPSLeo\">Leonhard Lenz</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Zero, Public Domain Dedication",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "media": {
+        "guideId": "oslo-hovedoya-ferry-walk",
+        "src": "/images/guides/oslo-hovedoya-ferry-walk.jpg",
+        "title": "The wooded island of Hovedøya and its waterfront seen from Oslofjorden",
+        "alt": "The wooded island of Hovedøya and its waterfront seen from Oslofjorden",
+        "photographer": "Leonhard Lenz",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hoved%C3%B8ya_seen_from_Oslofjorden_2022-08-17_07.jpg",
+        "licenseName": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "rightsBasis": "documented_license",
+        "rightsCheckedOn": "2026-10-27",
+        "visualReview": {
+          "outcome": "approved",
+          "checkedOn": "2026-10-27",
+          "rationale": "The identified island is seen from the fjord, matching the approach and landscape. A photograph of neighbouring Gressholmen was rejected as a location mismatch."
+        },
+        "depiction": "A 2022 view of Hovedøya. This is not evidence of a current ferry vessel, sailing time or weather. Resized and responsively cropped under the stated licence. No EA attendance, partnership or future conditions are implied."
+      }
+    },
+    {
+      "guideId": "dubrovnik-city-walls-walk",
+      "id": "dubrovnik-city-walls-0",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/City_walls_of_Dubrovnik_01.jpg/1920px-City_walls_of_Dubrovnik_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:City_walls_of_Dubrovnik_01.jpg",
+      "metadata": {
+        "title": "File:City walls of Dubrovnik 01.jpg",
+        "size": 10759001,
+        "width": 5091,
+        "height": 3394,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/City_walls_of_Dubrovnik_01.jpg/1920px-City_walls_of_Dubrovnik_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1920,
+        "thumbheight": 1280,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/City_walls_of_Dubrovnik_01.jpg/3840px-City_walls_of_Dubrovnik_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/City_walls_of_Dubrovnik_01.jpg/1920px-City_walls_of_Dubrovnik_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1920,
+          "height": 1280,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/City_walls_of_Dubrovnik_01.jpg/3840px-City_walls_of_Dubrovnik_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/City_walls_of_Dubrovnik_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:City_walls_of_Dubrovnik_01.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=90392623",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2020-05-17 20:00:20",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "City walls of Dubrovnik 01",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "GFDL|City walls of Dubrovnik|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|Self-published work|Files with coordinates missing SDC location of creation",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "quality",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "42.639675",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "18.106972",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "City walls of Dubrovnik, Croatia",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2019-05-05",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Bgag\" title=\"User:Bgag\">Bernard Gagnon</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "width": 1920,
+      "height": 1280,
+      "commons": {
+        "title": "File:City walls of Dubrovnik 01.jpg",
+        "size": 10759001,
+        "width": 5091,
+        "height": 3394,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/City_walls_of_Dubrovnik_01.jpg/1920px-City_walls_of_Dubrovnik_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1920,
+        "thumbheight": 1280,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/City_walls_of_Dubrovnik_01.jpg/3840px-City_walls_of_Dubrovnik_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/City_walls_of_Dubrovnik_01.jpg/1920px-City_walls_of_Dubrovnik_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1920,
+          "height": 1280,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/City_walls_of_Dubrovnik_01.jpg/3840px-City_walls_of_Dubrovnik_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/City_walls_of_Dubrovnik_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:City_walls_of_Dubrovnik_01.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=90392623",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2020-05-17 20:00:20",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "City walls of Dubrovnik 01",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "GFDL|City walls of Dubrovnik|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|Self-published work|Files with coordinates missing SDC location of creation",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "quality",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "42.639675",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "18.106972",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "City walls of Dubrovnik, Croatia",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2019-05-05",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Bgag\" title=\"User:Bgag\">Bernard Gagnon</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "media": {
+        "guideId": "dubrovnik-city-walls-walk",
+        "src": "/images/guides/dubrovnik-city-walls-walk.jpg",
+        "title": "Dubrovnik's stone city walls beside terracotta rooftops and the Adriatic Sea",
+        "alt": "Dubrovnik's stone city walls beside terracotta rooftops and the Adriatic Sea",
+        "photographer": "Bernard Gagnon",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:City_walls_of_Dubrovnik_01.jpg",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "rightsBasis": "documented_license",
+        "rightsCheckedOn": "2026-10-27",
+        "visualReview": {
+          "outcome": "approved",
+          "checkedOn": "2026-10-27",
+          "rationale": "The accessible wall route is visible beside the rooftops and coast. The image communicates the relationship the walk explores without using an aerial substitute."
+        },
+        "depiction": "A documentary view of the walls. Current route access, crowd levels and weather can differ. Resized and responsively cropped under the stated licence. No EA attendance, partnership or future conditions are implied."
+      }
+    },
+    {
+      "guideId": "bologna-archiginnasio-theatre",
+      "id": "bologna-official",
+      "url": "https://assets.culturabologna.it/8f2aa5ac-4ac3-41f2-b80e-3c9f9e7fff42-teatro-anatomico-foto-giorgio-bianchi.jpg/658e92357ddaf83a37526e47323880e7e339b4c0.jpg",
+      "source": "https://www.archiginnasio.it/palazzo-dell-archiginnasio",
+      "width": 768,
+      "height": 513,
+      "media": {
+        "guideId": "bologna-archiginnasio-theatre",
+        "src": "/images/guides/bologna-archiginnasio-theatre.jpg",
+        "title": "Wooden seating and carved figures surrounding the central table in Bologna's anatomical theatre",
+        "alt": "Wooden seating and carved figures surrounding the central table in Bologna's anatomical theatre",
+        "photographer": "Giorgio Bianchi / Comune di Bologna",
+        "sourceUrl": "https://www.archiginnasio.it/palazzo-dell-archiginnasio",
+        "licenseName": "Official source photograph. Reuse rights not independently cleared",
+        "licenseUrl": "https://www.archiginnasio.it/palazzo-dell-archiginnasio",
+        "rightsBasis": "official_source",
+        "rightsCheckedOn": "2026-10-27",
+        "visualReview": {
+          "outcome": "approved",
+          "checkedOn": "2026-10-27",
+          "rationale": "The official room photograph clearly resolves the carved wood, central table and seating. Grainier alternative photographs were rejected for poor interior detail."
+        },
+        "depiction": "The anatomical theatre's interior. Access to other library rooms or a private viewing is not implied. Reuse rights have not been independently cleared. Attribution is not permission. No EA attendance, partnership or future conditions are implied."
+      }
+    },
+    {
+      "guideId": "osaka-housing-living-street",
+      "id": "osaka-museum-housing-living-4",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Museum_of_Housing_and_Living_%28Osaka_Kita-ku%29_hdsr_S5_19.jpg/1920px-Museum_of_Housing_and_Living_%28Osaka_Kita-ku%29_hdsr_S5_19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Museum_of_Housing_and_Living_(Osaka_Kita-ku)_hdsr_S5_19.jpg",
+      "metadata": {
+        "title": "File:Museum of Housing and Living (Osaka Kita-ku) hdsr S5 19.jpg",
+        "size": 8973532,
+        "width": 5328,
+        "height": 4000,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Museum_of_Housing_and_Living_%28Osaka_Kita-ku%29_hdsr_S5_19.jpg/1920px-Museum_of_Housing_and_Living_%28Osaka_Kita-ku%29_hdsr_S5_19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1920,
+        "thumbheight": 1441,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Museum_of_Housing_and_Living_%28Osaka_Kita-ku%29_hdsr_S5_19.jpg/3840px-Museum_of_Housing_and_Living_%28Osaka_Kita-ku%29_hdsr_S5_19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Museum_of_Housing_and_Living_%28Osaka_Kita-ku%29_hdsr_S5_19.jpg/1920px-Museum_of_Housing_and_Living_%28Osaka_Kita-ku%29_hdsr_S5_19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1920,
+          "height": 1441,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Museum_of_Housing_and_Living_%28Osaka_Kita-ku%29_hdsr_S5_19.jpg/3840px-Museum_of_Housing_and_Living_%28Osaka_Kita-ku%29_hdsr_S5_19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Museum_of_Housing_and_Living_%28Osaka_Kita-ku%29_hdsr_S5_19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Museum_of_Housing_and_Living_(Osaka_Kita-ku)_hdsr_S5_19.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=153673988",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2024-10-08 14:38:39",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Museum of Housing and Living (Osaka Kita-ku) hdsr S5 19",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Osaka Museum of Housing and Living|Self-published work",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "au musée de l'habitat et d'histoire sociale d'Osaka : vue extérieur",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2024-06-28 07:45:53",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Hyppolyte_de_Saint-Rambert\" title=\"User:Hyppolyte de Saint-Rambert\">Hyppolyte de Saint-Rambert</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "width": 1920,
+      "height": 1441,
+      "commons": {
+        "title": "File:Museum of Housing and Living (Osaka Kita-ku) hdsr S5 19.jpg",
+        "size": 8973532,
+        "width": 5328,
+        "height": 4000,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Museum_of_Housing_and_Living_%28Osaka_Kita-ku%29_hdsr_S5_19.jpg/1920px-Museum_of_Housing_and_Living_%28Osaka_Kita-ku%29_hdsr_S5_19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1920,
+        "thumbheight": 1441,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Museum_of_Housing_and_Living_%28Osaka_Kita-ku%29_hdsr_S5_19.jpg/3840px-Museum_of_Housing_and_Living_%28Osaka_Kita-ku%29_hdsr_S5_19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Museum_of_Housing_and_Living_%28Osaka_Kita-ku%29_hdsr_S5_19.jpg/1920px-Museum_of_Housing_and_Living_%28Osaka_Kita-ku%29_hdsr_S5_19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1920,
+          "height": 1441,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Museum_of_Housing_and_Living_%28Osaka_Kita-ku%29_hdsr_S5_19.jpg/3840px-Museum_of_Housing_and_Living_%28Osaka_Kita-ku%29_hdsr_S5_19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Museum_of_Housing_and_Living_%28Osaka_Kita-ku%29_hdsr_S5_19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Museum_of_Housing_and_Living_(Osaka_Kita-ku)_hdsr_S5_19.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=153673988",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2024-10-08 14:38:39",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Museum of Housing and Living (Osaka Kita-ku) hdsr S5 19",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Osaka Museum of Housing and Living|Self-published work",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "au musée de l'habitat et d'histoire sociale d'Osaka : vue extérieur",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2024-06-28 07:45:53",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Hyppolyte_de_Saint-Rambert\" title=\"User:Hyppolyte de Saint-Rambert\">Hyppolyte de Saint-Rambert</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "media": {
+        "guideId": "osaka-housing-living-street",
+        "src": "/images/guides/osaka-housing-living-street.jpg",
+        "title": "A timber building and bamboo blinds on the reconstructed street inside Osaka's Museum of Housing and Living",
+        "alt": "A timber building and bamboo blinds on the reconstructed street inside Osaka's Museum of Housing and Living",
+        "photographer": "Hyppolyte de Saint-Rambert",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museum_of_Housing_and_Living_(Osaka_Kita-ku)_hdsr_S5_19.jpg",
+        "licenseName": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "rightsBasis": "documented_license",
+        "rightsCheckedOn": "2026-10-27",
+        "visualReview": {
+          "outcome": "approved",
+          "checkedOn": "2026-10-27",
+          "rationale": "The timber facade and indoor setting show the actual reconstructed museum street. Entrance signage and escalator photographs were rejected as weak experience illustrations."
+        },
+        "depiction": "A recreated historical street inside a museum, not a surviving outdoor neighbourhood. Resized and responsively cropped under the stated licence. No EA attendance, partnership or future conditions are implied."
+      }
+    },
+    {
+      "guideId": "new-york-transit-museum-cars",
+      "id": "new-york-transit-museum-interior-2",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/R-10_3184_%40_The_New_York_Transit_Museum_January_2022.jpg/1920px-R-10_3184_%40_The_New_York_Transit_Museum_January_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:R-10_3184_@_The_New_York_Transit_Museum_January_2022.jpg",
+      "metadata": {
+        "title": "File:R-10 3184 @ The New York Transit Museum January 2022.jpg",
+        "size": 2452321,
+        "width": 3939,
+        "height": 2823,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/R-10_3184_%40_The_New_York_Transit_Museum_January_2022.jpg/1920px-R-10_3184_%40_The_New_York_Transit_Museum_January_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1920,
+        "thumbheight": 1376,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/R-10_3184_%40_The_New_York_Transit_Museum_January_2022.jpg/3840px-R-10_3184_%40_The_New_York_Transit_Museum_January_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/R-10_3184_%40_The_New_York_Transit_Museum_January_2022.jpg/1920px-R-10_3184_%40_The_New_York_Transit_Museum_January_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1920,
+          "height": 1376,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/R-10_3184_%40_The_New_York_Transit_Museum_January_2022.jpg/3840px-R-10_3184_%40_The_New_York_Transit_Museum_January_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/R-10_3184_%40_The_New_York_Transit_Museum_January_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:R-10_3184_@_The_New_York_Transit_Museum_January_2022.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=128077503",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2023-01-24 19:53:28",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "R-10 3184 @ The New York Transit Museum January 2022",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "R10 (New York City Subway car)|New York City photographs taken on 2023-01-24|Self-published work|New York City Subway car interiors|2023 in Downtown Brooklyn|Rail vehicles at the New York Transit Museum at Court Street station|Railway photographs taken on 2023-01-24|January 2023 in Brooklyn, New York City|New York City Subway in January 2023",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "R-10 Train car #3184 preserved and staying static within the New York Transit Museum.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2023-01-22 13:14:00",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:EmperorOfNYC&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:EmperorOfNYC (page does not exist)\">EmperorOfNYC</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "width": 1920,
+      "height": 1376,
+      "commons": {
+        "title": "File:R-10 3184 @ The New York Transit Museum January 2022.jpg",
+        "size": 2452321,
+        "width": 3939,
+        "height": 2823,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/R-10_3184_%40_The_New_York_Transit_Museum_January_2022.jpg/1920px-R-10_3184_%40_The_New_York_Transit_Museum_January_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1920,
+        "thumbheight": 1376,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/R-10_3184_%40_The_New_York_Transit_Museum_January_2022.jpg/3840px-R-10_3184_%40_The_New_York_Transit_Museum_January_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/R-10_3184_%40_The_New_York_Transit_Museum_January_2022.jpg/1920px-R-10_3184_%40_The_New_York_Transit_Museum_January_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1920,
+          "height": 1376,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/R-10_3184_%40_The_New_York_Transit_Museum_January_2022.jpg/3840px-R-10_3184_%40_The_New_York_Transit_Museum_January_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/R-10_3184_%40_The_New_York_Transit_Museum_January_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:R-10_3184_@_The_New_York_Transit_Museum_January_2022.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=128077503",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2023-01-24 19:53:28",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "R-10 3184 @ The New York Transit Museum January 2022",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "R10 (New York City Subway car)|New York City photographs taken on 2023-01-24|Self-published work|New York City Subway car interiors|2023 in Downtown Brooklyn|Rail vehicles at the New York Transit Museum at Court Street station|Railway photographs taken on 2023-01-24|January 2023 in Brooklyn, New York City|New York City Subway in January 2023",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "R-10 Train car #3184 preserved and staying static within the New York Transit Museum.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2023-01-22 13:14:00",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:EmperorOfNYC&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:EmperorOfNYC (page does not exist)\">EmperorOfNYC</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "media": {
+        "guideId": "new-york-transit-museum-cars",
+        "src": "/images/guides/new-york-transit-museum-cars.jpg",
+        "title": "The interior of a preserved R-10 subway car at the New York Transit Museum",
+        "alt": "The interior of a preserved R-10 subway car at the New York Transit Museum",
+        "photographer": "EmperorOfNYC",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:R-10_3184_@_The_New_York_Transit_Museum_January_2022.jpg",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "rightsBasis": "documented_license",
+        "rightsCheckedOn": "2026-10-27",
+        "visualReview": {
+          "outcome": "approved",
+          "checkedOn": "2026-10-27",
+          "rationale": "The preserved carriage makes seats, handholds and period interiors legible. It represents the museum's collection, not an excursion on an operating train."
+        },
+        "depiction": "A preserved R-10 carriage photographed in January 2022. Carriages on display may change and no train ride is included. Resized and responsively cropped under the stated licence. No EA attendance, partnership or future conditions are implied."
+      }
+    },
+    {
+      "guideId": "vienna-amalienbad-swim",
+      "id": "amalien-tourism",
+      "url": "https://www.wien.info/resource/image/291740/Hero-Header/1890/700/c6aee0553b6e735023a527a366c49f2d/B8D26DC2246E09E22CFA8A3735CD3551/50647-amalienbad-schwimmbecken-sprungturm.webp",
+      "source": "https://www.wien.info/en/livable-vienna/sports/indoor-pools-355458",
+      "width": 1890,
+      "height": 700,
+      "media": {
+        "guideId": "vienna-amalienbad-swim",
+        "src": "/images/guides/vienna-amalienbad-swim.jpg",
+        "title": "Amalienbad's swimming pool, turquoise changing cubicles and diving tower in Vienna",
+        "alt": "Amalienbad's swimming pool, turquoise changing cubicles and diving tower in Vienna",
+        "photographer": "Paul Bauer / WienTourismus",
+        "sourceUrl": "https://www.wien.info/en/livable-vienna/sports/indoor-pools-355458",
+        "licenseName": "Official source photograph. Reuse rights not independently cleared",
+        "licenseUrl": "https://www.wien.info/en/livable-vienna/sports/indoor-pools-355458",
+        "rightsBasis": "official_source",
+        "rightsCheckedOn": "2026-10-27",
+        "visualReview": {
+          "outcome": "approved",
+          "checkedOn": "2026-10-27",
+          "rationale": "The tourism-board photograph preserves the pool's turquoise architectural details and symmetry. An enlarged but visibly blurred municipal image was rejected."
+        },
+        "depiction": "The pool architecture includes a diving tower whose use is restricted to schools and clubs. General admission does not authorise its use. Reuse rights have not been independently cleared. Attribution is not permission. No EA attendance, partnership or future conditions are implied."
+      }
+    },
+    {
+      "guideId": "kyoto-murinan-water-garden",
+      "id": "murin-an-garden-0",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Murin-an%2C_Kyoto_-_IMG_5104.JPG/1920px-Murin-an%2C_Kyoto_-_IMG_5104.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Murin-an,_Kyoto_-_IMG_5104.JPG",
+      "metadata": {
+        "title": "File:Murin-an, Kyoto - IMG 5104.JPG",
+        "size": 4413532,
+        "width": 3264,
+        "height": 2448,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Murin-an%2C_Kyoto_-_IMG_5104.JPG/1920px-Murin-an%2C_Kyoto_-_IMG_5104.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1920,
+        "thumbheight": 1440,
+        "responsiveUrls": {
+          "2": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Murin-an%2C_Kyoto_-_IMG_5104.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Murin-an%2C_Kyoto_-_IMG_5104.JPG/1920px-Murin-an%2C_Kyoto_-_IMG_5104.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1920,
+          "height": 1440,
+          "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Murin-an%2C_Kyoto_-_IMG_5104.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Murin-an%2C_Kyoto_-_IMG_5104.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Murin-an,_Kyoto_-_IMG_5104.JPG",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=11982799",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2010-11-07 01:27:06",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Murin-an, Kyoto - IMG 5104",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Taken with Canon Digital IXUS 860 IS|Self-published work|PD-self|Files uploaded by Daderot|Garden, Murin-an",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Murin-an, 8 Nanzenji-kusakawa-cho, Sakyo-ku, Kyoto, Japan.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2010-10-04",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\">Self-photographed</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Daderot",
+            "source": "commons-desc-page"
+          },
+          "Permission": {
+            "value": "Public domain.",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "width": 1920,
+      "height": 1440,
+      "commons": {
+        "title": "File:Murin-an, Kyoto - IMG 5104.JPG",
+        "size": 4413532,
+        "width": 3264,
+        "height": 2448,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Murin-an%2C_Kyoto_-_IMG_5104.JPG/1920px-Murin-an%2C_Kyoto_-_IMG_5104.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1920,
+        "thumbheight": 1440,
+        "responsiveUrls": {
+          "2": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Murin-an%2C_Kyoto_-_IMG_5104.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Murin-an%2C_Kyoto_-_IMG_5104.JPG/1920px-Murin-an%2C_Kyoto_-_IMG_5104.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1920,
+          "height": 1440,
+          "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Murin-an%2C_Kyoto_-_IMG_5104.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Murin-an%2C_Kyoto_-_IMG_5104.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Murin-an,_Kyoto_-_IMG_5104.JPG",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=11982799",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2010-11-07 01:27:06",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Murin-an, Kyoto - IMG 5104",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Taken with Canon Digital IXUS 860 IS|Self-published work|PD-self|Files uploaded by Daderot|Garden, Murin-an",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Murin-an, 8 Nanzenji-kusakawa-cho, Sakyo-ku, Kyoto, Japan.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2010-10-04",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\">Self-photographed</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Daderot",
+            "source": "commons-desc-page"
+          },
+          "Permission": {
+            "value": "Public domain.",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "media": {
+        "guideId": "kyoto-murinan-water-garden",
+        "src": "/images/guides/kyoto-murinan-water-garden.jpg",
+        "title": "Water flowing between stones and green planting in Murin-an garden, Kyoto",
+        "alt": "Water flowing between stones and green planting in Murin-an garden, Kyoto",
+        "photographer": "Daderot",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Murin-an,_Kyoto_-_IMG_5104.JPG",
+        "licenseName": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rightsBasis": "documented_license",
+        "rightsCheckedOn": "2026-10-27",
+        "visualReview": {
+          "outcome": "approved",
+          "checkedOn": "2026-10-27",
+          "rationale": "The water channel, stones and planting match the garden's central experience. The documentary image supports attention to the landscape without inventing a private session."
+        },
+        "depiction": "A historical garden view. Seasonal appearance and open paths can differ from the photograph. Resized and responsively cropped under the stated licence. No EA attendance, partnership or future conditions are implied."
+      }
+    },
+    {
+      "guideId": "singapore-chinese-garden-pause",
+      "id": "chinese-garden-singapore-1",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Chinese_Garden_Bridge%2C_Singapore_202409.jpg/1920px-Chinese_Garden_Bridge%2C_Singapore_202409.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Chinese_Garden_Bridge,_Singapore_202409.jpg",
+      "metadata": {
+        "title": "File:Chinese Garden Bridge, Singapore 202409.jpg",
+        "size": 5575548,
+        "width": 3698,
+        "height": 2895,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Chinese_Garden_Bridge%2C_Singapore_202409.jpg/1920px-Chinese_Garden_Bridge%2C_Singapore_202409.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1920,
+        "thumbheight": 1503,
+        "responsiveUrls": {
+          "2": "https://upload.wikimedia.org/wikipedia/commons/0/00/Chinese_Garden_Bridge%2C_Singapore_202409.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Chinese_Garden_Bridge%2C_Singapore_202409.jpg/1920px-Chinese_Garden_Bridge%2C_Singapore_202409.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1920,
+          "height": 1503,
+          "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/00/Chinese_Garden_Bridge%2C_Singapore_202409.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Chinese_Garden_Bridge%2C_Singapore_202409.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chinese_Garden_Bridge,_Singapore_202409.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=152618694",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2024-09-14 13:43:35",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Chinese Garden Bridge, Singapore 202409",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Chinese Garden, Singapore|Self-published work|Uploaded with Mobile/Android|Cloud Pagoda in Chinese Garden, Singapore",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Chinese Garden Bridge, Singapore 202409",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2024-09-14",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:FN-082&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:FN-082 (page does not exist)\">FN-082</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "width": 1920,
+      "height": 1503,
+      "commons": {
+        "title": "File:Chinese Garden Bridge, Singapore 202409.jpg",
+        "size": 5575548,
+        "width": 3698,
+        "height": 2895,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Chinese_Garden_Bridge%2C_Singapore_202409.jpg/1920px-Chinese_Garden_Bridge%2C_Singapore_202409.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1920,
+        "thumbheight": 1503,
+        "responsiveUrls": {
+          "2": "https://upload.wikimedia.org/wikipedia/commons/0/00/Chinese_Garden_Bridge%2C_Singapore_202409.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Chinese_Garden_Bridge%2C_Singapore_202409.jpg/1920px-Chinese_Garden_Bridge%2C_Singapore_202409.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1920,
+          "height": 1503,
+          "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/00/Chinese_Garden_Bridge%2C_Singapore_202409.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Chinese_Garden_Bridge%2C_Singapore_202409.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chinese_Garden_Bridge,_Singapore_202409.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=152618694",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2024-09-14 13:43:35",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Chinese Garden Bridge, Singapore 202409",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Chinese Garden, Singapore|Self-published work|Uploaded with Mobile/Android|Cloud Pagoda in Chinese Garden, Singapore",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Chinese Garden Bridge, Singapore 202409",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2024-09-14",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:FN-082&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:FN-082 (page does not exist)\">FN-082</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "media": {
+        "guideId": "singapore-chinese-garden-pause",
+        "src": "/images/guides/singapore-chinese-garden-pause.jpg",
+        "title": "A bridge leading towards a pagoda in Singapore's Chinese Garden in September 2024",
+        "alt": "A bridge leading towards a pagoda in Singapore's Chinese Garden in September 2024",
+        "photographer": "FN-082",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chinese_Garden_Bridge,_Singapore_202409.jpg",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "rightsBasis": "documented_license",
+        "rightsCheckedOn": "2026-10-27",
+        "visualReview": {
+          "outcome": "approved",
+          "checkedOn": "2026-10-27",
+          "rationale": "The bridge and pagoda are photographed in September 2024 after the garden's renewal. Older pre-renewal aerial views were excluded to reduce misleading context."
+        },
+        "depiction": "A September 2024 garden view. It does not establish current access to every feature, including the closed Waterwall Court. Resized and responsively cropped under the stated licence. No EA attendance, partnership or future conditions are implied."
+      }
+    },
+    {
+      "guideId": "krakow-hejnal-listening",
+      "id": "krakow-current",
+      "url": "https://plikimpi.krakow.pl/zalacznik/593574/4.webp",
+      "source": "https://krakow.pl/aktualnosci/326325%2C29%2Ckomunikat%2Cz_trabka_na_wiezy__czyli_o_krakowskim_hejnale.html",
+      "width": 900,
+      "height": 600,
+      "media": {
+        "guideId": "krakow-hejnal-listening",
+        "src": "/images/guides/krakow-hejnal-listening.jpg",
+        "title": "A Kraków trumpeter playing from an open window high in St Mary's tower",
+        "alt": "A Kraków trumpeter playing from an open window high in St Mary's tower",
+        "photographer": "Jan Graczyński / krakow.pl",
+        "sourceUrl": "https://krakow.pl/aktualnosci/326325%2C29%2Ckomunikat%2Cz_trabka_na_wiezy__czyli_o_krakowskim_hejnale.html",
+        "licenseName": "Official source photograph. Reuse rights not independently cleared",
+        "licenseUrl": "https://krakow.pl/aktualnosci/326325%2C29%2Ckomunikat%2Cz_trabka_na_wiezy__czyli_o_krakowskim_hejnale.html",
+        "rightsBasis": "official_source",
+        "rightsCheckedOn": "2026-10-27",
+        "visualReview": {
+          "outcome": "approved",
+          "checkedOn": "2026-10-27",
+          "rationale": "The city's credited photograph shows the working trumpet ritual at the correct tower. It explains the sound heard from the square without promising tower-room access."
+        },
+        "depiction": "The photograph is taken inside the working tower. This guide concerns listening from the square, not access beside the trumpeter. Reuse rights have not been independently cleared. Attribution is not permission. No EA attendance, partnership or future conditions are implied."
+      }
+    },
+    {
+      "guideId": "hanoi-binh-minh-jazz",
+      "id": "hanoi-room",
+      "url": "https://minhjazzvietnam.com/wp-content/uploads/2023/07/minh-jazz-club-scaled.webp",
+      "source": "https://minhjazzvietnam.com/about-jazz-club/",
+      "width": 2560,
+      "height": 983,
+      "media": {
+        "guideId": "hanoi-binh-minh-jazz",
+        "src": "/images/guides/hanoi-binh-minh-jazz.jpg",
+        "title": "A black-and-white view of musicians and an audience inside Bình Minh Jazz Club in Hanoi",
+        "alt": "A black-and-white view of musicians and an audience inside Bình Minh Jazz Club in Hanoi",
+        "photographer": "Bình Minh Jazz Club",
+        "sourceUrl": "https://minhjazzvietnam.com/about-jazz-club/",
+        "licenseName": "Official source photograph. Reuse rights not independently cleared",
+        "licenseUrl": "https://minhjazzvietnam.com/about-jazz-club/",
+        "rightsBasis": "official_source",
+        "rightsCheckedOn": "2026-10-27",
+        "visualReview": {
+          "outcome": "approved",
+          "checkedOn": "2026-10-27",
+          "rationale": "The club name, performers and listeners place this photograph inside the actual room. An outdoor concert photograph was rejected because it showed a different setting."
+        },
+        "depiction": "An earlier club occasion. The pictured performers, dress and audience are not a promise of a future evening's programme. Reuse rights have not been independently cleared. Attribution is not permission. No EA attendance, partnership or future conditions are implied."
+      }
+    },
+    {
+      "guideId": "vienna-porgy-bess-listening",
+      "id": "porgy-0",
+      "url": "https://www.wien.info/resource/image/301562/Hero-Header/1890/700/8a8e64f1f3d57f7e6afec39d07d60fe9/143FDD4A93D7C72641E42E38B8FF20E6/jazzclub-porgy-bess.webp",
+      "source": "https://www.wien.info/en/dine-drink/bars-clubs/live-locations/porgy-bess-355534",
+      "alt": "Porgy & Bess jazz club",
+      "width": 1890,
+      "height": 700,
+      "media": {
+        "guideId": "vienna-porgy-bess-listening",
+        "src": "/images/guides/vienna-porgy-bess-listening.jpg",
+        "title": "An audience and stage beneath the balconies of Vienna's Porgy & Bess jazz club",
+        "alt": "An audience and stage beneath the balconies of Vienna's Porgy & Bess jazz club",
+        "photographer": "Porgy & Bess / WienTourismus",
+        "sourceUrl": "https://www.wien.info/en/dine-drink/bars-clubs/live-locations/porgy-bess-355534",
+        "licenseName": "Official source photograph. Reuse rights not independently cleared",
+        "licenseUrl": "https://www.wien.info/en/dine-drink/bars-clubs/live-locations/porgy-bess-355534",
+        "rightsBasis": "official_source",
+        "rightsCheckedOn": "2026-10-27",
+        "visualReview": {
+          "outcome": "approved",
+          "checkedOn": "2026-10-27",
+          "rationale": "The venue's documented room and audience convey a live listening space. Poorly lit archive images and photographs from other cities were excluded."
+        },
+        "depiction": "A historical live-performance setting. The image does not identify or promise the lineup for a future ticket. Reuse rights have not been independently cleared. Attribution is not permission. No EA attendance, partnership or future conditions are implied."
+      }
+    }
+  ]
+}

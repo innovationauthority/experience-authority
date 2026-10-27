@@ -104,7 +104,10 @@ test("21 October adds eighteen genuinely new guides with exactly three primary a
     publishedReleases(publicGuides, "2026-10-20")[0].guides.length,
     36,
   );
-  assert.equal(publicGuides.length, 478);
+  assert.equal(
+    publicGuides.filter((g) => g.guideReview!.checkedOn <= "2026-10-21").length,
+    478,
+  );
   assert.equal(
     publicGuides.filter((g) => canPublishGuide(g, "2026-10-21")).length,
     464,

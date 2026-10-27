@@ -33,7 +33,9 @@ test("the second 21 October pass adds eighteen new experiences, exactly three pe
     Object.keys(edition20261021SecondPass).sort(),
     interests.map((i) => i.slug).sort(),
   );
-  const earlier = publicGuides.filter((g) => !slugs.includes(g.slug));
+  const earlier = publicGuides.filter(
+    (g) => !slugs.includes(g.slug) && g.guideReview!.checkedOn <= "2026-10-21",
+  );
   assert.equal(earlier.length, 460);
   for (const [area, allocated] of Object.entries(edition20261021SecondPass)) {
     assert.equal(allocated.length, 3);
@@ -83,7 +85,10 @@ test("the second 21 October pass adds eighteen new experiences, exactly three pe
       assert.ok(prose.split(/\s+/).length >= 250, slug);
     }
   }
-  assert.equal(publicGuides.length, 478);
+  assert.equal(
+    publicGuides.filter((g) => g.guideReview!.checkedOn <= "2026-10-21").length,
+    478,
+  );
   assert.equal(
     publicGuides.filter((g) => canPublishGuide(g, "2026-10-21")).length,
     464,
