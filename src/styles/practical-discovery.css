@@ -1,9 +1,87 @@
 /* Practical decisions, with the existing EA palette and typography. */
+.experience-card {
+  align-self: stretch;
+  border: 1px solid color-mix(in srgb, var(--ea-ink) 20%, var(--ea-paper));
+  background: var(--ea-paper);
+  transition: border-color var(--ea-motion-base) var(--ea-ease);
+}
+.experience-card .card-content {
+  min-width: 0;
+  padding: 22px;
+}
+.experience-card .card-meta {
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+  margin-bottom: 14px;
+}
+.experience-card .card-meta > span:last-child {
+  text-align: left;
+}
+.experience-card .card-content h3 {
+  line-height: 1.12;
+}
+.experience-card .card-content h3 svg {
+  flex-shrink: 0;
+}
+.experience-card .card-content p {
+  max-width: none;
+  margin-top: 14px;
+}
+.experience-card:focus-within {
+  border-color: var(--ea-night);
+}
+.experience-card a:focus-visible,
+.experience-card button:focus-visible {
+  outline: 2px solid var(--ea-night);
+  outline-offset: 4px;
+}
+@media (hover: hover) {
+  .experience-card:hover {
+    border-color: color-mix(in srgb, var(--ea-ink) 55%, var(--ea-paper));
+  }
+}
+.list-view .experience-card {
+  gap: 0;
+  padding-bottom: 0;
+}
+.list-view .experience-card .card-image {
+  height: 100%;
+  min-height: 220px;
+}
+.surprise-card .experience-card {
+  border: 1px solid color-mix(in srgb, var(--ea-ink) 20%, var(--ea-paper));
+}
+@media (max-width: 600px) {
+  .experience-card .card-content {
+    padding: 20px;
+  }
+  .list-view .experience-card {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .list-view .experience-card .card-image {
+    height: auto;
+    min-height: 0;
+    aspect-ratio: 1.65;
+  }
+  .list-view .experience-card .card-meta {
+    display: flex;
+    font-size: var(--ea-type-micro);
+  }
+  .list-view .experience-card .card-content h3 {
+    font-size: 27px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .experience-card {
+    transition: none;
+  }
+}
 .card-planning {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
-  border-top: 1px solid var(--ea-line);
+  border-top: 1px solid color-mix(in srgb, var(--ea-ink) 16%, var(--ea-paper));
   margin: 20px 0 0;
   padding-top: 14px;
 }
