@@ -56,6 +56,7 @@ import { guideBatch54 } from "./guide-batch-54";
 import { guideBatch55 } from "./guide-batch-55";
 import { guideBatch56 } from "./guide-batch-56";
 import { guideBatch57 } from "./guide-batch-57";
+import { guideBatch59 } from "./guide-batch-59";
 import { guideBatch58 } from "./guide-batch-58";
 
 // Original EA desk-guide copy. No source photographs, private dossiers or contacts.
@@ -81,6 +82,7 @@ const common = {
 } as const;
 
 const publicGuideDrafts: PublicExperience[] = [
+  ...guideBatch59,
   ...guideBatch58,
   ...guideBatch51,
   ...guideBatch57,

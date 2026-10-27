@@ -1,4 +1,112 @@
 {
+  "/experiences/leave-the-spoon-beside-a-turin-bicerin": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2027-01-24",
+    "countrySlug": "italy",
+    "regionSlug": "turin"
+  },
+  "/experiences/choose-the-curries-for-a-penang-nasi-kandar": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2026-12-26",
+    "countrySlug": "malaysia",
+    "regionSlug": "penang"
+  },
+  "/experiences/read-a-paris-bouillon-through-an-ordinary-meal": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2027-01-24",
+    "countrySlug": "france",
+    "regionSlug": "paris"
+  },
+  "/experiences/turn-a-paper-cord-into-a-kanazawa-knot": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2026-12-26",
+    "countrySlug": "japan",
+    "regionSlug": "kanazawa"
+  },
+  "/experiences/finish-a-small-chocolate-at-szamos-in-budapest": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2026-11-26",
+    "countrySlug": "hungary",
+    "regionSlug": "budapest"
+  },
+  "/experiences/paint-a-buenos-aires-line-in-fileteado": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2026-12-26",
+    "countrySlug": "argentina",
+    "regionSlug": "buenos-aires"
+  },
+  "/experiences/follow-hong-kongs-coast-from-dragons-back": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2026-12-26",
+    "countrySlug": "hong-kong",
+    "regionSlug": "hong-kong-island"
+  },
+  "/experiences/walk-paris-above-its-old-railway": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2026-11-26",
+    "countrySlug": "france",
+    "regionSlug": "paris"
+  },
+  "/experiences/cross-valencias-lagoon-at-the-speed-of-a-boat": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2026-12-26",
+    "countrySlug": "spain",
+    "regionSlug": "valencia"
+  },
+  "/experiences/look-closely-at-the-telescopes-that-changed-the-view": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2027-01-24",
+    "countrySlug": "italy",
+    "regionSlug": "florence"
+  },
+  "/experiences/step-inside-amsterdams-idea-of-a-better-home": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2026-11-26",
+    "countrySlug": "netherlands",
+    "regionSlug": "amsterdam"
+  },
+  "/experiences/read-lisbons-ceremonial-coaches-from-the-wheels-up": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2026-12-26",
+    "countrySlug": "portugal",
+    "regionSlug": "lisbon"
+  },
+  "/experiences/give-a-hamburg-afternoon-to-a-garden-path": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2026-12-26",
+    "countrySlug": "germany",
+    "regionSlug": "hamburg"
+  },
+  "/experiences/let-lisbon-continue-below-a-torel-bench": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2026-11-26",
+    "countrySlug": "portugal",
+    "regionSlug": "lisbon"
+  },
+  "/experiences/spend-a-helsinki-hour-under-glass-and-leaves": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2026-12-26",
+    "countrySlug": "finland",
+    "regionSlug": "helsinki"
+  },
+  "/experiences/join-barcelonas-opera-audience-at-the-liceu": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2026-11-26",
+    "countrySlug": "spain",
+    "regionSlug": "barcelona"
+  },
+  "/experiences/hear-lyon-answer-back-to-guignol": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2026-11-26",
+    "countrySlug": "france",
+    "regionSlug": "lyon"
+  },
+  "/experiences/share-a-concert-lawn-beneath-table-mountain": {
+    "availableFrom": "2026-10-27",
+    "reviewBy": "2026-11-26",
+    "countrySlug": "south-africa",
+    "regionSlug": "cape-town"
+  },
   "/experiences/break-the-crust-of-an-athens-loukouma": {
     "availableFrom": "2026-10-27",
     "reviewBy": "2027-01-24",

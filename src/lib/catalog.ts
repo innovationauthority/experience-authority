@@ -1313,6 +1313,7 @@ const additionalRegionNames: Readonly<Record<string, string>> = {
   "portugal/serpa": "Serpa",
   "united-states/new-york-city": "New York City",
   "united-states/san-francisco": "San Francisco",
+  "italy/turin": "Turin",
 };
 
 function regionDisplayName(country: string, region: string, fallback: string) {

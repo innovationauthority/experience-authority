@@ -1,0 +1,312 @@
+{
+  "checkedOn": "2026-10-27",
+  "batch": 59,
+  "photographs": [
+    {
+      "guideId": "turin-bicerin-layers",
+      "downloadUrl": "https://bicerin.it/wp-content/uploads/2017/08/bic1.png",
+      "sourceUrl": "https://bicerin.it/en/the-bicerin/",
+      "sourceWidth": 820,
+      "sourceHeight": 664,
+      "photographer": "Caffè Al Bicerin",
+      "licenseName": "Official source photograph. Reuse rights not independently cleared",
+      "licenseUrl": "https://bicerin.it/en/the-bicerin/",
+      "rightsBasis": "official_source",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-27",
+        "rationale": "The café's own drink photograph identifies the layered serving rather than substituting a variant from another Turin café."
+      },
+      "localSha256": "690db07acbf3704567c628ace0cfcfee64acf5390dd5a27dcab8e7a6f99dfd6f"
+    },
+    {
+      "guideId": "penang-hameediyah-nasi-kandar",
+      "downloadUrl": "https://pemetaanbudaya.jkkn.gov.my/uploads/65b8a5f3e175d1706599923.JPG",
+      "sourceUrl": "https://pemetaanbudaya.jkkn.gov.my/en/senibudaya/detail/751",
+      "sourceWidth": 4032,
+      "sourceHeight": 3024,
+      "photographer": "JKKN Malaysia",
+      "licenseName": "Official source photograph. Reuse rights not independently cleared",
+      "licenseUrl": "https://pemetaanbudaya.jkkn.gov.my/en/senibudaya/detail/751",
+      "rightsBasis": "official_source",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-27",
+        "rationale": "The national cultural record links this documentary food photograph with the named Penang practice and restaurant. Its clear colour and detail support the curry-selection focus."
+      },
+      "localSha256": "a8982fa7225b858495631f3dd03b151f6caef9d31455b8ac7770a4cc0b4a81ea"
+    },
+    {
+      "guideId": "paris-chartier-bouillon-meal",
+      "downloadUrl": "https://www.bouillon-chartier.com/chartier_medias/2022/12/restaurant-bouillon-chartier-grandsboulevards-44.jpg",
+      "sourceUrl": "https://www.bouillon-chartier.com/en/bouillon-chartier-grands-boulevards-en/",
+      "sourceWidth": 1530,
+      "sourceHeight": 1020,
+      "photographer": "Bouillon Chartier",
+      "licenseName": "Official source photograph. Reuse rights not independently cleared",
+      "licenseUrl": "https://www.bouillon-chartier.com/en/bouillon-chartier-grands-boulevards-en/",
+      "rightsBasis": "official_source",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-27",
+        "rationale": "The distinctive dining room establishes the exact Grands Boulevards branch and the shared-room experience, with warm light and clear architectural detail."
+      },
+      "localSha256": "d4ee57ece319ab1662f6f2a1fdaf4065fefcf4ddb3bd1d28645b9660cb0889e8"
+    },
+    {
+      "guideId": "kanazawa-tsuda-mizuhiki",
+      "downloadUrl": "https://kagamizuhiki.com/apps/note/assets/img/worksshop/section-area.jpg",
+      "sourceUrl": "https://kagamizuhiki.com/apps/note/workshop/",
+      "sourceWidth": 6000,
+      "sourceHeight": 4002,
+      "photographer": "Tsuda Mizuhiki Orikata",
+      "licenseName": "Official source photograph. Reuse rights not independently cleared",
+      "licenseUrl": "https://kagamizuhiki.com/apps/note/workshop/",
+      "rightsBasis": "official_source",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-27",
+        "rationale": "The actual workshop photograph shows teaching, cord and participant involvement in one clear frame, replacing an undersized materials-only candidate."
+      },
+      "localSha256": "1cce0bb9faf6df94e820df9e2ce2ec97cb04566690f84eb890e63d569185dff6"
+    },
+    {
+      "guideId": "budapest-szamos-chocolate-decoration",
+      "downloadUrl": "https://www.budapestinfo.hu/storage/media-library/9509/64473703_1294731534007267_5147280414607409152_n.jpg",
+      "sourceUrl": "https://www.budapestinfo.hu/en/szamos-chocolate-museum",
+      "sourceWidth": 2026,
+      "sourceHeight": 1221,
+      "photographer": "Szamos Chocolate Museum / Budapest Info",
+      "licenseName": "Official source photograph. Reuse rights not independently cleared",
+      "licenseUrl": "https://www.budapestinfo.hu/en/szamos-chocolate-museum",
+      "rightsBasis": "official_source",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-27",
+        "rationale": "The tourism authority credits the museum for this high-resolution photograph of hands decorating chocolate, directly matching the visitor's limited role."
+      },
+      "localSha256": "2529eb2d69af54d3f311b06feb80f084e8c74d238fed5a3472df29227846a186"
+    },
+    {
+      "guideId": "buenos-aires-fileteado-introduction",
+      "downloadUrl": "https://fileteadoporteno.com/wp-content/uploads/2026/06/CLASES-FILETEADO-5.jpg",
+      "sourceUrl": "https://fileteadoporteno.com/clases-y-cursos-de-fileteado-porteno/",
+      "sourceWidth": 864,
+      "sourceHeight": 1080,
+      "photographer": "Fileteado Porteño",
+      "licenseName": "Official source photograph. Reuse rights not independently cleared",
+      "licenseUrl": "https://fileteadoporteno.com/clases-y-cursos-de-fileteado-porteno/",
+      "rightsBasis": "official_source",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-27",
+        "rationale": "The documented class photograph concentrates on a participant's hand and painted surface, making the actual introductory activity visible without a staged certificate portrait."
+      },
+      "localSha256": "aeef4eafe1208c0be38a845e25f4d407c6f1851d97f0c9f3d1ba766a4450b101"
+    },
+    {
+      "guideId": "hong-kong-dragons-back-hike",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Dragon%27s_Back%2C_Hong_Kong_01.jpg/1920px-Dragon%27s_Back%2C_Hong_Kong_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dragon%27s_Back,_Hong_Kong_01.jpg",
+      "sourceWidth": 1920,
+      "sourceHeight": 1440,
+      "photographer": "ChInG_*",
+      "licenseName": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "rightsBasis": "documented_license",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-27",
+        "rationale": "The licensed photograph records the actual ridge outlook, connecting visible slopes, settlement and coastline without suggesting a paved or step-free hike."
+      },
+      "localSha256": "e340c22461d9d125e07903c3de4d44605f943b888f7a59fa2ea37710e4debd7e"
+    },
+    {
+      "guideId": "paris-coulee-verte-walk",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Coul%C3%A9e_verte_Ren%C3%A9-Dumont_-_Paris.jpg/1920px-Coul%C3%A9e_verte_Ren%C3%A9-Dumont_-_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coul%C3%A9e_verte_Ren%C3%A9-Dumont_-_Paris.jpg",
+      "sourceWidth": 1920,
+      "sourceHeight": 1275,
+      "photographer": "André Alliot",
+      "licenseName": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "rightsBasis": "documented_license",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-27",
+        "rationale": "The licensed garden-path view shows the actual public walking experience and its scale, rather than relying solely on an exterior view of the railway viaduct."
+      },
+      "localSha256": "ecf8bd259b3d37a9d7d7104c71b75aed32f691b170d2ff5107d7a0b19b47d882"
+    },
+    {
+      "guideId": "valencia-albufera-day-boat",
+      "downloadUrl": "https://eltiopastilla.com/_astro/paseo-barquero.BHQfDwQ-_Z1oUk4T.webp",
+      "sourceUrl": "https://eltiopastilla.com/en/",
+      "sourceWidth": 1140,
+      "sourceHeight": 709,
+      "photographer": "El Tío Pastilla",
+      "licenseName": "Official source photograph. Reuse rights not independently cleared",
+      "licenseUrl": "https://eltiopastilla.com/en/",
+      "rightsBasis": "official_source",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-27",
+        "rationale": "The operator's daylight boat photograph shows the actual shared passenger activity, chosen over a sunset landscape that would imply the wrong booked programme."
+      },
+      "localSha256": "1327bfcb8b3aa1912115171d288188abbb9dc4a7fc7ee27059663f2376b09327"
+    },
+    {
+      "guideId": "florence-galileo-telescopes",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Galilei_telescopes%2C_Museo_Galileo%2C_Florence%2C_Inv._242%2C_2428%2C_224088.jpg/1920px-Galilei_telescopes%2C_Museo_Galileo%2C_Florence%2C_Inv._242%2C_2428%2C_224088.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Galilei_telescopes,_Museo_Galileo,_Florence,_Inv._242,_2428,_224088.jpg",
+      "sourceWidth": 1920,
+      "sourceHeight": 1277,
+      "photographer": "Zde",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "rightsBasis": "documented_license",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-27",
+        "rationale": "The documented collection photograph shows both instruments in their case with material detail, avoiding a generic observatory image or a false observing-session implication."
+      },
+      "localSha256": "be60860d51b8c8c44ad4876d512009bceb15e544a6dd4a3a8dfed585c624ec8a"
+    },
+    {
+      "guideId": "amsterdam-het-schip-housing",
+      "downloadUrl": "https://www.hetschip.nl/images/Amsterdamse_School/Het-Schip_Marcel-Westhoff_MWFF9184.jpg",
+      "sourceUrl": "https://www.hetschip.nl/bezoekers/locaties-openingstijden/het-schip",
+      "sourceWidth": 1000,
+      "sourceHeight": 667,
+      "photographer": "Marcel Westhoff / Museum Het Schip",
+      "licenseName": "Official source photograph. Reuse rights not independently cleared",
+      "licenseUrl": "https://www.hetschip.nl/bezoekers/locaties-openingstijden/het-schip",
+      "rightsBasis": "official_source",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-27",
+        "rationale": "The museum's credited exterior photograph makes the housing complex's distinctive brickwork legible and locates the interior tour in its actual residential setting."
+      },
+      "localSha256": "45bd4832f551cfef0f5207e366550830b2d85fa022b8cc1b875c348fde196dc7"
+    },
+    {
+      "guideId": "lisbon-coach-museum-wheels",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Museu_Nacional_dos_Coches_-_Lisboa_-_Portugal_%2853443110493%29.jpg/1920px-Museu_Nacional_dos_Coches_-_Lisboa_-_Portugal_%2853443110493%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museu_Nacional_dos_Coches_-_Lisboa_-_Portugal_(53443110493).jpg",
+      "sourceWidth": 1920,
+      "sourceHeight": 1464,
+      "photographer": "Vitor Oliveira",
+      "licenseName": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "rightsBasis": "documented_license",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-27",
+        "rationale": "The licensed image clearly shows wheels, passenger body and working positions in the actual new museum, supporting the guide's mechanical rather than purely decorative reading."
+      },
+      "localSha256": "ea216a1cb97ea9cd81b9892a46424006206f417d9cb12285ee5b854331f9ba05"
+    },
+    {
+      "guideId": "hamburg-loki-schmidt-garden",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Hamburg_-_Altona_-_Osdorf_-_Botanischer_%28Loki-Schmidt-%29Garten_-_2026-06-24_-_3.jpg/1920px-Hamburg_-_Altona_-_Osdorf_-_Botanischer_%28Loki-Schmidt-%29Garten_-_2026-06-24_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburg_-_Altona_-_Osdorf_-_Botanischer_(Loki-Schmidt-)Garten_-_2026-06-24_-_3.jpg",
+      "sourceWidth": 1920,
+      "sourceHeight": 1440,
+      "photographer": "Sjenghai",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "rightsBasis": "documented_license",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-27",
+        "rationale": "The recent licensed outdoor-garden image offers a specific landscape pause at the correct Klein Flottbek site, not the closed Dammtor tropical glasshouses."
+      },
+      "localSha256": "86b5d762084a02800db859848d6deb200d31fc58b9f7a850f162bdcbd4fb657b"
+    },
+    {
+      "guideId": "lisbon-torel-garden-pause",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Jardim_do_Torel_Lisboa_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jardim_do_Torel_Lisboa_10.jpg",
+      "sourceWidth": 1565,
+      "sourceHeight": 1173,
+      "photographer": "GualdimG",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "rightsBasis": "documented_license",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-27",
+        "rationale": "The licensed photograph shows both the place to pause and the city outlook, rather than substituting a nearby hotel terrace or an unrelated Lisbon viewpoint."
+      },
+      "localSha256": "334c6c7db279b9173631853d3d57206ded6b049a08d97fdb9efc68a5957b2cb6"
+    },
+    {
+      "guideId": "helsinki-winter-garden-pause",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Winter_Garden%2C_Helsinki_06.jpg/1920px-Winter_Garden%2C_Helsinki_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winter_Garden,_Helsinki_06.jpg",
+      "sourceWidth": 1920,
+      "sourceHeight": 1037,
+      "photographer": "Paasikivi",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "rightsBasis": "documented_license",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-27",
+        "rationale": "The licensed photograph clearly identifies the actual municipal glasshouse. It avoids an official image explicitly labelled for use on one page only and unrelated Winter Palace results."
+      },
+      "localSha256": "d7645078178c00bf0339b5b4f0cf5e8467ccadbf5fbdba78ab5a31724811f1b9"
+    },
+    {
+      "guideId": "barcelona-liceu-opera-evening",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Liceu_-_Interior.jpg/1920px-Liceu_-_Interior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liceu_-_Interior.jpg",
+      "sourceWidth": 1920,
+      "sourceHeight": 1285,
+      "photographer": "Josep Renalias",
+      "licenseName": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "rightsBasis": "documented_license",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-27",
+        "rationale": "The licensed auditorium photograph shows the shared audience setting and scale of the opera house without falsely assigning an image to a current production."
+      },
+      "localSha256": "d362dc18e3d0e3bb76660d465a1e1886d24568975d0acc3feb661b0294c55dc6"
+    },
+    {
+      "guideId": "lyon-guignol-puppet-audience",
+      "downloadUrl": "https://static.wixstatic.com/media/611a73_8accbd58ce4c46388c6363bcd105c274~mv2_d_3106_2076_s_2.jpg",
+      "sourceUrl": "https://www.lamaisondeguignol.fr/",
+      "sourceWidth": 3106,
+      "sourceHeight": 2076,
+      "photographer": "La Maison de Guignol",
+      "licenseName": "Official source photograph. Reuse rights not independently cleared",
+      "licenseUrl": "https://www.lamaisondeguignol.fr/",
+      "rightsBasis": "official_source",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-27",
+        "rationale": "The theatre's own clear photograph makes the puppet characters and intimate room visible together, replacing empty-room and poster candidates."
+      },
+      "localSha256": "9903d32bc9e5a50a58a65b33317bd02c04116f75511eede003d6fb267aa5da46"
+    },
+    {
+      "guideId": "cape-town-kirstenbosch-sunset-concert",
+      "downloadUrl": "https://www.sanbi.org/wp-content/uploads/2023/11/Concert_2.jpg",
+      "sourceUrl": "https://www.sanbi.org/events/all-events/",
+      "sourceWidth": 1600,
+      "sourceHeight": 1067,
+      "photographer": "Ivan Hendricks Photography / SANBI",
+      "licenseName": "Official source photograph. Reuse rights not independently cleared",
+      "licenseUrl": "https://www.sanbi.org/events/all-events/",
+      "rightsBasis": "official_source",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-27",
+        "rationale": "The official event photograph shows the actual lawn, audience and mountain together, rather than using an unrelated artist portrait or a generic garden photograph."
+      },
+      "localSha256": "17b46015f549eebb8a57a36bc9d6235fb6b95b930cfd3dea231eec237ea75050"
+    }
+  ]
+}

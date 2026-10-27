@@ -1,6 +1,24 @@
 /** Content hashes keep replaced photographs consistent across responsive image caches.
  * The media test requires an update when an original file changes. */
 export const imageRevisions: Record<string, string> = {
+  "/images/guides/cape-town-kirstenbosch-sunset-concert.jpg": "17b46015f549",
+  "/images/guides/lyon-guignol-puppet-audience.jpg": "9903d32bc9e5",
+  "/images/guides/barcelona-liceu-opera-evening.jpg": "d362dc18e3d0",
+  "/images/guides/helsinki-winter-garden-pause.jpg": "d7645078178c",
+  "/images/guides/lisbon-torel-garden-pause.jpg": "334c6c7db279",
+  "/images/guides/hamburg-loki-schmidt-garden.jpg": "86b5d762084a",
+  "/images/guides/lisbon-coach-museum-wheels.jpg": "ea216a1cb97e",
+  "/images/guides/amsterdam-het-schip-housing.jpg": "45bd4832f551",
+  "/images/guides/florence-galileo-telescopes.jpg": "be60860d51b8",
+  "/images/guides/valencia-albufera-day-boat.jpg": "1327bfcb8b3a",
+  "/images/guides/paris-coulee-verte-walk.jpg": "ecf8bd259b3d",
+  "/images/guides/hong-kong-dragons-back-hike.jpg": "e340c22461d9",
+  "/images/guides/buenos-aires-fileteado-introduction.jpg": "aeef4eafe120",
+  "/images/guides/budapest-szamos-chocolate-decoration.jpg": "2529eb2d69af",
+  "/images/guides/kanazawa-tsuda-mizuhiki.jpg": "1cce0bb9faf6",
+  "/images/guides/paris-chartier-bouillon-meal.jpg": "d4ee57ece319",
+  "/images/guides/penang-hameediyah-nasi-kandar.jpg": "a8982fa7225b",
+  "/images/guides/turin-bicerin-layers.jpg": "690db07acbf3",
   "/images/guides/athens-krinos-loukoumades.jpg": "1e64993e7b0f",
   "/images/guides/copenhagen-schonnemann-smorrebrod.jpg": "967683693038",
   "/images/guides/porto-santiago-francesinha.jpg": "2fdf76165d65",
@@ -503,7 +521,7 @@ export const imageRevisions: Record<string, string> = {
 
 // A single manifest fingerprint fits Next's bounded localPatterns allowlist.
 // Tests require it to change when any original is added or replaced.
-export const imageEdition = "1c19b3654a5d";
+export const imageEdition = "c68029d4e968";
 
 export function imageSource(src: string) {
   return imageRevisions[src] ? `${src}?v=${imageEdition}` : src;

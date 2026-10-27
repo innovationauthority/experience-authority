@@ -2,6 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { statSync } from "node:fs";
 import { guideBatch58 } from "../src/lib/guide-batch-58";
+import { guideBatch59 } from "../src/lib/guide-batch-59";
 import {
   edition20261027,
   discoveryBatch58,
@@ -21,9 +22,13 @@ test("27 October adds eighteen distinct source-checked guides with three primary
   const slugs = Object.values(edition20261027).flat() as readonly string[];
   assert.equal(slugs.length, 18);
   assert.equal(new Set(slugs).size, 18);
-  assert.equal(publicGuides.length, 496);
+  assert.equal(publicGuides.length, 514);
   assert.deepEqual([...slugs].sort(), guideBatch58.map((g) => g.slug).sort());
-  const previous = publicGuides.filter((g) => !slugs.includes(g.slug));
+  const previous = publicGuides.filter(
+    (g) =>
+      !slugs.includes(g.slug) &&
+      !guideBatch59.some((newGuide) => newGuide.id === g.id),
+  );
   assert.equal(previous.length, 478);
   assert.deepEqual(
     Object.keys(edition20261027).sort(),
@@ -92,7 +97,7 @@ test("27 October adds eighteen distinct source-checked guides with three primary
     }
   }
   const release = publishedReleases(publicGuides, "2026-10-27")[0];
-  assert.equal(release.guides.length, 18);
+  assert.equal(release.guides.length, 36);
 });
 
 test("all new photographs are local, visually reviewed and honestly credited", () => {

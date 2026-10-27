@@ -1,0 +1,579 @@
+{
+  "edition": "2026-10-27",
+  "batch": 59,
+  "trigger": "User request: daj jos 18",
+  "netNewGuides": 18,
+  "primaryAllocations": {
+    "eat-drink": 3,
+    "make-learn": 3,
+    "move-water": 3,
+    "explore-reflect": 3,
+    "swim-reset": 3,
+    "shared-rituals": 3
+  },
+  "catalogue": {
+    "authoredBefore": 496,
+    "authoredAfter": 514,
+    "eligibleBefore": 472,
+    "eligibleAfter": 490,
+    "expiredOrTimeGated": 24,
+    "batchCountries": 13,
+    "batchPlaces": 16
+  },
+  "method": "Original public-source guides. Not EA visits, quality ratings, local validation, partnerships or bookings. No external contact or permission request made. Existing source and publication gates remain in force.",
+  "guides": [
+    {
+      "id": "turin-bicerin-layers",
+      "slug": "leave-the-spoon-beside-a-turin-bicerin",
+      "title": "Leave the spoon beside a Turin bicerin",
+      "country": "Italy",
+      "area": "turin",
+      "field": "taste",
+      "summary": "At Caffè Al Bicerin, coffee, chocolate and cream meet in the glass without becoming the same thing. The first instruction is to leave them alone.",
+      "url": "https://experienceauthority.com/experiences/leave-the-spoon-beside-a-turin-bicerin"
+    },
+    {
+      "id": "penang-hameediyah-nasi-kandar",
+      "slug": "choose-the-curries-for-a-penang-nasi-kandar",
+      "title": "Choose the curries for a Penang nasi kandar",
+      "country": "Malaysia",
+      "area": "penang",
+      "field": "taste",
+      "summary": "At Hameediyah, build a lunch around rice and the curries you actually want to taste. The choices are the experience, not a compulsory mountain of food.",
+      "url": "https://experienceauthority.com/experiences/choose-the-curries-for-a-penang-nasi-kandar"
+    },
+    {
+      "id": "paris-chartier-bouillon-meal",
+      "slug": "read-a-paris-bouillon-through-an-ordinary-meal",
+      "title": "Read a Paris bouillon through an ordinary meal",
+      "country": "France",
+      "area": "paris",
+      "field": "taste",
+      "summary": "Sit down at Bouillon Chartier for a straightforward French meal in a dining room built for many people, not a rarefied tasting menu.",
+      "url": "https://experienceauthority.com/experiences/read-a-paris-bouillon-through-an-ordinary-meal"
+    },
+    {
+      "id": "kanazawa-tsuda-mizuhiki",
+      "slug": "turn-a-paper-cord-into-a-kanazawa-knot",
+      "title": "Turn a paper cord into a Kanazawa knot",
+      "country": "Japan",
+      "area": "kanazawa",
+      "field": "make",
+      "summary": "At Tsuda Mizuhiki Orikata, follow coloured cords through a small knot and discover a craft that can make the wrapping as considered as the gift.",
+      "url": "https://experienceauthority.com/experiences/turn-a-paper-cord-into-a-kanazawa-knot"
+    },
+    {
+      "id": "budapest-szamos-chocolate-decoration",
+      "slug": "finish-a-small-chocolate-at-szamos-in-budapest",
+      "title": "Finish a small chocolate at Szamos in Budapest",
+      "country": "Hungary",
+      "area": "budapest",
+      "field": "make",
+      "summary": "Join a Szamos chocolate tour, watch the chocolatier's technique and decorate a chocolate of your own. This is a small finishing task, not a full confectioner's course.",
+      "url": "https://experienceauthority.com/experiences/finish-a-small-chocolate-at-szamos-in-budapest"
+    },
+    {
+      "id": "buenos-aires-fileteado-introduction",
+      "slug": "paint-a-buenos-aires-line-in-fileteado",
+      "title": "Paint a Buenos Aires line in fileteado",
+      "country": "Argentina",
+      "area": "buenos-aires",
+      "field": "make",
+      "summary": "Spend two hours with a fileteador in San Telmo and make a first piece of the curling, shaded lettering and ornament you notice around Buenos Aires.",
+      "url": "https://experienceauthority.com/experiences/paint-a-buenos-aires-line-in-fileteado"
+    },
+    {
+      "id": "hong-kong-dragons-back-hike",
+      "slug": "follow-hong-kongs-coast-from-dragons-back",
+      "title": "Follow Hong Kong's coast from Dragon's Back",
+      "country": "Hong Kong",
+      "area": "hong-kong-island",
+      "field": "move",
+      "summary": "Trade the street canyon for a real ridge. Dragon's Back puts the bays, villages and green folds of Hong Kong Island into one walk.",
+      "url": "https://experienceauthority.com/experiences/follow-hong-kongs-coast-from-dragons-back"
+    },
+    {
+      "id": "paris-coulee-verte-walk",
+      "slug": "walk-paris-above-its-old-railway",
+      "title": "Walk Paris above its old railway",
+      "country": "France",
+      "area": "paris",
+      "field": "move",
+      "summary": "Follow a former railway through planted corridors and across the twelfth arrondissement. The city changes scale when the pavement is a floor below you.",
+      "url": "https://experienceauthority.com/experiences/walk-paris-above-its-old-railway"
+    },
+    {
+      "id": "valencia-albufera-day-boat",
+      "slug": "cross-valencias-lagoon-at-the-speed-of-a-boat",
+      "title": "Cross Valencia's lagoon at the speed of a boat",
+      "country": "Spain",
+      "area": "valencia",
+      "field": "move",
+      "summary": "From El Palmar, take a short boat trip across the Albufera and watch reeds, open water and the low horizon replace the city skyline.",
+      "url": "https://experienceauthority.com/experiences/cross-valencias-lagoon-at-the-speed-of-a-boat"
+    },
+    {
+      "id": "florence-galileo-telescopes",
+      "slug": "look-closely-at-the-telescopes-that-changed-the-view",
+      "title": "Look closely at the telescopes that changed the view",
+      "country": "Italy",
+      "area": "florence",
+      "field": "learn",
+      "summary": "At Museo Galileo, two surviving telescopes bring a large change in human understanding down to the scale of wood, glass and a carefully made tube.",
+      "url": "https://experienceauthority.com/experiences/look-closely-at-the-telescopes-that-changed-the-view"
+    },
+    {
+      "id": "amsterdam-het-schip-housing",
+      "slug": "step-inside-amsterdams-idea-of-a-better-home",
+      "title": "Step inside Amsterdam's idea of a better home",
+      "country": "Netherlands",
+      "area": "amsterdam",
+      "field": "learn",
+      "summary": "At Het Schip, follow expressive brickwork into a model home and post office. The question is not just how housing looks, but what everyday life was meant to feel like.",
+      "url": "https://experienceauthority.com/experiences/step-inside-amsterdams-idea-of-a-better-home"
+    },
+    {
+      "id": "lisbon-coach-museum-wheels",
+      "slug": "read-lisbons-ceremonial-coaches-from-the-wheels-up",
+      "title": "Read Lisbon's ceremonial coaches from the wheels up",
+      "country": "Portugal",
+      "area": "lisbon",
+      "field": "learn",
+      "summary": "In the National Coach Museum, start below the gilding. Wheels, suspension and narrow cabins reveal what a spectacular arrival required from the people and animals around it.",
+      "url": "https://experienceauthority.com/experiences/read-lisbons-ceremonial-coaches-from-the-wheels-up"
+    },
+    {
+      "id": "hamburg-loki-schmidt-garden",
+      "slug": "give-a-hamburg-afternoon-to-a-garden-path",
+      "title": "Give a Hamburg afternoon to a garden path",
+      "country": "Germany",
+      "area": "hamburg",
+      "field": "restore",
+      "summary": "At the university's outdoor botanical garden in Klein Flottbek, follow a path without turning every plant into a task. Let one small part of the garden be enough.",
+      "url": "https://experienceauthority.com/experiences/give-a-hamburg-afternoon-to-a-garden-path"
+    },
+    {
+      "id": "lisbon-torel-garden-pause",
+      "slug": "let-lisbon-continue-below-a-torel-bench",
+      "title": "Let Lisbon continue below a Torel bench",
+      "country": "Portugal",
+      "area": "lisbon",
+      "field": "restore",
+      "summary": "Above Avenida da Liberdade, a garden gives you a place to stop looking for the next thing. Sit, find the shape of the valley and let the city carry on below.",
+      "url": "https://experienceauthority.com/experiences/let-lisbon-continue-below-a-torel-bench"
+    },
+    {
+      "id": "helsinki-winter-garden-pause",
+      "slug": "spend-a-helsinki-hour-under-glass-and-leaves",
+      "title": "Spend a Helsinki hour under glass and leaves",
+      "country": "Finland",
+      "area": "helsinki",
+      "field": "restore",
+      "summary": "At the free city Winter Garden, pass from cactus shapes to broad leaves and a place to sit. A small greenhouse can change the scale of a northern city day.",
+      "url": "https://experienceauthority.com/experiences/spend-a-helsinki-hour-under-glass-and-leaves"
+    },
+    {
+      "id": "barcelona-liceu-opera-evening",
+      "slug": "join-barcelonas-opera-audience-at-the-liceu",
+      "title": "Join Barcelona's opera audience at the Liceu",
+      "country": "Spain",
+      "area": "barcelona",
+      "field": "gather",
+      "summary": "Choose a real performance, read a little of the story and take your seat. The Liceu is most interesting when the building becomes a room full of people listening.",
+      "url": "https://experienceauthority.com/experiences/join-barcelonas-opera-audience-at-the-liceu"
+    },
+    {
+      "id": "lyon-guignol-puppet-audience",
+      "slug": "hear-lyon-answer-back-to-guignol",
+      "title": "Hear Lyon answer back to Guignol",
+      "country": "France",
+      "area": "lyon",
+      "field": "gather",
+      "summary": "Choose a daytime puppet performance in Vieux Lyon and listen to the exchange between stage and audience. Guignol is a speaking character, not just a souvenir face.",
+      "url": "https://experienceauthority.com/experiences/hear-lyon-answer-back-to-guignol"
+    },
+    {
+      "id": "cape-town-kirstenbosch-sunset-concert",
+      "slug": "share-a-concert-lawn-beneath-table-mountain",
+      "title": "Share a concert lawn beneath Table Mountain",
+      "country": "South Africa",
+      "area": "cape-town",
+      "field": "gather",
+      "summary": "Choose a scheduled Summer Sunset Concert at Kirstenbosch and bring a picnic blanket. The garden becomes a listening space, with the mountain remaining part of the evening.",
+      "url": "https://experienceauthority.com/experiences/share-a-concert-lawn-beneath-table-mountain"
+    }
+  ],
+  "sourceAudit": {
+    "checkedOn": "2026-10-27",
+    "count": 51,
+    "results": [
+      {
+        "url": "https://bicerin.it/dove-siamo/",
+        "status": 200,
+        "finalUrl": "https://bicerin.it/dove-siamo/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://bicerin.it/en/the-bicerin/",
+        "status": 200,
+        "finalUrl": "https://bicerin.it/en/the-bicerin/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.regione.piemonte.it/governo/bollettino/abbonati/2013/45/attach/dddb110000879_040.pdf",
+        "status": 200,
+        "finalUrl": "https://www.regione.piemonte.it/governo/bollettino/abbonati/2013/45/attach/dddb110000879_040.pdf",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://gtwhi.com.my/hameediyah-restaurant-sdn-bhd/",
+        "status": 200,
+        "finalUrl": "https://gtwhi.com.my/hameediyah-restaurant-sdn-bhd/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://mypenang.gov.my/uploads/downloads/SFA_Penang-Street-Food_V04Sep24-EN.pdf",
+        "status": 200,
+        "finalUrl": "https://mypenang.gov.my/uploads/downloads/SFA_Penang-Street-Food_V04Sep24-EN.pdf",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://www.bouillon-chartier.com/en/bouillon-chartier-grands-boulevards-en/",
+        "status": 200,
+        "finalUrl": "https://www.bouillon-chartier.com/en/bouillon-chartier-grands-boulevards-en/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.bouillon-chartier.com/en/menu/",
+        "status": 200,
+        "finalUrl": "https://www.bouillon-chartier.com/en/menu/",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://kagamizuhiki.com/apps/note/workshop/",
+        "status": 200,
+        "finalUrl": "https://kagamizuhiki.com/apps/note/workshop/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://visitkanazawa.jp/en/activities/detail_767.html",
+        "status": 503,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://szamos.hu/elmenyturak",
+        "status": 200,
+        "finalUrl": "https://szamos.hu/elmenyturak",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.csokimuzeum.hu/english",
+        "status": 200,
+        "finalUrl": "https://www.csokimuzeum.hu/english",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://fileteadoporteno.com/clases-y-cursos-de-fileteado-porteno/",
+        "status": 200,
+        "finalUrl": "https://fileteadoporteno.com/clases-y-cursos-de-fileteado-porteno/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://ich.unesco.org/es/RL/el-filete-porteno-de-buenos-aires-una-tecnica-pictorica-tradicional-01069",
+        "status": 200,
+        "finalUrl": "https://ich.unesco.org/es/RL/el-filete-porteno-de-buenos-aires-una-tecnica-pictorica-tradicional-01069",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.argentina.gob.ar/noticias/se-inauguro-en-tecnopolis-el-11o-encuentro-anual-de-fileteadores",
+        "status": 200,
+        "finalUrl": "https://www.argentina.gob.ar/noticias/se-inauguro-en-tecnopolis-el-11o-encuentro-anual-de-fileteadores",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.roundislandtrail.gov.hk/en/exploring-the-trail/route-suggestions/hong-kong-trail-section-8-to-tei-wan-to-tai-long-wan",
+        "status": 200,
+        "finalUrl": "https://www.roundislandtrail.gov.hk/en/exploring-the-trail/route-suggestions/hong-kong-trail-section-8-to-tei-wan-to-tai-long-wan",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-dragon-s-back.html",
+        "status": 403,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.paris.fr/lieux/coulee-verte-rene-dumont-1772",
+        "status": 200,
+        "finalUrl": "https://www.paris.fr/lieux/coulee-verte-rene-dumont-1772",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.paris.fr/pages/espaces-verts-139",
+        "status": 200,
+        "finalUrl": "https://www.paris.fr/pages/espaces-verts-139",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://eltiopastilla.com/en/albufera-boat-trip/",
+        "status": 200,
+        "finalUrl": "https://eltiopastilla.com/en/albufera-boat-trip/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.visitvalencia.com/en/what-to-see-valencia/albufera-natural-park",
+        "status": 200,
+        "finalUrl": "https://www.visitvalencia.com/en/what-to-see-valencia/albufera-natural-park",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://www.museogalileo.it/it/organizza-la-visita/orari-e-prezzi.html",
+        "status": 200,
+        "finalUrl": "https://www.museogalileo.it/it/organizza-la-visita/orari-e-prezzi.html",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.museogalileo.it/en/galileo/instruments-en.html",
+        "status": 200,
+        "finalUrl": "https://www.museogalileo.it/en/galileo/instruments-en.html",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.museogalileo.it/en/visit/faq.html",
+        "status": 200,
+        "finalUrl": "https://www.museogalileo.it/en/visit/faq.html",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.hetschip.nl/bezoekers/locaties-openingstijden/het-schip",
+        "status": 200,
+        "finalUrl": "https://www.hetschip.nl/bezoekers/locaties-openingstijden/het-schip",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://internationalheritage.dutchculture.nl/en/location/museum-het-schip",
+        "status": 200,
+        "finalUrl": "https://internationalheritage.dutchculture.nl/en/location/museum-het-schip",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://www.mncoches.gov.pt/visita",
+        "status": 200,
+        "finalUrl": "https://www.mncoches.gov.pt/visita",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.museusemonumentos.pt/en/museus-e-monumentos/museu-nacional-dos-coches",
+        "status": 200,
+        "finalUrl": "https://www.museusemonumentos.pt/en/museus-e-monumentos/museu-nacional-dos-coches",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.bghamburg.de/der-garten/besucherinformationen",
+        "status": 200,
+        "finalUrl": "https://www.bghamburg.de/der-garten/besucherinformationen",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/hamburgs-gruen/parkanlagen/loki-schmidt-garten-238236",
+        "status": 200,
+        "finalUrl": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/hamburgs-gruen/parkanlagen/loki-schmidt-garten-238236",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://www.lisboa.pt/pontos-de-interesse/detalhe/jardim-do-torel",
+        "status": 403,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.visitlisboa.com/en/places/miradouro-do-torel",
+        "status": 200,
+        "finalUrl": "https://www.visitlisboa.com/en/places/miradouro-do-torel",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.hel.fi/en/culture-and-leisure/outdoor-activities-parks-and-nature-destinations/parks/the-winter-garden",
+        "status": 200,
+        "finalUrl": "https://www.hel.fi/en/culture-and-leisure/outdoor-activities-parks-and-nature-destinations/parks/the-winter-garden",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://tpr.hel.fi/kapaesteettomyys/app/en/summary/tpr:2780/",
+        "status": 200,
+        "finalUrl": "https://tpr.hel.fi/kapaesteettomyys/app/en/summary/tpr:2780/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://liceubarcelona.cat/en/newseason",
+        "status": 200,
+        "finalUrl": "https://liceubarcelona.cat/en/newseason",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.liceubarcelona.cat/en/boheme",
+        "status": 200,
+        "finalUrl": "https://www.liceubarcelona.cat/en/boheme",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://www.liceubarcelona.cat/es/liceu-apropa/accesibilidad",
+        "status": 200,
+        "finalUrl": "https://www.liceubarcelona.cat/es/liceu-apropa/accesibilidad",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://lamaisondeguignol.mapado.com/",
+        "status": 200,
+        "finalUrl": "https://lamaisondeguignol.mapado.com/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.lamaisondeguignol.fr/",
+        "status": 200,
+        "finalUrl": "https://www.lamaisondeguignol.fr/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.sanbi.org/event/kirstenbosch-summer-sunset-concerts-2026/",
+        "status": 200,
+        "finalUrl": "https://www.sanbi.org/event/kirstenbosch-summer-sunset-concerts-2026/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.sanbi.org/events/all-events/",
+        "status": 200,
+        "finalUrl": "https://www.sanbi.org/events/all-events/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://pemetaanbudaya.jkkn.gov.my/en/senibudaya/detail/751",
+        "status": 200,
+        "finalUrl": "https://pemetaanbudaya.jkkn.gov.my/en/senibudaya/detail/751",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.budapestinfo.hu/en/szamos-chocolate-museum",
+        "status": 200,
+        "finalUrl": "https://www.budapestinfo.hu/en/szamos-chocolate-museum",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Dragon%27s_Back,_Hong_Kong_01.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-27",
+        "license": "CC BY-SA 2.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Dragon%27s_Back,_Hong_Kong_01.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Coul%C3%A9e_verte_Ren%C3%A9-Dumont_-_Paris.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-27",
+        "license": "CC0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Coul%C3%A9e_verte_Ren%C3%A9-Dumont_-_Paris.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://eltiopastilla.com/en/",
+        "status": 200,
+        "finalUrl": "https://eltiopastilla.com/en/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Galilei_telescopes,_Museo_Galileo,_Florence,_Inv._242,_2428,_224088.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-27",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Galilei_telescopes,_Museo_Galileo,_Florence,_Inv._242,_2428,_224088.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Museu_Nacional_dos_Coches_-_Lisboa_-_Portugal_(53443110493).jpg",
+        "method": "Commons imageinfo API record checked 2026-10-27",
+        "license": "CC BY-SA 2.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Museu_Nacional_dos_Coches_-_Lisboa_-_Portugal_(53443110493).jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Hamburg_-_Altona_-_Osdorf_-_Botanischer_(Loki-Schmidt-)Garten_-_2026-06-24_-_3.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-27",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Hamburg_-_Altona_-_Osdorf_-_Botanischer_(Loki-Schmidt-)Garten_-_2026-06-24_-_3.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Jardim_do_Torel_Lisboa_10.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-27",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Jardim_do_Torel_Lisboa_10.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Winter_Garden,_Helsinki_06.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-27",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Winter_Garden,_Helsinki_06.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Liceu_-_Interior.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-27",
+        "license": "CC BY-SA 3.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Liceu_-_Interior.jpg",
+        "status": 200
+      }
+    ]
+  },
+  "photoPolicy": {
+    "realDocumentaryImages": 18,
+    "aiGenerated": 0,
+    "documentedLicences": 8,
+    "officialSourceRightsNotIndependentlyCleared": 10,
+    "credit": "Image: author / source ↗. Source opens separately. Attribution is not permission.",
+    "limitations": "Official-source use follows the existing EA risk policy and is not represented as independently licensed. Low-resolution, unrelated and explicitly restricted candidates were rejected. All selected images were visually inspected."
+  },
+  "rejectedOrDeferred": [
+    {
+      "candidate": "Abanicos Carbonell fan-painting class, Valencia",
+      "reason": "Official evidence establishes sales and manufacture, not a publicly available visitor painting workshop."
+    },
+    {
+      "candidate": "Pontoise pool, Paris",
+      "reason": "Municipal notice lists works closure from 16 October to 15 November 2026."
+    },
+    {
+      "candidate": "Basilica Cistern, Istanbul",
+      "reason": "Current agency ticketing transition and conflicting operator routes need further resolution before a practical access recommendation."
+    },
+    {
+      "candidate": "Japanese water garden, Planten un Blomen, Hamburg",
+      "reason": "Current water-landscape renovation affects the proposed experience. Selected the separately verified Loki-Schmidt-Garten instead."
+    }
+  ],
+  "editorialBoundaries": [
+    "Three unique primary allocations per category, without counting multi-interest matches twice.",
+    "Kirstenbosch is explicitly an upcoming 22 November 2026 to 28 March 2027 season, not a current daily attraction.",
+    "Het Schip closes on Tuesday 3 November. Helsinki Winter Garden closes Fridays. Paris lift outages are explicitly recorded.",
+    "Szamos visitor decoration is distinguished from a full chocolate-making course. Mizuhiki requires two to nine participants.",
+    "Guignol age guidance and wheelchair access vary by show and room. Liceu special age-restricted performances are not presented as universally available.",
+    "The Hameediyah image is a dish from the national cultural record, not a claim about a current complete meal.",
+    "Copy does not default to a male visitor. Where supported by evidence, the contribution of women practitioners is included without reducing women to stereotyped interests."
+  ],
+  "integration": [
+    "Compass and participation/time search profiles",
+    "Six primary interest allocations and existing relevant collections",
+    "Local related-guide recommendations and destination coverage",
+    "Same-date release merged with the earlier 27 October pass, not a fictitious new day",
+    "Canonical, Article and ImageObject structured data and sitemap through existing architecture",
+    "Image cache fingerprints and exact optimizer allowlist",
+    "Updated review-window manifest and smoke route inventory"
+  ],
+  "verification": {
+    "unitTests": "172 passed, 0 failed, 0 skipped",
+    "typecheck": "Passed",
+    "productionBuild": "Passed with production indexing enabled",
+    "browser": "All 18 new guides reviewed at 1440x1000 and 390x844. Also checked homepage, Today, New, Turin, Kanazawa and six field pages at both sizes. No horizontal overflow. New photographs load and credits link to their sources. Initial fade-in captures were rechecked after animation. Save/unsave returned Passport to its original zero-save state. Photo enlargement closes with Escape and restores focus. City filter returns the new Turin guide. Source anchor and mobile source notes checked. No analytics scripts before consent. This is scoped visual and interaction QA, not a comprehensive WCAG certification.",
+    "smoke": "897 pages checked, 42 unpublished paths checked, 866 distinct CSP nonces, 0 failures. Crawler rules, indexing exclusions and social image checks passed.",
+    "localProductionProof": "18 guide pages, original and optimized photographs, canonical, indexability, Article/ImageObject schema, source dates, security headers, sitemap, release and relevant destination routes passed. All 24 expired/time-gated guides remain excluded. 490 eligible public guides."
+  },
+  "deployment": "Not yet deployed. A separate production proof must confirm the public edition after push."
+}
