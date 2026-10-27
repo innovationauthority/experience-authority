@@ -20,6 +20,8 @@ import { editorialPathways } from "@/lib/editorial-pathways";
 import { getExperiences } from "@/lib/data";
 import { StructuredData } from "@/components/structured-data";
 import { HomeHero } from "@/components/home-hero";
+import { LocalDiscovery } from "@/components/local-discovery";
+import { localAreas } from "@/lib/local-discovery";
 import { PassportReturn } from "@/components/passport-return";
 import { currentDiscovery, editionDate } from "@/lib/daily-discovery";
 import { chapterHref, resolveCityChapters } from "@/lib/city-chapters";
@@ -128,14 +130,15 @@ export default function Home() {
         <section className="section wrap home-destinations">
           <SectionHeading
             eyebrow="Start with a place"
-            title="Where are you going?"
+            title="A new way into a familiar place."
             href="/places"
             link="All destinations"
           />
           <p className="section-note">
-            Find a familiar starting point and a less expected next step. Save
-            the experiences that belong in your stay.
+            Somewhere you’re visiting. Somewhere you live. Start with a place,
+            then discover what you could do differently.
           </p>
+          <LocalDiscovery areas={localAreas(experiences)} />
           <div className="home-destination-grid">
             {featuredChapterCards.map(({ chapter, media }) => {
               const href = chapterHref(chapter).split("#")[0];

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import type { PublicExperience } from "@/lib/catalog";
 import { guideMediaFor, imageCreditText } from "@/lib/media";
+import { heroLeadPositions } from "@/lib/home-curation";
 
 export function HomeHero({
   items,
@@ -28,6 +29,7 @@ export function HomeHero({
           imageAlt: item.imageAlt,
           sourceUrl: media.sourceUrl,
           credit: imageCreditText(media),
+          leadPosition: heroLeadPositions[item.slug],
         } satisfies HomeHeroStory,
       ];
     });

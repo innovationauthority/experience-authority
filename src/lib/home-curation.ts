@@ -9,59 +9,9 @@ import { recentGuideReleases } from "./releases";
  */
 export const heroGuideRotations = [
   [
-    "meet-the-island-through-the-uga",
-    "stay-where-the-town-knows-your-host",
-    "let-the-room-introduce-mindelo",
-  ],
-  [
-    "stay-until-the-desert-loses-its-colour",
-    "follow-the-colour-back-to-the-wool",
-    "hear-the-wooden-racket-crack",
-  ],
-  [
-    "build-hudut-from-the-coconut-outward",
-    "meet-the-largest-fish-on-its-terms",
-    "read-prague-through-a-movement",
-  ],
-  [
-    "raise-a-room-from-a-circle",
-    "meet-the-largest-fish-on-its-terms",
-    "let-the-drum-recover-its-history",
-  ],
-  [
     "pick-the-leaf-before-the-cup",
     "walk-where-terere-is-everyday-language",
     "hear-the-flute-before-anyone-plays",
-  ],
-  [
-    "walk-where-terere-is-everyday-language",
-    "build-hudut-from-the-coconut-outward",
-    "coil-the-lowcountry-one-stitch-at-a-time",
-  ],
-  [
-    "hear-the-wooden-racket-crack",
-    "let-the-clay-keep-the-fingerprints",
-    "enter-sevdah-through-the-room-that-remembers-it",
-  ],
-  [
-    "choose-the-harvest-before-the-cellar",
-    "let-the-ballad-move-the-circle",
-    "follow-cardboard-toward-bay-street",
-  ],
-  [
-    "ask-the-market-where-london-came-from",
-    "lift-a-pattern-from-the-water",
-    "a-city-in-the-water",
-  ],
-  [
-    "put-the-gods-back-among-the-machines",
-    "begin-with-rice-not-the-bottle",
-    "stay-for-the-session",
-  ],
-  [
-    "make-the-morning-before-it-reaches-the-cafe",
-    "the-weight-of-the-tower",
-    "walk-where-the-sea-was",
   ],
   ["marble-steam-istanbul", "venice-through-an-oar", "a-bowl-of-attention"],
   [
@@ -70,41 +20,27 @@ export const heroGuideRotations = [
     "the-weight-of-the-tower",
   ],
   [
-    "follow-the-agave-into-the-still",
-    "let-the-caller-start-the-dance",
-    "follow-the-festa-through-the-streets",
-  ],
-  [
     "mexico-city-grown-on-water",
     "stay-for-the-session",
     "cook-beyond-the-postcard",
   ],
   [
-    "read-the-desert-at-ground-level",
-    "kimchi-before-the-jar",
-    "the-fish-behind-the-islands",
-  ],
-  [
-    "read-the-language-of-the-coffee-cup",
-    "walk-the-island-between-forest-and-shore",
-    "paint-the-pattern-you-noticed",
-  ],
-  [
-    "spend-the-night-in-a-temple-town",
-    "the-pour-before-the-glass",
-    "walk-where-the-sea-was",
-  ],
-  [
-    "taste-what-time-does-to-port",
-    "let-the-rainforest-be-introduced",
-    "lift-a-pattern-from-the-water",
-  ],
-  [
-    "hear-the-arena-answer-back",
-    "let-the-dog-read-the-forest",
-    "begin-with-rice-not-the-bottle",
+    "read-rio-between-two-cable-car-stations",
+    "raise-a-room-from-a-circle",
+    "let-the-drum-recover-its-history",
   ],
 ] as const;
+
+/** Lead photographs reviewed at portrait and landscape crops, 27 October 2026.
+ * Other documentary images remain in the catalogue, but are not automatic covers.
+ */
+export const heroLeadPositions: Record<string, string> = {
+  "pick-the-leaf-before-the-cup": "35% 50%",
+  "marble-steam-istanbul": "50% 64%",
+  "a-morning-at-the-hawker-table": "53% 65%",
+  "mexico-city-grown-on-water": "44% 60%",
+  "read-rio-between-two-cable-car-stations": "62% 50%",
+};
 
 const compassOpeningGuideSlugs = [
   "meet-the-island-through-the-uga",
@@ -243,7 +179,11 @@ export function curateHome(
   const newGuides: PublicExperience[] = [];
   const countries = new Set<string>();
   for (const item of recent) {
-    if (countries.has(item.countrySlug)) continue;
+    if (
+      countries.has(item.countrySlug) ||
+      newGuides.some((guide) => guide.field === item.field)
+    )
+      continue;
     newGuides.push(item);
     countries.add(item.countrySlug);
     if (newGuides.length === 6) break;

@@ -6,6 +6,7 @@ import { guideMediaFor, imageCreditText, type GuideMedia } from "@/lib/media";
 import type { EditorialPathway } from "@/lib/editorial-pathways";
 import { ExperienceActions } from "./passport-provider";
 import { imageSource } from "@/lib/image-revisions";
+import { cardPlanning } from "@/lib/card-planning";
 
 export function StatusBadge({
   status,
@@ -98,6 +99,7 @@ export function ExperienceCard({
 }) {
   const media =
     item.status === "public_guide" ? guideMediaFor(item.id) : undefined;
+  const planning = cardPlanning(item);
   return (
     <article className="experience-card">
       <div className={`card-image ${!item.image ? "card-no-image" : ""}`}>
@@ -150,12 +152,29 @@ export function ExperienceCard({
           </Link>
         </h3>
         <p>{item.summary}</p>
-        <div className="card-bottom">
-          <StatusBadge status={item.status} demo={item.demo} />
-          <span className="card-number">
-            {String(index + 1).padStart(2, "0")}
-          </span>
-        </div>
+        {planning ? (
+          <dl className="card-planning" aria-label="Plan your visit">
+            {planning.time && (
+              <div>
+                <dt>Time to allow</dt>
+                <dd>{planning.time}</dd>
+              </div>
+            )}
+            {planning.mode && (
+              <div>
+                <dt>Your experience</dt>
+                <dd>{planning.mode}</dd>
+              </div>
+            )}
+          </dl>
+        ) : (
+          <div className="card-bottom">
+            <StatusBadge status={item.status} demo={item.demo} />
+            <span className="card-number">
+              {String(index + 1).padStart(2, "0")}
+            </span>
+          </div>
+        )}
       </div>
     </article>
   );

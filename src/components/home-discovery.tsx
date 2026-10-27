@@ -128,7 +128,7 @@ export function HomeDiscovery({ items }: { items: DiscoveryItem[] }) {
           setOpen(false);
       }}
     >
-      <p className="home-discovery-prompt">Where do you want to go?</p>
+      <p className="home-discovery-prompt">Where would you like to explore?</p>
       <form
         action="/explore"
         method="get"

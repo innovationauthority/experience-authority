@@ -15,6 +15,7 @@ export type HomeHeroStory = {
   imageAlt: string;
   sourceUrl: string;
   credit: string;
+  leadPosition?: string;
 };
 
 function HeroStory({
@@ -39,8 +40,13 @@ function HeroStory({
         priority={primary}
         sizes={
           primary
-            ? "(max-width: 700px) 110vw, (max-width: 1100px) 90vw, 65vw"
-            : "(max-width: 700px) 65vw, 36vw"
+            ? "(max-width: 700px) 100vw, (max-width: 1100px) 60vw, 45vw"
+            : "(max-width: 700px) 1px, (max-width: 1100px) 35vw, 20vw"
+        }
+        style={
+          primary && item.leadPosition
+            ? { objectPosition: item.leadPosition }
+            : undefined
         }
         className="editorial-photo"
       />

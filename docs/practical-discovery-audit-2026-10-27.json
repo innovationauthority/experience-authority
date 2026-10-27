@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-27",
+  "scope": "Practical discovery and cover hierarchy, following the Breathr comparison",
+  "changes": [
+    "Homepage city/area and time selector uses existing eligible guides and exact Compass filters, with direct arrival at results.",
+    "Unsupported time choices are disabled and reset when changing area. No geolocation, account or live availability claims.",
+    "Experience cards show existing reviewed time and participation lenses rather than repeated public-guide badges.",
+    "Five curated cover editions have individually reviewed desktop and mobile lead crops. Other guides remain in the catalogue.",
+    "Larger desktop lead photograph, quieter secondary titles and stronger caption contrast within the existing palette.",
+    "Recent homepage guides diversify activity fields as well as countries."
+  ],
+  "verification": {
+    "testsPassed": 166,
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "routeSmoke": {"checkedPages": 857, "unpublishedPaths": 42, "failures": []},
+    "homeViewportWidths": [390, 768, 1280, 1440],
+    "additionalResponsiveViews": 12,
+    "surfaces": ["Compass", "Today", "New", "Kyoto", "Beginner collection", "Seoul guide"],
+    "horizontalOverflow": "none in tested views",
+    "functionalChecks": [
+      "London plus short visit returns five guides and scrolls to compass-results.",
+      "Changing from London short visit to Wadi Rum resets an unsupported time selection.",
+      "Mobile grid and list preserve all five planning fact blocks.",
+      "All five cover lead images visually inspected at desktop and mobile sizes.",
+      "Existing canonical URLs, single page heading and absence of Google tag before consent checked on sampled routes."
+    ],
+    "accessibilityScope": "Semantic labels, keyboard-compatible native controls, focus styles, target sizes, visual readability and responsive overflow. Not a full accessibility certification.",
+    "finalFormAnchor": "Verified in browser after final build."
+  },
+  "measurementBoundary": "Functional correctness and visual regressions were checked. Increased retention, conversion or engagement has not been demonstrated by user research or an A/B test.",
+  "contentAndRights": "No new guide claims, photos, licenses, providers or booking promises introduced. Existing photo credits and source links preserved.",
+  "deployment": "See commit deployment status and final task report."
+}
