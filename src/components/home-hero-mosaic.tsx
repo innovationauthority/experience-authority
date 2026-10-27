@@ -28,44 +28,46 @@ function HeroStory({
   const href = `/experiences/${item.slug}`;
   return (
     <figure className={primary ? "prototype-hero-place" : undefined}>
-      <Link
-        className="prototype-hero-image-link"
-        href={href}
-        aria-label={`Explore ${item.title} in ${item.place}`}
-      />
-      <Image
-        src={imageSource(item.image)}
-        alt={item.imageAlt}
-        fill
-        priority={primary}
-        sizes={
-          primary
-            ? "(max-width: 700px) 100vw, (max-width: 1100px) 60vw, 45vw"
-            : "(max-width: 700px) 1px, (max-width: 1100px) 35vw, 20vw"
-        }
-        style={
-          primary && item.leadPosition
-            ? { objectPosition: item.leadPosition }
-            : undefined
-        }
-        className="editorial-photo"
-      />
+      <div className="hero-story-visual">
+        <Link
+          className="prototype-hero-image-link"
+          href={href}
+          aria-label={`Explore ${item.title} in ${item.place}`}
+        />
+        <Image
+          src={imageSource(item.image)}
+          alt={item.imageAlt}
+          fill
+          priority={primary}
+          sizes={
+            primary
+              ? "(max-width: 700px) 700px, 1100px"
+              : "(max-width: 700px) 1px, (max-width: 1100px) 35vw, 27vw"
+          }
+          style={
+            item.leadPosition
+              ? { objectPosition: item.leadPosition }
+              : undefined
+          }
+          className="editorial-photo"
+        />
+        <a
+          className="image-source-badge"
+          href={item.sourceUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>Image: {item.credit}</span>
+          <ArrowUpRight size={11} aria-hidden="true" />
+          <span className="sr-only"> (opens source in a new tab)</span>
+        </a>
+      </div>
       <figcaption>
         <span className="eyebrow">
           {primary ? `Place / ${item.place}` : `${item.field} / ${item.place}`}
         </span>
         <Link href={href}>{item.title}</Link>
       </figcaption>
-      <a
-        className="image-source-badge"
-        href={item.sourceUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span>Image: {item.credit}</span>
-        <ArrowUpRight size={11} aria-hidden="true" />
-        <span className="sr-only"> (opens source in a new tab)</span>
-      </a>
     </figure>
   );
 }

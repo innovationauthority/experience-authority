@@ -10,24 +10,24 @@ import { recentGuideReleases } from "./releases";
 export const heroGuideRotations = [
   [
     "pick-the-leaf-before-the-cup",
-    "walk-where-terere-is-everyday-language",
-    "hear-the-flute-before-anyone-plays",
+    "venice-through-an-oar",
+    "lift-a-pattern-from-the-water",
   ],
   ["marble-steam-istanbul", "venice-through-an-oar", "a-bowl-of-attention"],
   [
-    "a-morning-at-the-hawker-table",
+    "follow-balis-water-before-the-rice",
     "a-city-in-the-water",
-    "the-weight-of-the-tower",
+    "cook-beyond-the-postcard",
   ],
   [
     "mexico-city-grown-on-water",
     "stay-for-the-session",
-    "cook-beyond-the-postcard",
+    "shape-a-kyoto-season-in-sweet-paste",
   ],
   [
-    "read-rio-between-two-cable-car-stations",
+    "follow-kyotos-river-gorge-by-slow-train",
     "raise-a-room-from-a-circle",
-    "let-the-drum-recover-its-history",
+    "taste-what-time-does-to-port",
   ],
 ] as const;
 
@@ -37,9 +37,15 @@ export const heroGuideRotations = [
 export const heroLeadPositions: Record<string, string> = {
   "pick-the-leaf-before-the-cup": "35% 50%",
   "marble-steam-istanbul": "50% 64%",
-  "a-morning-at-the-hawker-table": "53% 65%",
+  "follow-balis-water-before-the-rice": "60% 55%",
   "mexico-city-grown-on-water": "44% 60%",
-  "read-rio-between-two-cable-car-stations": "62% 50%",
+  "follow-kyotos-river-gorge-by-slow-train": "52% 50%",
+  "venice-through-an-oar": "42% 75%",
+  "lift-a-pattern-from-the-water": "48% 52%",
+  "a-bowl-of-attention": "50% 40%",
+  "cook-beyond-the-postcard": "58% 62%",
+  "shape-a-kyoto-season-in-sweet-paste": "50% 60%",
+  "raise-a-room-from-a-circle": "50% 40%",
 };
 
 const compassOpeningGuideSlugs = [

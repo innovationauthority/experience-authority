@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-27",
+  "scope": "Photographic cover selection, secondary-story composition, and local discovery controls",
+  "photography": {
+    "newDownloads": 0,
+    "generatedImages": 0,
+    "approach": "Reselect existing approved, credited documentary assets for the cover. Do not replace guide photographs with unrelated scenery.",
+    "newLeads": ["follow-balis-water-before-the-rice", "follow-kyotos-river-gorge-by-slow-train"],
+    "removedCoverLeads": ["a-morning-at-the-hawker-table", "read-rio-between-two-cable-car-stations"],
+    "leadOriginalWidths": [1500, 1600, 1920, 2400, 1800],
+    "delivery": "Lead image sizes account for landscape photographs filling a tall cover, rather than requesting only the narrow displayed column width.",
+    "rights": "Existing source and rights records retained unchanged. No new license assertion."
+  },
+  "composition": {
+    "desktopPhotoCanvas": "66 percent of cover",
+    "secondaryColumn": "40 percent of photographic canvas, approximately 351 pixels at a 1440 pixel viewport",
+    "secondaryCaptions": "Below photographs on the existing paper colour, not overlaid on subjects",
+    "credits": "10 pixel credits, wrapping when necessary, directly linked to source in a new tab",
+    "motion": "Removed staggered figure entrance on manual edition changes. Existing reduced-motion behavior retained."
+  },
+  "localDiscovery": {
+    "place": "Native labelled select, visually integrated with editorial typography",
+    "time": "Native radio group with visible 44 pixel minimum touch targets",
+    "button": "Shows actual matching experience count",
+    "verified": [
+      "London plus short visit submits correct country, region, time and results fragment and returns five guides.",
+      "Arrow keys move between time choices.",
+      "Changing to Wadi Rum clears unsupported time and disables unavailable options.",
+      "No geolocation or account requirement added."
+    ]
+  },
+  "checks": {
+    "viewportWidths": [320, 390, 768, 1024, 1280, 1440],
+    "horizontalOverflow": false,
+    "testsPassed": 166,
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "routeSmoke": {"checkedPages": 857, "unpublishedPaths": 42, "failures": []},
+    "creditHitTesting": "All three current cover credits were topmost clickable targets at their centre."
+  },
+  "limits": "A visual and functional refinement, not a measured engagement or retention experiment. This pass curates the homepage cover, not a replacement of every photograph in the catalogue."
+}

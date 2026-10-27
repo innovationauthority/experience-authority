@@ -20,7 +20,7 @@ export function LocalDiscovery({ areas }: { areas: LocalArea[] }) {
     <div className="local-discovery" id="close-to-home">
       <div className="local-discovery-intro">
         <h3>You don’t have to go far.</h3>
-        <p>At home or away, find another way into a place you know.</p>
+        <p>A place you know. A few hours to see it differently.</p>
       </div>
       <form
         action="/explore#compass-results"
@@ -54,29 +54,33 @@ export function LocalDiscovery({ areas }: { areas: LocalArea[] }) {
             ))}
           </select>
         </div>
-        <div className="local-discovery-field">
-          <label htmlFor="local-time">Time to explore</label>
-          <select
-            id="local-time"
-            name="time"
-            value={time}
-            disabled={!area}
-            onChange={(event) => setTime(event.target.value)}
-          >
-            <option value="">Any length</option>
-            {timeChoices.map(([value, label]) => (
-              <option key={value} value={value} disabled={!area?.times[value]}>
-                {label}
-              </option>
+        <fieldset className="local-time-choices" disabled={!area}>
+          <legend>Time to explore</legend>
+          <div>
+            {[["", "Any length"], ...timeChoices].map(([value, label]) => (
+              <label key={value}>
+                <input
+                  type="radio"
+                  name="time"
+                  value={value}
+                  checked={time === value}
+                  disabled={!!value && !area?.times[value]}
+                  onChange={() => setTime(value)}
+                />
+                <span>{label}</span>
+              </label>
             ))}
-          </select>
-        </div>
+          </div>
+        </fieldset>
         <button
           type="submit"
           disabled={!area || count === 0}
           className="button button-dark"
         >
-          Show experiences <ArrowRight size={18} aria-hidden="true" />
+          {area
+            ? `Explore ${count} ${count === 1 ? "experience" : "experiences"}`
+            : "Explore"}
+          <ArrowRight size={18} aria-hidden="true" />
         </button>
         <p
           className="local-discovery-note"
@@ -84,8 +88,8 @@ export function LocalDiscovery({ areas }: { areas: LocalArea[] }) {
           aria-atomic="true"
         >
           {area
-            ? `${count} ${count === 1 ? "guide" : "guides"} to explore. Check opening times and booking in each guide.`
-            : "Choose a place, not your GPS location. No account needed."}
+            ? `${count} ${count === 1 ? "guide matches" : "guides match"}. Check opening times and booking in each guide.`
+            : "Choose a place to begin. No location tracking or account needed."}
         </p>
         <noscript>
           <p>
