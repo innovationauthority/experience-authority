@@ -575,5 +575,17 @@
     "smoke": "897 pages checked, 42 unpublished paths checked, 866 distinct CSP nonces, 0 failures. Crawler rules, indexing exclusions and social image checks passed.",
     "localProductionProof": "18 guide pages, original and optimized photographs, canonical, indexability, Article/ImageObject schema, source dates, security headers, sitemap, release and relevant destination routes passed. All 24 expired/time-gated guides remain excluded. 490 eligible public guides."
   },
-  "deployment": "Not yet deployed. A separate production proof must confirm the public edition after push."
+  "deployment": {
+    "status": "Verified live",
+    "contentCommit": "a9ebec87a14fbf59dbaa79a81f47cc9ae7f95020",
+    "vercelStatus": "success: Deployment has completed",
+    "vercelUrl": "https://vercel.com/sspasic/experience-authority/WMw7X6rpTwVJG5tc7DTofjFsJgyE",
+    "checkedAt": "2026-10-27T22:12:54.088Z",
+    "base": "https://experienceauthority.com",
+    "verifiedPublicGuides": 18,
+    "eligiblePublicGuides": 490,
+    "expiredGuidesExcluded": 24,
+    "checks": "All new pages, canonical addresses, sitemap entries, publication release, source dates, Article and ImageObject schema, security headers, original image hashes, optimized images and destination pages passed. Production browser confirmed New on desktop and Kanazawa on mobile, with no overflow or pre-consent analytics.",
+    "proofFile": "work/ea-2026-10-27-edition-59-production-proof.json"
+  }
 }
