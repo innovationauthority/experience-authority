@@ -16,6 +16,7 @@ import { discoveryBatch54 } from "./discovery-batch-54";
 import { discoveryBatch55 } from "./discovery-batch-55";
 import { discoveryBatch56 } from "./discovery-batch-56";
 import { discoveryBatch57 } from "./discovery-batch-57";
+import { discoveryBatch60 } from "./discovery-batch-60";
 import { discoveryBatch59 } from "./discovery-batch-59";
 import { discoveryBatch58 } from "./discovery-batch-58";
 
@@ -45,6 +46,7 @@ export type DiscoveryProfile = {
 /** Editorial planning lenses, based on the scope and duration stated in each guide.
  * These are not live session lengths, availability or suitability guarantees. */
 export const discoveryProfiles: Record<string, DiscoveryProfile> = {
+  ...discoveryBatch60,
   ...discoveryBatch59,
   ...discoveryBatch58,
   ...discoveryBatch51,

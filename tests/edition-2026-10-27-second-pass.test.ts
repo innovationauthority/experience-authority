@@ -23,9 +23,11 @@ test("27 October second pass adds eighteen net-new guides, three per primary are
   ).flat() as readonly string[];
   assert.equal(slugs.length, 18);
   assert.equal(new Set(slugs).size, 18);
-  assert.equal(publicGuides.length, 514);
+  assert.equal(publicGuides.length, 532);
   assert.deepEqual([...slugs].sort(), guideBatch59.map((g) => g.slug).sort());
-  const previous = publicGuides.filter((g) => !slugs.includes(g.slug));
+  const previous = publicGuides.filter(
+    (g) => !slugs.includes(g.slug) && g.guideReview!.checkedOn <= "2026-10-27",
+  );
   assert.equal(previous.length, 496);
   assert.deepEqual(
     Object.keys(edition20261027SecondPass).sort(),

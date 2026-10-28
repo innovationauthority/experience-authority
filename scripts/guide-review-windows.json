@@ -1,4 +1,112 @@
 {
+  "/experiences/let-a-tokyo-dinner-take-shape-on-the-griddle": {
+    "availableFrom": "2026-10-28",
+    "reviewBy": "2026-12-27",
+    "countrySlug": "japan",
+    "regionSlug": "tokyo"
+  },
+  "/experiences/make-room-for-munichs-breakfast-before-noon": {
+    "availableFrom": "2026-10-28",
+    "reviewBy": "2027-01-25",
+    "countrySlug": "germany",
+    "regionSlug": "munich"
+  },
+  "/experiences/taste-the-tortilla-before-the-filling-in-mexico-city": {
+    "availableFrom": "2026-10-28",
+    "reviewBy": "2026-12-27",
+    "countrySlug": "mexico",
+    "regionSlug": "mexico-city"
+  },
+  "/experiences/set-a-few-words-in-wood-type-in-london": {
+    "availableFrom": "2026-10-28",
+    "reviewBy": "2026-11-25",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "london"
+  },
+  "/experiences/unfold-the-pattern-you-kept-out-of-the-dye-in-kyoto": {
+    "availableFrom": "2026-10-28",
+    "reviewBy": "2027-01-25",
+    "countrySlug": "japan",
+    "regionSlug": "kyoto"
+  },
+  "/experiences/give-a-glass-bauble-its-first-breath-in-woolwich": {
+    "availableFrom": "2026-10-28",
+    "reviewBy": "2026-12-27",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "london"
+  },
+  "/experiences/cross-the-river-under-bizkaias-suspended-bridge": {
+    "availableFrom": "2026-10-28",
+    "reviewBy": "2026-12-27",
+    "countrySlug": "spain",
+    "regionSlug": "bilbao"
+  },
+  "/experiences/watch-medellin-give-way-to-forest-from-the-cable": {
+    "availableFrom": "2026-10-28",
+    "reviewBy": "2026-12-27",
+    "countrySlug": "colombia",
+    "regionSlug": "medellin"
+  },
+  "/experiences/let-a-hundred-second-ride-redraw-zurich": {
+    "availableFrom": "2026-10-28",
+    "reviewBy": "2026-12-27",
+    "countrySlug": "switzerland",
+    "regionSlug": "zurich"
+  },
+  "/experiences/read-a-century-of-car-design-in-turin": {
+    "availableFrom": "2026-10-28",
+    "reviewBy": "2027-01-25",
+    "countrySlug": "italy",
+    "regionSlug": "turin"
+  },
+  "/experiences/look-at-the-shape-before-the-label-in-antwerp": {
+    "availableFrom": "2026-10-28",
+    "reviewBy": "2027-01-25",
+    "countrySlug": "belgium",
+    "regionSlug": "antwerp"
+  },
+  "/experiences/read-the-room-before-the-painting-in-madrid": {
+    "availableFrom": "2026-10-28",
+    "reviewBy": "2027-01-25",
+    "countrySlug": "spain",
+    "regionSlug": "madrid"
+  },
+  "/experiences/leave-bangkoks-hurry-at-the-edge-of-a-wetland": {
+    "availableFrom": "2026-10-28",
+    "reviewBy": "2026-12-27",
+    "countrySlug": "thailand",
+    "regionSlug": "bangkok"
+  },
+  "/experiences/find-a-quieter-naples-between-the-painted-tiles": {
+    "availableFrom": "2026-10-28",
+    "reviewBy": "2026-12-27",
+    "countrySlug": "italy",
+    "regionSlug": "naples"
+  },
+  "/experiences/give-lisbon-an-hour-beside-the-gulbenkian-lake": {
+    "availableFrom": "2026-10-28",
+    "reviewBy": "2027-01-25",
+    "countrySlug": "portugal",
+    "regionSlug": "lisbon"
+  },
+  "/experiences/let-a-marrakech-story-fill-the-room": {
+    "availableFrom": "2026-10-28",
+    "reviewBy": "2026-11-27",
+    "countrySlug": "morocco",
+    "regionSlug": "marrakech"
+  },
+  "/experiences/follow-a-jazz-conversation-at-the-rex-in-toronto": {
+    "availableFrom": "2026-10-28",
+    "reviewBy": "2026-11-27",
+    "countrySlug": "canada",
+    "regionSlug": "toronto"
+  },
+  "/experiences/watch-one-person-become-a-whole-osaka-story": {
+    "availableFrom": "2026-10-28",
+    "reviewBy": "2026-12-08",
+    "countrySlug": "japan",
+    "regionSlug": "osaka"
+  },
   "/experiences/leave-the-spoon-beside-a-turin-bicerin": {
     "availableFrom": "2026-10-27",
     "reviewBy": "2027-01-24",

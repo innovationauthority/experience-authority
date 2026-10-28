@@ -1,0 +1,829 @@
+{
+  "edition": "2026-10-28",
+  "batch": 60,
+  "trigger": "Weekly Wednesday Experience Authority publishing pass",
+  "netNewGuides": 18,
+  "primaryAllocations": {
+    "eat-drink": 3,
+    "make-learn": 3,
+    "move-water": 3,
+    "explore-reflect": 3,
+    "swim-reset": 3,
+    "shared-rituals": 3
+  },
+  "catalogue": {
+    "authoredBefore": 514,
+    "authoredAfter": 532,
+    "eligibleBeforeOnRunDate": 489,
+    "eligibleAfter": 507,
+    "expiredOrTimeGated": 25,
+    "previousDayEligible": 490,
+    "overnightExpiry": "dublin-ifi-archive-lunchtime",
+    "note": "18 new programs were added. The visible total is 17 above the previous day because the pre-existing IFI lunchtime archive guide reached its review deadline. No expired guide was silently re-dated.",
+    "batchCountries": 13,
+    "batchPlaces": 17
+  },
+  "method": "Original public-source guides, not EA visits, ratings, local validation, partnerships or bookings. No external contact or permission request was made. Publication dates and source-review dates remain distinct.",
+  "guides": [
+    {
+      "id": "tokyo-tsukishima-monja",
+      "slug": "let-a-tokyo-dinner-take-shape-on-the-griddle",
+      "title": "Let a Tokyo dinner take shape on the griddle",
+      "country": "Japan",
+      "area": "tokyo",
+      "field": "taste",
+      "summary": "In Tsukishima, monjayaki arrives as ingredients and becomes dinner in front of you. The interesting part is learning when the thin batter is ready to eat.",
+      "url": "https://experienceauthority.com/experiences/let-a-tokyo-dinner-take-shape-on-the-griddle"
+    },
+    {
+      "id": "munich-weisswurst-breakfast",
+      "slug": "make-room-for-munichs-breakfast-before-noon",
+      "title": "Make room for Munich's breakfast before noon",
+      "country": "Germany",
+      "area": "munich",
+      "field": "taste",
+      "summary": "At Weisses Bräuhaus im Tal, a Weißwurst breakfast gives Munich's beer-hall setting a morning purpose. Start with the sausage, pretzel and sweet mustard, not a drinking obligation.",
+      "url": "https://experienceauthority.com/experiences/make-room-for-munichs-breakfast-before-noon"
+    },
+    {
+      "id": "mexico-city-maizajo-tortilla",
+      "slug": "taste-the-tortilla-before-the-filling-in-mexico-city",
+      "title": "Taste the tortilla before the filling in Mexico City",
+      "country": "Mexico",
+      "area": "mexico-city",
+      "field": "taste",
+      "summary": "At Maizajo's taquería, give the corn tortilla your first attention. A taco becomes more revealing when its base is something to taste, not just something to hold.",
+      "url": "https://experienceauthority.com/experiences/taste-the-tortilla-before-the-filling-in-mexico-city"
+    },
+    {
+      "id": "london-st-bride-letterpress",
+      "slug": "set-a-few-words-in-wood-type-in-london",
+      "title": "Set a few words in wood type in London",
+      "country": "United Kingdom",
+      "area": "london",
+      "field": "make",
+      "summary": "Make a letterpress poster at St Bride Foundation and discover that the space around a word has weight. The next verified public workshop is on 25 November 2026.",
+      "url": "https://experienceauthority.com/experiences/set-a-few-words-in-wood-type-in-london"
+    },
+    {
+      "id": "kyoto-shibori-itajime",
+      "slug": "unfold-the-pattern-you-kept-out-of-the-dye-in-kyoto",
+      "title": "Unfold the pattern you kept out of the dye in Kyoto",
+      "country": "Japan",
+      "area": "kyoto",
+      "field": "make",
+      "summary": "Fold and clamp a silk scarf before dyeing it at Kyoto Shibori Museum. The reveal comes from the parts the colour could not reach.",
+      "url": "https://experienceauthority.com/experiences/unfold-the-pattern-you-kept-out-of-the-dye-in-kyoto"
+    },
+    {
+      "id": "london-gather-glass-bauble",
+      "slug": "give-a-glass-bauble-its-first-breath-in-woolwich",
+      "title": "Give a glass bauble its first breath in Woolwich",
+      "country": "United Kingdom",
+      "area": "london",
+      "field": "make",
+      "summary": "At Gather's working hot shop, make a small blown-glass bauble with the team handling the process around you. This is a first encounter with molten glass, not a solo turn at a furnace.",
+      "url": "https://experienceauthority.com/experiences/give-a-glass-bauble-its-first-breath-in-woolwich"
+    },
+    {
+      "id": "bilbao-bizkaia-gondola",
+      "slug": "cross-the-river-under-bizkaias-suspended-bridge",
+      "title": "Cross the river under Bizkaia's suspended bridge",
+      "country": "Spain",
+      "area": "bilbao",
+      "field": "move",
+      "summary": "Take the ordinary gondola across the Nervión beneath the Bizkaia Bridge. The structure becomes easier to understand when it carries you from one bank to the other.",
+      "url": "https://experienceauthority.com/experiences/cross-the-river-under-bizkaias-suspended-bridge"
+    },
+    {
+      "id": "medellin-arvi-cable",
+      "slug": "watch-medellin-give-way-to-forest-from-the-cable",
+      "title": "Watch Medellín give way to forest from the cable",
+      "country": "Colombia",
+      "area": "medellin",
+      "field": "move",
+      "summary": "Ride the tourist cable from Santo Domingo towards Arví and watch the view change from hillside neighbourhoods to forest. Plan the return before making the outward journey.",
+      "url": "https://experienceauthority.com/experiences/watch-medellin-give-way-to-forest-from-the-cable"
+    },
+    {
+      "id": "zurich-polybahn-ascent",
+      "slug": "let-a-hundred-second-ride-redraw-zurich",
+      "title": "Let a hundred-second ride redraw Zürich",
+      "country": "Switzerland",
+      "area": "zurich",
+      "field": "move",
+      "summary": "Take the Polybahn from Central to the university terrace. In about a hundred seconds, an ordinary connection changes the level from which you read the city.",
+      "url": "https://experienceauthority.com/experiences/let-a-hundred-second-ride-redraw-zurich"
+    },
+    {
+      "id": "turin-mauto-car-design",
+      "slug": "read-a-century-of-car-design-in-turin",
+      "title": "Read a century of car design in Turin",
+      "country": "Italy",
+      "area": "turin",
+      "field": "learn",
+      "summary": "At Turin's national automobile museum, look past the badge. The space for a passenger, the shape of a body and the position of a wheel can tell a different story from speed.",
+      "url": "https://experienceauthority.com/experiences/read-a-century-of-car-design-in-turin"
+    },
+    {
+      "id": "antwerp-momu-silhouettes",
+      "slug": "look-at-the-shape-before-the-label-in-antwerp",
+      "title": "Look at the shape before the label in Antwerp",
+      "country": "Belgium",
+      "area": "antwerp",
+      "field": "learn",
+      "summary": "In MoMu's collection presentation, compare a garment's outline, seams and proportions before reading the designer's name. Antwerp's fashion story becomes more interesting when looking comes first.",
+      "url": "https://experienceauthority.com/experiences/look-at-the-shape-before-the-label-in-antwerp"
+    },
+    {
+      "id": "madrid-cerralbo-interiors",
+      "slug": "read-the-room-before-the-painting-in-madrid",
+      "title": "Read the room before the painting in Madrid",
+      "country": "Spain",
+      "area": "madrid",
+      "field": "learn",
+      "summary": "At Museo Cerralbo, paintings, furniture and mirrors remain part of a house's argument about itself. Look at how the room arranges your attention before choosing an individual object.",
+      "url": "https://experienceauthority.com/experiences/read-the-room-before-the-painting-in-madrid"
+    },
+    {
+      "id": "bangkok-benjakitti-wetland",
+      "slug": "leave-bangkoks-hurry-at-the-edge-of-a-wetland",
+      "title": "Leave Bangkok's hurry at the edge of a wetland",
+      "country": "Thailand",
+      "area": "bangkok",
+      "field": "restore",
+      "summary": "Take a short section of Benjakitti's wetland paths and let water, reeds and the skyline share your attention. There is no need to complete every route in the park.",
+      "url": "https://experienceauthority.com/experiences/leave-bangkoks-hurry-at-the-edge-of-a-wetland"
+    },
+    {
+      "id": "naples-santa-chiara-cloister",
+      "slug": "find-a-quieter-naples-between-the-painted-tiles",
+      "title": "Find a quieter Naples between the painted tiles",
+      "country": "Italy",
+      "area": "naples",
+      "field": "restore",
+      "summary": "Step into Santa Chiara's public majolica cloister and follow colour at a slower pace. The painted leaves and fruit make a different kind of city garden.",
+      "url": "https://experienceauthority.com/experiences/find-a-quieter-naples-between-the-painted-tiles"
+    },
+    {
+      "id": "lisbon-gulbenkian-garden",
+      "slug": "give-lisbon-an-hour-beside-the-gulbenkian-lake",
+      "title": "Give Lisbon an hour beside the Gulbenkian lake",
+      "country": "Portugal",
+      "area": "lisbon",
+      "field": "restore",
+      "summary": "Walk into the Gulbenkian Garden without adding a museum checklist. A path through trees and a pause near the lake can be the whole visit.",
+      "url": "https://experienceauthority.com/experiences/give-lisbon-an-hour-beside-the-gulbenkian-lake"
+    },
+    {
+      "id": "marrakech-clock-storytelling",
+      "slug": "let-a-marrakech-story-fill-the-room",
+      "title": "Let a Marrakech story fill the room",
+      "country": "Morocco",
+      "area": "marrakech",
+      "field": "gather",
+      "summary": "Join Café Clock's public Thursday storytelling evening and listen as a voice, a gesture and an audience build the scene. Stories are presented in English and Darija.",
+      "url": "https://experienceauthority.com/experiences/let-a-marrakech-story-fill-the-room"
+    },
+    {
+      "id": "toronto-rex-jazz-set",
+      "slug": "follow-a-jazz-conversation-at-the-rex-in-toronto",
+      "title": "Follow a jazz conversation at The Rex in Toronto",
+      "country": "Canada",
+      "area": "toronto",
+      "field": "gather",
+      "summary": "Choose a live set at The Rex and listen for how the musicians answer one another. You do not need to recognise a standard to find a way into the room.",
+      "url": "https://experienceauthority.com/experiences/follow-a-jazz-conversation-at-the-rex-in-toronto"
+    },
+    {
+      "id": "osaka-namikiza-english-rakugo",
+      "slug": "watch-one-person-become-a-whole-osaka-story",
+      "title": "Watch one person become a whole Osaka story",
+      "country": "Japan",
+      "area": "osaka",
+      "field": "gather",
+      "summary": "At Namikiza's English-language rakugo programme, a seated performer can create a whole cast with a fan, a cloth and a change of voice. The next verified dates are 10 November and 8 December 2026.",
+      "url": "https://experienceauthority.com/experiences/watch-one-person-become-a-whole-osaka-story"
+    }
+  ],
+  "sourceAudit": {
+    "checkedOn": "2026-10-28",
+    "count": 54,
+    "results": [
+      {
+        "url": "https://monja.gr.jp/stores/",
+        "status": 200,
+        "finalUrl": "https://monja.gr.jp/stores/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.gotokyo.org/en/spot/85/index.html",
+        "status": 200,
+        "finalUrl": "https://www.gotokyo.org/en/spot/85/index.html",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://www.weisses-brauhaus-tal.de/",
+        "status": 200,
+        "finalUrl": "https://www.weisses-brauhaus-tal.de/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.in-muenchen.de/gastro/wirtshaus-bayerische-kuche/weisses-braeuhaus",
+        "status": 200,
+        "finalUrl": "https://www.in-muenchen.de/gastro/wirtshaus-bayerische-kuche/weisses-braeuhaus",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://www.maizajo.com/",
+        "status": 200,
+        "finalUrl": "https://www.maizajo.com/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.maizajo.com/pages/faq",
+        "status": 200,
+        "finalUrl": "https://www.maizajo.com/pages/faq",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://sbf.org.uk/whats-on/view/letterpress-poster-printing-workshop-25/",
+        "status": 200,
+        "finalUrl": "https://sbf.org.uk/whats-on/view/letterpress-poster-printing-workshop-25/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://sbf.org.uk/learning/",
+        "status": 200,
+        "finalUrl": "https://sbf.org.uk/learning/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://en.shibori.jp/itajimescarfclass",
+        "status": 200,
+        "finalUrl": "https://en.shibori.jp/itajimescarfclass",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://en.shibori.jp/shiboriclass",
+        "status": 200,
+        "finalUrl": "https://en.shibori.jp/shiboriclass",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://en.shibori.jp/access",
+        "status": 200,
+        "finalUrl": "https://en.shibori.jp/access",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://gather.glass/products/blow-your-own-bauble-class",
+        "status": 200,
+        "finalUrl": "https://gather.glass/products/blow-your-own-bauble-class",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://gather.glass/",
+        "status": 200,
+        "finalUrl": "https://gather.glass/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://puente-colgante.com/tarifas-y-horarios/",
+        "status": 200,
+        "finalUrl": "https://puente-colgante.com/tarifas-y-horarios/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.getxo.eus/es/turismo/que-hacer/puente-bizkaia",
+        "status": 200,
+        "finalUrl": "https://www.getxo.eus/es/turismo/que-hacer/puente-bizkaia",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://www.metrodemedellin.gov.co/usuarios",
+        "status": 200,
+        "finalUrl": "https://www.metrodemedellin.gov.co/usuarios",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://parquearvi.org/publicaciones/248/preguntas-frecuentes-parque-arvi/",
+        "status": 200,
+        "finalUrl": "https://parquearvi.org/publicaciones/248/preguntas-frecuentes-parque-arvi/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.polybahn.ch/en/",
+        "status": 200,
+        "finalUrl": "https://www.polybahn.ch/en/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.polybahn.ch/",
+        "status": 200,
+        "finalUrl": "https://www.polybahn.ch/",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://www.stadt-zuerich.ch/vbz/de/die-vbz/fahrzeuge/bahnen/ubs-polybahn.html",
+        "status": 200,
+        "finalUrl": "https://www.stadt-zuerich.ch/vbz/de/die-vbz/fahrzeuge/bahnen/ubs-polybahn.html",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://www.museoauto.com/en/faq/",
+        "status": 200,
+        "finalUrl": "https://www.museoauto.com/en/faq/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://turismotorino.org/it/visita/cosa-fare-e-vedere/musei-e-cultura/museo-nazionale-dellautomobile-mauto",
+        "status": 200,
+        "finalUrl": "https://turismotorino.org/it/visita/cosa-fare-e-vedere/musei-e-cultura/museo-nazionale-dellautomobile-mauto",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.momu.be/en/visitor-information",
+        "status": 200,
+        "finalUrl": "https://www.momu.be/en/visitor-information",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.momu.be/en/exhibitions/collection-presentation",
+        "status": 200,
+        "finalUrl": "https://www.momu.be/en/exhibitions/collection-presentation",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.cultura.gob.es/mcerralbo/en/visita/horariosytarifas.html",
+        "status": 200,
+        "finalUrl": "https://www.cultura.gob.es/mcerralbo/en/visita/horariosytarifas.html",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.cultura.gob.es/mcerralbo/visita.html",
+        "status": 200,
+        "finalUrl": "https://www.cultura.gob.es/mcerralbo/visita.html",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://www.esmadrid.com/informacion-turistica/museo-cerralbo",
+        "status": 200,
+        "finalUrl": "https://www.esmadrid.com/informacion-turistica/museo-cerralbo",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://greener.bangkok.go.th/park/benjakitti-park/",
+        "status": 403,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://learning.bangkok.go.th/location/loca_0264/",
+        "status": null,
+        "method": "Official publicly indexed content manually checked",
+        "note": "No automated-access restriction bypassed. This is not a claim of a successful direct HTTP check."
+      },
+      {
+        "url": "https://www.monasterodisantachiara.it/orari/",
+        "status": 200,
+        "finalUrl": "https://www.monasterodisantachiara.it/orari/",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://www.monasterodisantachiara.it/chiostro-maiolicato/",
+        "status": 200,
+        "finalUrl": "https://www.monasterodisantachiara.it/chiostro-maiolicato/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.monasterodisantachiara.it/faq/",
+        "status": 200,
+        "finalUrl": "https://www.monasterodisantachiara.it/faq/",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://gulbenkian.pt/en/useful-information/opening-hours/",
+        "status": 200,
+        "finalUrl": "https://gulbenkian.pt/en/useful-information/opening-hours/",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://gulbenkian.pt/fundacao/jardim-gulbenkian/",
+        "status": 200,
+        "finalUrl": "https://gulbenkian.pt/fundacao/jardim-gulbenkian/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.cafeclock.com/moroccan-storytelling",
+        "status": 200,
+        "finalUrl": "https://www.cafeclock.com/moroccan-storytelling",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.cafeclock.com/contact-us",
+        "status": 200,
+        "finalUrl": "https://www.cafeclock.com/contact-us",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.therex.ca/events/",
+        "status": 200,
+        "finalUrl": "https://www.therex.ca/events/",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://www.therex.ca/",
+        "status": 200,
+        "finalUrl": "https://www.therex.ca/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://www.therex.ca/faqs",
+        "status": 200,
+        "finalUrl": "https://www.therex.ca/faqs",
+        "method": "Direct retrieval"
+      },
+      {
+        "url": "https://osakaec.com/en/events/2026englishrakugo",
+        "status": 200,
+        "finalUrl": "https://osakaec.com/en/events/2026englishrakugo",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://sayohime-rakugo.com/schedule/",
+        "status": 200,
+        "finalUrl": "https://sayohime-rakugo.com/schedule/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://mk-kai.wixstudio.com/english-rakugo-osaka",
+        "status": 200,
+        "finalUrl": "https://mk-kai.wixstudio.com/english-rakugo-osaka",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Monjayaki_dish_from_Tsukishima,_Tokyo,_Japan;_January_2013.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-28",
+        "license": "CC BY 2.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Monjayaki_dish_from_Tsukishima,_Tokyo,_Japan;_January_2013.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://www.maizajo.com/pages/taqueria",
+        "status": 200,
+        "finalUrl": "https://www.maizajo.com/pages/taqueria",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://sbf.org.uk/venue-hire/the-print-workshop/",
+        "status": 200,
+        "finalUrl": "https://sbf.org.uk/venue-hire/the-print-workshop/",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Barquilla_tranbordadora_en_el_Puente_de_Vizcaya.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-28",
+        "license": "CC BY-SA 3.0 es",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Barquilla_tranbordadora_en_el_Puente_de_Vizcaya.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Metrocable_del_Parque_Arv%C3%AD_-_Medell%C3%ADn.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-28",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Metrocable_del_Parque_Arv%C3%AD_-_Medell%C3%ADn.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Polybahn_Z%C3%BCrich-20131011.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-28",
+        "license": "CC BY-SA 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Polybahn_Z%C3%BCrich-20131011.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:1920_Isotta_Fraschini_Tipo_8_Museo_Nazionale_dell%27Automobile_Torino_01.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-28",
+        "license": "CC BY 2.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:1920_Isotta_Fraschini_Tipo_8_Museo_Nazionale_dell%27Automobile_Torino_01.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Madrid_-_Museo-Palacio_Cerralbo,_sal%C3%B3n_de_baile_4.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-28",
+        "license": "CC0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Madrid_-_Museo-Palacio_Cerralbo,_sal%C3%B3n_de_baile_4.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Benjakitti_Forest_Park_(I).jpg",
+        "method": "Commons imageinfo API record checked 2026-10-28",
+        "license": "CC BY 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Benjakitti_Forest_Park_(I).jpg",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Cloister_of_the_Clarisses,_Santa_Chiara_(Naples)_03.jpg",
+        "method": "Commons imageinfo API record checked 2026-10-28",
+        "license": "CC BY 4.0",
+        "originalSource": "https://commons.wikimedia.org/wiki/File:Cloister_of_the_Clarisses,_Santa_Chiara_(Naples)_03.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://www.cafeclock.com/new-page-5",
+        "status": 200,
+        "finalUrl": "https://www.cafeclock.com/new-page-5",
+        "method": "Direct retrieval saved during this research run"
+      },
+      {
+        "url": "https://sayohime.jimdofree.com/profile-1/",
+        "status": 200,
+        "finalUrl": "https://sayohime.jimdofree.com/profile-1/",
+        "method": "Direct retrieval saved during this research run"
+      }
+    ]
+  },
+  "evidenceDecisions": [
+    "Osaka: verified 10 November and 8 December 2026, second Tuesday, English rakugo plus Tsugaru shamisen. Earlier Japanese resident class is a separate programme. Historical artist photograph is not represented as this venue or current date.",
+    "St Bride: verified public wood-type poster workshop on 25 November, 10:30 to 16:00. Fourteen steps, prints collected or posted later. No guaranteed same-day takeaway.",
+    "Gather: actual studio is Woolwich. Specific bauble class minimum age six with adult differs from general course age rule. Booking window is not promised as individual furnace time. Collection after 48 hours. Confirm current date availability.",
+    "Arvi: current official tourist cable operation closes on Tuesdays, not the frequently repeated Monday rule. Separate fare and last return matter.",
+    "Santa Chiara: official opening page and FAQ differ on the closing time. Use the earlier limit and confirm. Official ticket at site, no invented advance ticket vendor.",
+    "Gulbenkian: free garden access is separate from museum admission or closures. Benjakitti municipal hours are 04:30 to 22:00. Neither guide makes a medical claim.",
+    "Maizajo: ordinary Condesa taqueria meal, not an unverified workshop or another branch. Tsukishima restaurant directory is not an endorsement of every member.",
+    "Polybahn: opened in 1889, approximately 100 seconds, not barrier-free. Official maintenance dates noted rather than assuming uninterrupted operation."
+  ],
+  "photography": {
+    "count": 18,
+    "generatedImages": 0,
+    "documentedLicense": 8,
+    "officialSource": 10,
+    "rightsNote": "Official-source images follow the existing owner-authorized moderate-risk editorial policy. Their reuse rights are not independently cleared. Credit is not permission. No claim of universal licensing clearance is made.",
+    "provenanceFile": "docs/edition-2026-10-28-photo-provenance.json",
+    "creditFormat": "Image: author / source, opening source in a new tab",
+    "visualReview": "All 18 source photographs and guide crops reviewed on desktop and mobile. St Bride, Cerralbo and Gulbenkian upgraded after crop/quality review. Café Clock is venue context, not proof of a particular storytelling session. Historical Commons and performer images are labelled as context."
+  },
+  "rejectedOrDeferred": [
+    {
+      "candidate": "Kanshundo Kyoto wagashi",
+      "reason": "Existing batch 47 programme."
+    },
+    {
+      "candidate": "Anahuacalli Mexico City",
+      "reason": "Existing batch 48 programme."
+    },
+    {
+      "candidate": "Hong Kong tram",
+      "reason": "Existing batch 53 programme."
+    },
+    {
+      "candidate": "Vienna Globe Museum",
+      "reason": "Existing batch 47 programme."
+    },
+    {
+      "candidate": "Stockholm Hallwyl Museum",
+      "reason": "Existing batch 51 programme."
+    },
+    {
+      "candidate": "Lachine Canal walk",
+      "reason": "Too close to existing batch 48 canal cycling guide."
+    },
+    {
+      "candidate": "Preservation Hall",
+      "reason": "Existing batch 41 programme."
+    },
+    {
+      "candidate": "Ariyapala Ambalangoda mask painting",
+      "reason": "Public painting participation not verified, workshop observation does not prove hands-on access."
+    },
+    {
+      "candidate": "Maizajo workshop",
+      "reason": "No current public workshop booking verified. Published the distinct ordinary taqueria meal instead."
+    },
+    {
+      "candidate": "Ateliers d’Ailleurs Marrakech leather workshop",
+      "reason": "Credible public programme but available 360 by 270 image did not meet photography standard."
+    },
+    {
+      "candidate": "Montreal Japanese garden",
+      "reason": "Seasonal access unresolved for this edition."
+    }
+  ],
+  "integration": [
+    "Compass search and six primary interests",
+    "18 unique dated release entries",
+    "Country and regional destination pages",
+    "Complementary local guides and planning",
+    "Editorial collections",
+    "Daily discovery eligibility",
+    "Sitemap, canonical and Article/ImageObject structured data"
+  ],
+  "verification": {
+    "tests": {
+      "passed": 175,
+      "failed": 0
+    },
+    "typescript": "passed",
+    "productionBuild": "passed",
+    "smoke": {
+      "checkedPages": 918,
+      "unpublishedPaths": 43,
+      "uniqueNonces": 886,
+      "failures": 0,
+      "crawlerRules": "passed",
+      "socialImage": "passed"
+    },
+    "localProof": {
+      "checkedAt": "2026-10-28T14:08:14.644Z",
+      "base": "http://127.0.0.1:3102",
+      "results": [
+        {
+          "url": "https://experienceauthority.com/experiences/let-a-tokyo-dinner-take-shape-on-the-griddle",
+          "status": 200,
+          "photoSha256": "808359dd081c8a9b9fc4ef512d00cc07438ce68efb075ad0bffe27f5024476e3",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/make-room-for-munichs-breakfast-before-noon",
+          "status": 200,
+          "photoSha256": "58d372d9b78d7be0e0edae5a040e3f26c6435fde7e039ae9b25f962e5a0033fd",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/taste-the-tortilla-before-the-filling-in-mexico-city",
+          "status": 200,
+          "photoSha256": "624f11c1f30cc893f4b8c705e5889400fbda44791a7659d4b0471179dac562bb",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/set-a-few-words-in-wood-type-in-london",
+          "status": 200,
+          "photoSha256": "df39a4718efdae5439055e069dadd1d1116726b125250aebceb64a8ae040d46a",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/unfold-the-pattern-you-kept-out-of-the-dye-in-kyoto",
+          "status": 200,
+          "photoSha256": "f256bb6841d3e05aba4c10b91eb7a82e1b6b211e10143e2fd3b2eed84865c084",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/give-a-glass-bauble-its-first-breath-in-woolwich",
+          "status": 200,
+          "photoSha256": "0e5b25228fc2ac2727392fda5c3807cd457bd42dc220ced418b724a53278ee93",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/cross-the-river-under-bizkaias-suspended-bridge",
+          "status": 200,
+          "photoSha256": "e0b000b5cd93d21597316c1a15da5093c17e24ddc3f932c0081efb4ffb227ad9",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/watch-medellin-give-way-to-forest-from-the-cable",
+          "status": 200,
+          "photoSha256": "7bbd7e7a401e75b7144b7fc1e8b84336b61f57cbae80f05c4e5cec5ca5cbe5eb",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/let-a-hundred-second-ride-redraw-zurich",
+          "status": 200,
+          "photoSha256": "8dc35a7210cd96d7d6879b8dbf18f6cec1a41390f18e0a3748ee3bf85d5b3dbb",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/read-a-century-of-car-design-in-turin",
+          "status": 200,
+          "photoSha256": "32d78aa1e1fa909032acd5762c310aa31a69edae0f627fd7e8571bb6d07afd34",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/look-at-the-shape-before-the-label-in-antwerp",
+          "status": 200,
+          "photoSha256": "72d2233373349088929f03680fbe1a6497e5453ff8d2f4f993eb29ae56f0806c",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/read-the-room-before-the-painting-in-madrid",
+          "status": 200,
+          "photoSha256": "5106dd2c45c824577ded35826735e7e704351420cfd2acc78cb7d59ef903aa1a",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/leave-bangkoks-hurry-at-the-edge-of-a-wetland",
+          "status": 200,
+          "photoSha256": "0ff38f0110284f3e0be8cb19b516c03fc85c8bbae1b5046ce437c7a228f68b97",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/find-a-quieter-naples-between-the-painted-tiles",
+          "status": 200,
+          "photoSha256": "224132344f7d0f9986887989a5eb7f8fdb96982f9112088ce6d6df0b0bafd59e",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/give-lisbon-an-hour-beside-the-gulbenkian-lake",
+          "status": 200,
+          "photoSha256": "72b5e52ae700b88a93c9c1295d81b7bcb369c05c22817e91db2ee681e66b44cf",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/let-a-marrakech-story-fill-the-room",
+          "status": 200,
+          "photoSha256": "b0da409eeddb08f862883126456c9637dfbf3135ef0990729d4e6b0c77ec769a",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/follow-a-jazz-conversation-at-the-rex-in-toronto",
+          "status": 200,
+          "photoSha256": "5c87a1ea3d53d58e78464de58a6656520262298ff480fedd6bd95f7eea210a15",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/watch-one-person-become-a-whole-osaka-story",
+          "status": 200,
+          "photoSha256": "e9f99a07f53d5e0da6811c681ab84501c22b63999b6988347c780c5cc0ec547d",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        }
+      ],
+      "expiredGuidesExcluded": 25,
+      "totalAuthored": 532,
+      "eligiblePublic": 507
+    },
+    "browser": {
+      "desktop": "1440x1000",
+      "mobile": "390x844",
+      "allNewGuides": 18,
+      "reviewedSurfaces": [
+        "Homepage",
+        "Today",
+        "Compass",
+        "New",
+        "Taste",
+        "Make",
+        "Move",
+        "Learn",
+        "Restore",
+        "Gather",
+        "Kyoto",
+        "London",
+        "Lisbon"
+      ],
+      "checks": [
+        "No horizontal overflow on inspected views",
+        "All new guide photos loaded and approved",
+        "Visible credits and direct new-tab source links",
+        "Osaka photo modal, Escape and focus restoration",
+        "Passport save/unsave restored original zero state",
+        "Source anchor navigation",
+        "New edition Show more reveals all 18",
+        "Accent-insensitive Medellin search returns new Arvi guide",
+        "Analytics script absent before consent"
+      ],
+      "scope": "Visual and targeted interaction checks, not a full accessibility certification."
+    }
+  },
+  "deployment": {
+    "status": "pending",
+    "contentCommit": null,
+    "productionProof": null
+  },
+  "preservedUnrelatedFile": "docs/research-handoff-2026-09-27.json"
+}

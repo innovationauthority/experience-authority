@@ -1,0 +1,312 @@
+{
+  "checkedOn": "2026-10-28",
+  "batch": 60,
+  "photographs": [
+    {
+      "guideId": "tokyo-tsukishima-monja",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Monjayaki_dish_from_Tsukishima%2C_Tokyo%2C_Japan%3B_January_2013.jpg/1920px-Monjayaki_dish_from_Tsukishima%2C_Tokyo%2C_Japan%3B_January_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monjayaki_dish_from_Tsukishima,_Tokyo,_Japan;_January_2013.jpg",
+      "sourceWidth": 1920,
+      "sourceHeight": 1280,
+      "photographer": "t-mizo",
+      "licenseName": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "rightsBasis": "documented_license",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-28",
+        "rationale": "The documented Tsukishima food photograph shows the ingredients before cooking, giving the guide a precise food connection without inventing a recommended restaurant or a finished dish."
+      },
+      "localSha256": "808359dd081c8a9b9fc4ef512d00cc07438ce68efb075ad0bffe27f5024476e3"
+    },
+    {
+      "guideId": "munich-weisswurst-breakfast",
+      "downloadUrl": "https://static.wixstatic.com/media/7b0f30_04aa8ffcec40448c9c807bee4e10b763~mv2.jpeg",
+      "sourceUrl": "https://www.weisses-brauhaus-tal.de/",
+      "sourceWidth": 1024,
+      "sourceHeight": 663,
+      "photographer": "Weisses Bräuhaus im Tal",
+      "licenseName": "Official source photograph. Reuse rights not independently cleared",
+      "licenseUrl": "https://www.weisses-brauhaus-tal.de/",
+      "rightsBasis": "official_source",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-28",
+        "rationale": "The restaurant's own photograph makes the specific breakfast recognisable and avoids an unrelated beer-hall exterior. The original resolution is sufficient for the editorial image area."
+      },
+      "localSha256": "58d372d9b78d7be0e0edae5a040e3f26c6435fde7e039ae9b25f962e5a0033fd"
+    },
+    {
+      "guideId": "mexico-city-maizajo-tortilla",
+      "downloadUrl": "https://www.maizajo.com/cdn/shop/files/taqueria-5.jpg?v=1744404782",
+      "sourceUrl": "https://www.maizajo.com/pages/taqueria",
+      "sourceWidth": 1400,
+      "sourceHeight": 1120,
+      "photographer": "Maizajo",
+      "licenseName": "Official source photograph. Reuse rights not independently cleared",
+      "licenseUrl": "https://www.maizajo.com/pages/taqueria",
+      "rightsBasis": "official_source",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-28",
+        "rationale": "The official taquería image gives the tortilla enough visible area to support the guide's central idea, with clear texture, an identifiable meal and stronger resolution than the homepage thumbnails."
+      },
+      "localSha256": "624f11c1f30cc893f4b8c705e5889400fbda44791a7659d4b0471179dac562bb"
+    },
+    {
+      "guideId": "london-st-bride-letterpress",
+      "downloadUrl": "https://sbf.org.uk/wp-content/uploads/2020/12/20200825-StBrideFoundation-142.jpg",
+      "sourceUrl": "https://sbf.org.uk/venue-hire/the-print-workshop/",
+      "sourceWidth": 1406,
+      "sourceHeight": 937,
+      "photographer": "St Bride Foundation",
+      "licenseName": "Official source photograph. Reuse rights not independently cleared",
+      "licenseUrl": "https://sbf.org.uk/venue-hire/the-print-workshop/",
+      "rightsBasis": "official_source",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-28",
+        "rationale": "The actual print workshop is shown clearly at a usable aspect ratio, retaining the historic presses and work surfaces. This replaces a heavily cropped, softer event photograph after desktop review."
+      },
+      "localSha256": "df39a4718efdae5439055e069dadd1d1116726b125250aebceb64a8ae040d46a"
+    },
+    {
+      "guideId": "kyoto-shibori-itajime",
+      "downloadUrl": "https://static.wixstatic.com/media/51699f_1fecca6b137e477ba749a2df9d46a116~mv2.png",
+      "sourceUrl": "https://en.shibori.jp/itajimescarfclass",
+      "sourceWidth": 4032,
+      "sourceHeight": 3024,
+      "photographer": "Kyoto Shibori Museum",
+      "licenseName": "Official source photograph. Reuse rights not independently cleared",
+      "licenseUrl": "https://en.shibori.jp/itajimescarfclass",
+      "rightsBasis": "official_source",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-28",
+        "rationale": "This course-specific process photograph shows the board-resist method instead of generic textile decoration, with ample original resolution and a clear point of practical participation."
+      },
+      "localSha256": "f256bb6841d3e05aba4c10b91eb7a82e1b6b211e10143e2fd3b2eed84865c084"
+    },
+    {
+      "guideId": "london-gather-glass-bauble",
+      "downloadUrl": "https://gather.glass/cdn/shop/files/tumbler3_bf1216c1-5626-4e32-8aac-25f1fda903d7.jpg?v=1762102362&width=1946",
+      "sourceUrl": "https://gather.glass/products/blow-your-own-bauble-class",
+      "sourceWidth": 1946,
+      "sourceHeight": 1946,
+      "photographer": "Gather Glass",
+      "licenseName": "Official source photograph. Reuse rights not independently cleared",
+      "licenseUrl": "https://gather.glass/products/blow-your-own-bauble-class",
+      "rightsBasis": "official_source",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-28",
+        "rationale": "The working-studio photograph makes heat and human handling visible, distinguishes this from a retail ornament and has enough detail for desktop and mobile use without suggesting unsupervised access."
+      },
+      "localSha256": "0e5b25228fc2ac2727392fda5c3807cd457bd42dc220ced418b724a53278ee93"
+    },
+    {
+      "guideId": "bilbao-bizkaia-gondola",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Barquilla_tranbordadora_en_el_Puente_de_Vizcaya.jpg/1920px-Barquilla_tranbordadora_en_el_Puente_de_Vizcaya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barquilla_tranbordadora_en_el_Puente_de_Vizcaya.jpg",
+      "sourceWidth": 1920,
+      "sourceHeight": 1438,
+      "photographer": "MERCHEBB",
+      "licenseName": "CC BY-SA 3.0 es",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/es/deed.en",
+      "rightsBasis": "documented_license",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-28",
+        "rationale": "The photograph clearly shows the gondola suspended beneath the bridge and the opposing riverbank. It explains the actual public journey rather than replacing it with a generic Bilbao landmark."
+      },
+      "localSha256": "e0b000b5cd93d21597316c1a15da5093c17e24ddc3f932c0081efb4ffb227ad9"
+    },
+    {
+      "guideId": "medellin-arvi-cable",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Metrocable_del_Parque_Arv%C3%AD_-_Medell%C3%ADn.jpg/1920px-Metrocable_del_Parque_Arv%C3%AD_-_Medell%C3%ADn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Metrocable_del_Parque_Arv%C3%AD_-_Medell%C3%ADn.jpg",
+      "sourceWidth": 1920,
+      "sourceHeight": 1079,
+      "photographer": "Alejandro Rojas (SajoR)",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "rightsBasis": "documented_license",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-28",
+        "rationale": "The licensed image depicts the actual Arví cable above trees, precisely matching the city-to-forest premise and avoiding residential close-ups or imagery of a different cable line."
+      },
+      "localSha256": "7bbd7e7a401e75b7144b7fc1e8b84336b61f57cbae80f05c4e5cec5ca5cbe5eb"
+    },
+    {
+      "guideId": "zurich-polybahn-ascent",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Polybahn_Z%C3%BCrich-20131011.jpg/1920px-Polybahn_Z%C3%BCrich-20131011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Polybahn_Z%C3%BCrich-20131011.jpg",
+      "sourceWidth": 1920,
+      "sourceHeight": 1440,
+      "photographer": "JoachimKohler-HB",
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "rightsBasis": "documented_license",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-28",
+        "rationale": "The image places the recognisable red car in its actual city streets, making the short everyday ascent legible without implying a mountain excursion or an accessible boarding route."
+      },
+      "localSha256": "8dc35a7210cd96d7d6879b8dbf18f6cec1a41390f18e0a3748ee3bf85d5b3dbb"
+    },
+    {
+      "guideId": "turin-mauto-car-design",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/1920_Isotta_Fraschini_Tipo_8_Museo_Nazionale_dell%27Automobile_Torino_01.jpg/1920px-1920_Isotta_Fraschini_Tipo_8_Museo_Nazionale_dell%27Automobile_Torino_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1920_Isotta_Fraschini_Tipo_8_Museo_Nazionale_dell%27Automobile_Torino_01.jpg",
+      "sourceWidth": 1920,
+      "sourceHeight": 1275,
+      "photographer": "Rahil Rupawala",
+      "licenseName": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "rightsBasis": "documented_license",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-28",
+        "rationale": "A documented MAUTO gallery photograph links a particular vehicle to the designed exhibition environment, supporting attention to form and context rather than a generic luxury-car image."
+      },
+      "localSha256": "32d78aa1e1fa909032acd5762c310aa31a69edae0f627fd7e8571bb6d07afd34"
+    },
+    {
+      "guideId": "antwerp-momu-silhouettes",
+      "downloadUrl": "https://d4r8ypmqnkoz0.cloudfront.net/exhibitions/_slider_4/RS300422_2025_10_28_MOMU6298_lpr.jpg",
+      "sourceUrl": "https://www.momu.be/en/exhibitions/collection-presentation",
+      "sourceWidth": 1893,
+      "sourceHeight": 1200,
+      "photographer": "Stany Dederen / MoMu",
+      "licenseName": "Official source photograph. Reuse rights not independently cleared",
+      "licenseUrl": "https://www.momu.be/en/exhibitions/collection-presentation",
+      "rightsBasis": "official_source",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-28",
+        "rationale": "MoMu identifies the photographer alongside this collection image. The clear silhouettes and restrained gallery framing fit the guide's emphasis on shape rather than labels or an unrelated temporary exhibition."
+      },
+      "localSha256": "72d2233373349088929f03680fbe1a6497e5453ff8d2f4f993eb29ae56f0806c"
+    },
+    {
+      "guideId": "madrid-cerralbo-interiors",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Madrid_-_Museo-Palacio_Cerralbo%2C_sal%C3%B3n_de_baile_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Madrid_-_Museo-Palacio_Cerralbo,_sal%C3%B3n_de_baile_4.jpg",
+      "sourceWidth": 1536,
+      "sourceHeight": 2048,
+      "photographer": "Zarateman",
+      "licenseName": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "rightsBasis": "documented_license",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-28",
+        "rationale": "The documented Cerralbo ballroom photograph provides a sharper portrait composition for the detail layout, showing the relationship between the ceiling, mirrors and furnishings rather than an isolated art object."
+      },
+      "localSha256": "5106dd2c45c824577ded35826735e7e704351420cfd2acc78cb7d59ef903aa1a"
+    },
+    {
+      "guideId": "bangkok-benjakitti-wetland",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Benjakitti_Forest_Park_%28I%29.jpg/1920px-Benjakitti_Forest_Park_%28I%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Benjakitti_Forest_Park_(I).jpg",
+      "sourceWidth": 1920,
+      "sourceHeight": 1280,
+      "photographer": "Supanut Arunoprayote",
+      "licenseName": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "rightsBasis": "documented_license",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-28",
+        "rationale": "The actual park's wetland and route structure remain visible in a clear daylight photograph, supporting a grounded urban walking pause without a generic skyline or unverified environmental claims."
+      },
+      "localSha256": "0ff38f0110284f3e0be8cb19b516c03fc85c8bbae1b5046ce437c7a228f68b97"
+    },
+    {
+      "guideId": "naples-santa-chiara-cloister",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Cloister_of_the_Clarisses%2C_Santa_Chiara_%28Naples%29_03.jpg/1920px-Cloister_of_the_Clarisses%2C_Santa_Chiara_%28Naples%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cloister_of_the_Clarisses,_Santa_Chiara_(Naples)_03.jpg",
+      "sourceWidth": 1920,
+      "sourceHeight": 1263,
+      "photographer": "Bernard Gagnon",
+      "licenseName": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "rightsBasis": "documented_license",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-28",
+        "rationale": "This well-lit view brings the ceramic benches and garden together, accurately illustrating the paid cloister visit without substituting the basilica or encouraging use of protected tiled surfaces as seating."
+      },
+      "localSha256": "224132344f7d0f9986887989a5eb7f8fdb96982f9112088ce6d6df0b0bafd59e"
+    },
+    {
+      "guideId": "lisbon-gulbenkian-garden",
+      "downloadUrl": "https://cdn.gulbenkian.pt/wp-content/uploads/2016/02/jardim-ML7041.jpg",
+      "sourceUrl": "https://gulbenkian.pt/fundacao/jardim-gulbenkian/",
+      "sourceWidth": 2784,
+      "sourceHeight": 1848,
+      "photographer": "Fundação Calouste Gulbenkian",
+      "licenseName": "Official source photograph. Reuse rights not independently cleared",
+      "licenseUrl": "https://gulbenkian.pt/fundacao/jardim-gulbenkian/",
+      "rightsBasis": "official_source",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-28",
+        "rationale": "The foundation’s own garden photograph gives a sharper, more inviting view of the actual waterside path and planting. It replaces an older panoramic image whose portrait crop lost useful detail."
+      },
+      "localSha256": "72b5e52ae700b88a93c9c1295d81b7bcb369c05c22817e91db2ee681e66b44cf"
+    },
+    {
+      "guideId": "marrakech-clock-storytelling",
+      "downloadUrl": "https://images.squarespace-cdn.com/content/v1/68540d8ab40bdc503ccb7020/e73dd11c-ac07-4b7e-a8b2-20233be8428a/15F364D9-26C5-4A22-B73E-A91635949642_1_201_a-min.jpeg?format=2500w",
+      "sourceUrl": "https://www.cafeclock.com/new-page-5",
+      "sourceWidth": 2500,
+      "sourceHeight": 1875,
+      "photographer": "Café Clock",
+      "licenseName": "Official source photograph. Reuse rights not independently cleared",
+      "licenseUrl": "https://www.cafeclock.com/new-page-5",
+      "rightsBasis": "official_source",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-28",
+        "rationale": "The official Marrakech gallery establishes the specific communal venue and its human scale. It is deliberately credited as venue context, not falsely labelled as a photograph of the current storytelling programme."
+      },
+      "localSha256": "b0da409eeddb08f862883126456c9637dfbf3135ef0990729d4e6b0c77ec769a"
+    },
+    {
+      "guideId": "toronto-rex-jazz-set",
+      "downloadUrl": "https://images.squarespace-cdn.com/content/v1/61e26c8e87127058e405cc0c/ff79c1ba-1e34-41d6-9984-6da8a3083ded/therex-hq-1354.jpg",
+      "sourceUrl": "https://www.therex.ca/",
+      "sourceWidth": 2500,
+      "sourceHeight": 1666,
+      "photographer": "The Rex",
+      "licenseName": "Official source photograph. Reuse rights not independently cleared",
+      "licenseUrl": "https://www.therex.ca/",
+      "rightsBasis": "official_source",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-28",
+        "rationale": "The high-resolution official night exterior identifies the actual music venue and gives a usable arrival reference without substituting an unverified musician, concert date or stock jazz performance."
+      },
+      "localSha256": "5c87a1ea3d53d58e78464de58a6656520262298ff480fedd6bd95f7eea210a15"
+    },
+    {
+      "guideId": "osaka-namikiza-english-rakugo",
+      "downloadUrl": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/sdc8ac7b8a8b78419/image/i47796dada47e13eb/version/1472832369/image.jpg",
+      "sourceUrl": "https://sayohime.jimdofree.com/profile-1/",
+      "sourceWidth": 2048,
+      "sourceHeight": 1536,
+      "photographer": "Sayohime",
+      "licenseName": "Official source photograph. Reuse rights not independently cleared",
+      "licenseUrl": "https://sayohime.jimdofree.com/profile-1/",
+      "rightsBasis": "official_source",
+      "visualReview": {
+        "outcome": "approved",
+        "checkedOn": "2026-10-28",
+        "rationale": "The performer's official high-resolution profile image clearly shows the seated storytelling form and the actual named artist. The historical venue is disclosed rather than passed off as the current Namikiza setting."
+      },
+      "localSha256": "e9f99a07f53d5e0da6811c681ab84501c22b63999b6988347c780c5cc0ec547d"
+    }
+  ]
+}

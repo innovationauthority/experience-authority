@@ -1,6 +1,24 @@
 /** Content hashes keep replaced photographs consistent across responsive image caches.
  * The media test requires an update when an original file changes. */
 export const imageRevisions: Record<string, string> = {
+  "/images/guides/osaka-namikiza-english-rakugo.jpg": "e9f99a07f53d",
+  "/images/guides/toronto-rex-jazz-set.jpg": "5c87a1ea3d53",
+  "/images/guides/marrakech-clock-storytelling.jpg": "b0da409eeddb",
+  "/images/guides/lisbon-gulbenkian-garden.jpg": "72b5e52ae700",
+  "/images/guides/naples-santa-chiara-cloister.jpg": "224132344f7d",
+  "/images/guides/bangkok-benjakitti-wetland.jpg": "0ff38f011028",
+  "/images/guides/madrid-cerralbo-interiors.jpg": "5106dd2c45c8",
+  "/images/guides/antwerp-momu-silhouettes.jpg": "72d223337334",
+  "/images/guides/turin-mauto-car-design.jpg": "32d78aa1e1fa",
+  "/images/guides/zurich-polybahn-ascent.jpg": "8dc35a7210cd",
+  "/images/guides/medellin-arvi-cable.jpg": "7bbd7e7a401e",
+  "/images/guides/bilbao-bizkaia-gondola.jpg": "e0b000b5cd93",
+  "/images/guides/london-gather-glass-bauble.jpg": "0e5b25228fc2",
+  "/images/guides/kyoto-shibori-itajime.jpg": "f256bb6841d3",
+  "/images/guides/london-st-bride-letterpress.jpg": "df39a4718efd",
+  "/images/guides/mexico-city-maizajo-tortilla.jpg": "624f11c1f30c",
+  "/images/guides/munich-weisswurst-breakfast.jpg": "58d372d9b78d",
+  "/images/guides/tokyo-tsukishima-monja.jpg": "808359dd081c",
   "/images/guides/cape-town-kirstenbosch-sunset-concert.jpg": "17b46015f549",
   "/images/guides/lyon-guignol-puppet-audience.jpg": "9903d32bc9e5",
   "/images/guides/barcelona-liceu-opera-evening.jpg": "d362dc18e3d0",
@@ -521,7 +539,7 @@ export const imageRevisions: Record<string, string> = {
 
 // A single manifest fingerprint fits Next's bounded localPatterns allowlist.
 // Tests require it to change when any original is added or replaced.
-export const imageEdition = "c68029d4e968";
+export const imageEdition = "ead942ce1cb3";
 
 export function imageSource(src: string) {
   return imageRevisions[src] ? `${src}?v=${imageEdition}` : src;
