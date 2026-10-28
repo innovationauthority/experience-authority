@@ -24,7 +24,11 @@ import { LocalDiscovery } from "@/components/local-discovery";
 import { localAreas } from "@/lib/local-discovery";
 import { PassportReturn } from "@/components/passport-return";
 import { currentDiscovery, editionDate } from "@/lib/daily-discovery";
-import { chapterHref, resolveCityChapters } from "@/lib/city-chapters";
+import {
+  chapterHref,
+  chapterDestinationCount,
+  resolveCityChapters,
+} from "@/lib/city-chapters";
 import { publishedReleases } from "@/lib/releases";
 import { withinPublicationWeek } from "@/lib/discovery-choices";
 import {
@@ -65,7 +69,14 @@ export default function Home() {
   );
   const featuredChapterCards = featuredChapters
     .flatMap((chapter) => {
-      const stop = chapter.stops.find(({ item }) =>
+      const preferred =
+        chapter.slug === "london"
+          ? "ask-the-market-where-london-came-from"
+          : undefined;
+      const orderedStops = [...chapter.stops].sort(
+        (a, b) => Number(b.slug === preferred) - Number(a.slug === preferred),
+      );
+      const stop = orderedStops.find(({ item }) =>
         Boolean(
           item.image && !coverImages.has(item.image) && guideMediaFor(item.id),
         ),
@@ -138,7 +149,6 @@ export default function Home() {
             Somewhere you’re visiting. Somewhere you live. Start with a place,
             then discover what you could do differently.
           </p>
-          <LocalDiscovery areas={localAreas(experiences)} />
           <div className="home-destination-grid">
             {featuredChapterCards.map(({ chapter, media }) => {
               const href = chapterHref(chapter).split("#")[0];
@@ -147,8 +157,7 @@ export default function Home() {
                   <Link
                     className="home-destination-photo"
                     href={href}
-                    tabIndex={-1}
-                    aria-hidden="true"
+                    aria-label={`Explore ${chapter.name}`}
                   >
                     <Photo
                       src={media.src}
@@ -158,7 +167,8 @@ export default function Home() {
                   </Link>
                   <div className="home-destination-copy">
                     <span className="eyebrow">
-                      {chapter.stops.length} experiences
+                      {chapterDestinationCount(chapter, experiences)}{" "}
+                      experiences
                     </span>
                     <h3>
                       <Link href={href}>{chapter.name}</Link>
@@ -173,6 +183,13 @@ export default function Home() {
               );
             })}
           </div>
+          <details className="home-local-disclosure">
+            <summary>
+              Already have a place in mind? Find something for the time you
+              have.
+            </summary>
+            <LocalDiscovery areas={localAreas(experiences)} />
+          </details>
         </section>
       )}
       <section className="home-interests">
@@ -237,7 +254,12 @@ export default function Home() {
             {homePathways.map(({ pathway, item }, index) => (
               <PathwayCard
                 key={pathway.slug}
-                pathway={pathway}
+                pathway={{
+                  ...pathway,
+                  guideSlugs: pathway.guideSlugs.filter((slug) =>
+                    experiences.some((guide) => guide.slug === slug),
+                  ),
+                }}
                 item={item}
                 index={index}
               />

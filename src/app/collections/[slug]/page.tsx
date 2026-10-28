@@ -18,6 +18,7 @@ import { StructuredData } from "@/components/structured-data";
 import { ShareButton } from "@/components/share-button";
 import { guideMediaFor } from "@/lib/media";
 import { ProgressiveGrid } from "@/components/progressive-grid";
+import { collectionOpening } from "@/lib/collection-opening";
 type Props = { params: Promise<{ slug: string }> };
 export async function generateMetadata({ params }: Props) {
   const { slug } = await params;
@@ -39,10 +40,11 @@ export default async function Collection({ params }: Props) {
   const collection = getEditorialPathway(slug);
   if (!collection) notFound();
   const allItems = getExperiences();
-  const items = collection.guideSlugs.flatMap((guideSlug) => {
-    const item = allItems.find((experience) => experience.slug === guideSlug);
-    return item ? [item] : [];
-  });
+  const {
+    guides: items,
+    opening,
+    remaining,
+  } = collectionOpening(collection, allItems);
   const lead = items.find(
     (item) => item.image && Boolean(guideMediaFor(item.id)),
   );
@@ -105,14 +107,51 @@ export default async function Collection({ params }: Props) {
         </div>
       </aside>
       {items.length ? (
-        <ProgressiveGrid
-          heading="Experiences in this collection"
-          surface={`collection-${collection.slug}`}
-        >
-          {items.map((item, index) => (
-            <ExperienceCard key={item.id} item={item} index={index} />
-          ))}
-        </ProgressiveGrid>
+        <>
+          <section
+            className="collection-start"
+            aria-labelledby="collection-start-title"
+          >
+            <div className="section-heading">
+              <div>
+                <p className="eyebrow">Start here</p>
+                <h2 id="collection-start-title">A few ways into the thread.</h2>
+              </div>
+            </div>
+            <p className="section-note">
+              Different places, one shared curiosity. Begin with an experience
+              that speaks to you, then explore the rest.
+            </p>
+            <div className="experience-grid">
+              {opening.map((item) => (
+                <ExperienceCard key={item.id} item={item} />
+              ))}
+            </div>
+          </section>
+          {remaining.length > 0 && (
+            <details className="collection-continue">
+              <summary>
+                Explore {remaining.length} more experiences in this collection
+              </summary>
+              <div className="section-heading">
+                <div>
+                  <p className="eyebrow">Keep exploring</p>
+                  <h2 id="collection-continue-title">
+                    More along the same thread.
+                  </h2>
+                </div>
+              </div>
+              <ProgressiveGrid
+                heading="Experiences in this collection"
+                surface={`collection-${collection.slug}`}
+              >
+                {remaining.map((item, index) => (
+                  <ExperienceCard key={item.id} item={item} index={index} />
+                ))}
+              </ProgressiveGrid>
+            </details>
+          )}
+        </>
       ) : (
         <EmptyState>
           <p>

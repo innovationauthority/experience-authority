@@ -40,11 +40,10 @@ export default function NewGuides() {
     orderRelease(release.guides).map((item) => ({ item, date: release.date })),
   );
   return (
-    <div className="wrap page-section">
-      <PageIntro eyebrow="Newly published" title="More to come back for.">
+    <div className="wrap page-section new-guides-page">
+      <PageIntro eyebrow="Fresh ways into a place" title="New discoveries.">
         <p>
-          New guides, with their publication dates. For a fresh angle on an
-          existing experience, visit{" "}
+          Our latest guides. One more reason to be curious. Or try{" "}
           <Link className="text-link" href="/today">
             Daily discovery ↗
           </Link>

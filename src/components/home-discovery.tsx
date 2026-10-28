@@ -6,7 +6,7 @@ import { useEffect, useMemo, useState } from "react";
 import { discoveryProfiles } from "@/lib/experience-finder";
 import { selectHomeStartingPoints } from "@/lib/home-starting-points";
 import { trackEaEvent } from "@/lib/analytics";
-import { normalizeSearch } from "@/lib/catalog";
+import { normalizeSearch, regionDisplayName } from "@/lib/catalog";
 
 type DiscoveryItem = {
   slug: string;
@@ -29,6 +29,9 @@ function searchText(item: DiscoveryItem) {
     [
       item.title,
       item.place,
+      item.countrySlug && item.regionSlug
+        ? regionDisplayName(item.countrySlug, item.regionSlug, item.place)
+        : "",
       item.country,
       item.field,
       item.summary,
@@ -85,7 +88,9 @@ export function HomeDiscovery({ items }: { items: DiscoveryItem[] }) {
       if (
         !item.countrySlug ||
         !item.regionSlug ||
-        !normalize(`${item.place} ${item.country}`).includes(needle)
+        !normalize(
+          `${regionDisplayName(item.countrySlug, item.regionSlug, item.place)} ${item.place} ${item.country}`,
+        ).includes(needle)
       )
         continue;
       const href = `/places/${item.countrySlug}/${item.regionSlug}`;
@@ -97,6 +102,7 @@ export function HomeDiscovery({ items }: { items: DiscoveryItem[] }) {
       ).length;
       places.set(href, {
         ...item,
+        place: regionDisplayName(item.countrySlug, item.regionSlug, item.place),
         slug: href,
         href,
         title: `${count} ${count === 1 ? "experience" : "experiences"} in ${item.country}`,

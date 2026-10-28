@@ -1,4 +1,284 @@
 /* Practical decisions, with the existing EA palette and typography. */
+body {
+  font-synthesis: none;
+}
+.page-intro h1 {
+  font-weight: 400;
+}
+.destination-browse-heading .section-heading {
+  margin-bottom: 20px;
+}
+.destination-browse-heading h2 {
+  font-size: 28px;
+}
+.destination-browse-heading .eyebrow {
+  display: none;
+}
+.destination-refine > summary {
+  padding-block: 16px;
+  cursor: pointer;
+  font-size: 15px;
+  border-bottom: 1px solid var(--ea-line);
+}
+.home-edition .prototype-hero-copy h1 em {
+  font-style: normal;
+  font-weight: 300;
+}
+.home-edition .prototype-hero-copy h1 {
+  letter-spacing: -0.045em;
+}
+.local-discovery select {
+  font-family: var(--ea-font-sans);
+  font-size: 20px;
+}
+.image-source-badge > span:first-child {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+}
+.finder-starting-directions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  padding-bottom: 20px;
+}
+.finder-starting-directions p {
+  flex-basis: 100%;
+}
+.finder-starting-directions a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+}
+.home-edition .section {
+  padding-block: clamp(44px, 5vw, 72px);
+}
+.home-local-disclosure {
+  margin-top: 24px;
+  border-block: 1px solid var(--ea-line);
+}
+.home-local-disclosure > summary {
+  padding: 18px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+.home-local-disclosure .local-discovery {
+  border: 0;
+  margin: 0;
+  padding-top: 8px;
+}
+.home-destination-copy {
+  padding-bottom: 76px;
+}
+.home-destination-card > .image-source-badge {
+  max-width: calc(100% - 26px);
+  font-size: 11px;
+  line-height: 1.35;
+}
+.home-destination-card > .image-source-badge > span:first-child {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.home-destination-photo:focus-visible,
+.card-photo-link:focus-visible,
+.journey-place-photo a:focus-visible {
+  outline: 3px solid var(--ea-white);
+  outline-offset: -6px;
+}
+.home-destination-card:focus-within {
+  outline: 2px solid var(--ea-ink);
+  outline-offset: 3px;
+}
+.journey-start-intro h2 {
+  font-size: clamp(28px, 3.5vw, 40px);
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+.journey-start-intro p {
+  max-width: 660px;
+  color: var(--ea-stone);
+}
+.journey-place-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  margin-block: 28px;
+}
+.journey-place-card {
+  min-width: 0;
+  border: 1px solid var(--ea-line);
+}
+.journey-place-photo {
+  position: relative;
+  aspect-ratio: 1.2;
+}
+.journey-place-photo > a:first-child {
+  position: absolute;
+  inset: 0;
+}
+.journey-place-copy {
+  padding: 18px;
+}
+.journey-place-copy h3 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 6px;
+}
+.journey-start-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+.journey-steps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  list-style: none;
+  padding: 28px 0;
+  margin: 32px 0 20px;
+  gap: 24px;
+  border-block: 1px solid var(--ea-line);
+}
+.journey-steps li > span {
+  font-size: 12px;
+  color: var(--ea-stone);
+}
+.journey-steps h3 {
+  font-family: var(--ea-font-sans);
+  font-size: 18px;
+  letter-spacing: 0;
+  margin: 10px 0 6px;
+}
+.journey-steps p {
+  font-size: 16px;
+  color: var(--ea-stone);
+}
+.plan-workspace:has(.journey-start) .plan-local-ideas {
+  display: none;
+}
+.collection-continue {
+  margin-top: 56px;
+}
+.collection-continue > summary {
+  border-block: 1px solid var(--ea-line);
+  padding-block: 24px;
+  margin-bottom: 28px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.collection-start .section-heading h2,
+.collection-continue .section-heading h2 {
+  font-size: clamp(30px, 4vw, 48px);
+  font-weight: 400;
+}
+.new-guides-page .page-intro {
+  padding-block: 12px 24px;
+  margin-bottom: 8px;
+}
+.new-guides-page .page-intro h1,
+.compass-page .page-intro > h1,
+.plan-workspace-heading h1 {
+  font-weight: 400;
+}
+.new-guides-page .page-intro h1 {
+  font-size: clamp(44px, 5vw, 72px);
+}
+.new-guides-page .page-intro-copy {
+  margin-top: 12px;
+  font-size: 18px;
+}
+.new-guides-page .new-guide-tools {
+  padding: 16px 20px;
+}
+.new-guides-page .new-guide-summary p {
+  margin: 0;
+}
+.new-guides-page .release-section {
+  margin-top: 24px;
+}
+.new-guides-page .release-section .section-heading {
+  margin-bottom: 20px;
+}
+.new-guides-page .release-section h2 {
+  font-size: clamp(28px, 3vw, 40px);
+  font-weight: 400;
+}
+@media (max-width: 850px) {
+  .header-actions {
+    margin-left: auto;
+  }
+}
+@media (max-width: 700px) {
+  .home-edition .prototype-hero,
+  .home-edition .prototype-hero-mosaic {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .home-edition .home-discovery,
+  .home-edition .prototype-hero-search input {
+    min-width: 0;
+  }
+  .destination-categories {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+  .destination-categories a {
+    flex-shrink: 0;
+  }
+  .home-destination-copy {
+    padding-bottom: 76px;
+  }
+  .compass-page .page-intro {
+    padding-block: 20px 14px;
+    row-gap: 8px;
+  }
+  .compass-page .page-intro > h1 {
+    font-size: 44px;
+  }
+  .compass-page .page-intro-copy > p:first-child {
+    font-family: var(--ea-font-sans);
+    font-size: 18px;
+    line-height: 1.45;
+  }
+  .compass-page .page-intro-copy .compass-context {
+    margin-top: 8px;
+  }
+  .new-guides-page .page-intro h1 {
+    font-size: 42px;
+    line-height: 1.05;
+  }
+  .new-guides-page .new-guide-summary {
+    gap: 8px;
+  }
+  .new-guides-page .new-guide-summary > a {
+    display: none;
+  }
+  .journey-place-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .journey-place-card {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+    align-items: center;
+  }
+  .journey-place-photo {
+    aspect-ratio: 1;
+  }
+  .journey-place-photo .image-source-badge {
+    max-width: calc(100% - 12px);
+    right: 6px;
+    bottom: 6px;
+  }
+  .journey-place-copy h3 {
+    font-size: 27px;
+  }
+  .journey-steps {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
 .experience-card {
   align-self: stretch;
   border: 1px solid color-mix(in srgb, var(--ea-ink) 20%, var(--ea-paper));

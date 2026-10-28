@@ -2,6 +2,7 @@ import { PageIntro, PathwayCard } from "@/components/editorial";
 import { getExperiences } from "@/lib/data";
 import { editorialPathways } from "@/lib/editorial-pathways";
 import { pageMetadata } from "@/lib/seo";
+import { collectionOpening } from "@/lib/collection-opening";
 export const metadata = pageMetadata(
   "Collections",
   "Follow a thread between experiences. Editorial connections, not rankings or paid placements.",
@@ -21,13 +22,15 @@ export default function Collections() {
       <div className="collection-grid">
         <h2 className="sr-only">Explore the collections</h2>
         {editorialPathways.map((pathway, index) => {
-          const item = items.find(
-            (experience) => experience.slug === pathway.guideSlugs[0],
-          );
+          const { guides } = collectionOpening(pathway, items);
+          const item = guides[0];
           return item ? (
             <PathwayCard
               key={pathway.slug}
-              pathway={pathway}
+              pathway={{
+                ...pathway,
+                guideSlugs: guides.map((guide) => guide.slug),
+              }}
               item={item}
               index={index}
             />

@@ -19,35 +19,27 @@ import { demoMode, getExperiences } from "@/lib/data";
 import { analyticsMeasurementId } from "@/lib/analytics";
 import { AnalyticsConsent } from "@/components/analytics-consent";
 
-const sourceSans = localFont({
+const aeonik = localFont({
   src: [
     {
-      path: "../assets/fonts/SourceSans3-Variable.ttf",
-      weight: "200 900",
+      path: "../assets/fonts/AeonikPro-Regular.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../assets/fonts/AeonikPro-Light.woff2",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "../assets/fonts/AeonikPro-Bold.woff2",
+      weight: "700",
       style: "normal",
     },
   ],
-  variable: "--font-source-sans",
+  variable: "--font-aeonik",
   display: "swap",
   fallback: ["Arial"],
-});
-
-const newsreader = localFont({
-  src: [
-    {
-      path: "../assets/fonts/Newsreader-Variable.ttf",
-      weight: "200 800",
-      style: "normal",
-    },
-    {
-      path: "../assets/fonts/Newsreader-Italic-Variable.ttf",
-      weight: "200 800",
-      style: "italic",
-    },
-  ],
-  variable: "--font-newsreader",
-  display: "swap",
-  fallback: ["Georgia"],
 });
 
 export const metadata: Metadata = {
@@ -67,11 +59,7 @@ export default async function RootLayout({
     process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID,
   );
   return (
-    <html
-      lang="en"
-      className={`${sourceSans.variable} ${newsreader.variable}`}
-      data-scroll-behavior="smooth"
-    >
+    <html lang="en" className={aeonik.variable} data-scroll-behavior="smooth">
       <body>
         {process.env.NODE_ENV === "development" && (
           <script

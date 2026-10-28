@@ -2,6 +2,7 @@ import {
   interests,
   matchesInterest,
   normalizeSearch,
+  regionDisplayName,
   type Field,
 } from "./catalog";
 
@@ -42,6 +43,9 @@ export function matchesFinder(item: FinderItem, query: FinderQuery) {
       item.title,
       item.summary,
       item.place,
+      item.regionSlug
+        ? regionDisplayName(item.countrySlug, item.regionSlug, item.place)
+        : "",
       item.country,
       item.field,
       ...(profile?.keywords ?? []),

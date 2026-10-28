@@ -41,13 +41,10 @@ export default async function Explore({ searchParams }: Props) {
   return (
     <div className="wrap page-section compass-page">
       <PageIntro eyebrow="Find your way in" title="Compass.">
-        <p>
-          A morning to yourself. A skill you have never tried. A place you want
-          to understand. Start with what moves you.
-        </p>
+        <p>Find a place, follow a curiosity, make the time your own.</p>
         <p className="compass-context">
-          Every guide brings together a place, a way to take part and the
-          details to plan around it. <Link href="/method">How we work ↗</Link>
+          Practical details and sources in every guide.{" "}
+          <Link href="/method">How we work ↗</Link>
         </p>
       </PageIntro>
       <CompassBrowser

@@ -22,7 +22,8 @@
   --ea-vermilion-hover: #ed4417;
   --ea-vermilion-deep: #d83a00;
   --ea-accent-text: #b83210;
-  --ea-font-serif: var(--font-newsreader), Newsreader, Georgia, serif;
+  /* Legacy display-token alias retained for the existing component system. */
+  --ea-font-serif: var(--ea-font-sans);
   --ea-page-inset: clamp(24px, 3.4vw, 64px);
   --ea-header-height: 108px;
   --ea-shadow-card: 0 18px 55px rgba(8, 27, 42, 0.09);

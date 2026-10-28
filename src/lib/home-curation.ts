@@ -1,6 +1,7 @@
 import type { PublicExperience } from "./catalog";
 import type { EditorialPathway } from "./editorial-pathways";
 import { recentGuideReleases } from "./releases";
+import { collectionOpening } from "./collection-opening";
 
 /**
  * Hand-composed hero editions. Each row balances a recognisable point of entry
@@ -210,7 +211,7 @@ export function curateHome(
   const homePathways = orderedPathways
     .flatMap((pathway) => {
       if (pathwayCount === 3) return [];
-      const item = items.find(
+      const item = collectionOpening(pathway, items).guides.find(
         (entry) =>
           pathway.guideSlugs.includes(entry.slug) &&
           !usedImages.has(entry.image || entry.id),

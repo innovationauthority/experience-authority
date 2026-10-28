@@ -82,40 +82,46 @@ export function DestinationBrowser({
         ))}
       </nav>
       {items.length > 1 && (
-        <div className="local-planning-filters">
-          <label>
-            Time for an experience
-            <select
-              value={time}
-              onChange={(event) => setTime(event.target.value)}
-            >
-              <option value="">Any amount of time</option>
-              {availableTimes.map((fit) => (
-                <option value={fit.value} key={fit.value}>
-                  {fit.label}
-                </option>
-              ))}
-            </select>
-          </label>
-          <label>
-            How you take part
-            <select
-              value={mode}
-              onChange={(event) => setMode(event.target.value)}
-            >
-              <option value="">Open to anything</option>
-              {availableModes.map((fit) => (
-                <option value={fit.value} key={fit.value}>
-                  {fit.label}
-                </option>
-              ))}
-            </select>
-          </label>
-          <p>
-            Time describes the experience, not travel between stops. Check dates
-            and access in each guide.
-          </p>
-        </div>
+        <details className="destination-refine">
+          <summary>
+            Refine by time or participation
+            {time || mode ? " · filters active" : ""}
+          </summary>
+          <div className="local-planning-filters">
+            <label>
+              Time for an experience
+              <select
+                value={time}
+                onChange={(event) => setTime(event.target.value)}
+              >
+                <option value="">Any amount of time</option>
+                {availableTimes.map((fit) => (
+                  <option value={fit.value} key={fit.value}>
+                    {fit.label}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label>
+              How you take part
+              <select
+                value={mode}
+                onChange={(event) => setMode(event.target.value)}
+              >
+                <option value="">Open to anything</option>
+                {availableModes.map((fit) => (
+                  <option value={fit.value} key={fit.value}>
+                    {fit.label}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <p>
+              Time describes the experience, not travel between stops. Check
+              dates and access in each guide.
+            </p>
+          </div>
+        </details>
       )}
       <p className="destination-result" aria-live="polite" aria-atomic="true">
         {visible.length} {visible.length === 1 ? "experience" : "experiences"}

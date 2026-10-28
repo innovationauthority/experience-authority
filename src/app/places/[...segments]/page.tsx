@@ -131,10 +131,12 @@ export default async function Place({ params }: Props) {
           ))}
         </nav>
       )}
-      <SectionHeading
-        eyebrow="Closer to place"
-        title={demoMode ? "Stories taking shape." : "Find your kind of day."}
-      />
+      <div className="destination-browse-heading">
+        <SectionHeading
+          eyebrow="Closer to place"
+          title={demoMode ? "Stories taking shape." : "Find your kind of day."}
+        />
+      </div>
       {items.length ? (
         <DestinationBrowser
           key={segments.join("/")}

@@ -130,8 +130,8 @@ export function NewGuideBrowser({
             </label>
           </div>
         </details>
-        <div className="new-personal">
-          {ready && areas.size > 0 ? (
+        {ready && areas.size > 0 && (
+          <div className="new-personal">
             <>
               <button
                 type="button"
@@ -153,13 +153,8 @@ export function NewGuideBrowser({
                 are excluded. Private in this browser.
               </p>
             </>
-          ) : (
-            <p>
-              Save an experience to Passport to find new guides in the same city
-              or area here. No account needed.
-            </p>
-          )}
-        </div>
+          </div>
+        )}
       </div>
       <p className="destination-result" role="status">
         {visible.length}{" "}

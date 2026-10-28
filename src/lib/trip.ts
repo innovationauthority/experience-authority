@@ -19,6 +19,14 @@ export const emptyTrip: Trip = {
   entries: [],
 };
 
+export function hasTripDraft(trip: Trip) {
+  return (
+    trip.entries.length > 0 ||
+    Boolean(trip.logistics.trim()) ||
+    trip.name !== emptyTrip.name
+  );
+}
+
 export function sanitizeTrip(value: unknown, allowedIds: string[]): Trip {
   if (!value || typeof value !== "object" || Array.isArray(value))
     return { ...emptyTrip, entries: [] };

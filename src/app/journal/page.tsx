@@ -31,13 +31,6 @@ export default function JournalPage() {
             day, a clearer choice and a more respectful way of arriving.
           </p>
         </PageIntro>
-        <aside className="journal-index-note">
-          <BookOpen size={25} strokeWidth={1.4} aria-hidden="true" />
-          <p>
-            Written from the current EA public-guide edition. Every concrete
-            example links back to its guide and source trail.
-          </p>
-        </aside>
       </header>
 
       <section className="wrap" aria-labelledby="journal-stories">
@@ -99,6 +92,13 @@ export default function JournalPage() {
         </div>
       </section>
 
+      <aside className="wrap journal-index-note">
+        <BookOpen size={25} strokeWidth={1.4} aria-hidden="true" />
+        <p>
+          Written from the current EA public-guide edition. Every concrete
+          example links back to its guide and source trail.
+        </p>
+      </aside>
       <aside className="journal-index-close">
         <div className="wrap">
           <p className="eyebrow">Keep looking</p>

@@ -1314,14 +1314,43 @@ const additionalRegionNames: Readonly<Record<string, string>> = {
   "united-states/new-york-city": "New York City",
   "united-states/san-francisco": "San Francisco",
   "italy/turin": "Turin",
+  "germany/munich": "Munich",
+  "mexico/oaxaca-city": "Oaxaca City",
+  "spain/granada": "Granada",
+  "colombia/medellin": "Medellín",
+  "italy/bologna": "Bologna",
+  "italy/palermo": "Palermo",
+  "italy/parma": "Parma area",
+  "belgium/antwerp": "Antwerp",
+  "portugal/madeira": "Madeira",
+  "canada/toronto": "Toronto",
+  "malaysia/penang": "Penang",
+  "malaysia/kuala-lumpur": "Kuala Lumpur",
+  "france/nice": "Nice",
+  "hong-kong/kowloon": "Kowloon",
+  "croatia/dubrovnik": "Dubrovnik",
+  "united-states/oahu": "Oʻahu",
+  "spain/bilbao": "Bilbao area",
+  "spain/valencia": "Valencia area",
+  "italy/naples": "Naples area",
+  "portugal/lisbon": "Lisbon",
+  "morocco/marrakech": "Marrakech area",
+  "vietnam/hoi-an": "Hội An",
+  "thailand/chiang-mai": "Chiang Mai area",
+  "australia/sydney": "Sydney",
 };
 
-function regionDisplayName(country: string, region: string, fallback: string) {
+/** Shared destination identity. A venue or street must never name an entire area. */
+export function regionDisplayName(
+  country: string,
+  region: string,
+  fallback: string = region.replaceAll("-", " "),
+) {
   return (
     additionalRegionNames[`${country}/${region}`] ||
     territories.find((item) => item.slug === country && item.region === region)
       ?.regionName ||
-    fallback
+    fallback.split(",")[0].trim()
   );
 }
 
@@ -1330,6 +1359,7 @@ export function regionsForCountry(country: string, items: PublicExperience[]) {
   const regions = new Map<string, string>();
   for (const item of items) {
     if (item.countrySlug !== country || !item.regionSlug) continue;
+    if (regions.has(item.regionSlug)) continue;
     regions.set(
       item.regionSlug,
       regionDisplayName(country, item.regionSlug, item.place),

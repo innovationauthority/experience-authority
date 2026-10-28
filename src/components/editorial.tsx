@@ -106,8 +106,7 @@ export function ExperienceCard({
         <Link
           className="card-photo-link"
           href={`/experiences/${item.slug}`}
-          tabIndex={-1}
-          aria-hidden="true"
+          aria-label={`Explore ${item.title}`}
         >
           {item.image ? (
             <Photo

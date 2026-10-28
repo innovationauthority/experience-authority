@@ -10,7 +10,7 @@ import {
 } from "react";
 import Link from "next/link";
 import { Search, LayoutGrid, List, ArrowRight, X } from "lucide-react";
-import { interests, matchesInterest } from "@/lib/catalog";
+import { interests, matchesInterest, regionDisplayName } from "@/lib/catalog";
 import {
   matchesFinder,
   finderUrl,
@@ -134,7 +134,11 @@ export function CompassBrowser({
             countrySlug: item.countrySlug,
             country: item.country,
             regionSlug: item.regionSlug!,
-            place: item.place,
+            place: regionDisplayName(
+              item.countrySlug,
+              item.regionSlug!,
+              item.place,
+            ),
           },
         ]),
     ).entries(),
@@ -308,6 +312,26 @@ export function CompassBrowser({
             Time is a planning guide. Check the full visit details before
             booking.
           </p>
+          {!hasFilters && (
+            <nav
+              className="finder-starting-directions"
+              aria-label="Suggested ways to begin"
+            >
+              <p className="eyebrow">Or start with the day you want</p>
+              {starterDirections.map((starter) => (
+                <a
+                  key={starter.label}
+                  href={finderUrl(starter.next)}
+                  onClick={(event) => {
+                    event.preventDefault();
+                    change(starter.next);
+                  }}
+                >
+                  {starter.label} <ArrowRight size={15} aria-hidden="true" />
+                </a>
+              ))}
+            </nav>
+          )}
         </details>
       </form>
       <nav className="interest-shortcuts" aria-label="Explore by interest">
@@ -335,28 +359,6 @@ export function CompassBrowser({
           </a>
         ))}
       </nav>
-      {!hasFilters && (
-        <details className="compass-starters">
-          <summary>
-            <span className="eyebrow">Need a nudge?</span>
-            <strong>Start with the day you want.</strong>
-          </summary>
-          <nav aria-label="Suggested ways to begin">
-            {starterDirections.map((starter) => (
-              <a
-                key={starter.label}
-                href={finderUrl(starter.next)}
-                onClick={(event) => {
-                  event.preventDefault();
-                  change(starter.next);
-                }}
-              >
-                {starter.label} <ArrowRight size={15} aria-hidden="true" />
-              </a>
-            ))}
-          </nav>
-        </details>
-      )}
       <div className="results-line" id="compass-results" tabIndex={-1}>
         <span aria-live="polite" aria-atomic="true">
           {matches.length} {matches.length === 1 ? "way" : "ways"} in

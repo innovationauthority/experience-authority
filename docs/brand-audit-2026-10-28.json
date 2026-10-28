@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-28",
+  "scope": "Implement the live visual audit findings without adding or changing experience claims",
+  "changes": [
+    "Self-hosted Aeonik Pro Light, Regular and Bold replace Source Sans 3 and Newsreader. No synthetic cuts or external font requests.",
+    "Destination labels are shared across home search, Compass, local discovery and destination pages. Regression coverage checks publishing-order independence.",
+    "Home destination counts reflect the actual target page, not the shorter authored sequence.",
+    "Photo links have accessible names. Credits wrap and no longer collide with home destination calls to action.",
+    "Home destination photographs precede optional local discovery controls. London uses the existing credited Borough Market photograph.",
+    "Empty journey onboarding offers photographed destinations and three clear steps. Export tools wait for a real draft. Existing notes-only and named drafts remain accessible.",
+    "Compass, New, destinations and Journal reduce introductory friction. Filters remain available through disclosures.",
+    "Collections start with up to six geographically varied guides, with the full remaining catalogue available progressively. Timed by place uses a tide-related documentary cover.",
+    "Mobile hero grid no longer expands beyond a 320px viewport. Tablet navigation actions align to the right."
+  ],
+  "fontDecision": {
+    "source": "Existing IA_one_record_20261012 Aeonik Pro WOFF2 assets",
+    "authorization": "User explicitly instructed reuse after being told EA-domain licence coverage was unconfirmed.",
+    "licenceCoverageIndependentlyConfirmed": false
+  },
+  "verification": {
+    "unitTests": { "passed": 180, "failed": 0 },
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "httpSmoke": {
+      "checkedPages": 918,
+      "unpublishedPaths": 43,
+      "failures": 0,
+      "checks": ["canonical and metadata", "sitemap and publication gates", "CSP nonces", "crawler rules", "social image"]
+    },
+    "manualBrowser": [
+      "Desktop home, destinations, collections and empty planner",
+      "Mobile home at 320px and 390px, Compass, New, London, guide detail, planner, Today, Journal and Fields",
+      "Tablet home, Compass, New and planner",
+      "Home London suggestion correctly names London with 16 experiences",
+      "Compass country and city filters return 16 London guides",
+      "London short-visit filter returns six guides",
+      "Six collection starters, remaining disclosure and show-more from nine to eighteen",
+      "Save guide, add to journey, preserve notes after removing last guide and reloading, then clear only the test data",
+      "Zero unnamed image links on homepage and positive gaps between destination CTA and credit"
+    ],
+    "mobilePhotoPosition": {
+      "viewportWidth": 390,
+      "compassBeforePx": 773,
+      "compassAfterPx": 550,
+      "newBeforePx": 820,
+      "newAfterPx": 556
+    },
+    "limitations": [
+      "This is a design and interaction audit, not a fresh factual or photographic-rights review of all 507 public guides.",
+      "No measured retention improvement or award outcome is claimed.",
+      "Production deployment is verified separately after this commit."
+    ]
+  }
+}
