@@ -821,9 +821,164 @@
     }
   },
   "deployment": {
-    "status": "pending",
-    "contentCommit": null,
-    "productionProof": null
+    "status": "verified-public",
+    "contentCommit": "2219f5c",
+    "vercelStatus": "success",
+    "vercelUrl": "https://vercel.com/sspasic/experience-authority/DhezPcEeWJerNm1em2zQ69EoFAht",
+    "productionProof": {
+      "checkedAt": "2026-10-28T14:14:04.382Z",
+      "base": "https://experienceauthority.com",
+      "results": [
+        {
+          "url": "https://experienceauthority.com/experiences/let-a-tokyo-dinner-take-shape-on-the-griddle",
+          "status": 200,
+          "photoSha256": "808359dd081c8a9b9fc4ef512d00cc07438ce68efb075ad0bffe27f5024476e3",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/make-room-for-munichs-breakfast-before-noon",
+          "status": 200,
+          "photoSha256": "58d372d9b78d7be0e0edae5a040e3f26c6435fde7e039ae9b25f962e5a0033fd",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/taste-the-tortilla-before-the-filling-in-mexico-city",
+          "status": 200,
+          "photoSha256": "624f11c1f30cc893f4b8c705e5889400fbda44791a7659d4b0471179dac562bb",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/set-a-few-words-in-wood-type-in-london",
+          "status": 200,
+          "photoSha256": "df39a4718efdae5439055e069dadd1d1116726b125250aebceb64a8ae040d46a",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/unfold-the-pattern-you-kept-out-of-the-dye-in-kyoto",
+          "status": 200,
+          "photoSha256": "f256bb6841d3e05aba4c10b91eb7a82e1b6b211e10143e2fd3b2eed84865c084",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/give-a-glass-bauble-its-first-breath-in-woolwich",
+          "status": 200,
+          "photoSha256": "0e5b25228fc2ac2727392fda5c3807cd457bd42dc220ced418b724a53278ee93",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/cross-the-river-under-bizkaias-suspended-bridge",
+          "status": 200,
+          "photoSha256": "e0b000b5cd93d21597316c1a15da5093c17e24ddc3f932c0081efb4ffb227ad9",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/watch-medellin-give-way-to-forest-from-the-cable",
+          "status": 200,
+          "photoSha256": "7bbd7e7a401e75b7144b7fc1e8b84336b61f57cbae80f05c4e5cec5ca5cbe5eb",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/let-a-hundred-second-ride-redraw-zurich",
+          "status": 200,
+          "photoSha256": "8dc35a7210cd96d7d6879b8dbf18f6cec1a41390f18e0a3748ee3bf85d5b3dbb",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/read-a-century-of-car-design-in-turin",
+          "status": 200,
+          "photoSha256": "32d78aa1e1fa909032acd5762c310aa31a69edae0f627fd7e8571bb6d07afd34",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/look-at-the-shape-before-the-label-in-antwerp",
+          "status": 200,
+          "photoSha256": "72d2233373349088929f03680fbe1a6497e5453ff8d2f4f993eb29ae56f0806c",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/read-the-room-before-the-painting-in-madrid",
+          "status": 200,
+          "photoSha256": "5106dd2c45c824577ded35826735e7e704351420cfd2acc78cb7d59ef903aa1a",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/leave-bangkoks-hurry-at-the-edge-of-a-wetland",
+          "status": 200,
+          "photoSha256": "0ff38f0110284f3e0be8cb19b516c03fc85c8bbae1b5046ce437c7a228f68b97",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/find-a-quieter-naples-between-the-painted-tiles",
+          "status": 200,
+          "photoSha256": "224132344f7d0f9986887989a5eb7f8fdb96982f9112088ce6d6df0b0bafd59e",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/give-lisbon-an-hour-beside-the-gulbenkian-lake",
+          "status": 200,
+          "photoSha256": "72b5e52ae700b88a93c9c1295d81b7bcb369c05c22817e91db2ee681e66b44cf",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/let-a-marrakech-story-fill-the-room",
+          "status": 200,
+          "photoSha256": "b0da409eeddb08f862883126456c9637dfbf3135ef0990729d4e6b0c77ec769a",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/follow-a-jazz-conversation-at-the-rex-in-toronto",
+          "status": 200,
+          "photoSha256": "5c87a1ea3d53d58e78464de58a6656520262298ff480fedd6bd95f7eea210a15",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/watch-one-person-become-a-whole-osaka-story",
+          "status": 200,
+          "photoSha256": "e9f99a07f53d5e0da6811c681ab84501c22b63999b6988347c780c5cc0ec547d",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        }
+      ],
+      "expiredGuidesExcluded": 25,
+      "totalAuthored": 532,
+      "eligiblePublic": 507
+    },
+    "browser": "Public /new shows the 28 October edition. New Tokyo guide opened from its card and reviewed on desktop and mobile. The visible photograph loaded, no horizontal overflow was found, and analytics scripts remained absent before consent."
   },
   "preservedUnrelatedFile": "docs/research-handoff-2026-09-27.json"
 }
