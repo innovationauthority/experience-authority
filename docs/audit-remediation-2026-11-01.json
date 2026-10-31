@@ -20,7 +20,11 @@
     "unitTestsFailed": 0,
     "typecheck": "passed",
     "productionBuild": "passed",
-    "browser": "passed on isolated local production build",
+    "browser": "passed on isolated local production build and on experienceauthority.com",
+    "productionApplicationCommit": "a107ea3",
+    "productionDeployment": "https://vercel.com/sspasic/experience-authority/EaNJ553j6Rkrz2oDRQukn5tDGSM9",
+    "productionDeploymentStatus": "success",
+    "codeQLApplicationCommit": "success",
     "widths": [1440, 390, 320],
     "templates": ["home", "Compass", "plan", "Passport", "Today", "About", "guide"],
     "horizontalOverflow": 0,
@@ -33,6 +37,7 @@
   "decodedHtmlBytes": {
     "before": {"/explore": 3800295, "/plan": 1996809, "/passport": 1992198},
     "afterLocal": {"/explore": 758726, "/plan": 306780, "/passport": 930068},
+    "afterProduction": {"/explore": 767426, "/plan": 307302, "/passport": 930650},
     "note": "Uncompressed response sizes. Not wire transfer measurements, Core Web Vitals or a retention result. A compact public catalogue is still sent to support instant private filtering."
   },
   "remainingAuditWork": [

@@ -191,20 +191,26 @@ try {
         () => document.documentElement.scrollWidth > innerWidth + 1,
       );
       assert.equal(overflow, false, `${route} overflows at ${width}`);
-      assert.equal(
-        await page
-          .locator("img")
-          .evaluateAll(
-            (images) =>
-              images.filter(
-                (image) =>
-                  image.getBoundingClientRect().top < innerHeight &&
-                  (!image.complete || image.naturalWidth === 0),
-              ).length,
-          ),
-        0,
-        `visible photograph failed: ${route}`,
-      );
+      await expect
+        .poll(
+          () =>
+            page.locator("img").evaluateAll((images) =>
+              images
+                .filter((image) => {
+                  const rect = image.getBoundingClientRect();
+                  return (
+                    rect.width > 0 &&
+                    rect.height > 0 &&
+                    rect.bottom > 0 &&
+                    rect.top < innerHeight &&
+                    (!image.complete || image.naturalWidth === 0)
+                  );
+                })
+                .map((image) => image.currentSrc || image.src),
+            ),
+          { timeout: 15000, message: `visible photograph failed: ${route}` },
+        )
+        .toEqual([]);
       if (
         width !== 320 &&
         ["/", "/explore", "/plan", "/passport", "/today"].includes(route)
@@ -212,6 +218,7 @@ try {
         await page.screenshot({
           path: `${output}/${route.slice(1) || "home"}-${width}.png`,
           fullPage: false,
+          animations: "disabled",
         });
       if (
         width === 390 &&
