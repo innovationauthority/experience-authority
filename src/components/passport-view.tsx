@@ -1,9 +1,10 @@
 "use client";
 import Link from "next/link";
 import { usePassport } from "./passport-provider";
-import { EmptyState, ExperienceCard, StatusBadge } from "./editorial";
+import { EmptyState, StatusBadge } from "./editorial-ui";
+import { ExperienceCardView as ExperienceCard } from "./experience-card";
 import { passportStages, type PassportStage } from "@/lib/passport";
-import type { PublicExperience } from "@/lib/catalog";
+import type { PassportExperience } from "@/lib/catalog-projections";
 import { TripPlanner } from "./trip-planner";
 const names: Record<PassportStage, string> = {
   saved: "Saved",
@@ -15,7 +16,7 @@ export function PassportView({
   items,
   view,
 }: {
-  items: PublicExperience[];
+  items: PassportExperience[];
   view: string;
 }) {
   const { data, ready, message, setStage, toggleCompare } = usePassport();
@@ -27,6 +28,11 @@ export function PassportView({
     const item = items.find((e) => e.id === id);
     return item ? [item] : [];
   });
+  const unavailable = Object.keys(data.saved).filter(
+    (id) =>
+      !items.some((item) => item.id === id) &&
+      (view === "all" || data.saved[id] === view),
+  );
   const tabs = [
     ["all", "All saved"],
     ["plan", "My journey"],
@@ -92,9 +98,9 @@ export function PassportView({
                     ))}
                   </tr>
                   <tr>
-                    <th scope="row">Field</th>
+                    <th scope="row">Experience</th>
                     {compared.map((e) => (
-                      <td key={e.id}>{e.field}</td>
+                      <td key={e.id}>{e.category}</td>
                     ))}
                   </tr>
                   <tr>
@@ -154,7 +160,7 @@ export function PassportView({
             </Link>
           </EmptyState>
         )
-      ) : saved.length ? (
+      ) : saved.length || unavailable.length ? (
         <div className="passport-grid">
           <h2 className="sr-only">Your saved experiences</h2>
           {saved.map((item, i) => (
@@ -186,6 +192,42 @@ export function PassportView({
                 </button>
               </div>
             </div>
+          ))}
+          {unavailable.map((id) => (
+            <article className="unavailable-save" key={id}>
+              <p className="eyebrow">Kept in your Passport</p>
+              <h3>Guide currently unavailable</h3>
+              <p>
+                This guide is not currently published. Your saved category stays
+                here and will reconnect if the guide returns.
+              </p>
+              <p className="small-note">Saved reference: {id}</p>
+              <div className="passport-entry-controls">
+                <label>
+                  Keep in
+                  <select
+                    aria-label={`Passport category for unavailable guide ${id}`}
+                    value={data.saved[id]}
+                    onChange={(event) =>
+                      setStage(id, event.target.value as PassportStage)
+                    }
+                  >
+                    {passportStages.map((stage) => (
+                      <option value={stage} key={stage}>
+                        {names[stage]}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+                <button
+                  className="text-link"
+                  onClick={() => setStage(id)}
+                  aria-label={`Remove unavailable guide ${id} from Passport`}
+                >
+                  Remove
+                </button>
+              </div>
+            </article>
           ))}
         </div>
       ) : (

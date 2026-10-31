@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Expand, X } from "lucide-react";
 import type { GuideMedia } from "@/lib/media";
 import { imageSource } from "@/lib/image-revisions";
-import { ImageCredit } from "./editorial";
+import { ImageCredit } from "./editorial-ui";
 
 /** A native modal keeps keyboard focus inside the photograph, not behind it. */
 export function PhotoViewer({ media }: { media: GuideMedia }) {

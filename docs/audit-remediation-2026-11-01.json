@@ -1,0 +1,50 @@
+{
+  "dateLocal": "2026-11-01",
+  "scope": "Publication lifecycle, public catalogue payloads, direct planning, publisher identity and small audit corrections",
+  "completed": [
+    "Retain valid local Passport references and trip notes independently of public guide eligibility",
+    "Show unavailable records without restoring withdrawn descriptions, photographs, links or access claims",
+    "Keep unavailable notes and planning status in private downloads, omit private content from default sharing",
+    "Render Compass cards from a compact public index instead of serializing hundreds of hidden server-rendered cards",
+    "Project explicit card, plan and Passport fields without long-form guide copy, source lists or photo rights ledgers",
+    "Keep all personal storage and filtering on the device without transmitting saved IDs or notes",
+    "Offer Plan this experience after saving, with an explicit add action that preserves the existing journey",
+    "Identify Innovation Authority Ltd as legal publisher and link to the umbrella brand in About and footer",
+    "Use six visitor-facing category names on cards and comparisons",
+    "Rotate the reviewed Compass opening daily without changing its membership",
+    "Retain geographic connection labels on Today recommendations",
+    "Remove obsolete fixed collection count and redundant contact self-link"
+  ],
+  "verification": {
+    "unitTestsPassed": 185,
+    "unitTestsFailed": 0,
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "browser": "passed on isolated local production build",
+    "widths": [1440, 390, 320],
+    "templates": ["home", "Compass", "plan", "Passport", "Today", "About", "guide"],
+    "horizontalOverflow": 0,
+    "failedVisiblePhotographs": 0,
+    "pageErrors": 0,
+    "sampledAccessibilitySeriousOrCriticalViolations": 0,
+    "analyticsRequestsWithoutConsent": 0,
+    "personalData": "synthetic fixtures only, no visitor storage touched"
+  },
+  "decodedHtmlBytes": {
+    "before": {"/explore": 3800295, "/plan": 1996809, "/passport": 1992198},
+    "afterLocal": {"/explore": 758726, "/plan": 306780, "/passport": 930068},
+    "note": "Uncompressed response sizes. Not wire transfer measurements, Core Web Vitals or a retention result. A compact public catalogue is still sent to support instant private filtering."
+  },
+  "remainingAuditWork": [
+    "Recheck actual sources for expiring guides and renew only when evidence supports publication",
+    "Deepen existing destinations and improve high-exposure photographic selection",
+    "Develop dates and verified indicative prices for planning using current primary sources",
+    "Assess an optional editorial digest and correction endpoint when the service and operational requirements are defined",
+    "Continue measured visual refinements and monitor real user performance"
+  ],
+  "limits": [
+    "This release does not reconstruct personal entries already overwritten before the fix",
+    "Older unavailable saves have only an identifier, so use a generic label until the guide becomes eligible again",
+    "No guide publication dates, rights decisions or evidence deadlines were relaxed"
+  ]
+}

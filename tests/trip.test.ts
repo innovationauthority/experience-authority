@@ -3,26 +3,28 @@ import assert from "node:assert/strict";
 import { emptyTrip, sanitizeTrip, tripText } from "../src/lib/trip";
 import { publicGuides } from "../src/lib/public-guides";
 
-test("trip data is bounded and restricted to current guide ids", () => {
+test("trip data is bounded and retains safe local references independently of publication", () => {
   for (const bad of [null, [], true, "bad"])
-    assert.deepEqual(sanitizeTrip(bad, []), emptyTrip);
+    assert.deepEqual(sanitizeTrip(bad), emptyTrip);
   const id = publicGuides[0].id;
-  const trip = sanitizeTrip(
-    {
-      name: "x".repeat(300),
-      logistics: "y".repeat(4000),
-      entries: [
-        { id, day: 99, note: "z".repeat(800) },
-        { id, day: 2 },
-        { id: "private-record", day: 1 },
-        null,
-      ],
-    },
-    [id],
-  );
+  const trip = sanitizeTrip({
+    name: "x".repeat(300),
+    logistics: "y".repeat(4000),
+    entries: [
+      { id, day: 99, note: "z".repeat(800) },
+      { id, day: 2 },
+      { id: "private-record", day: 1 },
+      { id: "../unsafe", day: 1 },
+      { id: "__proto__", day: 1 },
+      null,
+    ],
+  });
   assert.equal(trip.name.length, 80);
   assert.equal(trip.logistics.length, 2000);
-  assert.deepEqual(trip.entries, [{ id, day: 1, note: "z".repeat(600) }]);
+  assert.deepEqual(trip.entries, [
+    { id, day: 1, note: "z".repeat(600) },
+    { id: "private-record", day: 1, note: "" },
+  ]);
 });
 test("sharing excludes private free text unless explicitly included, and retains only public links", () => {
   const trip = {
@@ -42,11 +44,11 @@ test("sharing excludes private free text unless explicitly included, and retains
 test("planning status is visitor controlled, allowlisted and private when sharing", () => {
   const id = publicGuides[0].id;
   assert.equal(
-    sanitizeTrip({ entries: [{ id, stage: "provider-confirmed" }] }, [id])
-      .entries[0].stage,
+    sanitizeTrip({ entries: [{ id, stage: "provider-confirmed" }] }).entries[0]
+      .stage,
     undefined,
   );
-  const trip = sanitizeTrip({ entries: [{ id, stage: "arranged" }] }, [id]);
+  const trip = sanitizeTrip({ entries: [{ id, stage: "arranged" }] });
   assert.equal(trip.entries[0].stage, "arranged");
   assert.ok(!tripText(trip, publicGuides).includes("I have arranged this"));
   assert.ok(

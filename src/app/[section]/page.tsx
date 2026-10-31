@@ -330,6 +330,11 @@ export default async function Page({ params, searchParams }: Props) {
       <div className="prose-layout">
         <aside className="prose-aside">
           <p>{page.aside}</p>
+          {section === "about" && (
+            <a className="text-link" href={publisher.url}>
+              Innovation Authority ↗
+            </a>
+          )}
         </aside>
         <article className="prose">
           {[
@@ -352,8 +357,12 @@ export default async function Page({ params, searchParams }: Props) {
               >
                 {publisher.email}
               </a>{" "}
-              <span aria-hidden="true">·</span>{" "}
-              <Link href="/contact">Company and contact details</Link>
+              {section !== "contact" && (
+                <>
+                  <span aria-hidden="true">·</span>{" "}
+                  <Link href="/contact">Company and contact details</Link>
+                </>
+              )}
             </p>
           )}
           {section === "privacy" && (

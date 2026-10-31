@@ -10,6 +10,15 @@ export type PassportData = {
   compare: string[];
 };
 export const emptyPassport: PassportData = { saved: {}, compare: [] };
+/** Local references are not publication permission. Never resolve an unavailable
+ * reference against private editorial records or discard the visitor's work. */
+export function isLocalGuideId(id: unknown): id is string {
+  return (
+    typeof id === "string" &&
+    /^[a-zA-Z0-9][a-zA-Z0-9_-]{0,199}$/.test(id) &&
+    !["__proto__", "constructor", "prototype"].includes(id)
+  );
+}
 /** Add a group atomically without downgrading an existing stage or touching a plan. */
 export function addPassportGuides(
   data: PassportData,
@@ -35,8 +44,8 @@ export function sanitizePassport(
     typeof input.saved === "object" &&
     !Array.isArray(input.saved)
   ) {
-    for (const [id, stage] of Object.entries(input.saved)) {
-      if (allow.has(id) && passportStages.includes(stage as PassportStage))
+    for (const [id, stage] of Object.entries(input.saved).slice(0, 2000)) {
+      if (isLocalGuideId(id) && passportStages.includes(stage as PassportStage))
         saved[id] = stage as PassportStage;
     }
   }

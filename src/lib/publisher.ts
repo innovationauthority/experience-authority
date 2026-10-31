@@ -1,5 +1,6 @@
 export const publisher = {
   name: "Innovation Authority Ltd",
+  url: "https://innovationauthority.com",
   companyNumber: "16783316",
   jurisdiction: "England and Wales",
   registeredOffice:

@@ -1,95 +1,27 @@
 import Link from "next/link";
-import Image from "next/image";
-import { ArrowUpRight, LockKeyhole, MoveUpRight } from "lucide-react";
-import { statusLabels, type PublicExperience } from "@/lib/catalog";
+import { ArrowUpRight } from "lucide-react";
+import type { PublicExperience } from "@/lib/catalog";
 import { guideMediaFor, imageCreditText, type GuideMedia } from "@/lib/media";
 import type { EditorialPathway } from "@/lib/editorial-pathways";
-import { ExperienceActions } from "./passport-provider";
-import { imageSource } from "@/lib/image-revisions";
-import { cardPlanning } from "@/lib/card-planning";
-
-export function StatusBadge({
-  status,
-  demo = false,
-}: {
-  status: PublicExperience["status"];
-  demo?: boolean;
-}) {
-  return (
-    <span className={`status-badge status-${status}`}>
-      {statusLabels[status]}
-      {demo && <span className="status-demo"> · demo</span>}
-    </span>
-  );
-}
-/** Original typographic artwork, deliberately not documentary imagery. */
-export function GuideArt({
-  item,
-}: {
-  item: Pick<PublicExperience, "field" | "place" | "country">;
-}) {
-  return (
-    <div className={`guide-art guide-art-${item.field}`} aria-hidden="true">
-      <span className="guide-art-kicker">EA / FIELD NOTES</span>
-      <span className="guide-art-place">
-        {item.place}
-        <span className="orange-period">.</span>
-      </span>
-      <span className="guide-art-mark" />
-      <span className="guide-art-foot">
-        <span>{item.field}</span>
-        <span>{item.country}</span>
-      </span>
-    </div>
-  );
-}
-export function Photo({
-  src,
-  alt,
-  priority = false,
-  className = "",
-  sizes = "(max-width: 700px) 100vw, 50vw",
-}: {
-  src: string;
-  alt: string;
-  priority?: boolean;
-  className?: string;
-  sizes?: string;
-}) {
-  return (
-    <Image
-      src={imageSource(src)}
-      alt={alt}
-      fill
-      priority={priority}
-      sizes={sizes}
-      className={`editorial-photo ${className}`}
-    />
-  );
-}
+import { toCardExperience } from "@/lib/catalog-projections";
+import { ExperienceCardView } from "./experience-card";
+import { GuideArt, Photo, ImageCredit as Credit } from "./editorial-ui";
+export { GuideArt, Photo, EmptyState, StatusBadge } from "./editorial-ui";
 
 export function ImageCredit({
   media,
-  className = "image-source-badge",
+  className,
 }: {
   media: GuideMedia;
   className?: string;
 }) {
-  const credit = imageCreditText(media);
   return (
-    <a
+    <Credit
+      media={{ sourceUrl: media.sourceUrl, credit: imageCreditText(media) }}
       className={className}
-      href={media.sourceUrl}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <span>Image: {credit}</span>
-      <ArrowUpRight size={11} aria-hidden="true" />
-      <span className="sr-only"> (opens source in a new tab)</span>
-    </a>
+    />
   );
 }
-
 export function ExperienceCard({
   item,
   index = 0,
@@ -97,86 +29,7 @@ export function ExperienceCard({
   item: PublicExperience;
   index?: number;
 }) {
-  const media =
-    item.status === "public_guide" ? guideMediaFor(item.id) : undefined;
-  const planning = cardPlanning(item);
-  return (
-    <article className="experience-card">
-      <div className={`card-image ${!item.image ? "card-no-image" : ""}`}>
-        <Link
-          className="card-photo-link"
-          href={`/experiences/${item.slug}`}
-          aria-label={`Explore ${item.title}`}
-        >
-          {item.image ? (
-            <Photo
-              src={item.image}
-              alt=""
-              className={`photo-${item.id}`}
-              sizes="(max-width: 640px) 100vw, (max-width: 1000px) 50vw, 33vw"
-            />
-          ) : item.status === "public_guide" ? (
-            <GuideArt item={item} />
-          ) : (
-            <span className="protected-art">
-              {item.status === "protected_visibility" ? (
-                <LockKeyhole size={36} strokeWidth={1} />
-              ) : (
-                <span className="art-slash" />
-              )}
-              <span>
-                {item.status === "protected_visibility"
-                  ? "A boundary worth respecting."
-                  : "A story taking shape."}
-              </span>
-            </span>
-          )}
-        </Link>
-        {media && <ImageCredit media={media} />}
-        {item.demo && <span className="image-demo">Illustrative · demo</span>}
-        <ExperienceActions item={item} compact />
-      </div>
-      <div className="card-content">
-        <div className="card-meta">
-          <span>{item.field}</span>
-          <span>
-            {item.place}
-            {item.countrySlug && `, ${item.country}`}
-          </span>
-        </div>
-        <h3>
-          <Link href={`/experiences/${item.slug}`}>
-            {item.title}
-            <ArrowUpRight size={21} aria-hidden="true" />
-          </Link>
-        </h3>
-        <p>{item.summary}</p>
-        {planning ? (
-          <dl className="card-planning" aria-label="Plan your visit">
-            {planning.time && (
-              <div>
-                <dt>Time to allow</dt>
-                <dd>{planning.time}</dd>
-              </div>
-            )}
-            {planning.mode && (
-              <div>
-                <dt>Your experience</dt>
-                <dd>{planning.mode}</dd>
-              </div>
-            )}
-          </dl>
-        ) : (
-          <div className="card-bottom">
-            <StatusBadge status={item.status} demo={item.demo} />
-            <span className="card-number">
-              {String(index + 1).padStart(2, "0")}
-            </span>
-          </div>
-        )}
-      </div>
-    </article>
-  );
+  return <ExperienceCardView item={toCardExperience(item)} index={index} />;
 }
 export function PathwayCard({
   pathway,
@@ -242,21 +95,6 @@ export function SectionHeading({
           {link} <ArrowUpRight size={18} />
         </Link>
       )}
-    </div>
-  );
-}
-export function EmptyState({
-  title = "Nothing here just yet.",
-  children,
-}: {
-  title?: string;
-  children?: React.ReactNode;
-}) {
-  return (
-    <div className="empty-state">
-      <MoveUpRight size={34} strokeWidth={1.2} />
-      <h2>{title}</h2>
-      {children}
     </div>
   );
 }

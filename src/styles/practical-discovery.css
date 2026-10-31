@@ -646,3 +646,65 @@ body {
     transition: none;
   }
 }
+/* Publication changes must leave a usable private record, not an empty gap. */
+.unavailable-save {
+  padding: clamp(22px, 3vw, 32px);
+  border: 1px solid var(--ea-line);
+  background: var(--ea-paper);
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.unavailable-save h3 {
+  font-size: 24px;
+  line-height: 1.12;
+  margin: 18px 0 14px;
+}
+.unavailable-save > p {
+  line-height: 1.55;
+}
+.unavailable-save select {
+  min-height: 44px;
+  padding: 8px 28px 8px 10px;
+  border: 1px solid var(--ea-line);
+  background: var(--ea-paper);
+  color: inherit;
+  font: inherit;
+}
+.unavailable-save button {
+  min-height: 44px;
+  padding: 8px 0;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  cursor: pointer;
+}
+.footer-parent {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.footer-parent:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.trip-suggestion {
+  padding: clamp(20px, 3vw, 30px);
+  border: 1px solid var(--ea-line);
+  background: var(--ea-paper);
+  margin: 24px 0;
+}
+.trip-suggestion h3 {
+  font-size: 24px;
+  line-height: 1.15;
+  margin: 14px 0;
+}
+.trip-suggestion .button {
+  margin-top: 18px;
+}

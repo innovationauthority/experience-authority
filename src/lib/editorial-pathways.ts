@@ -746,7 +746,7 @@ export const editorialPathways = [
     kind: "food-and-drink",
     title: "Before the first sip",
     promise:
-      "Nine ways to follow rice, coffee, tea, grapes, apples, agave and cacao before flavour reaches the glass or table.",
+      "Follow rice, coffee, tea, grapes, apples, agave and cacao before flavour reaches the glass or table.",
     intro:
       "Taste becomes more memorable when you can trace what produced it. Begin makgeolli with rice and fermentation in Seoul, meet Pinglin tea as a leaf before it becomes a cup and follow Materuni coffee through roasting and brewing on Kilimanjaro's slopes. Enter Vila Nova de Gaia through the time and vessels behind Port, Asturias through cider poured at a working sidrería and Oaxaca through the transformation of agave. Vienna connects the vineyard to the heuriger table, while Grenada moves back from chocolate to cacao. In São Tomé, a small city factory visit places the fresh pod, finished bar and plantation history in the same line of inquiry. These are public introductions to different systems, not a ranking of producers or permission to generalise about a whole region. Follow the ingredient, work and time first. Let the tasting confirm the story rather than replace it.",
     guideSlugs: [

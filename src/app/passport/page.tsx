@@ -2,6 +2,7 @@ import { PageIntro } from "@/components/editorial";
 import { PassportView } from "@/components/passport-view";
 import { getExperiences } from "@/lib/data";
 import { pageMetadata } from "@/lib/seo";
+import { toPassportExperience } from "@/lib/catalog-projections";
 export const metadata = pageMetadata(
   "My Passport",
   "Your device-local collection of curiosities, future journeys and experiences to return to.",
@@ -33,7 +34,10 @@ export default async function Passport({
           into a journey you can return to and share.
         </p>
       </PageIntro>
-      <PassportView items={getExperiences()} view={view} />
+      <PassportView
+        items={getExperiences().map(toPassportExperience)}
+        view={view}
+      />
     </div>
   );
 }

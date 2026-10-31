@@ -6,6 +6,7 @@ import { pageMetadata } from "@/lib/seo";
 import { Photo, ImageCredit } from "@/components/editorial";
 import { guideMediaFor } from "@/lib/media";
 import { regionDisplayName } from "@/lib/catalog";
+import { toPlanExperience } from "@/lib/catalog-projections";
 
 export const metadata = pageMetadata(
   "Plan a journey",
@@ -13,8 +14,17 @@ export const metadata = pageMetadata(
   "/plan",
 );
 
-export default function PlanPage() {
+export default async function PlanPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ add?: string | string[] }>;
+}) {
   const items = getExperiences();
+  const { add } = await searchParams;
+  const suggestedItemId =
+    typeof add === "string" && items.some((item) => item.id === add)
+      ? add
+      : undefined;
   const chapters = resolveCityChapters(items).slice(0, 4);
   const startingPlaces = [
     "ask-the-market-where-london-came-from",
@@ -37,7 +47,8 @@ export default function PlanPage() {
         </Link>
       </div>
       <TripPlanner
-        items={items}
+        items={items.map(toPlanExperience)}
+        suggestedItemId={suggestedItemId}
         startingPlaces={
           <div className="journey-place-grid">
             {startingPlaces.map(({ item, media }) => {

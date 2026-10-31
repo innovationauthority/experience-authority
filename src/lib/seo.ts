@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { PublicExperience } from "./catalog";
 import { canPublishGuide } from "./publication";
 import { guideMediaFor } from "./media";
+import { publisher } from "./publisher";
 
 export const SITE_ORIGIN = "https://experienceauthority.com";
 export const SITE_NAME = "Experience Authority";
@@ -97,12 +98,13 @@ export function websiteStructuredData() {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Organization",
-        "@id": `${SITE_ORIGIN}/#organization`,
+        "@type": "Brand",
+        "@id": `${SITE_ORIGIN}/#brand`,
         name: SITE_NAME,
         url: SITE_ORIGIN,
         logo: canonicalUrl("/icon.svg"),
       },
+      publisherStructuredData(),
       {
         "@type": "WebSite",
         "@id": `${SITE_ORIGIN}/#website`,
@@ -110,9 +112,20 @@ export function websiteStructuredData() {
         url: SITE_ORIGIN,
         description: SITE_DESCRIPTION,
         inLanguage: "en",
-        publisher: { "@id": `${SITE_ORIGIN}/#organization` },
+        publisher: { "@id": `${SITE_ORIGIN}/#publisher` },
       },
     ],
+  };
+}
+
+export function publisherStructuredData() {
+  return {
+    "@type": "Organization",
+    "@id": `${SITE_ORIGIN}/#publisher`,
+    name: publisher.name,
+    legalName: publisher.name,
+    url: publisher.url,
+    brand: { "@id": `${SITE_ORIGIN}/#brand` },
   };
 }
 
@@ -137,12 +150,9 @@ export function guideStructuredData(item: PublicExperience) {
           "@type": "Organization",
           name: SITE_NAME,
           url: canonicalUrl("/about"),
+          parentOrganization: { "@id": `${SITE_ORIGIN}/#publisher` },
         },
-        publisher: {
-          "@type": "Organization",
-          name: SITE_NAME,
-          url: SITE_ORIGIN,
-        },
+        publisher: publisherStructuredData(),
         dateModified: item.guideReview.checkedOn,
         image: { "@id": `${url}#photograph` },
         citation: item.guideReview.sources.map((source) => source.url),

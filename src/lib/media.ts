@@ -1146,19 +1146,7 @@ export function guideMediaFor(guideId: string) {
   return publicGuideMedia.find((media) => media.guideId === guideId);
 }
 
-export function imageCreditText(
-  media: Pick<GuideMedia, "photographer" | "sourceUrl">,
-) {
-  const creator = media.photographer
-    .replace(". Individual photographer not named", "")
-    .replace(", publishing source", "");
-  const publication = media.sourceUrl.includes("commons.wikimedia.org")
-    ? "Wikimedia Commons"
-    : media.sourceUrl.includes("unsplash.com")
-      ? "Unsplash"
-      : "";
-  return publication ? `${creator} / ${publication}` : creator;
-}
+export { imageCreditText } from "./image-credit";
 
 export function guideImage(guideId: string) {
   const media = guideMediaFor(guideId);

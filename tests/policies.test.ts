@@ -227,7 +227,7 @@ test("protected publication requires distinct current editor and local reviewer"
     false,
   );
 });
-test("local Passport sanitizes unknown identifiers, malformed data and comparison overflow", () => {
+test("local Passport keeps private references while comparison uses only public identifiers", () => {
   assert.deepEqual(sanitizePassport(null, ["one"]), { saved: {}, compare: [] });
   assert.deepEqual(
     sanitizePassport(
@@ -237,7 +237,10 @@ test("local Passport sanitizes unknown identifiers, malformed data and compariso
       },
       ["one", "two", "three", "four"],
     ),
-    { saved: { one: "saved" }, compare: ["one", "two", "three"] },
+    {
+      saved: { one: "saved", secret: "saved" },
+      compare: ["one", "two", "three"],
+    },
   );
   assert.deepEqual(sanitizePassport({ saved: [], compare: "one" }, ["one"]), {
     saved: {},

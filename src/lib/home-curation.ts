@@ -125,7 +125,10 @@ export function selectHomeHero(
  * points of reference with less expected discoveries and strong documentary
  * frames. Filtered results keep this order while still including every guide.
  */
-export function orderExperienceDirectory(items: PublicExperience[]) {
+export function orderExperienceDirectory(
+  items: PublicExperience[],
+  today = new Date().toISOString().slice(0, 10),
+) {
   const bySlug = new Map(items.map((item) => [item.slug, item]));
   const seen = new Set<string>();
   const opening = compassOpeningGuideSlugs.flatMap((slug) => {
@@ -135,7 +138,15 @@ export function orderExperienceDirectory(items: PublicExperience[]) {
     return [item];
   });
 
-  return [...opening, ...items.filter((item) => !seen.has(item.slug))];
+  // A stable daily opening rewards returning without reordering a visitor's
+  // results mid-search. Only the reviewed photographic opening rotates.
+  const day = Math.floor(Date.parse(`${today}T00:00:00Z`) / 86400000);
+  const offset =
+    opening.length && Number.isFinite(day)
+      ? (((day * 7) % opening.length) + opening.length) % opening.length
+      : 0;
+  const rotated = [...opening.slice(offset), ...opening.slice(0, offset)];
+  return [...rotated, ...items.filter((item) => !seen.has(item.slug))];
 }
 /** A photograph gets one place on the homepage, even when a guide belongs to several pathways. */
 export function curateHome(

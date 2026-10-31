@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ExperienceCard, PageIntro } from "@/components/editorial";
+import { PageIntro } from "@/components/editorial";
 import { CompassBrowser } from "@/components/compass-browser";
 import { getExperiences } from "@/lib/data";
 import { pageMetadata } from "@/lib/seo";
@@ -7,6 +7,7 @@ import { orderExperienceDirectory } from "@/lib/home-curation";
 import type { FinderQuery } from "@/lib/experience-finder";
 import { canSurprise } from "@/lib/discovery-choices";
 import { guideMediaFor } from "@/lib/media";
+import { toCardExperience } from "@/lib/catalog-projections";
 
 type Props = {
   searchParams: Promise<Record<string, string | string[] | undefined>>;
@@ -80,32 +81,8 @@ export default async function Explore({ searchParams }: Props) {
               localHref: `/places/${countrySlug}/${regionSlug}`,
             }),
           )}
-        items={items.map(
-          ({
-            slug,
-            title,
-            summary,
-            place,
-            country,
-            countrySlug,
-            regionSlug,
-            field,
-          }) => ({
-            slug,
-            title,
-            summary,
-            place,
-            country,
-            countrySlug,
-            regionSlug,
-            field,
-          }),
-        )}
-      >
-        {items.map((item, index) => (
-          <ExperienceCard key={item.id} item={item} index={index} />
-        ))}
-      </CompassBrowser>
+        items={items.map(toCardExperience)}
+      />
     </div>
   );
 }

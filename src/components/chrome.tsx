@@ -151,6 +151,9 @@ export function Footer({
             <br />
             locally rooted experiences.
           </p>
+          <a className="footer-parent" href="https://innovationauthority.com">
+            An Innovation Authority publication <ArrowUpRight size={14} aria-hidden="true" />
+          </a>
         </div>
         <div className="footer-statement">
           Leave with more

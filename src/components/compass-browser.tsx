@@ -1,13 +1,6 @@
 "use client";
 
-import {
-  Children,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
-  type ReactNode,
-} from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { Search, LayoutGrid, List, ArrowRight, X } from "lucide-react";
 import { interests, matchesInterest, regionDisplayName } from "@/lib/catalog";
@@ -16,11 +9,12 @@ import {
   finderUrl,
   timeFits,
   participationModes,
-  type FinderItem,
   type FinderQuery,
 } from "@/lib/experience-finder";
 import { trackEaEvent } from "@/lib/analytics";
 import { SurpriseDiscovery, type SurpriseItem } from "./surprise-discovery";
+import type { CardExperience } from "@/lib/catalog-projections";
+import { ExperienceCardView } from "./experience-card";
 
 const starterDirections: { label: string; next: FinderQuery }[] = [
   {
@@ -46,12 +40,10 @@ const resultsPageSize = 18;
 export function CompassBrowser({
   items,
   initialQuery,
-  children,
   surpriseItems = [],
 }: {
-  items: FinderItem[];
+  items: CardExperience[];
   initialQuery: FinderQuery;
-  children: ReactNode;
   surpriseItems?: SurpriseItem[];
 }) {
   const [query, setQuery] = useState(initialQuery);
@@ -92,7 +84,6 @@ export function CompassBrowser({
     window.addEventListener("popstate", restore);
     return () => window.removeEventListener("popstate", restore);
   }, []);
-  const cards = Children.toArray(children);
   const matches = useMemo(
     () =>
       items
@@ -104,7 +95,7 @@ export function CompassBrowser({
   const surprise = query.surprise === "1";
   const surpriseMatches = matches.flatMap(({ item, index }) => {
     const choice = surpriseItems.find((entry) => entry.slug === item.slug);
-    return choice ? [{ choice, index }] : [];
+    return choice ? [{ choice, item, index }] : [];
   });
   useEffect(() => {
     setVisibleCount(resultsPageSize);
@@ -406,14 +397,18 @@ export function CompassBrowser({
           key={JSON.stringify({ ...query, view: "" })}
           items={surpriseMatches.map(({ choice }) => choice)}
         >
-          {surpriseMatches.map(({ index }) => cards[index])}
+          {surpriseMatches.map(({ item, index }) => (
+            <ExperienceCardView key={item.id} item={item} index={index} />
+          ))}
         </SurpriseDiscovery>
       ) : matches.length ? (
         <div
           className={`experience-grid ${query.view === "list" ? "list-view" : ""}`}
         >
           <h2 className="sr-only">Experiences in this direction</h2>
-          {visibleMatches.map(({ index }) => cards[index])}
+          {visibleMatches.map(({ item, index }) => (
+            <ExperienceCardView key={item.id} item={item} index={index} />
+          ))}
         </div>
       ) : (
         <div className="finder-empty">

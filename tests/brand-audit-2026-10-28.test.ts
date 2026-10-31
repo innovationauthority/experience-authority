@@ -105,7 +105,7 @@ test("onboarding never hides existing named, notes-only or populated journey dra
 });
 
 test("photo links have explicit names and Aeonik uses real self-hosted cuts", () => {
-  const card = readFileSync("src/components/editorial.tsx", "utf8");
+  const card = readFileSync("src/components/experience-card.tsx", "utf8");
   assert.match(card, /aria-label=\{`Explore \$\{item.title\}`\}/);
   const home = readFileSync("src/app/page.tsx", "utf8");
   assert.match(home, /aria-label=\{`Explore \$\{chapter.name\}`\}/);

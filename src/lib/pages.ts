@@ -70,7 +70,7 @@ export const editorialPages: Record<
     intro:
       "A global selection of locally rooted experiences. For people who want to understand a place by being more present in it.",
     aside:
-      "Experience Authority is a connected spin-off of Innovation Authority, with its own identity, domain and independently built product.",
+      "Experience Authority is owned, published and operated by Innovation Authority Ltd, with its own identity and editorial focus on experiences rooted in place.",
     sections: [
       {
         title: "A different starting point.",
@@ -80,9 +80,9 @@ export const editorialPages: Record<
         ],
       },
       {
-        title: "Independent by design.",
+        title: "An Innovation Authority publication.",
         paragraphs: [
-          "Experience Authority is a connected spin-off of Innovation Authority. The shared interest is in understanding what matters and why. EA has its own identity, website and editorial focus on experiences rooted in place.",
+          "Experience Authority is part of Innovation Authority. The shared interest is in understanding what matters and why. EA applies that perspective to local practices, people and places, with its own website and editorial identity.",
           "Editorial selection must remain separate from commercial work. Providers cannot pay for inclusion, ranking or a more favourable judgement.",
         ],
       },

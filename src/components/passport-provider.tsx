@@ -78,7 +78,7 @@ export function PassportProvider({
     }
   }
   function setStage(id: string, stage?: PassportStage) {
-    if (!ids.includes(id)) return;
+    if (!ready || (!ids.includes(id) && !Object.hasOwn(data.saved, id))) return;
     const saved = { ...data.saved };
     if (stage) saved[id] = stage;
     else delete saved[id];
@@ -197,6 +197,14 @@ export function ExperienceActions({
           {compared ? <Check size={18} /> : <Columns3 size={18} />}{" "}
           {compared ? "In comparison" : "Compare"}
         </button>
+      )}
+      {!compact && saved && (
+        <Link
+          className="text-link"
+          href={`/plan?add=${encodeURIComponent(item.id)}`}
+        >
+          Plan this experience ↗
+        </Link>
       )}
     </div>
   );

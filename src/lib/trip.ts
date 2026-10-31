@@ -1,4 +1,5 @@
-import type { PublicExperience } from "./catalog";
+import type { PlanExperience } from "./catalog-projections";
+import { isLocalGuideId } from "./passport";
 
 export const tripStages = {
   idea: "Still an idea",
@@ -27,11 +28,10 @@ export function hasTripDraft(trip: Trip) {
   );
 }
 
-export function sanitizeTrip(value: unknown, allowedIds: string[]): Trip {
+export function sanitizeTrip(value: unknown): Trip {
   if (!value || typeof value !== "object" || Array.isArray(value))
     return { ...emptyTrip, entries: [] };
   const input = value as Record<string, unknown>;
-  const allowed = new Set(allowedIds);
   const seen = new Set<string>();
   const entries: TripEntry[] = [];
   if (Array.isArray(input.entries))
@@ -39,8 +39,7 @@ export function sanitizeTrip(value: unknown, allowedIds: string[]): Trip {
       if (
         !item ||
         typeof item !== "object" ||
-        typeof item.id !== "string" ||
-        !allowed.has(item.id) ||
+        !isLocalGuideId(item.id) ||
         seen.has(item.id)
       )
         continue;
@@ -69,7 +68,7 @@ export function sanitizeTrip(value: unknown, allowedIds: string[]): Trip {
 /** Sharing omits free-text names and notes unless the visitor explicitly includes them. */
 export function tripText(
   trip: Trip,
-  items: PublicExperience[],
+  items: PlanExperience[],
   includeNotes = false,
 ) {
   const lines = [
@@ -81,7 +80,19 @@ export function tripText(
   ];
   for (const entry of [...trip.entries].sort((a, b) => a.day - b.day)) {
     const item = items.find((item) => item.id === entry.id);
-    if (!item) continue;
+    if (!item) {
+      lines.push(
+        `Day ${entry.day} | Guide currently unavailable`,
+        "This saved stop is retained, but its access details are not currently published.",
+      );
+      if (includeNotes) {
+        lines.push(`Saved reference: ${entry.id}`);
+        if (entry.note) lines.push(`My note: ${entry.note}`);
+        if (entry.stage) lines.push(`My status: ${tripStages[entry.stage]}`);
+      }
+      lines.push("");
+      continue;
+    }
     lines.push(
       `Day ${entry.day} | ${item.title}`,
       `${item.place}, ${item.country} · ${item.duration}`,

@@ -4,7 +4,7 @@ import { useEffect, useState, type ReactNode } from "react";
 import Link from "next/link";
 import { usePassport } from "./passport-provider";
 import { ShareButton } from "./share-button";
-import type { PublicExperience } from "@/lib/catalog";
+import type { PlanExperience } from "@/lib/catalog-projections";
 import {
   emptyTrip,
   hasTripDraft,
@@ -20,9 +20,11 @@ const storageKey = "ea:trip:v1";
 export function TripPlanner({
   items,
   startingPlaces,
+  suggestedItemId,
 }: {
-  items: PublicExperience[];
+  items: PlanExperience[];
   startingPlaces?: ReactNode;
+  suggestedItemId?: string;
 }) {
   const { data, ready: passportReady } = usePassport();
   const [trip, setTrip] = useState<Trip>(emptyTrip);
@@ -31,13 +33,9 @@ export function TripPlanner({
   const [includeNotes, setIncludeNotes] = useState(false);
   const [confirmReset, setConfirmReset] = useState(false);
   useEffect(() => {
-    const ids = items.map((item) => item.id);
     try {
       setTrip(
-        sanitizeTrip(
-          JSON.parse(localStorage.getItem(storageKey) || "null"),
-          ids,
-        ),
+        sanitizeTrip(JSON.parse(localStorage.getItem(storageKey) || "null")),
       );
     } catch {
       setMessage(
@@ -48,14 +46,14 @@ export function TripPlanner({
     function sync(event: StorageEvent) {
       if (event.key !== storageKey && event.key !== null) return;
       try {
-        setTrip(sanitizeTrip(JSON.parse(event.newValue || "null"), ids));
+        setTrip(sanitizeTrip(JSON.parse(event.newValue || "null")));
       } catch {
         /* malformed external storage is ignored */
       }
     }
     window.addEventListener("storage", sync);
     return () => window.removeEventListener("storage", sync);
-  }, [items]);
+  }, []);
   function update(next: Trip) {
     setTrip(next);
     try {
@@ -90,11 +88,12 @@ export function TripPlanner({
       (entry) => items.find((item) => item.id === entry.id)?.countrySlug || [],
     ),
   );
+  const suggested = items.find((item) => item.id === suggestedItemId);
   if (!ready || !passportReady)
     return <p role="status">Opening your journey…</p>;
   // Never hide or replace an existing draft, including a notes-only journey.
   const hasDraft = hasTripDraft(trip);
-  if (!hasDraft && available.length === 0)
+  if (!hasDraft && available.length === 0 && !suggested)
     return (
       <section className="journey-start" aria-labelledby="journey-start-title">
         <div className="journey-start-intro">
@@ -158,6 +157,37 @@ export function TripPlanner({
           here is a booking or an automatically checked itinerary.
         </p>
       </div>
+      {suggested && (
+        <div className="trip-suggestion">
+          <p className="eyebrow">Bring this idea into your days</p>
+          <h3>{suggested.title}</h3>
+          <p>
+            {suggested.place}, {suggested.country}
+          </p>
+          {trip.entries.some((entry) => entry.id === suggested.id) ? (
+            <p role="status">
+              Already in your plan. Choose its day and add your notes below.
+            </p>
+          ) : (
+            <button
+              type="button"
+              className="button button-dark"
+              onClick={() => {
+                update({
+                  ...trip,
+                  entries: [
+                    ...trip.entries,
+                    { id: suggested.id, day: 1, note: "" },
+                  ],
+                });
+                trackEaEvent("journey_add_guide", { guide_id: suggested.id });
+              }}
+            >
+              Add to my journey
+            </button>
+          )}
+        </div>
+      )}
       {hasDraft && (
         <label className="trip-name">
           Journey name
@@ -218,7 +248,7 @@ export function TripPlanner({
           .sort((a, b) => a.day - b.day)
           .map((entry) => {
             const item = items.find((item) => item.id === entry.id);
-            if (!item) return null;
+            const title = item?.title || "Guide currently unavailable";
             return (
               <li key={entry.id} className="trip-entry">
                 <label className="trip-day">
@@ -228,7 +258,7 @@ export function TripPlanner({
                     min={1}
                     max={60}
                     value={entry.day}
-                    aria-label={`Day for ${item.title}`}
+                    aria-label={`Day for ${title}`}
                     onChange={(event) => {
                       const day = Number(event.target.value);
                       if (Number.isInteger(day) && day >= 1 && day <= 60)
@@ -242,21 +272,35 @@ export function TripPlanner({
                   />
                 </label>
                 <div className="trip-entry-body">
-                  <p className="eyebrow">
-                    {item.place} / {item.country}
-                  </p>
-                  <h3>
-                    <Link href={`/experiences/${item.slug}`}>
-                      {item.title} ↗
-                    </Link>
-                  </h3>
-                  <p>{item.duration}</p>
-                  <p>{item.participation}</p>
+                  {item ? (
+                    <>
+                      <p className="eyebrow">
+                        {item.place} / {item.country}
+                      </p>
+                      <h3>
+                        <Link href={`/experiences/${item.slug}`}>
+                          {item.title} ↗
+                        </Link>
+                      </h3>
+                      <p>{item.duration}</p>
+                      <p>{item.participation}</p>
+                    </>
+                  ) : (
+                    <>
+                      <h3>{title}</h3>
+                      <p>
+                        This guide is not currently published. Your day, status
+                        and notes are safe here. Check current arrangements
+                        directly before travelling.
+                      </p>
+                      <p className="small-note">Saved reference: {entry.id}</p>
+                    </>
+                  )}
                   <div className="trip-planning-state">
                     <label>
                       My planning status
                       <select
-                        aria-label={`Planning status for ${item.title}`}
+                        aria-label={`Planning status for ${title}`}
                         value={entry.stage || "idea"}
                         onChange={(event) =>
                           update({
@@ -280,7 +324,7 @@ export function TripPlanner({
                       </select>
                     </label>
                   </div>
-                  {item.guideReview && (
+                  {item?.guideReview && (
                     <a
                       className="text-link"
                       href={item.guideReview.accessUrl}
@@ -312,7 +356,7 @@ export function TripPlanner({
                   <button
                     className="text-link"
                     type="button"
-                    aria-label={`Remove ${item.title} from plan`}
+                    aria-label={`Remove ${title} from plan`}
                     onClick={() =>
                       update({
                         ...trip,

@@ -126,8 +126,13 @@ export default async function Today({ searchParams }: Props) {
             title="Where the idea leads next."
           />
           <div className="experience-grid">
-            {related.map(({ item }) => (
-              <ExperienceCard key={item.id} item={item} />
+            {related.map(({ item, label, href }) => (
+              <div key={item.id}>
+                <Link className="connection-label" href={href}>
+                  {label} <span aria-hidden="true">↗</span>
+                </Link>
+                <ExperienceCard item={item} />
+              </div>
             ))}
           </div>
         </section>
