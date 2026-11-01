@@ -471,76 +471,81 @@ export function TripPlanner({
                       <p className="small-note">Saved reference: {entry.id}</p>
                     </>
                   )}
-                  <div className="trip-planning-state">
+                  <details className="trip-edit-details">
+                    <summary>Edit status and notes</summary>
+                    <div className="trip-planning-state">
+                      <label>
+                        My planning status
+                        <select
+                          aria-label={`Planning status for ${title}`}
+                          value={entry.stage || "idea"}
+                          onChange={(event) =>
+                            update({
+                              ...trip,
+                              entries: trip.entries.map((e) =>
+                                e.id === entry.id
+                                  ? {
+                                      ...e,
+                                      stage: event.target.value as TripStage,
+                                    }
+                                  : e,
+                              ),
+                            })
+                          }
+                        >
+                          {Object.entries(tripStages).map(([value, label]) => (
+                            <option key={value} value={value}>
+                              {label}
+                            </option>
+                          ))}
+                        </select>
+                      </label>
+                    </div>
+                    {item?.guideReview && (
+                      <a
+                        className="text-link"
+                        href={item.guideReview.accessUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Check details & booking with the host ↗
+                        <span className="sr-only"> (opens a new tab)</span>
+                      </a>
+                    )}
                     <label>
-                      My planning status
-                      <select
-                        aria-label={`Planning status for ${title}`}
-                        value={entry.stage || "idea"}
+                      My note
+                      <textarea
+                        maxLength={600}
+                        value={entry.note}
+                        placeholder="Preferred time, a question to ask, something to remember…"
                         onChange={(event) =>
                           update({
                             ...trip,
                             entries: trip.entries.map((e) =>
                               e.id === entry.id
-                                ? {
-                                    ...e,
-                                    stage: event.target.value as TripStage,
-                                  }
+                                ? { ...e, note: event.target.value }
                                 : e,
                             ),
                           })
                         }
-                      >
-                        {Object.entries(tripStages).map(([value, label]) => (
-                          <option key={value} value={value}>
-                            {label}
-                          </option>
-                        ))}
-                      </select>
+                      />
                     </label>
-                  </div>
-                  {item?.guideReview && (
-                    <a
+                    <button
                       className="text-link"
-                      href={item.guideReview.accessUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Check details & booking with the host ↗
-                      <span className="sr-only"> (opens a new tab)</span>
-                    </a>
-                  )}
-                  <label>
-                    My note
-                    <textarea
-                      maxLength={600}
-                      value={entry.note}
-                      placeholder="Preferred time, a question to ask, something to remember…"
-                      onChange={(event) =>
+                      type="button"
+                      aria-label={`Remove ${title} from plan`}
+                      onClick={() =>
                         update({
                           ...trip,
-                          entries: trip.entries.map((e) =>
-                            e.id === entry.id
-                              ? { ...e, note: event.target.value }
-                              : e,
+                          entries: trip.entries.filter(
+                            (e) => e.id !== entry.id,
                           ),
                         })
                       }
-                    />
-                  </label>
-                  <button
-                    className="text-link"
-                    type="button"
-                    aria-label={`Remove ${title} from plan`}
-                    onClick={() =>
-                      update({
-                        ...trip,
-                        entries: trip.entries.filter((e) => e.id !== entry.id),
-                      })
-                    }
-                  >
-                    Remove from plan
-                  </button>
+                    >
+                      Remove from plan
+                    </button>
+                  </details>
                 </div>
               </li>
             );

@@ -36,8 +36,12 @@ export function PassportView({
   const tabs = [
     ["all", "All saved"],
     ["plan", "My journey"],
-    ...Object.entries(names),
-    ["compare", `Compare (${data.compare.length}/3)`],
+    ...Object.entries(names).filter(([stage]) =>
+      Object.values(data.saved).includes(stage as PassportStage),
+    ),
+    ...(data.compare.length || view === "compare"
+      ? [["compare", `Compare (${data.compare.length}/3)`]]
+      : []),
   ];
   return (
     <>

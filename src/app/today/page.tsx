@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { RevealList } from "@/components/reveal-list";
 import { notFound } from "next/navigation";
 import {
   Photo,
@@ -150,7 +151,10 @@ export default async function Today({ searchParams }: Props) {
           remain here to revisit and share.
         </p>
         {previous.length ? (
-          <div className="archive-links">
+          <RevealList
+            className="archive-links"
+            label="Show earlier discoveries"
+          >
             {previous.map((edition) => {
               const archiveMedia = guideMediaFor(edition.item.id)!;
               const href = `/today?date=${edition.date}`;
@@ -176,7 +180,7 @@ export default async function Today({ searchParams }: Props) {
                 </article>
               );
             })}
-          </div>
+          </RevealList>
         ) : (
           <p className="section-note">
             This is the first edition. The archive will grow as the next dated

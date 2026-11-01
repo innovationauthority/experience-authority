@@ -237,7 +237,10 @@ export default async function Place({ params, searchParams }: Props) {
         </p>
       )}
       {chapters.map((chapter) => (
-        <CityChapterSection key={chapter.slug} chapter={chapter} />
+        <details className="destination-chapter-details" key={chapter.slug}>
+          <summary>How to combine these experiences: {chapter.name}</summary>
+          <CityChapterSection chapter={chapter} />
+        </details>
       ))}
       {elsewhere.length > 0 && (
         <section className="destination-elsewhere">

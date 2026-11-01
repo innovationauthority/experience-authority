@@ -1,65 +1,67 @@
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
-import { PageIntro } from "@/components/editorial";
-import { fields } from "@/lib/catalog";
-import { demoMode, getExperiences } from "@/lib/data";
+import { PageIntro, Photo, ImageCredit } from "@/components/editorial";
+import { interests, matchesInterest } from "@/lib/catalog";
+import { getExperiences } from "@/lib/data";
+import { guideMediaFor } from "@/lib/media";
 import { pageMetadata } from "@/lib/seo";
 export const metadata = pageMetadata(
-  "Fields of experience",
-  "Explore the fields of experience that already contain complete, sourced public guides.",
+  "Ways to experience a place",
+  "Explore local experiences through six interests, with practical guides and sources.",
   "/fields",
 );
 export default function Fields() {
   const items = getExperiences();
-  const activeFields = fields.filter((field) =>
-    items.some((item) => item.field === field.slug),
-  );
+  const covers: Record<string, string> = {
+    "eat-drink": "a-bowl-of-attention",
+    "make-learn": "lift-a-pattern-from-the-water",
+    "move-water": "venice-through-an-oar",
+    "explore-reflect": "follow-balis-water-before-the-rice",
+    "swim-reset": "marble-steam-istanbul",
+    "shared-rituals": "stay-for-the-session",
+  };
   return (
     <div className="wrap page-section fields-page">
-      <PageIntro eyebrow="Ways of being there" title="Follow your curiosity.">
+      <PageIntro eyebrow="Six ways in" title="Follow your curiosity.">
         <p>
-          {activeFields.length} active fields in the current edition. Every one
-          opens to complete guides, practical access information and sources.
+          Start with what you feel like doing. Find the place through the
+          experience.
         </p>
       </PageIntro>
-      <div className="field-group-heading">
-        <p className="eyebrow">Explore now</p>
-        <p>
-          Each active field already has at least one complete public-source
-          guide.
-        </p>
-      </div>
-      <div className="directory-grid">
-        {activeFields.map((field, index) => {
-          const fieldItems = items.filter((item) => item.field === field.slug);
-          const samplePlaces = fieldItems
-            .slice(0, 3)
-            .map((item) => item.place)
-            .join(" · ");
+      <div className="place-card-grid">
+        {interests.map((interest) => {
+          const guides = items.filter((item) =>
+            matchesInterest(item, interest),
+          );
+          const preferred = guides.find(
+            (item) => item.slug === covers[interest.slug],
+          );
+          const media =
+            (preferred && guideMediaFor(preferred.id)) ||
+            guides.map((item) => guideMediaFor(item.id)).find(Boolean);
           return (
-            <Link
-              href={`/fields/${field.slug}`}
-              className="directory-tile"
-              key={field.slug}
-            >
-              <span className="eyebrow">
-                Field {String(index + 1).padStart(2, "0")}
-              </span>
+            <article className="place-card" key={interest.slug}>
+              {media && (
+                <div className="place-card-image">
+                  <Link
+                    href={`/explore?interest=${interest.slug}`}
+                    aria-label={`Explore ${interest.name}`}
+                  >
+                    <Photo
+                      src={media.src}
+                      alt={media.alt}
+                      sizes="(max-width: 600px) 100vw, 33vw"
+                    />
+                  </Link>
+                  <ImageCredit media={media} />
+                </div>
+              )}
               <h2>
-                {field.name}
-                <ArrowUpRight size={25} />
+                <Link href={`/explore?interest=${interest.slug}`}>
+                  {interest.name} ↗
+                </Link>
               </h2>
-              <p>{field.line}</p>
-              <small>
-                {fieldItems.length}{" "}
-                {demoMode
-                  ? "demo stories"
-                  : fieldItems.length === 1
-                    ? "guide"
-                    : "guides"}
-                {samplePlaces && ` / ${samplePlaces}`}
-              </small>
-            </Link>
+              <p>{guides.length} experiences to discover</p>
+            </article>
           );
         })}
       </div>

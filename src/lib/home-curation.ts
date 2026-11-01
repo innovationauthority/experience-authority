@@ -17,7 +17,7 @@ export const heroGuideRotations = [
   ["marble-steam-istanbul", "venice-through-an-oar", "a-bowl-of-attention"],
   [
     "follow-balis-water-before-the-rice",
-    "a-city-in-the-water",
+    "a-bowl-of-attention",
     "cook-beyond-the-postcard",
   ],
   [

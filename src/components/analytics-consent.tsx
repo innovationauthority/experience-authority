@@ -154,12 +154,10 @@ export function AnalyticsConsent({ measurementId }: { measurementId: string }) {
       aria-labelledby="analytics-consent-title"
       aria-describedby="analytics-consent-copy"
     >
-      <p className="eyebrow">Analytics choice</p>
       <h2 id="analytics-consent-title">Private by default.</h2>
       <p id="analytics-consent-copy">
-        Count visits and a small set of actions. No advertising. Search,
-        Passport and journey notes stay private. Analytics remains off until
-        you allow it.
+        Optional analytics helps improve EA. No advertising. Your searches and
+        journey notes stay private.
       </p>
       <div className="analytics-consent-actions">
         <button
@@ -170,11 +168,11 @@ export function AnalyticsConsent({ measurementId }: { measurementId: string }) {
           Allow analytics
         </button>
         <button
-          className="button button-paper"
+          className="button"
           type="button"
           onClick={() => remember("denied")}
         >
-          Keep analytics off
+          Decline analytics
         </button>
       </div>
       <Link href="/privacy">How it works</Link>

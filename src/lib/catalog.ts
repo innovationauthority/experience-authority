@@ -1384,6 +1384,11 @@ const connectedLocalAreas: readonly {
   label: string;
 }[] = [
   {
+    countrySlug: "malaysia",
+    regionSlugs: ["george-town", "penang"],
+    label: "George Town and Penang",
+  },
+  {
     countrySlug: "portugal",
     regionSlugs: ["lisbon", "carcavelos"],
     label: "Lisbon and Carcavelos",

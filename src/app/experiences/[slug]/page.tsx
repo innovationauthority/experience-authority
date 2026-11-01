@@ -139,6 +139,12 @@ export default async function Experience({ params }: Props) {
           </dl>
           {item.guideReview && (
             <div className="detail-start-actions">
+              <Link
+                className="button button-dark"
+                href={`/plan?add=${encodeURIComponent(item.id)}`}
+              >
+                Plan this experience ↗
+              </Link>
               <ExperienceActions item={item} />
               <a
                 className="button button-outline"
@@ -153,8 +159,8 @@ export default async function Experience({ params }: Props) {
                 </span>
               </a>
               <span className="small-note">
-                Save it first, then place it into a day in your EA Passport.
-                Check current details directly with the host before travelling.
+                Choose a day for this experience, or save it for later. Check
+                current details directly with the host before travelling.
               </span>
             </div>
           )}

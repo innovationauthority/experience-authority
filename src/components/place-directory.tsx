@@ -16,6 +16,7 @@ export function PlaceDirectory({
   }[];
   children: ReactNode;
 }) {
+  const [visibleCount, setVisibleCount] = useState(12);
   const [query, setQuery] = useState("");
   const terms = normalizeSearch(query).trim().split(/\s+/).filter(Boolean);
   const cards = Children.toArray(children);
@@ -39,7 +40,10 @@ export function PlaceDirectory({
           type="search"
           maxLength={100}
           value={query}
-          onChange={(event) => setQuery(event.target.value)}
+          onChange={(event) => {
+            setQuery(event.target.value);
+            setVisibleCount(12);
+          }}
           placeholder="Search a city, area or country"
         />
       </div>
@@ -54,9 +58,20 @@ export function PlaceDirectory({
           : "Begin with a familiar point of reference, then keep going for the less expected."}
       </p>
       {matches.length ? (
-        <div className="place-card-grid">
-          {matches.map(({ index }) => cards[index])}
-        </div>
+        <>
+          <div className="place-card-grid">
+            {matches.slice(0, visibleCount).map(({ index }) => cards[index])}
+          </div>
+          {visibleCount < matches.length && (
+            <button
+              type="button"
+              className="button button-outline"
+              onClick={() => setVisibleCount(visibleCount + 12)}
+            >
+              Show more destinations ({matches.length - visibleCount} remaining)
+            </button>
+          )}
+        </>
       ) : (
         <div className="finder-empty">
           <h2>We have not published a guide here yet.</h2>

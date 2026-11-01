@@ -8,6 +8,7 @@ import {
   type ReactNode,
 } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Bookmark, Check, Columns3, X } from "lucide-react";
 import {
   emptyPassport,
@@ -42,6 +43,7 @@ export function PassportProvider({
   ids: string[];
   children: ReactNode;
 }) {
+  const pathname = usePathname();
   const [data, setData] = useState<PassportData>(emptyPassport);
   const [ready, setReady] = useState(false);
   const [message, setMessage] = useState("");
@@ -139,7 +141,7 @@ export function PassportProvider({
       <div className="sr-only" role="status" aria-live="polite">
         {message}
       </div>
-      {data.compare.length > 0 && (
+      {data.compare.length > 0 && pathname !== "/passport" && (
         <aside className="compare-tray" aria-label="Your comparison">
           <span>
             <Columns3 size={18} aria-hidden="true" />{" "}

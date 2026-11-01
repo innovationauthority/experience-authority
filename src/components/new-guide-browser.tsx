@@ -30,6 +30,7 @@ export function NewGuideBrowser({
   children: ReactNode;
 }) {
   const { data, ready } = usePassport();
+  const [editionCount, setEditionCount] = useState(1);
   const [period, setPeriod] = useState("");
   const [interest, setInterest] = useState("");
   const [country, setCountry] = useState("");
@@ -90,7 +91,10 @@ export function NewGuideBrowser({
               Published
               <select
                 value={period}
-                onChange={(event) => setPeriod(event.target.value)}
+                onChange={(event) => {
+                  setPeriod(event.target.value);
+                  setEditionCount(1);
+                }}
               >
                 <option value="">All publication dates</option>
                 <option value="week">Past 7 days</option>
@@ -100,7 +104,10 @@ export function NewGuideBrowser({
               What interests you
               <select
                 value={interest}
-                onChange={(event) => setInterest(event.target.value)}
+                onChange={(event) => {
+                  setInterest(event.target.value);
+                  setEditionCount(1);
+                }}
               >
                 <option value="">All interests</option>
                 {interests
@@ -118,7 +125,10 @@ export function NewGuideBrowser({
               Country or territory
               <select
                 value={country}
-                onChange={(event) => setCountry(event.target.value)}
+                onChange={(event) => {
+                  setCountry(event.target.value);
+                  setEditionCount(1);
+                }}
               >
                 <option value="">Anywhere</option>
                 {countries.map(([slug, name]) => (
@@ -176,7 +186,7 @@ export function NewGuideBrowser({
           </button>
         </div>
       )}
-      {dates.map((date) => {
+      {dates.slice(0, editionCount).map((date) => {
         const group = visible.filter(({ item }) => item.date === date);
         return (
           <section className="release-section" key={date}>
@@ -203,6 +213,15 @@ export function NewGuideBrowser({
           </section>
         );
       })}
+      {editionCount < dates.length && (
+        <button
+          className="button button-outline"
+          type="button"
+          onClick={() => setEditionCount(editionCount + 1)}
+        >
+          Show earlier edition ({dates.length - editionCount} remaining)
+        </button>
+      )}
     </div>
   );
 }
