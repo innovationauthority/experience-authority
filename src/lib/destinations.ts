@@ -1,4 +1,8 @@
-import { interests, matchesInterest, type PublicExperience } from "./catalog";
+import {
+  browseInterests as interests,
+  matchesInterest,
+  type PublicExperience,
+} from "./catalog";
 
 /** Geographic scope is exact. A shared country is never treated as "nearby". */
 export function destinationCoverage(

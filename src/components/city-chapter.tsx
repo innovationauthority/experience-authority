@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { interests } from "@/lib/catalog";
+import { browseInterests as interests, matchesInterest } from "@/lib/catalog";
 import { chapterHref, type resolveCityChapters } from "@/lib/city-chapters";
 import { guideMediaFor } from "@/lib/media";
 import { SITE_ORIGIN } from "@/lib/seo";
@@ -53,9 +53,8 @@ export function CityChapterSection({
               </span>
               <p className="eyebrow">
                 {
-                  interests.find((interest) =>
-                    interest.fields.includes(item.field),
-                  )?.name
+                  interests.find((interest) => matchesInterest(item, interest))
+                    ?.name
                 }
               </p>
               <h3>

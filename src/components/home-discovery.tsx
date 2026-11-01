@@ -259,9 +259,11 @@ export function HomeDiscovery({ items }: { items: DiscoveryItem[] }) {
       >
         <span>Start with</span>
         <Link href="/explore?interest=eat-drink">Eat &amp; drink</Link>
-        <Link href="/explore?interest=make-learn">Make</Link>
-        <Link href="/explore?interest=move-water">Move</Link>
-        <Link href="/explore?interest=swim-reset">Reset</Link>
+        <Link href="/explore?interest=art-culture">Art &amp; culture</Link>
+        <Link href="/explore?interest=design-innovation">
+          Design &amp; innovation
+        </Link>
+        <Link href="/fields">All interests</Link>
         <Link href="/explore">All experiences</Link>
         <Link href="/explore?surprise=1#compass-results">Surprise me ↗</Link>
       </nav>

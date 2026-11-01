@@ -68,7 +68,7 @@ test("visitor interests can overlap without duplicating the source record", () =
 test("Singapore offers twelve guides across visitor interests without inflating its guide count", () => {
   const singapore = destinationCoverage(publicGuides, "singapore", "singapore");
   assert.equal(singapore.local.length, 12);
-  assert.equal(singapore.categories.length, 6);
+  assert.equal(singapore.categories.length, 7);
   assert.equal(singapore.elsewhere.length, 0);
   for (const guide of publicGuides) {
     assert.ok(

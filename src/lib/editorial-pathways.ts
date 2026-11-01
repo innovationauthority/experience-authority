@@ -28,6 +28,27 @@ export type EditorialPathway = {
  */
 export const editorialPathways = [
   {
+    slug: "a-place-still-being-invented",
+    kind: "city",
+    title: "A place still being invented",
+    promise:
+      "Art, design and engineering that give a familiar city another dimension.",
+    intro:
+      "A city is shaped by what it makes and what it reimagines. Read the decisions inside a car in Turin, a chair in Copenhagen or a silhouette in Antwerp. In Cape Town, a former grain silo opens onto contemporary African art. Rome puts ancient sculpture among industrial machinery, while Berlin gives ordinary objects a second look. Choose a question that interests you and let the place complicate it.",
+    guideSlugs: [
+      "read-a-century-of-car-design-in-turin",
+      "learn-to-read-a-chair-in-copenhagen",
+      "look-at-the-shape-before-the-label-in-antwerp",
+      "follow-a-museum-guide-beyond-cape-towns-silo-atrium",
+      "put-the-gods-back-among-the-machines",
+      "meet-berlin-in-a-cabinet-of-ordinary-things",
+    ],
+    visitorUse:
+      "Choose the object, building or artistic perspective you want to understand. Check each guide for admission, exhibition changes and tour requirements. These are separate visits, not one bookable itinerary.",
+    returnAndShare:
+      "Save a visit beside a local meal or performance, then share the combination with someone whose eye you trust.",
+  },
+  {
     slug: "the-pleasure-of-being-a-beginner",
     kind: "learned-skills",
     title: "The pleasure of being a beginner",

@@ -68,15 +68,22 @@ export const editorialPages: Record<
     eyebrow: "About Experience Authority",
     title: "The world is not a checklist.",
     intro:
-      "A global selection of locally rooted experiences. For people who want to understand a place by being more present in it.",
+      "Independent discoveries for curious people. Food, art, design, music and unexpected ways to experience a place.",
     aside:
       "Experience Authority is owned, published and operated by Innovation Authority Ltd, with its own identity and editorial focus on experiences rooted in place.",
     sections: [
       {
         title: "A different starting point.",
         paragraphs: [
-          "A place becomes more interesting when you know what to pay attention to. The timing of a shared meal. The movement behind a craft. The work that gives a landscape its shape. Experience Authority follows those connections through original guides to locally rooted experiences.",
+          "A place becomes more interesting when you know what to pay attention to. An inventive meal. A room transformed by art. The decisions behind a design, a performance or a working landscape. Experience Authority follows those connections through original guides to locally rooted experiences.",
           "Use Compass when you know what you feel like doing. Browse Places when you already have a destination. Follow a Collection when you want an unexpected connection, or open the Journal for a more considered way to shape a day.",
+        ],
+      },
+      {
+        title: "A place is still being invented.",
+        paragraphs: [
+          "Local culture includes what people create today. Contemporary art, ambitious restaurants, engineering, play and new ways of gathering belong alongside established traditions. Familiar names and unexpected discoveries both have a place here.",
+          "We look for a specific experience worth your time. Fame, price, novelty and awards can provide context, but none is enough on its own. A guide must explain what you can actually do, why it matters here and how to take part.",
         ],
       },
       {

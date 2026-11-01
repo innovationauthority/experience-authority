@@ -3,7 +3,11 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { Search, LayoutGrid, List, ArrowRight, X } from "lucide-react";
-import { interests, matchesInterest, regionDisplayName } from "@/lib/catalog";
+import {
+  browseInterests as interests,
+  matchesInterest,
+  regionDisplayName,
+} from "@/lib/catalog";
 import {
   matchesFinder,
   finderUrl,
@@ -50,6 +54,18 @@ export function CompassBrowser({
   const [hydrated, setHydrated] = useState(false);
   const [visibleCount, setVisibleCount] = useState(resultsPageSize);
   const hasMounted = useRef(false);
+  const interestNav = useRef<HTMLElement>(null);
+  useEffect(() => {
+    const nav = interestNav.current;
+    const active = nav?.querySelector<HTMLElement>('[aria-current="page"]');
+    if (!nav || !active) return;
+    const bounds = nav.getBoundingClientRect();
+    const target = active.getBoundingClientRect();
+    if (target.left < bounds.left || target.right > bounds.right) {
+      nav.scrollLeft +=
+        target.left - bounds.left - (nav.clientWidth - target.width) / 2;
+    }
+  }, [query.interest]);
   useEffect(() => {
     setHydrated(true);
   }, []);
@@ -325,7 +341,11 @@ export function CompassBrowser({
           )}
         </details>
       </form>
-      <nav className="interest-shortcuts" aria-label="Explore by interest">
+      <nav
+        ref={interestNav}
+        className="interest-shortcuts"
+        aria-label="Explore by interest"
+      >
         <a
           href={finderUrl({ ...query, interest: "", field: "" })}
           aria-current={!query.interest ? "page" : undefined}

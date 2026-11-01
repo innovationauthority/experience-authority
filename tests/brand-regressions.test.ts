@@ -108,7 +108,7 @@ test("the homepage hero follows a stable, hand-curated three-hour rotation", () 
 
 test("every published collection contains available, distinct guides", () => {
   const publicSlugs = new Set(publicGuides.map((guide) => guide.slug));
-  assert.equal(editorialPathways.length, 12);
+  assert.equal(editorialPathways.length, 13);
   for (const pathway of editorialPathways) {
     assert.ok(pathway.guideSlugs.length >= 5, pathway.slug);
     assert.equal(new Set(pathway.guideSlugs).size, pathway.guideSlugs.length);

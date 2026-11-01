@@ -1,7 +1,12 @@
 "use client";
 
 import { Children, useState, type ReactNode } from "react";
-import { interests, matchesInterest, type Field } from "@/lib/catalog";
+import {
+  browseInterests as interests,
+  interestForSlug,
+  matchesInterest,
+  type Field,
+} from "@/lib/catalog";
 import {
   finderUrl,
   discoveryProfiles,
@@ -31,7 +36,7 @@ export function DestinationBrowser({
   const [time, setTime] = useState("");
   const [mode, setMode] = useState("");
   const cards = Children.toArray(children);
-  const interest = interests.find((entry) => entry.slug === selected);
+  const interest = interestForSlug(selected);
   const visible = items
     .map((item, index) => ({ item, index }))
     .filter(({ item }) => {

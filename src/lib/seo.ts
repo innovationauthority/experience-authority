@@ -7,7 +7,7 @@ import { publisher } from "./publisher";
 export const SITE_ORIGIN = "https://experienceauthority.com";
 export const SITE_NAME = "Experience Authority";
 export const SITE_DESCRIPTION =
-  "A global selection of locally rooted experiences. Experience first. Context always.";
+  "Discover food, art, design and unexpected local experiences. Independent guides with practical details, sources and ideas for your next journey.";
 type Environment = Record<string, string | undefined>;
 
 /** Explicit release switches. Preview hosts, demo builds and missing settings fail closed. */

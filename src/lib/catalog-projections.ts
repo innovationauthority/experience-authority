@@ -1,5 +1,5 @@
 import type { PublicExperience } from "./catalog";
-import { interests } from "./catalog";
+import { browseInterests as interests, matchesInterest } from "./catalog";
 import { guideMediaFor, imageCreditText } from "./media";
 import { cardPlanning } from "./card-planning";
 
@@ -74,7 +74,7 @@ export function toCardExperience(item: PublicExperience): CardExperience {
     image,
     demo,
     category:
-      interests.find((interest) => interest.fields.includes(field))?.name ||
+      interests.find((interest) => matchesInterest(item, interest))?.name ||
       field,
     planning: cardPlanning(item),
     ...(media

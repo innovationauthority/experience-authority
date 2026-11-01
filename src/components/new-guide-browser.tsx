@@ -2,7 +2,11 @@
 
 import { Children, useState, type ReactNode } from "react";
 import Link from "next/link";
-import { interests, matchesInterest } from "@/lib/catalog";
+import {
+  browseInterests as interests,
+  interestForSlug,
+  matchesInterest,
+} from "@/lib/catalog";
 import {
   areaKey,
   savedAreas,
@@ -47,7 +51,7 @@ export function NewGuideBrowser({
       areas.has(areaKey(item) || "") &&
       !saved.includes(item.id),
   );
-  const selectedInterest = interests.find((entry) => entry.slug === interest);
+  const selectedInterest = interestForSlug(interest);
   const visible = items
     .map((item, index) => ({ item, index }))
     .filter(

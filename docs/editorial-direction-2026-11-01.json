@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-01",
+  "audience": "Curious contemporary urban visitors. Modern culture is as relevant as inherited practice.",
+  "visitorInterests": [
+    "Eat & drink",
+    "Art & culture",
+    "Design & innovation",
+    "Make & create",
+    "Play & adventure",
+    "Nature & outdoors",
+    "Rest & wellbeing",
+    "Music & social"
+  ],
+  "principles": [
+    "Separate visitor navigation from the six historical publication allocations. Do not rewrite archived editions.",
+    "Preserve legacy interest links. Show only populated interests in discovery surfaces.",
+    "Familiar icons, ambitious institutions and unexpected discoveries are all eligible. Price, fame and awards do not determine inclusion.",
+    "Local context includes contemporary creation and innovation, not only heritage.",
+    "Use explicit curated membership for design and innovation. Do not relabel every museum as technology."
+  ],
+  "researchPriorities": [
+    "Verified immersive and digital art with a specific visitor experience, including investigation of teamLab and Dataland opening and access.",
+    "Local signature dishes at distinctive restaurants, tasting menus, wineries and distilleries. Verify any awards or quality claims separately.",
+    "Public engineering and production visits including yachtbuilding where public access genuinely exists.",
+    "Distinctive theme parks, play, sound, performance and contemporary social spaces."
+  ],
+  "publicationBoundary": "These priorities are a research queue, not verified or published experiences. No new attraction, Michelin award, partnership, reservation or site visit is asserted by this navigation update.",
+  "implemented": [
+    "Eight populated visitor interests",
+    "Legacy filters preserved",
+    "Contemporary art and design collection",
+    "Home collection balance between contemporary culture and food",
+    "Updated home, about and site description"
+  ],
+  "next": "Build evidence-backed depth within these interests rather than adding empty subcategories."
+}

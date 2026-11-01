@@ -214,9 +214,13 @@ export function curateHome(
   const offset =
     Math.floor(Date.parse(`${today}T00:00:00Z`) / 86400000) %
     Math.max(pathways.length, 1);
+  const featured = ["a-place-still-being-invented", "what-a-place-tastes-like"];
+  const rotated = [...pathways.slice(offset), ...pathways.slice(0, offset)];
   const orderedPathways = [
-    ...pathways.slice(offset),
-    ...pathways.slice(0, offset),
+    ...featured.flatMap(
+      (slug) => pathways.find((pathway) => pathway.slug === slug) ?? [],
+    ),
+    ...rotated.filter((pathway) => !featured.includes(pathway.slug)),
   ];
   let pathwayCount = 0;
   const homePathways = orderedPathways

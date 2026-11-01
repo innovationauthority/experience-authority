@@ -74,6 +74,7 @@ export type Interest = {
   slug: string;
   name: string;
   fields: readonly Field[];
+  description?: string;
   guideSlugs?: readonly string[];
 };
 export const interests: readonly Interest[] = [
@@ -126,10 +127,82 @@ export const interests: readonly Interest[] = [
     fields: ["gather", "celebrate"],
   },
 ];
+/** Visitor navigation is independent of the six historical publishing allocations. */
+const designGuideSlugs = [
+  "read-a-century-of-car-design-in-turin",
+  "look-at-the-shape-before-the-label-in-antwerp",
+  "learn-to-read-a-chair-in-copenhagen",
+  "meet-berlin-in-a-cabinet-of-ordinary-things",
+  "put-the-gods-back-among-the-machines",
+  "open-a-door-the-underground-left-behind",
+] as const;
+export const browseInterests: readonly Interest[] = [
+  {
+    ...interests[0],
+    description:
+      "Local icons, distinctive restaurants, wine cellars and the people behind the flavour.",
+  },
+  {
+    slug: "art-culture",
+    name: "Art & culture",
+    fields: ["witness", "learn", "work"],
+    description: "Art, architecture and places that change how you see a city.",
+  },
+  {
+    slug: "design-innovation",
+    name: "Design & innovation",
+    fields: [],
+    guideSlugs: designGuideSlugs,
+    description:
+      "Objects, engineering and creative ideas you can encounter up close.",
+  },
+  {
+    ...interests[1],
+    name: "Make & create",
+    description:
+      "Cook, print, shape, blend or build something with your own hands.",
+  },
+  {
+    ...interests[2],
+    name: "Play & adventure",
+    description: "Get moving, take to the water or discover a new way to play.",
+  },
+  {
+    slug: "nature-outdoors",
+    name: "Nature & outdoors",
+    fields: ["nature", "contribute"],
+    description:
+      "Landscapes, wildlife and time outside, with respect for the place.",
+  },
+  {
+    ...interests[4],
+    name: "Rest & wellbeing",
+    description:
+      "Baths, saunas, gardens and stays that give the day another pace.",
+  },
+  {
+    ...interests[5],
+    name: "Music & social",
+    description:
+      "Live music, performance, shared tables and occasions worth joining.",
+  },
+];
+export function interestForSlug(slug?: string) {
+  return (
+    browseInterests.find((interest) => interest.slug === slug) ??
+    interests.find((interest) => interest.slug === slug)
+  );
+}
+
 export function matchesInterest(
   item: { slug: string; field: Field },
   interest: Interest,
 ) {
+  if (
+    interest.slug === "art-culture" &&
+    designGuideSlugs.some((slug) => slug === item.slug)
+  )
+    return false;
   if (interest.slug === "make-learn") {
     return (
       item.field === "make" ||
@@ -217,7 +290,7 @@ export function normalizeSearch(value: string) {
 }
 export function filterExperiences(items: PublicExperience[], query: Query) {
   const q = normalizeSearch((query.q ?? "").trim());
-  const interest = interests.find((entry) => entry.slug === query.interest);
+  const interest = interestForSlug(query.interest);
   return items.filter(
     (item) =>
       (!q ||
@@ -1418,7 +1491,7 @@ export type ExperienceConnection = {
 };
 
 function sharedInterest(a: PublicExperience, b: PublicExperience) {
-  return interests.find(
+  return browseInterests.find(
     (interest) => matchesInterest(a, interest) && matchesInterest(b, interest),
   );
 }

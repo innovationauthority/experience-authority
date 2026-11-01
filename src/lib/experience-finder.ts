@@ -1,5 +1,5 @@
 import {
-  interests,
+  interestForSlug,
   matchesInterest,
   normalizeSearch,
   regionDisplayName,
@@ -37,7 +37,7 @@ export type FinderQuery = {
 };
 export function matchesFinder(item: FinderItem, query: FinderQuery) {
   const profile = discoveryProfiles[item.slug];
-  const interest = interests.find((entry) => entry.slug === query.interest);
+  const interest = interestForSlug(query.interest);
   const haystack = normalizeSearch(
     [
       item.title,

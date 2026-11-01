@@ -2,7 +2,11 @@ import { HomeDiscovery } from "./home-discovery";
 import { HomeHeroMosaic, type HomeHeroStory } from "./home-hero-mosaic";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
-import { interests, type PublicExperience } from "@/lib/catalog";
+import {
+  browseInterests as interests,
+  matchesInterest,
+  type PublicExperience,
+} from "@/lib/catalog";
 import { guideMediaFor, imageCreditText } from "@/lib/media";
 import { heroLeadPositions } from "@/lib/home-curation";
 
@@ -25,7 +29,7 @@ export function HomeHero({
           title: item.title,
           place: item.place,
           field:
-            interests.find((interest) => interest.fields.includes(item.field))
+            interests.find((interest) => matchesInterest(item, interest))
               ?.name || item.field,
           image: item.image,
           imageAlt: item.imageAlt,
@@ -48,8 +52,8 @@ export function HomeHero({
             <em>from within.</em>
           </h1>
           <p className="prototype-hero-lead">
-            Remarkable local experiences, independently chosen and made
-            practical.
+            Food, art, design and unexpected ways into a place. Independently
+            chosen and made practical.
           </p>
           <HomeDiscovery
             items={items.map(

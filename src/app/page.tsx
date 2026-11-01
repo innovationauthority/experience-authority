@@ -6,7 +6,7 @@ import {
   SectionHeading,
   Photo,
 } from "@/components/editorial";
-import { interests, matchesInterest } from "@/lib/catalog";
+import { browseInterests as interests, matchesInterest } from "@/lib/catalog";
 import { HomeBrowse, type HomeBrowseGroup } from "@/components/home-browse";
 import { toCardExperience } from "@/lib/catalog-projections";
 import { featuredChapterSlugs } from "@/lib/chapter-starting-points";
