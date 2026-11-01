@@ -21,9 +21,15 @@ test("28 October weekly pass adds eighteen net-new guides, three per primary are
   const slugs = Object.values(edition20261028).flat() as readonly string[];
   assert.equal(slugs.length, 18);
   assert.equal(new Set(slugs).size, 18);
-  assert.equal(publicGuides.length, 532);
+  assert.equal(publicGuides.length, 535);
   assert.deepEqual([...slugs].sort(), guideBatch60.map((g) => g.slug).sort());
-  const previous = publicGuides.filter((g) => !slugs.includes(g.slug));
+  const previous = publicGuides.filter(
+    (g) =>
+      !slugs.includes(g.slug) &&
+      (guideMediaFor(g.id)?.firstPublishedOn ??
+        guideMediaFor(g.id)?.visualReview.checkedOn ??
+        "") <= "2026-10-28",
+  );
   assert.equal(previous.length, 514);
   assert.deepEqual(
     Object.keys(edition20261028).sort(),

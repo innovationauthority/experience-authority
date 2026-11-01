@@ -1,0 +1,228 @@
+{
+  "date": "2026-11-01",
+  "guides": [
+    "follow-the-art-beyond-the-room-in-tokyo",
+    "watch-a-sports-car-take-shape-in-malvern",
+    "make-your-own-shiraz-blend-in-mclaren-vale"
+  ],
+  "sourceEvidence": "Official visitor pages and destination sources listed individually in each guide. No EA site visit or partnership claimed.",
+  "photoPolicy": "Existing official_source route used. Source-owner credits, not invented photographer names. Reuse rights not independently cleared.",
+  "photographs": [
+    {
+      "id": "tokyo-teamlab-borderless",
+      "download": "https://teamlab-site.imagewave.pictures/b5EBo9Uo-OK6SM09ZTkEZQ/Yt5eET5oZzm6FBicauQUSY/width=1920,format=jpeg",
+      "credit": "teamLab",
+      "visualReview": "Actual installation with visitors, not AI-generated illustrative photography."
+    },
+    {
+      "id": "malvern-morgan-factory",
+      "download": "https://experience.morgan-motor.com/wp-content/uploads/2025/06/Morgan-Factory-257-scaled.jpg",
+      "credit": "Morgan Motor Company"
+    },
+    {
+      "id": "mclaren-vale-blending-bench",
+      "download": "https://www.darenberg.com.au/assets/webshop/cms/34/334.jpg",
+      "credit": "d’Arenberg"
+    }
+  ],
+  "held": [
+    {
+      "candidate": "DATALAND",
+      "reason": "Continue documentary photograph selection and data-participation verification. Not published in this batch."
+    }
+  ],
+  "validation": {
+    "tests": "192 passed",
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "browser": [
+      {
+        "width": 1440,
+        "route": "/",
+        "images": true,
+        "overflow": false,
+        "axeViolations": 0
+      },
+      {
+        "width": 1440,
+        "route": "/today",
+        "images": true,
+        "overflow": false,
+        "axeViolations": 0
+      },
+      {
+        "width": 1440,
+        "route": "/new",
+        "images": true,
+        "overflow": false,
+        "axeViolations": 0
+      },
+      {
+        "width": 1440,
+        "route": "/explore?interest=design-innovation",
+        "images": true,
+        "overflow": false,
+        "axeViolations": 0
+      },
+      {
+        "width": 1440,
+        "route": "/explore?interest=art-culture",
+        "images": true,
+        "overflow": false,
+        "axeViolations": 0
+      },
+      {
+        "width": 1440,
+        "route": "/places/japan/tokyo",
+        "images": true,
+        "overflow": false,
+        "axeViolations": 0
+      },
+      {
+        "width": 1440,
+        "route": "/places/united-kingdom/malvern",
+        "images": true,
+        "overflow": false,
+        "axeViolations": 0
+      },
+      {
+        "width": 1440,
+        "route": "/places/australia/mclaren-vale",
+        "images": true,
+        "overflow": false,
+        "axeViolations": 0
+      },
+      {
+        "width": 1440,
+        "route": "/experiences/follow-the-art-beyond-the-room-in-tokyo",
+        "images": true,
+        "overflow": false,
+        "axeViolations": 0
+      },
+      {
+        "width": 1440,
+        "route": "/experiences/watch-a-sports-car-take-shape-in-malvern",
+        "images": true,
+        "overflow": false,
+        "axeViolations": 0
+      },
+      {
+        "width": 1440,
+        "route": "/experiences/make-your-own-shiraz-blend-in-mclaren-vale",
+        "images": true,
+        "overflow": false,
+        "axeViolations": 0
+      },
+      {
+        "width": 390,
+        "route": "/",
+        "images": true,
+        "overflow": false,
+        "axeViolations": 0
+      },
+      {
+        "width": 390,
+        "route": "/today",
+        "images": true,
+        "overflow": false,
+        "axeViolations": 0
+      },
+      {
+        "width": 390,
+        "route": "/new",
+        "images": true,
+        "overflow": false,
+        "axeViolations": 0
+      },
+      {
+        "width": 390,
+        "route": "/explore?interest=design-innovation",
+        "images": true,
+        "overflow": false,
+        "axeViolations": 0
+      },
+      {
+        "width": 390,
+        "route": "/explore?interest=art-culture",
+        "images": true,
+        "overflow": false,
+        "axeViolations": 0
+      },
+      {
+        "width": 390,
+        "route": "/places/japan/tokyo",
+        "images": true,
+        "overflow": false,
+        "axeViolations": 0
+      },
+      {
+        "width": 390,
+        "route": "/places/united-kingdom/malvern",
+        "images": true,
+        "overflow": false,
+        "axeViolations": 0
+      },
+      {
+        "width": 390,
+        "route": "/places/australia/mclaren-vale",
+        "images": true,
+        "overflow": false,
+        "axeViolations": 0
+      },
+      {
+        "width": 390,
+        "route": "/experiences/follow-the-art-beyond-the-room-in-tokyo",
+        "images": true,
+        "overflow": false,
+        "axeViolations": 0
+      },
+      {
+        "width": 390,
+        "route": "/experiences/watch-a-sports-car-take-shape-in-malvern",
+        "images": true,
+        "overflow": false,
+        "axeViolations": 0
+      },
+      {
+        "width": 390,
+        "route": "/experiences/make-your-own-shiraz-blend-in-mclaren-vale",
+        "images": true,
+        "overflow": false,
+        "axeViolations": 0
+      }
+    ],
+    "localProductionProof": {
+      "checkedAt": "2026-11-01T14:50:26.998Z",
+      "base": "http://127.0.0.1:3127",
+      "results": [
+        {
+          "url": "https://experienceauthority.com/experiences/follow-the-art-beyond-the-room-in-tokyo",
+          "status": 200,
+          "photoSha256": "bf551b964d311fa3b640724df700ac1a9059ff5b05812bd22daf74d79d9a303a",
+          "sitemap": true,
+          "sources": 2,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/watch-a-sports-car-take-shape-in-malvern",
+          "status": 200,
+          "photoSha256": "dbb0aafa392faa23b0bff28e348bbdf97e4e00a9044616c6f6b2d487958b2e12",
+          "sitemap": true,
+          "sources": 4,
+          "optimizedWebp": true
+        },
+        {
+          "url": "https://experienceauthority.com/experiences/make-your-own-shiraz-blend-in-mclaren-vale",
+          "status": 200,
+          "photoSha256": "37531c0aaac0d338d223d7f3943d125827d68551d2b004bc0d67867149ed9e76",
+          "sitemap": true,
+          "sources": 3,
+          "optimizedWebp": true
+        }
+      ],
+      "expiredGuidesExcluded": 32,
+      "totalAuthored": 535,
+      "eligiblePublic": 503
+    }
+  }
+}

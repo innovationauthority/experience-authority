@@ -1,0 +1,785 @@
+{
+  "date": "2026-11-01",
+  "scope": "Modern urban experiences: research shortlist, not newly published guides or a global quality ranking",
+  "candidate_count": 46,
+  "candidates": [
+    {
+      "id": 1,
+      "name": "DATALAND",
+      "place": "Los Angeles, USA",
+      "category": "Art & culture",
+      "editorial_angle_hr": "Proći kroz promjenjive AI i podatkovne umjetničke prostore.",
+      "source": "https://dataland.art/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "teamLab Borderless",
+      "place": "Tokyo, Japan",
+      "category": "Art & culture",
+      "editorial_angle_hr": "Istraživati umjetnost koja prelazi granice prostorija.",
+      "source": "https://www.teamlab.art/e/tokyo/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "teamLab Planets",
+      "place": "Tokyo, Japan",
+      "category": "Art & culture",
+      "editorial_angle_hr": "Ući tijelom u instalacije s vodom i svjetlom. Alternativa Borderlessu za prvi val.",
+      "source": "https://teamlabplanets.dmm.com/en",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Omega Mart",
+      "place": "Las Vegas, USA",
+      "category": "Art & culture",
+      "editorial_angle_hr": "Otkrivati priču iza nadrealnog supermarketa.",
+      "source": "https://meowwolf.com/visit/las-vegas",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Superblue",
+      "place": "Miami, USA",
+      "category": "Art & culture",
+      "editorial_angle_hr": "Susresti svjetlo, prostor i instalacije koje reagiraju na posjetitelja.",
+      "source": "https://www.superblue.com/miami",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Nxt Museum",
+      "place": "Amsterdam, Netherlands",
+      "category": "Art & culture",
+      "editorial_angle_hr": "Istražiti suvremenu medijsku umjetnost kroz aktualni izložbeni program.",
+      "source": "https://nxtmuseum.com/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Atelier des Lumières",
+      "place": "Paris, France",
+      "category": "Art & culture",
+      "editorial_angle_hr": "Doživjeti aktualnu digitalnu izložbu u nekadašnjoj ljevaonici.",
+      "source": "https://www.atelier-lumieres.com/en",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "ARTE Museum Jeju",
+      "place": "Jeju, South Korea",
+      "category": "Art & culture",
+      "editorial_angle_hr": "Doživjeti prirodu reinterpretiranu kroz medijsku umjetnost.",
+      "source": "https://artemuseum.com/jeju",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Chichu Art Museum",
+      "place": "Naoshima, Japan",
+      "category": "Art & culture",
+      "editorial_angle_hr": "Promatrati odnos dnevnog svjetla, umjetnosti i podzemne arhitekture.",
+      "source": "https://benesse-artsite.jp/en/art/chichu.html",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Inhotim",
+      "place": "Brumadinho, Brazil",
+      "category": "Art & culture",
+      "editorial_angle_hr": "Povezati umjetničke paviljone i vrtove u cjelodnevni obilazak.",
+      "source": "https://www.inhotim.org.br/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Disfrutar Living Table",
+      "place": "Barcelona, Spain",
+      "category": "Eat & drink",
+      "editorial_angle_hr": "Istražiti posebno iskustvo stola u razvojnoj kuhinji, uz zasebnu rezervaciju.",
+      "source": "https://www.disfrutarbarcelona.com/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Central",
+      "place": "Lima, Peru",
+      "category": "Eat & drink",
+      "editorial_angle_hr": "Čitati peruanske ekosustave kroz degustacijski meni.",
+      "source": "https://centralrestaurante.com.pe/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "MIL Centro",
+      "place": "Moray, Peru",
+      "category": "Eat & drink",
+      "editorial_angle_hr": "Povezati andski krajolik, hranu i zasebno rezerviranu imerziju.",
+      "source": "https://milcentro.pe/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Frantzén",
+      "place": "Stockholm, Sweden",
+      "category": "Eat & drink",
+      "editorial_angle_hr": "Doživjeti višefaznu večeru kroz prostore gradske kuće.",
+      "source": "https://www.restaurantfrantzen.com/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Don Julio",
+      "place": "Buenos Aires, Argentina",
+      "category": "Eat & drink",
+      "editorial_angle_hr": "Upoznati argentinsku parrillu kroz ciljano odabranu večeru.",
+      "source": "https://www.parrilladonjulio.com/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Labyrinth",
+      "place": "Singapore",
+      "category": "Eat & drink",
+      "editorial_angle_hr": "Usporediti prepoznatljive singapurske okuse s njihovom suvremenom reinterpretacijom.",
+      "source": "https://www.restaurantlabyrinth.com/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "FYN",
+      "place": "Cape Town, South Africa",
+      "category": "Eat & drink",
+      "editorial_angle_hr": "Istražiti susret afričkih sastojaka i japanskog kulinarskog utjecaja.",
+      "source": "https://www.fynrestaurant.com/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Attica",
+      "place": "Melbourne, Australia",
+      "category": "Eat & drink",
+      "editorial_angle_hr": "Otkriti australske sastojke kroz suvremenu degustacijsku večeru.",
+      "source": "https://www.attica.com.au/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Hiša Franko",
+      "place": "Kobarid, Slovenia",
+      "category": "Eat & drink",
+      "editorial_angle_hr": "Upoznati sezonsku kuhinju povezanu s dolinom Soče.",
+      "source": "https://www.hisafranko.com/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Gaggan",
+      "place": "Bangkok, Thailand",
+      "category": "Eat & drink",
+      "editorial_angle_hr": "Doživjeti progresivnu indijsku kuhinju u kozmopolitskom Bangkoku.",
+      "source": "https://gaggan.com/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Antinori nel Chianti Classico",
+      "place": "Tuscany, Italy",
+      "category": "Eat & drink",
+      "editorial_angle_hr": "Povezati arhitekturu podruma, proizvodnju i kušanje vina.",
+      "source": "https://www.antinori.it/it/esperienze/tipologie/visite-in-cantina/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "The Macallan",
+      "place": "Speyside, Scotland",
+      "category": "Eat & drink",
+      "editorial_angle_hr": "Obići destileriju i povezati proces s vođenim kušanjem.",
+      "source": "https://www.themacallan.com/en/experience-the-macallan/distillery/distillery-experiences",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Yamazaki",
+      "place": "Osaka region, Japan",
+      "category": "Eat & drink",
+      "editorial_angle_hr": "Upoznati japansku proizvodnju viskija kroz rezervirani obilazak.",
+      "source": "https://www.suntory.com/factory/yamazaki/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Hennessy",
+      "place": "Cognac, France",
+      "category": "Eat & drink",
+      "editorial_angle_hr": "Pratiti proizvodnju i sazrijevanje konjaka kroz službeni posjet i kušanje.",
+      "source": "https://www.hennessy.com/en-int/visit-us",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Penfolds Magill Estate",
+      "place": "Adelaide, Australia",
+      "category": "Eat & drink",
+      "editorial_angle_hr": "Povezati povijesni podrum i vođeno kušanje australskih vina.",
+      "source": "https://www.penfolds.com/en/book-magill-estate.html",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "d’Arenberg Blending Bench",
+      "place": "McLaren Vale, Australia",
+      "category": "Make & create",
+      "editorial_angle_hr": "Složiti vlastitu vinsku mješavinu i razumjeti odluke vinara.",
+      "source": "https://www.darenberg.com.au/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Port of Leith Distillery",
+      "place": "Edinburgh, Scotland",
+      "category": "Eat & drink",
+      "editorial_angle_hr": "Upoznati vertikalno organiziranu destileriju kroz javni obilazak.",
+      "source": "https://www.leithdistillery.com/accessibility",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "James Turrell Museum at Colomé",
+      "place": "Salta region, Argentina",
+      "category": "Art & culture",
+      "editorial_angle_hr": "Povezati umjetnost svjetla i vinski krajolik. Potvrditi aktualnu uključenost muzeja u rezervaciju.",
+      "source": "https://bodegacolome.com/turismo/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "CERN Science Gateway",
+      "place": "Meyrin, Switzerland",
+      "category": "Design & innovation",
+      "editorial_angle_hr": "Istražiti fiziku kroz izložbe, radionice i dostupni dnevni program.",
+      "source": "https://visit.cern/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Vitra Campus",
+      "place": "Weil am Rhein, Germany",
+      "category": "Design & innovation",
+      "editorial_angle_hr": "Čitati suvremenu arhitekturu i dizajn kroz kampus i odabrani obilazak.",
+      "source": "https://www.vitra.com/en-us/campus",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Audemars Piguet Masterclass",
+      "place": "Le Brassus, Switzerland",
+      "category": "Make & create",
+      "editorial_angle_hr": "Isprobati urarske postupke u posebno rezerviranom masterclassu.",
+      "source": "https://museeatelier.audemarspiguet.com/fr/information/plan-your-visit",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "BMW Group Plant Munich",
+      "place": "Munich, Germany",
+      "category": "Design & innovation",
+      "editorial_angle_hr": "Pratiti stvarne faze automobilske proizvodnje u javnoj turi.",
+      "source": "https://www.bmw-welt.com/content/bmw/marketBMWWELT/bmw-welt_com/en_WL/ausstellungen/fuehrungen.html",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Airbus A350 tour",
+      "place": "Toulouse, France",
+      "category": "Design & innovation",
+      "editorial_angle_hr": "Promatrati završnu montažu putničkih zrakoplova s predviđenog vidikovca.",
+      "source": "https://www.manatour.fr/airbus/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "MEYER WERFT",
+      "place": "Papenburg, Germany",
+      "category": "Design & innovation",
+      "editorial_angle_hr": "Vidjeti gradnju velikih putničkih brodova kroz centar i službeni obilazak.",
+      "source": "https://www.meyerwerft.de/en/visitors",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Morgan Factory Tour",
+      "place": "Malvern, England",
+      "category": "Design & innovation",
+      "editorial_angle_hr": "Pratiti ručnu izradu automobila kroz tvorničke radionice.",
+      "source": "https://experience.morgan-motor.com/factory-tours/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "LEGO House",
+      "place": "Billund, Denmark",
+      "category": "Play & adventure",
+      "editorial_angle_hr": "Graditi, testirati i mijenjati vlastite konstrukcije.",
+      "source": "https://legohouse.com/en-gb",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Miniatur Wunderland",
+      "place": "Hamburg, Germany",
+      "category": "Play & adventure",
+      "editorial_angle_hr": "Istražiti mali svijet i zasebno rezervirati uvid u tehničku pozadinu.",
+      "source": "https://www.miniatur-wunderland.com/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Efteling",
+      "place": "Kaatsheuvel, Netherlands",
+      "category": "Play & adventure",
+      "editorial_angle_hr": "Istražiti autorski svijet pripovijedanja i scenografije kroz park.",
+      "source": "https://www.efteling.com/en",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Futuroscope",
+      "place": "Poitiers region, France",
+      "category": "Play & adventure",
+      "editorial_angle_hr": "Doživjeti tehnološki oblikovanu zabavu kroz odabrane atrakcije.",
+      "source": "https://www.futuroscope.com/en/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Tivoli Gardens",
+      "place": "Copenhagen, Denmark",
+      "category": "Play & adventure",
+      "editorial_angle_hr": "Složiti gradsku večer uz vrtove, zabavu i aktualni program.",
+      "source": "https://www.tivoli.dk/en",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Super Nintendo World",
+      "place": "Osaka, Japan",
+      "category": "Play & adventure",
+      "editorial_angle_hr": "Ući u fizički svijet igre. Provjeriti zasebna pravila pristupa zoni.",
+      "source": "https://www.usj.co.jp/web/en/us/areas/super-nintendo-world",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "7132 Therme",
+      "place": "Vals, Switzerland",
+      "category": "Rest & wellbeing",
+      "editorial_angle_hr": "Doživjeti termalno kupanje kroz Zumthorovu arhitekturu.",
+      "source": "https://7132.com/en/therme/7132-thermal-baths-peter-zumthor/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Othership",
+      "place": "Toronto, Canada",
+      "category": "Rest & wellbeing",
+      "editorial_angle_hr": "Upoznati suvremeno društveno iskustvo saune kroz odabranu sesiju, bez zdravstvenih obećanja.",
+      "source": "https://www.othership.us/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Wētā Workshop",
+      "place": "Wellington, New Zealand",
+      "category": "Design & innovation",
+      "editorial_angle_hr": "Upoznati praktične filmske efekte i izradu rekvizita kroz posjetiteljski prostor i prozore u radionicu.",
+      "source": "https://www.wetaworkshop.com/tours/wellington/experiences/tour",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "JamFactory glass blowing",
+      "place": "Adelaide, Australia",
+      "category": "Make & create",
+      "editorial_angle_hr": "Oblikovati staklo uz umjetnika u individualnoj početničkoj radionici.",
+      "source": "https://www.jamfactory.com.au/short-courses",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Tuff Gong Studio Tour",
+      "place": "Kingston, Jamaica",
+      "category": "Music & social",
+      "editorial_angle_hr": "Pratiti nastanak glazbene snimke kroz studijski obilazak.",
+      "source": "https://www.bobmarleymuseum.com/tuff-gong-studio-tour/",
+      "status": "research_shortlist_not_publication_approved",
+      "checked_on": "2026-11-01",
+      "remaining_checks": [
+        "Exact current bookable product, dates, restrictions and accessibility",
+        "Independent context and close-duplicate review",
+        "Documentary photography, credit and publication rights",
+        "Full guide, editorial review and technical publication checks"
+      ]
+    }
+  ],
+  "existing_not_counted": [
+    "Cantillon Brussels",
+    "CopenHill Copenhagen",
+    "Les Machines de l’île Grand Éléphant Nantes",
+    "Löyly Helsinki",
+    "Chicken Ramen Factory Osaka Ikeda (Yokohama alternative not counted)"
+  ],
+  "holds": [
+    {
+      "name": "Museum of the Future Dubai",
+      "reason": "Official homepage says exhibitions temporarily closed",
+      "source": "https://museumofthefuture.ae/en"
+    },
+    {
+      "name": "Kavalan Yilan",
+      "reason": "Clarify conflicting current tour versus standalone warehouse tasting descriptions"
+    },
+    {
+      "name": "Ars Electronica Deep Space 8K",
+      "reason": "Resolve current programme and admission evidence before promotion"
+    },
+    {
+      "name": "teamLab Biovortex Kyoto",
+      "reason": "Complete current official access review; avoid brand-heavy first wave"
+    },
+    {
+      "name": "Alchemist Copenhagen",
+      "reason": "Review provocative themes against EA non-extreme editorial preference"
+    },
+    {
+      "name": "Pujol Mexico City",
+      "reason": "Primary site access failed; complete current menu and booking verification"
+    },
+    {
+      "name": "Private yacht shipyards",
+      "reason": "No verified ordinary public visitor access established in this pass"
+    },
+    {
+      "name": "Esplanade backstage tour",
+      "reason": "Existing Esplanade guide requires overlap review; verify current public tour dates"
+    }
+  ]
+}

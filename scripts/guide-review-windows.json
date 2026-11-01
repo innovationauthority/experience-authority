@@ -1,4 +1,22 @@
 {
+  "/experiences/follow-the-art-beyond-the-room-in-tokyo": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "japan",
+    "regionSlug": "tokyo"
+  },
+  "/experiences/watch-a-sports-car-take-shape-in-malvern": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "malvern"
+  },
+  "/experiences/make-your-own-shiraz-blend-in-mclaren-vale": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "australia",
+    "regionSlug": "mclaren-vale"
+  },
   "/experiences/let-a-tokyo-dinner-take-shape-on-the-griddle": {
     "availableFrom": "2026-10-28",
     "reviewBy": "2026-12-27",

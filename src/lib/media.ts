@@ -1,3 +1,4 @@
+import { mediaBatch61 } from "./media-batch-61";
 /**
  * The publication record for every guide photograph. Keep this deliberately
  * separate from guide evidence: a photograph can set an editorial tone but
@@ -71,6 +72,7 @@ export type GuideMedia = {
 };
 
 export const publicGuideMedia: readonly GuideMedia[] = [
+  ...mediaBatch61,
   ...mediaBatch60,
   ...mediaBatch59,
   ...mediaBatch58,

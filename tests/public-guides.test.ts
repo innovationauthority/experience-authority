@@ -42,8 +42,8 @@ test("Arcachon stays a bay-wide chapter regardless of guide order or a more spec
   }
 });
 
-test("guide set contains 532 distinct, sourced public experiences, not Selected or demo records", () => {
-  assert.equal(publicGuides.length, 532);
+test("guide set contains 535 distinct, sourced public experiences, not Selected or demo records", () => {
+  assert.equal(publicGuides.length, 535);
   assert.equal(
     new Set(publicGuides.map((p) => p.id)).size,
     publicGuides.length,

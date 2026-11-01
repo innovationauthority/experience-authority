@@ -36,6 +36,8 @@ export const editorialPathways = [
     intro:
       "A city is shaped by what it makes and what it reimagines. Read the decisions inside a car in Turin, a chair in Copenhagen or a silhouette in Antwerp. In Cape Town, a former grain silo opens onto contemporary African art. Rome puts ancient sculpture among industrial machinery, while Berlin gives ordinary objects a second look. Choose a question that interests you and let the place complicate it.",
     guideSlugs: [
+      "follow-the-art-beyond-the-room-in-tokyo",
+      "watch-a-sports-car-take-shape-in-malvern",
       "read-a-century-of-car-design-in-turin",
       "learn-to-read-a-chair-in-copenhagen",
       "look-at-the-shape-before-the-label-in-antwerp",
@@ -251,6 +253,7 @@ export const editorialPathways = [
     intro:
       "Begin with appetite, then look further. These guides connect a Singapore hawker breakfast, halloumi made on a route into the Troodos foothills, Vienna's heuriger, Asturian cider, Grenadian cacao, Kyoto tea, Seoul kimchi, Québec maple season and food grown on Mexico City's chinampas. Materuni takes Arabica from plant to pan and brewed cup on Kilimanjaro's slopes. In Apia, an umu-cooked lunch begins with hot volcanic rocks, wrapped ingredients and preparation the guest can actually see. Oaxaca follows agave through heat and copper, while Doha uses qahwa to read the social language of a majlis. Chios begins with clear mastiha resin on a tree. In Appenzellerland, a gallery above a working dairy connects tasting to milk, curd and cellar. Each is a different kind of public encounter. Together they show why flavour can reveal climate, labour, technique and social rhythm. Use the official links to check what is currently offered, and let the guide sharpen the questions you bring to the table.",
     guideSlugs: [
+      "make-your-own-shiraz-blend-in-mclaren-vale",
       "taste-the-tortilla-before-the-filling-in-mexico-city",
       "make-room-for-munichs-breakfast-before-noon",
       "let-a-tokyo-dinner-take-shape-on-the-griddle",

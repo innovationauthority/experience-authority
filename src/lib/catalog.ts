@@ -83,6 +83,7 @@ export const interests: readonly Interest[] = [
     name: "Eat & drink",
     fields: ["taste"],
     guideSlugs: [
+      "make-your-own-shiraz-blend-in-mclaren-vale",
       "pass-the-dishes-at-a-copenhagen-long-table",
       "begin-with-rice-not-the-bottle",
       "cook-beyond-the-postcard",
@@ -129,6 +130,7 @@ export const interests: readonly Interest[] = [
 ];
 /** Visitor navigation is independent of the six historical publishing allocations. */
 const designGuideSlugs = [
+  "watch-a-sports-car-take-shape-in-malvern",
   "read-a-century-of-car-design-in-turin",
   "look-at-the-shape-before-the-label-in-antwerp",
   "learn-to-read-a-chair-in-copenhagen",

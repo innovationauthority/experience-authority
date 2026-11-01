@@ -7,11 +7,11 @@ import { publicGuides } from "../src/lib/public-guides";
 
 test("destination browsing keeps country and city scopes exact, with honest wider-country options", () => {
   const japan = destinationCoverage(publicGuides, "japan");
-  assert.equal(japan.local.length, 38);
+  assert.equal(japan.local.length, 39);
   assert.equal(japan.categories.length, 6);
   const kyoto = destinationCoverage(publicGuides, "japan", "kyoto");
   assert.equal(kyoto.local.length, 14);
-  assert.equal(kyoto.elsewhere.length, 24);
+  assert.equal(kyoto.elsewhere.length, 25);
   assert.ok(
     kyoto.elsewhere.every(
       (item) => item.countrySlug === "japan" && item.regionSlug !== "kyoto",
@@ -82,7 +82,7 @@ test("the new edition deepens familiar routes and opens new countries without ge
   assert.equal(destinationCoverage(publicGuides, "mexico").local.length, 13);
   assert.equal(
     destinationCoverage(publicGuides, "united-kingdom").local.length,
-    27,
+    28,
   );
   assert.equal(
     destinationCoverage(publicGuides, "argentina", "salta").local.length,

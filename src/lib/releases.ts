@@ -23,6 +23,14 @@ import { edition20261027 } from "./discovery-batch-58";
 
 /** Publication dates are distinct from source-check dates. Older undated guides are not backfilled. */
 export const guideReleases = [
+  {
+    date: "2026-11-01",
+    slugs: [
+      "follow-the-art-beyond-the-room-in-tokyo",
+      "watch-a-sports-car-take-shape-in-malvern",
+      "make-your-own-shiraz-blend-in-mclaren-vale",
+    ],
+  },
   { date: "2026-10-28", slugs: Object.values(edition20261028).flat() },
   {
     date: "2026-10-27",
