@@ -46,7 +46,7 @@ export const imageRevisions: Record<string, string> = {
   "/images/guides/budapest-zugliget-chairlift.jpg": "afef96081fb2",
   "/images/guides/oslo-hovedoya-ferry-walk.jpg": "2b5387e2195f",
   "/images/guides/dubrovnik-city-walls-walk.jpg": "8f7a45f172aa",
-  "/images/guides/bologna-archiginnasio-theatre.jpg": "b3c5934f66ad",
+  "/images/guides/bologna-archiginnasio-theatre.jpg": "c9446505ed10",
   "/images/guides/osaka-housing-living-street.jpg": "78e354d5ee47",
   "/images/guides/new-york-transit-museum-cars.jpg": "64e05876a73b",
   "/images/guides/vienna-amalienbad-swim.jpg": "a1a6c81b0681",
@@ -341,7 +341,7 @@ export const imageRevisions: Record<string, string> = {
   "/images/guides/baden-fortyseven-pools.jpg": "8d817e6949de",
   "/images/guides/oslo-kok-shared-sauna.jpg": "b91e2e17e22c",
   "/images/guides/glasgow-sloans-ceilidh.jpg": "bab8eb897978",
-  "/images/guides/amsterdam-lunchtime-concert.jpg": "d8b15f33021d",
+  "/images/guides/amsterdam-lunchtime-concert.jpg": "5ffc445da4d4",
   "/images/guides/tokyo-kabukiza-single-act.jpg": "56c1a8a88bb2",
   "/images/guides/melbourne-qvm-counter.jpg": "88a35618b5f7",
   "/images/guides/taipei-wangtea-draft.jpg": "8d28294ebbb0",
@@ -539,7 +539,7 @@ export const imageRevisions: Record<string, string> = {
 
 // A single manifest fingerprint fits Next's bounded localPatterns allowlist.
 // Tests require it to change when any original is added or replaced.
-export const imageEdition = "0917878f336a";
+export const imageEdition = "97be412671e3";
 
 export function imageSource(src: string) {
   return imageRevisions[src] ? `${src}?v=${imageEdition}` : src;

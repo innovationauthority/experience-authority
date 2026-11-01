@@ -5,11 +5,12 @@ const review = (
   scope: GuideReview["scope"],
   sources: GuideReview["sources"],
   reviewBy = "2026-12-24",
+  checkedOn = "2026-09-25",
 ): GuideReview => ({
   basis: "public_sources",
   scope,
   requiresSpecialPermission: false,
-  checkedOn: "2026-09-25",
+  checkedOn,
   reviewBy,
   accessUrl: sources[0].url,
   sources,
@@ -787,7 +788,7 @@ export const guideBatch42: PublicExperience[] = [
         {
           title: "Concertgebouw: lunchtime concerts",
           url: "https://www.concertgebouw.nl/lunchconcerten",
-          note: "Primary dated programme, performance versus rehearsal, ticket-release dates and duration.",
+          note: "Rechecked 1 November 2026: forthcoming concerts and rehearsals, thirty-minute slots, free ticket requirement and event-specific release windows. The 4 November event is already sold out.",
         },
         {
           title: "Concertgebouw: visitor questions",
@@ -795,7 +796,8 @@ export const guideBatch42: PublicExperience[] = [
           note: "Official route to current audience, accessibility, age, recording and ticket-charge policies. Individual event conditions still apply.",
         },
       ],
-      "2026-10-09",
+      "2026-11-15",
+      "2026-11-01",
     ),
   },
   {

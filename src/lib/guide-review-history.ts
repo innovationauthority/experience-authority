@@ -1,6 +1,29 @@
 import type { GuideReview } from "./catalog";
 /** Prior source reviews retained for historical eligibility checks, never a fallback for expired current evidence. */
 export const guideReviewHistory: Record<string, GuideReview[]> = {
+  "give-lunch-half-an-hour-of-listening": [
+  {
+    "basis": "public_sources",
+    "scope": "public_programme",
+    "requiresSpecialPermission": false,
+    "checkedOn": "2026-09-25",
+    "reviewBy": "2026-10-09",
+    "accessUrl": "https://www.concertgebouw.nl/lunchconcerten",
+    "sources": [
+      {
+        "title": "Concertgebouw: lunchtime concerts",
+        "url": "https://www.concertgebouw.nl/lunchconcerten",
+        "note": "Primary dated programme, performance versus rehearsal, ticket-release dates and duration."
+      },
+      {
+        "title": "Concertgebouw: visitor questions",
+        "url": "https://www.concertgebouw.nl/veelgestelde-vragen",
+        "note": "Official route to current audience, accessibility, age, recording and ticket-charge policies. Individual event conditions still apply."
+      }
+    ]
+  }
+],
+
   "swim-a-sydney-harbour-length": [
     {
       "basis": "public_sources",

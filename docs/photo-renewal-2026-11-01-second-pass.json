@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-01",
+  "scope": "Two small derivatives replaced with higher-resolution files from the same official documentary originals. No new photographic scenes claimed.",
+  "replacements": [
+    {
+      "id": "bologna-archiginnasio-theatre",
+      "source": "https://www.archiginnasio.it/palazzo-dell-archiginnasio",
+      "asset": "https://assets.culturabologna.it/8f2aa5ac-4ac3-41f2-b80e-3c9f9e7fff42-teatro-anatomico-foto-giorgio-bianchi.jpg",
+      "credit": "Giorgio Bianchi / Comune di Bologna",
+      "previousWidth": 768,
+      "originalWidth": 5655,
+      "deliveryWidth": 2400
+    },
+    {
+      "id": "amsterdam-lunchtime-concert",
+      "source": "https://www.concertgebouw.nl/lunchconcerten",
+      "asset": "https://d35w1qwxagl33g.cloudfront.net/production/lunchconcert-2025.png",
+      "credit": "Het Concertgebouw. Individual photographer not named",
+      "previousWidth": 908,
+      "originalWidth": 2560,
+      "deliveryWidth": 2400
+    }
+  ],
+  "rights": "Existing official-source editorial policy. Separate reuse rights are not independently cleared and attribution does not imply permission.",
+  "rejected": [
+    {
+      "candidate": "Queen Victoria Market 0009_Tours.jpg and 2025 tour banners",
+      "reason": "Very shallow panoramic source unsuitable for tall responsive crop. Existing trader photograph retained."
+    },
+    {
+      "candidate": "Vama atelier1.jpg, atelier2.jpg, atelier3.jpg",
+      "reason": "Small images with cluttered school/group scenes and posed group outside. No compelling improvement on existing portrait."
+    },
+    {
+      "candidate": "Heeia volunteer page",
+      "reason": "Same small original, no larger replacement identified."
+    }
+  ],
+  "programmeRenewal": "Concertgebouw calendar and visitor FAQ rechecked. Current series confirmed, original review preserved. Review due 15 November 2026.",
+  "checks": [
+    "190 tests passed",
+    "TypeScript passed",
+    "Production build passed",
+    "Both guide routes return 200 at 390px and 1440px",
+    "Four photo screenshots visually inspected",
+    "Images loaded, no horizontal overflow, correct source links with target blank and noopener noreferrer"
+  ],
+  "remaining": "Other low-resolution originals still need suitable alternatives. This is not a completed catalogue-wide photo renewal."
+}

@@ -19,8 +19,15 @@ const official = (
     "Official source photograph. Reuse rights not independently cleared",
   licenseUrl: sourceUrl,
   rightsBasis: "official_source",
-  rightsCheckedOn: "2026-09-25",
-  visualReview: { outcome: "approved", checkedOn: "2026-09-25", rationale },
+  firstPublishedOn: "2026-09-25",
+  rightsCheckedOn:
+    guideId === "amsterdam-lunchtime-concert" ? "2026-11-01" : "2026-09-25",
+  visualReview: {
+    outcome: "approved",
+    checkedOn:
+      guideId === "amsterdam-lunchtime-concert" ? "2026-11-01" : "2026-09-25",
+    rationale,
+  },
   depiction: `${depiction} It does not prove EA attendance or guarantee future conditions. Reuse rights have not been independently cleared.`,
 });
 
@@ -186,7 +193,7 @@ export const mediaBatch42: readonly GuideMedia[] = [
     "Musicians perform on a small stage in an ornate Concertgebouw hall with a seated audience in the foreground.",
     "Het Concertgebouw. Individual photographer not named",
     "https://www.concertgebouw.nl/lunchconcerten",
-    "The programme's 908-pixel photograph holds the performers, room and audience in one coherent frame. It shows actual listening rather than only the building exterior.",
+    "The official 2560-pixel original replaces a small 908-pixel derivative. The wider source retains the performers and audience while resolving the room and instruments more clearly in the responsive crop.",
     "A 2025 lunchtime-series illustration. The current event may use another hall, ensemble or rehearsal format.",
   ),
   {

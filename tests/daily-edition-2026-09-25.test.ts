@@ -1,3 +1,4 @@
+import { firstVerifiedOn } from "../src/lib/guide-review-history";
 import test from "node:test";
 import assert from "node:assert/strict";
 import { guideBatch42 } from "../src/lib/guide-batch-42";
@@ -58,7 +59,7 @@ test("25 September adds eighteen distinct guides, exactly three per primary inte
         slug,
       );
       assert.ok(guideMediaFor(g.id));
-      assert.equal(g.guideReview?.checkedOn, "2026-09-25");
+      assert.equal(firstVerifiedOn(g), "2026-09-25");
       assert.match(g.evidence, /EA has not/);
       assert.doesNotMatch(
         [

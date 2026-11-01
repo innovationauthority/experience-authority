@@ -212,12 +212,13 @@ export const mediaBatch58: readonly GuideMedia[] = [
       "Official source photograph. Reuse rights not independently cleared",
     licenseUrl: "https://www.archiginnasio.it/palazzo-dell-archiginnasio",
     rightsBasis: "official_source",
-    rightsCheckedOn: "2026-10-27",
+    firstPublishedOn: "2026-10-27",
+    rightsCheckedOn: "2026-11-01",
     visualReview: {
       outcome: "approved",
-      checkedOn: "2026-10-27",
+      checkedOn: "2026-11-01",
       rationale:
-        "The official room photograph clearly resolves the carved wood, central table and seating. Grainier alternative photographs were rejected for poor interior detail.",
+        "Replaced the 768-pixel derivative with a 2400-pixel delivery file from the official 5655-pixel original. The same documented Giorgio Bianchi photograph now resolves the carved wood, central table and seating at large display sizes.",
     },
     depiction:
       "The anatomical theatre's interior. Access to other library rooms or a private viewing is not implied. Reuse rights have not been independently cleared. Attribution is not permission. No EA attendance, partnership or future conditions are implied.",
