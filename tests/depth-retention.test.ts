@@ -98,7 +98,7 @@ test("daily editions are authored, distinct, date-gated and do not silently loop
   );
   assert.equal(
     currentDiscovery(publicGuides, "2027-01-01")?.date,
-    "2026-12-30",
+    "2027-01-01",
   );
   for (const edition of dailyDiscoveries) {
     assert.ok(edition.angle.length > 180);

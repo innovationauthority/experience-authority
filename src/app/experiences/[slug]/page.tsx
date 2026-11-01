@@ -18,6 +18,7 @@ import { SaveJourney } from "@/components/save-journey";
 import { StructuredData } from "@/components/structured-data";
 import { connectedExperiences } from "@/lib/catalog";
 import { resolveCityChapters, chapterHref } from "@/lib/city-chapters";
+import { chapterStartingPoints } from "@/lib/chapter-starting-points";
 import {
   pageMetadata,
   isDiscoverable,
@@ -343,8 +344,11 @@ export default async function Experience({ params }: Props) {
               </dd>
             </dl>
             <ExperienceActions item={item} />
-            <Link className="text-link" href="/passport?view=plan">
-              Build your journey in Passport ↗
+            <Link
+              className="text-link"
+              href={`/plan?add=${encodeURIComponent(item.id)}`}
+            >
+              Plan this experience ↗
             </Link>
             {item.guideReview ? (
               <a className="text-link" href="#practical-fit">
@@ -393,10 +397,11 @@ export default async function Experience({ params }: Props) {
                 {chapter?.stops.find((stop) => stop.slug === entry.slug)
                   ?.why && (
                   <p className="connection-reason">
-                    {
+                    {chapterStartingPoints(chapter).find(
+                      (choice) => choice.slug === entry.slug,
+                    )?.note ||
                       chapter.stops.find((stop) => stop.slug === entry.slug)!
-                        .why
-                    }
+                        .why}
                   </p>
                 )}
               </div>
@@ -424,6 +429,12 @@ export default async function Experience({ params }: Props) {
           )}
           {chapter && (
             <p className="chapter-jumps">
+              <Link
+                className="button button-dark"
+                href={`/plan?chapter=${chapter.slug}`}
+              >
+                Choose a starting point for {chapter.name} ↗
+              </Link>
               <Link className="text-link" href={chapterHref(chapter)}>
                 See how to combine {chapter.name} experiences ↗
               </Link>

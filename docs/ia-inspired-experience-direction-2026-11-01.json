@@ -1,0 +1,209 @@
+{
+  "status": "Implemented and locally verified. See experience-direction-release-2026-11-01.json for verification scope.",
+  "date": "2026-11-01",
+  "purpose": "Make EA feel like a distinctive photographic publication that helps a visitor choose and shape a stay, rather than a catalogue with a separate planning utility.",
+  "handoff": {
+    "next": "Implementation completed after the agreed model handoff. Release through the existing main branch pipeline and verify the public result.",
+    "scope": "Improve existing EA routes and components. No new content batch, visual rebrand, booking service, paid integration or IA source changes.",
+    "preserve": [
+      "Current navy, warm paper and restrained vermilion identity, Aeonik Pro and real colour photography",
+      "Current public-source disclosure, publication gates, exact image credits and source links",
+      "Private saved-guide and journey lifecycle, including unavailable references",
+      "Compact client projections and consent-gated analytics",
+      "Unrelated untracked docs/research-handoff-2026-09-27.json"
+    ]
+  },
+  "evidence": {
+    "method": "Read current EA components and public data. Visually inspected live IA desktop homepage and cards, EA desktop homepage and Singapore destination, EA mobile homepage, batik guide and empty planner. Mobile EA viewport was 390 by 844. This is a design diagnosis, not user testing or a conversion study.",
+    "sources": [
+      "https://innovationauthority.com/",
+      "https://experienceauthority.com/",
+      "https://experienceauthority.com/places/singapore/singapore",
+      "https://experienceauthority.com/experiences/draw-with-wax-in-kampong-gelam",
+      "https://experienceauthority.com/plan"
+    ],
+    "observations": [
+      "EA desktop opening already has a strong colour photograph and two complementary stories. Replacing this with a text-heavy IA replica would lose an existing strength.",
+      "EA repeats four generic navigation promises, a text-only daily strip and large section introductions before visitors reach much of the catalogue.",
+      "On mobile the homepage search begins near the bottom of the 844px opening viewport, after the tall lead photograph.",
+      "Singapore has 11 public guides. Its authored combination is rendered after all 11 cards, even though a jump link exists above them.",
+      "City chapter save-all currently combines mutually alternative outings into one saved collection. Saving is safe, but it does not explain which choices belong together.",
+      "The empty planner sends readers back to browse and save. A chapter can save a set, but then the visitor must assemble it again in the planner.",
+      "IA explicitly connects a featured record to other records and explains the shared idea. EA should connect experiences by visitor benefit and local feasibility, not merely by matching a field.",
+      "IA card titles and outlined structures are firmer than EA's predominantly regular-weight titles. EA should improve contrast between title, description and metadata without making the whole site bold.",
+      "Live Singapore document title repeats Experience Authority twice. Its metadata title already includes the brand and the root layout adds it again.",
+      "Daily discovery showing 31 October was not established as a stale-cache bug: the live clock was still 31 October UTC while the local date was 1 November. Preserve a deliberate, consistent edition timezone.",
+      "IA's desktop feature also leaves substantial empty space below the shorter left column. Do not copy that imbalance. EA should borrow useful principles, not assume all IA layout choices are better."
+    ],
+    "catalog_snapshot": {
+      "publication_date_used": "2026-11-01",
+      "note": "Computed with canPublishGuide for a fixed date. Recompute before implementation and publication, because review expiry can change availability.",
+      "destinations": [
+        { "slug": "kyoto", "guides": 14, "populated_interests": 5 },
+        { "slug": "porto-and-gaia", "guides": 11, "populated_interests": 4 },
+        { "slug": "singapore", "guides": 11, "populated_interests": 5 },
+        { "slug": "london", "guides": 16, "populated_interests": 6 }
+      ]
+    }
+  },
+  "transfer_from_ia": [
+    {
+      "principle": "A small number of clear starting points",
+      "ea": "Keep search, a featured experience and discovery by interest. Replace abstract Discover/Trust/Plan/Return cards with one compact utility row, then show actual content.",
+      "do_not_copy": "Membership promotion, enterprise positioning, green accent or monochrome photographs"
+    },
+    {
+      "principle": "Explain why two records belong together",
+      "ea": "Show one local complement and, where useful, one alternative with an explicit reason. A similar idea abroad is a separate editorial link, not a nearby suggestion.",
+      "do_not_copy": "Innovation maturity badges, generic ranking or popularity scores"
+    },
+    {
+      "principle": "Controlled discovery instead of an endless opening list",
+      "ea": "Use one photographed discovery module with the existing six visitor interests and compact progressive expansion.",
+      "do_not_copy": "Large client payloads or several competing home carousels"
+    },
+    {
+      "principle": "A dated editorial reason to return",
+      "ea": "Make the existing authored Daily discovery visible as a photograph, an idea and a practical next action. Show a meaningful saved-work return state when local data exists.",
+      "do_not_copy": "Fake fresh publication dates, fabricated new-since-visit counts or a newsletter form without a working consent and delivery service"
+    }
+  ],
+  "implementation_order": [
+    {
+      "id": "01-home-and-type",
+      "priority": "P1",
+      "files": [
+        "src/app/page.tsx",
+        "src/components/home-hero.tsx",
+        "src/components/home-hero-mosaic.tsx",
+        "src/components/home-discovery.tsx",
+        "src/components/experience-card.tsx",
+        "src/styles/tokens.css",
+        "src/styles/direction-2026.css"
+      ],
+      "decisions": [
+        "Keep the current photographic mosaic and the headline Experience the world from within. Retain manual previous/next controls and curated complete editions. Do not introduce automatic slide advances while a visitor reads.",
+        "Shorten the search placeholder to Search places or experiences so it fits the existing desktop field. Keep accessible label, keyboard suggestions and the six canonical interest names.",
+        "Use the supplied Regular and Bold cuts intentionally: hero Regular, section and card titles Bold, prose Regular. Consolidate conflicting stylesheet rules rather than adding another override sheet. Do not invent font cuts or use Light for essential small text.",
+        "Reduce secondary section headings to a deliberate 32–40px desktop and 26–32px mobile range, body 16–18px and line-height around 1.5. Keep card titles around 24px desktop and 22px mobile. Verify visually rather than applying one global size to every heading.",
+        "Keep thin visible card borders, consistent image ratios, clear title links and one restrained hover/focus treatment. Do not add ornamental shadows, multicolour chips or status colours to the discovery cards.",
+        "Replace the four equal abstract cards under the hero with a compact row: Sources in every guide linking to method, Plan a journey linking to plan, and Daily discovery linking to today. Use Continue your journey only when local saved-work state supports it.",
+        "Mobile opening: retain the photograph, reduce excess copy spacing and cap the lead image height at approximately 300–320px at 390px width. Aim to show the search control within the first 844px view without reducing readable text or hiding the image credit. At shorter screens offer a visible Explore action rather than forcing all content into one viewport. Verify 320px separately.",
+        "Do not remove useful explanatory copy from guides just to shorten the homepage. Concision belongs to the discovery surfaces, detail belongs in the guide."
+      ],
+      "home_order": [
+        "Photographic hero, search and compact utility row",
+        "Today's discovery: one substantial landscape photograph beside the authored title, place and one short angle, with Read today's discovery. Use Latest discovery with its real date if today's entry is unavailable.",
+        "Find your kind of experience: replace the separate text-only six-interest block and three-new-guides block with one photographed module. Default to New in EA. Offer all six canonical interest filters, three initial cards, Show three more and a link to the corresponding complete Compass result. Reserve page images to avoid duplication with hero and Daily discovery.",
+        "Make a place your own: four photo-led destinations with actual local counts and a concise differentiating line. Start with Kyoto, Porto and Gaia, Singapore and London only while their live coverage and media qualify. Keep editorial ordering stable for an edition instead of changing destination positions arbitrarily.",
+        "One substantial collection feature plus two compact photographed collection links, not another identical three-card strip",
+        "One Journal feature only when it has a distinct relevant purpose and a nonduplicated image. Do not relabel September material as new.",
+        "Contextual Passport return and restrained publisher/footer information"
+      ],
+      "acceptance": [
+        "A new visitor can find a place, choose an interest or open the lead guide without interpreting Compass, Passport or editorial workflow terminology.",
+        "At 1440px and 1280px the hero remains predominantly photographic. At 390px the opening has both a real image and an obvious discovery action.",
+        "No repeated guide or image across hero, Daily discovery, opening discovery cards and destination covers where eligible distinct photography exists. Fallback omits an optional slot rather than showing a knowingly wrong photograph.",
+        "Interest controls work with keyboard, have a clear selected state and offer normal destination URLs. Hidden panels do not remain in the accessibility tree.",
+        "Credits remain separate links from photo and title links. No nested links or keyboard-inaccessible save control."
+      ]
+    },
+    {
+      "id": "02-destination-entry",
+      "priority": "P1",
+      "files": [
+        "src/app/places/page.tsx",
+        "src/app/places/[...segments]/page.tsx",
+        "src/components/destination-browser.tsx",
+        "src/components/city-chapter.tsx",
+        "src/lib/city-chapters.ts",
+        "src/lib/destinations.ts"
+      ],
+      "decisions": [
+        "Replace the generic city introduction with an editorial lead image from an eligible local guide and a concise city-specific introduction. A photograph of a specific activity must be captioned as that activity, not treated as proof of the whole destination.",
+        "Before the full catalogue show Start with these: a compact preview of an existing authored combination with two or three real photographs and a visible Build your version action. Keep the complete catalogue directly reachable via All experiences here.",
+        "Do not move the entire long chapter above the catalogue. Present a short decision-oriented preview, then retain the detailed rationale and planning conditions further down.",
+        "Classify chapter suggestions as anchor, complement or alternative only after reading their actual access and timing notes. Alternatives must not silently become consecutive stops.",
+        "For Singapore, food and batik are one editorial combination. Coney Island and Sungei Buloh are alternatives for separate nature outings, not nearby add-ons. Show that distinction before Save or Plan.",
+        "For Kyoto, begin with tea and a lighter scent-gallery option. Present substantial workshops and cycling as alternatives or separate-day choices, not a compressed must-do itinerary.",
+        "For Porto and Gaia, retain the river crossing and separate venue timings. Do not count all Portuguese guides as Porto and Gaia coverage. An authored cross-region chapter needs an accurately scoped destination link and count.",
+        "For London, do not place the three-day dated bookbinding course into a one-day starter route. Expose the duration and date constraint before selection.",
+        "Use the six visitor-facing interest labels consistently in chapter cards. Internal Taste, Nature and Restore fields may remain in data but must not appear as competing public navigation taxonomies.",
+        "Keep countries accessible in the destination directory, but add a city-first entry using the strongest current chapters. Do not imply that one published guide makes a complete city guide.",
+        "Fix repeated brand suffixes in destination metadata without changing canonical URLs. Preserve existing deep links and chapter anchors."
+      ],
+      "acceptance": [
+        "A city visitor sees both an inspiring image and a curated way to begin before scrolling through the full catalogue.",
+        "Displayed guide counts are calculated from exactly the geography the link opens.",
+        "No empty interest tabs, invented nearby relationships, travel times or package claims.",
+        "Expiry of one guide does not leave a broken image, unsafe plan suggestion or false multi-stop promise."
+      ]
+    },
+    {
+      "id": "03-inspiration-to-plan",
+      "priority": "P1",
+      "files": [
+        "src/components/city-chapter.tsx",
+        "src/components/save-journey.tsx",
+        "src/app/plan/page.tsx",
+        "src/components/trip-planner.tsx",
+        "src/lib/trip.ts",
+        "src/lib/catalog-projections.ts",
+        "src/components/passport-provider.tsx"
+      ],
+      "decisions": [
+        "Add a validated public chapter entry to the existing planner, for example /plan?chapter=singapore. It carries a public chapter identifier, never private notes or a user's saved IDs.",
+        "On entry show a proposal, not a silently saved itinerary. Let readers choose the experiences and assign a day before an explicit Add to my plan confirmation.",
+        "Do not select every alternative by default or invent appointment times. Existing chapter copy supplies the rationale and booking constraints. Keep the user's existing journey unchanged until confirmation.",
+        "Merge selected stops without overwriting existing notes, dates, statuses or unavailable references. Reopening the link must not create duplicates. Validate every selected guide against the current public catalogue.",
+        "After adding, show the new stops in the actual planner with edit, remove and official-access actions. Preserve the existing direct single-guide add flow.",
+        "Use compact guide thumbnails in the planner where useful, with the same credit convention. Extend only the required projection, never send the full source or image-rights ledger to the client.",
+        "Keep save-for-later distinct from plan-a-day. Add to plan should not require the visitor to understand or complete a separate Passport workflow first.",
+        "Retain an honest boundary near the planning actions: A starting point to adapt. Check each venue and arrange travel separately. Full qualifications remain in the guide and chapter, not repeated as a wall of caveats in every card.",
+        "Default shared plans must continue to omit private notes. Preview what is shared and retain native share or copy-link fallback. No account, cloud storage or booking promise is introduced."
+      ],
+      "acceptance": [
+        "From a destination, a first-time visitor can choose two eligible experiences and see them in a plan without re-searching the catalogue.",
+        "Opening or refreshing a chapter URL alone writes nothing to local saved work.",
+        "Existing notes and withdrawn-guide placeholders survive additions, reload and export.",
+        "Selecting alternative outings produces an explicit choice, not an implied timed route.",
+        "The compact-client payload gains from the previous remediation are retained and any increase for thumbnails is measured."
+      ]
+    },
+    {
+      "id": "04-return-and-connections",
+      "priority": "P2",
+      "files": [
+        "src/app/today/page.tsx",
+        "src/lib/daily-discovery.ts",
+        "src/components/passport-return.tsx",
+        "src/lib/catalog.ts",
+        "src/app/experiences/[slug]/page.tsx"
+      ],
+      "decisions": [
+        "Reuse existing authored Daily discovery material. Keep one dated angle, a useful thing to notice, a guide link and a relevant next experience. No content is presented as newly researched just because the date changed.",
+        "Sort eligible discovery entries by date before choosing latest and previous. Add tests independent of import/batch order and tests for future entries, expired guide references and UTC rollover.",
+        "Show Continue your journey only when local work exists. Otherwise provide a concrete first route or destination, not a claim that the visitor has a plan.",
+        "Distinguish a local complement, an alternative and the same idea elsewhere. Give each an authored one-sentence connection where supported. Avoid generic You may also like wording when the connection can be explained.",
+        "If adding new-since-visit later, derive it from actual publication dates and an explicit local visit marker, not random counters or updated review dates. Do not bundle that feature into the first implementation unless it remains small and tested.",
+        "A newsletter remains a separate operational project. Do not create a dead sign-up form or subscribe anyone using IA credentials without an explicit setup request."
+      ]
+    }
+  ],
+  "verification_and_release": {
+    "strategy_pass": "The initial strategy pass made no application changes. The subsequent implementation has its own test, build and browser verification in experience-direction-release-2026-11-01.json.",
+    "required_before_release": [
+      "Re-read repository instructions and relevant installed Next documentation before changing application code.",
+      "Run the complete existing test suite, TypeScript check and production build after implementation.",
+      "Desktop 1440/1280, tablet 768, mobile 390/320: homepage, Compass, Today, four pilot destinations, one guide, empty planner and populated planner.",
+      "Test the complete journey from homepage to destination to guide to plan to shared preview, with both fresh local state and existing saved work.",
+      "Test all navigation and actions by keyboard. Check focus visibility, reduced motion, contrast, text zoom, horizontal overflow and credits independently from photo navigation.",
+      "Wait for visible lazy images and entry animations before assessing screenshots. Do not report hidden mobile alternatives as broken images.",
+      "Revalidate dynamic selection with expired or missing guides, date rollover, empty filters, duplicate photos and insufficient destinations.",
+      "Verify canonical URLs, single title suffix, schema and sitemap for any changed routes. Verify zero analytics requests before consent.",
+      "Compare HTML/client payloads with docs/audit-remediation-2026-11-01.json. No wholesale long-form catalogue in client discovery components.",
+      "Inspect the final diff, preserve unrelated work, commit only relevant changes and verify the production release before claiming it is live."
+    ],
+    "success_definition": "A clearer, photograph-led first impression and a demonstrably shorter path from curiosity to an editable plan. Retention, recommendations and conversion improvement remain hypotheses until measured with consented analytics or user testing. No award or numerical quality score is promised."
+  }
+}

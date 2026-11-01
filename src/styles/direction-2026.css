@@ -385,13 +385,13 @@ h3,
 .home-journal-feature h2,
 .passport-return h2 {
   font-family: var(--ea-font-serif);
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: -0.04em;
 }
 
 .section-heading h2 {
-  font-size: clamp(42px, 4.4vw, 64px);
-  line-height: 1.02;
+  font-size: clamp(32px, 3vw, 40px);
+  line-height: 1.1;
 }
 
 .home-destination-grid {
@@ -445,8 +445,9 @@ h3,
 }
 
 .card-content h3 {
-  font-size: clamp(27px, 2.15vw, 35px);
-  line-height: 1.04;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.14;
 }
 
 .card-content p,
@@ -1369,15 +1370,15 @@ h3,
   .home-edition .prototype-hero-copy > .eyebrow {
     grid-row: 1;
     max-width: none;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
     font-size: 9px;
   }
 
   .home-edition .prototype-hero-copy h1 {
     grid-row: 2;
     max-width: 12ch;
-    margin-bottom: 18px;
-    font-size: clamp(47px, 13.6vw, 68px);
+    margin-bottom: 16px;
+    font-size: clamp(43px, 12.3vw, 60px);
     line-height: 0.95;
   }
 
@@ -1389,7 +1390,7 @@ h3,
 
   .home-edition .home-discovery {
     grid-row: 5;
-    margin-top: 24px;
+    margin-top: 18px;
     margin-bottom: 28px;
   }
 
@@ -1417,12 +1418,12 @@ h3,
   .home-edition .prototype-hero-mosaic {
     width: 100%;
     min-height: 0;
-    height: 360px;
+    height: 310px;
   }
 
   .home-edition .prototype-hero-rotator {
     grid-row: 4;
-    margin-top: 26px;
+    margin-top: 20px;
   }
 
   .home-edition .prototype-hero-mosaic {
@@ -1511,7 +1512,7 @@ h3,
   }
 
   .card-content h3 {
-    font-size: 30px;
+    font-size: 22px;
   }
 
   .home-journal-feature {
@@ -1519,7 +1520,7 @@ h3,
   }
 
   .home-journal-feature h2 {
-    font-size: 43px;
+    font-size: 32px;
   }
 
   .passport-return {
@@ -1987,6 +1988,494 @@ h3,
 .home-destination-card > .image-source-badge {
   z-index: 3;
   max-width: calc(100% - 48px);
+}
+
+/* Discovery and planning share the same restrained editorial structure. */
+.home-cover-links {
+  width: min(calc(100% - (var(--ea-page-inset) * 2)), 1440px);
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px 32px;
+  padding-block: 18px;
+  border-bottom: 1px solid
+    color-mix(in srgb, var(--ea-ink) 20%, var(--ea-paper));
+}
+.home-cover-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 28px;
+  font-size: 13px;
+}
+.home-daily-feature {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: clamp(28px, 4vw, 64px);
+  align-items: center;
+  margin-top: 44px;
+}
+.home-daily-photo {
+  position: relative;
+  aspect-ratio: 1.65;
+  overflow: hidden;
+  background: var(--ea-night);
+}
+.home-daily-photo > a:first-child,
+.destination-opening-photo > a:first-child,
+.chapter-preview-photo > a:first-child,
+.place-city-photo > a:first-child,
+.trip-guide-photo > a:first-child {
+  position: absolute;
+  inset: 0;
+}
+.home-daily-copy h2 {
+  margin: 16px 0;
+  font-size: clamp(30px, 3vw, 42px);
+  font-weight: 700;
+  line-height: 1.08;
+}
+.home-daily-copy > p:not(.eyebrow) {
+  max-width: 46ch;
+  line-height: 1.55;
+}
+.home-daily-place {
+  display: block;
+  margin: 20px 0 12px;
+  color: var(--ea-stone);
+  font-size: 13px;
+}
+.home-browse-choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 24px 0;
+}
+.home-browse-choices button {
+  padding: 12px 16px;
+  min-height: 44px;
+  border: 1px solid color-mix(in srgb, var(--ea-ink) 22%, var(--ea-paper));
+  background: transparent;
+  color: var(--ea-ink);
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+.home-browse-choices button[aria-pressed="true"] {
+  background: var(--ea-night);
+  color: var(--ea-paper);
+  border-color: var(--ea-night);
+}
+.home-browse-more {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid var(--ea-line);
+}
+.home-destination-copy h3 {
+  font-weight: 700;
+  font-size: clamp(26px, 2.2vw, 34px);
+  margin-bottom: 10px;
+}
+.home-destination-angle {
+  margin: 0 0 18px;
+  max-width: 26ch;
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--ea-paper);
+}
+.home-collections .collection-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 24px 36px;
+}
+.home-collections .collection-card:first-child {
+  grid-row: span 2;
+}
+.home-collections .collection-card:first-child .collection-image {
+  width: 100%;
+  max-height: none;
+  height: auto;
+  aspect-ratio: 1.4;
+}
+.home-collections .collection-card:not(:first-child) {
+  display: grid;
+  grid-template-columns: minmax(140px, 0.85fr) minmax(0, 1fr);
+  gap: 22px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--ea-line);
+}
+.home-collections .collection-card:not(:first-child) .collection-image {
+  height: 100%;
+  min-height: 210px;
+  margin: 0;
+}
+.home-collections .collection-card h3 {
+  margin-top: 14px;
+  font-weight: 700;
+  font-size: 26px;
+}
+.home-collections .collection-card:not(:first-child) h3 {
+  margin-top: 0;
+  font-size: 23px;
+}
+.home-collections .collection-card p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+.home-collections .collection-card:not(:first-child) .collection-image > span {
+  display: none;
+}
+.destination-opening {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(28px, 5vw, 72px);
+  align-items: center;
+  margin: 30px 0 48px;
+}
+.destination-opening .page-intro {
+  margin: 0;
+  padding: 0;
+}
+.destination-opening .page-intro-copy p {
+  font-size: 18px;
+  line-height: 1.55;
+}
+.destination-opening-photo {
+  position: relative;
+  min-height: 380px;
+  margin: 0;
+  overflow: hidden;
+  background: var(--ea-night);
+}
+.destination-opening-photo::after {
+  content: "";
+  position: absolute;
+  inset: 50% 0 0;
+  pointer-events: none;
+  background: linear-gradient(transparent, rgba(8, 27, 42, 0.88));
+}
+.destination-opening-photo figcaption {
+  position: absolute;
+  z-index: 1;
+  left: 24px;
+  right: 24px;
+  bottom: 65px;
+  color: var(--ea-paper);
+  font-size: 22px;
+  line-height: 1.2;
+  pointer-events: none;
+}
+.destination-opening-photo figcaption a {
+  pointer-events: auto;
+}
+.chapter-preview {
+  margin: 40px 0 54px;
+  padding-block: 32px;
+  border-block: 1px solid color-mix(in srgb, var(--ea-ink) 20%, var(--ea-paper));
+}
+.chapter-preview-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  margin-bottom: 28px;
+}
+.chapter-preview-heading > div {
+  max-width: 65ch;
+}
+.chapter-preview h2,
+.place-city-starts h2 {
+  font-size: clamp(28px, 2.8vw, 36px);
+  font-weight: 700;
+  line-height: 1.12;
+  margin: 12px 0;
+}
+.chapter-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+.chapter-preview-grid article,
+.trip-proposal-choice {
+  border: 1px solid color-mix(in srgb, var(--ea-ink) 20%, var(--ea-paper));
+  min-width: 0;
+}
+.chapter-preview-photo,
+.place-city-photo {
+  position: relative;
+  aspect-ratio: 1.5;
+  overflow: hidden;
+  background: var(--ea-night);
+}
+.chapter-preview-copy {
+  padding: 22px;
+}
+.chapter-preview h3 {
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 1.16;
+  margin: 14px 0;
+}
+.chapter-preview-copy > p:not(.eyebrow) {
+  font-size: 15px;
+  line-height: 1.55;
+}
+.chapter-preview-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 32px;
+  margin-top: 24px;
+}
+.place-city-starts {
+  margin-bottom: 56px;
+}
+.place-city-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 28px;
+}
+.place-city-grid h3 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 16px 0 8px;
+}
+.place-city-grid p {
+  font-size: 14px;
+  color: var(--ea-stone);
+}
+.trip-proposal {
+  margin-block: 32px;
+  padding-block: 28px;
+  border-block: 1px solid color-mix(in srgb, var(--ea-ink) 20%, var(--ea-paper));
+}
+.trip-proposal-heading {
+  max-width: 76ch;
+  margin-bottom: 28px;
+}
+.trip-proposal h3 {
+  margin: 14px 0;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.12;
+}
+.trip-proposal-choices {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.trip-proposal-choice {
+  display: grid;
+  grid-template-columns: minmax(130px, 0.7fr) minmax(0, 1fr);
+}
+.trip-guide-photo {
+  position: relative;
+  min-height: 200px;
+  background: var(--ea-night);
+  overflow: hidden;
+}
+.trip-choice-body {
+  padding: 22px;
+  min-width: 0;
+}
+.trip-choice-body h4 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 12px 0;
+}
+.trip-choice-body > p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-block: 10px;
+}
+.trip-planner .trip-choice-select {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  margin-top: 18px;
+  cursor: pointer;
+  font-weight: 400;
+}
+.trip-choice-select input {
+  appearance: auto;
+  flex: 0 0 18px;
+  width: 18px;
+  height: 18px;
+  margin: 2px 0 0;
+  padding: 0;
+  accent-color: var(--ea-night);
+}
+.trip-choice-day {
+  display: grid;
+  gap: 8px;
+  font-size: 14px;
+  margin-top: 16px;
+}
+.trip-choice-day input {
+  width: 100%;
+  min-height: 44px;
+}
+.trip-proposal-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
+  margin-block: 28px 16px;
+}
+.trip-proposal-actions button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+.chapter-jumps .button,
+.trip-proposal-actions .button {
+  max-width: 100%;
+  white-space: normal;
+  text-align: left;
+}
+.trip-entry-photo {
+  height: 220px;
+  width: min(100%, 440px);
+  margin-bottom: 24px;
+}
+.trip-share-preview {
+  flex-basis: 100%;
+  width: 100%;
+  margin-top: 12px;
+}
+.journey-actions .button {
+  /* Loading local saves must not cross-fade through an unreadable colour pair. */
+  transition: transform var(--ea-motion-base);
+}
+.trip-share-preview summary {
+  cursor: pointer;
+  padding-block: 16px;
+}
+.trip-share-preview pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  max-width: 80ch;
+  font: inherit;
+  font-size: 14px;
+  padding: 20px;
+  border: 1px solid var(--ea-line);
+}
+
+@media (max-width: 1000px) {
+  .home-collections .collection-grid {
+    grid-template-columns: 1fr;
+  }
+  .home-collections .collection-card:first-child {
+    grid-row: auto;
+  }
+  .trip-proposal-choices {
+    grid-template-columns: 1fr;
+  }
+  .trip-proposal-choice {
+    grid-template-columns: minmax(150px, 0.55fr) minmax(0, 1fr);
+  }
+  .destination-opening {
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+  }
+  .destination-opening-photo {
+    min-height: 340px;
+  }
+  .place-city-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 700px) {
+  .home-cover-links {
+    gap: 8px 18px;
+    flex-wrap: wrap;
+    padding-block: 12px;
+  }
+  .home-cover-links a {
+    font-size: 12px;
+  }
+  .home-daily-feature {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-top: 30px;
+  }
+  .home-daily-photo {
+    aspect-ratio: 1.4;
+  }
+  .home-daily-copy h2 {
+    font-size: 30px;
+  }
+  .home-browse-choices {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 8px;
+  }
+  .home-browse-choices button {
+    flex: 0 0 auto;
+  }
+  .home-browse-more {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .home-browse-more p {
+    margin: 0;
+  }
+  .home-edition .section-heading h2 {
+    font-size: 30px;
+  }
+  .home-collections .collection-card:not(:first-child) {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .home-collections .collection-card:not(:first-child) .collection-image {
+    height: 230px;
+  }
+  .home-collections .collection-card:first-child .collection-image {
+    aspect-ratio: 1.4;
+  }
+  .destination-opening {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-bottom: 30px;
+  }
+  .destination-opening .page-intro-copy p {
+    font-size: 16px;
+  }
+  .destination-opening-photo {
+    min-height: 300px;
+  }
+  .chapter-preview-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .chapter-preview-grid,
+  .place-city-grid {
+    grid-template-columns: 1fr;
+  }
+  .chapter-preview-copy {
+    padding: 20px;
+  }
+  .trip-proposal h3 {
+    font-size: 27px;
+  }
+  .trip-proposal-choice {
+    grid-template-columns: 1fr;
+  }
+  .trip-proposal-choice .trip-guide-photo {
+    height: 220px;
+  }
+  .trip-entry {
+    padding: 18px;
+    gap: 18px;
+  }
 }
 
 @media (max-width: 1100px) {

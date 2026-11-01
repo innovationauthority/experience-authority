@@ -28,6 +28,32 @@ export function hasTripDraft(trip: Trip) {
   );
 }
 
+/** Explicit additions preserve every existing stop and private note. */
+export function mergeTripStops(
+  trip: Trip,
+  additions: { id: string; day: number }[],
+  allowedIds: readonly string[],
+): Trip {
+  const allowed = new Set(allowedIds);
+  const seen = new Set(trip.entries.map((entry) => entry.id));
+  const entries = [...trip.entries];
+  for (const entry of additions) {
+    if (entries.length >= 100) break;
+    if (
+      !isLocalGuideId(entry.id) ||
+      !allowed.has(entry.id) ||
+      seen.has(entry.id) ||
+      !Number.isInteger(entry.day) ||
+      entry.day < 1 ||
+      entry.day > 60
+    )
+      continue;
+    seen.add(entry.id);
+    entries.push({ id: entry.id, day: entry.day, note: "", stage: "idea" });
+  }
+  return { ...trip, entries };
+}
+
 export function sanitizeTrip(value: unknown): Trip {
   if (!value || typeof value !== "object" || Array.isArray(value))
     return { ...emptyTrip, entries: [] };

@@ -1136,10 +1136,12 @@ export function availableDiscoveries(
   today = new Date().toISOString().slice(0, 10),
 ) {
   const bySlug = new Map(items.map((item) => [item.slug, item]));
-  return dailyDiscoveries.flatMap((discovery) => {
-    const item = bySlug.get(discovery.slug);
-    return discovery.date <= today && item ? [{ ...discovery, item }] : [];
-  });
+  return dailyDiscoveries
+    .flatMap((discovery) => {
+      const item = bySlug.get(discovery.slug);
+      return discovery.date <= today && item ? [{ ...discovery, item }] : [];
+    })
+    .sort((a, b) => a.date.localeCompare(b.date));
 }
 
 export function currentDiscovery(

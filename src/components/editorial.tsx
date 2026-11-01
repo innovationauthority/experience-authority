@@ -62,14 +62,16 @@ export function PathwayCard({
         <span>Pathway {String(index + 1).padStart(2, "0")}</span>
         {media && <ImageCredit media={media} />}
       </div>
-      <h3>
-        <Link href={`/collections/${pathway.slug}`}>
-          {pathway.title}
-          <ArrowUpRight size={22} aria-hidden="true" />
-        </Link>
-      </h3>
-      <p>{pathway.promise}</p>
-      <small>{pathway.guideSlugs.length} connected guides</small>
+      <div className="collection-card-copy">
+        <h3>
+          <Link href={`/collections/${pathway.slug}`}>
+            {pathway.title}
+            <ArrowUpRight size={22} aria-hidden="true" />
+          </Link>
+        </h3>
+        <p>{pathway.promise}</p>
+        <small>{pathway.guideSlugs.length} connected guides</small>
+      </div>
     </article>
   );
 }

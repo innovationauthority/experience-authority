@@ -1,0 +1,72 @@
+{
+  "dateLocal": "2026-11-01",
+  "status": "Implementation verified locally for release through main",
+  "scope": "IA-inspired editorial hierarchy, photographic discovery, destination entry and explicit private journey planning",
+  "completed": [
+    "Kept EA's colour photographic cover and reduced the four abstract cover cards to three compact useful links",
+    "Made Daily discovery a substantial photographed feature and reserved its photograph from hero editions",
+    "Combined six visitor interests and recent guides in one bounded interactive discovery module",
+    "Strengthened section and guide-card typography and introduced a large collection feature beside two smaller photographed links",
+    "Brought the mobile search into the opening 844px view without removing the lead photograph",
+    "Added photo-led destination openings and compact authored starter previews before the complete local catalogue",
+    "Introduced accurately scoped multi-region destination routes, including Porto and Gaia, and included them in sitemap generation",
+    "Preserved exact destination scope in category links, including direct query navigation",
+    "Added explicit chapter proposals to the planner, with individual selection and required day assignment before adding",
+    "Retained existing private stops, withdrawn references, notes and status without duplicates or automatic changes on opening a URL",
+    "Added credited planner photographs, a sharing-text preview and a journey-aware homepage return action",
+    "Sorted Daily discovery by date rather than batch import order and fixed repeated destination title suffixes",
+    "Fixed an existing long inline recommendation link that overflowed on 320px screens and removed a transient low-contrast save-button colour transition"
+  ],
+  "verification": {
+    "unitTestsPassed": 189,
+    "unitTestsFailed": 0,
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "isolatedBrowser": "passed",
+    "widths": [1440, 1280, 768, 390, 320],
+    "routes": [
+      "/",
+      "/explore",
+      "/today",
+      "/places",
+      "/places/japan/kyoto",
+      "/places/portugal/porto-and-gaia",
+      "/places/singapore/singapore",
+      "/places/united-kingdom/london",
+      "/experiences/draw-with-wax-in-kampong-gelam",
+      "/plan?chapter=singapore"
+    ],
+    "horizontalOverflow": 0,
+    "failedVisiblePhotographs": 0,
+    "pageErrors": 0,
+    "sampledAccessibilitySeriousOrCriticalViolations": 0,
+    "accessibilityRoutes": ["/", "/places/singapore/singapore", "/plan?chapter=singapore"],
+    "analyticsRequestsBeforeConsent": 0,
+    "personalData": "Synthetic isolated browser fixtures only",
+    "journeyChecks": [
+      "Opening or refreshing a chapter URL does not create or replace a local plan",
+      "Two selected experiences are added on chosen days and survive reload without duplicates",
+      "Existing journey name, logistics, withdrawn stop, note, day and status survive chapter additions",
+      "Default sharing preview excludes private text and includes it only after explicit selection",
+      "Homepage detects an existing journey even when Passport is empty"
+    ]
+  },
+  "decodedHtmlBytes": {
+    "/": 416663,
+    "/explore": 750846,
+    "/plan": 403717,
+    "/passport": 1018998,
+    "note": "Uncompressed local responses. Planner photographs add a compact photo projection. Long-form copy, evidence lists and rights ledgers remain outside the client workspace catalogue. These are not Core Web Vitals or wire-transfer measurements."
+  },
+  "release": {
+    "method": "Existing main branch to Vercel pipeline",
+    "publicVerificationArtifact": "work/ea-direction-2026-11-01-live/results.json, generated after deployment",
+    "localScreenshotsAndResults": "work/ea-direction-2026-11-01"
+  },
+  "limits": [
+    "This pass adds no new public guides and does not extend evidence or photograph review deadlines",
+    "Planning remains an editable private draft with independent host bookings and travel arrangements",
+    "Improvements to retention, referrals and conversion require actual consented measurements or user testing",
+    "Existing unrelated docs/research-handoff-2026-09-27.json is excluded from this release"
+  ]
+}

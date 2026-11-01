@@ -5,6 +5,12 @@ import { guideMediaFor } from "@/lib/media";
 import { demoMode, getTerritories, getExperiences } from "@/lib/data";
 import { pageMetadata } from "@/lib/seo";
 import { PlaceDirectory } from "@/components/place-directory";
+import {
+  chapterHref,
+  chapterDestinationCount,
+  resolveCityChapters,
+} from "@/lib/city-chapters";
+import { featuredChapterSlugs } from "@/lib/chapter-starting-points";
 export const metadata = pageMetadata(
   "Places",
   "Find a way into experiences through their relationship to place and local knowledge.",
@@ -12,6 +18,14 @@ export const metadata = pageMetadata(
 );
 export default function Places() {
   const items = getExperiences();
+  const cities = featuredChapterSlugs.flatMap((slug) => {
+    const chapter = resolveCityChapters(items).find(
+      (entry) => entry.slug === slug,
+    );
+    const lead = chapter?.stops[0]?.item;
+    const media = lead && guideMediaFor(lead.id);
+    return chapter && media ? [{ chapter, media }] : [];
+  });
   const familiarFirst = [
     "Japan",
     "Italy",
@@ -77,6 +91,40 @@ export default function Places() {
           in, not a claim to cover an entire country.
         </p>
       </PageIntro>
+      {cities.length > 0 && (
+        <section
+          className="place-city-starts"
+          aria-labelledby="city-starts-title"
+        >
+          <p className="eyebrow">Begin with a city</p>
+          <h2 id="city-starts-title">Enough to shape a stay.</h2>
+          <div className="place-city-grid">
+            {cities.map(({ chapter, media }) => (
+              <article key={chapter.slug}>
+                <div className="place-city-photo">
+                  <Link
+                    href={chapterHref(chapter).split("#")[0]}
+                    aria-label={`Explore ${chapter.name}`}
+                  >
+                    <Photo
+                      src={media.src}
+                      alt=""
+                      sizes="(max-width: 700px) 100vw, 25vw"
+                    />
+                  </Link>
+                  <ImageCredit media={media} />
+                </div>
+                <h3>
+                  <Link href={chapterHref(chapter).split("#")[0]}>
+                    {chapter.name} ↗
+                  </Link>
+                </h3>
+                <p>{chapterDestinationCount(chapter, items)} experiences</p>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
       <PlaceDirectory places={territories}>
         {territories.map((t) => {
           const guides = items.filter((item) => item.countrySlug === t.slug);

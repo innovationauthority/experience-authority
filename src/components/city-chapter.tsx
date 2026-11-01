@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { fields } from "@/lib/catalog";
+import { interests } from "@/lib/catalog";
 import { chapterHref, type resolveCityChapters } from "@/lib/city-chapters";
 import { guideMediaFor } from "@/lib/media";
 import { SITE_ORIGIN } from "@/lib/seo";
@@ -52,7 +52,11 @@ export function CityChapterSection({
                 {String(index + 1).padStart(2, "0")}
               </span>
               <p className="eyebrow">
-                {fields.find((field) => field.slug === item.field)?.name}
+                {
+                  interests.find((interest) =>
+                    interest.fields.includes(item.field),
+                  )?.name
+                }
               </p>
               <h3>
                 <Link href={`/experiences/${item.slug}`}>{item.title} ↗</Link>
@@ -68,6 +72,12 @@ export function CityChapterSection({
         <p>{chapter.planning}</p>
       </div>
       <div className="chapter-footer">
+        <Link
+          className="button button-dark"
+          href={`/plan?chapter=${chapter.slug}`}
+        >
+          Choose experiences for my plan ↗
+        </Link>
         <SaveJourney ids={chapter.stops.map((stop) => stop.item.id)} />
         <ShareButton
           title={`${chapter.name} with Experience Authority`}

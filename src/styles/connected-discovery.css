@@ -181,6 +181,11 @@
 .local-pair-save p:not(.eyebrow) {
   color: var(--ea-stone);
 }
+.local-pair-save p .text-link {
+  display: inline;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
 .local-pair-save .journey-actions {
   align-content: center;
 }

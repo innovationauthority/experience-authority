@@ -192,7 +192,7 @@ export function HomeDiscovery({ items }: { items: DiscoveryItem[] }) {
           aria-autocomplete="list"
           autoComplete="off"
           maxLength={200}
-          placeholder="Search a place or experience"
+          placeholder="Place or experience"
         />
         <button type="submit" aria-label="Search all experiences">
           <ArrowRight size={22} aria-hidden="true" />

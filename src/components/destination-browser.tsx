@@ -16,14 +16,18 @@ export function DestinationBrowser({
   country,
   region,
   children,
+  basePath,
+  initialInterest = "",
 }: {
   items: Item[];
   categories: { slug: string; name: string; count: number }[];
   country: string;
   region?: string;
   children: ReactNode;
+  basePath?: string;
+  initialInterest?: string;
 }) {
-  const [selected, setSelected] = useState("");
+  const [selected, setSelected] = useState(initialInterest);
   const [time, setTime] = useState("");
   const [mode, setMode] = useState("");
   const cards = Children.toArray(children);
@@ -53,7 +57,11 @@ export function DestinationBrowser({
         aria-label="Experiences here by interest"
       >
         <a
-          href={finderUrl({ place: country, region })}
+          href={
+            basePath
+              ? `${basePath}#local-guides`
+              : finderUrl({ place: country, region })
+          }
           aria-current={!selected ? "true" : undefined}
           onClick={(event) => {
             event.preventDefault();
@@ -65,11 +73,15 @@ export function DestinationBrowser({
         {categories.map((category) => (
           <a
             key={category.slug}
-            href={finderUrl({
-              place: country,
-              region,
-              interest: category.slug,
-            })}
+            href={
+              basePath
+                ? `${basePath}?interest=${category.slug}#local-guides`
+                : finderUrl({
+                    place: country,
+                    region,
+                    interest: category.slug,
+                  })
+            }
             aria-current={selected === category.slug ? "true" : undefined}
             onClick={(event) => {
               event.preventDefault();

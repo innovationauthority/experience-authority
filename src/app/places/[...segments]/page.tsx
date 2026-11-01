@@ -5,6 +5,7 @@ import {
   ExperienceCard,
   PageIntro,
   Photo,
+  ImageCredit,
   SectionHeading,
 } from "@/components/editorial";
 import { demoMode, getExperiences, getTerritories } from "@/lib/data";
@@ -16,54 +17,95 @@ import {
 import { StructuredData } from "@/components/structured-data";
 import { destinationCoverage } from "@/lib/destinations";
 import { DestinationBrowser } from "@/components/destination-browser";
-import { resolveCityChapters } from "@/lib/city-chapters";
+import { cityChapters, resolveCityChapters } from "@/lib/city-chapters";
 import { CityChapterSection } from "@/components/city-chapter";
+import { ChapterPreview } from "@/components/chapter-preview";
+import { chapterStartingPoints } from "@/lib/chapter-starting-points";
+import { guideMediaFor } from "@/lib/media";
 import { orderExperienceDirectory } from "@/lib/home-curation";
-type Props = { params: Promise<{ segments: string[] }> };
+type Props = {
+  params: Promise<{ segments: string[] }>;
+  searchParams: Promise<{ interest?: string | string[] }>;
+};
 export async function generateMetadata({ params }: Props) {
   const segments = (await params).segments;
   const [country, region] = segments;
   const place = getTerritories().find((t) => t.slug === country);
   const selectedRegion = place?.regions.find((entry) => entry.slug === region);
-  if (!place || segments.length > 2 || (region && !selectedRegion)) notFound();
+  const area = cityChapters.find(
+    (chapter) =>
+      chapter.country === country &&
+      chapter.slug === region &&
+      chapter.regions.length > 1,
+  );
+  if (!place || segments.length > 2 || (region && !selectedRegion && !area))
+    notFound();
+  const name = selectedRegion?.name || area?.name;
   return pageMetadata(
-    selectedRegion
-      ? `${selectedRegion.name}${selectedRegion.name === place.name ? " local guide" : `, ${place.name}`} | Experience Authority`
-      : `${place.name} experiences | Experience Authority`,
-    selectedRegion
-      ? `Explore locally rooted experiences in ${selectedRegion.name}, with categories, original guides, sources and practical details to shape your visit.`
+    name
+      ? `${name}${name === place.name ? " local guide" : `, ${place.name}`}`
+      : `${place.name} experiences`,
+    name
+      ? `Explore locally rooted experiences in ${name}, with categories, original guides, sources and practical details to shape your visit.`
       : place.intro,
     `/places/${segments.join("/")}`,
     !getExperiences().some(
       (item) =>
         item.countrySlug === country &&
-        (!region || item.regionSlug === region) &&
+        (!region ||
+          (area
+            ? area.regions.includes(item.regionSlug)
+            : item.regionSlug === region)) &&
         isDiscoverable(item),
     ),
   );
 }
-export default async function Place({ params }: Props) {
+export default async function Place({ params, searchParams }: Props) {
   const segments = (await params).segments;
   const [country, region] = segments;
+  const { interest: requestedInterest } = await searchParams;
   const place = getTerritories().find((t) => t.slug === country);
   const selectedRegion = place?.regions.find((entry) => entry.slug === region);
-  if (!place || segments.length > 2 || (region && !selectedRegion)) notFound();
+  const area = cityChapters.find(
+    (chapter) =>
+      chapter.country === country &&
+      chapter.slug === region &&
+      chapter.regions.length > 1,
+  );
+  if (!place || segments.length > 2 || (region && !selectedRegion && !area))
+    notFound();
+  const placeName = selectedRegion?.name || area?.name || place.name;
   const orderedExperiences = orderExperienceDirectory(getExperiences());
   const {
     local: items,
     categories,
     elsewhere,
-  } = destinationCoverage(orderedExperiences, country, region);
+  } = destinationCoverage(orderedExperiences, country, area?.regions || region);
   const chapters = resolveCityChapters(orderedExperiences).filter(
     (chapter) =>
       chapter.country === country &&
-      (!region || chapter.regions.includes(region)),
+      (!region ||
+        chapter.regions.includes(region) ||
+        chapter.slug === area?.slug),
   );
+  const openingChapter = region ? chapters[0] : undefined;
+  const starterImages = new Set(
+    openingChapter
+      ? chapterStartingPoints(openingChapter).map((choice) => choice.item.image)
+      : [],
+  );
+  const openingItem =
+    openingChapter?.stops.find(
+      (stop) => stop.item.image && !starterImages.has(stop.item.image),
+    )?.item ||
+    openingChapter?.stops[0]?.item ||
+    items[0];
+  const openingMedia = region && openingItem && guideMediaFor(openingItem.id);
   return (
     <div className="wrap page-section destination-page">
       <StructuredData
         data={collectionStructuredData(
-          `${selectedRegion?.name || place.name} experiences`,
+          `${placeName} experiences`,
           `/places/${segments.join("/")}`,
           items,
         )}
@@ -75,22 +117,47 @@ export default async function Place({ params }: Props) {
         {region && (
           <>
             <span>/</span>
-            <span>{selectedRegion?.name}</span>
+            <span>{placeName}</span>
           </>
         )}
       </nav>
-      <PageIntro
-        eyebrow={
-          demoMode ? "A research direction" : "A specific way into a place"
-        }
-        title={`${selectedRegion ? selectedRegion.name : place.name}.`}
-      >
-        <p>
-          {selectedRegion
-            ? `Explore ${selectedRegion.name} through ${items.length === 1 ? "a locally rooted experience" : "locally rooted experiences"}, with practical details and sources to help you plan.`
-            : place.intro}
-        </p>
-      </PageIntro>
+      <div className={openingMedia ? "destination-opening" : undefined}>
+        <PageIntro
+          eyebrow={
+            demoMode ? "A research direction" : "A specific way into a place"
+          }
+          title={`${placeName}.`}
+        >
+          <p>
+            {openingChapter
+              ? openingChapter.intro
+              : region
+                ? `Explore ${placeName} through ${items.length === 1 ? "a locally rooted experience" : "locally rooted experiences"}, with practical details and sources to help you plan.`
+                : place.intro}
+          </p>
+        </PageIntro>
+        {openingMedia && (
+          <figure className="destination-opening-photo">
+            <Link
+              href={`/experiences/${openingItem.slug}`}
+              aria-label={`Read ${openingItem.title}`}
+            >
+              <Photo
+                src={openingMedia.src}
+                alt={openingMedia.alt}
+                priority
+                sizes="(max-width: 700px) 100vw, 50vw"
+              />
+            </Link>
+            <figcaption>
+              <Link href={`/experiences/${openingItem.slug}`}>
+                {openingItem.title} ↗
+              </Link>
+            </figcaption>
+            <ImageCredit media={openingMedia} />
+          </figure>
+        )}
+      </div>
       {place.image && (
         <>
           <div className="territory-banner">
@@ -118,7 +185,8 @@ export default async function Place({ params }: Props) {
           ))}
         </nav>
       )}
-      {chapters.length > 0 && (
+      {openingChapter && <ChapterPreview chapter={openingChapter} />}
+      {!openingChapter && chapters.length > 0 && (
         <nav className="chapter-jumps" aria-label="Local planning ideas">
           {chapters.map((chapter) => (
             <Link
@@ -139,11 +207,18 @@ export default async function Place({ params }: Props) {
       </div>
       {items.length ? (
         <DestinationBrowser
-          key={segments.join("/")}
+          key={`${segments.join("/")}:${typeof requestedInterest === "string" ? requestedInterest : ""}`}
           items={items.map(({ slug, field }) => ({ slug, field }))}
           categories={categories}
           country={country}
-          region={region}
+          region={area ? undefined : region}
+          basePath={`/places/${segments.join("/")}`}
+          initialInterest={
+            typeof requestedInterest === "string" &&
+            categories.some((category) => category.slug === requestedInterest)
+              ? requestedInterest
+              : ""
+          }
         >
           {items.map((item, index) => (
             <ExperienceCard key={item.id} item={item} index={index} />
@@ -187,9 +262,7 @@ export default async function Place({ params }: Props) {
         <section className="place-essay" aria-labelledby="place-plan-title">
           <div>
             <p className="eyebrow">Build around one good reason</p>
-            <h2 id="place-plan-title">
-              Give {selectedRegion ? selectedRegion.name : place.name} room.
-            </h2>
+            <h2 id="place-plan-title">Give {placeName} room.</h2>
             <p>
               Choose the experience that makes you want to be here, then let the
               rest of the day support it. A little space before and after can

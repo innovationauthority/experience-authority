@@ -33,7 +33,10 @@ export type PlanExperience = Pick<
   | "countrySlug"
   | "duration"
   | "participation"
-> & { guideReview?: { accessUrl: string; checkedOn: string } };
+> & {
+  guideReview?: { accessUrl: string; checkedOn: string };
+  photo?: ImageCreditData & { src: string };
+};
 export type PassportExperience = CardExperience &
   PlanExperience &
   Pick<PublicExperience, "shift" | "access" | "evidence">;
@@ -82,6 +85,8 @@ export function toCardExperience(item: PublicExperience): CardExperience {
   };
 }
 export function toPlanExperience(item: PublicExperience): PlanExperience {
+  const media =
+    item.status === "public_guide" ? guideMediaFor(item.id) : undefined;
   const {
     id,
     slug,
@@ -102,6 +107,15 @@ export function toPlanExperience(item: PublicExperience): PlanExperience {
     countrySlug,
     duration,
     participation,
+    ...(media
+      ? {
+          photo: {
+            src: media.src,
+            sourceUrl: media.sourceUrl,
+            credit: imageCreditText(media),
+          },
+        }
+      : {}),
     ...(guideReview
       ? {
           guideReview: {

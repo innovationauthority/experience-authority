@@ -44,8 +44,7 @@ test("home destination counts match the scope of the destination link", () => {
     const expected = publicGuides.filter(
       (item) =>
         item.countrySlug === chapter.country &&
-        (chapter.regions.length !== 1 ||
-          item.regionSlug === chapter.regions[0]),
+        chapter.regions.includes(item.regionSlug),
     ).length;
     assert.equal(chapterDestinationCount(chapter, publicGuides), expected);
   }

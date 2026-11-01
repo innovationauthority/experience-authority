@@ -11,7 +11,7 @@ export function SaveJourney({ ids }: { ids: string[] }) {
     <div className="journey-actions">
       <button
         type="button"
-        className="button"
+        className="button button-paper"
         disabled={!ready || complete}
         onClick={() => saveMany(ids)}
       >

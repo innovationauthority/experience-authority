@@ -8,6 +8,7 @@ import { editorialPathways } from "./editorial-pathways";
 import { getJournalArticles } from "./journal";
 import { currentDiscovery } from "./daily-discovery";
 import { publishedReleases } from "./releases";
+import { cityChapters, chapterHref } from "./city-chapters";
 import { canonicalUrl, indexingEnabled, isDiscoverable } from "./seo";
 
 export type SitemapEntry = { url: string; lastModified?: Date };
@@ -52,6 +53,18 @@ export function sitemapEntries(
       paths.push(`/places/${place.slug}`);
     for (const region of regionsForCountry(place.slug, publicItems))
       paths.push(`/places/${place.slug}/${region.slug}`);
+  }
+  for (const chapter of cityChapters) {
+    if (
+      chapter.regions.length > 1 &&
+      publicItems.some(
+        (item) =>
+          item.countrySlug === chapter.country &&
+          chapter.regions.includes(item.regionSlug),
+      )
+    ) {
+      paths.push(chapterHref(chapter).split("#")[0]);
+    }
   }
   const staticEntries = [...new Set(paths)].map((path) => ({
     url: canonicalUrl(path),

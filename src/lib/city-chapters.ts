@@ -1386,7 +1386,7 @@ export function resolveCityChapters(items: PublicExperience[]) {
 export function chapterHref(
   chapter: Pick<CityChapter, "country" | "regions" | "slug">,
 ) {
-  return `/places/${chapter.country}${chapter.regions.length === 1 ? `/${chapter.regions[0]}` : ""}#${chapter.slug}`;
+  return `/places/${chapter.country}/${chapter.regions.length === 1 ? chapter.regions[0] : chapter.slug}#${chapter.slug}`;
 }
 
 /** Count the destination we actually link to, not just its authored sequence. */
@@ -1397,6 +1397,6 @@ export function chapterDestinationCount(
   return items.filter(
     (item) =>
       item.countrySlug === chapter.country &&
-      (chapter.regions.length !== 1 || item.regionSlug === chapter.regions[0]),
+      chapter.regions.includes(item.regionSlug),
   ).length;
 }

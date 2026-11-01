@@ -4,10 +4,12 @@ import { useEffect, useState, type ReactNode } from "react";
 import Link from "next/link";
 import { usePassport } from "./passport-provider";
 import { ShareButton } from "./share-button";
+import { Photo, ImageCredit } from "./editorial-ui";
 import type { PlanExperience } from "@/lib/catalog-projections";
 import {
   emptyTrip,
   hasTripDraft,
+  mergeTripStops,
   sanitizeTrip,
   tripText,
   tripStages,
@@ -17,14 +19,22 @@ import {
 import { trackEaEvent } from "@/lib/analytics";
 
 const storageKey = "ea:trip:v1";
+export type JourneyProposal = {
+  slug: string;
+  name: string;
+  pace: string;
+  choices: { id: string; role: string; note: string }[];
+};
 export function TripPlanner({
   items,
   startingPlaces,
   suggestedItemId,
+  proposal,
 }: {
   items: PlanExperience[];
   startingPlaces?: ReactNode;
   suggestedItemId?: string;
+  proposal?: JourneyProposal;
 }) {
   const { data, ready: passportReady } = usePassport();
   const [trip, setTrip] = useState<Trip>(emptyTrip);
@@ -32,6 +42,12 @@ export function TripPlanner({
   const [message, setMessage] = useState("");
   const [includeNotes, setIncludeNotes] = useState(false);
   const [confirmReset, setConfirmReset] = useState(false);
+  const [choices, setChoices] = useState<Record<string, string>>({});
+  const [proposalMessage, setProposalMessage] = useState("");
+  useEffect(() => {
+    setChoices({});
+    setProposalMessage("");
+  }, [proposal?.slug]);
   useEffect(() => {
     try {
       setTrip(
@@ -93,14 +109,14 @@ export function TripPlanner({
     return <p role="status">Opening your journey…</p>;
   // Never hide or replace an existing draft, including a notes-only journey.
   const hasDraft = hasTripDraft(trip);
-  if (!hasDraft && available.length === 0 && !suggested)
+  if (!hasDraft && available.length === 0 && !suggested && !proposal)
     return (
       <section className="journey-start" aria-labelledby="journey-start-title">
         <div className="journey-start-intro">
           <h2 id="journey-start-title">Where would you like to begin?</h2>
           <p>
-            Find a place that draws you in. Save the experiences you want to
-            try, then bring them together here.
+            Choose a place, pick the experiences that draw you in and give each
+            a day.
           </p>
         </div>
         {startingPlaces}
@@ -120,15 +136,15 @@ export function TripPlanner({
           </li>
           <li>
             <span>02</span>
-            <h3>Keep what moves you</h3>
-            <p>Use Save on any guide to keep it in your Passport.</p>
+            <h3>Choose your experiences</h3>
+            <p>
+              Use a local starting point or bring an idea directly from a guide.
+            </p>
           </li>
           <li>
             <span>03</span>
             <h3>Shape your days</h3>
-            <p>
-              Return here to arrange experiences, add notes and share a draft.
-            </p>
+            <p>Choose the days, add your notes and share a draft.</p>
           </li>
         </ol>
         <p className="small-note">
@@ -146,17 +162,154 @@ export function TripPlanner({
         <h2 id="trip-title">
           {hasDraft
             ? "Your days, your pace."
-            : "Start with something you saved."}
+            : proposal
+              ? `Your version of ${proposal.name}.`
+              : "Start with something you saved."}
         </h2>
         <p>
-          Add your saved experiences, choose a day for each and keep the details
-          together.
+          Choose the experiences you want to build around. Give each a day and
+          leave room between them.
         </p>
         <p className="small-note">
           One private draft in this browser. No account or cloud sync. Nothing
           here is a booking or an automatically checked itinerary.
         </p>
       </div>
+      {proposal && (
+        <form
+          className="trip-proposal"
+          aria-labelledby="trip-proposal-title"
+          onSubmit={(event) => {
+            event.preventDefault();
+            const eligible = proposal.choices.filter((choice) =>
+              Object.hasOwn(choices, choice.id),
+            );
+            const next = mergeTripStops(
+              trip,
+              eligible.map((choice) => ({
+                id: choice.id,
+                day: Number(choices[choice.id]),
+              })),
+              items.map((item) => item.id),
+            );
+            const added = next.entries.length - trip.entries.length;
+            if (added) {
+              update(next);
+              requestAnimationFrame(() => {
+                const stops = document.getElementById("your-plan-stops");
+                stops?.focus({ preventScroll: true });
+                stops?.scrollIntoView({ block: "start" });
+              });
+            }
+            setChoices({});
+            setProposalMessage(
+              added
+                ? `${added} ${added === 1 ? "experience added" : "experiences added"} to your plan below. Your existing stops and notes stay as they were.`
+                : "No new stops added. Choose an experience and its day, or check whether your plan has reached 100 stops.",
+            );
+          }}
+        >
+          <div className="trip-proposal-heading">
+            <p className="eyebrow">A starting point / {proposal.name}</p>
+            <h3 id="trip-proposal-title">Choose what belongs in your stay.</h3>
+            <p>{proposal.pace}</p>
+            <p className="small-note">
+              Choose only what fits. Alternative outings can have separate days.
+              Check each venue and arrange travel independently.
+            </p>
+          </div>
+          <div className="trip-proposal-choices">
+            {proposal.choices.map((choice) => {
+              const item = items.find((entry) => entry.id === choice.id);
+              if (!item) return null;
+              const alreadyAdded = trip.entries.some(
+                (entry) => entry.id === item.id,
+              );
+              const selected = Object.hasOwn(choices, item.id);
+              return (
+                <article className="trip-proposal-choice" key={item.id}>
+                  {item.photo && (
+                    <div className="trip-guide-photo">
+                      <Link
+                        href={`/experiences/${item.slug}`}
+                        aria-label={`Read ${item.title}`}
+                      >
+                        <Photo
+                          src={item.photo.src}
+                          alt=""
+                          sizes="(max-width: 700px) 100vw, 25vw"
+                        />
+                      </Link>
+                      <ImageCredit media={item.photo} />
+                    </div>
+                  )}
+                  <div className="trip-choice-body">
+                    <p className="eyebrow">{choice.role}</p>
+                    <h4>
+                      <Link href={`/experiences/${item.slug}`}>
+                        {item.title} ↗
+                      </Link>
+                    </h4>
+                    <p>{choice.note}</p>
+                    <p className="small-note">{item.duration}</p>
+                    <label className="trip-choice-select">
+                      <input
+                        type="checkbox"
+                        aria-label={`Choose ${item.title}`}
+                        checked={selected || alreadyAdded}
+                        disabled={alreadyAdded}
+                        onChange={(event) =>
+                          setChoices((previous) => {
+                            const next = { ...previous };
+                            if (event.target.checked) next[item.id] = "";
+                            else delete next[item.id];
+                            return next;
+                          })
+                        }
+                      />
+                      {alreadyAdded
+                        ? "Already in your plan"
+                        : `Choose this experience`}
+                    </label>
+                    {selected && !alreadyAdded && (
+                      <label className="trip-choice-day">
+                        Choose a day
+                        <input
+                          type="number"
+                          min={1}
+                          max={60}
+                          required
+                          value={choices[item.id]}
+                          aria-label={`Proposed day for ${item.title}`}
+                          onChange={(event) =>
+                            setChoices({
+                              ...choices,
+                              [item.id]: event.target.value,
+                            })
+                          }
+                        />
+                      </label>
+                    )}
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+          <div className="trip-proposal-actions">
+            <button
+              type="submit"
+              className="button button-dark"
+              disabled={!Object.keys(choices).length}
+            >
+              Add selected experiences to my plan
+            </button>
+            <a className="text-link" href="#your-plan-stops">
+              Go to my plan ↓
+            </a>
+          </div>
+          {proposalMessage && <p role="status">{proposalMessage}</p>}
+        </form>
+      )}
       {suggested && (
         <div className="trip-suggestion">
           <p className="eyebrow">Bring this idea into your days</p>
@@ -227,14 +380,16 @@ export function TripPlanner({
           </select>
         </label>
       ) : (
-        <p>
-          {trip.entries.length
-            ? "All your saved experiences are in this plan."
-            : "Start by saving an experience to your Passport."}{" "}
-          <Link className="reset-link" href="/places">
-            Choose a destination ↗
-          </Link>
-        </p>
+        !proposal && (
+          <p>
+            {trip.entries.length
+              ? "Keep building around the experiences below."
+              : "Start by saving an experience to your Passport."}{" "}
+            <Link className="reset-link" href="/places">
+              Choose a destination ↗
+            </Link>
+          </p>
+        )
       )}
       {countries.size > 1 && (
         <p className="trip-caution">
@@ -243,7 +398,12 @@ export function TripPlanner({
           route is feasible.
         </p>
       )}
-      <ol className="trip-entries">
+      <ol
+        className="trip-entries"
+        id="your-plan-stops"
+        aria-label="Your planned experiences"
+        tabIndex={-1}
+      >
         {[...trip.entries]
           .sort((a, b) => a.day - b.day)
           .map((entry) => {
@@ -274,6 +434,21 @@ export function TripPlanner({
                 <div className="trip-entry-body">
                   {item ? (
                     <>
+                      {item.photo && (
+                        <div className="trip-entry-photo trip-guide-photo">
+                          <Link
+                            href={`/experiences/${item.slug}`}
+                            aria-label={`Read ${item.title}`}
+                          >
+                            <Photo
+                              src={item.photo.src}
+                              alt=""
+                              sizes="(max-width: 700px) 100vw, 33vw"
+                            />
+                          </Link>
+                          <ImageCredit media={item.photo} />
+                        </div>
+                      )}
                       <p className="eyebrow">
                         {item.place} / {item.country}
                       </p>
@@ -421,6 +596,10 @@ export function TripPlanner({
               includes your notes. Sharing excludes them unless you choose
               otherwise.
             </p>
+            <details className="trip-share-preview">
+              <summary>Preview the text to share</summary>
+              <pre>{tripText(trip, items, includeNotes)}</pre>
+            </details>
           </div>
           <div className="trip-reset">
             {confirmReset ? (
