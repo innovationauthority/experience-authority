@@ -2572,3 +2572,9 @@ h3,
   padding: 16px;
   border: 1px solid #b8bec0;
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  .prototype-hero-mosaic { animation: ea-editorial-arrival 240ms ease-out; }
+  .trip-edit-details[open] > :not(summary), .destination-chapter-details[open] > :not(summary) { animation: ea-editorial-arrival 180ms ease-out; }
+  @keyframes ea-editorial-arrival { from { opacity: 0.65; } to { opacity: 1; } }
+}

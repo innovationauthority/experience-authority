@@ -1,3 +1,4 @@
+import { firstVerifiedOn } from "../src/lib/guide-review-history";
 import test from "node:test";
 import assert from "node:assert/strict";
 import { statSync } from "node:fs";
@@ -82,7 +83,7 @@ test("ninth pass adds eighteen distinct experiences and three primary allocation
     interests.map((i) => i.slug).sort(),
   );
   const earlier = publicGuides.filter(
-    (g) => !slugs.includes(g.slug) && g.guideReview!.checkedOn <= "2026-10-21",
+    (g) => !slugs.includes(g.slug) && firstVerifiedOn(g) <= "2026-10-21",
   );
   assert.equal(earlier.length, 460);
   for (const [area, allocated] of Object.entries(edition20261021NinthPass)) {
@@ -134,7 +135,7 @@ test("ninth pass adds eighteen distinct experiences and three primary allocation
     }
   }
   assert.equal(
-    publicGuides.filter((g) => g.guideReview!.checkedOn <= "2026-10-21").length,
+    publicGuides.filter((g) => firstVerifiedOn(g) <= "2026-10-21").length,
     478,
   );
   assert.equal(

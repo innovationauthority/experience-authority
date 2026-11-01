@@ -662,7 +662,7 @@ export const guideBatch43: PublicExperience[] = [
         {
           title: "North Sydney Council: Maccallum Pool",
           url: "https://www.northsydney.nsw.gov.au/directory-record/1523/maccallum-pool",
-          note: "Rechecked 17 October: currently open, with cleaning closures on 21 to 22 and 29 to 30 October. Gate notices remain authoritative.",
+          note: "Rechecked 1 November: council marks the pool open and lists cleaning closures on 5 to 6, 9 to 10, 19 to 20 and 30 November to 1 December. Times remain estimates and gate notices take precedence.",
         },
         {
           title: "Destination NSW: Maccallum Pool",
@@ -670,8 +670,8 @@ export const guideBatch43: PublicExperience[] = [
           note: "State tourism listing for the exact public pool and Cremorne Point setting.",
         },
       ],
+      "2026-11-15",
       "2026-11-01",
-      "2026-10-17",
     ),
   },
   {

@@ -1,3 +1,4 @@
+import { firstVerifiedOn } from "../src/lib/guide-review-history";
 import test from "node:test";
 import assert from "node:assert/strict";
 import { statSync } from "node:fs";
@@ -32,7 +33,7 @@ test("second 20 October pass adds eighteen distinct guides with three primary al
   );
   const earlier = publicGuides.filter(
     (g) =>
-      g.guideReview!.checkedOn <= "2026-10-20" &&
+      firstVerifiedOn(g) <= "2026-10-20" &&
       !slugs.some((s) => s === g.slug),
   );
   assert.equal(earlier.length, 298);
@@ -103,7 +104,7 @@ test("second 20 October pass adds eighteen distinct guides with three primary al
     36,
   );
   assert.equal(
-    publicGuides.filter((g) => g.guideReview!.checkedOn <= "2026-10-21").length,
+    publicGuides.filter((g) => firstVerifiedOn(g) <= "2026-10-21").length,
     478,
   );
   assert.equal(

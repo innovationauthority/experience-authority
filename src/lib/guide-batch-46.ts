@@ -5,11 +5,12 @@ const review = (
   scope: GuideReview["scope"],
   sources: GuideReview["sources"],
   reviewBy = "2026-12-10",
+  checkedOn = "2026-10-17",
 ): GuideReview => ({
   basis: "public_sources",
   scope,
   requiresSpecialPermission: false,
-  checkedOn: "2026-10-17",
+  checkedOn,
   reviewBy,
   accessUrl: sources[0].url,
   sources,
@@ -798,7 +799,7 @@ export const guideBatch46: PublicExperience[] = [
     responsibility:
       "Confirm the current artist, start time, age restriction, cover charge and seating through the official music or ticket channel. The venue's pages contain conflicting general opening times, so these do not establish a jazz start time. A table reservation is not necessarily concert admission. Ask about stairs and seating before booking. Food and drinks have separate conditions. Arrange a sensible return journey and do not assume alcohol consumption is required. Ask before recording performers or other guests.",
     evidence:
-      "The venue publishes a dedicated music contact and official event-ticket links. Cape Town Tourism describes its jazz programme. A current local listing advertises an October 21 performance, but the ticketing provider did not expose a readable calendar during EA's check. No specific future lineup, available seat or nightly performance is asserted as operator-confirmed. EA has not attended or assessed the music.",
+      "The venue publishes a dedicated music contact and official event-ticket links. Cape Town Tourism describes its jazz programme. The venue's FIXR calendar lists November performances, and an individual event page identifies Athletic Club & Social as organiser. Listing a performance does not establish remaining ticket availability or a nightly programme. EA has not attended or assessed the music.",
     duration:
       "Follow the chosen event's set times, not the bar's general hours",
     participation: "Audience listening at a confirmed public jazz event",
@@ -818,11 +819,12 @@ export const guideBatch46: PublicExperience[] = [
           note: "2026 city-tourism account of local jazz context and the venue's programme, with weekly confirmation required.",
         },
         {
-          title: "GetOutIn: current Athletic Club event listing",
-          url: "https://www.getoutin.co.za/events/freed-friends-in-capetown",
-          note: "Local listing for 21 October 2026 corroborates current public music activity. Artist, admission and conflicting age shorthand still require direct operator confirmation.",
+          title: "FIXR: Athletic Club & Social event calendar",
+          url: "https://fixr.co/venue/the-athletic-club-and-social-cape-town-26036",
+          note: "Rechecked 1 November: upcoming November performances are listed. Individual event pages identify the venue as organiser. Check each event for admission, start time and availability.",
         },
       ],
+      "2026-11-15",
       "2026-11-01",
     ),
   },

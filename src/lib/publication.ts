@@ -1,5 +1,6 @@
 import type { PublicExperience, Status } from "./catalog";
 import { guideMediaFor } from "./media";
+import { guideReviewHistory } from "./guide-review-history";
 
 export type EditorialRecord = {
   id: string;
@@ -32,7 +33,12 @@ export function canPublishGuide(
   p: PublicExperience,
   today = new Date().toISOString().slice(0, 10),
 ) {
-  const r = p.guideReview;
+  const current = p.guideReview;
+  const r = current && current.checkedOn > today
+    ? (guideReviewHistory[p.slug] || [])
+        .filter(review => review.checkedOn <= today && review.checkedOn < current.checkedOn)
+        .sort((a, b) => b.checkedOn.localeCompare(a.checkedOn))[0]
+    : current;
   const media = guideMediaFor(p.id);
   const validDate = (value: string) =>
     /^\d{4}-\d{2}-\d{2}$/.test(value) &&

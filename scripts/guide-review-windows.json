@@ -1614,8 +1614,8 @@
     "regionSlug": "budapest"
   },
   "/experiences/make-room-for-a-cape-town-jazz-set": {
-    "availableFrom": "2026-10-17",
-    "reviewBy": "2026-11-01",
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2026-11-15",
     "countrySlug": "south-africa",
     "regionSlug": "cape-town"
   },
@@ -1914,8 +1914,8 @@
     "regionSlug": "hoi-an"
   },
   "/experiences/swim-a-sydney-harbour-length": {
-    "availableFrom": "2026-10-17",
-    "reviewBy": "2026-11-01",
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2026-11-15",
     "countrySlug": "australia",
     "regionSlug": "sydney"
   },

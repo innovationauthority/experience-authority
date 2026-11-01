@@ -1,3 +1,4 @@
+import { firstVerifiedOn } from "../src/lib/guide-review-history";
 import test from "node:test";
 import assert from "node:assert/strict";
 import { statSync } from "node:fs";
@@ -26,7 +27,7 @@ test("27 October second pass adds eighteen net-new guides, three per primary are
   assert.equal(publicGuides.length, 532);
   assert.deepEqual([...slugs].sort(), guideBatch59.map((g) => g.slug).sort());
   const previous = publicGuides.filter(
-    (g) => !slugs.includes(g.slug) && g.guideReview!.checkedOn <= "2026-10-27",
+    (g) => !slugs.includes(g.slug) && firstVerifiedOn(g) <= "2026-10-27",
   );
   assert.equal(previous.length, 496);
   assert.deepEqual(

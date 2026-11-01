@@ -1,3 +1,4 @@
+import { firstVerifiedOn } from "../src/lib/guide-review-history";
 import test from "node:test";
 import assert from "node:assert/strict";
 import { statSync } from "node:fs";
@@ -27,7 +28,7 @@ test("27 October adds eighteen distinct source-checked guides with three primary
   const previous = publicGuides.filter(
     (g) =>
       !slugs.includes(g.slug) &&
-      g.guideReview!.checkedOn <= "2026-10-27" &&
+      firstVerifiedOn(g) <= "2026-10-27" &&
       !guideBatch59.some((newGuide) => newGuide.id === g.id),
   );
   assert.equal(previous.length, 478);

@@ -1,0 +1,23 @@
+{
+  "checkedOn": "2026-11-01",
+  "guides": [
+    {
+      "slug": "swim-a-sydney-harbour-length",
+      "source": "https://www.northsydney.nsw.gov.au/directory-record/1523/maccallum-pool",
+      "finding": "Open status and November cleaning closures verified. NSW tourism fetch returned 405, not treated as freshly verified.",
+      "reviewBy": "2026-11-15"
+    },
+    {
+      "slug": "make-room-for-a-cape-town-jazz-set",
+      "sources": [
+        "https://theathletic.co.za/",
+        "https://fixr.co/venue/the-athletic-club-and-social-cape-town-26036",
+        "https://fixr.co/event/uthandolwethu-sounds-tickets-109021171?lang=en-US",
+        "https://www.capetown.travel/where-to-see-live-jazz-in-cape-town/"
+      ],
+      "finding": "Official venue search index confirms music contact. Direct fetch returned 429. FIXR venue calendar and organiser-attributed event establish future programme. Obsolete October secondary listing removed. No availability promised.",
+      "reviewBy": "2026-11-15"
+    }
+  ],
+  "scope": "Two urgent source renewals only. Photography and destination expansion remain outstanding."
+}

@@ -1,3 +1,4 @@
+import { firstVerifiedOn } from "../src/lib/guide-review-history";
 import test from "node:test";
 import assert from "node:assert/strict";
 import { statSync } from "node:fs";
@@ -246,7 +247,7 @@ test("local chapters connect real choices and never fabricate a combined itinera
     if (hasLocal) assert.equal(connection.item.regionSlug, g.regionSlug);
   }
   assert.equal(
-    publicGuides.filter((g) => g.guideReview!.checkedOn <= "2026-10-21").length,
+    publicGuides.filter((g) => firstVerifiedOn(g) <= "2026-10-21").length,
     478,
   );
   assert.equal(current.length, 305);

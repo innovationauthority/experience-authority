@@ -140,7 +140,7 @@ test("precise programme distinctions and current exceptions survive publication"
   );
   assert.match(
     byId("cape-town-athletic-jazz").evidence,
-    /no specific future lineup/i,
+    /does not establish remaining ticket availability/i,
   );
   assert.equal(canPublishGuide(byId("athens-snfcc-tour"), "2026-10-31"), false);
   assert.equal(
