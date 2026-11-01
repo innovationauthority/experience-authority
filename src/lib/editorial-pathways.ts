@@ -36,6 +36,11 @@ export const editorialPathways = [
     intro:
       "A city is shaped by what it makes and what it reimagines. Read the decisions inside a car in Turin, a chair in Copenhagen or a silhouette in Antwerp. In Cape Town, a former grain silo opens onto contemporary African art. Rome puts ancient sculpture among industrial machinery, while Berlin gives ordinary objects a second look. Choose a question that interests you and let the place complicate it.",
     guideSlugs: [
+      "let-light-change-the-room-in-miami",
+      "watch-matisse-unfold-across-water-in-bordeaux",
+      "compare-buildings-on-foot-at-the-vitra-campus",
+      "follow-a-car-through-the-factory-in-munich",
+
       "follow-video-art-into-the-room-in-amsterdam",
       "walk-inside-colour-at-inhotim",
       "find-the-handmade-work-behind-the-screen-in-wellington",
@@ -63,6 +68,11 @@ export const editorialPathways = [
     intro:
       "A first attempt makes a familiar place less predictable. In Porto, a brush turns the tile you noticed on a facade into a decision of your own. Fez puts a hammer, clay and geometry in the same frame. Suchitoto begins with a fold that tells indigo where not to go. Skopje asks fine silver wire to hold a shape. Hong Kong turns four hands of mahjong into one changing problem. Bonwire introduces the tension inside one narrow kente strip. Materuni moves a coffee cherry through roasting and brewing, while Port of Spain lets a maker's tuned metal answer your first careful strikes. Cambridge, Moorea, Biarritz, Bo-Kaap, Salta and Loíza offer different first steps through movement, food and rhythm. These are public introductions, not shortcuts to mastery. Choose the attempt you would enjoy even if the result were imperfect, then read the current programme before booking.",
     guideSlugs: [
+      "turn-a-drawing-into-a-rug-in-singapore",
+      "paint-a-piece-for-everyday-use-in-copenhagen",
+      "play-a-familiar-game-with-a-giant-controller-in-uji",
+      "watch-a-miniature-airport-come-to-life-in-hamburg",
+
       "shape-hot-glass-with-an-artist-in-adelaide",
       "take-a-watch-movement-apart-in-geneva",
       "build-test-and-rebuild-in-billund",
@@ -172,6 +182,11 @@ export const editorialPathways = [
     intro:
       "Not every memorable experience needs acceleration. A Koyasan temple stay asks you to fit an overnight visit around one lodging's actual arrangements. Istanbul, Tampere, Busan, Kuopio and Reykjavík each open a different public bathing context. A Mooska farm walk stays outside the bathing promise and makes the preparation behind a Võrumaa smoke sauna visible. In Hanoi, a current urban Red Dao herbal-bath service brings attention to the leaves and long brewing behind a short treatment without pretending to be a village encounter. Sarajevo brings a seated coffee pause into a longer city walk, while Doha makes qahwa and majlis etiquette the subject of a hosted session. These are not interchangeable wellness products and none carries a promise of transformation. What they share is room to notice a threshold, a gesture or a pattern of ordinary life that a hurried itinerary would pass over.",
     guideSlugs: [
+      "meet-the-trees-at-canopy-height-in-kew",
+      "follow-a-gardener-through-an-edible-landscape-near-paarl",
+      "leave-the-city-noise-outside-a-berlin-sauna",
+      "take-a-sauna-break-inside-a-milan-tram",
+
       "read-stone-light-and-water-in-vals",
       "bathe-among-hundertwassers-curves-in-styria",
 
@@ -265,6 +280,9 @@ export const editorialPathways = [
     intro:
       "Begin with appetite, then look further. These guides connect a Singapore hawker breakfast, halloumi made on a route into the Troodos foothills, Vienna's heuriger, Asturian cider, Grenadian cacao, Kyoto tea, Seoul kimchi, Québec maple season and food grown on Mexico City's chinampas. Materuni takes Arabica from plant to pan and brewed cup on Kilimanjaro's slopes. In Apia, an umu-cooked lunch begins with hot volcanic rocks, wrapped ingredients and preparation the guest can actually see. Oaxaca follows agave through heat and copper, while Doha uses qahwa to read the social language of a majlis. Chios begins with clear mastiha resin on a tree. In Appenzellerland, a gallery above a working dairy connects tasting to milk, curd and cellar. Each is a different kind of public encounter. Together they show why flavour can reveal climate, labour, technique and social rhythm. Use the official links to check what is currently offered, and let the guide sharpen the questions you bring to the table.",
     guideSlugs: [
+      "follow-the-landscape-through-a-menu-in-tokyo",
+      "taste-the-roca-brothers-girona",
+
       "taste-singapore-in-another-form",
       "let-a-tasting-menu-change-your-expectations-in-barcelona",
 
@@ -584,6 +602,9 @@ export const editorialPathways = [
     intro:
       "A landmark can tell you where you are. A practice can tell you how a city works. Begin Barcelona with a human tower, Singapore at a hawker table, Seoul through kimchi and Venice through an oar. Cross Istanbul by municipal ferry, give Mexico City's Sunday avenue back to feet and bicycles, then let Tirana's xhiro turn an evening pavement into social infrastructure. In El Alto, a public-street route reads commerce, celebration and a rooftop home stacked into one neo-Andean facade. Baku opens through mugham's relationship between voice and instruments. Bandar Seri Begawan becomes legible from a public boat and walkway route, while Aswan begins inside the Nubian Museum before a felucca reconnects the collection with the Nile. These are practical starting points, not claims to know a whole city.",
     guideSlugs: [
+      "make-an-evening-of-live-jazz-in-aoyama",
+      "hear-reykjavik-from-inside-harpas-concert-hall",
+
       "follow-a-record-from-room-to-groove-in-kingston",
       "hear-nashville-through-a-recording-room",
 

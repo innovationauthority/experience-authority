@@ -134,6 +134,9 @@ export const interests: readonly Interest[] = [
 ];
 /** Visitor navigation is independent of the six historical publishing allocations. */
 const designGuideSlugs = [
+  "compare-buildings-on-foot-at-the-vitra-campus",
+  "follow-a-car-through-the-factory-in-munich",
+
   "find-the-handmade-work-behind-the-screen-in-wellington",
   "try-the-ideas-behind-a-particle-accelerator-at-cern",
 

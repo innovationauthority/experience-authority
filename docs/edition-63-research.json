@@ -1,0 +1,498 @@
+{
+  "status": "authored, integrated, verification in progress",
+  "allocation": {
+    "eat-drink": [
+      "Narisawa Tokyo",
+      "El Celler de Can Roca Girona"
+    ],
+    "art-culture": [
+      "Superblue Miami",
+      "Bassins des Lumieres Bordeaux Matisse"
+    ],
+    "design-innovation": [
+      "Vitra campus architecture tour Weil am Rhein",
+      "BMW Munich plant tour"
+    ],
+    "make-learn": [
+      "Tuft Club Singapore",
+      "Creative Space Copenhagen Inner City ceramic painting"
+    ],
+    "move-water": [
+      "Nintendo Museum Uji",
+      "Miniatur Wunderland Hamburg"
+    ],
+    "nature-outdoors": [
+      "Kew treetop walkway London",
+      "Babylonstoren guided edible garden walk"
+    ],
+    "swim-reset": [
+      "Vabali Berlin candidate",
+      "QC Terme Milano candidate"
+    ],
+    "shared-rituals": [
+      "Blue Note Tokyo candidate",
+      "Harpa Reykjavik Iceland Symphony concert"
+    ]
+  },
+  "sources": {
+    "narisawa": [
+      "https://www.narisawa-yoshihiro-en.com/reservation",
+      "https://www.narisawa-yoshihiro.com/menu",
+      "https://omakase.in/en/r/ne143874"
+    ],
+    "roca": [
+      "https://cellercanroca.com/en/reservation-information/",
+      "https://cellercanroca.com/en/faqs/"
+    ],
+    "superblue": [
+      "https://www.superblue.com/miami",
+      "https://www.superblue.com/faq",
+      "https://www.superblue.com/miami/visitor-guide"
+    ],
+    "bassins": [
+      "https://www.bassins-lumieres.com/fr"
+    ],
+    "vitra": [
+      "https://www.design-museum.de/en/education/guided-tours.html",
+      "https://www.vitra.com/en-us/campus/visit",
+      "https://www.vitra.com/en-se/campus/guided-tours-workshops"
+    ],
+    "bmw": [
+      "https://www.bmw-welt.com/en/ausstellungen/fuehrungen.html",
+      "https://www.visit-bmwgroup.com/en/faq/"
+    ],
+    "tuft": [
+      "https://tuftclub.com/pages/faq",
+      "https://tuftclub.com/pages/about-us",
+      "https://tuftclub.com/pages/terms-and-conditions",
+      "https://tuftclub.com/products/rug-tufting-workshop-25x25cm"
+    ],
+    "nintendo": [
+      "https://museum.nintendo.com/en/exhibition/index.html",
+      "https://museum.nintendo.com/en/guide/index.html",
+      "https://museum.nintendo.com/en/guide/visit-flow/index.html"
+    ],
+    "miniatur": [
+      "https://www.miniatur-wunderland.com/visiting/plan-your-visit/opening-hours",
+      "https://www.miniatur-wunderland.com/visiting/extras/faq",
+      "https://www.miniatur-wunderland.com/visiting/at-the-wunderland/guided-tours"
+    ],
+    "kew": [
+      "https://www.kew.org/kew-gardens/whats-in-the-gardens/treetop-walkway",
+      "https://www.kew.org/kew-gardens/visit-kew-gardens/opening-and-closing-times"
+    ],
+    "creative": [
+      "https://creative-space.dk/en/pages/indre-by",
+      "https://creative-space.dk/en/pages/english",
+      "https://creative-space.dk/en/pages/faq"
+    ],
+    "babylon": [
+      "https://babylonstoren.com/visit-our-garden",
+      "https://babylonstoren.com/visitor-information",
+      "https://www.visitstellenbosch.org/listing/babylonstoren-garden-tours/"
+    ],
+    "vabali": [
+      "https://www.vabali.de/en/berlin/",
+      "https://www.vabali.de/en/faq/"
+    ],
+    "qc": [
+      "https://www.qcterme.com/destinations/milano/qc-spa-milano/admissions-prices-milano",
+      "https://www.qcterme.com/faq"
+    ],
+    "bluenote": [
+      "https://www.bluenote.co.jp/jp/reservation/",
+      "https://www.bluenote.co.jp/jp/faq/"
+    ],
+    "harpa": [
+      "https://en.sinfonia.is/concerts-tickets/2026/11/",
+      "https://www.harpa.is/en"
+    ]
+  },
+  "notes": [
+    "Narisawa English 18+ two or more diners, Japanese17 conflicts flag use18 cautious. Reservation self only, Omakase. Dietary advance vegetarian vegan. Current menu seasonal.",
+    "Roca .com confirmed primary. .org suspicious competing clone NOT USE. 3.5h Festival menu,2-12people11monthadvance waitlist notguarantee. ChristmascloseDec20-Jan12.",
+    "Superblue90min ticketed,ENES daily1pm guided optional, sensorywarnings readfull.",
+    "Bassins current Matisse plusseparate dinosaurs. Do not useexpired Monet.",
+    "BMW plant public MonFri2hENDE. Check detailed minimumage/access/photo rules.",
+    "Nintendo paidlottery ahead,coinslimited, no doortickets ensure official current.",
+    "Tuft Club standard rug30x30 2h vsolder70x70 4h,16+or12adult. Finishingdeliveryweeks readproduct.",
+    "Kew118stairs18m, liftstatuscheck, windclosure, garden ticket, November walkway10-15last14.45.",
+    "Creative Space InnerCity Vendersgade5 2h paintpremade7daypickup vsclay4weeks. Shippingup8weeks eligiblecountriesconfirm.",
+    "Vabali mixedtextilefree12+under18guardian noelectroniccameradevices robesoutsidepools.",
+    "QC Milan14+pregnancyexcluded peroperator heatmedicalrestrictions link noEAmedicaladvice. 5h/day/evening bookexact product.",
+    "Harpa choose specificIcelandSymphonyconcert e.g.Nov19BrucknerorNov26Hannigan no horrorPsycho focus.",
+    "BlueNoteTokyo differentfromBlueNotePlace. Under18restrictions1stshowadult20+selectedseats, preschoolnotadmitted.",
+    "Babylon daily10gardenwalkFarmShop requirebook gardenentryseparate. Workingcultivatedlandscape notwildorancientcontinuity. Gravel/pips shoes."
+  ],
+  "rejected": [
+    "Silverworks Dublin rings alreadyCladdagh near duplicate",
+    "Serralves treetop alreadypublished",
+    "Kirstenbosch alreadypublished",
+    "Carpigiani gelato tasting alreadypublished nearnewmaking maydiffer butprefernewvenue",
+    "Musikverein Vienna alreadypublished",
+    "Grasse perfumealreadyGalimard",
+    "Roca .org lookalike not used. Official .com source verified.",
+    "Bassins Monet programme not used because current programme is Matisse with alternating calendar.",
+    "Blue Note Place is a different venue and not evidence for Blue Note Tokyo."
+  ],
+  "sourcesCheckedOn": "2026-11-01",
+  "guideSlugs": [
+    "follow-the-landscape-through-a-menu-in-tokyo",
+    "taste-the-roca-brothers-girona",
+    "let-light-change-the-room-in-miami",
+    "watch-matisse-unfold-across-water-in-bordeaux",
+    "compare-buildings-on-foot-at-the-vitra-campus",
+    "follow-a-car-through-the-factory-in-munich",
+    "turn-a-drawing-into-a-rug-in-singapore",
+    "paint-a-piece-for-everyday-use-in-copenhagen",
+    "play-a-familiar-game-with-a-giant-controller-in-uji",
+    "watch-a-miniature-airport-come-to-life-in-hamburg",
+    "meet-the-trees-at-canopy-height-in-kew",
+    "follow-a-gardener-through-an-edible-landscape-near-paarl",
+    "leave-the-city-noise-outside-a-berlin-sauna",
+    "take-a-sauna-break-inside-a-milan-tram",
+    "make-an-evening-of-live-jazz-in-aoyama",
+    "hear-reykjavik-from-inside-harpas-concert-hall"
+  ],
+  "sourceChecks": [
+    {
+      "url": "https://www.narisawa-yoshihiro-en.com/reservation",
+      "error": "Remote end closed connection without response"
+    },
+    {
+      "url": "https://www.narisawa-yoshihiro.com/philosophy",
+      "error": "Remote end closed connection without response"
+    },
+    {
+      "url": "https://www.narisawa-yoshihiro.com/menu",
+      "error": "Remote end closed connection without response"
+    },
+    {
+      "url": "https://cellercanroca.com/en/reservation-information/",
+      "status": 200,
+      "finalUrl": "https://cellercanroca.com/en/reservation-information/",
+      "title": "Reservation Information - El Celler de Can Roca"
+    },
+    {
+      "url": "https://cellercanroca.com/en/faqs/",
+      "status": 200,
+      "finalUrl": "https://cellercanroca.com/en/faqs/",
+      "title": "FAQ&#039;s - El Celler de Can Roca"
+    },
+    {
+      "url": "https://cellercanroca.com/en/the-roca-brothers/origenes/",
+      "status": 200,
+      "finalUrl": "https://cellercanroca.com/en/the-roca-brothers/origenes/",
+      "title": "Origins - El Celler de Can Roca"
+    },
+    {
+      "url": "https://www.superblue.com/miami",
+      "status": 200,
+      "finalUrl": "https://www.superblue.com/miami",
+      "title": "Superblue Miami Immersive Art Experience"
+    },
+    {
+      "url": "https://www.superblue.com/miami/visitor-guide",
+      "status": 200,
+      "finalUrl": "https://www.superblue.com/miami/visitor-guide",
+      "title": "Superblue Miami Visitor Guide"
+    },
+    {
+      "url": "https://www.superblue.com/faq",
+      "status": 200,
+      "finalUrl": "https://www.superblue.com/faq",
+      "title": "Superblue Miami FAQs and Visitor Information"
+    },
+    {
+      "url": "https://www.bassins-lumieres.com/fr/programmation/matisse-la-symphonie-des-couleurs",
+      "status": 200,
+      "finalUrl": "https://www.bassins-lumieres.com/fr/programmation/matisse-la-symphonie-des-couleurs",
+      "title": "Exposition immersive Matisse, La symphonie des couleurs à Bordeaux"
+    },
+    {
+      "url": "https://www.bassins-lumieres.com/fr/decouvrir/notre-histoire",
+      "status": 200,
+      "finalUrl": "https://www.bassins-lumieres.com/fr/decouvrir/notre-histoire",
+      "title": "Histoire de la base sous-marine de Bordeaux devenue un centre d&#039;art"
+    },
+    {
+      "url": "https://www.design-museum.de/en/education/guided-tours.html",
+      "status": 200,
+      "finalUrl": "https://www.design-museum.de/en/education/guided-tours.html",
+      "title": "Guided Tours"
+    },
+    {
+      "url": "https://design-museum.reservix.de/tickets/kalender/reihe/architecture-tours-2h-de-en-fr/514781",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.bmw-welt.com/en/ausstellungen/fuehrungen.html",
+      "status": 200,
+      "finalUrl": "https://www.bmw-welt.com/en/ausstellungen/fuehrungen.html",
+      "title": "Guided Tours in BMW Welt, BMW Museum and BMW Group Classic"
+    },
+    {
+      "url": "https://www.visit-bmwgroup.com/en/faq/",
+      "status": 200,
+      "finalUrl": "https://www.visit-bmwgroup.com/en/faq/",
+      "title": "The most important questions about your plant tour - BMW Group iFACTORY EXPERIENCE"
+    },
+    {
+      "url": "https://tuftclub.com/products/rug-tufting-workshop-25x25cm",
+      "status": 200,
+      "finalUrl": "https://tuftclub.com/products/rug-tufting-workshop-25x25cm",
+      "title": "Rug Tufting Workshop (30x30cm) &ndash; TUFT CLUB"
+    },
+    {
+      "url": "https://tuftclub.com/pages/faq",
+      "status": 200,
+      "finalUrl": "https://tuftclub.com/pages/faq",
+      "title": "Tuft Club FAQ &ndash; TUFT CLUB"
+    },
+    {
+      "url": "https://creative-space.dk/en/pages/indre-by",
+      "status": 200,
+      "finalUrl": "https://creative-space.dk/en/pages/indre-by",
+      "title": "Copenhagen Inner City\n  \n  \n   &ndash; Creative Space"
+    },
+    {
+      "url": "https://creative-space.dk/en/pages/faq",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://creative-space.dk/en/pages/english",
+      "status": 200,
+      "finalUrl": "https://creative-space.dk/en/pages/english",
+      "title": "English\n  \n  \n   &ndash; Creative Space"
+    },
+    {
+      "url": "https://museum.nintendo.com/en/guide/index.html",
+      "status": 200,
+      "finalUrl": "https://museum.nintendo.com/en/guide/index.html",
+      "title": "User Guide | Nintendo Museum | Nintendo"
+    },
+    {
+      "url": "https://museum.nintendo.com/en/exhibition/index.html",
+      "status": 200,
+      "finalUrl": "https://museum.nintendo.com/en/exhibition/index.html",
+      "title": "Exhibits | Nintendo Museum | Nintendo"
+    },
+    {
+      "url": "https://museum.nintendo.com/en/guide/visit-flow/index.html",
+      "status": 200,
+      "finalUrl": "https://museum.nintendo.com/en/guide/visit-flow/index.html",
+      "title": "From Ticket Reservation to Arrival at the Museum | Nintendo Museum | Nintendo"
+    },
+    {
+      "url": "https://www.miniatur-wunderland.com/visiting/extras/faq",
+      "status": 200,
+      "finalUrl": "https://www.miniatur-wunderland.com/visiting/extras/faq",
+      "title": "FAQ | Miniatur Wunderland Hamburg"
+    },
+    {
+      "url": "https://www.miniatur-wunderland.com/visiting/plan-your-visit/opening-hours",
+      "status": 200,
+      "finalUrl": "https://www.miniatur-wunderland.com/visiting/plan-your-visit/opening-hours",
+      "title": "Opening Hours | Miniatur Wunderland Hamburg"
+    },
+    {
+      "url": "https://www.miniatur-wunderland.com/",
+      "status": 200,
+      "finalUrl": "https://www.miniatur-wunderland.com/",
+      "title": "Homepage | Miniatur Wunderland Hamburg"
+    },
+    {
+      "url": "https://www.kew.org/kew-gardens/whats-in-the-gardens/treetop-walkway",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.kew.org/kew-gardens/visit-kew-gardens/opening-and-closing-times",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://babylonstoren.com/visit-our-garden",
+      "status": 200,
+      "finalUrl": "https://babylonstoren.com/visit-our-garden",
+      "title": "Babylonstoren Flowers & Garden | Babylonstoren"
+    },
+    {
+      "url": "https://babylonstoren.com/visitor-information",
+      "status": 200,
+      "finalUrl": "https://babylonstoren.com/visitor-information",
+      "title": "Visit Babylonstoren Cape Town | Babylonstoren"
+    },
+    {
+      "url": "https://www.visitstellenbosch.org/listing/babylonstoren-garden-tours/",
+      "status": 200,
+      "finalUrl": "https://www.visitstellenbosch.org/listing/babylonstoren-garden-tours/",
+      "title": "The Garden at Babylonstoren | Stellenbosch"
+    },
+    {
+      "url": "https://www.vabali.de/en/berlin/",
+      "status": 200,
+      "finalUrl": "https://www.vabali.de/en/berlin/",
+      "title": "vabali spa Berlin"
+    },
+    {
+      "url": "https://www.vabali.de/en/faq/",
+      "status": 200,
+      "finalUrl": "https://www.vabali.de/en/faq/",
+      "title": "FAQ | vabali spa"
+    },
+    {
+      "url": "https://www.qcterme.com/destinations/milano/qc-spa-milano/admissions-prices-milano",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.qcterme.com/destinations/milano/qc-spa-milano/wellness-path-milano",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.qcterme.com/faq",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.bluenote.co.jp/jp/reservation/",
+      "status": 200,
+      "finalUrl": "https://www.bluenote.co.jp/jp/reservation/",
+      "title": "ご利用の流れ｜BLUE NOTE TOKYO"
+    },
+    {
+      "url": "https://www.bluenote.co.jp/jp/faq/",
+      "status": 200,
+      "finalUrl": "https://www.bluenote.co.jp/jp/faq/",
+      "title": "FAQ｜BLUE NOTE TOKYO"
+    },
+    {
+      "url": "https://www.bluenote.co.jp/jp/",
+      "status": 200,
+      "finalUrl": "https://www.bluenote.co.jp/jp/",
+      "title": "BLUE NOTE TOKYO"
+    },
+    {
+      "url": "https://en.sinfonia.is/concerts-tickets/",
+      "status": 200,
+      "finalUrl": "https://en.sinfonia.is/concerts-tickets/",
+      "title": "Concerts & Tickets | Iceland Symphony Orchestra"
+    },
+    {
+      "url": "https://www.harpa.is/en/accessibility",
+      "status": 200,
+      "finalUrl": "https://www.harpa.is/en/accessibility",
+      "title": "Accessibility in Harpa"
+    },
+    {
+      "url": "https://en.sinfonia.is/press/",
+      "status": 200,
+      "finalUrl": "https://en.sinfonia.is/press/",
+      "title": "Press photos | Iceland Symphony Orchestra"
+    }
+  ],
+  "photoDecisions": [
+    "Narisawa official menu image visually matched to Sergio Coimbra credit in https://www.the50.com/stories/News/narisawa-shares-tips-create-sustainable-restaurant.html. Landscape, 80px placeholders and 620px editorial crop rejected.",
+    "Kew Andy Li CC0 photograph shows the walkway. Earlier canopy-only image rejected as less specific.",
+    "Babylonstoren Nina R CC BY 2.0 verified via Wikimedia Flickr review. Small official garden photograph rejected. Bonsai display is disclosed as illustrative garden context, not guaranteed tour stop.",
+    "Superblue Mind The Film credit retained from exact official image filename.",
+    "Harpa Ari Magg credit retained from official press archive filename. Posed 2022 foyer portrait explicitly distinguished from a performance.",
+    "Creative Space operator photograph illustrates ceramic painting, not confirmed Indre By room.",
+    "Official-source images are not represented as independently licensed. Attribution is not permission."
+  ],
+  "browserVerifiedSources": [
+    "Narisawa reservation, philosophy and menu via web reader after direct HTTP connection errors.",
+    "Creative Space Indre By and English FAQ via web reader or previously retrieved official HTML after rate limiting.",
+    "Kew walkway and opening hours via web reader after direct HTTP 403.",
+    "QC Milano admission, wellness path and FAQ via web reader after direct HTTP 403.",
+    "Vitra reservation link is published on the official museum page. Its direct ticket host blocks automated HTTP retrieval, so no live availability is claimed."
+  ],
+  "selectedPhotos": [
+    {
+      "id": "tokyo-narisawa-satoyama",
+      "file": "narisawa-final",
+      "source": "https://www.narisawa-yoshihiro.com/menu"
+    },
+    {
+      "id": "girona-celler-can-roca",
+      "file": "roca-7",
+      "source": "https://cellercanroca.com/en/el-celler-de-can-roca/"
+    },
+    {
+      "id": "miami-superblue-light",
+      "file": "superblue-0-13",
+      "source": "https://www.superblue.com/miami"
+    },
+    {
+      "id": "bordeaux-bassins-matisse",
+      "file": "bassins-full",
+      "source": "https://www.bassins-lumieres.com/fr/programmation/matisse-la-symphonie-des-couleurs"
+    },
+    {
+      "id": "weil-vitra-architecture",
+      "file": "vitra-0-17",
+      "source": "https://www.design-museum.de/en/education/guided-tours.html"
+    },
+    {
+      "id": "munich-bmw-plant",
+      "file": "bmw-plant",
+      "source": "https://www.bmw-welt.com/en/ausstellungen/fuehrungen.html"
+    },
+    {
+      "id": "singapore-tuft-club",
+      "file": "tuft-3-8",
+      "source": "https://tuftclub.com/products/rug-tufting-workshop-25x25cm"
+    },
+    {
+      "id": "copenhagen-creative-space-paint",
+      "file": "creative-2-6",
+      "source": "https://creative-space.dk/en/pages/faq"
+    },
+    {
+      "id": "uji-nintendo-big-controller",
+      "file": "nintendo-big",
+      "source": "https://museum.nintendo.com/en/exhibition/index.html"
+    },
+    {
+      "id": "hamburg-miniatur-airport",
+      "file": "miniatur-home-44",
+      "source": "https://www.miniatur-wunderland.com/"
+    },
+    {
+      "id": "london-kew-treetops",
+      "file": "kew-andy",
+      "source": "https://commons.wikimedia.org/wiki/File:Kew_Gardens_Treetop_walkway_2025-05-14.jpg"
+    },
+    {
+      "id": "paarl-babylonstoren-garden",
+      "file": "babylon-commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Babylonstoren1.jpg"
+    },
+    {
+      "id": "berlin-vabali-sauna",
+      "file": "vabali-0-14",
+      "source": "https://www.vabali.de/en/berlin/"
+    },
+    {
+      "id": "milan-qc-tram-sauna",
+      "file": "qc-day",
+      "source": "https://www.qcterme.com/it/destinazioni/milano/qc-spa-milano/experience-milano"
+    },
+    {
+      "id": "tokyo-blue-note-live",
+      "file": "blue-home-1",
+      "source": "https://www.bluenote.co.jp/jp/"
+    },
+    {
+      "id": "reykjavik-harpa-symphony",
+      "file": "harpa-1",
+      "source": "https://en.sinfonia.is/press/"
+    }
+  ],
+  "tests": {
+    "unit": 196,
+    "unitPassed": 196,
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "browser": "passed: 84 desktop/mobile route checks, no broken images, overflow, axe violations, JavaScript errors or analytics requests before consent",
+    "deployment": "Pending push and live verification",
+    "visualReview": "All sixteen guides checked at 1440px and 390px. Milan tram photograph aligned right to retain its subject. Kew evidence caption corrected to describe the walkway, not a view from it."
+  }
+}

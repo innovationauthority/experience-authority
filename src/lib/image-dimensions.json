@@ -235,6 +235,10 @@
     2400,
     1601
   ],
+  "/images/guides/berlin-vabali-sauna.jpg": [
+    1920,
+    1280
+  ],
   "/images/guides/biarritz-basque-pelota.jpg": [
     1400,
     2100
@@ -266,6 +270,10 @@
   "/images/guides/bonwire-kente-loom.jpg": [
     1920,
     1440
+  ],
+  "/images/guides/bordeaux-bassins-matisse.jpg": [
+    1600,
+    1066
   ],
   "/images/guides/boulogne-albert-kahn-gardens.jpg": [
     1800,
@@ -426,6 +434,10 @@
   "/images/guides/copenhagen-copenhill-ski.jpg": [
     1366,
     911
+  ],
+  "/images/guides/copenhagen-creative-space-paint.jpg": [
+    1320,
+    924
   ],
   "/images/guides/copenhagen-danish-modern.jpg": [
     2400,
@@ -599,6 +611,10 @@
     1800,
     1249
   ],
+  "/images/guides/girona-celler-can-roca.jpg": [
+    1920,
+    835
+  ],
   "/images/guides/gisakura-tea.jpg": [
     1500,
     996
@@ -630,6 +646,10 @@
   "/images/guides/hamburg-loki-schmidt-garden.jpg": [
     1800,
     1350
+  ],
+  "/images/guides/hamburg-miniatur-airport.jpg": [
+    1920,
+    1280
   ],
   "/images/guides/hanoi-binh-minh-jazz.jpg": [
     1800,
@@ -1039,6 +1059,10 @@
     1308,
     981
   ],
+  "/images/guides/london-kew-treetops.jpg": [
+    1920,
+    1446
+  ],
   "/images/guides/london-lcba-foundation.jpg": [
     1280,
     1280
@@ -1243,6 +1267,14 @@
     1920,
     831
   ],
+  "/images/guides/miami-superblue-light.jpg": [
+    1920,
+    1280
+  ],
+  "/images/guides/milan-qc-tram-sauna.jpg": [
+    1920,
+    1080
+  ],
   "/images/guides/mindelo-le-metalo-live.webp": [
     1920,
     1280
@@ -1286,6 +1318,10 @@
   "/images/guides/mossman-guided-rainforest.jpg": [
     1440,
     640
+  ],
+  "/images/guides/munich-bmw-plant.jpg": [
+    1920,
+    2000
   ],
   "/images/guides/munich-weisswurst-breakfast.jpg": [
     1024,
@@ -1455,6 +1491,10 @@
     750,
     750
   ],
+  "/images/guides/paarl-babylonstoren-garden.jpg": [
+    1920,
+    1280
+  ],
   "/images/guides/palermo-stanze-maiolica.jpg": [
     1800,
     1201
@@ -1622,6 +1662,10 @@
   "/images/guides/ravenna-koko-mosaic.jpg": [
     1800,
     1800
+  ],
+  "/images/guides/reykjavik-harpa-symphony.jpg": [
+    1920,
+    1281
   ],
   "/images/guides/reykjavik-sundholl-pool.jpg": [
     1200,
@@ -1871,6 +1915,10 @@
     1800,
     1013
   ],
+  "/images/guides/singapore-tuft-club.jpg": [
+    1445,
+    1081
+  ],
   "/images/guides/singapore-ubin-cycle.jpg": [
     1600,
     1200
@@ -1987,6 +2035,10 @@
     1600,
     1600
   ],
+  "/images/guides/tokyo-blue-note-live.jpg": [
+    1440,
+    700
+  ],
   "/images/guides/tokyo-ganso-wax-food.jpg": [
     1200,
     1200
@@ -2006,6 +2058,10 @@
   "/images/guides/tokyo-maruyoshi-furin.jpg": [
     1800,
     1013
+  ],
+  "/images/guides/tokyo-narisawa-satoyama.jpg": [
+    1200,
+    900
   ],
   "/images/guides/tokyo-national-noh-performance.jpg": [
     1600,
@@ -2074,6 +2130,10 @@
   "/images/guides/ubud-widya-batik-cap.jpg": [
     1024,
     1280
+  ],
+  "/images/guides/uji-nintendo-big-controller.jpg": [
+    1160,
+    680
   ],
   "/images/guides/valencia-albufera-day-boat.jpg": [
     1140,
@@ -2178,6 +2238,10 @@
   "/images/guides/watergang-wetlands-canoe.jpg": [
     800,
     534
+  ],
+  "/images/guides/weil-vitra-architecture.jpg": [
+    1200,
+    1200
   ],
   "/images/guides/wellington-kelburn-cable-car.jpg": [
     1800,

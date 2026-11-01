@@ -357,3 +357,8 @@
     padding: 10px 14px;
   }
 }
+
+/* Keep the tram, the subject of this guide, inside narrow image crops. */
+.photo-milan-qc-tram-sauna {
+  object-position: right center;
+}

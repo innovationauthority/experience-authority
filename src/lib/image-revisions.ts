@@ -1,6 +1,23 @@
 /** Content hashes keep replaced photographs consistent across responsive image caches.
  * The media test requires an update when an original file changes. */
 export const imageRevisions: Record<string, string> = {
+  "/images/guides/tokyo-narisawa-satoyama.jpg": "42dd23b0e66d",
+  "/images/guides/girona-celler-can-roca.jpg": "0cd0fec9db2b",
+  "/images/guides/miami-superblue-light.jpg": "94796258c7fc",
+  "/images/guides/bordeaux-bassins-matisse.jpg": "e08a5ac02f90",
+  "/images/guides/weil-vitra-architecture.jpg": "1a127589056a",
+  "/images/guides/munich-bmw-plant.jpg": "53f9c0a79052",
+  "/images/guides/singapore-tuft-club.jpg": "962d4e9b1ee1",
+  "/images/guides/copenhagen-creative-space-paint.jpg": "8b79bb8194c5",
+  "/images/guides/uji-nintendo-big-controller.jpg": "2d2e40d93408",
+  "/images/guides/hamburg-miniatur-airport.jpg": "570bac390ced",
+  "/images/guides/london-kew-treetops.jpg": "a53b9f68046f",
+  "/images/guides/paarl-babylonstoren-garden.jpg": "f17e5d18a11a",
+  "/images/guides/berlin-vabali-sauna.jpg": "b987d098a2fb",
+  "/images/guides/milan-qc-tram-sauna.jpg": "9493c04d0d43",
+  "/images/guides/tokyo-blue-note-live.jpg": "aaa04864df66",
+  "/images/guides/reykjavik-harpa-symphony.jpg": "f228a83ea645",
+
   "/images/guides/singapore-labyrinth.jpg": "482900686048",
   "/images/guides/barcelona-disfrutar.jpg": "f54b52e10d91",
   "/images/guides/amsterdam-nxt-pioneers.jpg": "e4998b74c3a0",
@@ -559,7 +576,7 @@ export const imageRevisions: Record<string, string> = {
 
 // A single manifest fingerprint fits Next's bounded localPatterns allowlist.
 // Tests require it to change when any original is added or replaced.
-export const imageEdition = "4d9cc3b0f0cf";
+export const imageEdition = "53a64a415de1";
 
 export function imageSource(src: string) {
   return imageRevisions[src] ? `${src}?v=${imageEdition}` : src;

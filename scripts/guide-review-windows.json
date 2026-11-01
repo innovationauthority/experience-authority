@@ -1,4 +1,100 @@
 {
+  "/experiences/follow-the-landscape-through-a-menu-in-tokyo": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "japan",
+    "regionSlug": "tokyo"
+  },
+  "/experiences/taste-the-roca-brothers-girona": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "spain",
+    "regionSlug": "girona"
+  },
+  "/experiences/let-light-change-the-room-in-miami": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "united-states",
+    "regionSlug": "miami"
+  },
+  "/experiences/watch-matisse-unfold-across-water-in-bordeaux": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2026-12-01",
+    "countrySlug": "france",
+    "regionSlug": "bordeaux"
+  },
+  "/experiences/compare-buildings-on-foot-at-the-vitra-campus": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "germany",
+    "regionSlug": "weil-am-rhein"
+  },
+  "/experiences/follow-a-car-through-the-factory-in-munich": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "germany",
+    "regionSlug": "munich"
+  },
+  "/experiences/turn-a-drawing-into-a-rug-in-singapore": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "singapore",
+    "regionSlug": "singapore"
+  },
+  "/experiences/paint-a-piece-for-everyday-use-in-copenhagen": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "denmark",
+    "regionSlug": "copenhagen"
+  },
+  "/experiences/play-a-familiar-game-with-a-giant-controller-in-uji": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "japan",
+    "regionSlug": "uji"
+  },
+  "/experiences/watch-a-miniature-airport-come-to-life-in-hamburg": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "germany",
+    "regionSlug": "hamburg"
+  },
+  "/experiences/meet-the-trees-at-canopy-height-in-kew": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "london"
+  },
+  "/experiences/follow-a-gardener-through-an-edible-landscape-near-paarl": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "south-africa",
+    "regionSlug": "paarl"
+  },
+  "/experiences/leave-the-city-noise-outside-a-berlin-sauna": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "germany",
+    "regionSlug": "berlin"
+  },
+  "/experiences/take-a-sauna-break-inside-a-milan-tram": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "italy",
+    "regionSlug": "milan"
+  },
+  "/experiences/make-an-evening-of-live-jazz-in-aoyama": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "japan",
+    "regionSlug": "tokyo"
+  },
+  "/experiences/hear-reykjavik-from-inside-harpas-concert-hall": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "iceland",
+    "regionSlug": "reykjavik"
+  },
   "/experiences/taste-singapore-in-another-form": {
     "availableFrom": "2026-11-01",
     "reviewBy": "2027-01-15",

@@ -1,3 +1,4 @@
+import { edition20261101ThirdPass } from "./discovery-batch-63";
 import { edition20261101SecondPass } from "./discovery-batch-62";
 import { edition20261028 } from "./discovery-batch-60";
 import type { PublicExperience } from "./catalog";
@@ -27,6 +28,7 @@ export const guideReleases = [
   {
     date: "2026-11-01",
     slugs: [
+      ...Object.values(edition20261101ThirdPass).flat(),
       ...Object.values(edition20261101SecondPass).flat(),
       "follow-the-art-beyond-the-room-in-tokyo",
       "watch-a-sports-car-take-shape-in-malvern",
