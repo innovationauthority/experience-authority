@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-01",
+  "replacements": [
+    {
+      "id": "singapore-batik-tulis-workshop",
+      "source": "https://ozel.com.sg/pages/batik-tulis-workshop",
+      "asset": "https://ozel.com.sg/cdn/shop/files/IMG_7403_2.jpg?v=1709376852&width=1600",
+      "credit": "OZEL SG",
+      "reason": "Clearer canting, wax pot and cloth context. Participant is looking toward the camera, so not described as candid."
+    },
+    {
+      "id": "reykjavik-sundholl",
+      "source": "https://reykjavik.is/en/sundholl-reykjavik-pool",
+      "asset": "https://reykjavik.is/sites/default/files/2021-12/sundhollin-11.jpg",
+      "credit": "City of Reykjav\u00edk",
+      "reason": "Stronger foreground geometry and actual hot-pool detail."
+    }
+  ],
+  "rights": "Official source photographs under existing editorial policy. Separate reuse permission not verified. Attribution does not imply permission or partnership.",
+  "firstPublishedOn": "Date the guide first had an approved illustration, retained for historical eligibility, not the publication date of the replacement file.",
+  "rejected": [
+    "OZEL posed finished-work portraits",
+    "OZEL overhead frame obscured by hair and workspace clutter"
+  ],
+  "remaining": "Sool replacement not selected."
+}

@@ -61,6 +61,7 @@ export type GuideMedia = {
   licenseUrl: string;
   rightsBasis: "documented_license" | "official_source";
   rightsCheckedOn: string;
+  firstPublishedOn?: string;
   visualReview: {
     outcome: "approved";
     checkedOn: string;
@@ -357,23 +358,24 @@ export const publicGuideMedia: readonly GuideMedia[] = [
   {
     guideId: "singapore-batik-tulis-workshop",
     src: "/images/guides/singapore-batik-tulis-workshop.jpg",
-    alt: "A participant applies colour around the wax lines of a purple rose during a batik workshop in Singapore.",
-    title: "Batik Tulis workshop in Singapore",
+    alt: "A participant holds a canting beside a wax pot and floral batik cloth at an OZEL workshop.",
+    title: "Batik wax work at OZEL SG",
     photographer: "OZEL SG. Individual photographer not named",
     sourceUrl: "https://ozel.com.sg/pages/batik-tulis-workshop",
     licenseName:
       "Official source image. Reuse rights not independently cleared",
     licenseUrl: "https://ozel.com.sg/pages/batik-tulis-workshop",
     rightsBasis: "official_source",
-    rightsCheckedOn: "2026-09-12",
+    rightsCheckedOn: "2026-11-01",
+    firstPublishedOn: "2026-09-12",
     visualReview: {
       outcome: "approved",
-      checkedOn: "2026-09-12",
+      checkedOn: "2026-11-01",
       rationale:
-        "The close vertical frame shows hands, colour and a wax-outlined cloth in active use. It communicates the actual making process more clearly than a posed group or a finished-product grid and remains legible in a tight crop.",
+        "The clearer vertical frame joins the canting, wax pot and cloth, showing the technique and workshop setting in a single legible composition.",
     },
     depiction:
-      "A participant colouring a floral batik piece during a workshop, published in OZEL's official Batik Tulis Workshop gallery. The person and date are not identified. It is not an EA visit or an independent assessment of the session. Reuse rights have not been independently cleared.",
+      "Official OZEL workshop photograph of a participant with a canting, wax pot and cloth. It is not an EA visit or a guarantee of a particular participant or design. Reuse rights have not been independently cleared.",
   },
   {
     guideId: "singapore-coney-island-walk",
@@ -1101,23 +1103,24 @@ export const publicGuideMedia: readonly GuideMedia[] = [
   {
     guideId: "reykjavik-sundholl",
     src: "/images/guides/reykjavik-sundholl-pool.jpg",
-    alt: "Outdoor swimming lanes and hot pools at Sundhöll Reykjavík beneath the evening sun.",
-    title: "Overview of the lower outdoor area at Sundhöll",
+    alt: "A curved handrail frames the pale blue water of an outdoor hot pool at Sundhöll Reykjavík.",
+    title: "Outdoor hot pool at Sundhöll Reykjavík",
     photographer: "City of Reykjavík",
     sourceUrl: "https://reykjavik.is/en/sundholl-reykjavik-pool",
     licenseName:
       "Official source image. Reuse rights not independently cleared",
     licenseUrl: "https://reykjavik.is/en/sundholl-reykjavik-pool",
     rightsBasis: "official_source",
-    rightsCheckedOn: "2026-09-12",
+    rightsCheckedOn: "2026-11-01",
+    firstPublishedOn: "2026-09-12",
     visualReview: {
       outcome: "approved",
-      checkedOn: "2026-09-12",
+      checkedOn: "2026-11-01",
       rationale:
-        "Clear geometry, bright water and everyday bathers present the civic pool without spectacle.",
+        "The full-resolution frame has clear water and a curved handrail in the foreground. Its quieter geometry remains readable in guide and card crops.",
     },
     depiction:
-      "The actual outdoor area of Sundhöll Reykjavík Pool, published by the City of Reykjavík. The page does not name an individual photographer. It is not an EA visit. Reuse rights have not been independently cleared.",
+      "The actual outdoor hot pool at Sundhöll, published by the City of Reykjavík. Individual photographer not named. No EA visit or promise of current conditions. Reuse rights have not been independently cleared.",
   },
   {
     guideId: "doolin-gus-oconnors-session",

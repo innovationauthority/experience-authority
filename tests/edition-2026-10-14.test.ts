@@ -178,7 +178,8 @@ test("smoke review windows match all catalogue dates and photo credits do not re
         {
           availableFrom: [
             g.guideReview!.checkedOn,
-            guideMediaFor(g.id)!.visualReview.checkedOn,
+            guideMediaFor(g.id)!.firstPublishedOn ??
+              guideMediaFor(g.id)!.visualReview.checkedOn,
           ]
             .sort()
             .at(-1),

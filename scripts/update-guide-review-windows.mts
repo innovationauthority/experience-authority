@@ -11,7 +11,10 @@ const windows = Object.fromEntries(
     return [
       `/experiences/${guide.slug}`,
       {
-        availableFrom: [review.checkedOn, media.visualReview.checkedOn]
+        availableFrom: [
+          review.checkedOn,
+          media.firstPublishedOn ?? media.visualReview.checkedOn,
+        ]
           .sort()
           .at(-1),
         reviewBy: review.reviewBy,

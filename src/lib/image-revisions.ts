@@ -520,13 +520,13 @@ export const imageRevisions: Record<string, string> = {
   "/images/guides/porto-tile-painting.jpg": "7bb887535a2a",
   "/images/guides/quebec-sugar-shack.jpg": "27de6a7236ba",
   "/images/guides/rajaportti-winter.jpg": "a1435184afcf",
-  "/images/guides/reykjavik-sundholl-pool.jpg": "7a32fc742a68",
+  "/images/guides/reykjavik-sundholl-pool.jpg": "2f4da860ddb5",
   "/images/guides/salta-empanada-workshop.jpg": "7109eb869df2",
   "/images/guides/salta-pena-folklorica.jpg": "0eb9d837a94b",
   "/images/guides/sarajevo-bosnian-coffee.png": "1a8edc28a069",
   "/images/guides/seoul-kimchi-making.jpg": "5f7cd32a0a9e",
   "/images/guides/seoul-makgeolli-class.jpg": "08efee04219f",
-  "/images/guides/singapore-batik-tulis-workshop.jpg": "a1070b671804",
+  "/images/guides/singapore-batik-tulis-workshop.jpg": "fba0a228b9ee",
   "/images/guides/singapore-coney-island-walk.jpg": "7881a8d6b021",
   "/images/guides/singapore-hawker-culture.jpg": "a80a90499c1f",
   "/images/guides/singapore-sungei-buloh.jpg": "3f7a346908ce",
@@ -539,7 +539,7 @@ export const imageRevisions: Record<string, string> = {
 
 // A single manifest fingerprint fits Next's bounded localPatterns allowlist.
 // Tests require it to change when any original is added or replaced.
-export const imageEdition = "ead942ce1cb3";
+export const imageEdition = "0917878f336a";
 
 export function imageSource(src: string) {
   return imageRevisions[src] ? `${src}?v=${imageEdition}` : src;

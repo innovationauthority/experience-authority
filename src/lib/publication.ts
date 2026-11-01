@@ -34,11 +34,15 @@ export function canPublishGuide(
   today = new Date().toISOString().slice(0, 10),
 ) {
   const current = p.guideReview;
-  const r = current && current.checkedOn > today
-    ? (guideReviewHistory[p.slug] || [])
-        .filter(review => review.checkedOn <= today && review.checkedOn < current.checkedOn)
-        .sort((a, b) => b.checkedOn.localeCompare(a.checkedOn))[0]
-    : current;
+  const r =
+    current && current.checkedOn > today
+      ? (guideReviewHistory[p.slug] || [])
+          .filter(
+            (review) =>
+              review.checkedOn <= today && review.checkedOn < current.checkedOn,
+          )
+          .sort((a, b) => b.checkedOn.localeCompare(a.checkedOn))[0]
+      : current;
   const media = guideMediaFor(p.id);
   const validDate = (value: string) =>
     /^\d{4}-\d{2}-\d{2}$/.test(value) &&
@@ -60,7 +64,10 @@ export function canPublishGuide(
       validDate(media.rightsCheckedOn) &&
       media.visualReview.outcome === "approved" &&
       validDate(media.visualReview.checkedOn) &&
-      media.visualReview.checkedOn <= today &&
+      (!media.firstPublishedOn ||
+        (validDate(media.firstPublishedOn) &&
+          media.firstPublishedOn <= media.visualReview.checkedOn)) &&
+      (media.firstPublishedOn ?? media.visualReview.checkedOn) <= today &&
       media.visualReview.rationale.trim().length > 40,
     ) &&
     p.kernel.trim() &&
