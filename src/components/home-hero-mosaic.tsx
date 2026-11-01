@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowLeft, ArrowRight, ArrowUpRight } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { imageSource } from "@/lib/image-revisions";
 
 export type HomeHeroStory = {
@@ -82,13 +82,47 @@ export function HomeHeroMosaic({
   const [index, setIndex] = useState(
     editions.length ? initialIndex % editions.length : 0,
   );
+  const restored = useRef(false);
+  useEffect(() => {
+    if (restored.current || !editions.length) return;
+    restored.current = true;
+    try {
+      const signature = editions.map((edition) => edition[0]?.slug).join("|");
+      const key = `ea:hero-session:${signature}`;
+      const existing = sessionStorage.getItem(key);
+      const previous = localStorage.getItem("ea:hero-last");
+      const previousIndex = editions.findIndex(
+        (edition) => edition[0]?.slug === previous,
+      );
+      const savedIndex = existing === null ? -1 : Number(existing);
+      const next =
+        Number.isInteger(savedIndex) &&
+        savedIndex >= 0 &&
+        savedIndex < editions.length
+          ? savedIndex
+          : previousIndex >= 0
+            ? (previousIndex + 1) % editions.length
+            : initialIndex % editions.length;
+      setIndex(next);
+      sessionStorage.setItem(key, String(next));
+      localStorage.setItem("ea:hero-last", editions[next][0].slug);
+    } catch {
+      /* The server-selected edition works without browser storage. */
+    }
+  }, [editions, initialIndex]);
   const [main, upper, lower] = editions[index] || [];
 
   function move(direction: -1 | 1) {
     if (editions.length < 2) return;
-    setIndex(
-      (current) => (current + direction + editions.length) % editions.length,
-    );
+    const next = (index + direction + editions.length) % editions.length;
+    setIndex(next);
+    try {
+      const signature = editions.map((edition) => edition[0]?.slug).join("|");
+      sessionStorage.setItem(`ea:hero-session:${signature}`, String(next));
+      localStorage.setItem("ea:hero-last", editions[next][0].slug);
+    } catch {
+      /* Manual navigation still works without storage. */
+    }
   }
 
   return (

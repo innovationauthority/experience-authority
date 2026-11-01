@@ -6,11 +6,47 @@ export const featuredChapterSlugs = [
   "porto-and-gaia",
   "singapore",
   "london",
+  "paris",
+  "lisbon",
 ];
 export type ChapterChoice = { slug: string; role: string; note: string };
 
 /** Authored decisions, never generated travel times or implied shared bookings. */
 const startingPoints: Record<string, readonly ChapterChoice[]> = {
+  lisbon: [
+    {
+      slug: "fold-the-pastry-before-the-first-bite",
+      role: "Choose a making session",
+      note: "Book the pastry class as its own commitment. Confirm dietary needs before choosing a date.",
+    },
+    {
+      slug: "cross-lisbon-on-the-route-of-its-water",
+      role: "A separate city perspective",
+      note: "Use the aqueduct's admitted crossing in Campolide. Check weather, last entry and whether the elevated route suits you.",
+    },
+    {
+      slug: "let-the-fado-room-fall-quiet",
+      role: "Reserve an evening",
+      note: "Plan around the dinner programme and listening rhythm. Leave the Carcavelos surf lesson in the full selection for another suitable day.",
+    },
+  ],
+  paris: [
+    {
+      slug: "open-a-book-inside-pariss-salle-ovale",
+      role: "A lighter beginning",
+      note: "Use the reading room for its ordinary purpose. Check opening days and leave room for a seat to become available.",
+    },
+    {
+      slug: "make-the-morning-before-it-reaches-the-cafe",
+      role: "Another day's anchor",
+      note: "Give pastry its full five-and-a-half-hour class. This is the main commitment of a day, not a breakfast stop before other bookings.",
+    },
+    {
+      slug: "hear-a-new-trio-in-an-old-paris-room",
+      role: "An evening you choose",
+      note: "Let the current musician and programme decide the date. Book the concert separately and allow your own travel time.",
+    },
+  ],
   kyoto: [
     {
       slug: "a-bowl-of-attention",

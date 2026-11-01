@@ -59,9 +59,15 @@ export default function Home() {
   const weekCount = publishedReleases(experiences, today)
     .filter((release) => withinPublicationWeek(release.date, today))
     .reduce((sum, release) => sum + release.guides.length, 0);
+  const dayOffset =
+    Math.floor(Date.parse(today) / 86400000) % featuredChapterSlugs.length;
+  const dailyPlaces = [
+    ...featuredChapterSlugs.slice(dayOffset),
+    ...featuredChapterSlugs.slice(0, dayOffset),
+  ];
   const featuredChapters = [...chapters].sort((a, b) => {
     const rank = (slug: string) => {
-      const index = featuredChapterSlugs.indexOf(slug);
+      const index = dailyPlaces.indexOf(slug);
       return index < 0 ? featuredChapterSlugs.length : index;
     };
     return rank(a.slug) - rank(b.slug);
@@ -93,7 +99,9 @@ export default function Home() {
       const preferred =
         chapter.slug === "london"
           ? "ask-the-market-where-london-came-from"
-          : undefined;
+          : chapter.slug === "kyoto"
+            ? "build-a-pattern-in-colour"
+            : undefined;
       const orderedStops = [...chapter.stops].sort(
         (a, b) => Number(b.slug === preferred) - Number(a.slug === preferred),
       );
