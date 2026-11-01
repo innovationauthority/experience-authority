@@ -10,25 +10,29 @@ import { collectionOpening } from "./collection-opening";
  */
 export const heroGuideRotations = [
   [
-    "pick-the-leaf-before-the-cup",
+    "follow-the-art-beyond-the-room-in-tokyo",
+    "taste-what-time-does-to-port",
+    "turn-a-drawing-into-a-rug-in-singapore",
+  ],
+  [
+    "let-light-change-the-room-in-miami",
+    "taste-singapore-in-another-form",
     "venice-through-an-oar",
-    "lift-a-pattern-from-the-water",
-  ],
-  ["marble-steam-istanbul", "venice-through-an-oar", "a-bowl-of-attention"],
-  [
-    "follow-balis-water-before-the-rice",
-    "a-bowl-of-attention",
-    "cook-beyond-the-postcard",
   ],
   [
+    "compare-buildings-on-foot-at-the-vitra-campus",
+    "make-an-evening-of-live-jazz-in-aoyama",
     "mexico-city-grown-on-water",
-    "stay-for-the-session",
-    "shape-a-kyoto-season-in-sweet-paste",
   ],
   [
     "follow-kyotos-river-gorge-by-slow-train",
-    "raise-a-room-from-a-circle",
-    "taste-what-time-does-to-port",
+    "follow-video-art-into-the-room-in-amsterdam",
+    "take-a-watch-movement-apart-in-geneva",
+  ],
+  [
+    "walk-inside-colour-at-inhotim",
+    "taste-the-roca-brothers-girona",
+    "play-a-familiar-game-with-a-giant-controller-in-uji",
   ],
 ] as const;
 
@@ -36,6 +40,11 @@ export const heroGuideRotations = [
  * Other documentary images remain in the catalogue, but are not automatic covers.
  */
 export const heroLeadPositions: Record<string, string> = {
+  "follow-the-art-beyond-the-room-in-tokyo": "50% 50%",
+  "let-light-change-the-room-in-miami": "50% 50%",
+  "compare-buildings-on-foot-at-the-vitra-campus": "50% 50%",
+  "walk-inside-colour-at-inhotim": "50% 50%",
+
   "pick-the-leaf-before-the-cup": "35% 50%",
   "marble-steam-istanbul": "50% 64%",
   "follow-balis-water-before-the-rice": "60% 55%",
@@ -50,6 +59,13 @@ export const heroLeadPositions: Record<string, string> = {
 };
 
 const compassOpeningGuideSlugs = [
+  "follow-the-art-beyond-the-room-in-tokyo",
+  "let-light-change-the-room-in-miami",
+  "compare-buildings-on-foot-at-the-vitra-campus",
+  "follow-the-landscape-through-a-menu-in-tokyo",
+  "play-a-familiar-game-with-a-giant-controller-in-uji",
+  "make-an-evening-of-live-jazz-in-aoyama",
+
   "meet-the-island-through-the-uga",
   "stay-until-the-desert-loses-its-colour",
   "follow-the-colour-back-to-the-wool",

@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-01",
+  "scope": "Six visitor-experience priorities following live desktop and mobile audit",
+  "changes": {
+    "home": "Five contemporary cover combinations, mobile search before photograph, compact equal-choice consent",
+    "destinations": "Two three-guide starting choices for each of Tokyo, Singapore, London, Paris, Porto and Gaia, Kyoto",
+    "planner": "One day at a time, explicit local complementary suggestions on request, direct access and location links, preserved notes and all-day export",
+    "guide": "Smaller title and photograph with practical actions earlier; current visitor category",
+    "curation": "Twelve hands-on beginner choices; historical membership ledger retained",
+    "editorial": "Three source-linked city articles and seven future discovery slots, historical published discoveries preserved"
+  },
+  "validation": {
+    "tests": 202,
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "initialBrowserViews": 40,
+    "finalBrowserViews": 15,
+    "finalWidths": [
+      1440,
+      768,
+      360
+    ],
+    "additionalPlannerWidth": 390,
+    "allFiveCoverCrops": "visually reviewed",
+    "flows": [
+      "Tokyo search",
+      "city edit switch",
+      "two-day plan",
+      "notes persist after reload",
+      "all-day download and print",
+      "share omits private notes by default"
+    ],
+    "analytics": "No Google request before consent; grant and revoke checked; private search query excluded",
+    "accessibility": "No detected WCAG A/AA violations in sampled views",
+    "images": "All images loaded in sampled views"
+  },
+  "limits": [
+    "Browser QA is not a user-research or retention measurement",
+    "Planning suggestions do not assert live availability, transfer time or combined bookings"
+  ],
+  "deployment": "Pending final public verification in release response"
+}

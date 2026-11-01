@@ -164,6 +164,14 @@ export default async function JournalArticlePage({ params }: Props) {
           </aside>
 
           <p className="journal-closing">{article.closing}</p>
+          {article.planningEditSlug && (
+            <Link
+              className="button button-dark"
+              href={`/plan?edit=${article.planningEditSlug}`}
+            >
+              Build your version of this city ↗
+            </Link>
+          )}
           <div className="correction-inline">
             <strong>Something we should revisit?</strong>
             <Link

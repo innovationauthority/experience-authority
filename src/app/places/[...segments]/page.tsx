@@ -1,3 +1,5 @@
+import { resolveCityEdits } from "@/lib/city-edits";
+import { CityEdits } from "@/components/city-edits";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
@@ -89,12 +91,20 @@ export default async function Place({ params, searchParams }: Props) {
         chapter.slug === area?.slug),
   );
   const openingChapter = region ? chapters[0] : undefined;
+  const localEdits = region
+    ? resolveCityEdits(orderedExperiences).filter(
+        (edit) =>
+          edit.country === country &&
+          (edit.regions.includes(region) || edit.chapter === area?.slug),
+      )
+    : [];
   const starterImages = new Set(
     openingChapter
       ? chapterStartingPoints(openingChapter).map((choice) => choice.item.image)
       : [],
   );
   const openingItem =
+    localEdits[0]?.stops[0]?.item ||
     openingChapter?.stops.find(
       (stop) => stop.item.image && !starterImages.has(stop.item.image),
     )?.item ||
@@ -129,11 +139,13 @@ export default async function Place({ params, searchParams }: Props) {
           title={`${placeName}.`}
         >
           <p>
-            {openingChapter
-              ? openingChapter.intro
-              : region
-                ? `Explore ${placeName} through ${items.length === 1 ? "a locally rooted experience" : "locally rooted experiences"}, with practical details and sources to help you plan.`
-                : place.intro}
+            {localEdits.length
+              ? `Choose your version of ${placeName}: ${localEdits.length} editorial starting points, with ${items.length} experiences to explore by interest. Pick an anchor, find a contrast and make the days your own.`
+              : openingChapter
+                ? openingChapter.intro
+                : region
+                  ? `Explore ${placeName} through ${items.length === 1 ? "a locally rooted experience" : "locally rooted experiences"}, with practical details and sources to help you plan.`
+                  : place.intro}
           </p>
         </PageIntro>
         {openingMedia && (
@@ -185,7 +197,11 @@ export default async function Place({ params, searchParams }: Props) {
           ))}
         </nav>
       )}
-      {openingChapter && <ChapterPreview chapter={openingChapter} />}
+      {localEdits.length > 0 ? (
+        <CityEdits edits={localEdits} />
+      ) : (
+        openingChapter && <ChapterPreview chapter={openingChapter} />
+      )}
       {!openingChapter && chapters.length > 0 && (
         <nav className="chapter-jumps" aria-label="Local planning ideas">
           {chapters.map((chapter) => (

@@ -25,17 +25,17 @@ export default function JournalPage() {
   return (
     <div className="journal-page page-section">
       <header className="wrap journal-index-header">
-        <PageIntro eyebrow="EA Journal" title="Travel with a better question.">
+        <PageIntro eyebrow="EA Journal" title="Good reasons to go.">
           <p>
-            Practical editorial notes for turning inspiration into a considered
-            day, a clearer choice and a more respectful way of arriving.
+            City combinations, remarkable meals and ideas worth making time for.
+            Read the story, explore the experiences and build your own version.
           </p>
         </PageIntro>
       </header>
 
       <section className="wrap" aria-labelledby="journal-stories">
         <div className="journal-index-rule">
-          <h2 id="journal-stories">Ways to plan with more intention</h2>
+          <h2 id="journal-stories">Fresh perspectives. Practical ways in.</h2>
           <span>{articles.length} original articles</span>
         </div>
         <div className="journal-grid">

@@ -1,3 +1,4 @@
+import { modernDiscoveries } from "./daily-modern-edit";
 import type { PublicExperience } from "./catalog";
 import { discoveryEdition44 } from "./daily-discovery-batch-44";
 import { discoveryEdition45 } from "./daily-discovery-batch-45";
@@ -1131,12 +1132,18 @@ export const dailyDiscoveries: readonly Discovery[] = [
   ...discoveryEdition52,
 ];
 
+/** Future editorial revision. Keep the original schedule as a historical ledger. */
+export const publishedDiscoveries = dailyDiscoveries.map(
+  (entry) =>
+    modernDiscoveries.find((edit) => edit.date === entry.date) ?? entry,
+);
+
 export function availableDiscoveries(
   items: PublicExperience[],
   today = new Date().toISOString().slice(0, 10),
 ) {
   const bySlug = new Map(items.map((item) => [item.slug, item]));
-  return dailyDiscoveries
+  return publishedDiscoveries
     .flatMap((discovery) => {
       const item = bySlug.get(discovery.slug);
       return discovery.date <= today && item ? [{ ...discovery, item }] : [];

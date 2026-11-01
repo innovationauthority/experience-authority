@@ -17,7 +17,11 @@ import { PhotoViewer } from "@/components/photo-viewer";
 import { ShareButton } from "@/components/share-button";
 import { SaveJourney } from "@/components/save-journey";
 import { StructuredData } from "@/components/structured-data";
-import { connectedExperiences } from "@/lib/catalog";
+import {
+  browseInterests,
+  matchesInterest,
+  connectedExperiences,
+} from "@/lib/catalog";
 import { resolveCityChapters, chapterHref } from "@/lib/city-chapters";
 import { chapterStartingPoints } from "@/lib/chapter-starting-points";
 import {
@@ -113,7 +117,13 @@ export default async function Experience({ params }: Props) {
         </figure>
         <header className="prototype-detail-copy">
           <div className="prototype-detail-kicker">
-            <Link href={`/fields/${item.field}`}>{item.field}</Link>
+            <Link
+              href={`/explore?interest=${browseInterests.find((interest) => matchesInterest(item, interest))?.slug || ""}`}
+            >
+              {browseInterests.find((interest) =>
+                matchesInterest(item, interest),
+              )?.name || item.field}
+            </Link>
             <span aria-hidden="true">/</span>
             <span>{item.countrySlug ? item.country : "Protected story"}</span>
           </div>
@@ -160,8 +170,7 @@ export default async function Experience({ params }: Props) {
                 </span>
               </a>
               <span className="small-note">
-                Choose a day for this experience, or save it for later. Check
-                current details directly with the host before travelling.
+                Save an idea or start a day. Book directly with the host.
               </span>
             </div>
           )}
@@ -248,7 +257,7 @@ export default async function Experience({ params }: Props) {
               <p className="eyebrow" id="before-you-go">
                 05 / Responsible presence
               </p>
-              <h2>Before you think about going.</h2>
+              <h2>Before you go.</h2>
               <p>{item.responsibility}</p>
             </section>
             <section className="story-section">

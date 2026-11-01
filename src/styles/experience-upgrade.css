@@ -1,0 +1,493 @@
+/* Visitor-first editorial and planning surfaces, November 2026. */
+.analytics-consent {
+  position: fixed;
+  inset: auto 20px 16px auto;
+  transform: none;
+  width: min(620px, calc(100vw - 40px));
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: "title link" "copy copy" "actions actions";
+  gap: 6px 16px;
+  padding: 14px 18px;
+  border: 1px solid var(--ea-line);
+  box-shadow: 0 6px 24px #0002;
+  background: var(--ea-paper);
+  color: var(--ea-ink);
+}
+.analytics-consent h2 {
+  grid-area: title;
+  font-family: var(--ea-font-sans);
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0;
+  color: var(--ea-ink);
+}
+.analytics-consent > p:not(.eyebrow) {
+  grid-area: copy;
+  margin: 0;
+  color: var(--ea-stone);
+  font-size: 13px;
+  line-height: 1.4;
+}
+.analytics-consent > a {
+  grid-area: link;
+  color: var(--ea-ink);
+  font-size: 12px;
+  margin: 0;
+  align-self: center;
+}
+.analytics-consent-actions {
+  grid-area: actions;
+  display: flex;
+  gap: 10px;
+  margin: 2px 0 0;
+}
+.analytics-consent-actions .button {
+  flex: 1;
+  min-height: 44px;
+  padding: 10px;
+  font-size: 13px;
+  border: 1px solid var(--ea-ink);
+  background: transparent;
+  color: var(--ea-ink);
+}
+.analytics-consent-actions .button:hover {
+  background: var(--ea-ink);
+  color: var(--ea-paper);
+}
+.experience-page .detail-toolbar {
+  min-height: 68px;
+}
+.experience-page .prototype-detail-hero {
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  min-height: 0;
+  align-items: start;
+}
+.experience-page .prototype-detail-photo {
+  min-height: 0;
+  height: auto;
+  aspect-ratio: 1.16;
+  align-self: start;
+}
+.experience-page .prototype-detail-copy {
+  padding: clamp(24px, 3vw, 48px);
+  align-self: start;
+}
+.experience-page .prototype-detail-copy h1 {
+  font-size: clamp(36px, 3.7vw, 58px);
+  line-height: 1.02;
+  letter-spacing: -0.04em;
+  margin: 18px 0;
+}
+.experience-page .prototype-detail-summary {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.experience-page .prototype-detail-facts {
+  margin-top: 22px;
+  padding-top: 18px;
+  gap: 16px;
+}
+.experience-page .prototype-detail-facts dd {
+  font-size: 14px;
+  line-height: 1.45;
+}
+.experience-page .detail-start-actions {
+  margin-top: 22px;
+  gap: 10px;
+}
+.experience-page .detail-start-actions .button {
+  min-height: 44px;
+  padding: 12px 16px;
+  font-size: 13px;
+}
+.experience-page .detail-start-actions .small-note {
+  font-size: 12px;
+}
+.experience-page .guide-disclosure {
+  margin-block: 24px;
+}
+.city-edits {
+  margin-block: 48px 64px;
+  padding-top: 28px;
+  border-top: 1px solid var(--ea-line);
+}
+.city-edit-choices {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+.city-edit-choices button {
+  padding: 14px 18px;
+  border: 1px solid var(--ea-line);
+  background: transparent;
+  color: var(--ea-ink);
+  font: inherit;
+  text-align: left;
+  min-height: 48px;
+  cursor: pointer;
+}
+.city-edit-choices button[aria-pressed="true"] {
+  background: var(--ea-ink);
+  color: var(--ea-paper);
+  border-color: var(--ea-ink);
+}
+.city-edit-intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.city-edit-intro > p {
+  max-width: 700px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.city-edit-intro > .button {
+  flex-shrink: 0;
+}
+.city-edits .chapter-preview-grid article {
+  border: 1px solid var(--ea-line);
+}
+.city-edits .chapter-preview-copy {
+  padding: 20px;
+}
+.city-edits .chapter-preview-copy h3 {
+  font-size: 24px;
+}
+.trip-intro-compact {
+  margin-bottom: 24px;
+}
+.trip-intro-compact h2,
+.trip-intro-compact > .eyebrow {
+  display: none;
+}
+.trip-intro-compact p {
+  margin: 6px 0;
+}
+.trip-proposal-fold {
+  margin: 24px 0;
+  border-block: 1px solid var(--ea-line);
+}
+.trip-proposal-fold > summary {
+  cursor: pointer;
+  padding: 18px 0;
+  font-weight: 700;
+}
+.trip-suggestion {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 24px;
+  padding: 20px;
+  border: 1px solid var(--ea-line);
+}
+.trip-suggestion .trip-guide-photo {
+  position: relative;
+  aspect-ratio: 1;
+  min-width: 0;
+}
+.trip-suggestion h3 {
+  font-size: 28px;
+  line-height: 1.15;
+  margin: 8px 0;
+}
+.trip-target-day {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin: 12px 16px 12px 0;
+}
+.trip-target-day input {
+  width: 72px;
+  min-height: 44px;
+}
+.journey-day-bar {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  margin: 24px 0;
+  padding-bottom: 6px;
+}
+.journey-day-bar button {
+  min-height: 54px;
+  flex: 0 0 auto;
+  padding: 10px 20px;
+  border: 1px solid var(--ea-line);
+  background: transparent;
+  color: var(--ea-ink);
+  font: inherit;
+  cursor: pointer;
+}
+.journey-day-bar button span {
+  display: block;
+  font-size: 12px;
+  margin-top: 3px;
+}
+.journey-day-bar button[aria-pressed="true"] {
+  background: var(--ea-ink);
+  color: var(--ea-paper);
+}
+.journey-day-heading h2 {
+  font-size: 30px;
+  margin: 0 0 8px;
+}
+.journey-day-heading > p {
+  margin: 8px 0;
+}
+.trip-entries {
+  scroll-margin-top: 110px;
+}
+.trip-entry .trip-entry-body {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  column-gap: 24px;
+  align-content: start;
+}
+.trip-entry .trip-entry-photo {
+  grid-column: 1;
+  grid-row: 1 / span 4;
+  aspect-ratio: 1.2;
+}
+.trip-entry-body > .eyebrow,
+.trip-entry-body > h3,
+.trip-entry-body > p {
+  grid-column: 2;
+}
+.trip-entry-body > h3 {
+  font-size: 25px;
+  margin: 8px 0;
+}
+.trip-entry-body > p {
+  margin: 4px 0;
+}
+.trip-direct-links {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 16px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.trip-edit-details {
+  grid-column: 1 / -1;
+}
+.journey-next {
+  border-top: 1px solid var(--ea-line);
+  padding-top: 32px;
+  margin-block: 40px;
+}
+.journey-next h2 {
+  font-size: 32px;
+  line-height: 1.15;
+}
+.journey-next > p {
+  max-width: 760px;
+}
+.journey-next-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  margin: 24px 0;
+}
+.journey-next-grid article {
+  border: 1px solid var(--ea-line);
+}
+.journey-next-grid article > div:last-child {
+  padding: 18px;
+}
+.journey-next-grid .trip-guide-photo {
+  position: relative;
+  aspect-ratio: 1.5;
+}
+.journey-next-grid h3 {
+  font-size: 23px;
+  line-height: 1.2;
+}
+.journey-next-grid .eyebrow {
+  font-size: 10px;
+}
+.city-edit-choices button:focus-visible,
+.journey-day-bar button:focus-visible {
+  outline: 2px solid var(--ea-accent-text);
+  outline-offset: 3px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .city-edits article,
+  .journey-next article {
+    animation: ea-editorial-arrival 220ms ease-out;
+  }
+}
+@media (max-width: 900px) and (min-width: 701px) {
+  .experience-page .prototype-detail-copy {
+    padding: 24px;
+  }
+  .experience-page .prototype-detail-copy h1 {
+    font-size: 36px;
+  }
+  .experience-page .prototype-detail-photo {
+    aspect-ratio: 0.85;
+  }
+  .city-edit-intro {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+@media (max-width: 700px) {
+  .home-edition .prototype-hero-copy h1 {
+    font-size: clamp(36px, 10.5vw, 46px);
+    line-height: 1.02;
+  }
+  .home-edition .prototype-hero-lead {
+    font-size: 15px;
+    line-height: 1.45;
+    margin-bottom: 0;
+  }
+  .home-edition .home-discovery {
+    grid-row: 4;
+    margin: 18px 0 0;
+  }
+  .home-edition .prototype-hero-rotator {
+    grid-row: 5;
+    margin-top: 20px;
+  }
+  .home-edition .prototype-hero-copy > .eyebrow {
+    margin-bottom: 12px;
+  }
+  .analytics-consent {
+    inset: auto 10px 10px;
+    width: auto;
+    padding: 10px 12px;
+    gap: 4px 12px;
+  }
+  .analytics-consent h2 {
+    font-size: 13px;
+  }
+  .analytics-consent > p:not(.eyebrow) {
+    font-size: 12px;
+    line-height: 1.35;
+  }
+  .analytics-consent > a {
+    font-size: 11px;
+  }
+  .analytics-consent-actions .button {
+    min-height: 44px;
+    font-size: 12px;
+    padding: 8px;
+  }
+  .experience-page .detail-toolbar {
+    min-height: 60px;
+  }
+  .experience-page .prototype-detail-hero {
+    grid-template-columns: 1fr;
+  }
+  .experience-page .prototype-detail-copy {
+    display: contents;
+    padding: 0;
+  }
+  .experience-page .prototype-detail-kicker {
+    padding-top: 24px;
+  }
+  .experience-page .prototype-detail-copy h1 {
+    font-size: clamp(32px, 9.3vw, 42px);
+    margin: 16px var(--ea-page-inset);
+  }
+  .experience-page .prototype-detail-summary {
+    font-size: 16px;
+    line-height: 1.45;
+    margin-bottom: 20px;
+  }
+  .experience-page .prototype-detail-photo {
+    height: auto;
+    min-height: 0;
+    aspect-ratio: 1.3;
+  }
+  .experience-page .prototype-detail-facts {
+    margin: 20px var(--ea-page-inset) 0;
+  }
+  .experience-page .detail-start-actions {
+    margin-top: 18px;
+  }
+  .city-edit-choices {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .city-edit-intro {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .city-edit-intro > p {
+    font-size: 16px;
+  }
+  .city-edits .chapter-preview-grid {
+    grid-template-columns: 1fr;
+  }
+  .trip-suggestion {
+    grid-template-columns: 1fr;
+    padding: 16px;
+    gap: 16px;
+  }
+  .trip-suggestion .trip-guide-photo {
+    aspect-ratio: 1.8;
+  }
+  .trip-entry .trip-entry-body {
+    display: block;
+  }
+  .trip-entry .trip-entry-photo {
+    aspect-ratio: 1.65;
+  }
+  .trip-entry-body > h3 {
+    font-size: 23px;
+  }
+  .journey-next-grid {
+    grid-template-columns: 1fr;
+  }
+  .journey-next h2 {
+    font-size: 28px;
+  }
+  .plan-local-ideas {
+    margin-top: 36px;
+  }
+  .trip-name {
+    margin-bottom: 16px;
+  }
+}
+@media print {
+  .journey-next,
+  .journey-day-bar,
+  .trip-proposal-fold {
+    display: none;
+  }
+}
+
+.trip-entry[data-active="false"] {
+  display: none;
+}
+@media print {
+  .trip-entry[data-active="false"] {
+    display: grid;
+  }
+}
+
+.trip-entry-body {
+  min-width: 0;
+}
+.trip-planning-state {
+  grid-template-columns: minmax(0, 1fr);
+}
+.trip-planning-state select {
+  width: 100%;
+  min-width: 0;
+}
+.journey-next > summary,
+.plan-local-ideas > summary {
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 600;
+  padding-block: 12px;
+}

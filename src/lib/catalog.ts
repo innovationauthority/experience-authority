@@ -1,4 +1,4 @@
-import { editorialPathways } from "./editorial-pathways";
+import { publishedEditorialPathways as editorialPathways } from "./editorial-pathways";
 import { discoveryProfiles } from "./discovery-profiles";
 
 export const fields = [

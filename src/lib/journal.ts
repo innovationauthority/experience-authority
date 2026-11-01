@@ -1,3 +1,4 @@
+import { cityJournal } from "./journal-city-edits";
 import type { PublicExperience } from "./catalog";
 import { guideMediaFor, type GuideMedia } from "./media";
 import { canonicalUrl, SITE_NAME, SITE_ORIGIN } from "./seo";
@@ -25,6 +26,7 @@ export type JournalArticle = {
     questions: readonly string[];
   };
   closing: string;
+  planningEditSlug?: string;
 };
 
 export type JournalSource = {
@@ -45,6 +47,7 @@ export type ResolvedJournalArticle = JournalArticle & {
 };
 
 export const journalArticles = [
+  ...cityJournal,
   coastalJournal,
   {
     slug: "build-a-day-around-one-experience",

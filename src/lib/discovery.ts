@@ -4,7 +4,7 @@ import {
   regionsForCountry,
   type PublicExperience,
 } from "./catalog";
-import { editorialPathways } from "./editorial-pathways";
+import { publishedEditorialPathways as editorialPathways } from "./editorial-pathways";
 import { getJournalArticles } from "./journal";
 import { currentDiscovery } from "./daily-discovery";
 import { publishedReleases } from "./releases";

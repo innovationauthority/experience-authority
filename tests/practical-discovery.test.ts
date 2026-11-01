@@ -67,7 +67,12 @@ test("card planning reuses reviewed discovery lenses and never invents booking s
 test("each cover lead has an explicit reviewed crop and remains an available guide", () => {
   for (const edition of heroGuideRotations) {
     assert.ok(heroLeadPositions[edition[0]]);
-    assert.ok(items.some((item) => item.slug === edition[0]));
+    assert.ok(
+      publicGuides.some(
+        (item) =>
+          item.slug === edition[0] && canPublishGuide(item, "2026-11-01"),
+      ),
+    );
   }
   assert.equal(
     new Set(heroGuideRotations.map((edition) => edition[0])).size,

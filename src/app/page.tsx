@@ -18,7 +18,7 @@ import {
 } from "@/lib/home-curation";
 import { getJournalArticles } from "@/lib/journal";
 import { guideMediaFor } from "@/lib/media";
-import { editorialPathways } from "@/lib/editorial-pathways";
+import { publishedEditorialPathways as editorialPathways } from "@/lib/editorial-pathways";
 import { getExperiences } from "@/lib/data";
 import { StructuredData } from "@/components/structured-data";
 import { HomeHero } from "@/components/home-hero";

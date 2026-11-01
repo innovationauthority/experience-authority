@@ -13,6 +13,7 @@ import "@/styles/refinement.css";
 import "@/styles/direction-2026.css";
 import "@/styles/connected-discovery.css";
 import "@/styles/practical-discovery.css";
+import "@/styles/experience-upgrade.css";
 import { Header, Footer } from "@/components/chrome";
 import { PassportProvider } from "@/components/passport-provider";
 import { demoMode, getExperiences } from "@/lib/data";

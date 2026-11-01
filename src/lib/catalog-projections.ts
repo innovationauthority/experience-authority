@@ -34,6 +34,9 @@ export type PlanExperience = Pick<
   | "duration"
   | "participation"
 > & {
+  regionSlug?: string;
+  category?: string;
+  planning?: ReturnType<typeof cardPlanning>;
   guideReview?: { accessUrl: string; checkedOn: string };
   photo?: ImageCreditData & { src: string };
 };
@@ -107,6 +110,11 @@ export function toPlanExperience(item: PublicExperience): PlanExperience {
     countrySlug,
     duration,
     participation,
+    regionSlug: item.regionSlug,
+    category:
+      interests.find((interest) => matchesInterest(item, interest))?.name ||
+      item.field,
+    planning: cardPlanning(item),
     ...(media
       ? {
           photo: {

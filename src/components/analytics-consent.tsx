@@ -154,10 +154,10 @@ export function AnalyticsConsent({ measurementId }: { measurementId: string }) {
       aria-labelledby="analytics-consent-title"
       aria-describedby="analytics-consent-copy"
     >
-      <h2 id="analytics-consent-title">Private by default.</h2>
+      <h2 id="analytics-consent-title">Optional analytics</h2>
       <p id="analytics-consent-copy">
-        Optional analytics helps improve EA. No advertising. Your searches and
-        journey notes stay private.
+        Help improve EA with optional usage statistics. Your searches and notes
+        stay private.
       </p>
       <div className="analytics-consent-actions">
         <button
@@ -175,7 +175,7 @@ export function AnalyticsConsent({ measurementId }: { measurementId: string }) {
           Decline analytics
         </button>
       </div>
-      <Link href="/privacy">How it works</Link>
+      <Link href="/privacy">Privacy details</Link>
     </aside>
   );
 }

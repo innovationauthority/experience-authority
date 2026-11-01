@@ -1,6 +1,6 @@
 import { PageIntro, PathwayCard } from "@/components/editorial";
 import { getExperiences } from "@/lib/data";
-import { editorialPathways } from "@/lib/editorial-pathways";
+import { publishedEditorialPathways as editorialPathways } from "@/lib/editorial-pathways";
 import { pageMetadata } from "@/lib/seo";
 import { collectionOpening } from "@/lib/collection-opening";
 export const metadata = pageMetadata(

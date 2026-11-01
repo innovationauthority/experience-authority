@@ -16,6 +16,10 @@ import {
   type TripStage,
   type Trip,
 } from "@/lib/trip";
+import {
+  journeySuggestions,
+  journeyDayWarnings,
+} from "@/lib/journey-suggestions";
 import { trackEaEvent } from "@/lib/analytics";
 
 const storageKey = "ea:trip:v1";
@@ -37,6 +41,7 @@ export function TripPlanner({
   proposal?: JourneyProposal;
 }) {
   const { data, ready: passportReady } = usePassport();
+  const [activeDay, setActiveDay] = useState(1);
   const [trip, setTrip] = useState<Trip>(emptyTrip);
   const [ready, setReady] = useState(false);
   const [message, setMessage] = useState("");
@@ -50,9 +55,11 @@ export function TripPlanner({
   }, [proposal?.slug]);
   useEffect(() => {
     try {
-      setTrip(
-        sanitizeTrip(JSON.parse(localStorage.getItem(storageKey) || "null")),
+      const stored = sanitizeTrip(
+        JSON.parse(localStorage.getItem(storageKey) || "null"),
       );
+      setTrip(stored);
+      setActiveDay(stored.entries[0]?.day || 1);
     } catch {
       setMessage(
         "Storage is unavailable. Your plan can only last for this session. Download a copy before leaving.",
@@ -81,6 +88,26 @@ export function TripPlanner({
       );
     }
   }
+  function addToDay(id: string, day = activeDay) {
+    const next = mergeTripStops(
+      trip,
+      [{ id, day }],
+      items.map((item) => item.id),
+    );
+    if (next.entries.length === trip.entries.length) return;
+    update(next);
+    trackEaEvent("journey_add_guide", { guide_id: id });
+    requestAnimationFrame(() => {
+      const list = document.getElementById("your-plan-stops");
+      list?.focus({ preventScroll: true });
+      list?.scrollIntoView({
+        block: "start",
+        behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
+          ? "instant"
+          : "smooth",
+      });
+    });
+  }
   function download() {
     const href = URL.createObjectURL(
       new Blob([tripText(trip, items, true)], {
@@ -104,6 +131,10 @@ export function TripPlanner({
       (entry) => items.find((item) => item.id === entry.id)?.countrySlug || [],
     ),
   );
+  const days = [
+    ...new Set([...trip.entries.map((entry) => entry.day), activeDay]),
+  ].sort((a, b) => a - b);
+  const localIdeas = journeySuggestions(trip, items, activeDay);
   const suggested = items.find((item) => item.id === suggestedItemId);
   if (!ready || !passportReady)
     return <p role="status">Opening your journey…</p>;
@@ -157,7 +188,7 @@ export function TripPlanner({
     );
   return (
     <section className="trip-planner" aria-labelledby="trip-title">
-      <div className="trip-intro">
+      <div className={`trip-intro${hasDraft ? " trip-intro-compact" : ""}`}>
         <p className="eyebrow">From curiosity to a plan</p>
         <h2 id="trip-title">
           {hasDraft
@@ -166,181 +197,196 @@ export function TripPlanner({
               ? `Your version of ${proposal.name}.`
               : "Start with something you saved."}
         </h2>
-        <p>
-          Choose the experiences you want to build around. Give each a day and
-          leave room between them.
-        </p>
+        <p>Choose an anchor, add a contrast and leave time between them.</p>
         <p className="small-note">
-          One private draft in this browser. No account or cloud sync. Nothing
-          here is a booking or an automatically checked itinerary.
+          Saved on this device. Check availability and book directly with each
+          host.
         </p>
       </div>
       {proposal && (
-        <form
-          className="trip-proposal"
-          aria-labelledby="trip-proposal-title"
-          onSubmit={(event) => {
-            event.preventDefault();
-            const eligible = proposal.choices.filter((choice) =>
-              Object.hasOwn(choices, choice.id),
-            );
-            const next = mergeTripStops(
-              trip,
-              eligible.map((choice) => ({
-                id: choice.id,
-                day: Number(choices[choice.id]),
-              })),
-              items.map((item) => item.id),
-            );
-            const added = next.entries.length - trip.entries.length;
-            if (added) {
-              update(next);
-              requestAnimationFrame(() => {
-                const stops = document.getElementById("your-plan-stops");
-                stops?.focus({ preventScroll: true });
-                stops?.scrollIntoView({ block: "start" });
-              });
-            }
-            setChoices({});
-            setProposalMessage(
-              added
-                ? `${added} ${added === 1 ? "experience added" : "experiences added"} to your plan below. Your existing stops and notes stay as they were.`
-                : "No new stops added. Choose an experience and its day, or check whether your plan has reached 100 stops.",
-            );
-          }}
-        >
-          <div className="trip-proposal-heading">
-            <p className="eyebrow">A starting point / {proposal.name}</p>
-            <h3 id="trip-proposal-title">Choose what belongs in your stay.</h3>
-            <p>{proposal.pace}</p>
-            <p className="small-note">
-              Choose only what fits. Alternative outings can have separate days.
-              Check each venue and arrange travel independently.
-            </p>
-          </div>
-          <div className="trip-proposal-choices">
-            {proposal.choices.map((choice) => {
-              const item = items.find((entry) => entry.id === choice.id);
-              if (!item) return null;
-              const alreadyAdded = trip.entries.some(
-                (entry) => entry.id === item.id,
+        <details className="trip-proposal-fold" open={!hasDraft}>
+          <summary>Choose from the {proposal.name} edit</summary>
+          <form
+            className="trip-proposal"
+            aria-labelledby="trip-proposal-title"
+            onSubmit={(event) => {
+              event.preventDefault();
+              const eligible = proposal.choices.filter((choice) =>
+                Object.hasOwn(choices, choice.id),
               );
-              const selected = Object.hasOwn(choices, item.id);
-              return (
-                <article className="trip-proposal-choice" key={item.id}>
-                  {item.photo && (
-                    <div className="trip-guide-photo">
-                      <Link
-                        href={`/experiences/${item.slug}`}
-                        aria-label={`Read ${item.title}`}
-                      >
-                        <Photo
-                          src={item.photo.src}
-                          alt=""
-                          sizes="(max-width: 700px) 100vw, 25vw"
-                        />
-                      </Link>
-                      <ImageCredit media={item.photo} />
-                    </div>
-                  )}
-                  <div className="trip-choice-body">
-                    <p className="eyebrow">{choice.role}</p>
-                    <h4>
-                      <Link href={`/experiences/${item.slug}`}>
-                        {item.title} ↗
-                      </Link>
-                    </h4>
-                    <p>{choice.note}</p>
-                    <p className="small-note">{item.duration}</p>
-                    <label className="trip-choice-select">
-                      <input
-                        type="checkbox"
-                        aria-label={`Choose ${item.title}`}
-                        checked={selected || alreadyAdded}
-                        disabled={alreadyAdded}
-                        onChange={(event) =>
-                          setChoices((previous) => {
-                            const next = { ...previous };
-                            if (event.target.checked) next[item.id] = "";
-                            else delete next[item.id];
-                            return next;
-                          })
-                        }
-                      />
-                      {alreadyAdded
-                        ? "Already in your plan"
-                        : `Choose this experience`}
-                    </label>
-                    {selected && !alreadyAdded && (
-                      <label className="trip-choice-day">
-                        Choose a day
+              const next = mergeTripStops(
+                trip,
+                eligible.map((choice) => ({
+                  id: choice.id,
+                  day: Number(choices[choice.id]),
+                })),
+                items.map((item) => item.id),
+              );
+              const added = next.entries.length - trip.entries.length;
+              if (added) {
+                setActiveDay(
+                  next.entries.find(
+                    (entry) => !trip.entries.some((old) => old.id === entry.id),
+                  )?.day || activeDay,
+                );
+                update(next);
+                requestAnimationFrame(() => {
+                  const stops = document.getElementById("your-plan-stops");
+                  stops?.focus({ preventScroll: true });
+                  stops?.scrollIntoView({ block: "start" });
+                });
+              }
+              setChoices({});
+              setProposalMessage(
+                added
+                  ? `${added} ${added === 1 ? "experience added" : "experiences added"} to your plan below. Your existing stops and notes stay as they were.`
+                  : "No new stops added. Choose an experience and its day, or check whether your plan has reached 100 stops.",
+              );
+            }}
+          >
+            <div className="trip-proposal-heading">
+              <p className="eyebrow">A starting point / {proposal.name}</p>
+              <h3 id="trip-proposal-title">
+                Choose what belongs in your stay.
+              </h3>
+              <p>{proposal.pace}</p>
+              <p className="small-note">
+                Choose only what fits. Alternative outings can have separate
+                days. Check each venue and arrange travel independently.
+              </p>
+            </div>
+            <div className="trip-proposal-choices">
+              {proposal.choices.map((choice) => {
+                const item = items.find((entry) => entry.id === choice.id);
+                if (!item) return null;
+                const alreadyAdded = trip.entries.some(
+                  (entry) => entry.id === item.id,
+                );
+                const selected = Object.hasOwn(choices, item.id);
+                return (
+                  <article className="trip-proposal-choice" key={item.id}>
+                    {item.photo && (
+                      <div className="trip-guide-photo">
+                        <Link
+                          href={`/experiences/${item.slug}`}
+                          aria-label={`Read ${item.title}`}
+                        >
+                          <Photo
+                            src={item.photo.src}
+                            alt=""
+                            sizes="(max-width: 700px) 100vw, 25vw"
+                          />
+                        </Link>
+                        <ImageCredit media={item.photo} />
+                      </div>
+                    )}
+                    <div className="trip-choice-body">
+                      <p className="eyebrow">{choice.role}</p>
+                      <h4>
+                        <Link href={`/experiences/${item.slug}`}>
+                          {item.title} ↗
+                        </Link>
+                      </h4>
+                      <p>{choice.note}</p>
+                      <p className="small-note">{item.duration}</p>
+                      <label className="trip-choice-select">
                         <input
-                          type="number"
-                          min={1}
-                          max={60}
-                          required
-                          value={choices[item.id]}
-                          aria-label={`Proposed day for ${item.title}`}
+                          type="checkbox"
+                          aria-label={`Choose ${item.title}`}
+                          checked={selected || alreadyAdded}
+                          disabled={alreadyAdded}
                           onChange={(event) =>
-                            setChoices({
-                              ...choices,
-                              [item.id]: event.target.value,
+                            setChoices((previous) => {
+                              const next = { ...previous };
+                              if (event.target.checked) next[item.id] = "";
+                              else delete next[item.id];
+                              return next;
                             })
                           }
                         />
+                        {alreadyAdded
+                          ? "Already in your plan"
+                          : `Choose this experience`}
                       </label>
-                    )}
-                  </div>
-                </article>
-              );
-            })}
-          </div>
-          <div className="trip-proposal-actions">
-            <button
-              type="submit"
-              className="button button-dark"
-              disabled={!Object.keys(choices).length}
-            >
-              Add selected experiences to my plan
-            </button>
-            <a className="text-link" href="#your-plan-stops">
-              Go to my plan ↓
-            </a>
-          </div>
-          {proposalMessage && <p role="status">{proposalMessage}</p>}
-        </form>
+                      {selected && !alreadyAdded && (
+                        <label className="trip-choice-day">
+                          Choose a day
+                          <input
+                            type="number"
+                            min={1}
+                            max={60}
+                            required
+                            value={choices[item.id]}
+                            aria-label={`Proposed day for ${item.title}`}
+                            onChange={(event) =>
+                              setChoices({
+                                ...choices,
+                                [item.id]: event.target.value,
+                              })
+                            }
+                          />
+                        </label>
+                      )}
+                    </div>
+                  </article>
+                );
+              })}
+            </div>
+            <div className="trip-proposal-actions">
+              <button
+                type="submit"
+                className="button button-dark"
+                disabled={!Object.keys(choices).length}
+              >
+                Add selected experiences to my plan
+              </button>
+              <a className="text-link" href="#your-plan-stops">
+                Go to my plan ↓
+              </a>
+            </div>
+            {proposalMessage && <p role="status">{proposalMessage}</p>}
+          </form>
+        </details>
       )}
-      {suggested && (
-        <div className="trip-suggestion">
-          <p className="eyebrow">Bring this idea into your days</p>
-          <h3>{suggested.title}</h3>
-          <p>
-            {suggested.place}, {suggested.country}
-          </p>
-          {trip.entries.some((entry) => entry.id === suggested.id) ? (
-            <p role="status">
-              Already in your plan. Choose its day and add your notes below.
-            </p>
-          ) : (
-            <button
-              type="button"
-              className="button button-dark"
-              onClick={() => {
-                update({
-                  ...trip,
-                  entries: [
-                    ...trip.entries,
-                    { id: suggested.id, day: 1, note: "" },
-                  ],
-                });
-                trackEaEvent("journey_add_guide", { guide_id: suggested.id });
-              }}
-            >
-              Add to my journey
-            </button>
-          )}
-        </div>
-      )}
+      {suggested &&
+        !trip.entries.some((entry) => entry.id === suggested.id) && (
+          <div className="trip-suggestion">
+            {suggested.photo && (
+              <div className="trip-guide-photo">
+                <Photo src={suggested.photo.src} alt="" sizes="240px" />
+                <ImageCredit media={suggested.photo} />
+              </div>
+            )}
+            <div>
+              <p className="eyebrow">Start with this experience</p>
+              <h3>{suggested.title}</h3>
+              <p>
+                {suggested.place}, {suggested.country}
+              </p>
+              <label className="trip-target-day">
+                Add to day{" "}
+                <input
+                  type="number"
+                  min={1}
+                  max={60}
+                  value={activeDay}
+                  onChange={(event) => {
+                    const day = Number(event.target.value);
+                    if (Number.isInteger(day) && day > 0 && day <= 60)
+                      setActiveDay(day);
+                  }}
+                />
+              </label>
+              <button
+                type="button"
+                className="button button-dark"
+                onClick={() => addToDay(suggested.id)}
+              >
+                Add to my journey
+              </button>
+            </div>
+          </div>
+        )}
       {hasDraft && (
         <label className="trip-name">
           Journey name
@@ -358,16 +404,7 @@ export function TripPlanner({
             value=""
             onChange={(event) => {
               if (event.target.value) {
-                trackEaEvent("journey_add_guide", {
-                  guide_id: event.target.value,
-                });
-                update({
-                  ...trip,
-                  entries: [
-                    ...trip.entries,
-                    { id: event.target.value, day: 1, note: "" },
-                  ],
-                });
+                addToDay(event.target.value);
               }
             }}
           >
@@ -379,24 +416,57 @@ export function TripPlanner({
             ))}
           </select>
         </label>
-      ) : (
-        !proposal && (
-          <p>
-            {trip.entries.length
-              ? "Keep building around the experiences below."
-              : "Start by saving an experience to your Passport."}{" "}
-            <Link className="reset-link" href="/places">
-              Choose a destination ↗
-            </Link>
-          </p>
-        )
-      )}
+      ) : null}
       {countries.size > 1 && (
         <p className="trip-caution">
           Your ideas span more than one country or territory. Allow for travel
           days. This planner does not calculate connections or check whether the
           route is feasible.
         </p>
+      )}
+      {trip.entries.length > 0 && (
+        <div className="journey-day-bar" aria-label="Choose a planning day">
+          {days.map((day) => (
+            <button
+              type="button"
+              key={day}
+              aria-pressed={activeDay === day}
+              onClick={() => setActiveDay(day)}
+            >
+              Day {day}{" "}
+              <span>
+                {trip.entries.filter((entry) => entry.day === day).length}{" "}
+                experiences
+              </span>
+            </button>
+          ))}
+          {Math.max(...days) < 60 && (
+            <button
+              type="button"
+              onClick={() => setActiveDay(Math.max(...days) + 1)}
+            >
+              + Another day
+            </button>
+          )}
+        </div>
+      )}
+      {trip.entries.length > 0 && (
+        <div className="journey-day-heading">
+          <h2>Day {activeDay}</h2>
+          <p>
+            {trip.entries.filter((entry) => entry.day === activeDay).length}{" "}
+            {trip.entries.filter((entry) => entry.day === activeDay).length ===
+            1
+              ? "experience"
+              : "experiences"}
+            . Check each reservation separately.
+          </p>
+          {journeyDayWarnings(trip, items, activeDay).map((note) => (
+            <p className="trip-caution" key={note}>
+              {note}
+            </p>
+          ))}
+        </div>
       )}
       <ol
         className="trip-entries"
@@ -410,7 +480,11 @@ export function TripPlanner({
             const item = items.find((item) => item.id === entry.id);
             const title = item?.title || "Guide currently unavailable";
             return (
-              <li key={entry.id} className="trip-entry">
+              <li
+                key={entry.id}
+                className="trip-entry"
+                data-active={entry.day === activeDay}
+              >
                 <label className="trip-day">
                   Day
                   <input
@@ -421,13 +495,15 @@ export function TripPlanner({
                     aria-label={`Day for ${title}`}
                     onChange={(event) => {
                       const day = Number(event.target.value);
-                      if (Number.isInteger(day) && day >= 1 && day <= 60)
+                      if (Number.isInteger(day) && day >= 1 && day <= 60) {
+                        setActiveDay(day);
                         update({
                           ...trip,
                           entries: trip.entries.map((e) =>
                             e.id === entry.id ? { ...e, day } : e,
                           ),
                         });
+                      }
                     }}
                   />
                 </label>
@@ -471,6 +547,26 @@ export function TripPlanner({
                       <p className="small-note">Saved reference: {entry.id}</p>
                     </>
                   )}
+                  {item && (
+                    <div className="trip-direct-links">
+                      {item.guideReview && (
+                        <a
+                          href={item.guideReview.accessUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Check availability ↗
+                        </a>
+                      )}
+                      <a
+                        href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.place + ", " + item.country)}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Find the location ↗
+                      </a>
+                    </div>
+                  )}
                   <details className="trip-edit-details">
                     <summary>Edit status and notes</summary>
                     <div className="trip-planning-state">
@@ -501,17 +597,6 @@ export function TripPlanner({
                         </select>
                       </label>
                     </div>
-                    {item?.guideReview && (
-                      <a
-                        className="text-link"
-                        href={item.guideReview.accessUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Check details & booking with the host ↗
-                        <span className="sr-only"> (opens a new tab)</span>
-                      </a>
-                    )}
                     <label>
                       My note
                       <textarea
@@ -551,6 +636,67 @@ export function TripPlanner({
             );
           })}
       </ol>
+      {trip.entries.length > 0 && (
+        <details className="journey-next">
+          <summary>
+            {localIdeas.suggestions.length
+              ? "Add another local experience"
+              : "Find another experience"}
+          </summary>
+          <p>
+            {localIdeas.suggestions.length
+              ? `In the same city or area as ${localIdeas.anchor?.place}. Check locations and travel time before combining.`
+              : "Choose another day above, or explore the full catalogue. Your existing plan stays here."}
+          </p>
+          <div className="journey-next-grid">
+            {localIdeas.suggestions.map((item) => (
+              <article key={item.id}>
+                {item.photo && (
+                  <div className="trip-guide-photo">
+                    <Link
+                      href={`/experiences/${item.slug}`}
+                      aria-label={`Read ${item.title}`}
+                    >
+                      <Photo
+                        src={item.photo.src}
+                        alt=""
+                        sizes="(max-width:700px) 100vw, 33vw"
+                      />
+                    </Link>
+                    <ImageCredit media={item.photo} />
+                  </div>
+                )}
+                <div>
+                  <p className="eyebrow">{item.category}</p>
+                  <h3>
+                    <Link href={`/experiences/${item.slug}`}>
+                      {item.title} ↗
+                    </Link>
+                  </h3>
+                  <p>{item.planning?.time || item.duration}</p>
+                  <button
+                    type="button"
+                    className="button button-outline"
+                    onClick={() => addToDay(item.id)}
+                  >
+                    Add to day {activeDay}
+                  </button>
+                </div>
+              </article>
+            ))}
+          </div>
+          <Link
+            className="text-link"
+            href={
+              localIdeas.anchor?.regionSlug
+                ? `/explore?place=${encodeURIComponent(localIdeas.anchor.countrySlug)}&region=${encodeURIComponent(localIdeas.anchor.regionSlug)}`
+                : "/explore"
+            }
+          >
+            Explore more experiences ↗
+          </Link>
+        </details>
+      )}
       {hasDraft && (
         <>
           <label className="trip-logistics">

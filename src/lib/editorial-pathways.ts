@@ -869,6 +869,40 @@ export const editorialPathways = [
   },
 ] as const satisfies readonly EditorialPathway[];
 
+/** Current public curation is separate from the historical release membership above. */
+export const publishedEditorialPathways: readonly EditorialPathway[] =
+  editorialPathways.map((pathway) =>
+    pathway.slug === "the-pleasure-of-being-a-beginner"
+      ? {
+          slug: "the-pleasure-of-being-a-beginner",
+          kind: "learned-skills",
+          title: "The pleasure of being a beginner",
+          promise:
+            "First steps that give your hands and attention a new problem.",
+          intro:
+            "Twelve first attempts with a real task in your hands. Shape a rug, cut glass, assemble a watch movement or print a few words. Each guide identifies a public teaching format and the visitor’s actual role. Choose the material that intrigues you, then check the session, language and collection arrangements before booking. A visit spent watching belongs elsewhere in the catalogue.",
+          guideSlugs: [
+            "turn-a-drawing-into-a-rug-in-singapore",
+            "paint-a-piece-for-everyday-use-in-copenhagen",
+            "shape-hot-glass-with-an-artist-in-adelaide",
+            "take-a-watch-movement-apart-in-geneva",
+            "paint-the-pattern-you-noticed",
+            "lift-a-pattern-from-the-water",
+            "make-a-lunch-you-cannot-eat",
+            "set-a-few-words-in-wood-type-in-london",
+            "unfold-the-pattern-you-kept-out-of-the-dye-in-kyoto",
+            "fit-a-silver-thread-into-portos-filigree",
+            "draw-with-wax-in-kampong-gelam",
+            "cut-a-line-that-catches-the-light",
+          ],
+          visitorUse:
+            "Compare what you actually do, how long the session asks for and what the instructor supplies. Keep room to collect a fired tile later or confirm a seasonal class date before fixing your route.",
+          returnAndShare:
+            "Send this collection to the person who would laugh through a first attempt with you, then save the skill you would like to try together.",
+        }
+      : pathway,
+  );
+
 export function getEditorialPathway(slug: string) {
-  return editorialPathways.find((pathway) => pathway.slug === slug);
+  return publishedEditorialPathways.find((pathway) => pathway.slug === slug);
 }

@@ -1,3 +1,4 @@
+import { resolveCityEdits } from "@/lib/city-edits";
 import Link from "next/link";
 import { TripPlanner } from "@/components/trip-planner";
 import { getExperiences } from "@/lib/data";
@@ -24,10 +25,11 @@ export default async function PlanPage({
   searchParams: Promise<{
     add?: string | string[];
     chapter?: string | string[];
+    edit?: string | string[];
   }>;
 }) {
   const items = getExperiences();
-  const { add, chapter: chapterSlug } = await searchParams;
+  const { add, chapter: chapterSlug, edit: editSlug } = await searchParams;
   const suggestedItemId =
     typeof add === "string" && items.some((item) => item.id === add)
       ? add
@@ -40,25 +42,40 @@ export default async function PlanPage({
   const chapters = featuredChapterSlugs.flatMap(
     (slug) => allChapters.find((entry) => entry.slug === slug) || [],
   );
-  const proposal = selectedChapter && {
-    slug: selectedChapter.slug,
-    name: selectedChapter.name,
-    pace: selectedChapter.pace,
-    choices: selectedChapter.stops.map((stop) => {
-      const starter = chapterStartingPoints(selectedChapter).find(
-        (choice) => choice.slug === stop.slug,
-      );
-      return {
-        id: stop.item.id,
-        role: starter?.role || stop.moment,
-        note: starter?.note || stop.why,
+  const selectedEdit =
+    typeof editSlug === "string"
+      ? resolveCityEdits(items).find((edit) => edit.slug === editSlug)
+      : undefined;
+  const proposal = selectedEdit
+    ? {
+        slug: selectedEdit.slug,
+        name: selectedEdit.name,
+        pace: selectedEdit.intro,
+        choices: selectedEdit.stops.map((stop) => ({
+          id: stop.item.id,
+          role: stop.role,
+          note: stop.note,
+        })),
+      }
+    : selectedChapter && {
+        slug: selectedChapter.slug,
+        name: selectedChapter.name,
+        pace: selectedChapter.pace,
+        choices: selectedChapter.stops.map((stop) => {
+          const starter = chapterStartingPoints(selectedChapter).find(
+            (choice) => choice.slug === stop.slug,
+          );
+          return {
+            id: stop.item.id,
+            role: starter?.role || stop.moment,
+            note: starter?.note || stop.why,
+          };
+        }),
       };
-    }),
-  };
   const startingPlaces = [
-    "ask-the-market-where-london-came-from",
-    "a-bowl-of-attention",
-    "taste-what-time-does-to-port",
+    "follow-the-art-beyond-the-room-in-tokyo",
+    "taste-singapore-in-another-form",
+    "follow-the-building-around-the-music",
   ].flatMap((slug) => {
     const item = items.find((guide) => guide.slug === slug);
     const media = item && guideMediaFor(item.id);
@@ -90,9 +107,14 @@ export default async function PlanPage({
               const chapter = allChapters.find((entry) =>
                 entry.stops.some((stop) => stop.item.id === item.id),
               );
-              const href = chapter
-                ? `/plan?chapter=${chapter.slug}`
-                : `/places/${item.countrySlug}/${item.regionSlug}`;
+              const edit = resolveCityEdits(items).find((edit) =>
+                edit.stops.some((stop) => stop.item.id === item.id),
+              );
+              const href = edit
+                ? `/plan?edit=${edit.slug}`
+                : chapter
+                  ? `/plan?chapter=${chapter.slug}`
+                  : `/places/${item.countrySlug}/${item.regionSlug}`;
               return (
                 <article className="journey-place-card" key={item.id}>
                   <div className="journey-place-photo">
@@ -117,8 +139,8 @@ export default async function PlanPage({
           </div>
         }
       />
-      <section className="plan-local-ideas">
-        <h2>Still choosing a place?</h2>
+      <details className="plan-local-ideas">
+        <summary>Explore other destinations</summary>
         <p>
           Choose a local starting point, pick your experiences and give each a
           day.
@@ -131,7 +153,7 @@ export default async function PlanPage({
           ))}
           <Link href="/places">All destinations ↗</Link>
         </div>
-      </section>
+      </details>
     </div>
   );
 }
