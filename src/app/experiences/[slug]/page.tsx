@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { guidePhotoSizes } from "@/lib/image-sizing";
 import { notFound } from "next/navigation";
 import { LockKeyhole } from "lucide-react";
 import { ExperienceActions } from "@/components/passport-provider";
@@ -93,7 +94,7 @@ export default async function Experience({ params }: Props) {
               alt={item.imageAlt}
               priority
               className={`photo-${item.id}`}
-              sizes="(max-width: 800px) 100vw, 48vw"
+              sizes={guidePhotoSizes(item.image)}
             />
           ) : item.status === "public_guide" ? (
             <GuideArt item={item} />

@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-01",
+  "scope": "Guide lead photographs only. Original photographs and attribution unchanged.",
+  "finding": "Landscape originals were undersampled for tall object-fit cover lead images.",
+  "change": "Generate original dimensions at build time and account for cover height when selecting responsive image sizes.",
+  "verifiedExample": {
+    "guide": "begin-with-rice-not-the-bottle",
+    "desktop1440": {
+      "beforeRequestedWidth": 750,
+      "afterRequestedWidth": 1920
+    },
+    "mobile390": {
+      "beforeRequestedWidth": 640,
+      "afterRequestedWidth": 750
+    },
+    "originalWidth": 1600,
+    "note": "Optimizer request width may exceed the original. No additional source detail is claimed."
+  },
+  "validation": [
+    "190 tests passed",
+    "TypeScript passed",
+    "Production build passed",
+    "Desktop and mobile screenshots inspected",
+    "Both lead images loaded"
+  ],
+  "tradeoff": "Larger lead image transfers where required for the tall crop. Card thumbnails unchanged."
+}
