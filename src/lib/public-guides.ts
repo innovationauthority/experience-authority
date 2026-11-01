@@ -1,3 +1,4 @@
+import { guideBatch62 } from "./guide-batch-62";
 import { guideBatch61 } from "./guide-batch-61";
 import type { PublicExperience, GuideReview } from "./catalog";
 import { guideImage } from "./media";
@@ -84,6 +85,7 @@ const common = {
 } as const;
 
 const publicGuideDrafts: PublicExperience[] = [
+  ...guideBatch62,
   ...guideBatch61,
   ...guideBatch60,
   ...guideBatch59,

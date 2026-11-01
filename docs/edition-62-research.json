@@ -1,0 +1,314 @@
+{
+  "date": "2026-11-01",
+  "batch": 62,
+  "netNew": 16,
+  "allocation": {
+    "eat-drink": [
+      "taste-singapore-in-another-form",
+      "let-a-tasting-menu-change-your-expectations-in-barcelona"
+    ],
+    "art-culture": [
+      "follow-video-art-into-the-room-in-amsterdam",
+      "walk-inside-colour-at-inhotim"
+    ],
+    "design-innovation": [
+      "find-the-handmade-work-behind-the-screen-in-wellington",
+      "try-the-ideas-behind-a-particle-accelerator-at-cern"
+    ],
+    "make-learn": [
+      "shape-hot-glass-with-an-artist-in-adelaide",
+      "take-a-watch-movement-apart-in-geneva"
+    ],
+    "move-water": [
+      "build-test-and-rebuild-in-billund",
+      "follow-a-story-around-the-next-bend-at-efteling"
+    ],
+    "nature-outdoors": [
+      "find-the-plants-behind-everyday-things-in-cornwall",
+      "look-closer-at-a-mountain-of-plants-in-singapore"
+    ],
+    "swim-reset": [
+      "read-stone-light-and-water-in-vals",
+      "bathe-among-hundertwassers-curves-in-styria"
+    ],
+    "shared-rituals": [
+      "follow-a-record-from-room-to-groove-in-kingston",
+      "hear-nashville-through-a-recording-room"
+    ]
+  },
+  "sourceChecks": [
+    {
+      "url": "https://www.restaurantlabyrinth.com/menu-1",
+      "status": 200,
+      "finalUrl": "https://www.restaurantlabyrinth.com/menu-1",
+      "title": "Menu | Restaurant Labyrinth"
+    },
+    {
+      "url": "https://www.restaurantlabyrinth.com/our-restaurant",
+      "status": 200,
+      "finalUrl": "https://www.restaurantlabyrinth.com/our-restaurant",
+      "title": "About | Restaurant Labyrinth"
+    },
+    {
+      "url": "https://www.restaurantlabyrinth.com/contact",
+      "status": 200,
+      "finalUrl": "https://www.restaurantlabyrinth.com/contact",
+      "title": "Enquiries | Restaurant Labyrinth"
+    },
+    {
+      "url": "https://www.disfrutarbarcelona.com/",
+      "status": 200,
+      "finalUrl": "https://www.disfrutarbarcelona.com/",
+      "title": "DISFRUTAR"
+    },
+    {
+      "url": "https://guide.michelin.com/es/es/catalunya/barcelona/restaurante/disfrutar",
+      "status": 202,
+      "finalUrl": "https://guide.michelin.com/es/es/catalunya/barcelona/restaurante/disfrutar",
+      "title": ""
+    },
+    {
+      "url": "https://nxtmuseum.com/exhibition/pioneers-of-media-art",
+      "status": 200,
+      "finalUrl": "https://nxtmuseum.com/exhibition/pioneers-of-media-art",
+      "title": "Pioneers of Media Art - Nxt Museum"
+    },
+    {
+      "url": "https://nxtmuseum.com/planyourvisit",
+      "status": 200,
+      "finalUrl": "https://nxtmuseum.com/planyourvisit",
+      "title": "Plan your visit - Nxt Museum"
+    },
+    {
+      "url": "https://www.inhotim.org.br/visite/",
+      "status": 200,
+      "finalUrl": "https://www.inhotim.org.br/visite/",
+      "title": "Visite - Inhotim"
+    },
+    {
+      "url": "https://www.inhotim.org.br/item-do-acervo/invencao-da-cor-penetravel-magic-square-5-de-luxe/",
+      "status": 200,
+      "finalUrl": "https://www.inhotim.org.br/item-do-acervo/invencao-da-cor-penetravel-magic-square-5-de-luxe/",
+      "title": "Invenção da Cor, Penetrável Magic Square #5, De Luxe - Inhotim"
+    },
+    {
+      "url": "https://www.inhotim.org.br/hoje/",
+      "status": 200,
+      "finalUrl": "https://www.inhotim.org.br/hoje/",
+      "title": "Hoje - Inhotim"
+    },
+    {
+      "url": "https://www.wetaworkshop.com/tours/wellington/experiences/tour",
+      "status": 200,
+      "finalUrl": "https://www.wetaworkshop.com/tours/wellington/experiences/tour",
+      "title": "Book a Tour | Wētā Workshop Experiences Wellington"
+    },
+    {
+      "url": "https://www.wellingtonnz.com/visit/see-and-do/weta-workshop-experiences-and-weta-cave",
+      "status": 200,
+      "finalUrl": "https://www.wellingtonnz.com/visit/see-and-do/weta-workshop-experiences-and-weta-cave",
+      "title": "Wētā Workshop Experiences &amp; Wētā Cave in Wellington – WellingtonNZ"
+    },
+    {
+      "url": "https://visit.cern/families-individual-visitors",
+      "status": 200,
+      "finalUrl": "https://visit.cern/families-individual-visitors",
+      "title": "Families and individuals (1 to 11 visitors) | visit.cern"
+    },
+    {
+      "url": "https://visit.cern/exhibitions",
+      "status": 200,
+      "finalUrl": "https://visit.cern/exhibitions",
+      "title": "Exhibitions | visit.cern"
+    },
+    {
+      "url": "https://www.jamfactory.com.au/short-courses",
+      "status": 200,
+      "finalUrl": "https://www.jamfactory.com.au/short-courses",
+      "title": "Short Courses &mdash; JamFactory"
+    },
+    {
+      "url": "https://shop.jamfactory.com.au/collections/short-courses/products/individual-glass-blowing-workshop-2-hours",
+      "status": 200,
+      "finalUrl": "https://shop.jamfactory.com.au/collections/short-courses/products/individual-glass-blowing-workshop-2-hours",
+      "title": "Individual Glass Blowing Workshop | 2 HOURS &ndash; JamFactory"
+    },
+    {
+      "url": "https://initium.swiss/en/produit/3-hour-introductory-workshop-on-watchmaking/",
+      "status": 200,
+      "finalUrl": "https://initium.swiss/en/produit/3-hour-introductory-workshop-on-watchmaking/",
+      "title": "3-hour introductory watchmaking courses and workshops in Switzerland"
+    },
+    {
+      "url": "https://initium.swiss/en/customer-faq/",
+      "status": 200,
+      "finalUrl": "https://initium.swiss/en/customer-faq/",
+      "title": "FAQ - Frequently asked questions - Initium Swiss"
+    },
+    {
+      "url": "https://initium.swiss/en/contact/",
+      "status": 200,
+      "finalUrl": "https://initium.swiss/en/contact/",
+      "title": "Contact Initium Swiss - By phone or email"
+    },
+    {
+      "url": "https://legohouse.com/en-gb/explore/experiences/blue-zone",
+      "status": 200,
+      "finalUrl": "https://legohouse.com/en-gb/explore/experiences/blue-zone",
+      "title": "Blue Zone at LEGO House - Experience the Logic Zone"
+    },
+    {
+      "url": "https://legohouse.com/en-gb/plan-your-visit/faq",
+      "status": 200,
+      "finalUrl": "https://legohouse.com/en-gb/plan-your-visit/faq",
+      "title": "LEGO® House - Frequently asked questions"
+    },
+    {
+      "url": "https://legohouse.com/en-gb/explore/experiences/the-experience-zones",
+      "status": 200,
+      "finalUrl": "https://legohouse.com/en-gb/explore/experiences/the-experience-zones",
+      "title": "The Experience Zones | Creative LEGO® Play | LEGO® House"
+    },
+    {
+      "url": "https://www.efteling.com/en/park/attractions/fairytale-forest",
+      "status": 200,
+      "finalUrl": "https://www.efteling.com/en/park/attractions/fairytale-forest",
+      "title": "The Fairytale Forest - Efteling"
+    },
+    {
+      "url": "https://www.efteling.com/en/park/information/in-maintenance",
+      "status": 200,
+      "finalUrl": "https://www.efteling.com/en/park/information/in-maintenance",
+      "title": "Closed attractions - Efteling"
+    },
+    {
+      "url": "https://www.efteling.com/en/park/information/ticket-overview",
+      "status": 200,
+      "finalUrl": "https://www.efteling.com/en/park/information/ticket-overview",
+      "title": "Ticket prices and validity - Efteling"
+    },
+    {
+      "url": "https://www.edenproject.com/whats-here/rainforest-biome",
+      "status": 200,
+      "finalUrl": "https://www.edenproject.com/whats-here/rainforest-biome",
+      "title": "Rainforest Biome | Eden Project"
+    },
+    {
+      "url": "https://www.edenproject.com/visit",
+      "status": 200,
+      "finalUrl": "https://www.edenproject.com/visit",
+      "title": "Visit Eden | Eden Project"
+    },
+    {
+      "url": "https://www.gardensbythebay.com.sg/en/things-to-do/attractions/cloud-forest.html",
+      "status": 200,
+      "finalUrl": "https://www.gardensbythebay.com.sg/en/things-to-do/attractions/cloud-forest.html",
+      "title": "Cloud Forest"
+    },
+    {
+      "url": "https://www.gardensbythebay.com.sg/en/plan-your-visit.html",
+      "status": 200,
+      "finalUrl": "https://www.gardensbythebay.com.sg/en/plan-your-visit.html",
+      "title": "Plan your visit"
+    },
+    {
+      "url": "https://7132.com/en/therme/7132-thermal-baths-day-trip/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://7132.com/en/therme/7132-thermal-baths-peter-zumthor/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.blumau.com/en/our-services/thermal-spa-reservation.html",
+      "status": 200,
+      "finalUrl": "https://www.blumau.com/en/our-services/thermal-spa-reservation.html",
+      "title": "Thermal spa reservation - Rogner Bad Blumau"
+    },
+    {
+      "url": "https://www.blumau.com/en/arrive-and-discover/architecture.html",
+      "status": 200,
+      "finalUrl": "https://www.blumau.com/en/arrive-and-discover/architecture.html",
+      "title": "Architecture - Rogner Bad Blumau"
+    },
+    {
+      "url": "https://www.bad-blumau.com/en/betriebe-angebote/thermen/thermenpreise25/",
+      "status": 200,
+      "finalUrl": "https://www.bad-blumau.com/en/betriebe-angebote/thermen/thermenpreise25/",
+      "title": "Kurkommission Bad Blumau / Price and opening times"
+    },
+    {
+      "url": "https://www.bobmarleymuseum.com/tuff-gong-studio-tour/",
+      "status": 200,
+      "finalUrl": "https://www.bobmarleymuseum.com/tuff-gong-studio-tour/",
+      "title": "Tuff Gong Studio Tour in Kingston | The Bob Marley Museum"
+    },
+    {
+      "url": "https://tuffgong.com/",
+      "status": 200,
+      "finalUrl": "https://tuffgong.com/",
+      "title": "Tuff Gong"
+    },
+    {
+      "url": "https://www.countrymusichalloffame.org/experiences/studio-b/tour-studio-b",
+      "status": 200,
+      "finalUrl": "https://www.countrymusichalloffame.org/experiences/studio-b/tour-studio-b",
+      "title": "Tour Studio B - Country Music Hall of Fame and Museum"
+    },
+    {
+      "url": "https://www.countrymusichalloffame.org/experiences/studio-b",
+      "status": 200,
+      "finalUrl": "https://www.countrymusichalloffame.org/experiences/studio-b",
+      "title": "Studio B - Country Music Hall of Fame and Museum"
+    }
+  ],
+  "verificationNotes": [
+    "7132 blocks automated HTTP checks. Its current official visitor page and architecture page were read using the web tool.",
+    "Michelin Disfrutar page returned bot HTTP202 in shell but was readable using web tool.",
+    "Photographer Julien L. Balmer verified in original Vals image EXIF/XMP. Francesc Guillamet verified in Disfrutar watermark and XMP.",
+    "RCA Doug Force CC BY 3.0 confirmed on Wikimedia Commons file record. Rogner Bad Blumau CC0 confirmed in file record. Images resized/compressed only.",
+    "JamFactory image depicts working studio production, not the visitor class. Initium workshop image is not verified as the Geneva room. These distinctions are disclosed."
+  ],
+  "rejected": [
+    {
+      "candidate": "Audemars Piguet masterclass",
+      "reason": "Current advertised sessions sold out and older FAQ describes a different format."
+    },
+    {
+      "candidate": "Orsoni Venice furnace",
+      "reason": "Current public slots booked and next calendar not yet available."
+    },
+    {
+      "candidate": "Othership",
+      "reason": "Intense cold-plunge emphasis is a weaker match for the requested non-extreme selection."
+    },
+    {
+      "candidate": "Royal Delft and Royal Selangor",
+      "reason": "Existing catalogue duplicates."
+    },
+    {
+      "candidate": "Efteling Droomvlucht focus",
+      "reason": "Upcoming maintenance. Selected Fairytale Forest instead and disclose ride closure."
+    },
+    {
+      "candidate": "Inhotim Sonic Pavilion focus",
+      "reason": "Maintenance. Selected Magic Square with current visitor evidence instead."
+    },
+    {
+      "candidate": "RCA Adinda Uneputty photo",
+      "reason": "Rejected after visual inspection for noise and uneven exposure. Used sharper Doug Force photograph with documented licence."
+    }
+  ],
+  "validation": {
+    "tests": 194,
+    "failed": 0,
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "browserRoutesAcrossViewports": 82,
+    "axeViolations": 0,
+    "brokenImages": 0,
+    "overflow": false,
+    "analyticsBeforeConsent": false,
+    "localProductionProof": "16 guides, 32 expired guides excluded, 519 eligible public guides"
+  }
+}

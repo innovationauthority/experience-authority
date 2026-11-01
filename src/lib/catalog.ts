@@ -125,11 +125,18 @@ export const interests: readonly Interest[] = [
   {
     slug: "shared-rituals",
     name: "Shared rituals",
+    guideSlugs: [
+      "follow-a-record-from-room-to-groove-in-kingston",
+      "hear-nashville-through-a-recording-room",
+    ],
     fields: ["gather", "celebrate"],
   },
 ];
 /** Visitor navigation is independent of the six historical publishing allocations. */
 const designGuideSlugs = [
+  "find-the-handmade-work-behind-the-screen-in-wellington",
+  "try-the-ideas-behind-a-particle-accelerator-at-cern",
+
   "watch-a-sports-car-take-shape-in-malvern",
   "read-a-century-of-car-design-in-turin",
   "look-at-the-shape-before-the-label-in-antwerp",
@@ -185,6 +192,10 @@ export const browseInterests: readonly Interest[] = [
   {
     ...interests[5],
     name: "Music & social",
+    guideSlugs: [
+      "follow-a-record-from-room-to-groove-in-kingston",
+      "hear-nashville-through-a-recording-room",
+    ],
     description:
       "Live music, performance, shared tables and occasions worth joining.",
   },
@@ -1413,6 +1424,7 @@ const additionalRegionNames: Readonly<Record<string, string>> = {
   "vietnam/hoi-an": "Hội An",
   "thailand/chiang-mai": "Chiang Mai area",
   "australia/sydney": "Sydney",
+  "switzerland/geneva": "Geneva",
 };
 
 /** Shared destination identity. A venue or street must never name an entire area. */

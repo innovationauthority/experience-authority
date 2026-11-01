@@ -1,6 +1,23 @@
 /** Content hashes keep replaced photographs consistent across responsive image caches.
  * The media test requires an update when an original file changes. */
 export const imageRevisions: Record<string, string> = {
+  "/images/guides/singapore-labyrinth.jpg": "482900686048",
+  "/images/guides/barcelona-disfrutar.jpg": "f54b52e10d91",
+  "/images/guides/amsterdam-nxt-pioneers.jpg": "e4998b74c3a0",
+  "/images/guides/brumadinho-inhotim-colour.jpg": "4a5424b25c3d",
+  "/images/guides/wellington-weta-effects.jpg": "a3d24ac5db14",
+  "/images/guides/meyrin-cern-science-gateway.jpg": "133a08901681",
+  "/images/guides/adelaide-jamfactory-glass.jpg": "d3c3e58cccde",
+  "/images/guides/geneva-initium-watchmaking.jpg": "72ae6121b764",
+  "/images/guides/billund-lego-test-driver.jpg": "ac24f5a9573d",
+  "/images/guides/kaatsheuvel-efteling-fairytale.jpg": "af97e0af0ac2",
+  "/images/guides/cornwall-eden-rainforest.jpg": "100c5d6115cb",
+  "/images/guides/singapore-cloud-forest.jpg": "acd6fee5eafb",
+  "/images/guides/vals-7132-therme.jpg": "389f58fbd502",
+  "/images/guides/bad-blumau-thermal.jpg": "1b3f1bc88255",
+  "/images/guides/kingston-tuff-gong-studio.jpg": "261aa9b5e15f",
+  "/images/guides/nashville-rca-studio-b.jpg": "7313d987e098",
+
   "/images/guides/tokyo-teamlab-borderless.jpg": "bf551b964d31",
   "/images/guides/malvern-morgan-factory.jpg": "dbb0aafa392f",
   "/images/guides/mclaren-vale-blending-bench.jpg": "37531c0aaac0",
@@ -542,7 +559,7 @@ export const imageRevisions: Record<string, string> = {
 
 // A single manifest fingerprint fits Next's bounded localPatterns allowlist.
 // Tests require it to change when any original is added or replaced.
-export const imageEdition = "86fa6cefbc7f";
+export const imageEdition = "4d9cc3b0f0cf";
 
 export function imageSource(src: string) {
   return imageRevisions[src] ? `${src}?v=${imageEdition}` : src;

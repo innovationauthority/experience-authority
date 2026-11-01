@@ -23,7 +23,7 @@ test("27 October adds eighteen distinct source-checked guides with three primary
   const slugs = Object.values(edition20261027).flat() as readonly string[];
   assert.equal(slugs.length, 18);
   assert.equal(new Set(slugs).size, 18);
-  assert.equal(publicGuides.length, 535);
+  assert.equal(publicGuides.length, 551);
   assert.deepEqual([...slugs].sort(), guideBatch58.map((g) => g.slug).sort());
   const previous = publicGuides.filter(
     (g) =>

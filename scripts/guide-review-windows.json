@@ -1,4 +1,100 @@
 {
+  "/experiences/taste-singapore-in-another-form": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "singapore",
+    "regionSlug": "singapore"
+  },
+  "/experiences/let-a-tasting-menu-change-your-expectations-in-barcelona": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "spain",
+    "regionSlug": "barcelona"
+  },
+  "/experiences/follow-video-art-into-the-room-in-amsterdam": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "netherlands",
+    "regionSlug": "amsterdam"
+  },
+  "/experiences/walk-inside-colour-at-inhotim": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "brazil",
+    "regionSlug": "brumadinho"
+  },
+  "/experiences/find-the-handmade-work-behind-the-screen-in-wellington": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "new-zealand",
+    "regionSlug": "wellington"
+  },
+  "/experiences/try-the-ideas-behind-a-particle-accelerator-at-cern": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "switzerland",
+    "regionSlug": "geneva"
+  },
+  "/experiences/shape-hot-glass-with-an-artist-in-adelaide": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "australia",
+    "regionSlug": "adelaide"
+  },
+  "/experiences/take-a-watch-movement-apart-in-geneva": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "switzerland",
+    "regionSlug": "geneva"
+  },
+  "/experiences/build-test-and-rebuild-in-billund": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "denmark",
+    "regionSlug": "billund"
+  },
+  "/experiences/follow-a-story-around-the-next-bend-at-efteling": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "netherlands",
+    "regionSlug": "kaatsheuvel"
+  },
+  "/experiences/find-the-plants-behind-everyday-things-in-cornwall": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "cornwall"
+  },
+  "/experiences/look-closer-at-a-mountain-of-plants-in-singapore": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "singapore",
+    "regionSlug": "singapore"
+  },
+  "/experiences/read-stone-light-and-water-in-vals": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "switzerland",
+    "regionSlug": "vals"
+  },
+  "/experiences/bathe-among-hundertwassers-curves-in-styria": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "austria",
+    "regionSlug": "bad-blumau"
+  },
+  "/experiences/follow-a-record-from-room-to-groove-in-kingston": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "jamaica",
+    "regionSlug": "kingston"
+  },
+  "/experiences/hear-nashville-through-a-recording-room": {
+    "availableFrom": "2026-11-01",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "united-states",
+    "regionSlug": "nashville"
+  },
   "/experiences/follow-the-art-beyond-the-room-in-tokyo": {
     "availableFrom": "2026-11-01",
     "reviewBy": "2027-01-15",

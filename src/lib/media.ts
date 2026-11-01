@@ -1,3 +1,4 @@
+import { mediaBatch62 } from "./media-batch-62";
 import { mediaBatch61 } from "./media-batch-61";
 /**
  * The publication record for every guide photograph. Keep this deliberately
@@ -72,6 +73,7 @@ export type GuideMedia = {
 };
 
 export const publicGuideMedia: readonly GuideMedia[] = [
+  ...mediaBatch62,
   ...mediaBatch61,
   ...mediaBatch60,
   ...mediaBatch59,
