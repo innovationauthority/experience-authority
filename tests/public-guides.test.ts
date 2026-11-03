@@ -42,8 +42,8 @@ test("Arcachon stays a bay-wide chapter regardless of guide order or a more spec
   }
 });
 
-test("guide set contains 591 distinct, sourced public experiences, not Selected or demo records", () => {
-  assert.equal(publicGuides.length, 591);
+test("guide set contains 615 distinct, sourced public experiences, not Selected or demo records", () => {
+  assert.equal(publicGuides.length, 615);
   assert.equal(
     new Set(publicGuides.map((p) => p.id)).size,
     publicGuides.length,
@@ -340,7 +340,7 @@ test("London connects a recognisable market with production work and hidden infr
     (guide) =>
       guide.countrySlug === "united-kingdom" && guide.regionSlug === "london",
   );
-  assert.equal(london.length, 19);
+  assert.equal(london.length, 20);
   assert.deepEqual([...new Set(london.map((guide) => guide.field))].sort(), [
     "gather",
     "learn",
@@ -432,6 +432,7 @@ test("new regions are derived from real coverage and recommendations favour a re
       .map((r) => r.slug)
       .sort(),
     [
+      "echizen",
       "ikeda",
       "kanazawa",
       "kasukabe",
@@ -460,6 +461,7 @@ test("new regions are derived from real coverage and recommendations favour a re
       "girona",
       "granada",
       "jerez-de-la-frontera",
+      "laguardia",
       "madrid",
       "san-sebastian",
       "seville",

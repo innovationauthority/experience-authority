@@ -1,3 +1,4 @@
+import { discoveryBatch65 } from "./discovery-batch-65";
 import { discoveryBatch64 } from "./discovery-batch-64";
 import { edition20261101ThirdPass } from "./discovery-batch-63";
 import { edition20261101SecondPass } from "./discovery-batch-62";
@@ -26,7 +27,10 @@ import { edition20261027 } from "./discovery-batch-58";
 
 /** Publication dates are distinct from source-check dates. Older undated guides are not backfilled. */
 export const guideReleases = [
-  { date: "2026-11-03", slugs: Object.keys(discoveryBatch64) },
+  {
+    date: "2026-11-03",
+    slugs: [...Object.keys(discoveryBatch65), ...Object.keys(discoveryBatch64)],
+  },
   {
     date: "2026-11-01",
     slugs: [

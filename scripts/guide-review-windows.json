@@ -1,4 +1,148 @@
 {
+  "/experiences/melbourne-attica-native-ingredients": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "australia",
+    "regionSlug": "melbourne"
+  },
+  "/experiences/lima-maido-nikkei-menu": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "peru",
+    "regionSlug": "lima"
+  },
+  "/experiences/laguardia-ysios-vineyard-tasting": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "spain",
+    "regionSlug": "laguardia"
+  },
+  "/experiences/humlebaek-louisiana-sculpture-coast": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "denmark",
+    "regionSlug": "humlebaek"
+  },
+  "/experiences/santa-fe-meow-wolf-house": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "united-states",
+    "regionSlug": "santa-fe"
+  },
+  "/experiences/sharjah-rain-room-slow-walk": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "united-arab-emirates",
+    "regionSlug": "sharjah"
+  },
+  "/experiences/papenburg-meyer-shipbuilding-view": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "germany",
+    "regionSlug": "papenburg"
+  },
+  "/experiences/dearborn-ford-rouge-assembly": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "united-states",
+    "regionSlug": "dearborn"
+  },
+  "/experiences/linz-ars-deep-space": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "austria",
+    "regionSlug": "linz"
+  },
+  "/experiences/tilcajete-paint-wooden-nahual": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "mexico",
+    "regionSlug": "san-martin-tilcajete"
+  },
+  "/experiences/echizen-forge-santoku-knife": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "japan",
+    "regionSlug": "echizen"
+  },
+  "/experiences/ilhavo-vista-alegre-porcelain-painting": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "portugal",
+    "regionSlug": "ilhavo"
+  },
+  "/experiences/poitiers-futuroscope-motion-images": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "france",
+    "regionSlug": "poitiers"
+  },
+  "/experiences/queenstown-luge-gravity-track": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "new-zealand",
+    "regionSlug": "queenstown"
+  },
+  "/experiences/seoul-hikr-kpop-playground": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "south-korea",
+    "regionSlug": "seoul"
+  },
+  "/experiences/vezac-marqueyssac-boxwood-walk": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "france",
+    "regionSlug": "vezac"
+  },
+  "/experiences/nairobi-karura-forest-trails": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "kenya",
+    "regionSlug": "nairobi"
+  },
+  "/experiences/otways-fly-treetop-walk": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "australia",
+    "regionSlug": "otways"
+  },
+  "/experiences/bangkok-yunomori-sukhumvit-baths": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "thailand",
+    "regionSlug": "bangkok"
+  },
+  "/experiences/quebec-strom-riverside-baths": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "canada",
+    "regionSlug": "quebec-city"
+  },
+  "/experiences/budapest-rudas-dome-rooftop": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "hungary",
+    "regionSlug": "budapest"
+  },
+  "/experiences/london-cafe-oto-open-ears": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "london"
+  },
+  "/experiences/sao-paulo-sesc-pompeia-evening": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "brazil",
+    "regionSlug": "sao-paulo"
+  },
+  "/experiences/seoul-seongsu-vinyl-listening": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "south-korea",
+    "regionSlug": "seoul"
+  },
   "/experiences/shimamoto-yamazaki-monozukuri": {
     "availableFrom": "2026-11-03",
     "reviewBy": "2027-01-15",

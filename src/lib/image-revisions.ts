@@ -1,6 +1,30 @@
 /** Content hashes keep replaced photographs consistent across responsive image caches.
  * The media test requires an update when an original file changes. */
 export const imageRevisions: Record<string, string> = {
+  "/images/guides/melbourne-attica-native-ingredients.jpg": "875465bae543",
+  "/images/guides/lima-maido-nikkei-menu.jpg": "b0e527cfa439",
+  "/images/guides/laguardia-ysios-vineyard-tasting.jpg": "32b8b58fc9dd",
+  "/images/guides/humlebaek-louisiana-sculpture-coast.jpg": "214b460118c3",
+  "/images/guides/santa-fe-meow-wolf-house.jpg": "0b42782d8c79",
+  "/images/guides/sharjah-rain-room-slow-walk.jpg": "833df29f1d8b",
+  "/images/guides/papenburg-meyer-shipbuilding-view.jpg": "8d636bd856a5",
+  "/images/guides/dearborn-ford-rouge-assembly.jpg": "9faefba14c34",
+  "/images/guides/linz-ars-deep-space.jpg": "97563c39944f",
+  "/images/guides/tilcajete-paint-wooden-nahual.jpg": "874fe15b6ce1",
+  "/images/guides/echizen-forge-santoku-knife.jpg": "feb7bd12007d",
+  "/images/guides/ilhavo-vista-alegre-porcelain-painting.jpg": "459488bc8933",
+  "/images/guides/poitiers-futuroscope-motion-images.jpg": "950d67b2f083",
+  "/images/guides/queenstown-luge-gravity-track.jpg": "148150ced0e9",
+  "/images/guides/seoul-hikr-kpop-playground.jpg": "62491d43490b",
+  "/images/guides/vezac-marqueyssac-boxwood-walk.jpg": "e62b713fb57f",
+  "/images/guides/nairobi-karura-forest-trails.jpg": "fcc2d53ec1c9",
+  "/images/guides/otways-fly-treetop-walk.jpg": "0be52ce4d25b",
+  "/images/guides/bangkok-yunomori-sukhumvit-baths.jpg": "8962cb289697",
+  "/images/guides/quebec-strom-riverside-baths.jpg": "5e4ed757dca1",
+  "/images/guides/budapest-rudas-dome-rooftop.jpg": "c42a6f3f0f10",
+  "/images/guides/london-cafe-oto-open-ears.jpg": "992994bc6d06",
+  "/images/guides/sao-paulo-sesc-pompeia-evening.jpg": "ea3e7428d1c2",
+  "/images/guides/seoul-seongsu-vinyl-listening.jpg": "516119dd7861",
   "/images/guides/istanbul-nardis-jazz.jpg": "85f02241e2de",
   "/images/guides/mexico-city-sona-listening.jpg": "a83b2f32e9e9",
   "/images/guides/london-ronnie-scotts-main-club.jpg": "3e1fb3bd0e49",
@@ -600,7 +624,7 @@ export const imageRevisions: Record<string, string> = {
 
 // A single manifest fingerprint fits Next's bounded localPatterns allowlist.
 // Tests require it to change when any original is added or replaced.
-export const imageEdition = "a23df9b9f42b";
+export const imageEdition = "3b4e215b10cb";
 
 export function imageSource(src: string) {
   return imageRevisions[src] ? `${src}?v=${imageEdition}` : src;

@@ -134,6 +134,13 @@ export const interests: readonly Interest[] = [
 ];
 /** Visitor navigation is independent of the six historical publishing allocations. */
 const designGuideSlugs = [
+  "papenburg-meyer-shipbuilding-view",
+  "dearborn-ford-rouge-assembly",
+  "linz-ars-deep-space",
+  "toulouse-airbus-a350",
+  "otake-simose-movable-galleries",
+  "panama-biomuseo-panamarama",
+
   "compare-buildings-on-foot-at-the-vitra-campus",
   "follow-a-car-through-the-factory-in-munich",
 
