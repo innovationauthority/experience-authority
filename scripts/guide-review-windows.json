@@ -1,4 +1,148 @@
 {
+  "/experiences/shimamoto-yamazaki-monozukuri": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "japan",
+    "regionSlug": "shimamoto"
+  },
+  "/experiences/toulouse-airbus-a350": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "france",
+    "regionSlug": "toulouse"
+  },
+  "/experiences/wilderness-touw-canoe": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "south-africa",
+    "regionSlug": "garden-route"
+  },
+  "/experiences/otake-simose-movable-galleries": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "japan",
+    "regionSlug": "otake"
+  },
+  "/experiences/salford-rhs-bridgewater": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "salford"
+  },
+  "/experiences/copenhagen-tivoli-garden-play": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "denmark",
+    "regionSlug": "copenhagen"
+  },
+  "/experiences/bucharest-therme-palm": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "romania",
+    "regionSlug": "bucharest"
+  },
+  "/experiences/kopavogur-sky-lagoon": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "iceland",
+    "regionSlug": "kopavogur"
+  },
+  "/experiences/naoshima-chichu-daylight": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "japan",
+    "regionSlug": "naoshima"
+  },
+  "/experiences/wales-bounce-below": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "blaenau-ffestiniog"
+  },
+  "/experiences/kobarid-hisa-franko": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "slovenia",
+    "regionSlug": "kobarid"
+  },
+  "/experiences/quito-toak-chocolate-art": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "ecuador",
+    "regionSlug": "quito"
+  },
+  "/experiences/colome-james-turrell-light": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "argentina",
+    "regionSlug": "molinos"
+  },
+  "/experiences/jeju-arte-immersive-nature": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "south-korea",
+    "regionSlug": "jeju"
+  },
+  "/experiences/panama-biomuseo-panamarama": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "panama",
+    "regionSlug": "panama-city"
+  },
+  "/experiences/fabriano-paper-sheet": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "italy",
+    "regionSlug": "fabriano"
+  },
+  "/experiences/bali-john-hardy-customisation": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "indonesia",
+    "regionSlug": "bali"
+  },
+  "/experiences/tokyo-kakimori-ink": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "japan",
+    "regionSlug": "tokyo"
+  },
+  "/experiences/melbourne-urbnsurf-beginner": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "australia",
+    "regionSlug": "melbourne"
+  },
+  "/experiences/kigali-nyandungu-wetland": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "rwanda",
+    "regionSlug": "kigali"
+  },
+  "/experiences/melbourne-sense-of-self": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "australia",
+    "regionSlug": "melbourne"
+  },
+  "/experiences/london-ronnie-scotts-main-club": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "london"
+  },
+  "/experiences/mexico-city-sona-listening": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "mexico",
+    "regionSlug": "mexico-city"
+  },
+  "/experiences/istanbul-nardis-jazz": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "turkiye",
+    "regionSlug": "istanbul"
+  },
   "/experiences/follow-the-landscape-through-a-menu-in-tokyo": {
     "availableFrom": "2026-11-01",
     "reviewBy": "2027-01-15",

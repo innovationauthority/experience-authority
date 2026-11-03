@@ -1,6 +1,30 @@
 /** Content hashes keep replaced photographs consistent across responsive image caches.
  * The media test requires an update when an original file changes. */
 export const imageRevisions: Record<string, string> = {
+  "/images/guides/istanbul-nardis-jazz.jpg": "85f02241e2de",
+  "/images/guides/mexico-city-sona-listening.jpg": "a83b2f32e9e9",
+  "/images/guides/london-ronnie-scotts-main-club.jpg": "3e1fb3bd0e49",
+  "/images/guides/melbourne-sense-of-self.jpg": "9999a802aada",
+  "/images/guides/kigali-nyandungu-wetland.jpg": "c1caad468300",
+  "/images/guides/melbourne-urbnsurf-beginner.jpg": "792acc2eb5d8",
+  "/images/guides/tokyo-kakimori-ink.jpg": "462553eb5239",
+  "/images/guides/bali-john-hardy-customisation.jpg": "c7b44f34ffdf",
+  "/images/guides/fabriano-paper-sheet.jpg": "ac78537d1f82",
+  "/images/guides/panama-biomuseo-panamarama.jpg": "39064308f885",
+  "/images/guides/jeju-arte-immersive-nature.jpg": "06f3b5f27524",
+  "/images/guides/colome-james-turrell-light.jpg": "1b656185a17e",
+  "/images/guides/quito-toak-chocolate-art.jpg": "0ed203548aa7",
+  "/images/guides/kobarid-hisa-franko.jpg": "d5decf9ccfc5",
+  "/images/guides/wales-bounce-below.jpg": "e4a13ce8a48e",
+  "/images/guides/naoshima-chichu-daylight.jpg": "2015fe8b72a8",
+  "/images/guides/kopavogur-sky-lagoon.jpg": "6b10ab77ef2b",
+  "/images/guides/bucharest-therme-palm.jpg": "a99cb8f95860",
+  "/images/guides/copenhagen-tivoli-garden-play.jpg": "a38f3294562c",
+  "/images/guides/salford-rhs-bridgewater.jpg": "c34730e69ee3",
+  "/images/guides/otake-simose-movable-galleries.jpg": "c62494849d48",
+  "/images/guides/shimamoto-yamazaki-monozukuri.jpg": "8f39f53db983",
+  "/images/guides/toulouse-airbus-a350.jpg": "eadd6a0368a7",
+  "/images/guides/wilderness-touw-canoe.jpg": "e596a738c195",
   "/images/guides/tokyo-narisawa-satoyama.jpg": "42dd23b0e66d",
   "/images/guides/girona-celler-can-roca.jpg": "0cd0fec9db2b",
   "/images/guides/miami-superblue-light.jpg": "94796258c7fc",
@@ -576,7 +600,7 @@ export const imageRevisions: Record<string, string> = {
 
 // A single manifest fingerprint fits Next's bounded localPatterns allowlist.
 // Tests require it to change when any original is added or replaced.
-export const imageEdition = "53a64a415de1";
+export const imageEdition = "a23df9b9f42b";
 
 export function imageSource(src: string) {
   return imageRevisions[src] ? `${src}?v=${imageEdition}` : src;

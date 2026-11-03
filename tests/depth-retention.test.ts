@@ -142,8 +142,8 @@ test("release dates are independent from source checks and expire out of the new
   assert.equal(recentGuideReleases(publicGuides, "2026-10-26").length, 270);
   assert.equal(recentGuideReleases(publicGuides, "2026-10-27").length, 306);
   assert.equal(recentGuideReleases(publicGuides, "2026-10-28").length, 306);
-  assert.equal(recentGuideReleases(publicGuides, "2026-11-08").length, 323);
-  assert.equal(recentGuideReleases(publicGuides, "2026-11-15").length, 305);
+  assert.equal(recentGuideReleases(publicGuides, "2026-11-08").length, 347);
+  assert.equal(recentGuideReleases(publicGuides, "2026-11-15").length, 329);
   assert.equal(publishedReleases([], "2026-09-13").length, 0);
   const changedChecks = publicGuides.map((item) => ({
     ...item,

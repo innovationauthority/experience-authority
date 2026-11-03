@@ -323,6 +323,24 @@ export function filterExperiences(items: PublicExperience[], query: Query) {
 }
 export const territories = [
   {
+    slug: "ecuador",
+    name: "Ecuador",
+    region: "quito",
+    regionName: "Quito",
+    intro:
+      "Begin in Quito with a visit that brings art and Ecuadorian cacao into the same afternoon.",
+    image: null,
+  },
+  {
+    slug: "panama",
+    name: "Panama",
+    region: "panama-city",
+    regionName: "Panama City",
+    intro:
+      "Begin in Panama City with an exhibition that brings the country’s landscapes into the room.",
+    image: null,
+  },
+  {
     slug: "chile",
     name: "Chile",
     region: "santiago",

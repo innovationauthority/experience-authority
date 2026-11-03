@@ -127,6 +127,10 @@
     1800,
     1350
   ],
+  "/images/guides/bali-john-hardy-customisation.jpg": [
+    1511,
+    1600
+  ],
   "/images/guides/bandung-udjo-angklung.jpg": [
     1800,
     1203
@@ -303,6 +307,10 @@
     1800,
     1013
   ],
+  "/images/guides/bucharest-therme-palm.jpg": [
+    1200,
+    1600
+  ],
   "/images/guides/budapest-childrens-railway.jpg": [
     1800,
     1482
@@ -427,6 +435,10 @@
     2200,
     1422
   ],
+  "/images/guides/colome-james-turrell-light.jpg": [
+    1600,
+    800
+  ],
   "/images/guides/copenhagen-absalon-dinner.jpg": [
     1024,
     576
@@ -454,6 +466,10 @@
   "/images/guides/copenhagen-schonnemann-smorrebrod.jpg": [
     1024,
     576
+  ],
+  "/images/guides/copenhagen-tivoli-garden-play.jpg": [
+    1600,
+    1066
   ],
   "/images/guides/cornwall-eden-rainforest.jpg": [
     1500,
@@ -562,6 +578,10 @@
   "/images/guides/entebbe-barkcloth.jpg": [
     1800,
     1200
+  ],
+  "/images/guides/fabriano-paper-sheet.jpg": [
+    1600,
+    666
   ],
   "/images/guides/faroe-chain-dance.jpg": [
     1930,
@@ -759,6 +779,10 @@
     2400,
     1598
   ],
+  "/images/guides/istanbul-nardis-jazz.jpg": [
+    1600,
+    942
+  ],
   "/images/guides/istanbul-vefa-boza.jpg": [
     1600,
     1065
@@ -786,6 +810,10 @@
   "/images/guides/jatiluwih-subak-terraces.jpg": [
     1920,
     1152
+  ],
+  "/images/guides/jeju-arte-immersive-nature.jpg": [
+    1600,
+    1067
   ],
   "/images/guides/jerez-tio-pepe.jpg": [
     2048,
@@ -827,6 +855,10 @@
     2000,
     1510
   ],
+  "/images/guides/kigali-nyandungu-wetland.jpg": [
+    1600,
+    1066
+  ],
   "/images/guides/kingston-dub-club.jpg": [
     1800,
     1350
@@ -839,9 +871,17 @@
     2000,
     1328
   ],
+  "/images/guides/kobarid-hisa-franko.jpg": [
+    1600,
+    1066
+  ],
   "/images/guides/konigil-mulberry-paper.jpg": [
     1100,
     733
+  ],
+  "/images/guides/kopavogur-sky-lagoon.jpg": [
+    1600,
+    1066
   ],
   "/images/guides/koyasan-temple-stay.jpg": [
     1920,
@@ -1083,6 +1123,10 @@
     1600,
     1200
   ],
+  "/images/guides/london-ronnie-scotts-main-club.jpg": [
+    1600,
+    800
+  ],
   "/images/guides/london-soane-house.jpg": [
     1800,
     1350
@@ -1227,6 +1271,14 @@
     760,
     400
   ],
+  "/images/guides/melbourne-sense-of-self.jpg": [
+    1600,
+    840
+  ],
+  "/images/guides/melbourne-urbnsurf-beginner.jpg": [
+    1600,
+    800
+  ],
   "/images/guides/mexico-city-anahuacalli.jpg": [
     1800,
     1205
@@ -1250,6 +1302,10 @@
   "/images/guides/mexico-city-mucho-room.jpg": [
     1280,
     960
+  ],
+  "/images/guides/mexico-city-sona-listening.jpg": [
+    1600,
+    900
   ],
   "/images/guides/mexico-city-sunday-ride.jpg": [
     2200,
@@ -1342,6 +1398,10 @@
   "/images/guides/nantes-grand-elephant-ride.jpg": [
     1314,
     1305
+  ],
+  "/images/guides/naoshima-chichu-daylight.jpg": [
+    1600,
+    1200
   ],
   "/images/guides/naples-avpn-pizza-day.jpg": [
     1800,
@@ -1491,6 +1551,10 @@
     750,
     750
   ],
+  "/images/guides/otake-simose-movable-galleries.jpg": [
+    1600,
+    1200
+  ],
   "/images/guides/paarl-babylonstoren-garden.jpg": [
     1920,
     1280
@@ -1502,6 +1566,10 @@
   "/images/guides/palermo-streaty-markets.jpg": [
     1125,
     954
+  ],
+  "/images/guides/panama-biomuseo-panamarama.jpg": [
+    1600,
+    900
   ],
   "/images/guides/panauti-community-table.jpg": [
     1080,
@@ -1655,6 +1723,10 @@
     1057,
     1680
   ],
+  "/images/guides/quito-toak-chocolate-art.jpg": [
+    1600,
+    1240
+  ],
   "/images/guides/rajaportti-winter.jpg": [
     1920,
     1312
@@ -1722,6 +1794,10 @@
   "/images/guides/rotterdam-watertaxi-crossing.jpg": [
     1800,
     1200
+  ],
+  "/images/guides/salford-rhs-bridgewater.jpg": [
+    1600,
+    1066
   ],
   "/images/guides/salta-empanada-workshop.jpg": [
     3000,
@@ -1858,6 +1934,10 @@
   "/images/guides/seychelles-moutya-night.png": [
     900,
     600
+  ],
+  "/images/guides/shimamoto-yamazaki-monozukuri.jpg": [
+    1600,
+    1200
   ],
   "/images/guides/siem-reap-khmer-pottery-wheel.jpg": [
     1800,
@@ -2051,6 +2131,10 @@
     1800,
     1350
   ],
+  "/images/guides/tokyo-kakimori-ink.jpg": [
+    1600,
+    1068
+  ],
   "/images/guides/tokyo-kiyosumi-garden.jpg": [
     1800,
     1350
@@ -2110,6 +2194,10 @@
   "/images/guides/tortuguero-night-turtle-crawl.jpg": [
     1200,
     800
+  ],
+  "/images/guides/toulouse-airbus-a350.jpg": [
+    1600,
+    1067
   ],
   "/images/guides/trinidad-steelpan-maker.jpg": [
     800,
@@ -2235,6 +2323,10 @@
     1081,
     598
   ],
+  "/images/guides/wales-bounce-below.jpg": [
+    1600,
+    1067
+  ],
   "/images/guides/watergang-wetlands-canoe.jpg": [
     800,
     534
@@ -2254,6 +2346,10 @@
   "/images/guides/wellington-zealandia-day-walk.jpg": [
     1800,
     1013
+  ],
+  "/images/guides/wilderness-touw-canoe.jpg": [
+    1600,
+    869
   ],
   "/images/guides/xochimilco-chinampa-trajinera.jpg": [
     2400,
