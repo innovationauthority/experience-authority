@@ -1,4 +1,148 @@
 {
+  "/experiences/vienna-steirereck-seasonal-menu": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "austria",
+    "regionSlug": "vienna"
+  },
+  "/experiences/cognac-hennessy-cellars": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "france",
+    "regionSlug": "cognac"
+  },
+  "/experiences/san-francisco-dandelion-cacao": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "united-states",
+    "regionSlug": "san-francisco"
+  },
+  "/experiences/amsterdam-eye-what-is-film": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "netherlands",
+    "regionSlug": "amsterdam"
+  },
+  "/experiences/paris-bourse-rotunda": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "france",
+    "regionSlug": "paris"
+  },
+  "/experiences/kyoto-biovortex-athletics-forest": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "japan",
+    "regionSlug": "kyoto"
+  },
+  "/experiences/venice-olivetti-scarpa": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "italy",
+    "regionSlug": "venice"
+  },
+  "/experiences/stuttgart-porsche-factory-walk": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "germany",
+    "regionSlug": "stuttgart"
+  },
+  "/experiences/toulouse-cite-espace-scale": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "france",
+    "regionSlug": "toulouse"
+  },
+  "/experiences/tokyo-origami-kaikan-mini": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "japan",
+    "regionSlug": "tokyo"
+  },
+  "/experiences/bangkok-clay-circle-wheel": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "thailand",
+    "regionSlug": "bangkok"
+  },
+  "/experiences/hanoi-bat-trang-old-quarter-clay": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "vietnam",
+    "regionSlug": "hanoi"
+  },
+  "/experiences/vancouver-flyover-awaken-canada": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "canada",
+    "regionSlug": "vancouver"
+  },
+  "/experiences/seoul-lotte-world-indoor-outdoor": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "south-korea",
+    "regionSlug": "seoul"
+  },
+  "/experiences/singapore-altitudex-first-flight": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "singapore",
+    "regionSlug": "singapore"
+  },
+  "/experiences/oslo-ekeberg-woodland": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "norway",
+    "regionSlug": "oslo"
+  },
+  "/experiences/singapore-bukit-timah-rail-corridor": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "singapore",
+    "regionSlug": "singapore"
+  },
+  "/experiences/penang-habitat-langur-way": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "malaysia",
+    "regionSlug": "penang"
+  },
+  "/experiences/montreal-bota-bota-ferry": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "canada",
+    "regionSlug": "montreal"
+  },
+  "/experiences/berlin-liquidrom-underwater-sound": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "germany",
+    "regionSlug": "berlin"
+  },
+  "/experiences/hanmer-springs-thermal-rock-pools": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "new-zealand",
+    "regionSlug": "hanmer-springs"
+  },
+  "/experiences/stockholm-fasching-live-set": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "sweden",
+    "regionSlug": "stockholm"
+  },
+  "/experiences/mexico-city-zinco-basement-jazz": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "mexico",
+    "regionSlug": "mexico-city"
+  },
+  "/experiences/tokyo-suntory-hall-concert": {
+    "availableFrom": "2026-11-03",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "japan",
+    "regionSlug": "tokyo"
+  },
   "/experiences/melbourne-attica-native-ingredients": {
     "availableFrom": "2026-11-03",
     "reviewBy": "2027-01-15",

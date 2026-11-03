@@ -1,6 +1,30 @@
 /** Content hashes keep replaced photographs consistent across responsive image caches.
  * The media test requires an update when an original file changes. */
 export const imageRevisions: Record<string, string> = {
+  "/images/guides/vienna-steirereck-seasonal-menu.jpg": "819824dd8ad7",
+  "/images/guides/cognac-hennessy-cellars.jpg": "b09df564e703",
+  "/images/guides/san-francisco-dandelion-cacao.jpg": "8babdd71f3e5",
+  "/images/guides/amsterdam-eye-what-is-film.jpg": "bb4b5b6aa9b3",
+  "/images/guides/paris-bourse-rotunda.jpg": "8623b8b48250",
+  "/images/guides/kyoto-biovortex-athletics-forest.jpg": "fa4f1f111af1",
+  "/images/guides/venice-olivetti-scarpa.jpg": "ca0e52afe34b",
+  "/images/guides/stuttgart-porsche-factory-walk.jpg": "5aa86784aa41",
+  "/images/guides/toulouse-cite-espace-scale.jpg": "b463cb71f8fe",
+  "/images/guides/tokyo-origami-kaikan-mini.jpg": "1e121f549257",
+  "/images/guides/bangkok-clay-circle-wheel.jpg": "e97c641a4909",
+  "/images/guides/hanoi-bat-trang-old-quarter-clay.jpg": "5441a56d4ff4",
+  "/images/guides/vancouver-flyover-awaken-canada.jpg": "896f7f8e367e",
+  "/images/guides/seoul-lotte-world-indoor-outdoor.jpg": "2bb5538c62c7",
+  "/images/guides/singapore-altitudex-first-flight.jpg": "901c0ac21662",
+  "/images/guides/oslo-ekeberg-woodland.jpg": "9f6479530557",
+  "/images/guides/singapore-bukit-timah-rail-corridor.jpg": "3d1e4e92621a",
+  "/images/guides/penang-habitat-langur-way.jpg": "750d421ad59f",
+  "/images/guides/montreal-bota-bota-ferry.jpg": "1902c69cf2e5",
+  "/images/guides/berlin-liquidrom-underwater-sound.jpg": "532dd16aceb3",
+  "/images/guides/hanmer-springs-thermal-rock-pools.jpg": "f00912a11566",
+  "/images/guides/stockholm-fasching-live-set.jpg": "301252a51dbb",
+  "/images/guides/mexico-city-zinco-basement-jazz.jpg": "9b9a600a07ac",
+  "/images/guides/tokyo-suntory-hall-concert.jpg": "acc06e42c35f",
   "/images/guides/melbourne-attica-native-ingredients.jpg": "875465bae543",
   "/images/guides/lima-maido-nikkei-menu.jpg": "b0e527cfa439",
   "/images/guides/laguardia-ysios-vineyard-tasting.jpg": "32b8b58fc9dd",
@@ -624,7 +648,7 @@ export const imageRevisions: Record<string, string> = {
 
 // A single manifest fingerprint fits Next's bounded localPatterns allowlist.
 // Tests require it to change when any original is added or replaced.
-export const imageEdition = "3b4e215b10cb";
+export const imageEdition = "70f6ebf41a88";
 
 export function imageSource(src: string) {
   return imageRevisions[src] ? `${src}?v=${imageEdition}` : src;
