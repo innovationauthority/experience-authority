@@ -181,6 +181,18 @@ export default function Places() {
           );
         })}
       </PlaceDirectory>
+      <details>
+        <summary>Browse all destinations by name</summary>
+        <ul>
+          {[...territories]
+            .sort((a, b) => a.name.localeCompare(b.name, "en"))
+            .map(({ slug, name }) => (
+              <li key={slug}>
+                <Link href={`/places/${slug}`} prefetch={false}>{name}</Link>
+              </li>
+            ))}
+        </ul>
+      </details>
     </div>
   );
 }
