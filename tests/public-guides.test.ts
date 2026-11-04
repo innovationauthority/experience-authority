@@ -42,8 +42,8 @@ test("Arcachon stays a bay-wide chapter regardless of guide order or a more spec
   }
 });
 
-test("guide set contains 639 distinct, sourced public experiences, not Selected or demo records", () => {
-  assert.equal(publicGuides.length, 639);
+test("guide set contains 663 distinct, sourced public experiences, not Selected or demo records", () => {
+  assert.equal(publicGuides.length, 663);
   assert.equal(
     new Set(publicGuides.map((p) => p.id)).size,
     publicGuides.length,
@@ -286,11 +286,12 @@ test("New York connects a recognisable food with living production and a difficu
       guide.countrySlug === "united-states" &&
       guide.regionSlug === "new-york-city",
   );
-  assert.equal(newYork.length, 10);
+  assert.equal(newYork.length, 12);
   assert.deepEqual([...new Set(newYork.map((guide) => guide.field))].sort(), [
     "gather",
     "learn",
     "move",
+    "play",
     "restore",
     "taste",
     "witness",
@@ -439,12 +440,14 @@ test("new regions are derived from real coverage and recommendations favour a re
       "koyasan",
       "kumano-kodo",
       "kyoto",
+      "matsuyama",
       "naoshima",
       "nara",
       "osaka",
       "otake",
       "shimamoto",
       "takaoka",
+      "teshima",
       "tokyo",
       "uji",
     ],

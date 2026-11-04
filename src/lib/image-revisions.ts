@@ -1,6 +1,30 @@
 /** Content hashes keep replaced photographs consistent across responsive image caches.
  * The media test requires an update when an original file changes. */
 export const imageRevisions: Record<string, string> = {
+  "/images/guides/bordeaux-cite-du-vin-tasting.jpg": "d50be8928705",
+  "/images/guides/healesville-four-pillars-distillery-tour.jpg": "9b6fa20411aa",
+  "/images/guides/pringy-gruyere-dairy.jpg": "303cd379ccfd",
+  "/images/guides/teshima-art-museum-water.jpg": "880337010382",
+  "/images/guides/new-york-artechouse-twilight-zone.jpg": "57ff6545df98",
+  "/images/guides/buenos-aires-malba-art.jpg": "cd4a610fc1f4",
+  "/images/guides/osaka-maishima-waste-plant-tour.jpg": "0f040425bc6c",
+  "/images/guides/rio-museu-do-amanha-futures.jpg": "5cffebf63344",
+  "/images/guides/ghent-design-museum-new-wing.jpg": "22c4d9b17274",
+  "/images/guides/liverpool-bluecoat-carton-printmaking.jpg": "c15b9b73f52b",
+  "/images/guides/singapore-crafune-cardholder.jpg": "ec6b28897604",
+  "/images/guides/nairobi-kazuri-bead-bar.jpg": "5e4dcb11165a",
+  "/images/guides/edinburgh-curling-first-stone.jpg": "a7c4db740c15",
+  "/images/guides/brooklyn-royal-palms-shuffleboard.jpg": "a406ebe4b217",
+  "/images/guides/cape-town-rollercade-first-laps.jpg": "b4100fa3bece",
+  "/images/guides/bogota-tropicario-glasshouses.jpg": "a3f9654b1c85",
+  "/images/guides/kepong-frim-forest-skywalk.jpg": "f12e4dbdb86b",
+  "/images/guides/cape-town-boulders-penguin-boardwalk.jpg": "9bb74fa8631a",
+  "/images/guides/geneva-bains-des-paquis-sauna.jpg": "9824f4d0f035",
+  "/images/guides/conaripe-termas-geometricas.jpg": "e1d9d26b0716",
+  "/images/guides/matsuyama-dogo-onsen-honkan.jpg": "0251a8e08983",
+  "/images/guides/brasilia-clube-do-choro-live.jpg": "c0a94e76a366",
+  "/images/guides/seoul-myeongdong-nanta.jpg": "45863efe7779",
+  "/images/guides/montreal-casa-del-popolo-concert.jpg": "9d7bb777fef3",
   "/images/guides/vienna-steirereck-seasonal-menu.jpg": "819824dd8ad7",
   "/images/guides/cognac-hennessy-cellars.jpg": "b09df564e703",
   "/images/guides/san-francisco-dandelion-cacao.jpg": "8babdd71f3e5",
@@ -648,7 +672,7 @@ export const imageRevisions: Record<string, string> = {
 
 // A single manifest fingerprint fits Next's bounded localPatterns allowlist.
 // Tests require it to change when any original is added or replaced.
-export const imageEdition = "70f6ebf41a88";
+export const imageEdition = "784d653a86a2";
 
 export function imageSource(src: string) {
   return imageRevisions[src] ? `${src}?v=${imageEdition}` : src;

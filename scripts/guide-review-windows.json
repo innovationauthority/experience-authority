@@ -1,4 +1,148 @@
 {
+  "/experiences/bordeaux-cite-du-vin-tasting": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "france",
+    "regionSlug": "bordeaux"
+  },
+  "/experiences/healesville-four-pillars-distillery-tour": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "australia",
+    "regionSlug": "yarra-valley"
+  },
+  "/experiences/pringy-gruyere-dairy": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "switzerland",
+    "regionSlug": "gruyeres"
+  },
+  "/experiences/teshima-art-museum-water": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "japan",
+    "regionSlug": "teshima"
+  },
+  "/experiences/new-york-artechouse-twilight-zone": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-03",
+    "countrySlug": "united-states",
+    "regionSlug": "new-york-city"
+  },
+  "/experiences/buenos-aires-malba-art": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "argentina",
+    "regionSlug": "buenos-aires"
+  },
+  "/experiences/osaka-maishima-waste-plant-tour": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "japan",
+    "regionSlug": "osaka"
+  },
+  "/experiences/rio-museu-do-amanha-futures": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "brazil",
+    "regionSlug": "rio-de-janeiro"
+  },
+  "/experiences/ghent-design-museum-new-wing": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "belgium",
+    "regionSlug": "ghent"
+  },
+  "/experiences/liverpool-bluecoat-carton-printmaking": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-11-21",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "liverpool"
+  },
+  "/experiences/singapore-crafune-cardholder": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "singapore",
+    "regionSlug": "singapore"
+  },
+  "/experiences/nairobi-kazuri-bead-bar": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "kenya",
+    "regionSlug": "nairobi"
+  },
+  "/experiences/edinburgh-curling-first-stone": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-10",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "edinburgh"
+  },
+  "/experiences/brooklyn-royal-palms-shuffleboard": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "united-states",
+    "regionSlug": "new-york-city"
+  },
+  "/experiences/cape-town-rollercade-first-laps": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "south-africa",
+    "regionSlug": "cape-town"
+  },
+  "/experiences/bogota-tropicario-glasshouses": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "colombia",
+    "regionSlug": "bogota"
+  },
+  "/experiences/kepong-frim-forest-skywalk": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "malaysia",
+    "regionSlug": "kuala-lumpur"
+  },
+  "/experiences/cape-town-boulders-penguin-boardwalk": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "south-africa",
+    "regionSlug": "cape-town"
+  },
+  "/experiences/geneva-bains-des-paquis-sauna": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "switzerland",
+    "regionSlug": "geneva"
+  },
+  "/experiences/conaripe-termas-geometricas": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "chile",
+    "regionSlug": "los-rios"
+  },
+  "/experiences/matsuyama-dogo-onsen-honkan": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "japan",
+    "regionSlug": "matsuyama"
+  },
+  "/experiences/brasilia-clube-do-choro-live": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-04",
+    "countrySlug": "brazil",
+    "regionSlug": "brasilia"
+  },
+  "/experiences/seoul-myeongdong-nanta": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "south-korea",
+    "regionSlug": "seoul"
+  },
+  "/experiences/montreal-casa-del-popolo-concert": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-04",
+    "countrySlug": "canada",
+    "regionSlug": "montreal"
+  },
   "/experiences/vienna-steirereck-seasonal-menu": {
     "availableFrom": "2026-11-03",
     "reviewBy": "2027-01-15",

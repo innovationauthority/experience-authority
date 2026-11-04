@@ -279,6 +279,10 @@
     1800,
     2400
   ],
+  "/images/guides/bogota-tropicario-glasshouses.jpg": [
+    1800,
+    1350
+  ],
   "/images/guides/bologna-archiginnasio-theatre.jpg": [
     2400,
     1602
@@ -295,13 +299,25 @@
     1600,
     1066
   ],
+  "/images/guides/bordeaux-cite-du-vin-tasting.jpg": [
+    1600,
+    1068
+  ],
   "/images/guides/boulogne-albert-kahn-gardens.jpg": [
     1800,
     1350
   ],
+  "/images/guides/brasilia-clube-do-choro-live.jpg": [
+    1080,
+    720
+  ],
   "/images/guides/brooklyn-japanese-garden.jpg": [
     1800,
     1200
+  ],
+  "/images/guides/brooklyn-royal-palms-shuffleboard.jpg": [
+    1600,
+    1067
   ],
   "/images/guides/brumadinho-inhotim-colour.jpg": [
     1920,
@@ -383,6 +399,10 @@
     1800,
     1350
   ],
+  "/images/guides/buenos-aires-malba-art.jpg": [
+    1024,
+    682
+  ],
   "/images/guides/buenos-aires-plaza-cycle.jpg": [
     1600,
     1067
@@ -407,6 +427,10 @@
     5616,
     3744
   ],
+  "/images/guides/cape-town-boulders-penguin-boardwalk.jpg": [
+    1280,
+    805
+  ],
   "/images/guides/cape-town-granger-kayak.jpg": [
     1800,
     1350
@@ -418,6 +442,10 @@
   "/images/guides/cape-town-kirstenbosch-sunset-concert.jpg": [
     1600,
     1067
+  ],
+  "/images/guides/cape-town-rollercade-first-laps.jpg": [
+    1000,
+    667
   ],
   "/images/guides/cape-town-zeitz-guided.jpg": [
     1800,
@@ -462,6 +490,10 @@
   "/images/guides/colome-james-turrell-light.jpg": [
     1600,
     800
+  ],
+  "/images/guides/conaripe-termas-geometricas.jpg": [
+    1600,
+    1066
   ],
   "/images/guides/copenhagen-absalon-dinner.jpg": [
     1024,
@@ -583,6 +615,10 @@
     1000,
     668
   ],
+  "/images/guides/edinburgh-curling-first-stone.jpg": [
+    1000,
+    666
+  ],
   "/images/guides/edinburgh-dr-neils-garden.jpg": [
     1800,
     1350
@@ -655,9 +691,17 @@
     1200,
     630
   ],
+  "/images/guides/geneva-bains-des-paquis-sauna.jpg": [
+    1600,
+    1067
+  ],
   "/images/guides/geneva-initium-watchmaking.jpg": [
     800,
     800
+  ],
+  "/images/guides/ghent-design-museum-new-wing.jpg": [
+    1400,
+    1400
   ],
   "/images/guides/ghent-sunday-carillon.jpg": [
     1800,
@@ -730,6 +774,10 @@
   "/images/guides/hanoi-zo-calligraphy.jpg": [
     1600,
     1000
+  ],
+  "/images/guides/healesville-four-pillars-distillery-tour.jpg": [
+    1500,
+    844
   ],
   "/images/guides/heeia-fishpond-workday.jpg": [
     800,
@@ -898,6 +946,10 @@
   "/images/guides/kazanlak-rose-picking.jpg": [
     1800,
     1350
+  ],
+  "/images/guides/kepong-frim-forest-skywalk.jpg": [
+    1300,
+    961
   ],
   "/images/guides/khwattu-veld-vehicle.jpg": [
     2000,
@@ -1111,6 +1163,10 @@
     1565,
     1173
   ],
+  "/images/guides/liverpool-bluecoat-carton-printmaking.jpg": [
+    1280,
+    960
+  ],
   "/images/guides/ljubljana-guided-paddleboards.jpg": [
     2000,
     1000
@@ -1291,6 +1347,10 @@
     1350,
     1800
   ],
+  "/images/guides/matsuyama-dogo-onsen-honkan.jpg": [
+    1280,
+    600
+  ],
   "/images/guides/mayer-pfarrplatz-courtyard.jpg": [
     1600,
     2400
@@ -1427,6 +1487,10 @@
     1600,
     1067
   ],
+  "/images/guides/montreal-casa-del-popolo-concert.jpg": [
+    960,
+    575
+  ],
   "/images/guides/montreal-jean-talon-market.jpg": [
     1800,
     1350
@@ -1470,6 +1534,10 @@
   "/images/guides/nairobi-karura-forest-trails.jpg": [
     1800,
     1350
+  ],
+  "/images/guides/nairobi-kazuri-bead-bar.jpg": [
+    1600,
+    1047
   ],
   "/images/guides/nairobi-museum-human-origins.jpg": [
     1800,
@@ -1543,6 +1611,10 @@
     1960,
     1280
   ],
+  "/images/guides/new-york-artechouse-twilight-zone.jpg": [
+    1600,
+    1066
+  ],
   "/images/guides/new-york-bagel-class.webp": [
     1024,
     683
@@ -1614,6 +1686,10 @@
   "/images/guides/osaka-kuromon-lunch.jpg": [
     1800,
     1013
+  ],
+  "/images/guides/osaka-maishima-waste-plant-tour.jpg": [
+    1280,
+    853
   ],
   "/images/guides/osaka-namikiza-english-rakugo.jpg": [
     1800,
@@ -1819,6 +1895,10 @@
     983,
     534
   ],
+  "/images/guides/pringy-gruyere-dairy.jpg": [
+    1280,
+    1145
+  ],
   "/images/guides/prizren-filigree-workbench.jpg": [
     1240,
     827
@@ -1866,6 +1946,10 @@
   "/images/guides/rio-carioca-samba.jpg": [
     1800,
     1202
+  ],
+  "/images/guides/rio-museu-do-amanha-futures.jpg": [
+    1280,
+    977
   ],
   "/images/guides/rio-real-gabinete-pause.jpg": [
     1800,
@@ -2035,6 +2119,10 @@
     1600,
     900
   ],
+  "/images/guides/seoul-myeongdong-nanta.jpg": [
+    1600,
+    583
+  ],
   "/images/guides/seoul-seongsu-vinyl-listening.jpg": [
     1800,
     1800
@@ -2118,6 +2206,10 @@
   "/images/guides/singapore-coney-island-walk.jpg": [
     1920,
     1440
+  ],
+  "/images/guides/singapore-crafune-cardholder.jpg": [
+    1600,
+    1600
   ],
   "/images/guides/singapore-esplanade-concourse.jpg": [
     1800,
@@ -2266,6 +2358,10 @@
   "/images/guides/tartu-typa-handmade-paper.jpg": [
     1800,
     1200
+  ],
+  "/images/guides/teshima-art-museum-water.jpg": [
+    1280,
+    960
   ],
   "/images/guides/tilcajete-paint-wooden-nahual.jpg": [
     1800,

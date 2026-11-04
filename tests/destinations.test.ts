@@ -7,11 +7,11 @@ import { publicGuides } from "../src/lib/public-guides";
 
 test("destination browsing keeps country and city scopes exact, with honest wider-country options", () => {
   const japan = destinationCoverage(publicGuides, "japan");
-  assert.equal(japan.local.length, 50);
+  assert.equal(japan.local.length, 53);
   assert.equal(japan.categories.length, 7);
   const kyoto = destinationCoverage(publicGuides, "japan", "kyoto");
   assert.equal(kyoto.local.length, 15);
-  assert.equal(kyoto.elsewhere.length, 35);
+  assert.equal(kyoto.elsewhere.length, 38);
   assert.ok(
     kyoto.elsewhere.every(
       (item) => item.countrySlug === "japan" && item.regionSlug !== "kyoto",
@@ -59,15 +59,15 @@ test("visitor interests can overlap without duplicating the source record", () =
   );
   assert.equal(
     destinationCoverage(publicGuides, "south-africa").local.length,
-    11,
+    13,
   );
   for (const guide of publicGuides)
     assert.ok(discoveryProfiles[guide.slug], guide.slug);
 });
 
-test("Singapore offers seventeen guides across visitor interests without inflating its guide count", () => {
+test("Singapore offers eighteen guides across visitor interests without inflating its guide count", () => {
   const singapore = destinationCoverage(publicGuides, "singapore", "singapore");
-  assert.equal(singapore.local.length, 17);
+  assert.equal(singapore.local.length, 18);
   assert.equal(singapore.categories.length, 7);
   assert.equal(singapore.elsewhere.length, 0);
   for (const guide of publicGuides) {
@@ -82,7 +82,7 @@ test("the new edition deepens familiar routes and opens new countries without ge
   assert.equal(destinationCoverage(publicGuides, "mexico").local.length, 16);
   assert.equal(
     destinationCoverage(publicGuides, "united-kingdom").local.length,
-    34,
+    36,
   );
   assert.equal(
     destinationCoverage(publicGuides, "argentina", "salta").local.length,
@@ -104,7 +104,7 @@ test("the new edition deepens familiar routes and opens new countries without ge
   );
   assert.equal(
     destinationCoverage(publicGuides, "south-korea").local.length,
-    17,
+    18,
   );
   assert.equal(destinationCoverage(publicGuides, "finland").local.length, 7);
   assert.equal(
