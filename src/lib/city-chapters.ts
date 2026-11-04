@@ -16,6 +16,64 @@ export type CityChapter = {
 /** Authored local combinations. These are ideas to adapt, not timed or bookable packages. */
 export const cityChapters: readonly CityChapter[] = [
   {
+    slug: "bath",
+    name: "Bath",
+    country: "united-kingdom",
+    regions: ["bath"],
+    title: "A backyard discovery and two ways to meet the spring",
+    intro:
+      "Start in the garden where William Herschel discovered Uranus. After lunch, follow the hot spring through the Roman Baths and finish in the warm water of the modern rooftop spa.",
+    pace: "Tuesday to Sunday usually fits the Herschel Museum. Set the afternoon around two separate admissions and keep a lunch break between the museums.",
+    planning:
+      "Book Thermae Bath Spa first, especially for a weekend. It is for ages 16 and over. Choose an earlier timed ticket for the Roman Baths with about 90 minutes for the visit and time to get to Hot Bath Street. Check the Herschel Museum’s hours before setting out. All three stops are in the centre. The townhouse has stairs and the Roman Baths publish a lift route.",
+    stops: [
+      {
+        slug: "bath-herschel-garden-uranus",
+        moment: "Morning on New King Street",
+        why: "See how the Herschels made a telescope, then step into the garden where the observation was made.",
+      },
+      {
+        slug: "bath-roman-baths-follow-the-spring",
+        moment: "After lunch, below street level",
+        why: "Find the Sacred Spring and follow its overflow towards the Roman drain.",
+      },
+      {
+        slug: "meet-baths-warm-water-under-open-sky",
+        moment: "Late afternoon on Hot Bath Street",
+        why: "Make time for the modern spa and its rooftop pool. Allow two hours plus the operator’s arrival and changing instructions.",
+      },
+    ],
+  },
+  {
+    slug: "tampere",
+    name: "Tampere",
+    country: "finland",
+    regions: ["tampere"],
+    title: "Finnish games, a counter lunch and a Pispala sauna",
+    intro:
+      "Try two generations of Finnish games at Vapriikki, order Tampere’s own mustamakkara at the market hall and spend the end of the day at the public sauna in Pispala.",
+    pace: "Wednesday, Friday and Saturday are the regular days when all three stops overlap. The museum and market are in the centre. Allow time to travel west to Pispala.",
+    planning:
+      "Start at Vapriikki around opening, then walk to the market hall for lunch. Take local transport to Pispala and check the sauna’s hours and session rules. If you arrive early and the paths are clear, go up to Pyykkimettä Park for a view over Lake Pyhäjärvi. The ridge streets can be steep and icy. You can go directly to the sauna instead.",
+    stops: [
+      {
+        slug: "tampere-vapriikki-play-finnish-games",
+        moment: "Morning at Vapriikki",
+        why: "Pick two games with different controls and see how each teaches you to play.",
+      },
+      {
+        slug: "tampere-kauppahalli-warm-mustamakkara",
+        moment: "Lunch at Kauppahalli",
+        why: "Ask for a warm portion and try it with lingonberries. Use another stall if the dish or the queue does not suit you.",
+      },
+      {
+        slug: "make-room-in-the-steam",
+        moment: "Late afternoon in Pispala",
+        why: "Make room for a short round of heat and time to cool down. On Wednesdays the regular public session starts at 16:00.",
+      },
+    ],
+  },
+  {
     slug: "tallinn",
     name: "Tallinn",
     country: "estonia",

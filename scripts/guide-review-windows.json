@@ -1,4 +1,28 @@
 {
+  "/experiences/bath-herschel-garden-uranus": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-23",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "bath"
+  },
+  "/experiences/bath-roman-baths-follow-the-spring": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-23",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "bath"
+  },
+  "/experiences/tampere-vapriikki-play-finnish-games": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-23",
+    "countrySlug": "finland",
+    "regionSlug": "tampere"
+  },
+  "/experiences/tampere-kauppahalli-warm-mustamakkara": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-23",
+    "countrySlug": "finland",
+    "regionSlug": "tampere"
+  },
   "/experiences/tallinn-lennusadam-lembit-submarine": {
     "availableFrom": "2026-11-04",
     "reviewBy": "2027-01-20",

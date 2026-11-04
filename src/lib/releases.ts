@@ -34,6 +34,10 @@ export const guideReleases = [
   {
     date: "2026-11-04",
     slugs: [
+      "bath-herschel-garden-uranus",
+      "bath-roman-baths-follow-the-spring",
+      "tampere-vapriikki-play-finnish-games",
+      "tampere-kauppahalli-warm-mustamakkara",
       "tallinn-lennusadam-lembit-submarine",
       "tallinn-kalma-neighbourhood-sauna",
       "seattle-ballard-locks-watch-a-lockage",

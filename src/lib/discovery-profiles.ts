@@ -55,6 +55,57 @@ export type DiscoveryProfile = {
 /** Editorial planning lenses, based on the scope and duration stated in each guide.
  * These are not live session lengths, availability or suitability guarantees. */
 export const discoveryProfiles: Record<string, DiscoveryProfile> = {
+  "bath-herschel-garden-uranus": {
+    modes: ["watch-listen"],
+    time: "short",
+    keywords: [
+      "Bath",
+      "Herschel",
+      "astronomy",
+      "Uranus",
+      "telescope",
+      "garden",
+      "New King Street",
+    ],
+  },
+  "bath-roman-baths-follow-the-spring": {
+    modes: ["watch-listen"],
+    time: "short",
+    keywords: [
+      "Bath",
+      "Roman Baths",
+      "Aquae Sulis",
+      "Sacred Spring",
+      "archaeology",
+      "engineering",
+    ],
+  },
+  "tampere-vapriikki-play-finnish-games": {
+    modes: ["hands-on"],
+    time: "short",
+    keywords: [
+      "Tampere",
+      "Vapriikki",
+      "Finnish Museum of Games",
+      "Pelimuseo",
+      "retro games",
+      "video games",
+      "board games",
+    ],
+  },
+  "tampere-kauppahalli-warm-mustamakkara": {
+    modes: ["at-table"],
+    time: "short",
+    keywords: [
+      "Tampere",
+      "Kauppahalli",
+      "market hall",
+      "mustamakkara",
+      "lingonberry",
+      "blood sausage",
+      "Lihakipparit",
+    ],
+  },
   "tallinn-lennusadam-lembit-submarine": {
     modes: ["watch-listen"],
     time: "half-day",

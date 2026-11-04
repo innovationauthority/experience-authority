@@ -604,8 +604,13 @@ export const guideBatch42: PublicExperience[] = [
     participation:
       "Public thermal bathing and included wellness facilities. Treatments require a separate booking",
     access:
-      "Reserve Thermae Welcome directly with Thermae Bath Spa on Hot Bath Street. Confirm what your ticket includes and the supplied robe and towel arrangements. No EA booking, discount or partnership.",
+      "Reserve Thermae Welcome directly with Thermae Bath Spa on Hot Bath Street. Check what the ticket includes, what to bring and when to arrive. This is a separate admission from the Roman Baths at Abbey Church Yard.",
     guideReview: review("public_admission", [
+      {
+        title: "Thermae Bath Spa: New Royal Bath sessions",
+        url: "https://www.thermaebathspa.com/spa-sessions-new-royal-bath",
+        note: "Thermae Welcome booking, the two-hour format and the rooftop and indoor pools.",
+      },
       {
         title: "Thermae Bath Spa: visitor questions",
         url: "https://www.thermaebathspa.com/news-info/FAQs",

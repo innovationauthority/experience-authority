@@ -1,3 +1,4 @@
+import { bathTampereGuides } from "./guide-batch-74";
 import { tallinnSeattleGuides } from "./guide-batch-73";
 import { destinationDayGuides } from "./guide-batch-72";
 import { montevideoDayGuides } from "./guide-batch-71";
@@ -96,6 +97,7 @@ const common = {
 } as const;
 
 const publicGuideDrafts: PublicExperience[] = [
+  ...bathTampereGuides,
   ...tallinnSeattleGuides,
   ...destinationDayGuides,
   ...montevideoDayGuides,
@@ -240,15 +242,25 @@ const publicGuideDrafts: PublicExperience[] = [
     responsibility:
       "Read the operator’s current rules before going and follow posted arrangements for changing, bathing and phones. Do not photograph or record other visitors. Ask staff rather than assuming what is appropriate, and leave if the setting or its facilities do not meet your needs. EA does not assess health, safety, accessibility or current opening arrangements.",
     evidence:
-      "Visit Tampere’s public pages support the venue’s public-sauna status, location and historical framing, and provide a route to current planning information. They are destination-marketing sources rather than independent cultural or access assessment. EA has not visited Rajaportti, interviewed users or verified any health, cultural or accessibility claim.",
+      "The Pispala Sauna Association publishes the regular public hours. Visit Tampere documents the sauna’s history and location. EA has not visited Rajaportti or assessed the space, accessibility or current session conditions in person.",
     duration: "Self-paced, within the venue’s current public arrangements",
     participation: "Independent visit to a shared public sauna",
     access:
-      "Public admission subject to the operator’s current terms and capacity. Use the official destination listing for the current route to the venue. Confirm practical details directly before travel. EA makes no booking and has no commercial relationship.",
+      "Go to Pispalan valtatie 9. The Pispala Sauna Association lists regular public sessions on Mondays and Wednesdays from 16:00 to 22:00 and Fridays and Saturdays from 14:00 to 22:00. Check special sessions, holiday hours and public admission with the operator before leaving the centre.",
     guideReview: review(
       "public_admission",
-      "https://visittampere.fi/en/destination/rajaportti-sauna-oldest-public-sauna-in-finland/",
+      "https://www.rajaportinsauna.fi/",
       [
+        {
+          title: "Pispala Sauna Association: Rajaportti hours",
+          url: "https://www.rajaportinsauna.fi/",
+          note: "Operator’s weekly public hours, address, phone and special session notices in Finnish.",
+        },
+        {
+          title: "Visit Tampere: Pyykkimettä Park",
+          url: "https://visittampere.fi/en/destination/pyykkimetta-park/",
+          note: "An optional public viewpoint on the Pispala ridge before the sauna.",
+        },
         {
           title: "Visit Tampere: Rajaportti Sauna",
           url: "https://visittampere.fi/en/destination/rajaportti-sauna-oldest-public-sauna-in-finland/",

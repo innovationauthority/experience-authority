@@ -1,3 +1,4 @@
+import { bathTampereMedia } from "./media-batch-74";
 import { tallinnSeattleMedia } from "./media-batch-73";
 import { destinationDayMedia } from "./media-batch-72";
 import { montevideoDayMedia } from "./media-batch-71";
@@ -84,6 +85,7 @@ export type GuideMedia = {
 };
 
 export const publicGuideMedia: readonly GuideMedia[] = [
+  ...bathTampereMedia,
   ...tallinnSeattleMedia,
   ...destinationDayMedia,
   ...montevideoDayMedia,

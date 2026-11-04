@@ -82,7 +82,7 @@ test("the new edition deepens familiar routes and opens new countries without ge
   assert.equal(destinationCoverage(publicGuides, "mexico").local.length, 16);
   assert.equal(
     destinationCoverage(publicGuides, "united-kingdom").local.length,
-    40,
+    42,
   );
   assert.equal(
     destinationCoverage(publicGuides, "argentina", "salta").local.length,
@@ -106,7 +106,7 @@ test("the new edition deepens familiar routes and opens new countries without ge
     destinationCoverage(publicGuides, "south-korea").local.length,
     20,
   );
-  assert.equal(destinationCoverage(publicGuides, "finland").local.length, 8);
+  assert.equal(destinationCoverage(publicGuides, "finland").local.length, 10);
   assert.equal(
     destinationCoverage(publicGuides, "morocco", "fez").local.length,
     1,
