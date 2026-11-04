@@ -702,6 +702,38 @@ export const guideReviewHistory: Record<string, GuideReview[]> = {
       ]
     }
   ],
+  "let-edinburgh-tell-you-a-story-out-loud": [
+    {
+      "basis": "public_sources",
+      "scope": "public_programme",
+      "requiresSpecialPermission": false,
+      "checkedOn": "2026-10-20",
+      "reviewBy": "2026-10-31",
+      "accessUrl": "https://www.sisf.org.uk/news-post/newsid/27174-scottish-international-storytelling-festival-2026-tickets-on-sale/",
+      "sources": [
+        {
+          "title": "SISF: 2026 tickets and festival announcement",
+          "url": "https://www.sisf.org.uk/news-post/newsid/27174-scottish-international-storytelling-festival-2026-tickets-on-sale/",
+          "note": "21 to 31 October 2026 dates and Bird and Beast theme."
+        },
+        {
+          "title": "Scottish Storytelling Centre: current programme",
+          "url": "https://www.scottishstorytellingcentre.com/",
+          "note": "Current event links including Mossycoat on 23 October."
+        },
+        {
+          "title": "SISF: official ticket programme",
+          "url": "https://sisf.online.red61.co.uk/",
+          "note": "Event-specific booking, age, language and time information. No ticket reserved."
+        },
+        {
+          "title": "Scottish Storytelling Centre: accessibility",
+          "url": "https://www.scottishstorytellingcentre.com/about-us/accessibility/",
+          "note": "Lift, hearing support and advance contact for individual arrangements."
+        }
+      ]
+    }
+  ],
 };
 
 export function firstVerifiedOn(guide: { slug: string; guideReview?: GuideReview }) {

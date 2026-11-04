@@ -722,57 +722,56 @@ export const guideBatch48: PublicExperience[] = [
     slug: "let-edinburgh-tell-you-a-story-out-loud",
     title: "Let Edinburgh tell you a story out loud",
     summary:
-      "Choose a live story at Edinburgh's October storytelling festival and let a voice, rather than a landmark, hold your attention.",
+      "Hear apprentice storytellers work with a shared theme at Edinburgh’s Scottish Storytelling Centre. Listen for how each voice makes a different room out of the same words.",
     field: "gather",
     place: "Edinburgh, Scottish Storytelling Centre",
     country: "United Kingdom",
     countrySlug: "united-kingdom",
     regionSlug: "edinburgh",
     kernel:
-      "Choose a suitable story performance at the Scottish Storytelling Centre during the 2026 Scottish International Storytelling Festival. Sit down without needing to know the ending or the teller in advance. Notice how a pause, repeated phrase or change of voice asks the room to imagine something together. The participation can be simply listening well, not volunteering for the stage.",
+      "Choose a live storytelling performance at the Netherbow Theatre. At Stories on the Way, several tellers take a shared theme in different directions. Listen for a pause or repeated phrase that gives the audience time to picture a place the teller leaves undescribed.",
     rootedness:
-      "The Centre gives oral storytelling a public home on Edinburgh's High Street. The festival runs from 21 to 31 October 2026 under the theme Bird and Beast. Its programme brings different tellers and traditions together. A ticket to one performance is not access to every event or evidence that one tale represents all of Scotland.",
+      "On Edinburgh’s High Street, the Scottish Storytelling Centre gives oral storytelling a permanent stage. Stories on the Way gives apprentice tellers a public audience. The November session belongs to the Carrying Stream Festival, which traces how stories, songs and verse pass from one person to another.",
     shift:
       "An old story can feel less like something preserved when a living person has to tell it to a room.",
     humanReturn:
       "Remember the detail your own imagination supplied, and find out who told the story rather than treating its voice as anonymous.",
     responsibility:
-      "Select the actual performance by date, language, age guidance and content. The Centre currently advertises Mossycoat for 23 October at 17:00 with BSL interpretation, but this does not mean every festival event is signed or suitable for children. Confirm the chosen ticket's duration and remaining availability. The building offers lift access and hearing-loop provision, with individual needs best checked before booking. Arrive before the start and follow photography and recording instructions. The adjoining John Knox House is a separate visit.",
+      "Check the event’s age guidance, language, access and seating before booking. The official 18 November listing is marked 12+. The Centre publishes accessibility guidance for the theatre. Follow staff instructions on recording and arrive before the performance starts.",
     evidence:
-      "The festival's 2026 announcement and official ticket programme establish the dates and public performances. The Centre supplies venue and accessibility information. EA has not attended, reviewed the tellers or secured tickets. The photograph is an earlier Centre setting, not this year's performance or a promised participant.",
-    duration: "One booked performance, with duration set by the event listing",
-    participation:
-      "Public audience listening, not a storytelling lesson or guaranteed audience participation",
+      "The Centre’s ticket page and the festival programme list Stories on the Way at the Netherbow Theatre on 18 November. EA has not attended. The photograph shows an earlier audience at the Centre.",
+    duration: "The 18 November performance is listed at two hours.",
+    participation: "Seated audience listening to live storytelling.",
     access:
-      "Choose a current Centre performance through the festival's official ticket link. Read the event-specific language, content and access notes before buying. The 2026 festival ends on 31 October, and this guide does not imply a later run.",
+      "Choose Stories on the Way through the Scottish Storytelling Centre’s official ticket page. The listed performance starts at 7:30 pm on 18 November. Check ticket availability and the venue’s access guidance.",
     ...common,
     ...guideImage("edinburgh-storytelling-festival"),
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-11-18",
+      accessUrl:
+        "https://scottishstorytellingcentre.online.red61.co.uk/event/913:6451/913:28182/",
+      sources: [
         {
-          title: "SISF: 2026 tickets and festival announcement",
-          url: "https://www.sisf.org.uk/news-post/newsid/27174-scottish-international-storytelling-festival-2026-tickets-on-sale/",
-          note: "21 to 31 October 2026 dates and Bird and Beast theme.",
+          title: "Scottish Storytelling Centre: Stories on the Way tickets",
+          url: "https://scottishstorytellingcentre.online.red61.co.uk/event/913:6451/913:28182/",
+          note: "Official booking, 18 November at 7:30 pm, two-hour duration and 12+ age guidance.",
         },
         {
-          title: "Scottish Storytelling Centre: current programme",
-          url: "https://www.scottishstorytellingcentre.com/",
-          note: "Current event links including Mossycoat on 23 October.",
-        },
-        {
-          title: "SISF: official ticket programme",
-          url: "https://sisf.online.red61.co.uk/",
-          note: "Event-specific booking, age, language and time information. No ticket reserved.",
+          title: "Carrying Stream Festival: Stories on the Way",
+          url: "https://www.carryingstream.org/stories",
+          note: "Festival programme identifies the same storytelling performance and Netherbow Theatre.",
         },
         {
           title: "Scottish Storytelling Centre: accessibility",
           url: "https://www.scottishstorytellingcentre.com/about-us/accessibility/",
-          note: "Lift, hearing support and advance contact for individual arrangements.",
+          note: "Venue information for planning individual access and seating.",
         },
       ],
-      "2026-10-31",
-    ),
+    },
   },
   {
     id: "mexico-city-ballet-folklorico",
