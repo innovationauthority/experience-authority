@@ -499,6 +499,11 @@ const drafts: Draft[] = [
         "https://www.momu.be/en/exhibitions/collection-presentation",
         "Rotating ground-floor presentation and its curatorial scope.",
       ],
+      [
+        "MoMu: The Antwerp Six",
+        "https://www.momu.be/en/exhibitions/the-antwerp-six",
+        "Optional temporary exhibition through 17 January 2027.",
+      ],
     ]),
   },
   {

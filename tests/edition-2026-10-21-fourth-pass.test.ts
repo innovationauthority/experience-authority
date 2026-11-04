@@ -155,7 +155,7 @@ test("access boundaries preserve the actual activity, geography and evidence", (
 test("Hamburg and Oslo connect contrasting public experiences without a fabricated package", () => {
   const current = publicGuides.filter((g) => canPublishGuide(g, "2026-10-21"));
   const chapters = resolveCityChapters(current);
-  assert.equal(cityChapters.length, 52);
+  assert.equal(cityChapters.length, 54);
   assert.equal(chapters.length, 44);
   for (const name of ["hamburg", "oslo"]) {
     const c = chapters.find((c) => c.slug === name)!;

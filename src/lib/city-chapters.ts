@@ -16,6 +16,64 @@ export type CityChapter = {
 /** Authored local combinations. These are ideas to adapt, not timed or bookable packages. */
 export const cityChapters: readonly CityChapter[] = [
   {
+    slug: "antwerp",
+    name: "Antwerp",
+    country: "belgium",
+    regions: ["antwerp"],
+    title: "From the departure docks to Antwerp’s round glass",
+    intro:
+      "Begin with one passenger’s story at the Red Star Line docks. After lunch, look closely at the way clothes are built at MoMu, then finish at the city brewery behind the Bolleke.",
+    pace: "Tuesday to Sunday usually works for all three. Start north at Eilandje and work south through the centre towards the brewery. Plan around the last admission.",
+    planning:
+      "Choose a morning entry block for the Red Star Line Museum and allow about 90 minutes before lunch in the centre. Give MoMu 60 to 90 minutes. Its Antwerp Six exhibition runs through 17 January 2027 and is an optional addition. Check current tram routes or walk the final leg. Aim for the brewery by 16:00 for a one-hour tour and check its last available slot.",
+    stops: [
+      {
+        slug: "antwerp-red-star-line-follow-a-passenger",
+        moment: "Morning on the Scheldt",
+        why: "Pick one passenger’s account and see how their journey passed through the rooms by the quay.",
+      },
+      {
+        slug: "look-at-the-shape-before-the-label-in-antwerp",
+        moment: "After lunch on Nationalestraat",
+        why: "Compare two silhouettes at MoMu before looking for the designers’ names.",
+      },
+      {
+        slug: "antwerp-de-koninck-bolleke-brewery",
+        moment: "Late afternoon towards Berchem",
+        why: "Follow a stage of brewing and see why a round glass became a local order. Tasting is optional.",
+      },
+    ],
+  },
+  {
+    slug: "matsuyama",
+    name: "Matsuyama",
+    country: "japan",
+    regions: ["matsuyama"],
+    title: "From a hilltop keep to the bathhouse by little train",
+    intro:
+      "Read the gates on Katsuyama in the morning. After lunch, take the little Botchan through the city to Dōgo and leave time for a bath in the historic wooden Honkan.",
+    pace: "Choose a weekend or Japanese public holiday for the Botchan. Use a regular tram on other days or when the heritage train fills up. Leave the bath time flexible for queues.",
+    planning:
+      "Start at the castle ropeway in the morning. Leave time for lunch in the centre before returning to Ōkaidō. Matsuyama’s nabeyaki udon is served in a small pot. Check Iyotetsu for the 14:12 departure towards Dōgo or the next available train. In Dōgo, check the Honkan queue first. If you have time to wait, follow the shopping arcade back to the station clock or take a break nearby.",
+    stops: [
+      {
+        slug: "matsuyama-castle-follow-the-gates",
+        moment: "Morning above the city",
+        why: "Follow the changing sightlines on the way to Honmaru. Add the tower only if its stairs suit you.",
+      },
+      {
+        slug: "matsuyama-botchan-train-to-dogo",
+        moment: "After lunch from Ōkaidō",
+        why: "Board the Dōgo-bound Botchan if there is space. The regular city tram keeps the same afternoon plan usable.",
+      },
+      {
+        slug: "matsuyama-dogo-onsen-honkan",
+        moment: "Late afternoon in Dōgo",
+        why: "Ask about same-day entry to Kami-no-yu downstairs and allow time for the queue.",
+      },
+    ],
+  },
+  {
     slug: "bath",
     name: "Bath",
     country: "united-kingdom",

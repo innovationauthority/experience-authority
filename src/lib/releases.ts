@@ -34,6 +34,10 @@ export const guideReleases = [
   {
     date: "2026-11-04",
     slugs: [
+      "antwerp-red-star-line-follow-a-passenger",
+      "antwerp-de-koninck-bolleke-brewery",
+      "matsuyama-castle-follow-the-gates",
+      "matsuyama-botchan-train-to-dogo",
       "bath-herschel-garden-uranus",
       "bath-roman-baths-follow-the-spring",
       "tampere-vapriikki-play-finnish-games",

@@ -55,6 +55,63 @@ export type DiscoveryProfile = {
 /** Editorial planning lenses, based on the scope and duration stated in each guide.
  * These are not live session lengths, availability or suitability guarantees. */
 export const discoveryProfiles: Record<string, DiscoveryProfile> = {
+  "antwerp-red-star-line-follow-a-passenger": {
+    modes: ["watch-listen"],
+    time: "short",
+    keywords: [
+      "Antwerp",
+      "Antwerpen",
+      "Red Star Line",
+      "Eilandje",
+      "Scheldt",
+      "migration museum",
+      "port",
+    ],
+  },
+  "antwerp-de-koninck-bolleke-brewery": {
+    modes: ["at-table"],
+    time: "short",
+    keywords: [
+      "Antwerp",
+      "Antwerpen",
+      "De Koninck",
+      "Bolleke",
+      "beer",
+      "brewery",
+      "amber ale",
+      "Berchem",
+    ],
+  },
+  "matsuyama-castle-follow-the-gates": {
+    modes: ["outdoors"],
+    time: "short",
+    keywords: [
+      "Matsuyama",
+      "Ehime",
+      "Shikoku",
+      "castle",
+      "Katsuyama",
+      "Honmaru",
+      "ropeway",
+      "chairlift",
+      "gates",
+    ],
+  },
+  "matsuyama-botchan-train-to-dogo": {
+    modes: ["watch-listen"],
+    time: "short",
+    keywords: [
+      "Matsuyama",
+      "Botchan",
+      "Bocchan Ressha",
+      "Dogo",
+      "Okaido",
+      "Iyotetsu",
+      "train",
+      "tram",
+      "Soseki",
+    ],
+  },
   "bath-herschel-garden-uranus": {
     modes: ["watch-listen"],
     time: "short",

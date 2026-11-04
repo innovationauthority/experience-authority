@@ -964,7 +964,7 @@ const drafts = [
     kernel:
       "Choose a bathing course and take a moment to notice how the entrances and stairs organise the visit before changing and washing.",
     access:
-      "Check the course table. The basic Kami-no-yu downstairs option uses day-of access, while some upstairs rooms use advance reservations. Check queue arrangements and current rules.",
+      "At 5-6 Dōgo Yunomachi, ask about same-day entry to Kami-no-yu downstairs. The regular published hours are 06:00 to 23:00 with ticket sales ending at 22:30. Some upstairs rooms have separate reservation rules. Check the course table, current queue and any cleaning closure before going.",
     duration: "Basic course up to 60 minutes, plus possible wait",
     participation: "Public hot-spring bath",
     responsibility:
@@ -991,6 +991,11 @@ const drafts = [
           title: "Dōgo Onsen visitor procedure",
           url: "https://dogo.jp/en/howto.php",
           note: "Explains ticketing and day-of access arrangements.",
+        },
+        {
+          title: "Dōgo Onsen: access from the tram",
+          url: "https://dogo.jp/en/access.php",
+          note: "Honkan address and access via the Dōgo Onsen tram terminus.",
         },
       ],
     },
