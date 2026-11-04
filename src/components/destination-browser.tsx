@@ -1,52 +1,58 @@
 "use client";
 
-import { Children, useState, type ReactNode } from "react";
+import { useSearchParams } from "next/navigation";
+import { useState } from "react";
+import { interestForSlug, matchesInterest, type Field } from "@/lib/catalog";
 import {
-  browseInterests as interests,
-  interestForSlug,
-  matchesInterest,
-  type Field,
-} from "@/lib/catalog";
-import {
-  finderUrl,
   discoveryProfiles,
   timeFits,
   participationModes,
 } from "@/lib/experience-finder";
 
-type Item = { slug: string; field: Field };
+import type { CardExperience } from "@/lib/catalog-projections";
+import { ExperienceCardView } from "./experience-card";
 export function DestinationBrowser({
   items,
   categories,
-  country,
-  region,
-  children,
   basePath,
-  initialInterest = "",
 }: {
-  items: Item[];
+  items: CardExperience[];
   categories: { slug: string; name: string; count: number }[];
-  country: string;
-  region?: string;
-  children: ReactNode;
-  basePath?: string;
-  initialInterest?: string;
+  basePath: string;
 }) {
-  const [selected, setSelected] = useState(initialInterest);
-  const [time, setTime] = useState("");
-  const [mode, setMode] = useState("");
-  const cards = Children.toArray(children);
+  const params = useSearchParams();
+  const rawInterest = params.get("interest") ?? "";
+  const selected = categories.some((category) => category.slug === rawInterest)
+    ? rawInterest
+    : "";
+  const rawTime = params.get("time");
+  const time = timeFits.find((fit) => fit.value === rawTime)?.value ?? "";
+  const rawMode = params.get("mode");
+  const mode =
+    participationModes.find((entry) => entry.value === rawMode)?.value ?? "";
+  const [limit, setLimit] = useState(9);
+  function filterHref(interest: string, time: string, mode: string) {
+    const query = new URLSearchParams();
+    if (interest) query.set("interest", interest);
+    if (time) query.set("time", time);
+    if (mode) query.set("mode", mode);
+    return basePath + (query.size ? `?${query}` : "") + "#local-guides";
+  }
+  function changeFilters(interest: string, time: string, mode: string) {
+    setLimit(9);
+    const href = filterHref(interest, time, mode);
+    if (href !== location.pathname + location.search + location.hash)
+      window.history.pushState(null, "", href);
+  }
   const interest = interestForSlug(selected);
-  const visible = items
-    .map((item, index) => ({ item, index }))
-    .filter(({ item }) => {
-      const profile = discoveryProfiles[item.slug];
-      return (
-        (!interest || matchesInterest(item, interest)) &&
-        (!time || profile?.time === time) &&
-        (!mode || profile?.modes.some((value) => value === mode))
-      );
-    });
+  const visible = items.filter((item) => {
+    const profile = discoveryProfiles[item.slug];
+    return (
+      (!interest || matchesInterest(item, interest)) &&
+      (!time || profile?.time === time) &&
+      (!mode || profile?.modes.some((value) => value === mode))
+    );
+  });
   const availableTimes = timeFits.filter((fit) =>
     items.some((item) => discoveryProfiles[item.slug]?.time === fit.value),
   );
@@ -61,45 +67,35 @@ export function DestinationBrowser({
         className="destination-categories"
         aria-label="Experiences here by interest"
       >
-        <a
-          href={
-            basePath
-              ? `${basePath}#local-guides`
-              : finderUrl({ place: country, region })
-          }
-          aria-current={!selected ? "true" : undefined}
-          onClick={(event) => {
-            event.preventDefault();
-            setSelected("");
-          }}
-        >
-          All experiences <span>{items.length}</span>
-        </a>
-        {categories.map((category) => (
+        {[
+          { slug: "", name: "All experiences", count: items.length },
+          ...categories,
+        ].map((category) => (
           <a
             key={category.slug}
-            href={
-              basePath
-                ? `${basePath}?interest=${category.slug}#local-guides`
-                : finderUrl({
-                    place: country,
-                    region,
-                    interest: category.slug,
-                  })
-            }
+            href={filterHref(category.slug, time, mode)}
             aria-current={selected === category.slug ? "true" : undefined}
             onClick={(event) => {
+              if (
+                event.metaKey ||
+                event.ctrlKey ||
+                event.shiftKey ||
+                event.altKey
+              )
+                return;
               event.preventDefault();
-              setSelected(category.slug);
+              changeFilters(category.slug, time, mode);
             }}
           >
-            {category.name}
-            <span>{category.count}</span>
+            {category.name} <span>{category.count}</span>
           </a>
         ))}
       </nav>
       {items.length > 1 && (
-        <details className="destination-refine">
+        <details
+          className="destination-refine"
+          open={time || mode ? true : undefined}
+        >
           <summary>
             Refine by time or participation
             {time || mode ? " · filters active" : ""}
@@ -109,7 +105,9 @@ export function DestinationBrowser({
               Time for an experience
               <select
                 value={time}
-                onChange={(event) => setTime(event.target.value)}
+                onChange={(event) =>
+                  changeFilters(selected, event.target.value, mode)
+                }
               >
                 <option value="">Any amount of time</option>
                 {availableTimes.map((fit) => (
@@ -123,7 +121,9 @@ export function DestinationBrowser({
               How you take part
               <select
                 value={mode}
-                onChange={(event) => setMode(event.target.value)}
+                onChange={(event) =>
+                  changeFilters(selected, time, event.target.value)
+                }
               >
                 <option value="">Open to anything</option>
                 {availableModes.map((fit) => (
@@ -146,9 +146,32 @@ export function DestinationBrowser({
         Save the ones you want to build a day around.
       </p>
       {visible.length ? (
-        <div className="experience-grid">
-          {visible.map(({ index }) => cards[index])}
-        </div>
+        <>
+          <div className="experience-grid">
+            {visible.slice(0, limit).map((item, index) => (
+              <ExperienceCardView
+                key={item.id}
+                item={item}
+                index={index}
+                returnTo={filterHref(selected, time, mode)}
+              />
+            ))}
+          </div>
+          {limit < visible.length && (
+            <div className="progressive-grid-more">
+              <p>
+                Showing {limit} of {visible.length}
+              </p>
+              <button
+                className="button button-outline"
+                type="button"
+                onClick={() => setLimit(limit + 9)}
+              >
+                Show more experiences
+              </button>
+            </div>
+          )}
+        </>
       ) : (
         <div className="finder-empty">
           <h3>No published guide here fits all three choices yet.</h3>
@@ -159,11 +182,7 @@ export function DestinationBrowser({
           <button
             className="button button-outline"
             type="button"
-            onClick={() => {
-              setSelected("");
-              setTime("");
-              setMode("");
-            }}
+            onClick={() => changeFilters("", "", "")}
           >
             Show all experiences here
           </button>

@@ -1979,6 +1979,7 @@ h3,
 
 .home-destination-cta {
   display: inline-flex;
+  min-height: 24px;
   align-items: center;
   gap: 8px;
   font-size: 13px;

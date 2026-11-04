@@ -298,7 +298,8 @@ export function TripPlanner({
                           onChange={(event) =>
                             setChoices((previous) => {
                               const next = { ...previous };
-                              if (event.target.checked) next[item.id] = "";
+                              if (event.target.checked)
+                                next[item.id] = String(Math.min(60, activeDay));
                               else delete next[item.id];
                               return next;
                             })
@@ -332,18 +333,16 @@ export function TripPlanner({
                 );
               })}
             </div>
-            <div className="trip-proposal-actions">
-              <button
-                type="submit"
-                className="button button-dark"
-                disabled={!Object.keys(choices).length}
-              >
-                Add selected experiences to my plan
-              </button>
-              <a className="text-link" href="#your-plan-stops">
-                Go to my plan ↓
-              </a>
-            </div>
+            {Object.keys(choices).length > 0 && (
+              <div className="trip-proposal-actions">
+                <button type="submit" className="button button-dark">
+                  Add selected experiences to my plan
+                </button>
+                <a className="text-link" href="#your-plan-stops">
+                  Go to my plan ↓
+                </a>
+              </div>
+            )}
             {proposalMessage && <p role="status">{proposalMessage}</p>}
           </form>
         </details>

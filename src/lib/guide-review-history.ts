@@ -1,6 +1,33 @@
 import type { GuideReview } from "./catalog";
 /** Prior source reviews retained for historical eligibility checks, never a fallback for expired current evidence. */
 export const guideReviewHistory: Record<string, GuideReview[]> = {
+  "give-amsterdam-a-seat-beside-the-jazz-stage": [
+    {
+      "basis": "public_sources",
+      "scope": "public_programme",
+      "requiresSpecialPermission": false,
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2026-11-04",
+      "accessUrl": "https://www.bimhuis.nl/en/calendar",
+      "sources": [
+        {
+          "title": "BIMHUIS: live calendar",
+          "url": "https://www.bimhuis.nl/en/calendar",
+          "note": "Current October and November 2026 concerts, individual ticket routes and the separate café jam."
+        },
+        {
+          "title": "BIMHUIS: frequently asked questions",
+          "url": "https://www.bimhuis.nl/en/plan-your-visit/faq/",
+          "note": "Cashless payments, event ticketing and café access, with event-specific checks still needed."
+        },
+        {
+          "title": "BIMHUIS: accessibility",
+          "url": "https://www.bimhuis.nl/en/plan-your-visit/accessibility/",
+          "note": "Official route, seating and assistance arrangements rather than assumed universal access."
+        }
+      ]
+    }
+  ],
   "give-lunch-half-an-hour-of-listening": [
   {
     "basis": "public_sources",

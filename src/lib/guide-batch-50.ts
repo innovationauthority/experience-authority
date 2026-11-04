@@ -5,11 +5,12 @@ const review = (
   scope: GuideReview["scope"],
   sources: GuideReview["sources"],
   reviewBy = "2026-12-21",
+  checkedOn = "2026-10-21",
 ): GuideReview => ({
   basis: "public_sources",
   scope,
   requiresSpecialPermission: false,
-  checkedOn: "2026-10-21",
+  checkedOn,
   reviewBy,
   accessUrl: sources[0].url,
   sources,
@@ -844,7 +845,7 @@ export const guideBatch50: PublicExperience[] = [
     humanReturn:
       "Take one musician or musical question into the next thing you choose to hear.",
     responsibility:
-      "Buy the actual concert, not a generic evening voucher or a ticket for another event at the neighbouring Muziekgebouw. The current calendar includes Joel Ross on 28 October, the Bill Stewart Trio on 30 October and Chico Pinheiro on 31 October 2026. Availability can change. Check start time, seating or standing format, age suitability, access and cancellation terms on the selected event. The free Tuesday café jam is a separate format. The venue is cashless. Café access and dinner arrangements have their own conditions, and no meal is included here. Arrange mobility seating or companion needs with the venue before arrival. Keep phones and conversation from becoming part of the performance.",
+      "Buy the actual concert, not a generic evening voucher or a ticket for another event at the neighbouring Muziekgebouw. The calendar lists each concert with its own time, ticket options and venue. Availability can change. Check start time, seating or standing format, age suitability, access and cancellation terms on the selected event. Free events in the calendar have their own entry conditions. The venue is cashless. Café access and dinner arrangements have their own conditions, and no meal is included here. Arrange mobility seating or companion needs with the venue before arrival. Keep phones and conversation from becoming part of the performance.",
     evidence:
       "The live BIMHUIS calendar establishes current dated concerts. Its FAQ and access pages distinguish ticketing, café use, cashless payments and access arrangements. EA has not attended, heard these sets or assessed a particular ticket's view and acoustics. The guide does not guarantee any future lineup.",
     duration:
@@ -852,7 +853,7 @@ export const guideBatch50: PublicExperience[] = [
     participation:
       "Ticketed live listening, with the event's seating or standing format",
     access:
-      "Choose a dated concert in the official BIMHUIS calendar for Piet Heinkade 3 and read that event's ticket conditions. Concert admission, the café jam, dinner and other Muziekgebouw events are separate. No EA booking or bundled evening is implied.",
+      "Choose a dated concert in the official BIMHUIS calendar for Piet Heinkade 3 and read that event's ticket conditions. Concert admission, free events, dinner and other Muziekgebouw events have separate conditions. No EA booking or bundled evening is implied.",
     ...common,
     ...guideImage("amsterdam-bimhuis-concert"),
     guideReview: review(
@@ -861,20 +862,21 @@ export const guideBatch50: PublicExperience[] = [
         {
           title: "BIMHUIS: live calendar",
           url: "https://www.bimhuis.nl/en/calendar",
-          note: "Current October and November 2026 concerts, individual ticket routes and the separate café jam.",
+          note: "Live concert listings with dates, start times and event-specific ticket links.",
         },
         {
           title: "BIMHUIS: frequently asked questions",
-          url: "https://www.bimhuis.nl/en/plan-your-visit/faq/",
+          url: "https://www.bimhuis.nl/en/plan-your-visit/faq",
           note: "Cashless payments, event ticketing and café access, with event-specific checks still needed.",
         },
         {
           title: "BIMHUIS: accessibility",
-          url: "https://www.bimhuis.nl/en/plan-your-visit/accessibility/",
+          url: "https://www.bimhuis.nl/en/visiting-the-bimhuis/accessibility",
           note: "Official route, seating and assistance arrangements rather than assumed universal access.",
         },
       ],
-      "2026-11-04",
+      "2026-12-05",
+      "2026-11-05",
     ),
   },
 ];

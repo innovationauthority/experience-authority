@@ -59,7 +59,10 @@ export function areaKey(
     : undefined;
 }
 
-export function savedAreas(items: DiscoveryChoice[], saved: string[]) {
+export function savedAreas(
+  items: Pick<DiscoveryChoice, "id" | "countrySlug" | "regionSlug">[],
+  saved: string[],
+) {
   return new Set(
     items
       .filter((item) => saved.includes(item.id))

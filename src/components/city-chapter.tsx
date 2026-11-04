@@ -10,9 +10,11 @@ import { ShareButton } from "./share-button";
 export function CityChapterSection({
   chapter,
   excludePhotoSlug,
+  showPhotos = true,
 }: {
   chapter: ReturnType<typeof resolveCityChapters>[number];
   excludePhotoSlug?: string;
+  showPhotos?: boolean;
 }) {
   return (
     <section
@@ -29,7 +31,8 @@ export function CityChapterSection({
       <ol className="chapter-stops">
         {chapter.stops.map(({ item, moment, why }, index) => {
           const media = guideMediaFor(item.id);
-          const showPhoto = media && item.slug !== excludePhotoSlug;
+          const showPhoto =
+            showPhotos && media && item.slug !== excludePhotoSlug;
           return (
             <li key={item.id}>
               {showPhoto && (

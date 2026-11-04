@@ -1,6 +1,6 @@
 "use client";
 
-import { Children, useState, type ReactNode } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import {
   browseInterests as interests,
@@ -14,24 +14,26 @@ import {
   type DiscoveryChoice,
 } from "@/lib/discovery-choices";
 import { usePassport } from "./passport-provider";
+import type { CardExperience } from "@/lib/catalog-projections";
+import { ExperienceCardView } from "./experience-card";
 import { ProgressiveGrid } from "./progressive-grid";
 
-type ReleaseItem = DiscoveryChoice & {
-  date: string;
-  dateLabel: string;
-  country: string;
-};
+type ReleaseItem = CardExperience & { date: string };
+const releaseDate = new Intl.DateTimeFormat("en-GB", {
+  day: "numeric",
+  month: "long",
+  year: "numeric",
+  timeZone: "UTC",
+});
 
 export function NewGuideBrowser({
   items,
   allPlaces,
   today,
-  children,
 }: {
   items: ReleaseItem[];
-  allPlaces: DiscoveryChoice[];
+  allPlaces: Pick<DiscoveryChoice, "id" | "countrySlug" | "regionSlug">[];
   today: string;
-  children: ReactNode;
 }) {
   const { data, ready } = usePassport();
   const [editionCount, setEditionCount] = useState(1);
@@ -39,7 +41,6 @@ export function NewGuideBrowser({
   const [interest, setInterest] = useState("");
   const [country, setCountry] = useState("");
   const [personal, setPersonal] = useState(false);
-  const cards = Children.toArray(children);
   const saved = Object.keys(data.saved);
   const areas = savedAreas(allPlaces, saved);
   const weekCount = items.filter((item) =>
@@ -52,17 +53,15 @@ export function NewGuideBrowser({
       !saved.includes(item.id),
   );
   const selectedInterest = interestForSlug(interest);
-  const visible = items
-    .map((item, index) => ({ item, index }))
-    .filter(
-      ({ item }) =>
-        (!period || withinPublicationWeek(item.date, today)) &&
-        (!selectedInterest || matchesInterest(item, selectedInterest)) &&
-        (!country || item.countrySlug === country) &&
-        (!personal ||
-          (areas.has(areaKey(item) || "") && !saved.includes(item.id))),
-    );
-  const dates = [...new Set(visible.map(({ item }) => item.date))];
+  const visible = items.filter(
+    (item) =>
+      (!period || withinPublicationWeek(item.date, today)) &&
+      (!selectedInterest || matchesInterest(item, selectedInterest)) &&
+      (!country || item.countrySlug === country) &&
+      (!personal ||
+        (areas.has(areaKey(item) || "") && !saved.includes(item.id))),
+  );
+  const dates = [...new Set(visible.map((item) => item.date))];
   const countries = [
     ...new Map(items.map((item) => [item.countrySlug, item.country])).entries(),
   ].sort((a, b) => a[1].localeCompare(b[1]));
@@ -191,7 +190,8 @@ export function NewGuideBrowser({
         </div>
       )}
       {dates.slice(0, editionCount).map((date) => {
-        const group = visible.filter(({ item }) => item.date === date);
+        const group = visible.filter((item) => item.date === date);
+        const label = releaseDate.format(new Date(date));
         return (
           <section className="release-section" key={date}>
             <div className="section-heading">
@@ -203,16 +203,18 @@ export function NewGuideBrowser({
                     : " published"}
                 </p>
                 <h2>
-                  <time dateTime={date}>{group[0].item.dateLabel}</time>
+                  <time dateTime={date}>{label}</time>
                 </h2>
               </div>
             </div>
             <ProgressiveGrid
               key={`${date}:${period}:${interest}:${country}:${personal}`}
-              heading={`Guides published ${group[0].item.dateLabel}`}
+              heading={`Guides published ${label}`}
               surface={`new-guides-${date}`}
             >
-              {group.map(({ index }) => cards[index])}
+              {group.map((item) => (
+                <ExperienceCardView key={item.id} item={item} />
+              ))}
             </ProgressiveGrid>
           </section>
         );

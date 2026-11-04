@@ -208,7 +208,9 @@ export function curateHome(
   // Starting points currently render as text-only destination prompts. Do not
   // reserve their photographs from sections that actually display an image.
   const recent = recentGuideReleases(items, today).filter(
-    (item) => !usedImages.has(item.image || item.id),
+    (item) =>
+      item.slug !== "tampere-kauppahalli-warm-mustamakkara" &&
+      !usedImages.has(item.image || item.id),
   );
   const newGuides: PublicExperience[] = [];
   const countries = new Set<string>();

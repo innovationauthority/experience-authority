@@ -7,17 +7,23 @@ import { ExperienceActions } from "./passport-provider";
 export function ExperienceCardView({
   item,
   index = 0,
+  returnTo,
 }: {
   item: CardExperience;
   index?: number;
+  returnTo?: string;
 }) {
   const { media, planning } = item;
+  const href =
+    `/experiences/${item.slug}` +
+    (returnTo ? `?from=${encodeURIComponent(returnTo)}` : "");
+
   return (
     <article className="experience-card">
       <div className={`card-image ${!item.image ? "card-no-image" : ""}`}>
         <Link
           className="card-photo-link"
-          href={`/experiences/${item.slug}`}
+          href={href}
           aria-label={`Explore ${item.title}`}
         >
           {item.image ? (
@@ -57,7 +63,7 @@ export function ExperienceCardView({
           </span>
         </div>
         <h3>
-          <Link href={`/experiences/${item.slug}`}>
+          <Link href={href}>
             {item.title}
             <ArrowUpRight size={21} aria-hidden="true" />
           </Link>

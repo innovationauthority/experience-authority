@@ -755,6 +755,8 @@ button {
   display: inline-flex;
   align-items: center;
   gap: 4px;
+  min-height: 24px;
+  min-width: 24px;
   font-size: 9px;
   letter-spacing: 0.2px;
   color: white;

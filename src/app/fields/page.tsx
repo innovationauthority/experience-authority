@@ -12,7 +12,7 @@ export const metadata = pageMetadata(
 export default function Fields() {
   const items = getExperiences();
   const covers: Record<string, string> = {
-    "eat-drink": "a-bowl-of-attention",
+    "eat-drink": "a-morning-at-the-hawker-table",
     "make-learn": "lift-a-pattern-from-the-water",
     "move-water": "venice-through-an-oar",
     "art-culture": "follow-a-museum-guide-beyond-cape-towns-silo-atrium",

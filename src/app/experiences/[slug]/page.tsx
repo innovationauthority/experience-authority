@@ -30,7 +30,10 @@ import {
   canonicalUrl,
   guideStructuredData,
 } from "@/lib/seo";
-type Props = { params: Promise<{ slug: string }> };
+type Props = {
+  params: Promise<{ slug: string }>;
+  searchParams: Promise<{ from?: string | string[] }>;
+};
 export async function generateMetadata({ params }: Props) {
   const item = getExperience((await params).slug);
   if (!item) notFound();
@@ -58,10 +61,21 @@ export async function generateMetadata({ params }: Props) {
     },
   };
 }
-export default async function Experience({ params }: Props) {
+export default async function Experience({ params, searchParams }: Props) {
   const item = getExperience((await params).slug);
   if (!item) notFound();
+  const { from } = await searchParams;
+  const returnTo =
+    typeof from === "string" &&
+    /^\/places\/[a-z0-9-]+(?:\/[a-z0-9-]+)?(?:\?[a-z0-9&=-]+)?#local-guides$/.test(
+      from,
+    )
+      ? from
+      : undefined;
   const media = guideMediaFor(item.id);
+  const interest = browseInterests.find((entry) =>
+    matchesInterest(item, entry),
+  );
   const connections = connectedExperiences(item, getExperiences());
   const chapter = resolveCityChapters(getExperiences()).find((chapter) =>
     chapter.stops.some((stop) => stop.slug === item.slug),
@@ -76,7 +90,9 @@ export default async function Experience({ params }: Props) {
       {structuredData && <StructuredData data={structuredData} />}
       <div className="detail-toolbar wrap">
         <nav aria-label="Breadcrumb">
-          <Link href="/explore">← Back to Compass</Link>
+          <Link href={returnTo || "/explore"}>
+            {returnTo ? "← Back to destination" : "← Back to Compass"}
+          </Link>
         </nav>
         <div className="detail-toolbar-actions">
           <ShareButton
@@ -112,17 +128,18 @@ export default async function Experience({ params }: Props) {
               </span>
             </div>
           )}
+          {item.slug === "a-bowl-of-attention" && (
+            <figcaption className="context-photo-label">
+              Tea preparation · context photograph
+            </figcaption>
+          )}
           {media && <PhotoViewer media={media} />}
           {media && <ImageCredit media={media} />}
         </figure>
         <header className="prototype-detail-copy">
           <div className="prototype-detail-kicker">
-            <Link
-              href={`/explore?interest=${browseInterests.find((interest) => matchesInterest(item, interest))?.slug || ""}`}
-            >
-              {browseInterests.find((interest) =>
-                matchesInterest(item, interest),
-              )?.name || item.field}
+            <Link href={`/explore?interest=${interest?.slug || ""}`}>
+              {interest?.name || item.field}
             </Link>
             <span aria-hidden="true">/</span>
             <span>{item.countrySlug ? item.country : "Protected story"}</span>
@@ -217,10 +234,6 @@ export default async function Experience({ params }: Props) {
               <p>{item.participation}</p>
             </div>
             <div>
-              <span>Room in your day</span>
-              <p>{item.duration}</p>
-            </div>
-            <div>
               <span>Before you commit</span>
               <p>{item.access}</p>
             </div>
@@ -244,24 +257,20 @@ export default async function Experience({ params }: Props) {
               <h2>What makes it belong here.</h2>
               <p>{item.rootedness}</p>
             </section>
-            <section className="story-section shift-section">
-              <p className="eyebrow">03 / The shift</p>
+            <details className="story-section">
+              <summary>What might stay with you</summary>
               <p>{item.shift}</p>
-            </section>
-            <section className="story-section">
-              <p className="eyebrow">04 / What you might take with you</p>
-              <h2>What might stay with you.</h2>
               <p>{item.humanReturn}</p>
-            </section>
+            </details>
             <section className="story-section">
               <p className="eyebrow" id="before-you-go">
-                05 / Responsible presence
+                03 / Responsible presence
               </p>
               <h2>Before you go.</h2>
               <p>{item.responsibility}</p>
             </section>
             <section className="story-section">
-              <p className="eyebrow">06 / Evidence boundary</p>
+              <p className="eyebrow">04 / Evidence boundary</p>
               <h2>What we know. What we don’t.</h2>
               <p>{item.evidence}</p>
               {item.demo && (
@@ -332,11 +341,15 @@ export default async function Experience({ params }: Props) {
           <aside className="fact-panel">
             <h2>At a glance.</h2>
             <dl>
-              <dt>Field</dt>
+              <dt>Interest</dt>
               <dd>
-                <Link href={`/fields/${item.field}`}>
-                  {item.field.charAt(0).toUpperCase() + item.field.slice(1)}
-                </Link>
+                {interest ? (
+                  <Link href={`/explore?interest=${interest.slug}`}>
+                    {interest.name}
+                  </Link>
+                ) : (
+                  item.field
+                )}
               </dd>
               <dt>Place</dt>
               <dd>

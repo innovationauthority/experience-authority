@@ -1,4 +1,5 @@
 "use client";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePassport } from "./passport-provider";
 import { EmptyState, StatusBadge } from "./editorial-ui";
@@ -12,14 +13,34 @@ const names: Record<PassportStage, string> = {
   experienced: "Experienced",
   "return-to": "Return to",
 };
-export function PassportView({
-  items,
-  view,
-}: {
-  items: PassportExperience[];
-  view: string;
-}) {
+export function PassportView({ view }: { view: string }) {
   const { data, ready, message, setStage, toggleCompare } = usePassport();
+  const needsCatalogue =
+    ready &&
+    (view === "plan" ||
+      Object.keys(data.saved).length > 0 ||
+      data.compare.length > 0);
+  const [catalogue, setCatalogue] = useState<PassportExperience[]>();
+  const [failed, setFailed] = useState(false);
+  const [attempt, setAttempt] = useState(0);
+  useEffect(() => {
+    if (!needsCatalogue || catalogue) return;
+    const controller = new AbortController();
+    // Every reader fetches the same public data. Saved IDs stay in the browser.
+    fetch("/api/passport-catalogue", { signal: controller.signal })
+      .then((response) => {
+        if (!response.ok) throw new Error("Passport catalogue unavailable");
+        return response.json() as Promise<PassportExperience[]>;
+      })
+      .then((items) => {
+        if (!controller.signal.aborted) setCatalogue(items);
+      })
+      .catch(() => {
+        if (!controller.signal.aborted) setFailed(true);
+      });
+    return () => controller.abort();
+  }, [needsCatalogue, catalogue, attempt]);
+  const items = catalogue ?? [];
   const saved = items.filter(
     (item) =>
       data.saved[item.id] && (view === "all" || data.saved[item.id] === view),
@@ -56,7 +77,21 @@ export function PassportView({
           </Link>
         ))}
       </nav>
-      {!ready ? (
+      {needsCatalogue && !catalogue && failed ? (
+        <EmptyState title="Your guides could not be loaded.">
+          <p>Your saved experiences are still in this browser.</p>
+          <button
+            className="button button-outline"
+            type="button"
+            onClick={() => {
+              setFailed(false);
+              setAttempt(attempt + 1);
+            }}
+          >
+            Try again
+          </button>
+        </EmptyState>
+      ) : !ready || (needsCatalogue && !catalogue) ? (
         <p role="status">Opening your local Passport…</p>
       ) : view === "plan" ? (
         <TripPlanner items={items} />

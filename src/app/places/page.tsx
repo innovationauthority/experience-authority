@@ -22,7 +22,11 @@ export default function Places() {
     const chapter = resolveCityChapters(items).find(
       (entry) => entry.slug === slug,
     );
-    const lead = chapter?.stops[0]?.item;
+    const lead =
+      (slug === "kyoto" &&
+        chapter?.stops.find((stop) => stop.slug === "build-a-pattern-in-colour")
+          ?.item) ||
+      chapter?.stops[0]?.item;
     const media = lead && guideMediaFor(lead.id);
     return chapter && media ? [{ chapter, media }] : [];
   });
@@ -52,7 +56,7 @@ export default function Places() {
     familiarFirst.map((name, index) => [name, index]),
   );
   const preferredLeadSlugs: Record<string, string> = {
-    japan: "a-bowl-of-attention",
+    japan: "play-a-familiar-game-with-a-giant-controller-in-uji",
     italy: "venice-through-an-oar",
     portugal: "taste-what-time-does-to-port",
     spain: "the-pour-before-the-glass",
@@ -91,41 +95,45 @@ export default function Places() {
           in, not a claim to cover an entire country.
         </p>
       </PageIntro>
-      {cities.length > 0 && (
-        <section
-          className="place-city-starts"
-          aria-labelledby="city-starts-title"
-        >
-          <p className="eyebrow">Begin with a city</p>
-          <h2 id="city-starts-title">Enough to shape a stay.</h2>
-          <div className="place-city-grid">
-            {cities.map(({ chapter, media }) => (
-              <article key={chapter.slug}>
-                <div className="place-city-photo">
-                  <Link
-                    href={chapterHref(chapter).split("#")[0]}
-                    aria-label={`Explore ${chapter.name}`}
-                  >
-                    <Photo
-                      src={media.src}
-                      alt=""
-                      sizes="(max-width: 700px) 100vw, 25vw"
-                    />
-                  </Link>
-                  <ImageCredit media={media} />
-                </div>
-                <h3>
-                  <Link href={chapterHref(chapter).split("#")[0]}>
-                    {chapter.name} ↗
-                  </Link>
-                </h3>
-                <p>{chapterDestinationCount(chapter, items)} experiences</p>
-              </article>
-            ))}
-          </div>
-        </section>
-      )}
-      <PlaceDirectory places={territories}>
+      <PlaceDirectory
+        places={territories}
+        featured={
+          cities.length > 0 && (
+            <section
+              className="place-city-starts"
+              aria-labelledby="city-starts-title"
+            >
+              <p className="eyebrow">Begin with a city</p>
+              <h2 id="city-starts-title">Enough to shape a stay.</h2>
+              <div className="place-city-grid">
+                {cities.map(({ chapter, media }) => (
+                  <article key={chapter.slug}>
+                    <div className="place-city-photo">
+                      <Link
+                        href={chapterHref(chapter).split("#")[0]}
+                        aria-label={`Explore ${chapter.name}`}
+                      >
+                        <Photo
+                          src={media.src}
+                          alt=""
+                          sizes="(max-width: 700px) 100vw, 25vw"
+                        />
+                      </Link>
+                      <ImageCredit media={media} />
+                    </div>
+                    <h3>
+                      <Link href={chapterHref(chapter).split("#")[0]}>
+                        {chapter.name} ↗
+                      </Link>
+                    </h3>
+                    <p>{chapterDestinationCount(chapter, items)} experiences</p>
+                  </article>
+                ))}
+              </div>
+            </section>
+          )
+        }
+      >
         {territories.map((t) => {
           const guides = items.filter((item) => item.countrySlug === t.slug);
           const lead =
@@ -188,7 +196,9 @@ export default function Places() {
             .sort((a, b) => a.name.localeCompare(b.name, "en"))
             .map(({ slug, name }) => (
               <li key={slug}>
-                <Link href={`/places/${slug}`} prefetch={false}>{name}</Link>
+                <Link href={`/places/${slug}`} prefetch={false}>
+                  {name}
+                </Link>
               </li>
             ))}
         </ul>

@@ -145,7 +145,7 @@ export const bathTampereGuides = [
     title: "Play across eras at Tampere’s Finnish Museum of Games",
     summary:
       "Choose two games from different decades and spend a few minutes with each. The move from one set of controls to the next makes the history tangible.",
-    field: "learn",
+    field: "play",
     place: "Tampere, Vapriikki",
     kernel:
       "Pick a playable title from one of the earlier rooms and try to work out its controls before looking for help. Then try a later title, or compare the first game with one of the tabletop examples. Look for where each game teaches you its rules. If a station has a queue, choose another and give someone else a turn when you are done.",

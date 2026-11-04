@@ -7,6 +7,7 @@ import { normalizeSearch } from "@/lib/catalog";
 import { finderUrl } from "@/lib/experience-finder";
 export function PlaceDirectory({
   places,
+  featured,
   children,
 }: {
   places: {
@@ -15,6 +16,7 @@ export function PlaceDirectory({
     regions: { slug: string; name: string }[];
   }[];
   children: ReactNode;
+  featured?: ReactNode;
 }) {
   const [visibleCount, setVisibleCount] = useState(12);
   const [query, setQuery] = useState("");
@@ -47,6 +49,7 @@ export function PlaceDirectory({
           placeholder="Search a city, area or country"
         />
       </div>
+      {!terms.length && featured}
       <p className="section-note" aria-live="polite">
         {matches.length}{" "}
         {matches.length === 1

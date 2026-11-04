@@ -2,6 +2,11 @@ import type { PublicExperience } from "./catalog";
 import type { EditorialPathway } from "./editorial-pathways";
 
 const coverChoices: Record<string, readonly string[]> = {
+  "a-place-still-being-invented": [
+    "linz-ars-deep-space",
+    "singapore-artscience-future-world-drawing",
+    "bilbao-guggenheim-matter-of-time",
+  ],
   "timed-by-place": [
     "the-tide-brings-the-horses",
     "when-the-sky-moves-as-one",

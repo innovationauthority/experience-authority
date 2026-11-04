@@ -22,12 +22,11 @@ import { DestinationBrowser } from "@/components/destination-browser";
 import { cityChapters, resolveCityChapters } from "@/lib/city-chapters";
 import { CityChapterSection } from "@/components/city-chapter";
 import { ChapterPreview } from "@/components/chapter-preview";
-import { chapterStartingPoints } from "@/lib/chapter-starting-points";
 import { guideMediaFor } from "@/lib/media";
+import { toCardExperience } from "@/lib/catalog-projections";
 import { orderExperienceDirectory } from "@/lib/home-curation";
 type Props = {
   params: Promise<{ segments: string[] }>;
-  searchParams: Promise<{ interest?: string | string[] }>;
 };
 export async function generateMetadata({ params }: Props) {
   const segments = (await params).segments;
@@ -62,10 +61,9 @@ export async function generateMetadata({ params }: Props) {
     ),
   );
 }
-export default async function Place({ params, searchParams }: Props) {
+export default async function Place({ params }: Props) {
   const segments = (await params).segments;
   const [country, region] = segments;
-  const { interest: requestedInterest } = await searchParams;
   const place = getTerritories().find((t) => t.slug === country);
   const selectedRegion = place?.regions.find((entry) => entry.slug === region);
   const area = cityChapters.find(
@@ -98,19 +96,14 @@ export default async function Place({ params, searchParams }: Props) {
           (edit.regions.includes(region) || edit.chapter === area?.slug),
       )
     : [];
-  const starterImages = new Set(
-    openingChapter
-      ? chapterStartingPoints(openingChapter).map((choice) => choice.item.image)
-      : [],
-  );
-  const openingItem =
-    localEdits[0]?.stops[0]?.item ||
-    openingChapter?.stops.find(
-      (stop) => stop.item.image && !starterImages.has(stop.item.image),
-    )?.item ||
-    openingChapter?.stops[0]?.item ||
-    items[0];
-  const openingMedia = region && openingItem && guideMediaFor(openingItem.id);
+  const openingItem = items[0];
+  const openingMedia =
+    region &&
+    !openingChapter &&
+    !localEdits.length &&
+    items.length > 1 &&
+    openingItem &&
+    guideMediaFor(openingItem.id);
   return (
     <div className="wrap page-section destination-page">
       <StructuredData
@@ -223,23 +216,10 @@ export default async function Place({ params, searchParams }: Props) {
       </div>
       {items.length ? (
         <DestinationBrowser
-          key={`${segments.join("/")}:${typeof requestedInterest === "string" ? requestedInterest : ""}`}
-          items={items.map(({ slug, field }) => ({ slug, field }))}
+          items={items.map(toCardExperience)}
           categories={categories}
-          country={country}
-          region={area ? undefined : region}
           basePath={`/places/${segments.join("/")}`}
-          initialInterest={
-            typeof requestedInterest === "string" &&
-            categories.some((category) => category.slug === requestedInterest)
-              ? requestedInterest
-              : ""
-          }
-        >
-          {items.map((item, index) => (
-            <ExperienceCard key={item.id} item={item} index={index} />
-          ))}
-        </DestinationBrowser>
+        />
       ) : (
         <EmptyState>
           <p>No reviewed guides are published here yet.</p>
@@ -255,7 +235,7 @@ export default async function Place({ params, searchParams }: Props) {
       {chapters.map((chapter) => (
         <details className="destination-chapter-details" key={chapter.slug}>
           <summary>How to combine these experiences: {chapter.name}</summary>
-          <CityChapterSection chapter={chapter} />
+          <CityChapterSection chapter={chapter} showPhotos={false} />
         </details>
       ))}
       {elsewhere.length > 0 && (

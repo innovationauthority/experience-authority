@@ -1,9 +1,9 @@
 import Link from "next/link";
-import { ExperienceCard, PageIntro } from "@/components/editorial";
+import { PageIntro } from "@/components/editorial";
 import { getExperiences } from "@/lib/data";
 import { publishedReleases } from "@/lib/releases";
-import { editionDate } from "@/lib/daily-discovery";
 import { pageMetadata } from "@/lib/seo";
+import { toCardExperience } from "@/lib/catalog-projections";
 import { NewGuideBrowser } from "@/components/new-guide-browser";
 
 const spotlightOrder = [
@@ -51,37 +51,16 @@ export default function NewGuides() {
       </PageIntro>
       <NewGuideBrowser
         today={today}
-        allPlaces={experiences.map(
-          ({ id, slug, title, field, countrySlug, regionSlug }) => ({
-            id,
-            slug,
-            title,
-            field,
-            countrySlug,
-            regionSlug,
-          }),
-        )}
-        items={entries.map(
-          ({
-            item: { id, slug, title, field, countrySlug, regionSlug, country },
-            date,
-          }) => ({
-            id,
-            slug,
-            title,
-            field,
-            countrySlug,
-            regionSlug,
-            country,
-            date,
-            dateLabel: editionDate(date),
-          }),
-        )}
-      >
-        {entries.map(({ item }) => (
-          <ExperienceCard item={item} key={item.id} />
-        ))}
-      </NewGuideBrowser>
+        allPlaces={experiences.map(({ id, countrySlug, regionSlug }) => ({
+          id,
+          countrySlug,
+          regionSlug,
+        }))}
+        items={entries.map(({ item, date }) => ({
+          ...toCardExperience(item),
+          date,
+        }))}
+      />
       <p className="section-note">
         This release log starts with the 12 September 2026 edition. Earlier
         guides remain in Compass. A source check is not counted as a new

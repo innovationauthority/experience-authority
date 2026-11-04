@@ -202,7 +202,11 @@ test("critical visitor-role, date, venue and access boundaries are not lost in i
   assert.ok(
     !canPublishGuide(byId("dublin-ifi-archive-lunchtime"), "2026-10-28"),
   );
-  assert.ok(!canPublishGuide(byId("amsterdam-bimhuis-concert"), "2026-11-05"));
+  const bimhuis = byId("amsterdam-bimhuis-concert");
+  assert.equal(firstVerifiedOn(bimhuis), "2026-10-21");
+  assert.ok(canPublishGuide(bimhuis, "2026-11-04"));
+  assert.ok(canPublishGuide(bimhuis, "2026-11-05"));
+  assert.ok(!canPublishGuide(bimhuis, "2026-12-06"));
 });
 
 test("Prague and Montréal become useful complete local chapters without reopening expired guides", () => {
