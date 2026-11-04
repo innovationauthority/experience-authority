@@ -87,29 +87,29 @@ export const guideBatch12: PublicExperience[] = [
     participation:
       "Public attendance in streets and at events explicitly open to visitors",
     access:
-      "Public calendar events subject to local changes, crowd controls and church rules. No special access is implied. EA does not organise attendance.",
+      "Start with the Archdiocese’s dated calendar and check the parish’s public programme. It lists Ta’ Xbiex on 15 November and Cospicua on 8 December. Confirm which events visitors may attend.",
     guideReview: {
       basis: "public_sources",
       scope: "public_programme",
       requiresSpecialPermission: false,
-      checkedOn: "2026-09-12",
-      reviewBy: "2026-10-04",
-      accessUrl: "https://www.visitmalta.com/en/events-in-malta-and-gozo/",
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-12-08",
+      accessUrl: "https://church.mt/feasts-in-malta-and-gozo-in-2026/",
       sources: [
         {
           title: "Visit Malta: events in Malta and Gozo",
           url: "https://www.visitmalta.com/en/events-in-malta-and-gozo/",
-          note: "Official destination calendar with current public village-feast listings. Each event page and local programme should be rechecked before travel.",
+          note: "Destination calendar for public visitor events.",
         },
         {
           title: "Archdiocese of Malta: feasts in Malta and Gozo in 2026",
           url: "https://church.mt/feasts-in-malta-and-gozo-in-2026/",
-          note: "Current dated parish feast calendar for Malta and Gozo, useful for selecting one place and confirming the religious context.",
+          note: "The official parish calendar lists St John of the Cross in Ta’ Xbiex on 15 November and the Immaculate Conception in Cospicua on 8 December.",
         },
         {
           title: "UNESCO: Maltese village festa",
           url: "https://ich.unesco.org/en/RL/maltese-village-festa-an-annual-community-celebration-01871",
-          note: "Cultural context for the annual community practice, preparation, procession, bands, fireworks and food. It is not a live access calendar.",
+          note: "UNESCO explains the festa as a parish-based community practice.",
         },
       ],
     },

@@ -88,10 +88,13 @@ test("today's practical boundaries survive the catalogue integration", () => {
     /three to four weeks/,
   );
   assert.match(byId("tokyo-sokichi-kiriko").responsibility, /cash payment/);
-  assert.match(byId("sydney-manly-adult-surf").evidence, /phone or email/);
+  assert.match(
+    byId("sydney-manly-adult-surf").access,
+    /Manly in its online booking system/,
+  );
   assert.equal(
     byId("sydney-manly-adult-surf").guideReview?.reviewBy,
-    "2026-10-08",
+    "2026-12-04",
   );
   assert.match(
     byId("buenos-aires-south-circuit").responsibility,
@@ -104,7 +107,10 @@ test("today's practical boundaries survive the catalogue integration", () => {
     /head above water/,
   );
   assert.match(byId("bangkok-sala-chalermkrung").evidence, /mixed performance/);
-  assert.match(byId("new-orleans-preservation-hall").access, /730 Saint Peter/);
+  assert.match(
+    byId("new-orleans-preservation-hall").access,
+    /entrance is 726 Saint Peter Street.*café is at number 730/,
+  );
   assert.match(byId("seoul-saturday-gugak").responsibility, /ages eight/);
   assert.equal(
     guideMediaFor("taipei-ri-xing-type")?.rightsBasis,

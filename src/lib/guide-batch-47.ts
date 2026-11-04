@@ -780,7 +780,7 @@ export const guideBatch47: PublicExperience[] = [
     humanReturn:
       "An unfamiliar hand signal may remain more vivid than a set list.",
     responsibility:
-      "The Buenos Aires event is for adults eighteen and over. Check the chosen date's door and performance times rather than treating the website's headline time as both. The current calendar lists 26 October after the already-past 19 October date. Space and weather arrangements vary between the patio and Sala de las Columnas. Expect amplified sound and a standing crowd, and confirm access or quieter-position needs in advance. Read bag, food and drink rules. No particular guest, audience interaction or guaranteed outdoor setting is promised.",
+      "Admission is for adults eighteen and over. Check door and performance times on the selected ticket. The November calendar lists Monday dates through 30 November. Expect amplified sound and a standing crowd. Ask the venue about access needs and check whether the performance uses the patio or Sala de las Columnas.",
     evidence:
       "The ensemble's current calendar confirms a forthcoming Monday performance. Its event page and Konex ticket listing identify the venue, adult admission and weather arrangements. EA has not attended, booked a place or independently assessed sound levels or crowd conditions.",
     duration:
@@ -789,27 +789,31 @@ export const guideBatch47: PublicExperience[] = [
       "Listening and optional audience dancing at a public percussion performance",
     access:
       "Follow the ensemble's official link to Tickets Konex for Lunes Bomba at Sarmiento 3131. A tour date in another city or a different Konex event is not the same product. No EA booking or reserved personal interaction is implied.",
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-11-30",
+      accessUrl: "https://www.labombadetiempo.com/",
+      sources: [
         {
           title: "La Bomba de Tiempo: current dates",
           url: "https://www.labombadetiempo.com/",
-          note: "26 October 2026 Lunes Bomba listed as forthcoming, with adult admission distinguished from overseas dates.",
+          note: "Ensemble calendar lists November Lunes Bomba events at Ciudad Cultural Konex.",
         },
         {
           title: "La Bomba de Tiempo: Lunes Bomba",
           url: "https://www.labombadetiempo.com/lunes-bomba/",
-          note: "Venue, seasonal spaces and public ticket route, not a traditional ceremony or musical training.",
+          note: "Standing format, seasonal room arrangements and the venue address.",
         },
         {
           title: "Tickets Konex: La Bomba de Tiempo",
           url: "https://entradas.cckonex.org/event/la-bomba-de-tiempo-2026",
-          note: "Official event conditions and age restrictions read. Embedded error and anti-abuse messages do not establish a completed booking or remaining seats.",
+          note: "Authorised ticket source for the 2026 Konex performances.",
         },
       ],
-      "2026-11-03",
-    ),
+    },
   },
   {
     id: "porto-casa-musica-concert",

@@ -182,29 +182,33 @@ export const guideBatch41: PublicExperience[] = [
     responsibility:
       "This English-language class is for ages fourteen and over. Glazing and firing follow the lesson, with collection normally three to four weeks later. Confirm any shipping arrangement and extra cost before paying. The dedicated course page retains older dates, so use the current What's On calendar. Ask about mobility and hand-use needs.",
     evidence:
-      "The studio describes a two-and-a-half-hour beginner handbuilding class with up to ten participants. Its current calendar lists autumn 2026 sessions, including 26 and 27 September. Both sources are the studio's own. EA has not attended, assessed the teaching or inspected a finished piece.",
+      "The studio describes a two-and-a-half-hour handbuilding class and lists upcoming sessions, including 5, 12 and 19 December in English. EA has not attended or assessed the teaching.",
     duration:
       "Two and a half hours in the studio, followed by three to four weeks for finishing and firing",
     participation:
       "Shape and decorate clay with instruction. Not a wheel lesson or a same-day finished souvenir",
     access:
       "Reserve a Handbuilding Workshop through the current calendar at Rua Jau 23a, Alcântara. Check collection or shipping before fixing travel dates. No EA partnership.",
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-12-19",
+      accessUrl: "https://www.puraceramica.pt/en/whats-on.html",
+      sources: [
         {
           title: "PURACERÂMICA: current workshop calendar",
           url: "https://www.puraceramica.pt/en/whats-on.html",
-          note: "Live dated handbuilding sessions. Takes precedence over older dates on the course description.",
+          note: "Studio calendar lists specific Handbuilding dates in November and December.",
         },
         {
           title: "PURACERÂMICA: handbuilding",
           url: "https://www.puraceramica.pt/en/handbuilding-workshop.html",
-          note: "Technique, English, age, duration, group size, included firing and collection delay.",
+          note: "The studio describes the beginner handbuilding class, materials and collection.",
         },
       ],
-      "2026-10-24",
-    ),
+    },
   },
   {
     id: "tokyo-sokichi-kiriko",
@@ -336,29 +340,33 @@ export const guideBatch41: PublicExperience[] = [
     responsibility:
       "Ocean activity carries risk. Disclose swimming ability and relevant limitations, choose an appropriate session and follow the instructor. The school excludes under-twelves from adult groups and distinguishes conditions and stronger-swimmer sessions. Do not select a departure solely by convenience. Confirm weather decisions and cancellation terms. No successful ride or safe conditions are guaranteed.",
     evidence:
-      "The provider publishes ninety-minute adult group lessons with board, wetsuit and rash vest. Its current site banner asks customers to book by phone or email during a booking-system change. These are operator statements, not an independent safety audit. EA has not taken the lesson or inspected conditions.",
+      "The school describes ninety-minute adult group lessons with board, wetsuit and rash vest. Its adult lesson page links to online booking and explains how to choose a location and time. EA has not taken the lesson or inspected conditions.",
     duration:
       "Ninety minutes. Ask which current Manly departure suits your experience and the conditions",
     participation:
       "Supervised ocean surfing introduction. Requires comfort in water and a suitability discussion, not a learn-to-swim class",
     access:
-      "Use the official adult lesson page and current phone or email booking instructions. Confirm Manly Beach, not another school location. No EA reservation or partnership.",
-    guideReview: review(
-      "public_programme",
-      [
+      "Use the school’s adult group lesson page and choose Manly in its online booking system. Create a profile to see times, then check the class level and where to meet.",
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-12-04",
+      accessUrl: "https://manlysurfschool.com/lessons/adult-group-lesson/",
+      sources: [
         {
           title: "Manly Surf School: adult group lessons",
           url: "https://manlysurfschool.com/lessons/adult-group-lesson/",
-          note: "Duration, equipment, age boundary, tides and session distinctions.",
+          note: "School’s current adult group lesson page distinguishes beginner sessions and explains online booking.",
         },
         {
           title: "Manly Surf School: current booking notice",
           url: "https://manlysurfschool.com/",
-          note: "Temporary phone/email booking instruction takes precedence over older embedded online-booking text.",
+          note: "Operator confirms Manly Beach as a public lesson location.",
         },
       ],
-      "2026-10-08",
-    ),
+    },
   },
   {
     id: "bangkok-co-classical-cycle",
@@ -437,22 +445,26 @@ export const guideBatch41: PublicExperience[] = [
       "Guided city cycling with stops. Not a bicycle lesson, food tour or all-day rental",
     access:
       "Reserve the South Circuit on BA Bikes' booking page. Obtain the exact meeting address in the confirmation before travelling. No EA combined booking or partnership.",
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-12-04",
+      accessUrl: "https://buenosairesbiketours.com/book-now/",
+      sources: [
         {
           title: "BA Bikes: South Circuit booking",
           url: "https://buenosairesbiketours.com/book-now/",
-          note: "Current tour, neighbourhood route, departure and duration.",
+          note: "Operator currently lists the South Circuit and its booking path.",
         },
         {
           title: "BA Bikes: practical questions",
           url: "https://buenosairesbiketours.com/faqs/",
-          note: "Reservation, language, equipment and weather information. Published meeting addresses conflict, so confirmation is necessary.",
+          note: "BA Bikes answers practical questions about equipment, routes and meeting instructions.",
         },
       ],
-      "2026-10-24",
-    ),
+    },
   },
   {
     id: "singapore-ura-city-gallery",
@@ -670,23 +682,28 @@ export const guideBatch41: PublicExperience[] = [
     participation:
       "Public outdoor swimming within the venue's rules. Not a lesson, cold-water induction or guaranteed sauna session",
     access:
-      "Use the City of London page for booking, current entry conditions and temperatures. Swimming facilities become cashless on 1 October 2026. No EA reservation.",
-    guideReview: review(
-      "public_admission",
-      [
+      "Use the City of London’s page for current public sessions, booking and water temperature. Payments are cashless. Check the opening status before setting out. No EA reservation.",
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_admission",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-12-04",
+      accessUrl:
+        "https://www.cityoflondon.gov.uk/things-to-do/green-spaces/hampstead-heath/where-to-go-at-hampstead-heath/parliament-hill-lido",
+      sources: [
         {
           title: "City of London: Parliament Hill Lido",
           url: "https://www.cityoflondon.gov.uk/things-to-do/green-spaces/hampstead-heath/where-to-go-at-hampstead-heath/parliament-hill-lido",
-          note: "Responsible operator's live session, temperature, safety, payment and access information.",
+          note: "The City of London confirms year-round operation, seasonal sessions, cashless payment and possible short-notice closures.",
         },
         {
           title: "Parliament Hill Lido Users' Group",
           url: "https://parliamenthilllido.org/",
-          note: "Community context. Operator notices take precedence for all practical decisions.",
+          note: "The lido users’ group provides visitor context. Use the City’s page for operational decisions.",
         },
       ],
-      "2026-10-24",
-    ),
+    },
   },
   {
     id: "rotorua-pavilion-pools",
@@ -764,23 +781,27 @@ export const guideBatch41: PublicExperience[] = [
     participation:
       "Seated listening and watching. No dance class, backstage visit or participation in a ceremony",
     access:
-      "Use the theatre and Grand Palace's current instructions to confirm eligible admission and the performance slot. This is not an EA combined ticket, transfer or package.",
-    guideReview: review(
-      "public_programme",
-      [
+      "Check the Grand Palace’s Khon page for closures and the current weekday schedule. Visitors can use eligible palace admission or buy a show-only ticket at Sala Chalermkrung. Confirm the chosen slot before travelling.",
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-12-04",
+      accessUrl: "https://www.royalgrandpalace.th/en/attraction/khon",
+      sources: [
         {
           title: "Sala Chalermkrung: visitor performance",
           url: "https://salachalermkrung.com/?c=news&cid=90&m=detail",
-          note: "Thai and English descriptions, mixed programme, performance times, subtitles and ticket entitlement.",
+          note: "The theatre describes the staged Khon programme and the performance format.",
         },
         {
-          title: "The Grand Palace: official visitor programme",
-          url: "https://www.royalgrandpalace.th/en/home",
-          note: "Official connection to the khon performance offer. Confirm validity before relying on inclusion.",
+          title: "The Grand Palace: Khon visitor information",
+          url: "https://www.royalgrandpalace.th/en/attraction/khon",
+          note: "The Grand Palace confirms weekday 25-minute performances and a theatre-only ticket option.",
         },
       ],
-      "2026-10-24",
-    ),
+    },
   },
   {
     id: "new-orleans-preservation-hall",
@@ -807,29 +828,33 @@ export const guideBatch41: PublicExperience[] = [
     responsibility:
       "Photography, filming and audio recording are prohibited. Check seating, accessibility and the selected line-up before buying. The programme is all ages, but the attentive room may not suit every child. One ticket covers one show. Food and drink rules apply, and the optional pre-show café is not automatically part of admission.",
     evidence:
-      "The live calendar lists bookable shows, including late September 2026. The FAQ publishes forty-five-minute sets, advance online ticketing and current check-in at 730 Saint Peter Street. These are venue sources, not independent performance reviews. EA has not attended or evaluated a particular ensemble.",
+      "The live calendar lists current performances and the venue FAQ explains ticketing and arrival. EA has not attended or evaluated a particular ensemble.",
     duration:
-      "Forty-five minutes. The venue asks guests to arrive fifteen minutes before their show",
+      "Around 45 minutes. Follow your ticket’s arrival instructions. The venue says doors open about twenty minutes before the set.",
     participation:
       "Seated or ticket-category-specific live listening. No jam-session participation, recording or backstage access",
     access:
-      "Buy the selected show directly through Preservation Hall's calendar. Follow the current 730 Saint Peter check-in instruction rather than the historic building address alone. No EA commission.",
-    guideReview: review(
-      "public_programme",
-      [
+      "Book your selected set through the venue calendar. The current primary entrance is 726 Saint Peter Street. The pre-show café is at number 730. Follow any event-specific instructions on your ticket.",
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-12-04",
+      accessUrl: "https://www.preservationhall.com/calendar/",
+      sources: [
         {
           title: "Preservation Hall: live calendar",
           url: "https://www.preservationhall.com/calendar/",
-          note: "Current dates, ensembles and direct ticket availability.",
+          note: "The live venue calendar lists current ticketed sets.",
         },
         {
           title: "Preservation Hall: visitor questions",
           url: "https://www.preservationhall.com/faq/",
-          note: "Duration, current check-in, age, recording and ticket rules.",
+          note: "Venue FAQ gives the current primary entrance at 726 Saint Peter Street and distinguishes the café at number 730.",
         },
       ],
-      "2026-10-24",
-    ),
+    },
   },
   {
     id: "seoul-saturday-gugak",

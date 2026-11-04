@@ -783,37 +783,46 @@ export const guideBatch50: PublicExperience[] = [
     humanReturn:
       "Keep one background detail you would have missed in a faster film.",
     responsibility:
-      "The IFI describes free box-office tickets, while online booking can incur a fee. Check the actual title, running time, date, language, subtitles, content and seat availability. On this check, October's Programme 2 is listed for 21 October at 12:50 and 26 October at 11:45, with a twenty-six-minute running time. That difference is why 'lunchtime' must not be read as a fixed daily 13:00 session. Future months require a new programme check. Review wheelchair seating and accessible-cinema details when booking. Ordinary feature films, festivals, research appointments and the online Archive Player are separate offers.",
+      "Check the film, start time, language, subtitles and seat availability for your screening. Lunchtime is a programme name. The times vary. Use the cinema’s accessibility information if you need wheelchair seating.",
     evidence:
-      "The IFI's standing series page explains the free public-screening format and ticket distinction. Its live October film page gives actual dated sessions. The accessibility page supplies booking context. EA has not attended, watched the selected film or assessed suitability for a particular viewer. Publication is reviewed before the next programme cycle.",
+      "The IFI’s series page explains the format, and its calendar lists November screenings from Gallic Games. EA has not attended or assessed the selected films.",
     duration:
-      "Current Programme 2: 26 minutes, plus arrival and ticket collection",
+      "Varies by programme. Check the running time and allow time for ticket collection.",
     participation: "Seated public viewing of a curated archival film programme",
     access:
-      "Choose Archive at Lunchtime in the IFI's current film listings, then obtain the ticket for that session. Box-office and online costs differ. No archive research access, meal or daily fixed-time screening is included.",
+      "Choose a dated Archive at Lunchtime screening in the IFI listings. The series offers free box-office tickets, with a possible online booking charge.",
     ...common,
     ...guideImage("dublin-ifi-archive-lunchtime"),
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-11-09",
+      accessUrl: "https://ifi.ie/whats-on",
+      sources: [
         {
           title: "IFI: Archive at Lunchtime",
           url: "https://ifi.ie/irish-film-directory/archive-at-lunchtime",
-          note: "Standing series, thematic programmes, free box-office tickets and possible online booking charge.",
+          note: "Standing monthly series and box-office ticket conditions.",
         },
         {
-          title: "IFI: October 2026 Archive at Lunchtime Programme 2",
-          url: "https://ifi.ie/films/archive-at-lunchtime-october-2026-programme-2",
-          note: "Actual 21 and 26 October sessions at different times, with a twenty-six-minute duration. Not a guarantee of next month's programme.",
+          title: "IFI: current screenings",
+          url: "https://ifi.ie/whats-on",
+          note: "Current screening and ticket calendar. Check your chosen date.",
+        },
+        {
+          title: "IFI: 9 November screenings",
+          url: "https://ifi.ie/whats-on?date=2026-11-09",
+          note: "The 9 November calendar lists the Gallic Games Programme 2 at 12:40.",
         },
         {
           title: "IFI: accessible cinema",
           url: "https://ifi.ie/about-ifi/accessible-cinema",
-          note: "Official access and booking information, distinct from a guarantee that every session has every access format.",
+          note: "Venue guidance for accessible cinema and booking.",
         },
       ],
-      "2026-10-27",
-    ),
+    },
   },
   {
     id: "amsterdam-bimhuis-concert",

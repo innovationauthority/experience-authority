@@ -197,7 +197,7 @@ test("critical visitor-role, date, venue and access boundaries are not lost in i
   assert.match(byId("ghent-sunday-carillon").responsibility, /11:00 to 12:00/);
   assert.match(
     byId("dublin-ifi-archive-lunchtime").responsibility,
-    /26 October at 11:45/,
+    /start time, language, subtitles and seat availability/,
   );
   assert.ok(
     !canPublishGuide(byId("dublin-ifi-archive-lunchtime"), "2026-10-28"),

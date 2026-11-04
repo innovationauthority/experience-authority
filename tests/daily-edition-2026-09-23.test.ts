@@ -64,7 +64,7 @@ test("new guides preserve maintenance, dietary, material, seasonal and cultural 
   assert.match(byId("kyoto-shikata-kintsugi").duration, /two to three weeks/);
   assert.match(
     byId("helsinki-loyly-public-sauna").responsibility,
-    /4 to 7 October 2026/,
+    /Swimwear is required.*Under-eighteens need a guardian/,
   );
   assert.match(
     byId("budapest-szechenyi-daytime-bathing").responsibility,

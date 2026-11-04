@@ -530,27 +530,32 @@ export const guideBatch46: PublicExperience[] = [
     responsibility:
       "This is currently a paid seventy-five-minute tour with advance ticket purchase, not the older free format described elsewhere. Expect around one kilometre of continuous walking and possible steps. Confirm the accessible version before booking. The opera hall, foyer and other spaces may be unavailable because of events. A ticket does not promise a performance, backstage access or entry to every library area. Choose the correct language and arrive fifteen minutes early.",
     evidence:
-      "The authorised ticketing page publishes the 2026 format and future October sessions, including English tours on 21, 24, 27 and 30 October when checked. EA has not attended or inspected the route. Space availability and the guide's route remain subject to institutional operations.",
+      "The authorised ticketing page lists November sessions in Greek and English and explains the paid route. EA has not taken the tour. The rooms available on the day depend on the centre’s operations.",
     duration: "75 minutes, plus early arrival",
     participation: "Guided architectural observation and walking",
     access:
       "Purchase the selected dated tour through the official ticketing page and meet in the SNFCC lobby. Check concessions, language and route needs before payment. No EA booking or guaranteed hall access is implied.",
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-11-28",
+      accessUrl:
+        "https://www.ticketservices.gr/event/snfcc-guided-tours/?lang=en",
+      sources: [
         {
           title: "SNFCC: authorised 2026 guided-tour booking",
           url: "https://www.ticketservices.gr/event/snfcc-guided-tours/?lang=en",
-          note: "Current paid format, October dates, languages, route, advance booking and space restrictions.",
+          note: "Authorised booking lists Greek and English sessions in November, the paid format and route limitations.",
         },
         {
-          title: "SNFCC: official cultural centre",
-          url: "https://www.snfcc.org/",
-          note: "Institutional identity, facilities and current visitor information, not independent sustainability validation.",
+          title: "Renzo Piano Building Workshop: SNFCC project",
+          url: "https://www.rpbw.com/project/stavros-niarchos-foundation-cultural-center",
+          note: "The architect explains how the public library, opera and park share one site.",
         },
       ],
-      "2026-10-30",
-    ),
+    },
   },
   {
     id: "london-chelsea-physic",
@@ -706,27 +711,31 @@ export const guideBatch46: PublicExperience[] = [
     responsibility:
       "Advance registration and reservation are required. Confirm the current date, admission conditions, language of introductions, age suitability and step-free access. The venue publishes membership-style participation details in its public booking form. Completing those conditions is not an EA endorsement or an invitation to another event. Do not record or photograph performers unless permitted. A meal, Murolo house-museum visit and a particular lineup are not included in this concert guide.",
     evidence:
-      "The official programme describes roughly one hour of voice and instruments without microphones. The booking page lists future October 2026 dates, with several earlier dates marked sold out. EA has not attended or assessed acoustics. The programme photograph shows an earlier performance, not the exact ensemble on your date.",
+      "The venue describes a performance of roughly one hour. Its booking page lists November dates. EA has not attended or assessed acoustics. The image shows an earlier performance.",
     duration: "Around 1 hour, plus arrival and registration",
     participation: "Audience listening, with any singing only by invitation",
     access:
       "Reserve through Napulitanata's official page for Piazza Museo Nazionale 10 to 11. Wait for confirmation and follow the published payment instructions. No EA ticket, partnership or guaranteed performer is implied.",
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-11-28",
+      accessUrl: "https://www.napulitanata.com/it/spettacolo/",
+      sources: [
         {
           title: "Napulitanata: the concert format",
           url: "https://www.napulitanata.com/it/spettacolo/",
-          note: "Voice and instruments, repertoire and approximate one-hour format.",
+          note: "The venue describes the live Neapolitan song performance and acoustic format.",
         },
         {
           title: "Napulitanata: current reservations",
           url: "https://www.napulitanata.com/it/prenotazioni/",
-          note: "Future October 2026 dates, sold-out notices and compulsory public registration and booking.",
+          note: "The booking page lists November shows and marks individual dates as sold out where relevant.",
         },
       ],
-      "2026-10-31",
-    ),
+    },
   },
   {
     id: "budapest-liszt-concert",

@@ -373,23 +373,33 @@ export const guideBatch43: PublicExperience[] = [
       "Around ninety minutes for a 3 km return, excluding travel and stops",
     participation: "Self-guided walk on the marked public route",
     access:
-      "Check the official PR11 status and SIMplifica requirements immediately before travel, then start at ER103 in Ribeiro Frio. Do not substitute an outdated free-entry claim. No EA booking or partnership is implied.",
-    guideReview: review(
-      "public_admission",
-      [
+      "Check IFCN’s PR11 status and reserve the required slot in SIMplifica before travelling. The marked walk starts off the ER103 in Ribeiro Frio. Check for closures again on the day.",
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_admission",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-11-18",
+      accessUrl:
+        "https://www.visitmadeira.com/en/what-to-do/nature-seekers/activities/hiking/pr-11-vereda-dos-balcoes/",
+      sources: [
         {
           title: "Visit Madeira: PR11 Vereda dos Balcões",
           url: "https://www.visitmadeira.com/en/what-to-do/nature-seekers/activities/hiking/pr-11-vereda-dos-balcoes/",
-          note: "Official route, distance, current status, difficulty and visitor fee.",
+          note: "Regional tourism describes the marked PR11 route, length and starting point.",
         },
         {
           title: "SIMplifica Madeira",
           url: "https://simplifica.madeira.gov.pt/",
-          note: "Regional public portal for current trail access and payment rules.",
+          note: "Regional reservation portal for classified walking routes.",
+        },
+        {
+          title: "IFCN: classified trail status",
+          url: "https://ifcn.madeira.gov.pt/?Itemid=100&id=46&lang=pt&option=com_content&view=category",
+          note: "Conservation authority lists PR11 and provides current trail-status notices.",
         },
       ],
-      "2026-10-15",
-    ),
+    },
   },
   {
     id: "seville-guided-river-kayak",
@@ -421,22 +431,26 @@ export const guideBatch43: PublicExperience[] = [
     participation: "Guided kayak paddling after a land briefing",
     access:
       "Use the operator's current tour form and confirm the meeting point beside Pabellón de la Navegación in Jardín Americano. No EA booking or partnership is implied.",
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-12-04",
+      accessUrl: "https://kayaksevilla.com/",
+      sources: [
         {
           title: "Kayak Sevilla: guided city tour",
           url: "https://kayaksevilla.com/",
-          note: "Current tour types, kayak option, booking sequence, equipment and language statement.",
+          note: "The Seville operator lists the public guided kayak tour and practical starting information.",
         },
         {
           title: "Kayak Sevilla: contact and launch",
           url: "https://kayaksevilla.com/contacto/",
-          note: "Current launch area and direct contact route for confirming the booked duration.",
+          note: "Current operator contact and Jardín Americano meeting location.",
         },
       ],
-      "2026-10-20",
-    ),
+    },
   },
   {
     id: "barcelona-sant-pau",
@@ -751,22 +765,26 @@ export const guideBatch43: PublicExperience[] = [
       "Respectful public observation, not a staged tour or audience role",
     access:
       "Go to the Apostles Door of Valencia Cathedral after checking the tribunal's current holiday notice. Ordinary observation needs no paid booking. No EA partnership is implied.",
-    guideReview: review(
-      "public_observation",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_observation",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-12-10",
+      accessUrl: "https://tribunaldelasaguas.org/visitas-al-tribunal/",
+      sources: [
         {
           title: "Tribunal de les Aigües: public visits",
           url: "https://tribunaldelasaguas.org/visitas-al-tribunal/",
-          note: "Public observation rules, normal time, place and holiday exception.",
+          note: "The tribunal confirms the Thursday noon public sitting at the Apostles Door and explains holiday exceptions.",
         },
         {
           title: "UNESCO: Irrigators' tribunals",
           url: "https://ich.unesco.org/en/RL/irrigators-tribunals-of-the-spanish-mediterranean-coast-the-council-of-wise-men-of-the-plain-of-murcia-and-the-water-tribunal-of-the-plain-of-valencia-00171",
-          note: "Independent heritage context for the continuing water courts.",
+          note: "UNESCO documents the irrigation tribunals and their public community role.",
         },
       ],
-      "2026-10-20",
-    ),
+    },
   },
   {
     id: "paris-bal-blomet-jazz",
@@ -838,30 +856,34 @@ export const guideBatch43: PublicExperience[] = [
     humanReturn:
       "An artist you did not know may become a reason to return to the calendar.",
     responsibility:
-      "The performer, repertoire, duration, seat availability and age suitability change by date. The September 30 KotoKottoN set is a current example, not a daily programme or a guarantee of a free seat. Check the venue's individual event page and any content advisory before travel. Do not photograph performers against venue rules.",
+      "Choose an actual Concourse listing. The performers, language, running time and seating can change with each event. Check entry, age guidance and photography rules on that page.",
     evidence:
-      "Esplanade's What's On calendar publishes changing free events. Its KotoKottoN page lists a September 30 Concourse performance with specific times and a 30-minute duration. These sources establish an available example, not permanent daily access to that artist. EA has not attended or assessed the performance. The licensed documentary image shows an earlier Concourse set, not the future programme.",
+      "Esplanade’s calendar lists free Concourse performances. A November listing for Abby & Tristan confirms the space and the 30-minute format for that set. The photograph shows an earlier performance. EA has not attended.",
     duration:
-      "Calendar-led. The selected September 30 example runs about thirty minutes",
+      "Check your chosen listing. The November example lasts 30 minutes.",
     participation:
       "Free public listening when a Concourse performance is scheduled",
     access:
       "Select a current free Concourse performance through Esplanade's official calendar and follow that event's entry directions. No EA ticketing or partnership is implied.",
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-11-30",
+      accessUrl: "https://www.esplanade.com/whats-on",
+      sources: [
         {
           title: "Esplanade: What's On",
           url: "https://www.esplanade.com/whats-on",
-          note: "Changing current calendar and free-performance discovery route.",
+          note: "Venue calendar for current performances. Verify the exact Concourse location.",
         },
         {
-          title: "Esplanade: KotoKottoN",
-          url: "https://www.esplanade.com/whats-on/festivals-and-series/crossing-borders/2026/kotokotton",
-          note: "Dated example of free Concourse set, with time and duration. Recheck after the event.",
+          title: "Esplanade: Abby & Tristan in the Concourse",
+          url: "https://www.esplanade.com/whats-on/festivals-and-series/soundtracks/2026/abby-and-tristan-songs-we-remember",
+          note: "Dated November example of free 30-minute sets in the Concourse.",
         },
       ],
-      "2026-10-07",
-    ),
+    },
   },
 ];

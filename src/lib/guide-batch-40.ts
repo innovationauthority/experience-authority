@@ -603,36 +603,40 @@ export const guideBatch40: PublicExperience[] = [
     humanReturn:
       "A pause can become a memory without needing a dramatic achievement attached to it.",
     responsibility:
-      "Swimwear is compulsory in the mixed public saunas. Follow showering and seat-liner rules and respect privacy. Under-eighteens need a guardian. Discuss health concerns with an appropriate professional and follow staff guidance, without treating heat or cold water as medical treatment. The operator announces closure on 4 to 7 October 2026 and reopening at 4pm on 8 October. Recheck before travel.",
+      "Swimwear is required in the mixed public saunas. Follow showering and seat-liner rules and respect privacy. Under-eighteens need a guardian. Sea access depends on conditions. Check the operator’s guidance before entering the water.",
     evidence:
       "The public-sauna page gives two-hour sessions, shared-room rules and included equipment. The live information page supplies the dated maintenance closure, while MyHelsinki corroborates the venue context. EA has not inspected facilities, assessed health suitability or visited. The photograph shows the actual building, not its interior conditions.",
     duration:
-      "A two-hour booked session. Allow changing time and recheck the October maintenance closure",
+      "Two hours for the standard public-sauna booking, including time to change.",
     participation:
       "Shared public sauna and rest. Sea swimming is optional, weather-dependent and not a supervised swimming lesson",
     access:
       "Reserve directly through Löyly's public-sauna page and check its current information page before travelling. No EA booking or partnership.",
-    guideReview: review(
-      "public_admission",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_admission",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-12-15",
+      accessUrl: "https://www.loylyhelsinki.fi/en/public-sauna",
+      sources: [
         {
           title: "Löyly: public sauna",
           url: "https://www.loylyhelsinki.fi/en/public-sauna",
-          note: "Primary session duration, mixed-sauna swimwear, age accompaniment, equipment and reservation route.",
+          note: "Operator confirms daily public sauna, a two-hour visit and shared-sauna rules.",
         },
         {
           title: "Löyly: information",
           url: "https://www.loylyhelsinki.fi/en/info",
-          note: "Current practical information, including the announced 4 to 7 October closure and 8 October reopening.",
+          note: "Operator information includes age, supervision and visitor guidance.",
         },
         {
           title: "MyHelsinki: Löyly",
           url: "https://www.myhelsinki.fi/fi/places/loyly-2/",
-          note: "Official city context for the shoreline sauna and architecture. Not a replacement for current operator notices.",
+          note: "Helsinki’s destination listing gives the waterfront setting and public visitor context.",
         },
       ],
-      "2026-10-03",
-    ),
+    },
   },
   {
     id: "budapest-szechenyi-daytime-bathing",

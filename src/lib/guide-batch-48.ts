@@ -786,7 +786,7 @@ export const guideBatch48: PublicExperience[] = [
     countrySlug: "mexico",
     regionSlug: "mexico-city",
     kernel:
-      "Choose an October performance by Ballet Folklórico de México de Amalia Hernández in the main hall of Palacio de Bellas Artes. Watch a change of footwork or group formation as closely as the costumes. The stage makes differences in rhythm and movement visible at a scale a street photograph cannot offer. Listen to how the audience responds without assuming you should know every reference.",
+      "Choose a performance by Ballet Folklórico de México de Amalia Hernández in the main hall of Palacio de Bellas Artes. Watch a change of footwork or group formation as closely as the costumes. Listen for the change in rhythm as one regional dance gives way to another.",
     rootedness:
       "Amalia Hernández founded the company in 1952. Its work adapts regional dances, music and dress through theatrical choreography. That creative interpretation is the point of this visit, not a claim that a stage show is an unchanged community ritual or an exhaustive representation of Mexico.",
     shift:
@@ -794,38 +794,43 @@ export const guideBatch48: PublicExperience[] = [
     humanReturn:
       "Follow the name of one dance, region or musical form afterwards rather than leaving the whole performance labelled simply as Mexican.",
     responsibility:
-      "Book the correct Bellas Artes performance, date and seat. Current institutional and ticket listings confirm performances on 21, 25 and 28 October, with different start times. A separate Chapultepec Day of the Dead product is not this venue or ticket. Check the current start, entry time, age policy, access seating and photography rules before buying. Programmes can change, and a specific dance or cast is not guaranteed. Audience admission does not include backstage access or joining the dancers.",
+      "Confirm the hall, start time, age policy, access seating and photography rules. The November calendar includes different times and dates. Cast and repertoire can change. The visitor role is seated audience attendance.",
     evidence:
-      "INBAL's current October programme and the dated official ticket listing agree on forthcoming Bellas Artes performances. The company's own older May listing is not used as October availability. EA has not attended, evaluated the choreography or reserved seats. The licensed performance photograph is historical, not the current cast or programme.",
+      "The company and venue establish the format, and the ticket calendar lists November performances in the main hall. EA has not attended. The historical photograph shows an earlier cast.",
     duration:
       "One seated performance, with the current running time confirmed when booking",
     participation:
       "Public audience viewing and listening, not a dance lesson or community ritual",
     access:
-      "Use the current INBAL programme and its official ticket route for Palacio de Bellas Artes, Sala Principal. Verify the venue and date on the ticket. This October guide expires after the checked programme, rather than promising an unverified November schedule.",
+      "Choose a current Ballet Folklórico de México de Amalia Hernández performance at Palacio de Bellas Artes through the ticket calendar. Check the venue and date on your ticket.",
     ...common,
     ...guideImage("mexico-city-ballet-folklorico"),
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-11-29",
+      accessUrl:
+        "https://www.ticketmaster.com.mx/ballet-folklorico-de-mexico-de-amalia-hernandez-tickets/artist/803500?language=en-mx",
+      sources: [
         {
-          title: "INBAL: Ballet Folklórico October programme",
-          url: "https://inba.gob.mx/actividad/18495/ballet-folklorico-de-mexico-de-amalia-hernandez",
-          note: "Current Bellas Artes dates including 21, 25 and 28 October, with programme-change notice.",
+          title: "Palacio de Bellas Artes: Ballet Folklórico",
+          url: "https://palacio.inba.gob.mx/cartelera/informacion/861/Ballet_Folklorico_de_Mexico_de_Amalia_Hernandez",
+          note: "Venue programme provides context for the ensemble and Bellas Artes performances.",
         },
         {
-          title: "Ticketmaster México: dated October performances",
-          url: "https://www.ticketmaster.com.mx/ballet-folklorico-de-mexico-de-amalia-boletos/artist/803500?endDate=2026-10-31&startDate=2026-10-01",
-          note: "Independent ticketing corroboration of the institution's dates and separate venues. No purchase or seat hold.",
+          title: "Ticketmaster México: current performances",
+          url: "https://www.ticketmaster.com.mx/ballet-folklorico-de-mexico-de-amalia-hernandez-tickets/artist/803500?language=en-mx",
+          note: "Authorised ticket calendar lists November dates at Palacio de Bellas Artes, including 25 and 29 November.",
         },
         {
           title: "Ballet Folklórico de México: official company",
           url: "https://balletfolkloricodemexico.com.mx/",
-          note: "Company context only. Its older presentation page is not evidence of a current performance.",
+          note: "The company provides repertoire and institutional context.",
         },
       ],
-      "2026-10-31",
-    ),
+    },
   },
   {
     id: "melbourne-jazzlab-set",

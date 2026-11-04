@@ -132,7 +132,7 @@ test("actual roles, seasonal access and uncertain conditions survive catalogue i
   );
   assert.match(
     byId("new-york-governors-cycle").responsibility,
-    /not daily year-round/,
+    /seasonal Brooklyn service ended on 1 November.*Pier 101/,
   );
   assert.match(byId("madrid-beti-jai").responsibility, /no visitor toilets/);
   assert.match(

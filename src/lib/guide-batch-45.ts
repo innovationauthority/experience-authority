@@ -403,29 +403,33 @@ export const guideBatch45: PublicExperience[] = [
     humanReturn:
       "The skyline can stay familiar while your position within it becomes less predictable.",
     responsibility:
-      "Ferry admission and bicycle charges are separate. Check your return sailing before extending the ride. The Trust's Brooklyn ferries run on selected weekends and holidays through 1 November 2026, not daily year-round. Manhattan and NYC Ferry services have their own schedules and tickets. Rentals have separate age, payment and seasonal conditions. Follow island rules and leave space for walkers. The seasonal tram is not an October fallback. Do not assume Fort Jay's temporarily restricted entrance or the closed kayak dock is available.",
+      "The Trust’s seasonal Brooklyn service ended on 1 November. The Manhattan ferry continues, and NYC Ferry currently uses Pier 101 during Yankee Pier works. Check your chosen operator’s schedule and bike rules. Leave space for walkers on shared paths.",
     evidence:
-      "The Trust for Governors Island lists cycling paths and rental options. Its current visitor page supplies fall opening and ferry conditions, including access limitations. EA has not ridden the paths or tested rentals. The credited photograph shows island cycling, not a promise of the pictured route's exact conditions.",
+      "The Trust documents public cycle paths and bike options. Its visitor notice explains the pier change and current opening hours. EA has not ridden the routes or tested a hire.",
     duration: "Allow a morning or afternoon including independent ferry travel",
     participation: "Self-directed cycling on permitted public paths",
     access:
-      "Use the Trust's visitor page to plan a ferry and any separate bicycle rental. Current fall island hours are 07:00 to 18:00. Verify the actual service and leave time for the return. No EA ferry, bike, guide, transfer or partnership is implied.",
-    guideReview: review(
-      "public_admission",
-      [
+      "Use the Trust’s visitor page to plan the ferry and check bicycle hire separately. The island currently lists 7 am to 6 pm hours. Check both your outward and return sailings. No EA ferry or bicycle booking.",
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_admission",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-11-25",
+      accessUrl: "https://www.govisland.com/things-to-do/recreation/citi-bike",
+      sources: [
         {
           title: "Governors Island: cycling and Citi Bike",
           url: "https://www.govisland.com/things-to-do/recreation/citi-bike",
-          note: "Seven-mile public cycling network, bicycle docks and separately operated rental options.",
+          note: "The Trust lists car-free paths, docking points and bicycle options.",
         },
         {
           title: "Governors Island: current visitor information",
           url: "https://www.govisland.com/plan-your-visit",
-          note: "Fall hours, ferry season, accessibility and current Fort Jay and kayak-dock limitations.",
+          note: "Visitor information lists island hours, the Manhattan ferry and the move of NYC Ferry service from Yankee Pier to Pier 101.",
         },
       ],
-      "2026-10-31",
-    ),
+    },
   },
   {
     id: "madrid-beti-jai",
@@ -591,23 +595,28 @@ export const guideBatch45: PublicExperience[] = [
       "Allow around 90 minutes, or keep the visit shorter at your own pace",
     participation: "Independent garden and glasshouse observation",
     access:
-      "Use Heritage Ireland's current visitor information for the National Botanic Gardens, Glasnevin. Confirm the seasonal closing time and any glasshouse notice. No EA tour, plant handling, ticket or partnership is implied.",
-    guideReview: review(
-      "public_admission",
-      [
+      "Use Heritage Ireland’s visitor page for Glasnevin. The grounds close at 4:30 pm in winter. Confirm individual glasshouse hours and access notices before travelling.",
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_admission",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-12-31",
+      accessUrl:
+        "https://heritageireland.ie/visit/places-to-visit/national-botanic-garden/",
+      sources: [
         {
           title: "Heritage Ireland: National Botanic Gardens",
           url: "https://heritageireland.ie/visit/places-to-visit/national-botanic-garden/",
-          note: "OPW public access, glasshouses, seasonal hours and visitor restrictions.",
+          note: "Heritage Ireland confirms free admission and winter hours from November through February.",
         },
         {
           title: "Heritage Ireland: conservation and research",
           url: "https://heritageireland.ie/learn/conservation-research/what-we-do/",
-          note: "OPW collection and conservation context, not a guarantee about a particular glasshouse's opening.",
+          note: "The OPW explains conservation and scientific work that gives context to the collection.",
         },
       ],
-      "2026-10-31",
-    ),
+    },
   },
   {
     id: "singapore-orchid-garden",

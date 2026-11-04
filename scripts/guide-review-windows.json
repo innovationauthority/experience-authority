@@ -2280,8 +2280,8 @@
     "regionSlug": "ghent"
   },
   "/experiences/let-an-archive-film-interrupt-a-dublin-lunchtime": {
-    "availableFrom": "2026-10-21",
-    "reviewBy": "2026-10-27",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-11-09",
     "countrySlug": "ireland",
     "regionSlug": "dublin"
   },
@@ -2496,8 +2496,8 @@
     "regionSlug": "edinburgh"
   },
   "/experiences/watch-mexicos-regional-dances-share-one-stage": {
-    "availableFrom": "2026-10-20",
-    "reviewBy": "2026-10-31",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-11-29",
     "countrySlug": "mexico",
     "regionSlug": "mexico-city"
   },
@@ -2604,8 +2604,8 @@
     "regionSlug": "rio-de-janeiro"
   },
   "/experiences/follow-the-hands-conducting-buenos-aires": {
-    "availableFrom": "2026-10-20",
-    "reviewBy": "2026-11-03",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-11-30",
     "countrySlug": "argentina",
     "regionSlug": "buenos-aires"
   },
@@ -2682,8 +2682,8 @@
     "regionSlug": "naples"
   },
   "/experiences/read-athens-through-a-building-and-its-park": {
-    "availableFrom": "2026-10-17",
-    "reviewBy": "2026-10-30",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-11-28",
     "countrySlug": "greece",
     "regionSlug": "athens"
   },
@@ -2706,8 +2706,8 @@
     "regionSlug": "paris"
   },
   "/experiences/hear-the-song-behind-a-familiar-naples-refrain": {
-    "availableFrom": "2026-10-17",
-    "reviewBy": "2026-10-31",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-11-28",
     "countrySlug": "italy",
     "regionSlug": "naples"
   },
@@ -2772,8 +2772,8 @@
     "regionSlug": "auckland"
   },
   "/experiences/ride-new-yorks-island-without-the-traffic": {
-    "availableFrom": "2026-10-14",
-    "reviewBy": "2026-10-31",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-11-25",
     "countrySlug": "united-states",
     "regionSlug": "new-york-city"
   },
@@ -2796,8 +2796,8 @@
     "regionSlug": "stockholm"
   },
   "/experiences/give-dublin-a-glasshouse-paced-morning": {
-    "availableFrom": "2026-10-14",
-    "reviewBy": "2026-10-31",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-31",
     "countrySlug": "ireland",
     "regionSlug": "dublin"
   },
@@ -2838,8 +2838,8 @@
     "regionSlug": "beaune"
   },
   "/experiences/taste-york-before-decorating-the-chocolate": {
-    "availableFrom": "2026-10-07",
-    "reviewBy": "2026-10-20",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-23",
     "countrySlug": "united-kingdom",
     "regionSlug": "york"
   },
@@ -2880,8 +2880,8 @@
     "regionSlug": "chicago"
   },
   "/experiences/follow-amsterdams-winter-ice-loop": {
-    "availableFrom": "2026-10-07",
-    "reviewBy": "2026-10-18",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-20",
     "countrySlug": "netherlands",
     "regionSlug": "amsterdam"
   },
@@ -2982,14 +2982,14 @@
     "regionSlug": "copenhagen"
   },
   "/experiences/follow-the-forest-water-to-balcoes": {
-    "availableFrom": "2026-09-27",
-    "reviewBy": "2026-10-15",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-11-18",
     "countrySlug": "portugal",
     "regionSlug": "madeira"
   },
   "/experiences/read-seville-from-paddle-height": {
-    "availableFrom": "2026-09-27",
-    "reviewBy": "2026-10-20",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-04",
     "countrySlug": "spain",
     "regionSlug": "seville"
   },
@@ -3030,8 +3030,8 @@
     "regionSlug": "marrakech"
   },
   "/experiences/watch-valencia-settle-water-in-public": {
-    "availableFrom": "2026-09-27",
-    "reviewBy": "2026-10-20",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-10",
     "countrySlug": "spain",
     "regionSlug": "valencia"
   },
@@ -3042,8 +3042,8 @@
     "regionSlug": "paris"
   },
   "/experiences/leave-space-for-a-free-concourse-set": {
-    "availableFrom": "2026-09-27",
-    "reviewBy": "2026-10-07",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-11-30",
     "countrySlug": "singapore",
     "regionSlug": "singapore"
   },
@@ -3084,20 +3084,20 @@
     "regionSlug": "tokyo"
   },
   "/experiences/paddle-below-waterlands-low-bridges": {
-    "availableFrom": "2026-09-25",
-    "reviewBy": "2026-10-25",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-04",
     "countrySlug": "netherlands",
     "regionSlug": "watergang"
   },
   "/experiences/join-vancouvers-edges-by-bicycle": {
-    "availableFrom": "2026-09-25",
-    "reviewBy": "2026-10-25",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-11-25",
     "countrySlug": "canada",
     "regionSlug": "vancouver"
   },
   "/experiences/see-table-mountain-from-a-kayak": {
-    "availableFrom": "2026-09-25",
-    "reviewBy": "2026-10-25",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-04",
     "countrySlug": "south-africa",
     "regionSlug": "cape-town"
   },
@@ -3132,14 +3132,14 @@
     "regionSlug": "baden"
   },
   "/experiences/let-oslos-waterline-set-a-slower-pace": {
-    "availableFrom": "2026-09-25",
-    "reviewBy": "2026-10-25",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-15",
     "countrySlug": "norway",
     "regionSlug": "oslo"
   },
   "/experiences/let-the-caller-bring-you-into-the-dance": {
-    "availableFrom": "2026-09-25",
-    "reviewBy": "2026-10-25",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-04",
     "countrySlug": "united-kingdom",
     "regionSlug": "glasgow"
   },
@@ -3150,8 +3150,8 @@
     "regionSlug": "amsterdam"
   },
   "/experiences/begin-kabuki-with-a-single-act": {
-    "availableFrom": "2026-09-25",
-    "reviewBy": "2026-10-09",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-11-30",
     "countrySlug": "japan",
     "regionSlug": "tokyo"
   },
@@ -3174,8 +3174,8 @@
     "regionSlug": "mexico-city"
   },
   "/experiences/shape-a-cup-without-a-wheel": {
-    "availableFrom": "2026-09-24",
-    "reviewBy": "2026-10-24",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-19",
     "countrySlug": "portugal",
     "regionSlug": "lisbon"
   },
@@ -3192,8 +3192,8 @@
     "regionSlug": "bangkok"
   },
   "/experiences/learn-to-read-the-water-before-standing": {
-    "availableFrom": "2026-09-24",
-    "reviewBy": "2026-10-08",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-04",
     "countrySlug": "australia",
     "regionSlug": "sydney"
   },
@@ -3204,8 +3204,8 @@
     "regionSlug": "bangkok"
   },
   "/experiences/ride-between-buenos-aires-city-stories": {
-    "availableFrom": "2026-09-24",
-    "reviewBy": "2026-10-24",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-04",
     "countrySlug": "argentina",
     "regionSlug": "buenos-aires"
   },
@@ -3234,8 +3234,8 @@
     "regionSlug": "tokyo"
   },
   "/experiences/swim-a-london-length-under-open-sky": {
-    "availableFrom": "2026-09-24",
-    "reviewBy": "2026-10-24",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-04",
     "countrySlug": "united-kingdom",
     "regionSlug": "london"
   },
@@ -3246,14 +3246,14 @@
     "regionSlug": "rotorua"
   },
   "/experiences/watch-a-story-travel-through-a-gesture": {
-    "availableFrom": "2026-09-24",
-    "reviewBy": "2026-10-24",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-04",
     "countrySlug": "thailand",
     "regionSlug": "bangkok"
   },
   "/experiences/hear-the-band-without-a-screen-between-you": {
-    "availableFrom": "2026-09-24",
-    "reviewBy": "2026-10-24",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-04",
     "countrySlug": "united-states",
     "regionSlug": "new-orleans"
   },
@@ -3336,8 +3336,8 @@
     "regionSlug": "naples"
   },
   "/experiences/give-helsinki-time-between-the-heat": {
-    "availableFrom": "2026-09-23",
-    "reviewBy": "2026-10-03",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-15",
     "countrySlug": "finland",
     "regionSlug": "helsinki"
   },
@@ -4050,8 +4050,8 @@
     "regionSlug": "edinburgh"
   },
   "/experiences/follow-the-festa-through-the-streets": {
-    "availableFrom": "2026-09-12",
-    "reviewBy": "2026-10-04",
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-08",
     "countrySlug": "malta",
     "regionSlug": "malta-and-gozo"
   },

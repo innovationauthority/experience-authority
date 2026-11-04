@@ -179,7 +179,7 @@ test("programme boundaries keep the actual role, branch, season and conditions v
   );
   assert.equal(
     canPublishGuide(byId("buenos-aires-bomba-tiempo"), "2026-11-04"),
-    false,
+    true,
   );
   assert.equal(canPublishGuide(byId("rio-carioca-samba"), "2026-11-11"), false);
 });

@@ -312,23 +312,27 @@ export const guideBatch42: PublicExperience[] = [
     participation:
       "Guided canoeing through a wetland landscape. No wildlife encounter is guaranteed",
     access:
-      "Reserve Fresh Air directly with Wetlands Safari and follow the confirmation for Dorpsstraat 21, Watergang. Do not use the Amsterdam Noord meeting instructions for another tour. No EA transfer or package.",
-    guideReview: review(
-      "public_programme",
-      [
+      "Book an available Fresh Air departure with Wetlands Safari. Meet at Dorpsstraat 21 in Watergang. Amsterdam Noord is a transit connection. The operator offers the tour year-round, subject to the calendar and conditions.",
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-12-04",
+      accessUrl: "https://www.wetlandssafari.nl/nl/english/2025-2/",
+      sources: [
         {
           title: "Wetlands Safari: Fresh Air canoe tour",
           url: "https://www.wetlandssafari.nl/nl/english/2025-2/",
-          note: "Current two-hour programme, Watergang meeting address, age and departure pattern.",
+          note: "The year-round small-group Fresh Air tour lists Watergang, about two hours and a minimum age of seven.",
         },
         {
           title: "Wetlands Safari: questions and requirements",
           url: "https://www.wetlandssafari.nl/nl/english/tourinformatie/faq/",
-          note: "Fitness, low bridges, weather and the distinction between guided tours and independent hire.",
+          note: "Operator guidance on what to bring and how availability or cancellation is handled.",
         },
       ],
-      "2026-10-25",
-    ),
+    },
   },
   {
     id: "vancouver-grand-cycle",
@@ -360,23 +364,27 @@ export const guideBatch42: PublicExperience[] = [
     participation:
       "A guided group bicycle ride, not simply bike rental. Food purchases are separate",
     access:
-      "Reserve the Grand Tour and arrive twenty minutes early at the tour office, 648 Hornby Street. The neighbouring rental shop has a different street number. Check the live calendar and cancellation terms.",
-    guideReview: review(
-      "public_programme",
-      [
+      "Reserve a current Grand Tour departure with Cycle City. Arrive twenty minutes early at 648 Hornby Street for fitting and the safety briefing. Check the calendar and cancellation policy.",
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-11-25",
+      accessUrl: "https://cyclevancouver.com/bike-tours/the-grand-tour/",
+      sources: [
         {
           title: "Cycle City: Vancouver Grand Tour",
           url: "https://cyclevancouver.com/bike-tours/the-grand-tour/",
-          note: "Specific public tour, route, duration, distance, equipment and meeting instructions.",
+          note: "Cycle City lists the guided Grand Tour, 20 km route, five-hour duration and Hornby Street departure.",
         },
         {
           title: "Cycle City: visitor questions",
           url: "https://cyclevancouver.com/about/faqs/",
-          note: "Advance booking, weather, bike fit and distinction between tour and rental addresses.",
+          note: "Operator advice on riders, rental gear and tour logistics.",
         },
       ],
-      "2026-10-25",
-    ),
+    },
   },
   {
     id: "cape-town-granger-kayak",
@@ -409,22 +417,26 @@ export const guideBatch42: PublicExperience[] = [
       "Guided sea kayaking in double kayaks. Solo visitors can book, subject to the operator's pairing arrangements",
     access:
       "Book the Cape Town departure directly. Follow the confirmation for the Radisson Collection entrance at 100 Beach Road and the CPUT Survival Centre meeting point. Do not go to Hout Bay. No EA booking or partnership.",
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-12-04",
+      accessUrl: "https://kayakadventures.capetown/cape-town-kayaking",
+      sources: [
         {
           title: "Kayak Adventures: Cape Town kayaking",
           url: "https://kayakadventures.capetown/cape-town-kayaking",
-          note: "Cape Town programme, duration, launch and exact meeting instructions.",
+          note: "Cape Town operator lists the public sea-kayaking departure, age minimum of ten and the Mouille Point meeting point.",
         },
         {
           title: "Kayak Adventures: participation questions",
           url: "https://kayakadventures.capetown/faqs",
-          note: "Age, weight, equipment and weather boundaries. Promotional safety language is not adopted as an EA assessment.",
+          note: "Operator FAQ covers weather, cancellations and practical conditions.",
         },
       ],
-      "2026-10-25",
-    ),
+    },
   },
   {
     id: "amsterdam-micropia",
@@ -686,22 +698,26 @@ export const guideBatch42: PublicExperience[] = [
       "Shared dockside sauna, with optional rest outside. Open-water swimming is not required",
     access:
       "Choose Shared sauna and confirm Langkaia or Aker Brygge in the booking. Follow that location's instructions and bring two towels. These are different meeting points. No EA booking or partnership.",
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-12-15",
+      accessUrl: "https://koknorge.no/en/sauna-experiences/shared-sauna/",
+      sources: [
         {
           title: "KOK: shared sauna",
           url: "https://koknorge.no/en/sauna-experiences/shared-sauna/",
-          note: "Individual shared-session access, duration, locations and distinction from a cruise.",
+          note: "Public Shared Sauna offer with separate Langkaia and Aker Brygge bookings.",
         },
         {
           title: "KOK: questions and answers",
           url: "https://koknorge.no/en/questions-and-answers-2/",
-          note: "Supervision, equipment, changing, weather and conduct conditions. Health claims are not adopted.",
+          note: "Operator guidance on conduct, cold-water choices and equipment.",
         },
       ],
-      "2026-10-25",
-    ),
+    },
   },
   {
     id: "glasgow-sloans-ceilidh",
@@ -734,22 +750,26 @@ export const guideBatch42: PublicExperience[] = [
       "Join called group dances or watch a round. No previous ceilidh experience is advertised as necessary",
     access:
       "Buy a Friday Night Ceilidh ticket directly from Sloans, 62 Argyll Arcade / 108 Argyle Street. Do not substitute a private-hire or family-event listing. No EA partnership.",
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-12-04",
+      accessUrl: "https://www.sloansglasgow.co.uk/ceilidh",
+      sources: [
         {
           title: "Sloans: Friday Night Ceilidh",
           url: "https://www.sloansglasgow.co.uk/ceilidh",
-          note: "Public Friday format, live band, instruction, minimum age and ticket options.",
+          note: "Sloans advertises the recurring Friday Night Ceilidh in its ballroom.",
         },
         {
           title: "Sloans: ceilidh tickets",
           url: "https://www.sloansglasgow.co.uk/book-ceilidh-tickets",
-          note: "Current booking route, 8.30pm start, venue address and card-only policy.",
+          note: "Official route to dated Friday tickets. Check the selected event’s conditions.",
         },
       ],
-      "2026-10-25",
-    ),
+    },
   },
   {
     id: "amsterdam-lunchtime-concert",
@@ -831,26 +851,30 @@ export const guideBatch42: PublicExperience[] = [
       "Watch from the dedicated single-act seating. No backstage access or performer interaction",
     access:
       "Use Kabukiweb's current monthly single-act notice and the linked Shochiku ticket service. Follow the dedicated entrance instructions at Kabukiza, Ginza. Do not buy a full programme expecting interchangeable access.",
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-11-30",
+      accessUrl: "https://www.kabukiweb.net/about/ticket/single-act-tickets/",
+      sources: [
         {
           title: "Kabukiweb: single-act tickets",
           url: "https://www.kabukiweb.net/about/ticket/single-act-tickets/",
-          note: "Primary explanation of the single-act system and links to current monthly notices.",
+          note: "Shochiku explains how single-act admission differs from a full programme.",
         },
         {
           title: "Shochiku: single-act ticket service",
           url: "https://www.e-tix.jp/shochiku_makumi/en/",
-          note: "Ticket-release timing, dedicated seating, monthly conditions and caption-device limits.",
+          note: "Authorised single-act ticket service for specific dates and times.",
         },
         {
           title: "Kabukiweb: Kabukiza",
           url: "https://www.kabukiweb.net/theatres/kabukiza/",
-          note: "Theatre location and programme context, not a guarantee of any particular act.",
+          note: "Kabukiza lists its November programme and dedicated single-act ticket link.",
         },
       ],
-      "2026-10-09",
-    ),
+    },
   },
 ];

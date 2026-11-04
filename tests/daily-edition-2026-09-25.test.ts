@@ -105,7 +105,7 @@ test("material booking, cultural and image boundaries remain explicit", () => {
   );
   assert.match(
     byId("watergang-wetlands-canoe").access,
-    /Do not use the Amsterdam Noord/,
+    /Dorpsstraat 21 in Watergang.*Amsterdam Noord is a transit connection/,
   );
   assert.match(
     byId("cape-town-granger-kayak").responsibility,

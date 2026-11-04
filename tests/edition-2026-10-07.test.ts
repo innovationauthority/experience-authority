@@ -95,15 +95,15 @@ test("7 October adds exactly eighteen distinct guides and three primary allocati
   );
 });
 
-test("new access and photo boundaries remain visible, including the not-yet-open rink", () => {
+test("new access and photo boundaries remain visible, including seasonal skating", () => {
   const byId = (id: string) => guideBatch44.find((g) => g.id === id)!;
   assert.match(
     byId("amsterdam-jaap-eden").responsibility,
-    /not open on this guide's 7 October/,
+    /10 October to 21 March.*Wear gloves/,
   );
   assert.match(
     byId("york-chocolate").responsibility,
-    /21 September to 21 October 2026/,
+    /lift access, language and any dietary requirements/,
   );
   assert.match(
     byId("beaune-fallot").responsibility,

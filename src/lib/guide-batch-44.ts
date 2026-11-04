@@ -91,30 +91,35 @@ export const guideBatch44: PublicExperience[] = [
     humanReturn:
       "An ordinary chocolate bar may carry a little more geography on the way home.",
     responsibility:
-      "The ground floor is being refurbished from 21 September to 21 October 2026. Selected tours continue, but prebooking and checking temporary access arrangements are important. Confirm the route, lift availability, teaching language, allergens and dietary alternatives directly. Samples vary. The Classic tour is distinct from longer chocolate workshops or additional truffle-making tickets.",
+      "Confirm lift access, language and any dietary requirements before booking. An adult must accompany children up to age 15. The Classic ticket includes lolly decoration. The extended truffle activity has its own ticket option.",
     evidence:
-      "The official 2026 listing describes a 60 to 75-minute guided format, tasting, demonstration and lolly decoration. Visit York confirms the attraction's public visitor role. EA has not attended or tasted the programme. Current refurbishment means that the published photograph cannot establish the exact room arrangement on your date.",
+      "The venue lists the tour as 60 to 75 minutes and describes the tasting, demonstration and lolly decoration. Visit York corroborates the visitor offer and lists holiday closures. EA has not attended.",
     duration: "60 to 75 minutes on a confirmed Classic tour",
     participation:
       "Guided interpretation, offered samples and chocolate-lolly decoration",
     access:
-      "Choose an available Classic Guided Tour date directly with York's Chocolate Story in King's Square. Read its refurbishment notice before paying. No EA booking or partnership is implied.",
-    guideReview: review(
-      "public_programme",
-      [
+      "Book the Classic Guided Tour at King’s Square through York’s Chocolate Story. Check the day’s ticket options, holiday opening and any access notices before paying.",
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-12-23",
+      accessUrl:
+        "https://www.yorkschocolatestory.com/whats-on/classic-guided-tour/",
+      sources: [
         {
           title: "York's Chocolate Story: Classic Guided Tour",
           url: "https://www.yorkschocolatestory.com/whats-on/classic-guided-tour/",
-          note: "2026 programme, duration, included activity and September to October refurbishment notice.",
+          note: "Current Classic tour listing confirms guided interpretation, chocolate samples, demonstration and lolly decoration.",
         },
         {
           title: "Visit York: York's Chocolate Story",
           url: "https://visityork.org/business-directory/yorks-chocolate-story",
-          note: "Official city tourism listing and visitor context, not an independent tasting review.",
+          note: "Destination listing confirms visitor access and holiday closures.",
         },
       ],
-      "2026-10-20",
-    ),
+    },
   },
   {
     id: "jamaica-appleton",
@@ -408,7 +413,7 @@ export const guideBatch44: PublicExperience[] = [
     slug: "follow-amsterdams-winter-ice-loop",
     title: "Follow Amsterdam's winter ice loop",
     summary:
-      "Join a public skating session on Jaap Eden's outdoor 400-metre rink when its new season begins on 10 October.",
+      "Join a public skating session on Jaap Eden’s outdoor 400-metre rink and feel how a lap changes once you find a steady stride.",
     field: "move",
     place: "Amsterdam",
     country: "Netherlands",
@@ -425,36 +430,41 @@ export const guideBatch44: PublicExperience[] = [
     humanReturn:
       "You may remember the effort of a lap more clearly than another view from a bridge.",
     responsibility:
-      "The 2026 to 2027 outdoor season is scheduled for 10 October to 21 March. It is not open on this guide's 7 October check date. Gloves are mandatory and a helmet is recommended. Follow the posted direction and staff instructions, since rotation can change. Rental is extra. If you cannot move, stop and fall safely, ask about a lesson rather than treating public admission as instruction. Confirm child supervision, mobility and session closures.",
+      "The outdoor season runs from 10 October to 21 March. Choose a public session, since training and hire interrupt access. Wear gloves, follow the posted direction and consider a helmet. Check hire, child supervision and access needs. Choose a lesson if you need help stopping or falling safely.",
     evidence:
-      "The rink publishes the upcoming season, public-session rules and rental information. Availability must be checked in its web shop because training and hire interrupt public hours. EA has not skated the rink or audited its access. The official image depicts skating at Jaap Eden, not a lesson included with your ticket.",
+      "The rink publishes its winter schedule, public-session rules and hire information. EA has not skated the rink or audited its access. The photograph shows skating at Jaap Eden.",
     duration:
       "Choose your public slot. Allow 60 to 90 minutes as a planning suggestion",
     participation:
       "Independent public skating, not a guided lesson or club session",
     access:
       "Select outdoor public admission in Jaap Eden's current web shop and check the session date. Confirm rental arrangements separately. No canal skating, EA booking or partnership is implied.",
-    guideReview: review(
-      "public_admission",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_admission",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-04",
+      reviewBy: "2026-12-20",
+      accessUrl:
+        "https://www.jaapeden.nl/praktische-informatie/openingstijden/",
+      sources: [
         {
           title: "Jaap Eden: season and public opening times",
           url: "https://www.jaapeden.nl/praktische-informatie/openingstijden/",
-          note: "2026 to 2027 outdoor season, public-session interruptions and web-shop timetable.",
+          note: "Public timetable lists outdoor sessions and the winter programme.",
         },
         {
           title: "Jaap Eden: rink rules",
           url: "https://www.jaapeden.nl/praktische-informatie/huisregels/",
-          note: "Mandatory gloves, recommended helmet, lane etiquette and direction changes.",
+          note: "Rink rules explain mandatory gloves, skating direction and use of protective equipment.",
         },
         {
           title: "Jaap Eden: frequently asked questions",
           url: "https://www.jaapeden.nl/praktische-informatie/veelgesteldevragen/",
-          note: "Rental provider and practical distinctions between public skating and lessons.",
+          note: "Operator FAQ covers equipment hire and practical questions.",
         },
       ],
-      "2026-10-18",
-    ),
+    },
   },
   {
     id: "edinburgh-mary-kings-close",
