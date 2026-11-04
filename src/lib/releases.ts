@@ -34,6 +34,10 @@ export const guideReleases = [
   {
     date: "2026-11-04",
     slugs: [
+      "zagreb-esplanade-baked-strukli",
+      "zagreb-tesla-demonstration-lab",
+      "rotterdam-depot-boijmans-art-storage",
+      "rotterdam-fenix-migration-warehouse",
       "montevideo-torres-garcia-museum",
       "montevideo-mercado-del-puerto-parrilla",
       "montevideo-teatro-solis-guided-tour",

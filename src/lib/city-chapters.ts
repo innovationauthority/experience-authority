@@ -16,6 +16,64 @@ export type CityChapter = {
 /** Authored local combinations. These are ideas to adapt, not timed or bookable packages. */
 export const cityChapters: readonly CityChapter[] = [
   {
+    slug: "zagreb",
+    name: "Zagreb",
+    country: "croatia",
+    regions: ["zagreb"],
+    title: "A private story, baked štrukli and an experiment",
+    intro:
+      "Start with one donated object in Upper Town. Come down to the Esplanade for štrukli baked to order and finish on Savska cesta, where the Technical Museum puts Tesla’s apparatus to work.",
+    pace: "For this order, go Tuesday through Friday and work back from the advertised 15:30 Tesla demonstration. On weekends, move the 11:30 demonstration ahead of lunch.",
+    planning:
+      "Check the current Tesla session and language first. On a weekday, start in Upper Town, give Le Bistro’s baked štrukli their published 25 to 30 minutes of preparation and leave time to reach Savska cesta. At the weekend, use the earlier Tesla session and choose whether to visit Upper Town before it or later in the day. Buy museum admission separately. Reserve lunch directly if the time matters.",
+    stops: [
+      {
+        slug: "let-an-ordinary-object-tell-its-story-in-zagreb",
+        moment: "Morning in Upper Town",
+        why: "Give a few donated objects and their accounts your full attention. There is room to leave some stories unread.",
+      },
+      {
+        slug: "zagreb-esplanade-baked-strukli",
+        moment: "Lunch in Lower Town",
+        why: "Order the baked štrukli and compare the browned cream at the edge with the soft centre. Build the oven time into lunch.",
+      },
+      {
+        slug: "zagreb-tesla-demonstration-lab",
+        moment: "Afternoon on Savska cesta",
+        why: "Arrive before the public session and follow one experiment from apparatus to result. On weekends this becomes a late-morning stop.",
+      },
+    ],
+  },
+  {
+    slug: "rotterdam",
+    name: "Rotterdam",
+    country: "netherlands",
+    regions: ["rotterdam"],
+    title: "From the art store to the departure quay",
+    intro:
+      "Begin inside Rotterdam’s working art depot. Cross the Nieuwe Maas at water level and spend the afternoon at Fenix, where individual journeys bring an old port warehouse back into focus.",
+    pace: "Tuesday through Sunday suits both museums. Allow at least 90 minutes in each, with an unhurried lunch and the river crossing between them.",
+    planning:
+      "Check museum tickets separately. After the Depot, look up Veerhaven (57) to Fenix / Walhalla (50) in the Watertaxi booking system. Confirm both landings, boarding needs and the fare. If the boat is unavailable or unsuitable, Fenix lists Wilhelminaplein as its public transport approach. Leave time for lunch in Katendrecht or at the café in Fenix before the exhibitions.",
+    stops: [
+      {
+        slug: "rotterdam-depot-boijmans-art-storage",
+        moment: "Late morning in Museumpark",
+        why: "Take the public route through an active collection store. Ask whether there is room in a short Walk-in visit.",
+      },
+      {
+        slug: "make-the-river-part-of-your-rotterdam-route",
+        moment: "Around lunch, cross to Katendrecht",
+        why: "Use the crossing as transport between two real stops. Watch how the port buildings line up from the water.",
+      },
+      {
+        slug: "rotterdam-fenix-migration-warehouse",
+        moment: "Afternoon at Fenix",
+        why: "Give one account of departure time in the museum, then see the water again from the Tornado or the quay.",
+      },
+    ],
+  },
+  {
     slug: "montevideo",
     name: "Montevideo",
     country: "uruguay",

@@ -24,7 +24,7 @@ test("27 October second pass adds eighteen net-new guides, three per primary are
   ).flat() as readonly string[];
   assert.equal(slugs.length, 18);
   assert.equal(new Set(slugs).size, 18);
-  assert.equal(publicGuides.length, 721);
+  assert.equal(publicGuides.length, 725);
   assert.deepEqual([...slugs].sort(), guideBatch59.map((g) => g.slug).sort());
   const previous = publicGuides.filter(
     (g) => !slugs.includes(g.slug) && firstVerifiedOn(g) <= "2026-10-27",

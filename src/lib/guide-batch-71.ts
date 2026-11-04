@@ -186,7 +186,7 @@ export const montevideoDayGuides = [
     field: "move",
     place: "Montevideo, Rambla Sur and Parque Rodó",
     kernel:
-      "Join the waterfront by Plaza España and follow the public promenade east, with the water to your right. Look back once past the old port edge and watch the shoreline curve into Playa Ramírez. Pause above the sand if it is windy, or end at the park across the road using a marked crossing.",
+      "Join the waterfront by Plaza España and follow the public promenade east, with the water to your right. Watch the line of the sea wall give way to the curve of Playa Ramírez. Pause above the sand if it is windy, or end at the park across the road using a marked crossing.",
     rootedness:
       "The Rambla Sur opened in 1935. Its straight lines and low walls reshaped the edge of Ciudad Vieja and the neighbourhoods beyond it. The city’s visitor guide traces the project back to a shoreline of small beaches, quarries and houses. At Playa Ramírez the sea wall opens into a sandy bay.",
     shift:

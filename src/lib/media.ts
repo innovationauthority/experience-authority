@@ -1,3 +1,4 @@
+import { destinationDayMedia } from "./media-batch-72";
 import { montevideoDayMedia } from "./media-batch-71";
 import { lasLlamadasMedia } from "./media-batch-70";
 import { mediaBatch69 } from "./media-batch-69";
@@ -82,6 +83,7 @@ export type GuideMedia = {
 };
 
 export const publicGuideMedia: readonly GuideMedia[] = [
+  ...destinationDayMedia,
   ...montevideoDayMedia,
   lasLlamadasMedia,
   ...mediaBatch69,

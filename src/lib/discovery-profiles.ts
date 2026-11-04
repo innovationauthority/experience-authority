@@ -55,6 +55,57 @@ export type DiscoveryProfile = {
 /** Editorial planning lenses, based on the scope and duration stated in each guide.
  * These are not live session lengths, availability or suitability guarantees. */
 export const discoveryProfiles: Record<string, DiscoveryProfile> = {
+  "zagreb-esplanade-baked-strukli": {
+    modes: ["at-table"],
+    time: "short",
+    keywords: [
+      "Zagreb",
+      "štrukli",
+      "strukli",
+      "Esplanade",
+      "Le Bistro",
+      "Zagorje",
+      "baked cheese",
+    ],
+  },
+  "zagreb-tesla-demonstration-lab": {
+    modes: ["watch-listen"],
+    time: "short",
+    keywords: [
+      "Zagreb",
+      "Nikola Tesla",
+      "Tesla coil",
+      "technical museum",
+      "science",
+      "Savska",
+      "demonstration",
+    ],
+  },
+  "rotterdam-depot-boijmans-art-storage": {
+    modes: ["watch-listen"],
+    time: "own-pace",
+    keywords: [
+      "Rotterdam",
+      "Depot Boijmans Van Beuningen",
+      "Museumpark",
+      "MVRDV",
+      "art storage",
+      "conservation",
+    ],
+  },
+  "rotterdam-fenix-migration-warehouse": {
+    modes: ["watch-listen"],
+    time: "own-pace",
+    keywords: [
+      "Rotterdam",
+      "Fenix",
+      "Katendrecht",
+      "migration",
+      "Tornado",
+      "port",
+      "warehouse",
+    ],
+  },
   "montevideo-torres-garcia-museum": {
     modes: ["watch-listen"],
     time: "own-pace",

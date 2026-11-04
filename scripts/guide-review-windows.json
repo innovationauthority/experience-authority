@@ -1,4 +1,28 @@
 {
+  "/experiences/zagreb-esplanade-baked-strukli": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-20",
+    "countrySlug": "croatia",
+    "regionSlug": "zagreb"
+  },
+  "/experiences/zagreb-tesla-demonstration-lab": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-20",
+    "countrySlug": "croatia",
+    "regionSlug": "zagreb"
+  },
+  "/experiences/rotterdam-depot-boijmans-art-storage": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-20",
+    "countrySlug": "netherlands",
+    "regionSlug": "rotterdam"
+  },
+  "/experiences/rotterdam-fenix-migration-warehouse": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-20",
+    "countrySlug": "netherlands",
+    "regionSlug": "rotterdam"
+  },
   "/experiences/montevideo-torres-garcia-museum": {
     "availableFrom": "2026-11-04",
     "reviewBy": "2027-01-27",
