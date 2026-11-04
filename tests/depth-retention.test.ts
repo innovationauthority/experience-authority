@@ -17,7 +17,7 @@ import { addPassportGuides, type PassportData } from "../src/lib/passport";
 
 test("Complete local chapters offer real contrasting experiences and planning constraints", () => {
   const resolved = resolveCityChapters(publicGuides);
-  assert.equal(resolved.length, 48);
+  assert.equal(resolved.length, 50);
   for (const chapter of resolved) {
     assert.ok(chapter.stops.length >= 2);
     assert.equal(
@@ -151,8 +151,8 @@ test("release dates are independent from source checks and expire out of the new
   assert.equal(recentGuideReleases(publicGuides, "2026-10-26").length, 270);
   assert.equal(recentGuideReleases(publicGuides, "2026-10-27").length, 306);
   assert.equal(recentGuideReleases(publicGuides, "2026-10-28").length, 306);
-  assert.equal(recentGuideReleases(publicGuides, "2026-11-08").length, 481);
-  assert.equal(recentGuideReleases(publicGuides, "2026-11-15").length, 463);
+  assert.equal(recentGuideReleases(publicGuides, "2026-11-08").length, 485);
+  assert.equal(recentGuideReleases(publicGuides, "2026-11-15").length, 467);
   assert.equal(publishedReleases([], "2026-09-13").length, 0);
   const changedChecks = publicGuides.map((item) => ({
     ...item,

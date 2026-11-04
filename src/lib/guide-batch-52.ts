@@ -162,7 +162,7 @@ const drafts: Draft[] = [
     duration: "About two hours for the booked marzipan session",
     participation: "Guided painting of an edible marzipan figure",
     access:
-      "Contact the organiser listed in Kalev's Confectionery Workshop section and obtain a dated confirmation before travelling. Specify marzipan rather than the separate chocolate-making or chocolate-painting classes. This is an ordinary public workshop enquiry, not a request for private factory access or an EA-arranged lesson.",
+      "Contact the organiser listed in Kalev's Confectionery Workshop section and obtain a dated confirmation before travelling. Specify marzipan rather than the separate chocolate-making or chocolate-painting classes. If you cannot join a group, check the separate Maiasmokk marzipan room for a public display and possible observation of a painter.",
     guideReview: review("public_programme", [
       [
         "Kalev: confectionery workshop",
@@ -173,6 +173,11 @@ const drafts: Draft[] = [
         "Visit Estonia: Kalev workshop",
         "https://visitestonia.com/en/kalev-confectionery-workshop-marzipan-and-chocolate",
         "Roseni 7, upstairs Rotermann workshop and available activities.",
+      ],
+      [
+        "Visit Estonia: Café Maiasmokk",
+        "https://visitestonia.com/en/cafe-maiasmokk",
+        "Separate public display at Pikk 16 when a workshop place is unavailable.",
       ],
     ]),
   },

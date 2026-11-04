@@ -1,3 +1,4 @@
+import { tallinnSeattleGuides } from "./guide-batch-73";
 import { destinationDayGuides } from "./guide-batch-72";
 import { montevideoDayGuides } from "./guide-batch-71";
 import { montevideoLasLlamadas } from "./guide-batch-70";
@@ -95,6 +96,7 @@ const common = {
 } as const;
 
 const publicGuideDrafts: PublicExperience[] = [
+  ...tallinnSeattleGuides,
   ...destinationDayGuides,
   ...montevideoDayGuides,
   montevideoLasLlamadas,

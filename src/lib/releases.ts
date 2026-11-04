@@ -34,6 +34,10 @@ export const guideReleases = [
   {
     date: "2026-11-04",
     slugs: [
+      "tallinn-lennusadam-lembit-submarine",
+      "tallinn-kalma-neighbourhood-sauna",
+      "seattle-ballard-locks-watch-a-lockage",
+      "seattle-fishermens-terminal-fish-counter",
       "zagreb-esplanade-baked-strukli",
       "zagreb-tesla-demonstration-lab",
       "rotterdam-depot-boijmans-art-storage",

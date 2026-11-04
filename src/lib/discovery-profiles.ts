@@ -55,6 +55,57 @@ export type DiscoveryProfile = {
 /** Editorial planning lenses, based on the scope and duration stated in each guide.
  * These are not live session lengths, availability or suitability guarantees. */
 export const discoveryProfiles: Record<string, DiscoveryProfile> = {
+  "tallinn-lennusadam-lembit-submarine": {
+    modes: ["watch-listen"],
+    time: "half-day",
+    keywords: [
+      "Tallinn",
+      "Kalamaja",
+      "Lennusadam",
+      "Lembit",
+      "Seaplane Harbour",
+      "submarine",
+      "maritime museum",
+    ],
+  },
+  "tallinn-kalma-neighbourhood-sauna": {
+    modes: ["slow-down"],
+    time: "own-pace",
+    keywords: [
+      "Tallinn",
+      "Kalamaja",
+      "Kalma Saun",
+      "bathhouse",
+      "public sauna",
+      "leil",
+    ],
+  },
+  "seattle-ballard-locks-watch-a-lockage": {
+    modes: ["outdoors", "watch-listen"],
+    time: "short",
+    keywords: [
+      "Seattle",
+      "Ballard Locks",
+      "Hiram Chittenden",
+      "fish ladder",
+      "Salmon Bay",
+      "ship canal",
+      "boats",
+    ],
+  },
+  "seattle-fishermens-terminal-fish-counter": {
+    modes: ["at-table", "outdoors"],
+    time: "short",
+    keywords: [
+      "Seattle",
+      "Fishermen's Terminal",
+      "Salmon Bay",
+      "Little Chinook's",
+      "fish and chips",
+      "fishing fleet",
+      "seafood",
+    ],
+  },
   "zagreb-esplanade-baked-strukli": {
     modes: ["at-table"],
     time: "short",

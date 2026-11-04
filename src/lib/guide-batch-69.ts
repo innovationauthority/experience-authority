@@ -1034,7 +1034,7 @@ const drafts = [
     kernel:
       "Arrive early enough to check in, then listen for how a live set changes when it is being made for people who are elsewhere.",
     access:
-      "Check KEXP’s live calendar for sessions marked open to the public. Registration is in person on the day, from 90 minutes beforehand, with limited space and a return deadline.",
+      "Check KEXP’s live calendar for sessions marked open to the public. Registration is in person on the day, from 90 minutes beforehand. Return to line up at least 15 minutes before the set. If no public set is available, check the separately listed Gathering Space hours.",
     duration: "Set times vary. Allow a check-in and waiting window.",
     participation:
       "Quiet audience viewing from the gallery at selected radio sessions.",
@@ -1052,12 +1052,17 @@ const drafts = [
       requiresSpecialPermission: false,
       checkedOn: "2026-11-04",
       reviewBy: "2026-12-04",
-      accessUrl: "https://www.kexp.org/events/public-studio-viewing/",
+      accessUrl: "https://www.kexp.org/visit/in-studio/",
       sources: [
         {
           title: "KEXP public in-studio viewing",
-          url: "https://www.kexp.org/events/public-studio-viewing/",
-          note: "Session availability, same-day registration and conduct.",
+          url: "https://www.kexp.org/visit/in-studio/",
+          note: "Current same-day ticket and return windows, accessibility and audience rules.",
+        },
+        {
+          title: "KEXP Gathering Space",
+          url: "https://www.kexp.org/visit/gathering-space/",
+          note: "Public opening information for a visit without a studio session.",
         },
         {
           title: "KEXP public in-studio calendar",

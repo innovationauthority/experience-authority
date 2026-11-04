@@ -16,6 +16,64 @@ export type CityChapter = {
 /** Authored local combinations. These are ideas to adapt, not timed or bookable packages. */
 export const cityChapters: readonly CityChapter[] = [
   {
+    slug: "tallinn",
+    name: "Tallinn",
+    country: "estonia",
+    regions: ["tallinn"],
+    title: "From a marzipan brush to a Kalamaja sauna",
+    intro:
+      "Paint a small marzipan figure in Rotermann, then give Tallinn’s seaplane hangar and its submarine the afternoon. End in Kalamaja with a short round of heat and time to cool down.",
+    pace: "Tuesday to Sunday fits the maritime museum through the winter. Set the day around a confirmed workshop and leave a lunch break before Lennusadam.",
+    planning:
+      "Ask Kalev whether you can join a two-hour session at Roseni 7. If it has no place, visit the marzipan room at Maiasmokk on Pikk 16 as an independent alternative. Check when the painter is present. Take lunch before setting aside at least two hours for Lennusadam. At Kalma, check the separate public sections and last entry. Book an hourly room directly if that format suits you better.",
+    stops: [
+      {
+        slug: "paint-a-small-marzipan-character-in-tallinn",
+        moment: "Morning in Rotermann",
+        why: "Start at a worktable with a brush if the session is confirmed. Keep the morning flexible if you are waiting for a group place.",
+      },
+      {
+        slug: "tallinn-lennusadam-lembit-submarine",
+        moment: "Afternoon in the seaplane hangar",
+        why: "Compare the sweep of the hangar with the space aboard Lembit. The exhibits and bridge give you a route even if you skip the submarine interior.",
+      },
+      {
+        slug: "tallinn-kalma-neighbourhood-sauna",
+        moment: "Wind down in Kalamaja",
+        why: "Take a short first round, cool down and decide whether you want another. Check which public room suits you before arriving.",
+      },
+    ],
+  },
+  {
+    slug: "seattle",
+    name: "Seattle",
+    country: "united-states",
+    regions: ["seattle"],
+    title: "A working canal, a fish counter and live radio",
+    intro:
+      "Follow a boat through the Ballard Locks, take lunch beside a fishing fleet and give Seattle’s independent radio station the last part of the day.",
+    pace: "Use the waterfront in daylight. Let KEXP’s public session and check-in time set the order, and allow travel between Ballard, Fishermen’s Terminal and Seattle Center.",
+    planning:
+      "Check the Army Corps notice for the chamber in use and arrange transport between the waterfront stops. The takeout counter and the indoor restaurant keep separate hours. If KEXP lists public studio viewing, allow for in-person check-in from 90 minutes before the set and line up again by 15 minutes before. On a day without a public set, use the Gathering Space during its posted opening hours.",
+    stops: [
+      {
+        slug: "seattle-ballard-locks-watch-a-lockage",
+        moment: "Morning on the ship canal",
+        why: "Watch the waterline against a boat’s hull if one comes through. Read the gates and chamber from the public path while you wait.",
+      },
+      {
+        slug: "seattle-fishermens-terminal-fish-counter",
+        moment: "Lunch at Fishermen’s Terminal",
+        why: "Look at the working boats from shore, then ask what fish is on the menu at Little Chinook’s.",
+      },
+      {
+        slug: "seattle-kexp-live-studio-viewing",
+        moment: "At Seattle Center, time it to KEXP",
+        why: "If the gallery opens for your set, watch for one cue between engineer and musicians. Otherwise, spend time in the station’s public Gathering Space.",
+      },
+    ],
+  },
+  {
     slug: "zagreb",
     name: "Zagreb",
     country: "croatia",

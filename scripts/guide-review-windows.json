@@ -1,4 +1,28 @@
 {
+  "/experiences/tallinn-lennusadam-lembit-submarine": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-20",
+    "countrySlug": "estonia",
+    "regionSlug": "tallinn"
+  },
+  "/experiences/tallinn-kalma-neighbourhood-sauna": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-20",
+    "countrySlug": "estonia",
+    "regionSlug": "tallinn"
+  },
+  "/experiences/seattle-ballard-locks-watch-a-lockage": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-20",
+    "countrySlug": "united-states",
+    "regionSlug": "seattle"
+  },
+  "/experiences/seattle-fishermens-terminal-fish-counter": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-20",
+    "countrySlug": "united-states",
+    "regionSlug": "seattle"
+  },
   "/experiences/zagreb-esplanade-baked-strukli": {
     "availableFrom": "2026-11-04",
     "reviewBy": "2027-01-20",
