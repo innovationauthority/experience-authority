@@ -1,4 +1,12 @@
 {
+  "/images/guides/aarhus-dokk1-public-library-tour.jpg": [
+    1600,
+    1071
+  ],
+  "/images/guides/aarhus-godsbanen-open-ceramics-workshop.jpg": [
+    780,
+    520
+  ],
   "/images/guides/addis-coffee-ceremony.jpg": [
     1800,
     1199
@@ -207,6 +215,10 @@
     1800,
     1196
   ],
+  "/images/guides/barcelona-port-olimpic-light-sailing.jpg": [
+    1280,
+    853
+  ],
   "/images/guides/barcelona-sant-pau.jpg": [
     1600,
     1067
@@ -278,6 +290,10 @@
   "/images/guides/bogota-catacion-plus.jpg": [
     1800,
     2400
+  ],
+  "/images/guides/bogota-cumbia-house-live-stage.jpg": [
+    1068,
+    712
   ],
   "/images/guides/bogota-tropicario-glasshouses.jpg": [
     1800,
@@ -387,6 +403,10 @@
     1800,
     1195
   ],
+  "/images/guides/buenos-aires-costanera-sur-wetland.jpg": [
+    1600,
+    1067
+  ],
   "/images/guides/buenos-aires-fileteado-introduction.jpg": [
     864,
     1080
@@ -414,6 +434,10 @@
   "/images/guides/busan-spa-land.jpg": [
     1180,
     786
+  ],
+  "/images/guides/cacheuta-termas-mendoza-spa.jpg": [
+    1080,
+    1349
   ],
   "/images/guides/cambridge-bell-ringing.jpg": [
     1920,
@@ -458,6 +482,10 @@
   "/images/guides/charleston-sweetgrass.png": [
     658,
     558
+  ],
+  "/images/guides/chiang-mai-naenna-backstrap-weaving.jpg": [
+    1600,
+    1067
   ],
   "/images/guides/chiang-mai-silver-ring.jpg": [
     2400,
@@ -551,6 +579,10 @@
     1920,
     1200
   ],
+  "/images/guides/dessau-bauhaus-building-workshop-wing.jpg": [
+    1600,
+    1000
+  ],
   "/images/guides/detva-fujara-museum.jpg": [
     649,
     800
@@ -566,6 +598,10 @@
   "/images/guides/doha-coffee-ceremony.jpg": [
     1280,
     1280
+  ],
+  "/images/guides/doha-national-museum-desert-rose.jpg": [
+    1600,
+    1064
   ],
   "/images/guides/doolin-fiddlers.jpg": [
     1600,
@@ -659,6 +695,10 @@
     1650,
     2200
   ],
+  "/images/guides/fingal-peninsula-bath-house.jpg": [
+    1600,
+    1023
+  ],
   "/images/guides/florence-galileo-telescopes.jpg": [
     1800,
     1197
@@ -747,6 +787,10 @@
     1920,
     1280
   ],
+  "/images/guides/hampton-court-rsn-embroidery-day.jpg": [
+    1124,
+    718
+  ],
   "/images/guides/hanmer-springs-thermal-rock-pools.jpg": [
     642,
     420
@@ -803,6 +847,10 @@
     1800,
     972
   ],
+  "/images/guides/ho-chi-minh-city-ao-show-bamboo.jpg": [
+    1600,
+    1066
+  ],
   "/images/guides/hoi-an-quiet-teahouse.jpg": [
     1800,
     1013
@@ -826,6 +874,10 @@
   "/images/guides/hong-kong-mahjong-class.jpg": [
     1800,
     1350
+  ],
+  "/images/guides/hong-kong-mplus-everyday-design.jpg": [
+    900,
+    1600
   ],
   "/images/guides/hong-kong-nan-lian-pause.jpg": [
     1800,
@@ -938,6 +990,10 @@
   "/images/guides/kanazawa-tsuda-mizuhiki.jpg": [
     1800,
     1201
+  ],
+  "/images/guides/karuizawa-tombo-no-yu-forest-bath.jpg": [
+    1140,
+    760
   ],
   "/images/guides/kasukabe-flood-chamber.jpg": [
     2048,
@@ -1099,6 +1155,10 @@
     1800,
     2250
   ],
+  "/images/guides/lima-central-ecosystems-menu.jpg": [
+    1280,
+    960
+  ],
   "/images/guides/lima-maido-nikkei-menu.jpg": [
     1040,
     1046
@@ -1214,6 +1274,10 @@
   "/images/guides/london-dennis-severs-silent.jpg": [
     1800,
     2700
+  ],
+  "/images/guides/london-f1-arcade-first-simulator-race.jpg": [
+    1600,
+    1067
   ],
   "/images/guides/london-gather-glass-bauble.jpg": [
     1800,
@@ -1363,6 +1427,10 @@
     1800,
     1012
   ],
+  "/images/guides/medellin-botanical-garden-orquideorama.jpg": [
+    1280,
+    960
+  ],
   "/images/guides/medellin-silletero-farm.jpg": [
     2200,
     1467
@@ -1467,9 +1535,17 @@
     1920,
     1080
   ],
+  "/images/guides/milan-triennale-italian-design.jpg": [
+    1280,
+    956
+  ],
   "/images/guides/mindelo-le-metalo-live.webp": [
     1920,
     1280
+  ],
+  "/images/guides/minneapolis-mill-city-flour-tower.jpg": [
+    1600,
+    1067
   ],
   "/images/guides/modena-giusti-barrels.jpg": [
     1800,
@@ -1695,6 +1771,10 @@
     1800,
     1350
   ],
+  "/images/guides/oslo-bla-frank-znort-sunday.jpg": [
+    1600,
+    1436
+  ],
   "/images/guides/oslo-deichman-reading.jpg": [
     1800,
     1350
@@ -1714,6 +1794,10 @@
   "/images/guides/oslo-kok-shared-sauna.jpg": [
     750,
     750
+  ],
+  "/images/guides/oslo-toyenbadet-public-pool.jpg": [
+    1600,
+    900
   ],
   "/images/guides/otake-simose-movable-galleries.jpg": [
     1600,
@@ -1738,6 +1822,10 @@
   "/images/guides/panama-biomuseo-panamarama.jpg": [
     1600,
     900
+  ],
+  "/images/guides/panama-city-metropolitan-park-cedro.jpg": [
+    707,
+    426
   ],
   "/images/guides/panauti-community-table.jpg": [
     1080,
@@ -1782,6 +1870,10 @@
   "/images/guides/paris-gobelins-workshop.jpg": [
     1000,
     560
+  ],
+  "/images/guides/paris-lecole-gouache-jewelry-light.jpg": [
+    1280,
+    853
   ],
   "/images/guides/paris-music-museum-listening.jpg": [
     1800,
@@ -1938,6 +2030,10 @@
   "/images/guides/reykjavik-sundholl-pool.jpg": [
     1200,
     686
+  ],
+  "/images/guides/riehen-beyeler-look-again.jpg": [
+    1600,
+    1200
   ],
   "/images/guides/rio-botanic-arboretum.jpg": [
     2400,
@@ -2271,6 +2367,10 @@
     1600,
     900
   ],
+  "/images/guides/stockholm-frantzen-house-menu.jpg": [
+    1280,
+    853
+  ],
   "/images/guides/stockholm-hallwyl-house.jpg": [
     1800,
     1224
@@ -2282,6 +2382,10 @@
   "/images/guides/stockholm-ostermalm-counter-lunch.jpg": [
     1800,
     1202
+  ],
+  "/images/guides/stockholm-radhuset-underground-boule.jpg": [
+    1200,
+    630
   ],
   "/images/guides/stockholm-vasa-tour.jpg": [
     1500,
@@ -2403,6 +2507,10 @@
     1800,
     1013
   ],
+  "/images/guides/tokyo-mori-mariko-mori-all-that-shines.jpg": [
+    1600,
+    1193
+  ],
   "/images/guides/tokyo-narisawa-satoyama.jpg": [
     1200,
     900
@@ -2430,6 +2538,10 @@
   "/images/guides/tokyo-sokichi-cut-glass.jpg": [
     2000,
     1333
+  ],
+  "/images/guides/tokyo-spo-dori-batting-cages.jpg": [
+    1024,
+    768
   ],
   "/images/guides/tokyo-suntory-hall-concert.jpg": [
     800,
@@ -2642,6 +2754,10 @@
   "/images/guides/xochimilco-chinampa-trajinera.jpg": [
     2400,
     3000
+  ],
+  "/images/guides/yoichi-nikka-coal-fired-stills.jpg": [
+    1600,
+    1067
   ],
   "/images/guides/york-chocolate.jpg": [
     2400,

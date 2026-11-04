@@ -1,6 +1,35 @@
 /** Content hashes keep replaced photographs consistent across responsive image caches.
  * The media test requires an update when an original file changes. */
 export const imageRevisions: Record<string, string> = {
+  "/images/guides/lima-central-ecosystems-menu.jpg": "d8c614c82241",
+  "/images/guides/yoichi-nikka-coal-fired-stills.jpg": "8fb3a78f3472",
+  "/images/guides/stockholm-frantzen-house-menu.jpg": "bc05a8e529c2",
+  "/images/guides/hong-kong-mplus-everyday-design.jpg": "19434c8bf515",
+  "/images/guides/tokyo-mori-mariko-mori-all-that-shines.jpg": "0baf63ebbc41",
+  "/images/guides/riehen-beyeler-look-again.jpg": "02be2542c67a",
+  "/images/guides/doha-national-museum-desert-rose.jpg": "043c9ecbcbe3",
+  "/images/guides/milan-triennale-italian-design.jpg": "eae335a34347",
+  "/images/guides/dessau-bauhaus-building-workshop-wing.jpg": "a2b5fd88374d",
+  "/images/guides/aarhus-dokk1-public-library-tour.jpg": "78440954870e",
+  "/images/guides/chiang-mai-naenna-backstrap-weaving.jpg": "a01b717b8c47",
+  "/images/guides/hampton-court-rsn-embroidery-day.jpg": "7f2386e64901",
+  "/images/guides/paris-lecole-gouache-jewelry-light.jpg": "da8a0abf8a83",
+  "/images/guides/tokyo-spo-dori-batting-cages.jpg": "af13f544cf29",
+  "/images/guides/barcelona-port-olimpic-light-sailing.jpg": "9cdf6f231691",
+  "/images/guides/stockholm-radhuset-underground-boule.jpg": "c7a379d6056d",
+  "/images/guides/panama-city-metropolitan-park-cedro.jpg": "4509586ea1cd",
+  "/images/guides/buenos-aires-costanera-sur-wetland.jpg": "6eaa1377ba71",
+  "/images/guides/medellin-botanical-garden-orquideorama.jpg": "304a76d571ee",
+  "/images/guides/karuizawa-tombo-no-yu-forest-bath.jpg": "7fa46f941378",
+  "/images/guides/fingal-peninsula-bath-house.jpg": "28687902e0e4",
+  "/images/guides/bogota-cumbia-house-live-stage.jpg": "e195093640de",
+  "/images/guides/ho-chi-minh-city-ao-show-bamboo.jpg": "eae0e605c620",
+  "/images/guides/oslo-bla-frank-znort-sunday.jpg": "bf3f53f603bf",
+  "/images/guides/cacheuta-termas-mendoza-spa.jpg": "c77fabf8981b",
+  "/images/guides/minneapolis-mill-city-flour-tower.jpg": "f51f6f4f2aeb",
+  "/images/guides/aarhus-godsbanen-open-ceramics-workshop.jpg": "bc638f8218c8",
+  "/images/guides/oslo-toyenbadet-public-pool.jpg": "72c58f8c7019",
+  "/images/guides/london-f1-arcade-first-simulator-race.jpg": "f5c90686b3c6",
   "/images/guides/bordeaux-cite-du-vin-tasting.jpg": "d50be8928705",
   "/images/guides/healesville-four-pillars-distillery-tour.jpg": "9b6fa20411aa",
   "/images/guides/pringy-gruyere-dairy.jpg": "303cd379ccfd",
@@ -672,7 +701,7 @@ export const imageRevisions: Record<string, string> = {
 
 // A single manifest fingerprint fits Next's bounded localPatterns allowlist.
 // Tests require it to change when any original is added or replaced.
-export const imageEdition = "784d653a86a2";
+export const imageEdition = "df3f4b0e5d78";
 
 export function imageSource(src: string) {
   return imageRevisions[src] ? `${src}?v=${imageEdition}` : src;

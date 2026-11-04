@@ -134,6 +134,11 @@ export const interests: readonly Interest[] = [
 ];
 /** Visitor navigation is independent of the six historical publishing allocations. */
 const designGuideSlugs = [
+  "milan-triennale-italian-design",
+  "dessau-bauhaus-building-workshop-wing",
+  "aarhus-dokk1-public-library-tour",
+  "minneapolis-mill-city-flour-tower",
+
   "osaka-maishima-waste-plant-tour",
   "rio-museu-do-amanha-futures",
   "ghent-design-museum-new-wing",

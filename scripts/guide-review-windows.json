@@ -1,4 +1,178 @@
 {
+  "/experiences/lima-central-ecosystems-menu": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "peru",
+    "regionSlug": "lima"
+  },
+  "/experiences/yoichi-nikka-coal-fired-stills": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "japan",
+    "regionSlug": "hokkaido"
+  },
+  "/experiences/stockholm-frantzen-house-menu": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "sweden",
+    "regionSlug": "stockholm"
+  },
+  "/experiences/hong-kong-mplus-everyday-design": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-09",
+    "countrySlug": "hong-kong",
+    "regionSlug": "kowloon"
+  },
+  "/experiences/tokyo-mori-mariko-mori-all-that-shines": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "japan",
+    "regionSlug": "tokyo"
+  },
+  "/experiences/riehen-beyeler-look-again": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "switzerland",
+    "regionSlug": "basel"
+  },
+  "/experiences/doha-national-museum-desert-rose": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "qatar",
+    "regionSlug": "doha"
+  },
+  "/experiences/milan-triennale-italian-design": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "italy",
+    "regionSlug": "milan"
+  },
+  "/experiences/dessau-bauhaus-building-workshop-wing": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "germany",
+    "regionSlug": "dessau"
+  },
+  "/experiences/aarhus-dokk1-public-library-tour": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "denmark",
+    "regionSlug": "aarhus"
+  },
+  "/experiences/chiang-mai-naenna-backstrap-weaving": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-15",
+    "countrySlug": "thailand",
+    "regionSlug": "chiang-mai"
+  },
+  "/experiences/hampton-court-rsn-embroidery-day": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-12",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "london"
+  },
+  "/experiences/paris-lecole-gouache-jewelry-light": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-15",
+    "countrySlug": "france",
+    "regionSlug": "paris"
+  },
+  "/experiences/tokyo-spo-dori-batting-cages": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "japan",
+    "regionSlug": "tokyo"
+  },
+  "/experiences/barcelona-port-olimpic-light-sailing": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "spain",
+    "regionSlug": "barcelona"
+  },
+  "/experiences/stockholm-radhuset-underground-boule": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "sweden",
+    "regionSlug": "stockholm"
+  },
+  "/experiences/panama-city-metropolitan-park-cedro": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "panama",
+    "regionSlug": "panama-city"
+  },
+  "/experiences/buenos-aires-costanera-sur-wetland": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "argentina",
+    "regionSlug": "buenos-aires"
+  },
+  "/experiences/medellin-botanical-garden-orquideorama": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "colombia",
+    "regionSlug": "medellin"
+  },
+  "/experiences/karuizawa-tombo-no-yu-forest-bath": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "japan",
+    "regionSlug": "karuizawa"
+  },
+  "/experiences/fingal-peninsula-bath-house": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "australia",
+    "regionSlug": "mornington-peninsula"
+  },
+  "/experiences/bogota-cumbia-house-live-stage": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-13",
+    "countrySlug": "colombia",
+    "regionSlug": "bogota"
+  },
+  "/experiences/ho-chi-minh-city-ao-show-bamboo": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-11-30",
+    "countrySlug": "vietnam",
+    "regionSlug": "ho-chi-minh-city"
+  },
+  "/experiences/oslo-bla-frank-znort-sunday": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-20",
+    "countrySlug": "norway",
+    "regionSlug": "oslo"
+  },
+  "/experiences/cacheuta-termas-mendoza-spa": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "argentina",
+    "regionSlug": "mendoza"
+  },
+  "/experiences/minneapolis-mill-city-flour-tower": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "united-states",
+    "regionSlug": "minneapolis"
+  },
+  "/experiences/aarhus-godsbanen-open-ceramics-workshop": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "denmark",
+    "regionSlug": "aarhus"
+  },
+  "/experiences/oslo-toyenbadet-public-pool": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "norway",
+    "regionSlug": "oslo"
+  },
+  "/experiences/london-f1-arcade-first-simulator-race": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "london"
+  },
   "/experiences/bordeaux-cite-du-vin-tasting": {
     "availableFrom": "2026-11-04",
     "reviewBy": "2027-01-15",

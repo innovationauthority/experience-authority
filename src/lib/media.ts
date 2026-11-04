@@ -1,3 +1,4 @@
+import { mediaBatch68 } from "./media-batch-68";
 import { mediaBatch67 } from "./media-batch-67";
 import { mediaBatch66 } from "./media-batch-66";
 import { mediaBatch65 } from "./media-batch-65";
@@ -78,6 +79,7 @@ export type GuideMedia = {
 };
 
 export const publicGuideMedia: readonly GuideMedia[] = [
+  ...mediaBatch68,
   ...mediaBatch67,
   ...mediaBatch66,
   ...mediaBatch65,

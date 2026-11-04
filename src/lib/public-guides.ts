@@ -1,3 +1,4 @@
+import { guideBatch68 } from "./guide-batch-68";
 import { guideBatch67 } from "./guide-batch-67";
 import { guideBatch66 } from "./guide-batch-66";
 import { guideBatch65 } from "./guide-batch-65";
@@ -90,6 +91,7 @@ const common = {
 } as const;
 
 const publicGuideDrafts: PublicExperience[] = [
+  ...guideBatch68,
   ...guideBatch67,
   ...guideBatch66,
   ...guideBatch65,
