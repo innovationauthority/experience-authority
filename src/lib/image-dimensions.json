@@ -63,6 +63,10 @@
     1350,
     900
   ],
+  "/images/guides/amsterdam-rijksmuseum-weekend-drawing-lab.jpg": [
+    1280,
+    853
+  ],
   "/images/guides/antwerp-momu-silhouettes.jpg": [
     1800,
     1141
@@ -227,6 +231,10 @@
     2000,
     1333
   ],
+  "/images/guides/basel-paper-mill-pull-a-sheet.jpg": [
+    960,
+    1280
+  ],
   "/images/guides/bath-thermae-welcome.jpg": [
     1400,
     600
@@ -283,6 +291,10 @@
     1800,
     1348
   ],
+  "/images/guides/bilbao-guggenheim-matter-of-time.jpg": [
+    1280,
+    960
+  ],
   "/images/guides/billund-lego-test-driver.jpg": [
     1200,
     672
@@ -326,6 +338,10 @@
   "/images/guides/brasilia-clube-do-choro-live.jpg": [
     1080,
     720
+  ],
+  "/images/guides/broc-maison-cailler-chocolate-tasting.jpg": [
+    1280,
+    960
   ],
   "/images/guides/brooklyn-japanese-garden.jpg": [
     1800,
@@ -431,6 +447,10 @@
     1400,
     2108
   ],
+  "/images/guides/bundeena-jibbon-headland-boardwalk.jpg": [
+    1600,
+    1200
+  ],
   "/images/guides/busan-spa-land.jpg": [
     1180,
     786
@@ -454,6 +474,10 @@
   "/images/guides/cape-town-boulders-penguin-boardwalk.jpg": [
     1280,
     805
+  ],
+  "/images/guides/cape-town-gold-djembe-before-dinner.jpg": [
+    1600,
+    1200
   ],
   "/images/guides/cape-town-granger-kayak.jpg": [
     1800,
@@ -623,6 +647,10 @@
     2400,
     1800
   ],
+  "/images/guides/dublin-guinness-storehouse-grain-to-glass.jpg": [
+    1280,
+    722
+  ],
   "/images/guides/dublin-ifi-archive-lunchtime.jpg": [
     1800,
     1350
@@ -755,9 +783,17 @@
     1500,
     996
   ],
+  "/images/guides/glasgow-oran-mor-lunchtime-play.jpg": [
+    1600,
+    1200
+  ],
   "/images/guides/glasgow-sloans-ceilidh.jpg": [
     1800,
     1125
+  ],
+  "/images/guides/goyang-motorstudio-car-safety-design.jpg": [
+    1280,
+    960
   ],
   "/images/guides/granada-hammam-water.jpg": [
     1773,
@@ -830,6 +866,10 @@
   "/images/guides/helsinki-aalto-house.jpg": [
     1800,
     1083
+  ],
+  "/images/guides/helsinki-allas-harbour-pool.jpg": [
+    1280,
+    960
   ],
   "/images/guides/helsinki-loyly-shore.jpg": [
     1280,
@@ -1151,6 +1191,10 @@
     2400,
     3593
   ],
+  "/images/guides/las-vegas-pinball-hall-machines.jpg": [
+    1280,
+    960
+  ],
   "/images/guides/leave-room-for-devotion.jpg": [
     1800,
     2250
@@ -1243,6 +1287,10 @@
     1200,
     800
   ],
+  "/images/guides/locarno-lido-lake-thermal-pool.jpg": [
+    1600,
+    1000
+  ],
   "/images/guides/lofoten-skrei-exhibition.jpg": [
     1200,
     800
@@ -1294,6 +1342,10 @@
   "/images/guides/london-lcba-foundation.jpg": [
     1280,
     1280
+  ],
+  "/images/guides/london-lee-valley-track-cycling-taster.jpg": [
+    1280,
+    854
   ],
   "/images/guides/london-leighton-house.jpg": [
     1800,
@@ -1378,6 +1430,10 @@
   "/images/guides/mae-rim-poopoopaper-craft.jpg": [
     1800,
     2400
+  ],
+  "/images/guides/mainz-gutenberg-druckladen-type-and-ink.jpg": [
+    1302,
+    868
   ],
   "/images/guides/make-room-in-the-steam.jpg": [
     2322,
@@ -1558,6 +1614,10 @@
   "/images/guides/montevideo-candombe.jpg": [
     2200,
     1466
+  ],
+  "/images/guides/montreal-aura-notre-dame-light-and-organ.jpg": [
+    1280,
+    886
   ],
   "/images/guides/montreal-bota-bota-ferry.jpg": [
     1600,
@@ -1927,6 +1987,10 @@
     1800,
     2604
   ],
+  "/images/guides/portland-oaks-park-public-roller-skate.jpg": [
+    1280,
+    720
+  ],
   "/images/guides/porto-bolhao-market.jpg": [
     2000,
     1334
@@ -2151,6 +2215,10 @@
     1800,
     2400
   ],
+  "/images/guides/santos-coffee-exchange-cup.jpg": [
+    1280,
+    960
+  ],
   "/images/guides/sao-paulo-sesc-pompeia-evening.jpg": [
     1800,
     1200
@@ -2166,6 +2234,10 @@
   "/images/guides/sarajevo-sevdah-house.jpg": [
     1920,
     1082
+  ],
+  "/images/guides/seattle-kexp-live-studio-viewing.jpg": [
+    1280,
+    850
   ],
   "/images/guides/sejnane-pottery.jpg": [
     960,
@@ -2210,6 +2282,10 @@
   "/images/guides/seoul-lotte-world-indoor-outdoor.jpg": [
     1800,
     1350
+  ],
+  "/images/guides/seoul-magok-botanic-park-glasshouse.jpg": [
+    1280,
+    960
   ],
   "/images/guides/seoul-makgeolli-class.jpg": [
     1600,
@@ -2279,6 +2355,10 @@
     1600,
     899
   ],
+  "/images/guides/singapore-artscience-future-world-drawing.jpg": [
+    1280,
+    853
+  ],
   "/images/guides/singapore-batik-tulis-workshop.jpg": [
     1536,
     2048
@@ -2326,6 +2406,10 @@
   "/images/guides/singapore-orchid-garden.jpg": [
     2400,
     1600
+  ],
+  "/images/guides/singapore-red-dot-compare-design-objects.jpg": [
+    1024,
+    683
   ],
   "/images/guides/singapore-sungei-buloh.jpg": [
     938,
@@ -2607,6 +2691,10 @@
     1160,
     680
   ],
+  "/images/guides/uster-greifensee-barrel-sauna.jpg": [
+    1080,
+    1080
+  ],
   "/images/guides/valencia-albufera-day-boat.jpg": [
     1140,
     709
@@ -2654,6 +2742,10 @@
   "/images/guides/vancouver-nitobe-garden.jpg": [
     1800,
     1200
+  ],
+  "/images/guides/vancouver-pacific-spirit-forest-trails.jpg": [
+    1280,
+    853
   ],
   "/images/guides/vancouver-seabus-crossing.jpg": [
     1800,
@@ -2750,6 +2842,10 @@
   "/images/guides/wilderness-touw-canoe.jpg": [
     1600,
     869
+  ],
+  "/images/guides/wolfsburg-autostadt-car-tower.jpg": [
+    1280,
+    1249
   ],
   "/images/guides/xochimilco-chinampa-trajinera.jpg": [
     2400,

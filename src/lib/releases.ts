@@ -1,3 +1,4 @@
+import { discoveryBatch69 } from "./discovery-batch-69";
 import { discoveryBatch68 } from "./discovery-batch-68";
 import { discoveryBatch67 } from "./discovery-batch-67";
 import { discoveryBatch66 } from "./discovery-batch-66";
@@ -32,7 +33,11 @@ import { edition20261027 } from "./discovery-batch-58";
 export const guideReleases = [
   {
     date: "2026-11-04",
-    slugs: [...Object.keys(discoveryBatch68), ...Object.keys(discoveryBatch67)],
+    slugs: [
+      ...Object.keys(discoveryBatch69),
+      ...Object.keys(discoveryBatch68),
+      ...Object.keys(discoveryBatch67),
+    ],
   },
   {
     date: "2026-11-03",

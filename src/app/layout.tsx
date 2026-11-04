@@ -19,6 +19,7 @@ import { PassportProvider } from "@/components/passport-provider";
 import { demoMode, getExperiences } from "@/lib/data";
 import { analyticsMeasurementId } from "@/lib/analytics";
 import { AnalyticsConsent } from "@/components/analytics-consent";
+import { RouteMotion } from "@/components/route-motion";
 
 const aeonik = localFont({
   src: [
@@ -82,7 +83,9 @@ export default async function RootLayout({
             </aside>
           )}
           <Header />
-          <main id="main">{children}</main>
+          <main id="main">
+            <RouteMotion>{children}</RouteMotion>
+          </main>
           {measurementId && <AnalyticsConsent measurementId={measurementId} />}
           <Footer analyticsAvailable={Boolean(measurementId)} />
         </PassportProvider>

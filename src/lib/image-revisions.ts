@@ -1,6 +1,33 @@
 /** Content hashes keep replaced photographs consistent across responsive image caches.
  * The media test requires an update when an original file changes. */
 export const imageRevisions: Record<string, string> = {
+  "/images/guides/broc-maison-cailler-chocolate-tasting.jpg": "aade61251402",
+  "/images/guides/santos-coffee-exchange-cup.jpg": "310b50fec3a5",
+  "/images/guides/dublin-guinness-storehouse-grain-to-glass.jpg":
+    "7dec6c109e64",
+  "/images/guides/montreal-aura-notre-dame-light-and-organ.jpg": "1bbb6238c15d",
+  "/images/guides/singapore-artscience-future-world-drawing.jpg":
+    "8a8ae9e866e8",
+  "/images/guides/bilbao-guggenheim-matter-of-time.jpg": "7442d7bc750b",
+  "/images/guides/singapore-red-dot-compare-design-objects.jpg": "495deb1f7748",
+  "/images/guides/goyang-motorstudio-car-safety-design.jpg": "73001af30875",
+  "/images/guides/wolfsburg-autostadt-car-tower.jpg": "bd5ae7ab5814",
+  "/images/guides/basel-paper-mill-pull-a-sheet.jpg": "eea83bddb1fb",
+  "/images/guides/amsterdam-rijksmuseum-weekend-drawing-lab.jpg":
+    "4c84f501ad2f",
+  "/images/guides/mainz-gutenberg-druckladen-type-and-ink.jpg": "411a708de264",
+  "/images/guides/london-lee-valley-track-cycling-taster.jpg": "ca214f625718",
+  "/images/guides/las-vegas-pinball-hall-machines.jpg": "25337d53138c",
+  "/images/guides/portland-oaks-park-public-roller-skate.jpg": "144b4890f7a0",
+  "/images/guides/seoul-magok-botanic-park-glasshouse.jpg": "749d74701a0f",
+  "/images/guides/vancouver-pacific-spirit-forest-trails.jpg": "8060c443f646",
+  "/images/guides/bundeena-jibbon-headland-boardwalk.jpg": "12f2c2ac5599",
+  "/images/guides/locarno-lido-lake-thermal-pool.jpg": "6253e2fe7b9b",
+  "/images/guides/helsinki-allas-harbour-pool.jpg": "e73f8839efcb",
+  "/images/guides/cape-town-gold-djembe-before-dinner.jpg": "1d236902e7c7",
+  "/images/guides/seattle-kexp-live-studio-viewing.jpg": "e4d688e32030",
+  "/images/guides/glasgow-oran-mor-lunchtime-play.jpg": "1b80e730292d",
+  "/images/guides/uster-greifensee-barrel-sauna.jpg": "e68ee3bd6a06",
   "/images/guides/lima-central-ecosystems-menu.jpg": "d8c614c82241",
   "/images/guides/yoichi-nikka-coal-fired-stills.jpg": "8fb3a78f3472",
   "/images/guides/stockholm-frantzen-house-menu.jpg": "bc05a8e529c2",
@@ -701,7 +728,7 @@ export const imageRevisions: Record<string, string> = {
 
 // A single manifest fingerprint fits Next's bounded localPatterns allowlist.
 // Tests require it to change when any original is added or replaced.
-export const imageEdition = "df3f4b0e5d78";
+export const imageEdition = "3bbeea9576b2";
 
 export function imageSource(src: string) {
   return imageRevisions[src] ? `${src}?v=${imageEdition}` : src;

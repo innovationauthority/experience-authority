@@ -134,6 +134,10 @@ export const interests: readonly Interest[] = [
 ];
 /** Visitor navigation is independent of the six historical publishing allocations. */
 const designGuideSlugs = [
+  "singapore-red-dot-compare-design-objects",
+  "goyang-motorstudio-car-safety-design",
+  "wolfsburg-autostadt-car-tower",
+
   "milan-triennale-italian-design",
   "dessau-bauhaus-building-workshop-wing",
   "aarhus-dokk1-public-library-tour",
@@ -1432,6 +1436,10 @@ const additionalRegionNames: Readonly<Record<string, string>> = {
   "united-kingdom/bath": "Bath",
   "united-kingdom/glasgow": "Glasgow",
   "switzerland/baden": "Baden",
+  "switzerland/basel": "Basel",
+  "switzerland/gruyeres": "La Gruyère",
+  "switzerland/ticino": "Ticino",
+  "switzerland/zurich": "Zürich area",
   "switzerland/lucerne": "Lucerne",
   "norway/oslo": "Oslo",
   "france/arcachon-bay": "Arcachon Bay",

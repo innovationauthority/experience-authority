@@ -1,4 +1,148 @@
 {
+  "/experiences/broc-maison-cailler-chocolate-tasting": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "switzerland",
+    "regionSlug": "gruyeres"
+  },
+  "/experiences/santos-coffee-exchange-cup": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "brazil",
+    "regionSlug": "santos"
+  },
+  "/experiences/dublin-guinness-storehouse-grain-to-glass": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "ireland",
+    "regionSlug": "dublin"
+  },
+  "/experiences/montreal-aura-notre-dame-light-and-organ": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-19",
+    "countrySlug": "canada",
+    "regionSlug": "montreal"
+  },
+  "/experiences/singapore-artscience-future-world-drawing": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "singapore",
+    "regionSlug": "singapore"
+  },
+  "/experiences/bilbao-guggenheim-matter-of-time": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "spain",
+    "regionSlug": "bilbao"
+  },
+  "/experiences/singapore-red-dot-compare-design-objects": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "singapore",
+    "regionSlug": "singapore"
+  },
+  "/experiences/goyang-motorstudio-car-safety-design": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "south-korea",
+    "regionSlug": "goyang"
+  },
+  "/experiences/wolfsburg-autostadt-car-tower": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "germany",
+    "regionSlug": "wolfsburg"
+  },
+  "/experiences/basel-paper-mill-pull-a-sheet": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "switzerland",
+    "regionSlug": "basel"
+  },
+  "/experiences/amsterdam-rijksmuseum-weekend-drawing-lab": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "netherlands",
+    "regionSlug": "amsterdam"
+  },
+  "/experiences/mainz-gutenberg-druckladen-type-and-ink": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-15",
+    "countrySlug": "germany",
+    "regionSlug": "mainz"
+  },
+  "/experiences/london-lee-valley-track-cycling-taster": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "london"
+  },
+  "/experiences/las-vegas-pinball-hall-machines": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "united-states",
+    "regionSlug": "las-vegas"
+  },
+  "/experiences/portland-oaks-park-public-roller-skate": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "united-states",
+    "regionSlug": "portland"
+  },
+  "/experiences/seoul-magok-botanic-park-glasshouse": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "south-korea",
+    "regionSlug": "seoul"
+  },
+  "/experiences/vancouver-pacific-spirit-forest-trails": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "canada",
+    "regionSlug": "vancouver"
+  },
+  "/experiences/bundeena-jibbon-headland-boardwalk": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "australia",
+    "regionSlug": "bundeena"
+  },
+  "/experiences/locarno-lido-lake-thermal-pool": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "switzerland",
+    "regionSlug": "ticino"
+  },
+  "/experiences/helsinki-allas-harbour-pool": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "finland",
+    "regionSlug": "helsinki"
+  },
+  "/experiences/cape-town-gold-djembe-before-dinner": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "south-africa",
+    "regionSlug": "cape-town"
+  },
+  "/experiences/seattle-kexp-live-studio-viewing": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-04",
+    "countrySlug": "united-states",
+    "regionSlug": "seattle"
+  },
+  "/experiences/glasgow-oran-mor-lunchtime-play": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2026-12-12",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "glasgow"
+  },
+  "/experiences/uster-greifensee-barrel-sauna": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-15",
+    "countrySlug": "switzerland",
+    "regionSlug": "zurich"
+  },
   "/experiences/lima-central-ecosystems-menu": {
     "availableFrom": "2026-11-04",
     "reviewBy": "2027-01-15",
