@@ -90,9 +90,11 @@ export default async function Experience({ params, searchParams }: Props) {
       {structuredData && <StructuredData data={structuredData} />}
       <div className="detail-toolbar wrap">
         <nav aria-label="Breadcrumb">
-          <Link href={returnTo || "/explore"}>
-            {returnTo ? "← Back to destination" : "← Back to Compass"}
-          </Link>
+          {returnTo ? (
+            <a href={returnTo}>← Back to destination</a>
+          ) : (
+            <Link href="/explore">← Back to Compass</Link>
+          )}
         </nav>
         <div className="detail-toolbar-actions">
           <ShareButton

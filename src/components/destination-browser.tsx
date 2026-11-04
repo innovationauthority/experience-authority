@@ -2,7 +2,7 @@
 
 import { useSearchParams } from "next/navigation";
 import { useState } from "react";
-import { interestForSlug, matchesInterest, type Field } from "@/lib/catalog";
+import { interestForSlug, matchesInterest } from "@/lib/catalog";
 import {
   discoveryProfiles,
   timeFits,
