@@ -165,7 +165,7 @@ test("visitor roles, timed programmes and important access limitations remain ex
 test("three complementary local chapters remain complete, sourced and separately planned", () => {
   const current = publicGuides.filter((g) => canPublishGuide(g, "2026-10-21"));
   const chapters = resolveCityChapters(current);
-  assert.equal(cityChapters.length, 45);
+  assert.equal(cityChapters.length, 46);
   assert.equal(chapters.length, 44);
   for (const name of ["brussels", "stockholm", "san-francisco"]) {
     const c = chapters.find((c) => c.slug === name)!;

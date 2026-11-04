@@ -16,6 +16,40 @@ export type CityChapter = {
 /** Authored local combinations. These are ideas to adapt, not timed or bookable packages. */
 export const cityChapters: readonly CityChapter[] = [
   {
+    slug: "montevideo",
+    name: "Montevideo",
+    country: "uruguay",
+    regions: ["montevideo"],
+    title: "One day from Ciudad Vieja to the Río de la Plata",
+    intro:
+      "Read a Torres García grid on pedestrian Sarandí, watch lunch take shape over a parrilla and take an afternoon look inside Teatro Solís. Then follow the public shore from Plaza España to Playa Ramírez.",
+    pace: "Allow a full day from the old city to the shore. Wednesday through Sunday is the best fit for all four stops. Anchor lunch and the walk around the theatre’s afternoon tour.",
+    planning:
+      "Check the dedicated Solís tour schedule and language first. The museum and lunch can move around that slot. After the tour, head to Plaza España and start along the Rambla with daylight left. If the theatre tour is off or the weather shortens the walk, keep the other stops and start at Playa Ramírez for a shorter shore visit. Las Llamadas is a separate evening option on its announced February dates. Check parade arrangements before adding it.",
+    stops: [
+      {
+        slug: "montevideo-torres-garcia-museum",
+        moment: "Morning on Sarandí",
+        why: "Give yourself an hour to read how lines and signs work together in Torres García’s art. The museum lists daily opening, with holiday exceptions.",
+      },
+      {
+        slug: "montevideo-mercado-del-puerto-parrilla",
+        moment: "Lunch by the port",
+        why: "Walk towards the port and look for a counter beside an open grill. Leave room for a wait and a leisurely lunch.",
+      },
+      {
+        slug: "montevideo-teatro-solis-guided-tour",
+        moment: "Afternoon at the theatre",
+        why: "Head back through Ciudad Vieja for a public guided visit. Confirm your afternoon slot and language with the theatre.",
+      },
+      {
+        slug: "montevideo-rambla-sur-playa-ramirez",
+        moment: "Late daylight on the Rambla",
+        why: "From Plaza España, follow the public waterfront east. End opposite Parque Rodó or start at the beach for a shorter walk.",
+      },
+    ],
+  },
+  {
     slug: "ljubljana",
     name: "Ljubljana",
     country: "slovenia",

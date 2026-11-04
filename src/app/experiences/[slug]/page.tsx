@@ -451,9 +451,9 @@ export default async function Experience({ params }: Props) {
               >
                 Choose a starting point for {chapter.name} ↗
               </Link>
-              <Link className="text-link" href={chapterHref(chapter)}>
+              <a className="text-link" href={chapterHref(chapter)}>
                 See how to combine {chapter.name} experiences ↗
-              </Link>
+              </a>
             </p>
           )}
         </section>

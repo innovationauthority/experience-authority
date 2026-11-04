@@ -208,7 +208,7 @@ test("critical visitor-role, date, venue and access boundaries are not lost in i
 test("Prague and Montréal become useful complete local chapters without reopening expired guides", () => {
   const current = publicGuides.filter((g) => canPublishGuide(g, "2026-10-21"));
   const chapters = resolveCityChapters(current);
-  assert.equal(cityChapters.length, 45);
+  assert.equal(cityChapters.length, 46);
   assert.equal(chapters.length, 44);
   assert.equal(chapters.find((c) => c.slug === "prague")!.stops.length, 3);
   assert.equal(chapters.find((c) => c.slug === "montreal")!.stops.length, 2);

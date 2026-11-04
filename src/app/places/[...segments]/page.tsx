@@ -205,13 +205,13 @@ export default async function Place({ params, searchParams }: Props) {
       {!openingChapter && chapters.length > 0 && (
         <nav className="chapter-jumps" aria-label="Local planning ideas">
           {chapters.map((chapter) => (
-            <Link
+            <a
               className="text-link"
               key={chapter.slug}
               href={`#${chapter.slug}`}
             >
               How to combine {chapter.name} experiences ↓
-            </Link>
+            </a>
           ))}
         </nav>
       )}

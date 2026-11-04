@@ -1,4 +1,28 @@
 {
+  "/experiences/montevideo-torres-garcia-museum": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-27",
+    "countrySlug": "uruguay",
+    "regionSlug": "montevideo"
+  },
+  "/experiences/montevideo-mercado-del-puerto-parrilla": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-27",
+    "countrySlug": "uruguay",
+    "regionSlug": "montevideo"
+  },
+  "/experiences/montevideo-teatro-solis-guided-tour": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-27",
+    "countrySlug": "uruguay",
+    "regionSlug": "montevideo"
+  },
+  "/experiences/montevideo-rambla-sur-playa-ramirez": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-27",
+    "countrySlug": "uruguay",
+    "regionSlug": "montevideo"
+  },
   "/experiences/montevideo-las-llamadas-candombe-parade": {
     "availableFrom": "2026-11-04",
     "reviewBy": "2027-01-31",

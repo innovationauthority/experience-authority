@@ -62,9 +62,9 @@ export function ChapterPreview({
         <Link className="text-link" href="#local-guides">
           All experiences here ↓
         </Link>
-        <Link className="text-link" href={`#${chapter.slug}`}>
+        <a className="text-link" href={`#${chapter.slug}`}>
           Read the full planning idea ↓
-        </Link>
+        </a>
       </div>
     </section>
   );

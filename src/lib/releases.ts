@@ -34,6 +34,10 @@ export const guideReleases = [
   {
     date: "2026-11-04",
     slugs: [
+      "montevideo-torres-garcia-museum",
+      "montevideo-mercado-del-puerto-parrilla",
+      "montevideo-teatro-solis-guided-tour",
+      "montevideo-rambla-sur-playa-ramirez",
       "montevideo-las-llamadas-candombe-parade",
       ...Object.keys(discoveryBatch69),
       ...Object.keys(discoveryBatch68),

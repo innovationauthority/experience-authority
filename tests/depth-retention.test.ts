@@ -15,9 +15,9 @@ import {
 import { publishedReleases, recentGuideReleases } from "../src/lib/releases";
 import { addPassportGuides, type PassportData } from "../src/lib/passport";
 
-test("forty-four complete local chapters offer real contrasting experiences and planning constraints", () => {
+test("Complete local chapters offer real contrasting experiences and planning constraints", () => {
   const resolved = resolveCityChapters(publicGuides);
-  assert.equal(resolved.length, 45);
+  assert.equal(resolved.length, 46);
   for (const chapter of resolved) {
     assert.ok(chapter.stops.length >= 2);
     assert.equal(
@@ -45,6 +45,15 @@ test("forty-four complete local chapters offer real contrasting experiences and 
     );
   }
   assert.equal(cityChapters.length, resolved.length);
+  const everydayMontevideo = resolveCityChapters(
+    publicGuides.filter(
+      (guide) => guide.slug !== "montevideo-las-llamadas-candombe-parade",
+    ),
+  ).find((chapter) => chapter.slug === "montevideo");
+  assert.deepEqual(
+    everydayMontevideo?.stops.map((stop) => stop.item.field),
+    ["learn", "taste", "witness", "move"],
+  );
 });
 
 test("local planning preserves the named venue and visitor role, including Singapore's wetland correction", () => {
@@ -142,8 +151,8 @@ test("release dates are independent from source checks and expire out of the new
   assert.equal(recentGuideReleases(publicGuides, "2026-10-26").length, 270);
   assert.equal(recentGuideReleases(publicGuides, "2026-10-27").length, 306);
   assert.equal(recentGuideReleases(publicGuides, "2026-10-28").length, 306);
-  assert.equal(recentGuideReleases(publicGuides, "2026-11-08").length, 473);
-  assert.equal(recentGuideReleases(publicGuides, "2026-11-15").length, 455);
+  assert.equal(recentGuideReleases(publicGuides, "2026-11-08").length, 477);
+  assert.equal(recentGuideReleases(publicGuides, "2026-11-15").length, 459);
   assert.equal(publishedReleases([], "2026-09-13").length, 0);
   const changedChecks = publicGuides.map((item) => ({
     ...item,

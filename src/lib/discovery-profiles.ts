@@ -55,6 +55,61 @@ export type DiscoveryProfile = {
 /** Editorial planning lenses, based on the scope and duration stated in each guide.
  * These are not live session lengths, availability or suitability guarantees. */
 export const discoveryProfiles: Record<string, DiscoveryProfile> = {
+  "montevideo-torres-garcia-museum": {
+    modes: ["watch-listen"],
+    time: "own-pace",
+    keywords: [
+      "Montevideo",
+      "Ciudad Vieja",
+      "Torres Garcia",
+      "Joaquín Torres García",
+      "Sarandí",
+      "Constructive Universalism",
+      "art",
+      "museum",
+    ],
+  },
+  "montevideo-mercado-del-puerto-parrilla": {
+    modes: ["at-table"],
+    time: "short",
+    keywords: [
+      "Montevideo",
+      "Ciudad Vieja",
+      "Mercado del Puerto",
+      "parrilla",
+      "asado",
+      "market",
+      "grill",
+      "lunch",
+    ],
+  },
+  "montevideo-teatro-solis-guided-tour": {
+    modes: ["watch-listen"],
+    time: "short",
+    keywords: [
+      "Montevideo",
+      "Ciudad Vieja",
+      "Teatro Solís",
+      "Solis",
+      "theatre",
+      "architecture",
+      "guided tour",
+    ],
+  },
+  "montevideo-rambla-sur-playa-ramirez": {
+    modes: ["outdoors", "slow-down"],
+    time: "own-pace",
+    keywords: [
+      "Montevideo",
+      "Rambla Sur",
+      "Río de la Plata",
+      "Playa Ramírez",
+      "Parque Rodó",
+      "waterfront",
+      "promenade",
+      "walking",
+    ],
+  },
   "montevideo-las-llamadas-candombe-parade": {
     modes: ["watch-listen", "outdoors"],
     time: "calendar",

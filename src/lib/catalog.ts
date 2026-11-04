@@ -1135,7 +1135,7 @@ export const territories = [
     region: "montevideo",
     regionName: "Montevideo",
     intro:
-      "Hear the drum lines of Las Llamadas on Isla de Flores and discover the neighbourhoods that carry candombe through the year.",
+      "Begin on pedestrian Sarandí, take lunch beside the port market’s grills and follow the Río de la Plata to Parque Rodó. If your dates align, hear the drum lines of Las Llamadas on Isla de Flores.",
     image: null,
   },
   {

@@ -174,7 +174,7 @@ test("Lima connects a class and a public pause without a fabricated package", ()
     regionsForCountry("peru", current).find((r) => r.slug === "lima")?.name,
     "Lima",
   );
-  assert.equal(cityChapters.length, 45);
+  assert.equal(cityChapters.length, 46);
   assert.equal(chapters.length, 44);
   const lima = chapters.find((c) => c.slug === "lima")!;
   assert.equal(lima.stops.length, 2);
