@@ -1,3 +1,4 @@
+import { montevideoLasLlamadas } from "./guide-batch-70";
 import { guideBatch69 } from "./guide-batch-69";
 import { guideBatch68 } from "./guide-batch-68";
 import { guideBatch67 } from "./guide-batch-67";
@@ -92,6 +93,7 @@ const common = {
 } as const;
 
 const publicGuideDrafts: PublicExperience[] = [
+  montevideoLasLlamadas,
   ...guideBatch69,
   ...guideBatch68,
   ...guideBatch67,

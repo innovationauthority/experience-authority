@@ -55,6 +55,22 @@ export type DiscoveryProfile = {
 /** Editorial planning lenses, based on the scope and duration stated in each guide.
  * These are not live session lengths, availability or suitability guarantees. */
 export const discoveryProfiles: Record<string, DiscoveryProfile> = {
+  "montevideo-las-llamadas-candombe-parade": {
+    modes: ["watch-listen", "outdoors"],
+    time: "calendar",
+    keywords: [
+      "Las Llamadas",
+      "Desfile de Llamadas",
+      "candombe",
+      "Isla de Flores",
+      "Barrio Sur",
+      "Palermo",
+      "Montevideo",
+      "Uruguay",
+      "Carnival",
+      "comparsa",
+    ],
+  },
   ...discoveryBatch69,
   ...discoveryBatch68,
   ...discoveryBatch67,

@@ -1,4 +1,10 @@
 {
+  "/experiences/montevideo-las-llamadas-candombe-parade": {
+    "availableFrom": "2026-11-04",
+    "reviewBy": "2027-01-31",
+    "countrySlug": "uruguay",
+    "regionSlug": "montevideo"
+  },
   "/experiences/broc-maison-cailler-chocolate-tasting": {
     "availableFrom": "2026-11-04",
     "reviewBy": "2027-01-15",

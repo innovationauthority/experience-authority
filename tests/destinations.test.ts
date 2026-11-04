@@ -113,7 +113,7 @@ test("the new edition deepens familiar routes and opens new countries without ge
   );
   assert.equal(
     destinationCoverage(publicGuides, "uruguay", "montevideo").local.length,
-    1,
+    2,
   );
   assert.equal(
     destinationCoverage(publicGuides, "croatia", "istria").local.length,

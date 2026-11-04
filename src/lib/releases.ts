@@ -34,6 +34,7 @@ export const guideReleases = [
   {
     date: "2026-11-04",
     slugs: [
+      "montevideo-las-llamadas-candombe-parade",
       ...Object.keys(discoveryBatch69),
       ...Object.keys(discoveryBatch68),
       ...Object.keys(discoveryBatch67),

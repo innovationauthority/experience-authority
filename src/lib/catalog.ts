@@ -1135,7 +1135,7 @@ export const territories = [
     region: "montevideo",
     regionName: "Montevideo",
     intro:
-      "Meet Montevideo through a shared candombe pulse, with attention to who the current public workshop is designed for.",
+      "Hear the drum lines of Las Llamadas on Isla de Flores and discover the neighbourhoods that carry candombe through the year.",
     image: null,
   },
   {

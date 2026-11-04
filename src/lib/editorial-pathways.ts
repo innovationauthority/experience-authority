@@ -566,6 +566,7 @@ export const editorialPathways = [
     intro:
       "Evening can change the social temperature of a place. Stay for a traditional music session in Doolin, enter a Budapest dance house, let a caller bring an Edinburgh ceilidh into motion or give a Salta peña time to unfold across music, dance and the table. In Baku, a public mugham performance asks you to follow how voice, tar and kamancha reshape a musical path. In Siem Reap, carved leather, dancers and a pin peat orchestra move the Reamker across a field of light after Angkor closes. Tirana offers an ordinary public xhiro with no performance or ticket at all. A vast starling flock gathers over the Danish marshes, while Istanbul and Hanoi offer two different ways to slow the day. None should be treated as guaranteed nightly entertainment. Check the current programme, season, admission and house rules first. The reward is not simply staying out later, but paying closer attention to how people share time and space.",
     guideSlugs: [
+      "montevideo-las-llamadas-candombe-parade",
       "cape-town-gold-djembe-before-dinner",
       "seattle-kexp-live-studio-viewing",
       "glasgow-oran-mor-lunchtime-play",
