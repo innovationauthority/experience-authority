@@ -17,14 +17,11 @@ import {
   resolveHomeHeroEditions,
   selectHomeHero,
 } from "@/lib/home-curation";
-import { getJournalArticles } from "@/lib/journal";
 import { guideMediaFor } from "@/lib/media";
 import { publishedEditorialPathways as editorialPathways } from "@/lib/editorial-pathways";
 import { getExperiences } from "@/lib/data";
 import { StructuredData } from "@/components/structured-data";
 import { HomeHero } from "@/components/home-hero";
-import { LocalDiscovery } from "@/components/local-discovery";
-import { localAreas } from "@/lib/local-discovery";
 import { PassportReturn } from "@/components/passport-return";
 import { currentDiscovery, editionDate } from "@/lib/daily-discovery";
 import {
@@ -32,7 +29,12 @@ import {
   chapterDestinationCount,
   resolveCityChapters,
 } from "@/lib/city-chapters";
-import { recentGuideReleases } from "@/lib/releases";
+import { publishedReleases } from "@/lib/releases";
+import {
+  selectHomeEdit,
+  selectHomeDay,
+  homeInterestCoverSlugs,
+} from "@/lib/home-edit";
 import {
   pageMetadata,
   SITE_DESCRIPTION,
@@ -55,10 +57,12 @@ export default function Home() {
   const discovery = currentDiscovery(experiences);
   const discoveryMedia = discovery && guideMediaFor(discovery.item.id);
   const chapters = resolveCityChapters(experiences);
-  const dayChapter = chapters.find((chapter) => chapter.slug === "antwerp");
-  const dayPhotoItem = dayChapter?.stops[1]?.item;
-  const dayPhoto = dayPhotoItem && guideMediaFor(dayPhotoItem.id);
   const today = new Date().toISOString().slice(0, 10);
+  const dayEdit = selectHomeDay(chapters, today);
+  const dayChapter = dayEdit?.chapter;
+  const dayPhotoItem = dayEdit?.photoItem;
+  const dayPhoto = dayPhotoItem && guideMediaFor(dayPhotoItem.id);
+  const latestRelease = publishedReleases(experiences, today)[0];
   const dayOffset =
     Math.floor(Date.parse(today) / 86400000) % featuredChapterSlugs.length;
   const dailyPlaces = [
@@ -90,82 +94,102 @@ export default function Home() {
       .flat()
       .flatMap((item) => (item.image ? [item.image] : [])),
   );
-  if (dayPhoto) coverImages.add(dayPhoto.src);
+  const coverSlugs = new Set(
+    availableHeroEditions.flat().map((item) => item.slug),
+  );
+  for (const stop of dayChapter?.stops || []) {
+    coverSlugs.add(stop.slug);
+    if (stop.item.image) coverImages.add(stop.item.image);
+  }
   const showDiscovery = discoveryMedia && !coverImages.has(discoveryMedia.src);
-  if (showDiscovery) coverImages.add(discoveryMedia.src);
+  if (showDiscovery) {
+    coverImages.add(discoveryMedia.src);
+    coverSlugs.add(discovery.item.slug);
+  }
   let featuredChapterCount = 0;
   const featuredChapterCards = featuredChapters
     .flatMap((chapter) => {
       if (featuredChapterCount === 4) return [];
-      const preferred =
-        chapter.slug === "london"
-          ? "ask-the-market-where-london-came-from"
-          : chapter.slug === "kyoto"
-            ? "build-a-pattern-in-colour"
-            : undefined;
-      const orderedStops = [...chapter.stops].sort(
-        (a, b) => Number(b.slug === preferred) - Number(a.slug === preferred),
+      const preferred: Record<string, string> = {
+        london: "ask-the-market-where-london-came-from",
+        kyoto: "build-a-pattern-in-colour",
+        singapore: "look-closer-at-a-mountain-of-plants-in-singapore",
+      };
+      const localCover = experiences.find(
+        (item) =>
+          item.slug === preferred[chapter.slug] &&
+          item.countrySlug === chapter.country &&
+          chapter.regions.includes(item.regionSlug),
       );
+      const orderedStops = [
+        ...(localCover ? [{ slug: localCover.slug, item: localCover }] : []),
+        ...chapter.stops,
+      ];
       const stop = orderedStops.find(({ item }) =>
         Boolean(
-          item.image && !coverImages.has(item.image) && guideMediaFor(item.id),
+          item.image &&
+          !coverSlugs.has(item.slug) &&
+          !coverImages.has(item.image) &&
+          guideMediaFor(item.id),
         ),
       );
       const media = stop && guideMediaFor(stop.item.id);
       if (media) {
         coverImages.add(media.src);
+        if (stop) coverSlugs.add(stop.slug);
         featuredChapterCount += 1;
       }
       return stop && media ? [{ chapter, media }] : [];
     })
     .slice(0, 4);
-  const { newGuides, homePathways, usedImages } = curateHome(
-    experiences,
+  const homeEdit = selectHomeEdit(experiences, today, coverSlugs, coverImages);
+  const { homePathways } = curateHome(
+    experiences.filter(
+      (item) => !coverSlugs.has(item.slug) && !homeEdit.includes(item),
+    ),
     editorialPathways,
     hero,
     today,
-    [...coverImages],
+    [
+      ...coverImages,
+      ...homeEdit.flatMap((item) => (item.image ? [item.image] : [])),
+    ],
   );
   const reserved = new Set([
     ...coverImages,
     ...homePathways.map(({ item }) => item.image),
   ]);
   const browsePool = [
-    ...newGuides,
-    ...recentGuideReleases(experiences, today),
-    ...experiences,
+    ...homeEdit,
+    ...homeInterestCoverSlugs.flatMap((slug) => {
+      const item = experiences.find((entry) => entry.slug === slug);
+      return item ? [item] : [];
+    }),
+    ...orderExperienceDirectory(experiences, today),
   ].filter(
     (item, index, all) =>
       item.image &&
+      !coverSlugs.has(item.slug) &&
       !reserved.has(item.image) &&
       all.findIndex((entry) => entry.image === item.image) === index,
   );
   const groups: HomeBrowseGroup[] = [
     {
-      slug: "new",
-      name: "New in EA",
-      href: "/new",
-      items: newGuides.map(toCardExperience),
+      slug: "edit",
+      name: "The EA edit",
+      href: "/explore",
+      items: homeEdit.slice(0, 6).map(toCardExperience),
     },
     ...interests.map((interest) => ({
       slug: interest.slug,
       name: interest.name,
       href: `/explore?interest=${interest.slug}`,
-      items: orderExperienceDirectory(browsePool, today)
+      items: browsePool
         .filter((item) => matchesInterest(item, interest))
         .slice(0, 9)
         .map(toCardExperience),
     })),
   ].filter((group) => group.items.length > 0);
-  for (const group of groups)
-    for (const item of group.items) if (item.image) usedImages.add(item.image);
-  const journal = getJournalArticles(experiences).flatMap((article) => {
-    const guide = article.guides.find(
-      (item) => item.image && !usedImages.has(item.image),
-    );
-    const media = guide && guideMediaFor(guide.id);
-    return media ? [{ article, media }] : [];
-  })[0];
   return (
     <div className="home-edition">
       <StructuredData data={websiteStructuredData()} />
@@ -174,6 +198,20 @@ export default function Home() {
         heroEditions={availableHeroEditions}
         initialHeroIndex={initialHeroIndex}
       />
+      {groups.length > 0 && (
+        <section
+          className="section wrap home-experience-discovery"
+          id="find-experiences"
+        >
+          <SectionHeading
+            eyebrow="Find your way in"
+            title="What would you like to do?"
+            href="/explore"
+            link="All experiences"
+          />
+          <HomeBrowse groups={groups} latestDate={latestRelease?.date} />
+        </section>
+      )}
       {discovery && showDiscovery && (
         <section
           className="wrap home-daily-feature"
@@ -202,7 +240,12 @@ export default function Home() {
             <h2 id="home-daily-title">
               <Link href="/today">{discovery.title}</Link>
             </h2>
-            <p>{discovery.item.summary}</p>
+            <p>
+              {discovery.angle
+                .split(/(?<=[.!?])\s+/)
+                .slice(0, 2)
+                .join(" ")}
+            </p>
             <span className="home-daily-place">
               {discovery.item.place}, {discovery.item.country}
             </span>
@@ -221,8 +264,7 @@ export default function Home() {
             link="All destinations"
           />
           <p className="section-note">
-            Somewhere you’re visiting. Somewhere you live. Start with a place,
-            then discover what you could do differently.
+            Familiar cities. Less expected ways to spend your time there.
           </p>
           <div className="home-destination-grid">
             {featuredChapterCards.map(({ chapter, media }) => {
@@ -238,9 +280,11 @@ export default function Home() {
                       <Photo
                         src={media.src}
                         alt=""
-                        sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 25vw"
+                        sizes="(max-width: 700px) 46vw, (max-width: 1100px) 50vw, 25vw"
                       />
                     </Link>
+                  </div>
+                  <div className="home-destination-credit">
                     <ImageCredit media={media} />
                   </div>
                   <div className="home-destination-copy">
@@ -261,10 +305,9 @@ export default function Home() {
               );
             })}
           </div>
-          <LocalDiscovery areas={localAreas(experiences)} />
         </section>
       )}
-      {dayChapter && (
+      {dayEdit && dayChapter && (
         <section
           className="section wrap home-day-plan"
           aria-labelledby="home-day-title"
@@ -286,40 +329,29 @@ export default function Home() {
           )}
           <div className="home-day-intro">
             <p className="eyebrow">Make it a day / {dayChapter.name}</p>
-            <h2 id="home-day-title">Three discoveries. One day of your own.</h2>
+            <h2 id="home-day-title">{dayEdit.title}</h2>
             <p>{dayChapter.intro}</p>
             <Link
               className="button button-dark"
               href={`/plan?chapter=${dayChapter.slug}`}
             >
-              Adapt this day <ArrowRight size={18} aria-hidden="true" />
+              See the day & make it yours{" "}
+              <ArrowRight size={18} aria-hidden="true" />
             </Link>
           </div>
           <ol className="home-day-stops">
-            {dayChapter.stops.slice(0, 3).map((stop) => (
+            {dayChapter.stops.map((stop, index) => (
               <li key={stop.slug}>
-                <span>{stop.moment}</span>
                 <Link href={`/experiences/${stop.slug}`}>
-                  {stop.item.title} <ArrowRight size={16} aria-hidden="true" />
+                  <span aria-hidden="true">
+                    {String(index + 1).padStart(2, "0")}
+                  </span>
+                  {dayEdit.labels[index]}{" "}
+                  <ArrowRight size={16} aria-hidden="true" />
                 </Link>
               </li>
             ))}
           </ol>
-          <p className="small-note">
-            {dayChapter.pace} Check each guide for opening times and separate
-            bookings.
-          </p>
-        </section>
-      )}
-      {groups.length > 0 && (
-        <section className="section wrap home-experience-discovery">
-          <SectionHeading
-            eyebrow="Worth your time"
-            title="Find your kind of experience."
-            href="/explore"
-            link="All experiences"
-          />
-          <HomeBrowse groups={groups} />
         </section>
       )}
       {homePathways.length > 0 && (
@@ -346,42 +378,6 @@ export default function Home() {
               />
             ))}
           </div>
-        </section>
-      )}
-      {journal && (
-        <section className="section wrap">
-          <article className="home-journal-feature">
-            <div className="place-card-image">
-              <Link
-                href={`/journal/${journal.article.slug}`}
-                aria-label={`Read ${journal.article.title}`}
-              >
-                <Photo
-                  src={journal.media.src}
-                  alt={journal.media.alt}
-                  sizes="(max-width: 700px) 100vw, 40vw"
-                />
-              </Link>
-              <ImageCredit media={journal.media} />
-            </div>
-            <div>
-              <p className="eyebrow">
-                From the Journal / {journal.article.readingMinutes} min read
-              </p>
-              <h2>
-                <Link href={`/journal/${journal.article.slug}`}>
-                  {journal.article.title}
-                </Link>
-              </h2>
-              <p>{journal.article.summary}</p>
-              <Link
-                className="text-link"
-                href={`/journal/${journal.article.slug}`}
-              >
-                Read the story <ArrowRight size={18} aria-hidden="true" />
-              </Link>
-            </div>
-          </article>
         </section>
       )}
       <section className="section wrap home-keep">
