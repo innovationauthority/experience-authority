@@ -331,13 +331,13 @@ export default function Home() {
             <p className="eyebrow">Make it a day / {dayChapter.name}</p>
             <h2 id="home-day-title">{dayEdit.title}</h2>
             <p>{dayChapter.intro}</p>
-            <Link
+            <a
               className="button button-dark"
-              href={`/plan?chapter=${dayChapter.slug}#trip-title`}
+              href={`/plan?chapter=${dayChapter.slug}#main`}
             >
               See the day & make it yours{" "}
               <ArrowRight size={18} aria-hidden="true" />
-            </Link>
+            </a>
           </div>
           <ol className="home-day-stops">
             {dayChapter.stops.map((stop, index) => (
