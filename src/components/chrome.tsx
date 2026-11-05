@@ -3,7 +3,14 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import { ArrowUpRight, Bookmark, Menu, Search, X } from "lucide-react";
+import {
+  ArrowRight,
+  ArrowUpRight,
+  Bookmark,
+  Menu,
+  Search,
+  X,
+} from "lucide-react";
 import { usePassport } from "./passport-provider";
 import { AnalyticsPreferencesButton } from "./analytics-consent";
 export function Wordmark({ light = false }: { light?: boolean }) {
@@ -152,7 +159,8 @@ export function Footer({
             locally rooted experiences.
           </p>
           <a className="footer-parent" href="https://innovationauthority.com">
-            An Innovation Authority publication <ArrowUpRight size={14} aria-hidden="true" />
+            An Innovation Authority publication{" "}
+            <ArrowUpRight size={14} aria-hidden="true" />
           </a>
         </div>
         <div className="footer-statement">
@@ -162,28 +170,28 @@ export function Footer({
         </div>
         <nav aria-label="Footer navigation">
           <Link href="/about">
-            About us <ArrowUpRight size={15} />
+            About us <ArrowRight size={15} />
           </Link>
           <Link href="/method">
-            Our method <ArrowUpRight size={15} />
+            Our method <ArrowRight size={15} />
           </Link>
           <Link href="/plan">
-            Plan a journey <ArrowUpRight size={15} />
+            Plan a journey <ArrowRight size={15} />
           </Link>
           <Link href="/journal">
-            Journal <ArrowUpRight size={15} />
+            Journal <ArrowRight size={15} />
           </Link>
           <Link href="/suggest">
-            Suggest an experience <ArrowUpRight size={15} />
+            Suggest an experience <ArrowRight size={15} />
           </Link>
           <Link href="/corrections">
-            Corrections <ArrowUpRight size={15} />
+            Corrections <ArrowRight size={15} />
           </Link>
           <Link href="/transparency">
-            Transparency <ArrowUpRight size={15} />
+            Transparency <ArrowRight size={15} />
           </Link>
           <Link href="/credits">
-            Sources & credits <ArrowUpRight size={15} />
+            Sources & credits <ArrowRight size={15} />
           </Link>
         </nav>
       </div>
@@ -193,8 +201,6 @@ export function Footer({
           reserved.
         </span>
         <nav className="footer-legal-nav" aria-label="Company and legal">
-          <Link href="/about">About</Link>
-          <Link href="/method">Method</Link>
           <Link href="/contact">Contact</Link>
           <Link href="/accessibility">Accessibility</Link>
           <Link href="/privacy">Privacy</Link>

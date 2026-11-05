@@ -1,7 +1,7 @@
 import { HomeDiscovery } from "./home-discovery";
 import { HomeHeroMosaic, type HomeHeroStory } from "./home-hero-mosaic";
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import {
   browseInterests as interests,
   matchesInterest,
@@ -52,8 +52,8 @@ export function HomeHero({
             <em>from within.</em>
           </h1>
           <p className="prototype-hero-lead">
-            Food, art, design and unexpected ways into a place. Independently
-            chosen and made practical.
+            Food, art and unexpected ways into a place. Chosen with care, ready
+            to explore.
           </p>
           <HomeDiscovery
             items={items.map(
@@ -95,7 +95,7 @@ export function HomeHero({
         ].map(([title, href]) => (
           <Link href={href} key={title}>
             <span>{title}</span>
-            <ArrowUpRight aria-hidden="true" size={17} />
+            <ArrowRight aria-hidden="true" size={17} />
           </Link>
         ))}
       </nav>

@@ -1,0 +1,289 @@
+/* Home cards prioritise the photograph and a quick decision. */
+.home-interest-select {
+  display: none;
+}
+.home-edition .home-browse-choices {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
+}
+.home-edition .home-browse-choices button {
+  padding: 12px 8px;
+  min-height: 46px;
+}
+.home-edition .experience-card-compact .card-content {
+  padding: 20px;
+}
+.home-edition .experience-card-compact h3 {
+  font-size: 23px;
+  line-height: 1.18;
+  letter-spacing: -0.025em;
+}
+.home-edition .experience-card-compact .card-content > p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+.home-edition .experience-card-compact .card-planning {
+  padding-top: 12px;
+  margin-top: auto;
+}
+.home-edition .card-meta {
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  font-size: 12px;
+}
+.home-edition .image-source-badge {
+  font-size: 11px;
+  line-height: 1.4;
+}
+.home-edition .home-destination-grid {
+  gap: 20px;
+  background: transparent;
+}
+.home-edition .home-destination-card {
+  background: transparent;
+  min-height: 0;
+  overflow: visible;
+}
+.home-edition .home-destination-card::after {
+  display: none;
+}
+.home-destination-visual {
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+}
+.home-edition .home-destination-copy {
+  position: static;
+  padding: 18px 0 0;
+  color: var(--ea-ink);
+}
+.home-edition .home-destination-copy .eyebrow {
+  color: var(--ea-ink);
+  font-size: 11px;
+  margin-bottom: 8px;
+}
+.home-edition .home-destination-copy h3 {
+  color: var(--ea-ink);
+  font-size: 26px;
+  margin-bottom: 8px;
+  line-height: 1.1;
+}
+.home-edition .home-destination-cta {
+  min-height: 36px;
+}
+.home-edition .local-discovery {
+  margin-top: 32px;
+  padding-block: 24px;
+}
+.home-edition .local-discovery-intro h3 {
+  font-size: 25px;
+}
+.home-edition .home-day-plan {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px 48px;
+  border-block: 1px solid var(--ea-line);
+}
+.home-day-photo {
+  position: relative;
+  grid-row: span 2;
+  min-height: 360px;
+}
+.home-day-photo > a:first-child {
+  display: block;
+  position: absolute;
+  inset: 0;
+}
+.home-day-intro h2 {
+  font-size: clamp(30px, 3vw, 42px);
+  line-height: 1.1;
+  letter-spacing: -0.035em;
+  margin: 12px 0 16px;
+}
+.home-day-intro > p:not(.eyebrow) {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+.home-day-stops {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 16px;
+}
+.home-day-stops li {
+  border-top: 1px solid var(--ea-line);
+  padding-top: 12px;
+}
+.home-day-stops span {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: var(--ea-stone);
+}
+.home-day-stops a {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 18px;
+  line-height: 1.35;
+}
+.home-day-stops svg {
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+.home-day-plan > .small-note {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+.home-edition .home-browse-more {
+  padding-block: 16px;
+  gap: 12px;
+}
+@media (max-width: 1100px) and (min-width: 701px) {
+  .home-edition .home-browse-choices {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (max-width: 700px) {
+  .home-edition .prototype-hero-copy {
+    padding-top: 12px;
+    padding-bottom: 16px;
+  }
+  .home-edition .prototype-hero-copy > .eyebrow {
+    display: none;
+  }
+  .home-edition .prototype-hero-copy h1 {
+    margin-bottom: 12px;
+    font-size: clamp(36px, 10.5vw, 54px);
+  }
+  .home-edition .prototype-hero-copy h1 em {
+    color: var(--ea-accent-text);
+  }
+  .home-edition .prototype-hero-lead {
+    font-size: 15px;
+    line-height: 1.45;
+    margin-bottom: 0;
+  }
+  .home-edition .home-discovery {
+    margin-top: 16px;
+  }
+  .home-edition .home-discovery-prompt {
+    display: none;
+  }
+  .home-edition .prototype-hero-interests {
+    gap: 6px 16px;
+    margin-top: 10px;
+  }
+  .home-edition .prototype-hero-interests a {
+    min-height: 32px;
+    display: inline-flex;
+    align-items: center;
+  }
+  .home-edition .prototype-hero-interests a:nth-of-type(2),
+  .home-edition .prototype-hero-interests a:nth-of-type(3) {
+    display: none;
+  }
+  .home-edition .section {
+    padding-block: 36px;
+  }
+  .home-edition .home-destination-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px 14px;
+  }
+  .home-destination-visual {
+    aspect-ratio: 0.9;
+  }
+  .home-edition .home-destination-copy {
+    padding: 12px 0 0;
+  }
+  .home-edition .home-destination-copy h3 {
+    font-size: 22px;
+  }
+  .home-edition .home-destination-copy .eyebrow {
+    font-size: 10px;
+  }
+  .home-edition .home-destination-cta {
+    font-size: 12px;
+  }
+  .home-destination-visual .image-source-badge {
+    inset: auto 5px 5px;
+    max-width: calc(100% - 10px);
+    font-size: 10px;
+    padding: 4px;
+  }
+  .home-edition .home-browse-choices {
+    display: none;
+  }
+  .home-interest-select {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .home-interest-select select {
+    width: 100%;
+    padding: 14px;
+    min-height: 48px;
+    border: 1px solid var(--ea-ink);
+    background: var(--ea-paper);
+    color: var(--ea-ink);
+    font: inherit;
+    font-size: 16px;
+  }
+  .home-edition .experience-card-compact .card-image {
+    aspect-ratio: 1.5;
+  }
+  .home-edition .experience-card-compact .card-content {
+    padding: 16px;
+  }
+  .home-edition .experience-card-compact h3 {
+    font-size: 22px;
+  }
+  .home-edition .home-browse-more {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .home-edition .home-browse-more .small-note {
+    display: none;
+  }
+  .home-edition .home-day-plan {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .home-day-photo {
+    grid-row: auto;
+    min-height: 0;
+    aspect-ratio: 1.5;
+  }
+  .home-day-intro h2 {
+    font-size: 30px;
+  }
+  .home-edition .home-collections .collection-card:not(:first-child) {
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1fr);
+    gap: 16px;
+  }
+  .home-edition
+    .home-collections
+    .collection-card:not(:first-child)
+    .collection-image {
+    height: auto;
+    min-height: 180px;
+  }
+  .home-edition .home-collections .collection-card:not(:first-child) h3 {
+    font-size: 21px;
+  }
+  .home-edition
+    .home-collections
+    .collection-card:not(:first-child)
+    .collection-card-copy
+    > p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
+
+.local-discovery [hidden] {
+  display: none;
+}

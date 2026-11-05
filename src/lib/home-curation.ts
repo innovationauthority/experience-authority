@@ -17,12 +17,12 @@ export const heroGuideRotations = [
   [
     "let-light-change-the-room-in-miami",
     "taste-singapore-in-another-form",
-    "venice-through-an-oar",
+    "lift-a-pattern-from-the-water",
   ],
   [
-    "compare-buildings-on-foot-at-the-vitra-campus",
-    "make-an-evening-of-live-jazz-in-aoyama",
     "mexico-city-grown-on-water",
+    "compare-buildings-on-foot-at-the-vitra-campus",
+    "shape-a-kyoto-season-in-sweet-paste",
   ],
   [
     "follow-kyotos-river-gorge-by-slow-train",
@@ -209,8 +209,10 @@ export function curateHome(
   // reserve their photographs from sections that actually display an image.
   const recent = recentGuideReleases(items, today).filter(
     (item) =>
-      item.slug !== "tampere-kauppahalli-warm-mustamakkara" &&
-      !usedImages.has(item.image || item.id),
+      ![
+        "tampere-kauppahalli-warm-mustamakkara",
+        "tampere-vapriikki-play-finnish-games",
+      ].includes(item.slug) && !usedImages.has(item.image || item.id),
   );
   const newGuides: PublicExperience[] = [];
   const countries = new Set<string>();

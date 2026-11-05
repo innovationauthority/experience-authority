@@ -31,7 +31,7 @@ export function localAreas(items: PublicExperience[]): LocalArea[] {
         );
         return {
           key: `${country}/${region.slug}`,
-          label: `${region.name}, ${countryName}`,
+          label: `${region.name === "Kingston" && region.slug === "kingston" ? guides[0]?.place || region.name : region.name}, ${countryName}`,
           country,
           region: region.slug,
           count: guides.length,

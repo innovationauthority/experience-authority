@@ -54,7 +54,11 @@ export function LocalDiscovery({ areas }: { areas: LocalArea[] }) {
             ))}
           </select>
         </div>
-        <fieldset className="local-time-choices" disabled={!area}>
+        <fieldset
+          className="local-time-choices"
+          disabled={!area}
+          hidden={!area}
+        >
           <legend>Time to explore</legend>
           <div>
             {[["", "Any length"], ...timeChoices].map(([value, label]) => (
@@ -74,6 +78,7 @@ export function LocalDiscovery({ areas }: { areas: LocalArea[] }) {
         </fieldset>
         <button
           type="submit"
+          hidden={!area}
           disabled={!area || count === 0}
           className="button button-dark"
         >

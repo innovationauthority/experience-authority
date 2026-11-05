@@ -56,11 +56,11 @@ export function PassportReturn() {
             : ready && count
               ? "Plan my saved experiences"
               : "Start a journey"}{" "}
-          ↗
+          →
         </Link>
         {ready && count > 0 && (
           <Link className="text-link" href="/new">
-            See what's new in your saved places ↗
+            See what's new in your saved places →
           </Link>
         )}
       </div>

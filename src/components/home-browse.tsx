@@ -19,6 +19,22 @@ export function HomeBrowse({ groups }: { groups: HomeBrowseGroup[] }) {
   if (!group) return null;
   return (
     <div className="home-browse">
+      <label className="home-interest-select">
+        <span className="sr-only">Choose an experience interest</span>
+        <select
+          value={group.slug}
+          onChange={(event) => {
+            setActive(event.target.value);
+            setLimit(3);
+          }}
+        >
+          {groups.map((entry) => (
+            <option key={entry.slug} value={entry.slug}>
+              {entry.name}
+            </option>
+          ))}
+        </select>
+      </label>
       <div
         className="home-browse-choices"
         role="group"
@@ -42,7 +58,12 @@ export function HomeBrowse({ groups }: { groups: HomeBrowseGroup[] }) {
       <div id="home-browse-results" aria-label={group.name}>
         <div className="experience-grid">
           {group.items.slice(0, limit).map((item, index) => (
-            <ExperienceCardView key={item.id} item={item} index={index} />
+            <ExperienceCardView
+              key={item.id}
+              item={item}
+              index={index}
+              compact
+            />
           ))}
         </div>
         <div className="home-browse-more">
@@ -62,7 +83,7 @@ export function HomeBrowse({ groups }: { groups: HomeBrowseGroup[] }) {
             {group.slug === "new"
               ? "All new guides"
               : `Explore ${group.name.toLowerCase()}`}{" "}
-            ↗
+            →
           </Link>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRight, LockKeyhole } from "lucide-react";
+import { ArrowRight, ArrowUpRight, LockKeyhole } from "lucide-react";
 import type { CardExperience } from "@/lib/catalog-projections";
 import { GuideArt, Photo, ImageCredit, StatusBadge } from "./editorial-ui";
 import { ExperienceActions } from "./passport-provider";
@@ -8,10 +8,12 @@ export function ExperienceCardView({
   item,
   index = 0,
   returnTo,
+  compact = false,
 }: {
   item: CardExperience;
   index?: number;
   returnTo?: string;
+  compact?: boolean;
 }) {
   const { media, planning } = item;
   const href =
@@ -19,7 +21,9 @@ export function ExperienceCardView({
     (returnTo ? `?from=${encodeURIComponent(returnTo)}` : "");
 
   return (
-    <article className="experience-card">
+    <article
+      className={`experience-card${compact ? " experience-card-compact" : ""}`}
+    >
       <div className={`card-image ${!item.image ? "card-no-image" : ""}`}>
         <Link
           className="card-photo-link"
@@ -65,19 +69,25 @@ export function ExperienceCardView({
         <h3>
           <Link href={href}>
             {item.title}
-            <ArrowUpRight size={21} aria-hidden="true" />
+            {compact ? (
+              <ArrowRight size={21} aria-hidden="true" />
+            ) : (
+              <ArrowUpRight size={21} aria-hidden="true" />
+            )}
           </Link>
         </h3>
-        <p>{item.summary}</p>
+        <p>{compact ? item.summary.split(/(?<=[.!?])\s/)[0] : item.summary}</p>
         {planning ? (
           <dl className="card-planning" aria-label="Plan your visit">
             {planning.time && (
               <div>
-                <dt>Time to allow</dt>
+                <dt className={compact ? "sr-only" : undefined}>
+                  Time to allow
+                </dt>
                 <dd>{planning.time}</dd>
               </div>
             )}
-            {planning.mode && (
+            {!compact && planning.mode && (
               <div>
                 <dt>Your experience</dt>
                 <dd>{planning.mode}</dd>

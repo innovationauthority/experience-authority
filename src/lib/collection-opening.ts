@@ -2,6 +2,11 @@ import type { PublicExperience } from "./catalog";
 import type { EditorialPathway } from "./editorial-pathways";
 
 const coverChoices: Record<string, readonly string[]> = {
+  "what-a-place-tastes-like": [
+    "make-your-own-shiraz-blend-in-mclaren-vale",
+    "follow-the-landscape-through-a-menu-in-tokyo",
+    "taste-singapore-in-another-form",
+  ],
   "a-place-still-being-invented": [
     "linz-ars-deep-space",
     "singapore-artscience-future-world-drawing",

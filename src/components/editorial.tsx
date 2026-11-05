@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import type { PublicExperience } from "@/lib/catalog";
 import { guideMediaFor, imageCreditText, type GuideMedia } from "@/lib/media";
 import type { EditorialPathway } from "@/lib/editorial-pathways";
@@ -35,10 +35,12 @@ export function PathwayCard({
   pathway,
   item,
   index,
+  showNumber = true,
 }: {
   pathway: EditorialPathway;
   item: PublicExperience;
   index: number;
+  showNumber?: boolean;
 }) {
   const media = guideMediaFor(item.id);
   return (
@@ -59,14 +61,16 @@ export function PathwayCard({
             <GuideArt item={item} />
           )}
         </Link>
-        <span>Pathway {String(index + 1).padStart(2, "0")}</span>
+        {showNumber && (
+          <span>Pathway {String(index + 1).padStart(2, "0")}</span>
+        )}
         {media && <ImageCredit media={media} />}
       </div>
       <div className="collection-card-copy">
         <h3>
           <Link href={`/collections/${pathway.slug}`}>
             {pathway.title}
-            <ArrowUpRight size={22} aria-hidden="true" />
+            <ArrowRight size={22} aria-hidden="true" />
           </Link>
         </h3>
         <p>{pathway.promise}</p>
@@ -94,7 +98,7 @@ export function SectionHeading({
       </div>
       {href && (
         <Link className="text-link" href={href}>
-          {link} <ArrowUpRight size={18} />
+          {link} <ArrowRight size={18} />
         </Link>
       )}
     </div>

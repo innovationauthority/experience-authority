@@ -20,3 +20,28 @@ test("different draws do not permanently privilege one destination", () => {
   assert.ok(!first.every((item) => item.place === "Istanbul"));
   assert.ok(!second.every((item) => item.place === "Istanbul"));
 });
+
+test("starting points retain familiar entries before broader discoveries", () => {
+  const items = [
+    { slug: "a-bowl-of-attention", place: "Kyoto", country: "Japan" },
+    {
+      slug: "a-morning-at-the-hawker-table",
+      place: "Singapore",
+      country: "Singapore",
+    },
+    {
+      slug: "taste-what-time-does-to-port",
+      place: "Gaia",
+      country: "Portugal",
+    },
+    { slug: "unexpected", place: "Ambalavao", country: "Madagascar" },
+    { slug: "another", place: "Mutalau", country: "Niue" },
+  ];
+  const choices = selectHomeStartingPoints(items, 5, () => 0.42);
+  assert.deepEqual(
+    new Set(choices.slice(0, 3).map((item) => item.slug)),
+    new Set(items.slice(0, 3).map((item) => item.slug)),
+  );
+  assert.equal(choices.length, 5);
+  assert.deepEqual(selectHomeStartingPoints(items, 0), []);
+});

@@ -48,15 +48,18 @@ export function selectHomeStartingPoints<T extends StartingPointItem>(
   const preferred = preferredStartingPointSlugs.flatMap(
     (slug) => bySlug.get(slug) ?? [],
   );
-  const pool = [
-    ...preferred,
-    ...items.filter((item) => !preferred.includes(item)),
-  ];
+  if (count <= 0) return [];
+  const familiar = shuffled(preferred, random);
+  const discoveries = shuffled(
+    items.filter((item) => !preferred.includes(item)),
+    random,
+  );
+  const pool = [...familiar.slice(0, 3), ...discoveries, ...familiar.slice(3)];
   const selected: T[] = [];
   const usedPlaces = new Set<string>();
   const usedCountries = new Set<string>();
 
-  for (const item of shuffled(pool, random)) {
+  for (const item of pool) {
     const place = item.place.toLocaleLowerCase();
     const country = item.country.toLocaleLowerCase();
     if (usedPlaces.has(place) || usedCountries.has(country)) continue;
@@ -66,7 +69,7 @@ export function selectHomeStartingPoints<T extends StartingPointItem>(
     if (selected.length === count) return selected;
   }
 
-  for (const item of shuffled(pool, random)) {
+  for (const item of pool) {
     if (
       selected.includes(item) ||
       usedPlaces.has(item.place.toLocaleLowerCase())

@@ -206,7 +206,7 @@ export function HomeDiscovery({ items }: { items: DiscoveryItem[] }) {
               {query.trim() ? "Places & experiences" : "Fresh starting points"}
             </span>
             <Link href={`/explore?q=${encodeURIComponent(query)}`}>
-              Open Compass
+              Explore all
             </Link>
           </div>
           <div
@@ -230,7 +230,10 @@ export function HomeDiscovery({ items }: { items: DiscoveryItem[] }) {
                 >
                   <MapPin size={16} aria-hidden="true" />
                   <span>
-                    <strong>{item.place}</strong>
+                    <strong>
+                      {item.place}
+                      {!item.href && `, ${item.country}`}
+                    </strong>
                     <small>{item.title}</small>
                   </span>
                   <ArrowRight size={16} aria-hidden="true" />
@@ -264,8 +267,7 @@ export function HomeDiscovery({ items }: { items: DiscoveryItem[] }) {
           Design &amp; innovation
         </Link>
         <Link href="/fields">All interests</Link>
-        <Link href="/explore">All experiences</Link>
-        <Link href="/explore?surprise=1#compass-results">Surprise me ↗</Link>
+        <Link href="/explore?surprise=1#compass-results">Surprise me →</Link>
       </nav>
     </div>
   );

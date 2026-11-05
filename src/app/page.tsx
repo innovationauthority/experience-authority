@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import {
   ImageCredit,
   PathwayCard,
@@ -12,6 +12,7 @@ import { toCardExperience } from "@/lib/catalog-projections";
 import { featuredChapterSlugs } from "@/lib/chapter-starting-points";
 import {
   curateHome,
+  orderExperienceDirectory,
   homeHeroRotationIndex,
   resolveHomeHeroEditions,
   selectHomeHero,
@@ -31,8 +32,7 @@ import {
   chapterDestinationCount,
   resolveCityChapters,
 } from "@/lib/city-chapters";
-import { publishedReleases, recentGuideReleases } from "@/lib/releases";
-import { withinPublicationWeek } from "@/lib/discovery-choices";
+import { recentGuideReleases } from "@/lib/releases";
 import {
   pageMetadata,
   SITE_DESCRIPTION,
@@ -55,10 +55,10 @@ export default function Home() {
   const discovery = currentDiscovery(experiences);
   const discoveryMedia = discovery && guideMediaFor(discovery.item.id);
   const chapters = resolveCityChapters(experiences);
+  const dayChapter = chapters.find((chapter) => chapter.slug === "antwerp");
+  const dayPhotoItem = dayChapter?.stops[1]?.item;
+  const dayPhoto = dayPhotoItem && guideMediaFor(dayPhotoItem.id);
   const today = new Date().toISOString().slice(0, 10);
-  const weekCount = publishedReleases(experiences, today)
-    .filter((release) => withinPublicationWeek(release.date, today))
-    .reduce((sum, release) => sum + release.guides.length, 0);
   const dayOffset =
     Math.floor(Date.parse(today) / 86400000) % featuredChapterSlugs.length;
   const dailyPlaces = [
@@ -90,6 +90,7 @@ export default function Home() {
       .flat()
       .flatMap((item) => (item.image ? [item.image] : [])),
   );
+  if (dayPhoto) coverImages.add(dayPhoto.src);
   const showDiscovery = discoveryMedia && !coverImages.has(discoveryMedia.src);
   if (showDiscovery) coverImages.add(discoveryMedia.src);
   let featuredChapterCount = 0;
@@ -150,7 +151,7 @@ export default function Home() {
       slug: interest.slug,
       name: interest.name,
       href: `/explore?interest=${interest.slug}`,
-      items: browsePool
+      items: orderExperienceDirectory(browsePool, today)
         .filter((item) => matchesInterest(item, interest))
         .slice(0, 9)
         .map(toCardExperience),
@@ -206,24 +207,9 @@ export default function Home() {
               {discovery.item.place}, {discovery.item.country}
             </span>
             <Link className="text-link" href="/today">
-              Read the discovery <ArrowUpRight size={18} aria-hidden="true" />
+              Read the discovery <ArrowRight size={18} aria-hidden="true" />
             </Link>
           </div>
-        </section>
-      )}
-      {groups.length > 0 && (
-        <section className="section wrap home-experience-discovery">
-          <SectionHeading
-            eyebrow={
-              weekCount
-                ? `${weekCount} new guides in the past 7 days`
-                : "Choose a curiosity"
-            }
-            title="Find your kind of experience."
-            href="/explore"
-            link="All experiences"
-          />
-          <HomeBrowse groups={groups} />
         </section>
       )}
       {featuredChapterCards.length > 0 && (
@@ -243,17 +229,20 @@ export default function Home() {
               const href = chapterHref(chapter).split("#")[0];
               return (
                 <article className="home-destination-card" key={chapter.slug}>
-                  <Link
-                    className="home-destination-photo"
-                    href={href}
-                    aria-label={`Explore ${chapter.name}`}
-                  >
-                    <Photo
-                      src={media.src}
-                      alt=""
-                      sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 25vw"
-                    />
-                  </Link>
+                  <div className="home-destination-visual">
+                    <Link
+                      className="home-destination-photo"
+                      href={href}
+                      aria-label={`Explore ${chapter.name}`}
+                    >
+                      <Photo
+                        src={media.src}
+                        alt=""
+                        sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 25vw"
+                      />
+                    </Link>
+                    <ImageCredit media={media} />
+                  </div>
                   <div className="home-destination-copy">
                     <span className="eyebrow">
                       {chapterDestinationCount(chapter, experiences)}{" "}
@@ -262,24 +251,75 @@ export default function Home() {
                     <h3>
                       <Link href={href}>{chapter.name}</Link>
                     </h3>
-                    <p className="home-destination-angle">{chapter.title}</p>
+
                     <Link className="home-destination-cta" href={href}>
                       Explore the place
-                      <ArrowUpRight size={18} aria-hidden="true" />
+                      <ArrowRight size={18} aria-hidden="true" />
                     </Link>
                   </div>
-                  <ImageCredit media={media} />
                 </article>
               );
             })}
           </div>
-          <details className="home-local-disclosure">
-            <summary>
-              Already have a place in mind? Find something for the time you
-              have.
-            </summary>
-            <LocalDiscovery areas={localAreas(experiences)} />
-          </details>
+          <LocalDiscovery areas={localAreas(experiences)} />
+        </section>
+      )}
+      {dayChapter && (
+        <section
+          className="section wrap home-day-plan"
+          aria-labelledby="home-day-title"
+        >
+          {dayPhoto && dayPhotoItem && (
+            <div className="home-day-photo">
+              <Link
+                href={`/experiences/${dayPhotoItem.slug}`}
+                aria-label={`Explore ${dayPhotoItem.title}`}
+              >
+                <Photo
+                  src={dayPhoto.src}
+                  alt={dayPhoto.alt}
+                  sizes="(max-width: 700px) 100vw, 40vw"
+                />
+              </Link>
+              <ImageCredit media={dayPhoto} />
+            </div>
+          )}
+          <div className="home-day-intro">
+            <p className="eyebrow">Make it a day / {dayChapter.name}</p>
+            <h2 id="home-day-title">Three discoveries. One day of your own.</h2>
+            <p>{dayChapter.intro}</p>
+            <Link
+              className="button button-dark"
+              href={`/plan?chapter=${dayChapter.slug}`}
+            >
+              Adapt this day <ArrowRight size={18} aria-hidden="true" />
+            </Link>
+          </div>
+          <ol className="home-day-stops">
+            {dayChapter.stops.slice(0, 3).map((stop) => (
+              <li key={stop.slug}>
+                <span>{stop.moment}</span>
+                <Link href={`/experiences/${stop.slug}`}>
+                  {stop.item.title} <ArrowRight size={16} aria-hidden="true" />
+                </Link>
+              </li>
+            ))}
+          </ol>
+          <p className="small-note">
+            {dayChapter.pace} Check each guide for opening times and separate
+            bookings.
+          </p>
+        </section>
+      )}
+      {groups.length > 0 && (
+        <section className="section wrap home-experience-discovery">
+          <SectionHeading
+            eyebrow="Worth your time"
+            title="Find your kind of experience."
+            href="/explore"
+            link="All experiences"
+          />
+          <HomeBrowse groups={groups} />
         </section>
       )}
       {homePathways.length > 0 && (
@@ -302,6 +342,7 @@ export default function Home() {
                 }}
                 item={item}
                 index={index}
+                showNumber={false}
               />
             ))}
           </div>
@@ -337,7 +378,7 @@ export default function Home() {
                 className="text-link"
                 href={`/journal/${journal.article.slug}`}
               >
-                Read the story <ArrowUpRight size={18} aria-hidden="true" />
+                Read the story <ArrowRight size={18} aria-hidden="true" />
               </Link>
             </div>
           </article>
@@ -347,7 +388,7 @@ export default function Home() {
         <PassportReturn />
         <p className="home-method-note">
           Independent public-source guides. Practical access notes and linked
-          sources in every guide. <Link href="/method">Our method ↗</Link>
+          sources in every guide. <Link href="/method">Our method →</Link>
         </p>
       </section>
     </div>
