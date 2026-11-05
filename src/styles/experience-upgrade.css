@@ -491,3 +491,26 @@
   font-weight: 600;
   padding-block: 12px;
 }
+.guide-link-index {
+  margin-block: 2rem;
+  padding-block: 1rem;
+  border-block: 1px solid var(--ea-line);
+}
+.guide-link-index > summary {
+  cursor: pointer;
+  font-size: 1rem;
+}
+.guide-link-index ul {
+  margin-top: 1rem;
+  padding-left: 1.25rem;
+  columns: 2 18rem;
+  column-gap: 2rem;
+}
+.guide-link-index li {
+  break-inside: avoid;
+  padding-block: 0.35rem;
+}
+.guide-link-index a {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
