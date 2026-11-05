@@ -333,7 +333,7 @@ export default function Home() {
             <p>{dayChapter.intro}</p>
             <Link
               className="button button-dark"
-              href={`/plan?chapter=${dayChapter.slug}`}
+              href={`/plan?chapter=${dayChapter.slug}#trip-title`}
             >
               See the day & make it yours{" "}
               <ArrowRight size={18} aria-hidden="true" />
