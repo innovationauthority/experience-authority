@@ -199,6 +199,7 @@ export function Footer({
           <Link href="/accessibility">Accessibility</Link>
           <Link href="/privacy">Privacy</Link>
           <Link href="/terms">Terms</Link>
+          <Link href="/legal">Company details</Link>
         </nav>
         {analyticsAvailable && <AnalyticsPreferencesButton />}
       </div>

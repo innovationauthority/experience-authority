@@ -1,6 +1,10 @@
 import Link from "next/link";
 import { PageIntro, Photo, ImageCredit } from "@/components/editorial";
-import { browseInterests as interests, matchesInterest } from "@/lib/catalog";
+import {
+  browseInterests as interests,
+  fields,
+  matchesInterest,
+} from "@/lib/catalog";
 import { getExperiences } from "@/lib/data";
 import { guideMediaFor } from "@/lib/media";
 import { pageMetadata } from "@/lib/seo";
@@ -69,6 +73,20 @@ export default function Fields() {
           );
         })}
       </div>
+      <details className="guide-link-index">
+        <summary>Browse by specific activity</summary>
+        <ul>
+          {fields
+            .filter((field) => items.some((item) => item.field === field.slug))
+            .map((field) => (
+              <li key={field.slug}>
+                <Link href={`/fields/${field.slug}`} prefetch={false}>
+                  {field.name}
+                </Link>
+              </li>
+            ))}
+        </ul>
+      </details>
     </div>
   );
 }

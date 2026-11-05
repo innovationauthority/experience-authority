@@ -225,6 +225,24 @@ export default async function Place({ params }: Props) {
           <p>No reviewed guides are published here yet.</p>
         </EmptyState>
       )}
+      {items.length > 9 && (
+        <details className="guide-link-index">
+          <summary>
+            All {items.length} guides in {placeName}
+          </summary>
+          <ul>
+            {[...items]
+              .sort((a, b) => a.title.localeCompare(b.title, "en"))
+              .map((item) => (
+                <li key={item.id}>
+                  <Link href={`/experiences/${item.slug}`} prefetch={false}>
+                    {item.title}
+                  </Link>
+                </li>
+              ))}
+          </ul>
+        </details>
+      )}
       {items.length > 0 && categories.length < 3 && (
         <p className="destination-coverage-note">
           Our coverage here is still growing. These are the experiences we can
