@@ -192,7 +192,7 @@ export function HomeDiscovery({ items }: { items: DiscoveryItem[] }) {
           aria-autocomplete="list"
           autoComplete="off"
           maxLength={200}
-          placeholder="Place or experience"
+          placeholder="Find a place or activity"
         />
         <button type="submit" aria-label="Search all experiences">
           <ArrowRight size={22} aria-hidden="true" />
@@ -266,7 +266,7 @@ export function HomeDiscovery({ items }: { items: DiscoveryItem[] }) {
         <Link href="/explore?interest=design-innovation">
           Design &amp; innovation
         </Link>
-        <Link href="/fields">All interests</Link>
+        <Link href="#find-experiences">All interests</Link>
         <Link href="/explore?surprise=1#compass-results">Surprise me →</Link>
       </nav>
     </div>

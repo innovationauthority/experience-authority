@@ -12,16 +12,24 @@ export type HomeBrowseGroup = {
   items: CardExperience[];
 };
 
-export function HomeBrowse({ groups }: { groups: HomeBrowseGroup[] }) {
+export function HomeBrowse({
+  groups,
+  latestDate,
+}: {
+  groups: HomeBrowseGroup[];
+  latestDate?: string;
+}) {
   const [active, setActive] = useState(groups[0]?.slug);
   const [limit, setLimit] = useState(3);
   const group = groups.find((entry) => entry.slug === active) || groups[0];
   if (!group) return null;
   return (
     <div className="home-browse">
-      <label className="home-interest-select">
-        <span className="sr-only">Choose an experience interest</span>
+      <div className="home-interest-select">
+        <label htmlFor="home-interest">Choose an interest</label>
         <select
+          id="home-interest"
+          aria-controls="home-browse-results"
           value={group.slug}
           onChange={(event) => {
             setActive(event.target.value);
@@ -34,7 +42,7 @@ export function HomeBrowse({ groups }: { groups: HomeBrowseGroup[] }) {
             </option>
           ))}
         </select>
-      </label>
+      </div>
       <div
         className="home-browse-choices"
         role="group"
@@ -55,8 +63,11 @@ export function HomeBrowse({ groups }: { groups: HomeBrowseGroup[] }) {
           </button>
         ))}
       </div>
+      <span className="sr-only" role="status">
+        {group.name}, showing {Math.min(limit, group.items.length)} experiences.
+      </span>
       <div id="home-browse-results" aria-label={group.name}>
-        <div className="experience-grid">
+        <div className="experience-grid" key={group.slug}>
           {group.items.slice(0, limit).map((item, index) => (
             <ExperienceCardView
               key={item.id}
@@ -67,8 +78,8 @@ export function HomeBrowse({ groups }: { groups: HomeBrowseGroup[] }) {
           ))}
         </div>
         <div className="home-browse-more">
-          <p className="small-note" role="status">
-            {Math.min(limit, group.items.length)} experiences to begin with
+          <p className="small-note">
+            {group.name}: {Math.min(limit, group.items.length)} experiences
           </p>
           {limit < group.items.length && (
             <button
@@ -79,13 +90,31 @@ export function HomeBrowse({ groups }: { groups: HomeBrowseGroup[] }) {
               Show three more
             </button>
           )}
-          <Link className="text-link" href={group.href}>
+          <Link
+            className="text-link"
+            href={group.slug === "edit" ? "/new" : group.href}
+          >
             {group.slug === "new"
               ? "All new guides"
-              : `Explore ${group.name.toLowerCase()}`}{" "}
+              : group.slug === "edit"
+                ? "See what’s new"
+                : `Explore ${group.name.toLowerCase()}`}{" "}
             →
           </Link>
         </div>
+        {latestDate && (
+          <p className="home-release-date">
+            Latest guides added{" "}
+            <time dateTime={latestDate}>
+              {new Date(`${latestDate}T12:00:00Z`).toLocaleDateString("en-GB", {
+                day: "numeric",
+                month: "long",
+                year: "numeric",
+                timeZone: "UTC",
+              })}
+            </time>
+          </p>
+        )}
       </div>
     </div>
   );
