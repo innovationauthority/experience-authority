@@ -778,9 +778,9 @@ export const guideBatch49: PublicExperience[] = [
     humanReturn:
       "Remember the small coordination between people rather than trying to take possession of the tradition.",
     responsibility:
-      "The federation calendar lists 24 October 2026 at 17:00 at Pla de la Catedral. The organiser announces the 2026 cycle's closing double ballada for 8 November at 10:45. Confirm both with current notices and weather. Do not assume every weekend or time remains the same. A 25 October event at Sagrada Família is a different venue. There is no guaranteed lesson, dancing partner or place in a circle. Keep bags and cameras clear of dancers and give musicians space. Ask about step-free approaches and a comfortable observation point if needed.",
+      "The federation calendar lists 7 November 2026 at 17:00 at Pla de la Catedral. The organiser announces the 2026 cycle's closing double ballada for 8 November at 10:45. Confirm both with current notices and weather. Do not assume every weekend or time remains the same. Sagrada Família is a different venue. There is no guaranteed lesson, dancing partner or place in a circle. Keep bags and cameras clear of dancers and give musicians space. Ask about step-free approaches and a comfortable observation point if needed.",
     evidence:
-      "The organiser's September 2026 announcement establishes the public cycle and its 8 November ending. The federation's current agenda provides an upcoming 24 October cathedral date. EA has not attended, confirmed weather-dependent operation or arranged visitor participation.",
+      "The organiser's September 2026 announcement establishes the public cycle and its 8 November ending. The federation's current agenda lists the 7 November gathering at Pla de la Catedral. EA has not attended, confirmed weather-dependent operation or arranged visitor participation.",
     duration: "Choose part of the confirmed ballada, at your own pace",
     participation:
       "Public audience, with optional participation only when welcomed",
@@ -788,9 +788,14 @@ export const guideBatch49: PublicExperience[] = [
       "Check ACFB and the current SomSardana agenda for Pla de la Catedral, Barcelona. This guide concerns the remaining 2026 outdoor cycle only and expires after its announced ending. Indoor cobla concerts and other squares are separate programmes.",
     ...common,
     ...guideImage("barcelona-cathedral-sardana"),
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-05",
+      reviewBy: "2026-11-08",
+      accessUrl: "https://acfbarcelona.cat/comunicat-ballades-de-sardanes/",
+      sources: [
         {
           title: "ACFB: 2026 cathedral ballades announcement",
           url: "https://acfbarcelona.cat/comunicat-ballades-de-sardanes/",
@@ -802,8 +807,7 @@ export const guideBatch49: PublicExperience[] = [
           note: "Upcoming 24 October 2026, 17:00, Pla de la Catedral. Other Barcelona locations are not interchangeable.",
         },
       ],
-      "2026-11-08",
-    ),
+    },
   },
   {
     id: "tokyo-tsukiji-organ-concert",

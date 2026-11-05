@@ -1,6 +1,263 @@
 import type { GuideReview } from "./catalog";
 /** Prior source reviews retained for historical eligibility checks, never a fallback for expired current evidence. */
 export const guideReviewHistory: Record<string, GuideReview[]> = {
+  "let-a-paris-guinguette-open-the-evening": [
+    {
+      "basis": "public_sources",
+      "scope": "public_hospitality",
+      "requiresSpecialPermission": false,
+      "checkedOn": "2026-10-07",
+      "reviewBy": "2026-11-10",
+      "accessUrl": "https://rosabonheur.fr/lieu/rosa-bonheur-buttes-chaumont/",
+      "sources": [
+        {
+          "title": "Rosa Bonheur: Buttes-Chaumont",
+          "url": "https://rosabonheur.fr/lieu/rosa-bonheur-buttes-chaumont/",
+          "note": "Specific venue, current opening pattern, no-reservation policy and programme links."
+        },
+        {
+          "title": "Rosa Bonheur: Comme à la Maison",
+          "url": "https://rosabonheur.fr/events/event/comme-a-la-maison/",
+          "note": "Identifiable public dance gathering. Dates and special-entry conditions can change."
+        }
+      ]
+    },
+  ],
+  "let-a-bywater-backyard-set-the-evening": [
+    {
+      "basis": "public_sources",
+      "scope": "public_hospitality",
+      "requiresSpecialPermission": false,
+      "checkedOn": "2026-10-07",
+      "reviewBy": "2026-11-10",
+      "accessUrl": "https://www.bacchanalwine.com/music",
+      "sources": [
+        {
+          "title": "Bacchanal: music programme",
+          "url": "https://www.bacchanalwine.com/music",
+          "note": "Venue's changing music calendar. Confirm the current set before travelling."
+        },
+        {
+          "title": "Bacchanal: visitor FAQ",
+          "url": "https://www.bacchanalwine.com/faq",
+          "note": "Strict 21-plus entry, accepted ID, first-come seating, weather alternatives and non-alcoholic options."
+        }
+      ]
+    },
+  ],
+  "stand-inside-the-room-that-holds-back-a-flood": [
+    {
+      "basis": "public_sources",
+      "scope": "public_programme",
+      "requiresSpecialPermission": false,
+      "checkedOn": "2026-10-07",
+      "reviewBy": "2026-11-10",
+      "accessUrl": "https://gaikaku.jp/course/",
+      "sources": [
+        {
+          "title": "G-Cans: public course formats",
+          "url": "https://gaikaku.jp/course/",
+          "note": "Basic 55-minute Underground Temple route, distinct from catwalk and extended courses."
+        },
+        {
+          "title": "G-Cans: individual booking and participation rules",
+          "url": "https://gaikaku.jp/information_list/1347/",
+          "note": "Booking window, stairs, age, Japanese guiding and operating restrictions."
+        }
+      ]
+    },
+  ],
+  "follow-the-mustard-seed-through-beaune": [
+    {
+      "basis": "public_sources",
+      "scope": "public_programme",
+      "requiresSpecialPermission": false,
+      "checkedOn": "2026-10-07",
+      "reviewBy": "2026-11-10",
+      "accessUrl": "https://www.fallot.com/en/parcours-de-visites/parcours-sensations-fortes/",
+      "sources": [
+        {
+          "title": "Fallot: Sensations Fortes production tour",
+          "url": "https://www.fallot.com/en/parcours-de-visites/parcours-sensations-fortes/",
+          "note": "Official production route, individual access and languages. Some displayed tariffs are dated 2025."
+        },
+        {
+          "title": "Fallot: visitor routes",
+          "url": "https://www.fallot.com/en/parcours-de-visites/",
+          "note": "Distinguishes the two formats and describes tasting after the visit."
+        },
+        {
+          "title": "Beaune Tourism: Sensations Fortes",
+          "url": "https://www.beaune-tourisme.fr/fr/profiter/patrimoine-et-culture-savoirfaire/la-moutarderie-fallot-sensations-fortes-beaune-fr-3860799/",
+          "note": "2026 duration, address and the limited June to September English tour schedule."
+        }
+      ]
+    },
+  ],
+  "hear-a-nashville-song-with-its-writer-in-the-room": [
+    {
+      "basis": "public_sources",
+      "scope": "public_programme",
+      "requiresSpecialPermission": false,
+      "checkedOn": "2026-10-14",
+      "reviewBy": "2026-11-10",
+      "accessUrl": "https://www.countrymusichalloffame.org/experiences/public-programming",
+      "sources": [
+        {
+          "title": "Country Music Hall of Fame: public programmes",
+          "url": "https://www.countrymusichalloffame.org/experiences/public-programming",
+          "note": "Recurring Songwriter Session role and audience questions. Current closure and traffic notices."
+        },
+        {
+          "title": "Songwriter Session: 17 October 2026",
+          "url": "https://www.countrymusichalloffame.org/calendar/songwriter-session-jack-schneider-2",
+          "note": "Upcoming dated public session. Museum admission and a separate programme ticket are specified. Lineup is not an evergreen promise."
+        },
+        {
+          "title": "Museum: full programme-pass policy",
+          "url": "https://countrymusichalloffame.org/plan-your-visit/museum-policies-faq/full-program-pass-policy",
+          "note": "Limited seating and default pass arrangements. Event-specific ticket instructions can supersede them."
+        }
+      ]
+    },
+  ],
+  "cycle-the-runway-that-became-a-berlin-park": [
+    {
+      "basis": "public_sources",
+      "scope": "public_admission",
+      "requiresSpecialPermission": false,
+      "checkedOn": "2026-10-14",
+      "reviewBy": "2026-11-10",
+      "accessUrl": "https://www.tempelhoferfeld.de/en/service-infos/plan-your-visit/",
+      "sources": [
+        {
+          "title": "Tempelhofer Feld: plan your visit",
+          "url": "https://www.tempelhoferfeld.de/en/service-infos/plan-your-visit/",
+          "note": "Public entrances, free admission, seasonal hours and protected areas."
+        },
+        {
+          "title": "Tempelhofer Feld: sports",
+          "url": "https://www.tempelhoferfeld.de/en/discoveries-experiences/sports/",
+          "note": "Paved cycling space, slower users' priority and a separately operated rental."
+        }
+      ]
+    },
+  ],
+  "choose-a-concert-inside-budapests-music-academy": [
+    {
+      "basis": "public_sources",
+      "scope": "public_programme",
+      "requiresSpecialPermission": false,
+      "checkedOn": "2026-10-17",
+      "reviewBy": "2026-11-10",
+      "accessUrl": "https://concert.lisztacademy.hu/programs/",
+      "sources": [
+        {
+          "title": "Liszt Academy: current public concert calendar",
+          "url": "https://concert.lisztacademy.hu/programs/",
+          "note": "October 2026 performances, distinct venues and ticket or sold-out states."
+        },
+        {
+          "title": "Liszt Academy: ticket information",
+          "url": "https://concert.lisztacademy.hu/ticket-information",
+          "note": "Online purchases, box office, organiser differences and accessible-seat arrangements."
+        }
+      ]
+    },
+  ],
+  "bind-five-ways-of-holding-a-page": [
+    {
+      "basis": "public_sources",
+      "scope": "public_programme",
+      "requiresSpecialPermission": false,
+      "checkedOn": "2026-10-17",
+      "reviewBy": "2026-11-10",
+      "accessUrl": "https://londonbookarts.org/collections/workshops/products/introduction-to-bookbinding-three-day-foundation-02-04-december-2026",
+      "sources": [
+        {
+          "title": "LCBA: December three-day foundation",
+          "url": "https://londonbookarts.org/collections/workshops/products/introduction-to-bookbinding-three-day-foundation-02-04-december-2026",
+          "note": "Dated beginner course, structures, teaching hours, accessibility and cancellation terms."
+        },
+        {
+          "title": "LCBA: workshop availability",
+          "url": "https://londonbookarts.org/collections/workshops",
+          "note": "Public collection showed two places on this course, unlike several sold-out November options."
+        },
+        {
+          "title": "LCBA: about the studio",
+          "url": "https://londonbookarts.org/pages/about",
+          "note": "Artist-run studio and east London print-industry context."
+        }
+      ]
+    },
+  ],
+  "hear-the-room-you-came-to-see-in-porto": [
+    {
+      "basis": "public_sources",
+      "scope": "public_programme",
+      "requiresSpecialPermission": false,
+      "checkedOn": "2026-10-20",
+      "reviewBy": "2026-11-10",
+      "accessUrl": "https://casadamusica.com/agenda/",
+      "sources": [
+        {
+          "title": "Casa da Música: current agenda",
+          "url": "https://casadamusica.com/agenda/",
+          "note": "Forthcoming concerts, rooms and different public formats checked. Examples include 23 and 24 October, not a fixed evergreen programme."
+        },
+        {
+          "title": "Casa da Música: English programme overview",
+          "url": "https://casadamusica.com/en/",
+          "note": "Current concerts distinct from architectural visits. No claim of independent performance review."
+        }
+      ]
+    },
+  ],
+  "let-a-lapa-samba-room-set-the-evening": [
+    {
+      "basis": "public_sources",
+      "scope": "public_programme",
+      "requiresSpecialPermission": false,
+      "checkedOn": "2026-10-20",
+      "reviewBy": "2026-11-10",
+      "accessUrl": "https://www.barcariocadagema.com.br/shows",
+      "sources": [
+        {
+          "title": "Carioca da Gema: current show calendar",
+          "url": "https://www.barcariocadagema.com.br/shows",
+          "note": "Current Portuguese October programmes, distinct from older homepage and English listings. Availability remains date-specific."
+        },
+        {
+          "title": "Riotur: Família Moadir at Carioca da Gema",
+          "url": "https://riotur.rio/evento/familia-moadir/",
+          "note": "City tourism corroborates the samba venue and Avenida Mem de Sá address. Its undated event description is context, not the current calendar."
+        }
+      ]
+    },
+  ],
+  "watch-a-sardana-circle-form-outside-barcelonas-cathedral": [
+    {
+      "basis": "public_sources",
+      "scope": "public_programme",
+      "requiresSpecialPermission": false,
+      "checkedOn": "2026-10-21",
+      "reviewBy": "2026-11-08",
+      "accessUrl": "https://acfbarcelona.cat/comunicat-ballades-de-sardanes/",
+      "sources": [
+        {
+          "title": "ACFB: 2026 cathedral ballades announcement",
+          "url": "https://acfbarcelona.cat/comunicat-ballades-de-sardanes/",
+          "note": "Current organiser announcement, free public cycle and closing double ballada on 8 November at 10:45."
+        },
+        {
+          "title": "SomSardana: current federation agenda",
+          "url": "https://app.somsardana.cat/",
+          "note": "Upcoming 24 October 2026, 17:00, Pla de la Catedral. Other Barcelona locations are not interchangeable."
+        }
+      ]
+    },
+  ],
   "give-amsterdam-a-seat-beside-the-jazz-stage": [
     {
       "basis": "public_sources",
@@ -101,6 +358,36 @@ export const guideReviewHistory: Record<string, GuideReview[]> = {
     }
   ],
   "let-an-archive-film-interrupt-a-dublin-lunchtime": [
+    {
+      "basis": "public_sources",
+      "scope": "public_programme",
+      "requiresSpecialPermission": false,
+      "checkedOn": "2026-11-04",
+      "reviewBy": "2026-11-09",
+      "accessUrl": "https://ifi.ie/whats-on",
+      "sources": [
+        {
+          "title": "IFI: Archive at Lunchtime",
+          "url": "https://ifi.ie/irish-film-directory/archive-at-lunchtime",
+          "note": "Standing monthly series and box-office ticket conditions."
+        },
+        {
+          "title": "IFI: current screenings",
+          "url": "https://ifi.ie/whats-on",
+          "note": "Current screening and ticket calendar. Check your chosen date."
+        },
+        {
+          "title": "IFI: 9 November screenings",
+          "url": "https://ifi.ie/whats-on?date=2026-11-09",
+          "note": "The 9 November calendar lists the Gallic Games Programme 2 at 12:40."
+        },
+        {
+          "title": "IFI: accessible cinema",
+          "url": "https://ifi.ie/about-ifi/accessible-cinema",
+          "note": "Venue guidance for accessible cinema and booking."
+        }
+      ]
+    },
     {
       "basis": "public_sources",
       "scope": "public_programme",

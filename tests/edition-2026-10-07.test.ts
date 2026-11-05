@@ -107,7 +107,7 @@ test("new access and photo boundaries remain visible, including seasonal skating
   );
   assert.match(
     byId("beaune-fallot").responsibility,
-    /do not assume an October visit is in English/,
+    /ask before booking an English-language visit outside those months/,
   );
   assert.match(byId("puebla-talavera").responsibility, /five working days/);
   assert.match(

@@ -456,11 +456,12 @@ export const mediaBatch66: readonly GuideMedia[] = [
     firstPublishedOn: "2026-11-03",
     visualReview: {
       outcome: "approved",
-      checkedOn: "2026-11-03",
+      checkedOn: "2026-11-05",
       rationale:
-        "Subject and framing checked against the selected visitor experience and source page.",
+        "The operator’s larger original preserves the same documented rock-pool scene with clearer detail in the water and surrounding vegetation.",
     },
-    depiction: "Outdoor rock pools in Hanmer Springs. Resized for web display.",
+    depiction:
+      "Outdoor rock pools in Hanmer Springs. Higher-resolution original from the same operator source, encoded for web display.",
   },
   {
     guideId: "stockholm-fasching-live-set",

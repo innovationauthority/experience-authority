@@ -733,7 +733,7 @@ export const guideBatch47: PublicExperience[] = [
     humanReturn:
       "Keep the sound of one exchange in mind and let another evening belong to a different group.",
     responsibility:
-      "Use the current Portuguese show calendar rather than older homepage or English listings. October 21 to 31 programmes were advertised at the source check. Confirm door time, actual show time, age rules, physical access and the chosen ticket's seating conditions. A general admission is not automatically a reserved table. Expect amplified music and a lively evening setting. Agree food, drink and any dietary needs separately, and plan a suitable late return. Do not enter the musicians' space or assume that filming is permitted.",
+      "Use the current Portuguese show calendar rather than older homepage or English listings. The November listings include Familia Moadir on 7 and 13 November 2026. Check the date-specific ticket page before travelling. Confirm door time, actual show time, age rules, physical access and the chosen ticket's seating conditions. A general admission is not automatically a reserved table. Expect amplified music and a lively evening setting. Agree food, drink and any dietary needs separately, and plan a suitable late return. Do not enter the musicians' space or assume that filming is permitted.",
     evidence:
       "The current official show calendar identifies forthcoming programmes and the Lapa venue. Riotur independently lists the venue and one of its samba groups as a public cultural offer. EA has not attended, inspected access or confirmed remaining seats. Older reseller availability is not used as evidence of current closure or booking.",
     duration: "Reserve an evening and confirm the selected show's actual times",
@@ -741,9 +741,14 @@ export const guideBatch47: PublicExperience[] = [
       "Listening and optional audience dancing at a public samba show",
     access:
       "Select the actual date through Carioca da Gema's current show page and follow its official ticket route. Confirm admission, table conditions and the address at Avenida Mem de Sá 79. No dinner, dance tuition, private introduction or EA reservation is included.",
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-05",
+      reviewBy: "2026-11-23",
+      accessUrl: "https://www.barcariocadagema.com.br/shows",
+      sources: [
         {
           title: "Carioca da Gema: current show calendar",
           url: "https://www.barcariocadagema.com.br/shows",
@@ -755,8 +760,7 @@ export const guideBatch47: PublicExperience[] = [
           note: "City tourism corroborates the samba venue and Avenida Mem de Sá address. Its undated event description is context, not the current calendar.",
         },
       ],
-      "2026-11-10",
-    ),
+    },
   },
   {
     id: "buenos-aires-bomba-tiempo",
@@ -837,16 +841,21 @@ export const guideBatch47: PublicExperience[] = [
     humanReturn:
       "The piece and the room may remain connected in memory, giving you a reason to try another programme.",
     responsibility:
-      "A concert ticket and the guided architectural visit are separate products. The agenda mixes Sala Suggia, Sala 2, café events, workshops and rehearsals. Do not assume that free admission means unrestricted entry or a reserved seat. Check age guidance, access, running time, language-dependent content, recording rules and late-entry policy for the chosen event. The current calendar includes forthcoming 23 and 24 October programmes, not a permanent lineup. A rehearsal photograph does not make a rehearsal publicly bookable.",
+      "A concert ticket and the guided architectural visit are separate products. The agenda mixes Sala Suggia, Sala 2, café events, workshops and rehearsals. Do not assume that free admission means unrestricted entry or a reserved seat. Check age guidance, access, running time, language-dependent content, recording rules and late-entry policy for the chosen event. The agenda lists each concert and room separately. Check the current listing before choosing a ticket. A rehearsal photograph does not make a rehearsal publicly bookable.",
     evidence:
       "The current official agenda and English programme overview identify future concerts and their actual rooms. The existing EA architectural-tour guide remains a separate experience. EA has not attended or evaluated the current performance, acoustics or seating.",
     duration: "Follow the chosen programme's running time, with early arrival",
     participation: "Listening at a separately booked public concert",
     access:
       "Choose an actual concert and its room through Casa da Música's official agenda. Confirm the date, admission terms and venue before payment. No guided tour, café service, combined reservation or EA booking is included.",
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-05",
+      reviewBy: "2026-11-24",
+      accessUrl: "https://casadamusica.com/agenda/",
+      sources: [
         {
           title: "Casa da Música: current agenda",
           url: "https://casadamusica.com/agenda/",
@@ -858,7 +867,6 @@ export const guideBatch47: PublicExperience[] = [
           note: "Current concerts distinct from architectural visits. No claim of independent performance review.",
         },
       ],
-      "2026-11-10",
-    ),
+    },
   },
 ];

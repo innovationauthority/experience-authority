@@ -224,20 +224,26 @@ export const guideBatch46: PublicExperience[] = [
     humanReturn:
       "You leave with structures you can recognise in books long after the class ends.",
     responsibility:
-      "This is a three-day commitment from 10:00 to 17:00, not a short drop-in. The course welcomes beginners and supplies tools and materials. Ask about age suitability and any assistance needed with cutting or handwork. LCBA describes a barrier-free studio but uneven, narrow pavements on routes from stations. Read the cancellation policy before booking. Other November courses are sold out or require intermediate skills and are not interchangeable alternatives.",
+      "This is a three-day commitment from 10:00 to 17:00, not a short drop-in. The course welcomes beginners and supplies tools and materials. Ask about age suitability and any assistance needed with cutting or handwork. LCBA describes a barrier-free studio but uneven, narrow pavements on routes from stations. Read the cancellation policy before booking. The 2–4 December 2026 course is listed as sold out. LCBA offers a waiting list for cancellations.",
     evidence:
       "The dated course page publishes the five structures, instructor, equipment and access details. The public collection showed two remaining places when checked, which is not a held seat. EA has not attended or assessed the teaching. The photograph shows the course's example binding, not an outcome guaranteed to every participant.",
     duration: "Three consecutive days, 2 to 4 December 2026, 10:00 to 17:00",
     participation: "Beginner bookbinding with specialist tools and instruction",
     access:
-      "Book the specific dated course directly with LCBA at Britannia Works, 56 Dace Road. Check remaining places and the final course conditions. No EA booking, held seat, studio membership or partnership is implied.",
-    guideReview: review(
-      "public_programme",
-      [
+      "The December course is sold out. Use the official listing to find the waiting-list instructions or check the workshop calendar for a future equivalent course. The studio is at Britannia Works, 56 Dace Road. No EA booking, held seat, studio membership or partnership is implied.",
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-05",
+      reviewBy: "2026-11-10",
+      accessUrl:
+        "https://londonbookarts.org/collections/workshops/products/introduction-to-bookbinding-three-day-foundation-02-04-december-2026",
+      sources: [
         {
           title: "LCBA: December three-day foundation",
           url: "https://londonbookarts.org/collections/workshops/products/introduction-to-bookbinding-three-day-foundation-02-04-december-2026",
-          note: "Dated beginner course, structures, teaching hours, accessibility and cancellation terms.",
+          note: "The named December foundation course is listed as sold out. The same page gives waiting-list instructions.",
         },
         {
           title: "LCBA: workshop availability",
@@ -250,8 +256,7 @@ export const guideBatch46: PublicExperience[] = [
           note: "Artist-run studio and east London print-industry context.",
         },
       ],
-      "2026-11-10",
-    ),
+    },
   },
   {
     id: "kuala-lumpur-pewter",
@@ -767,22 +772,31 @@ export const guideBatch46: PublicExperience[] = [
       "Audience listening at a separately chosen public performance",
     access:
       "Follow the official calendar's ticket link for the exact event and hall. Academy-organised and externally promoted concerts can have different conditions. No EA seat, backstage admission or partnership is implied.",
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-05",
+      reviewBy: "2026-11-23",
+      accessUrl: "https://concert.lisztacademy.hu/buy-tickets",
+      sources: [
         {
           title: "Liszt Academy: current public concert calendar",
           url: "https://concert.lisztacademy.hu/programs/",
           note: "October 2026 performances, distinct venues and ticket or sold-out states.",
         },
         {
-          title: "Liszt Academy: ticket information",
-          url: "https://concert.lisztacademy.hu/ticket-information",
-          note: "Online purchases, box office, organiser differences and accessible-seat arrangements.",
+          title: "Liszt Academy: ticket finder",
+          url: "https://concert.lisztacademy.hu/buy-tickets",
+          note: "Official booking finder with hall, genre and date filters.",
+        },
+        {
+          title: "Liszt Academy: Great Liszt Marathon, 8 November 2026",
+          url: "https://concert.lisztacademy.hu/programs/2026-11-08--14466",
+          note: "Dated Grand Hall listing with event-specific ticket link.",
         },
       ],
-      "2026-11-10",
-    ),
+    },
   },
   {
     id: "cape-town-athletic-jazz",

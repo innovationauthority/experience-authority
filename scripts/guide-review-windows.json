@@ -2406,7 +2406,7 @@
     "regionSlug": "ghent"
   },
   "/experiences/let-an-archive-film-interrupt-a-dublin-lunchtime": {
-    "availableFrom": "2026-11-04",
+    "availableFrom": "2026-11-05",
     "reviewBy": "2026-11-09",
     "countrySlug": "ireland",
     "regionSlug": "dublin"
@@ -2514,7 +2514,7 @@
     "regionSlug": "new-york-city"
   },
   "/experiences/watch-a-sardana-circle-form-outside-barcelonas-cathedral": {
-    "availableFrom": "2026-10-21",
+    "availableFrom": "2026-11-05",
     "reviewBy": "2026-11-08",
     "countrySlug": "spain",
     "regionSlug": "barcelona"
@@ -2724,8 +2724,8 @@
     "regionSlug": "granada"
   },
   "/experiences/let-a-lapa-samba-room-set-the-evening": {
-    "availableFrom": "2026-10-20",
-    "reviewBy": "2026-11-10",
+    "availableFrom": "2026-11-05",
+    "reviewBy": "2026-11-23",
     "countrySlug": "brazil",
     "regionSlug": "rio-de-janeiro"
   },
@@ -2736,8 +2736,8 @@
     "regionSlug": "buenos-aires"
   },
   "/experiences/hear-the-room-you-came-to-see-in-porto": {
-    "availableFrom": "2026-10-20",
-    "reviewBy": "2026-11-10",
+    "availableFrom": "2026-11-05",
+    "reviewBy": "2026-11-24",
     "countrySlug": "portugal",
     "regionSlug": "porto"
   },
@@ -2766,7 +2766,7 @@
     "regionSlug": "bagru"
   },
   "/experiences/bind-five-ways-of-holding-a-page": {
-    "availableFrom": "2026-10-17",
+    "availableFrom": "2026-11-05",
     "reviewBy": "2026-11-10",
     "countrySlug": "united-kingdom",
     "regionSlug": "london"
@@ -2838,8 +2838,8 @@
     "regionSlug": "naples"
   },
   "/experiences/choose-a-concert-inside-budapests-music-academy": {
-    "availableFrom": "2026-10-17",
-    "reviewBy": "2026-11-10",
+    "availableFrom": "2026-11-05",
+    "reviewBy": "2026-11-23",
     "countrySlug": "hungary",
     "regionSlug": "budapest"
   },
@@ -2886,8 +2886,8 @@
     "regionSlug": "chiang-mai"
   },
   "/experiences/cycle-the-runway-that-became-a-berlin-park": {
-    "availableFrom": "2026-10-14",
-    "reviewBy": "2026-11-10",
+    "availableFrom": "2026-11-05",
+    "reviewBy": "2026-12-03",
     "countrySlug": "germany",
     "regionSlug": "berlin"
   },
@@ -2940,8 +2940,8 @@
     "regionSlug": "mexico-city"
   },
   "/experiences/hear-a-nashville-song-with-its-writer-in-the-room": {
-    "availableFrom": "2026-10-14",
-    "reviewBy": "2026-11-10",
+    "availableFrom": "2026-11-05",
+    "reviewBy": "2026-11-20",
     "countrySlug": "united-states",
     "regionSlug": "nashville"
   },
@@ -2958,8 +2958,8 @@
     "regionSlug": "copenhagen"
   },
   "/experiences/follow-the-mustard-seed-through-beaune": {
-    "availableFrom": "2026-10-07",
-    "reviewBy": "2026-11-10",
+    "availableFrom": "2026-11-05",
+    "reviewBy": "2026-12-02",
     "countrySlug": "france",
     "regionSlug": "beaune"
   },
@@ -3024,8 +3024,8 @@
     "regionSlug": "paris"
   },
   "/experiences/stand-inside-the-room-that-holds-back-a-flood": {
-    "availableFrom": "2026-10-07",
-    "reviewBy": "2026-11-10",
+    "availableFrom": "2026-11-05",
+    "reviewBy": "2026-11-25",
     "countrySlug": "japan",
     "regionSlug": "kasukabe"
   },
@@ -3054,14 +3054,14 @@
     "regionSlug": "dublin"
   },
   "/experiences/let-a-bywater-backyard-set-the-evening": {
-    "availableFrom": "2026-10-07",
-    "reviewBy": "2026-11-10",
+    "availableFrom": "2026-11-05",
+    "reviewBy": "2026-11-24",
     "countrySlug": "united-states",
     "regionSlug": "new-orleans"
   },
   "/experiences/let-a-paris-guinguette-open-the-evening": {
-    "availableFrom": "2026-10-07",
-    "reviewBy": "2026-11-10",
+    "availableFrom": "2026-11-05",
+    "reviewBy": "2026-11-24",
     "countrySlug": "france",
     "regionSlug": "paris"
   },

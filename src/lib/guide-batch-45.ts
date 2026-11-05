@@ -312,7 +312,7 @@ export const guideBatch45: PublicExperience[] = [
     humanReturn:
       "The remembered scale belongs to a movement you chose, not a viewing platform.",
     responsibility:
-      "Follow signed routes, pedestrian priority and fenced nature-protection areas. Do not cycle into protected meadow or assume every surface suits your bicycle or ability. Wind, rain and heat matter on exposed ground. Bring suitable equipment and use your own judgement about safe riding. The October public hours are currently 07:00 to 19:00, with earlier winter closing. Rental is separate and its operator's hours must be checked. Public admission does not include instruction or bicycle support.",
+      "Follow signed routes, pedestrian priority and fenced nature-protection areas. Do not cycle into protected meadow or assume every surface suits your bicycle or ability. Wind, rain and heat matter on exposed ground. Bring suitable equipment and use your own judgement about safe riding. The operator lists 07:00 to 18:00 in November and 07:30 to 17:00 in December. Check the current notice before setting out. Rental is separate and its operator's hours must be checked. Public admission does not include instruction or bicycle support.",
     evidence:
       "The park's official visit and sports pages confirm free access, paved cycling areas, seasonal hours and slower users' priority. EA has not inspected the route or rental equipment. The licensed photograph shows an ordinary park setting, not a coached ride or a promise of the same conditions.",
     duration:
@@ -321,9 +321,15 @@ export const guideBatch45: PublicExperience[] = [
       "Independent cycling within the public park's permitted areas",
     access:
       "Use the park's official entrance information. Bring your own bicycle or separately confirm a public rental. Check the current closing time before entering. No EA tour, rental, equipment or partnership is implied.",
-    guideReview: review(
-      "public_admission",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_admission",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-05",
+      reviewBy: "2026-12-03",
+      accessUrl:
+        "https://www.tempelhoferfeld.de/en/service-infos/plan-your-visit/",
+      sources: [
         {
           title: "Tempelhofer Feld: plan your visit",
           url: "https://www.tempelhoferfeld.de/en/service-infos/plan-your-visit/",
@@ -335,8 +341,7 @@ export const guideBatch45: PublicExperience[] = [
           note: "Paved cycling space, slower users' priority and a separately operated rental.",
         },
       ],
-      "2026-11-10",
-    ),
+    },
   },
   {
     id: "auckland-cup-sailing",
@@ -729,27 +734,34 @@ export const guideBatch45: PublicExperience[] = [
     humanReturn:
       "The next familiar chorus may carry a question you had never thought to ask.",
     responsibility:
-      "Choose a published session, not a general concert or a ticket to another venue. Museum admission alone does not guarantee a programme seat. The specific event's programme-ticket instructions take priority. The general policy uses limited passes and first-come arrangements unless otherwise specified. Arrive before the start and confirm language, hearing support and access needs. Artists, length and question time vary. The museum announces closure on 18 October 2026 and a nearby road closure from 16 to 19 October, so check travel notices.",
+      "Choose a published session, not a general concert or a ticket to another venue. Museum admission alone does not guarantee a programme seat. The specific event's programme-ticket instructions take priority. The general policy uses limited passes and first-come arrangements unless otherwise specified. Arrive before the start and confirm language, hearing support and access needs. Artists, length and question time vary. Check current museum and travel notices before setting out.",
     evidence:
-      "The museum describes its recurring Songwriter Sessions and audience questions. Its dated 17 October 2026 event verifies an upcoming public format and separate programme-ticket requirement. The general pass policy explains limited seating. EA has not attended or met the songwriter. The official programme photograph is historical and does not promise the pictured artist on your date.",
+      "The museum describes its recurring Songwriter Sessions and audience questions. Its dated 7 November 2026 event verifies an upcoming public format and separate programme-ticket requirement. The general pass policy explains limited seating. EA has not attended or met the songwriter. The official programme photograph is historical and does not promise the pictured artist on your date.",
     duration:
       "Follow the selected session's stated duration and leave time for admission and seating",
     participation:
       "Listening to songs and their making, with questions where the host invites them",
     access:
       "Use the museum calendar to select a current Songwriter Session at the Ford Theater, 222 Rep. John Lewis Way South. Read the actual event ticket instructions before buying museum admission. No EA seat, artist access, booking or partnership is implied.",
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-05",
+      reviewBy: "2026-11-20",
+      accessUrl:
+        "https://www.countrymusichalloffame.org/experiences/public-programming",
+      sources: [
         {
           title: "Country Music Hall of Fame: public programmes",
           url: "https://www.countrymusichalloffame.org/experiences/public-programming",
           note: "Recurring Songwriter Session role and audience questions. Current closure and traffic notices.",
         },
         {
-          title: "Songwriter Session: 17 October 2026",
-          url: "https://www.countrymusichalloffame.org/calendar/songwriter-session-jack-schneider-2",
-          note: "Upcoming dated public session. Museum admission and a separate programme ticket are specified. Lineup is not an evergreen promise.",
+          title:
+            "Country Music Hall of Fame and Museum: Songwriter Session with Lacy Green",
+          url: "https://www.countrymusichalloffame.org/calendar/songwriter-session-lacy-green",
+          note: "Ford Theater session on 7 November 2026 with a separate programme ticket.",
         },
         {
           title: "Museum: full programme-pass policy",
@@ -757,8 +769,7 @@ export const guideBatch45: PublicExperience[] = [
           note: "Limited seating and default pass arrangements. Event-specific ticket instructions can supersede them.",
         },
       ],
-      "2026-11-10",
-    ),
+    },
   },
   {
     id: "vienna-musikverein-standing",

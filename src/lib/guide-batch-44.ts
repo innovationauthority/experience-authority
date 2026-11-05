@@ -40,16 +40,22 @@ export const guideBatch44: PublicExperience[] = [
     humanReturn:
       "A jar label can become a question about seed, liquid and method rather than just strength.",
     responsibility:
-      "This is a guided production visit and tasting, not a mustard-making class. Mustard is an allergen. Ask about other ingredients, mobility and sensory effects before booking. Production activity varies. The tourism office's regular English tour is listed only for June to September 2026, so do not assume an October visit is in English. Confirm the actual tour language and current price.",
+      "This is a guided production visit and tasting, not a mustard-making class. Mustard is an allergen. Ask about other ingredients, mobility and sensory effects before booking. Production activity varies. The tourism office's regular English tour is listed only for June to September 2026, so ask before booking an English-language visit outside those months. Confirm the actual tour language and current price.",
     evidence:
       "Fallot describes the production route and end-of-visit tasting. Beaune's tourism office lists a roughly one-hour format and 2026 language schedules. EA has not visited the factory or tasted its products. The official photograph shows factory equipment, not a promise that the pictured stage will be running during your visit.",
     duration: "Around one hour, plus any time you choose for the shop",
     participation: "Guided observation followed by an offered tasting",
     access:
       "Reserve Sensations Fortes through Fallot at 31 rue du Faubourg Bretonnière, Beaune. Confirm date, language and accessibility before payment. No EA booking or provider partnership is implied.",
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-05",
+      reviewBy: "2026-12-02",
+      accessUrl:
+        "https://www.fallot.com/en/parcours-de-visites/parcours-sensations-fortes/",
+      sources: [
         {
           title: "Fallot: Sensations Fortes production tour",
           url: "https://www.fallot.com/en/parcours-de-visites/parcours-sensations-fortes/",
@@ -62,12 +68,11 @@ export const guideBatch44: PublicExperience[] = [
         },
         {
           title: "Beaune Tourism: Sensations Fortes",
-          url: "https://www.beaune-tourisme.fr/fr/profiter/patrimoine-et-culture-savoirfaire/la-moutarderie-fallot-sensations-fortes-beaune-fr-3860799/",
+          url: "https://www.beaune-tourisme.fr/profiter/patrimoine-et-culture-savoirfaire/la-moutarderie-fallot-sensations-fortes-beaune-fr-3860799/",
           note: "2026 duration, address and the limited June to September English tour schedule.",
         },
       ],
-      "2026-11-10",
-    ),
+    },
   },
   {
     id: "york-chocolate",
@@ -591,9 +596,14 @@ export const guideBatch44: PublicExperience[] = [
       "Staff-led educational visit, not independent access, climbing or an adventure course",
     access:
       "Reserve the basic Underground Temple course through the official visitor site. Plan transport to Kasukabe independently and recheck operational notices before departure. No EA booking, transfer or partnership is implied.",
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-05",
+      reviewBy: "2026-11-25",
+      accessUrl: "https://gaikaku.jp/course/",
+      sources: [
         {
           title: "G-Cans: public course formats",
           url: "https://gaikaku.jp/course/",
@@ -604,9 +614,13 @@ export const guideBatch44: PublicExperience[] = [
           url: "https://gaikaku.jp/information_list/1347/",
           note: "Booking window, stairs, age, Japanese guiding and operating restrictions.",
         },
+        {
+          title: "Kasukabe floodway: November and December tour schedule",
+          url: "https://gaikaku.jp/news_list/news_3300/",
+          note: "Current operator schedule. Group vacancies do not establish individual availability.",
+        },
       ],
-      "2026-11-10",
-    ),
+    },
   },
   {
     id: "zurich-hurlimann",
@@ -822,9 +836,14 @@ export const guideBatch44: PublicExperience[] = [
       "Public live-music hospitality, with food and drinks ordered separately",
     access:
       "Check Bacchanal's official music page and FAQ, then visit the Bywater venue during current public hours. Do not treat a saved EA guide as a table reservation. No EA booking or partnership is implied.",
-    guideReview: review(
-      "public_hospitality",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_hospitality",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-05",
+      reviewBy: "2026-11-24",
+      accessUrl: "https://www.bacchanalwine.com/music",
+      sources: [
         {
           title: "Bacchanal: music programme",
           url: "https://www.bacchanalwine.com/music",
@@ -836,8 +855,7 @@ export const guideBatch44: PublicExperience[] = [
           note: "Strict 21-plus entry, accepted ID, first-come seating, weather alternatives and non-alcoholic options.",
         },
       ],
-      "2026-11-10",
-    ),
+    },
   },
   {
     id: "paris-rosa-bonheur",
@@ -870,9 +888,14 @@ export const guideBatch44: PublicExperience[] = [
       "Public social hospitality and optional dancing when programmed",
     access:
       "Check the Buttes-Chaumont page and the date-specific programme for 2 allée de la Cascade. Arrive with flexibility rather than a guaranteed table or dance admission. No EA booking or partnership is implied.",
-    guideReview: review(
-      "public_hospitality",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_hospitality",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-05",
+      reviewBy: "2026-11-24",
+      accessUrl: "https://rosabonheur.fr/lieu/rosa-bonheur-buttes-chaumont/",
+      sources: [
         {
           title: "Rosa Bonheur: Buttes-Chaumont",
           url: "https://rosabonheur.fr/lieu/rosa-bonheur-buttes-chaumont/",
@@ -881,10 +904,9 @@ export const guideBatch44: PublicExperience[] = [
         {
           title: "Rosa Bonheur: Comme à la Maison",
           url: "https://rosabonheur.fr/events/event/comme-a-la-maison/",
-          note: "Identifiable public dance gathering. Dates and special-entry conditions can change.",
+          note: "Recurring evening listing. Use the current venue calendar for the start time and date; the archived event page displays inconsistent end years.",
         },
       ],
-      "2026-11-10",
-    ),
+    },
   },
 ];

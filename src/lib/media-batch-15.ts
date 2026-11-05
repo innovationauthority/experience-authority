@@ -5,20 +5,30 @@ const official = {
   rightsBasis: "official_source",
   rightsCheckedOn: "2026-09-13",
 } as const;
-const records = [
-  {
-    guideId: "porto-clerigos-organ",
-    src: "/images/guides/porto-clerigos-interior.jpg",
-    alt: "Warm stone vaults, gilded details and rows of wooden seats inside Clérigos church in Porto.",
-    title: "Clérigos church interior",
-    photographer: "Luís Ferreira Alves / Clérigos",
-    sourceUrl:
-      "https://www.torredosclerigos.pt/en/clerigos-architectural-complex/",
+const clerigos: GuideMedia = {
+  guideId: "porto-clerigos-organ",
+  src: "/images/guides/porto-clerigos-interior.jpg",
+  alt: "Gilded altar and stone vaults seen from the nave of Clérigos church in Porto.",
+  title: "Igreja dos Clérigos, Altar area, Porto",
+  photographer: "Peter K Burian",
+  sourceUrl:
+    "https://commons.wikimedia.org/wiki/File:Igreja_dos_Cl%C3%A9rigos,_Altar_area,_Porto.jpg",
+  licenseName: "CC BY 4.0",
+  licenseUrl: "https://creativecommons.org/licenses/by/4.0/",
+  rightsBasis: "documented_license",
+  rightsCheckedOn: "2026-11-05",
+  firstPublishedOn: "2026-09-13",
+  visualReview: {
+    outcome: "approved",
+    checkedOn: "2026-11-05",
     rationale:
-      "A carefully balanced architectural photograph conveys the real listening space through its stone, light and height. It does not substitute an unrelated concert hall or claim to depict a performance.",
-    depiction:
-      "Clérigos identifies this church interior photograph by Luís Ferreira Alves. It shows the building, not an organ concert or a guaranteed seat view. Resized and converted from WebP for web delivery.",
+      "A wide, sharp photograph of the actual nave and altar shows the scale of the room where visitors listen.",
   },
+  depiction:
+    "The nave and altar of Igreja dos Clérigos, photographed on 15 September 2019. The image shows the venue in use, with no performance depicted. Resized for web and responsively cropped under CC BY 4.0.",
+};
+
+const records = [
   {
     guideId: "porto-bolhao-market",
     src: "/images/guides/porto-bolhao-market.jpg",
@@ -56,12 +66,13 @@ const records = [
       "An artist-published glassworking photograph from the public workshop page. The depicted shape is not a guaranteed beginner result. Resized for web delivery.",
   },
 ];
-export const mediaBatch15: readonly GuideMedia[] = records.map(
-  ({ rationale, ...record }) => ({
+export const mediaBatch15: readonly GuideMedia[] = [
+  clerigos,
+  ...records.map<GuideMedia>(({ rationale, ...record }) => ({
     ...official,
     ...record,
     licenseUrl: record.sourceUrl,
     visualReview: { outcome: "approved", checkedOn: "2026-09-13", rationale },
     depiction: `${record.depiction} Reuse rights have not been independently cleared.`,
-  }),
-);
+  })),
+];

@@ -798,7 +798,7 @@ export const guideBatch50: PublicExperience[] = [
       basis: "public_sources",
       scope: "public_programme",
       requiresSpecialPermission: false,
-      checkedOn: "2026-11-04",
+      checkedOn: "2026-11-05",
       reviewBy: "2026-11-09",
       accessUrl: "https://ifi.ie/whats-on",
       sources: [

@@ -181,7 +181,10 @@ test("programme boundaries keep the actual role, branch, season and conditions v
     canPublishGuide(byId("buenos-aires-bomba-tiempo"), "2026-11-04"),
     true,
   );
-  assert.equal(canPublishGuide(byId("rio-carioca-samba"), "2026-11-11"), false);
+  const carioca = byId("rio-carioca-samba");
+  assert.equal(firstVerifiedOn(carioca), "2026-10-20");
+  assert.ok(canPublishGuide(carioca, "2026-11-11"));
+  assert.ok(!canPublishGuide(carioca, "2026-11-24"));
 });
 test("local chapters connect real choices and never fabricate a combined itinerary", () => {
   const current = publicGuides.filter((g) => canPublishGuide(g, "2026-10-20"));
