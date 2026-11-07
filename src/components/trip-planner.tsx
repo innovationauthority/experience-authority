@@ -554,7 +554,7 @@ export function TripPlanner({
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          Check availability ↗
+                          Visit official website ↗
                         </a>
                       )}
                       <a

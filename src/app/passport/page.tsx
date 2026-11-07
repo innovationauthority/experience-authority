@@ -28,8 +28,7 @@ export default async function Passport({
     <div className="wrap page-section">
       <PageIntro eyebrow="Your way through the world" title="My Passport.">
         <p>
-          Keep your discoveries. Compare your favourites. Turn a few good ideas
-          into a journey you can return to and share.
+          Save experiences, compare your favourites and plan your days.
         </p>
       </PageIntro>
       <PassportView view={view} />

@@ -182,10 +182,10 @@ export default async function Experience({ params, searchParams }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Official access <span aria-hidden="true">↗</span>
+                Visit official website <span aria-hidden="true">↗</span>
                 <span className="sr-only">
                   {" "}
-                  . Official website (opens a new tab)
+                  (opens a new tab)
                 </span>
               </a>
               <span className="small-note">
@@ -395,7 +395,7 @@ export default async function Experience({ params, searchParams }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Official access information <span aria-hidden="true">↗</span>
+                Visit official website <span aria-hidden="true">↗</span>
                 <span className="sr-only"> (opens a new tab)</span>
               </a>
             )}
