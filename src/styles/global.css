@@ -2028,6 +2028,23 @@ button {
 .passport-tabs a[aria-current] {
   border-bottom-color: var(--ea-vermilion);
 }
+.passport-status-filter {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  margin-bottom: 28px;
+  font-size: 13px;
+}
+.passport-status-filter select {
+  max-width: 100%;
+  min-height: 44px;
+  padding: 10px 34px 10px 12px;
+  border: 1px solid var(--ea-line);
+  border-radius: 2px;
+  background: transparent;
+  color: inherit;
+}
 .passport-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

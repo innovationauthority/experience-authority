@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { usePassport } from "./passport-provider";
 import { EmptyState, StatusBadge } from "./editorial-ui";
 import { ExperienceCardView as ExperienceCard } from "./experience-card";
@@ -14,6 +15,7 @@ const names: Record<PassportStage, string> = {
   "return-to": "Return to",
 };
 export function PassportView({ view }: { view: string }) {
+  const router = useRouter();
   const { data, ready, message, setStage, toggleCompare } = usePassport();
   const needsCatalogue =
     ready &&
@@ -54,12 +56,16 @@ export function PassportView({ view }: { view: string }) {
       !items.some((item) => item.id === id) &&
       (view === "all" || data.saved[id] === view),
   );
+  const isStageView = passportStages.includes(view as PassportStage);
+  const isSavedView = view === "all" || isStageView;
+  const availableStages = passportStages.filter(
+    (stage) => Object.values(data.saved).includes(stage) || stage === view,
+  );
+  const showStatusFilter =
+    ready && isSavedView && (availableStages.length > 1 || isStageView);
   const tabs = [
-    ["all", "All saved"],
+    ["all", "Saved experiences"],
     ["plan", "My journey"],
-    ...Object.entries(names).filter(([stage]) =>
-      Object.values(data.saved).includes(stage as PassportStage),
-    ),
     ...(data.compare.length || view === "compare"
       ? [["compare", `Compare (${data.compare.length}/3)`]]
       : []),
@@ -71,12 +77,36 @@ export function PassportView({ view }: { view: string }) {
           <Link
             href={value === "plan" ? "/plan" : `/passport?view=${value}`}
             key={value}
-            aria-current={view === value ? "page" : undefined}
+            aria-current={
+              view === value || (value === "all" && isSavedView)
+                ? "page"
+                : undefined
+            }
           >
             {name}
           </Link>
         ))}
       </nav>
+      {showStatusFilter && (
+        <label className="passport-status-filter">
+          Filter by status
+          <select
+            value={view}
+            onChange={(event) =>
+              router.push(`/passport?view=${event.target.value}`, {
+                scroll: false,
+              })
+            }
+          >
+            <option value="all">All statuses</option>
+            {availableStages.map((stage) => (
+              <option value={stage} key={stage}>
+                {names[stage]}
+              </option>
+            ))}
+          </select>
+        </label>
+      )}
       {needsCatalogue && !catalogue && failed ? (
         <EmptyState title="Your guides could not be loaded.">
           <p>Your saved experiences are still in this browser.</p>
@@ -269,6 +299,13 @@ export function PassportView({ view }: { view: string }) {
             </article>
           ))}
         </div>
+      ) : isStageView ? (
+        <EmptyState title="No experiences with this status.">
+          <p>Choose another status or return to all your saved experiences.</p>
+          <Link href="/passport" className="button">
+            View saved experiences ↗
+          </Link>
+        </EmptyState>
       ) : (
         <EmptyState title="A blank page. A world of possibilities.">
           <p>
