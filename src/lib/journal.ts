@@ -708,11 +708,13 @@ export function journalArticleStructuredData(article: ResolvedJournalArticle) {
         dateModified: article.updatedOn,
         author: {
           "@type": "Organization",
+          "@id": `${SITE_ORIGIN}/#publication`,
           name: SITE_NAME,
           url: canonicalUrl("/about"),
         },
         publisher: {
           "@type": "Organization",
+          "@id": `${SITE_ORIGIN}/#publication`,
           name: SITE_NAME,
           url: SITE_ORIGIN,
         },

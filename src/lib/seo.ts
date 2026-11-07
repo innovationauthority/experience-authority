@@ -1,3 +1,4 @@
+import { sasaSpasic } from "./identity";
 import type { Metadata } from "next";
 import type { PublicExperience } from "./catalog";
 import { canPublishGuide } from "./publication";
@@ -97,6 +98,14 @@ export function websiteStructuredData() {
   return {
     "@context": "https://schema.org",
     "@graph": [
+      sasaSpasic,
+      {
+        "@type": "Organization",
+        "@id": `${SITE_ORIGIN}/#publication`,
+        name: SITE_NAME,
+        url: SITE_ORIGIN,
+        parentOrganization: { "@id": "https://innovationauthority.com/#organization" },
+      },
       {
         "@type": "Brand",
         "@id": `${SITE_ORIGIN}/#brand`,
@@ -111,8 +120,9 @@ export function websiteStructuredData() {
         name: SITE_NAME,
         url: SITE_ORIGIN,
         description: SITE_DESCRIPTION,
+        editor: { "@id": sasaSpasic["@id"] },
         inLanguage: "en",
-        publisher: { "@id": `${SITE_ORIGIN}/#publisher` },
+        publisher: { "@id": "https://innovationauthority.com/#organization" },
       },
     ],
   };
@@ -121,9 +131,10 @@ export function websiteStructuredData() {
 export function publisherStructuredData() {
   return {
     "@type": "Organization",
-    "@id": `${SITE_ORIGIN}/#publisher`,
+    "@id": "https://innovationauthority.com/#organization",
     name: publisher.name,
     legalName: publisher.name,
+    founder: { "@id": sasaSpasic["@id"] },
     url: publisher.url,
     brand: { "@id": `${SITE_ORIGIN}/#brand` },
   };
@@ -148,9 +159,10 @@ export function guideStructuredData(item: PublicExperience) {
         inLanguage: "en",
         author: {
           "@type": "Organization",
+          "@id": `${SITE_ORIGIN}/#publication`,
           name: SITE_NAME,
           url: canonicalUrl("/about"),
-          parentOrganization: { "@id": `${SITE_ORIGIN}/#publisher` },
+          parentOrganization: { "@id": "https://innovationauthority.com/#organization" },
         },
         publisher: publisherStructuredData(),
         dateModified: item.guideReview.checkedOn,

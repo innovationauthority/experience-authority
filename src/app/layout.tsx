@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
+import { StructuredData } from "@/components/structured-data";
 import localFont from "next/font/local";
 import { headers } from "next/headers";
-import { indexingEnabled, SITE_DESCRIPTION, SITE_ORIGIN } from "@/lib/seo";
+import { indexingEnabled, SITE_DESCRIPTION, SITE_ORIGIN, websiteStructuredData } from "@/lib/seo";
 import "@/styles/tokens.css";
 import "@/styles/global.css";
 import "@/styles/prototype.css";
@@ -64,6 +65,7 @@ export default async function RootLayout({
   return (
     <html lang="en" className={aeonik.variable} data-scroll-behavior="smooth">
       <body>
+        <StructuredData data={websiteStructuredData()} />
         {process.env.NODE_ENV === "development" && (
           <script
             nonce={nonce}

@@ -20,7 +20,6 @@ import {
 import { guideMediaFor } from "@/lib/media";
 import { publishedEditorialPathways as editorialPathways } from "@/lib/editorial-pathways";
 import { getExperiences } from "@/lib/data";
-import { StructuredData } from "@/components/structured-data";
 import { HomeHero } from "@/components/home-hero";
 import { PassportReturn } from "@/components/passport-return";
 import { currentDiscovery, editionDate } from "@/lib/daily-discovery";
@@ -38,7 +37,6 @@ import {
 import {
   pageMetadata,
   SITE_DESCRIPTION,
-  websiteStructuredData,
 } from "@/lib/seo";
 
 export const metadata = {
@@ -192,7 +190,6 @@ export default function Home() {
   ].filter((group) => group.items.length > 0);
   return (
     <div className="home-edition">
-      <StructuredData data={websiteStructuredData()} />
       <HomeHero
         items={experiences}
         heroEditions={availableHeroEditions}

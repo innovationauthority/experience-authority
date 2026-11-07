@@ -380,7 +380,7 @@ export default async function Page({ params, searchParams }: Props) {
             <section key={s.title} id={`section-${index + 1}`}>
               <h2>{s.title}</h2>
               {s.paragraphs.map((p) => (
-                <p key={p}>{p}</p>
+                <p key={p}>{p.includes(publisher.editorialResponsibility) ? p.split(publisher.editorialResponsibility).map((part, i) => i === 0 ? part : <span key={i}><a href="https://sasaspasic.com/">{publisher.editorialResponsibility}</a>{part}</span>) : p}</p>
               ))}
             </section>
           ))}
