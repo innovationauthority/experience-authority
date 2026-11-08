@@ -5,6 +5,9 @@ export const sasaSpasic = {
   "name": "Sasa Spasic",
   "alternateName": "Saša Spasić",
   "url": "https://sasaspasic.com/",
+  "jobTitle": "Innovation strategist",
+  "description": "Innovation strategist and founder of Innovation Authority, the organisation behind Europe Innovate.",
+  "worksFor": { "@id": "https://innovationauthority.com/#organization" },
   "sameAs": [
     "https://www.linkedin.com/in/sspasic/"
   ]

@@ -205,7 +205,7 @@ editorialPages.legal = {
       title: "Editorial responsibility.",
       paragraphs: [
         publisher.editorialResponsibility +
-          " is responsible for the publication. Experience Authority retains its own identity and editorial focus within the same operating company as Innovation Authority and What Holds Value.",
+          ", founder of Innovation Authority, has editorial responsibility for Experience Authority. Experience Authority retains its own identity and editorial focus within the same operating company as Innovation Authority and What Holds Value.",
         "The public-source edition does not imply a personal field visit, holder consent, local validation or an independent review of every experience. Each guide explains its own evidence and limits.",
       ],
     },
@@ -248,7 +248,7 @@ editorialPages.contact = {
           ".",
         "Registered office: " + publisher.registeredOffice + ".",
         publisher.editorialResponsibility +
-          " is responsible for the publication.",
+          ", founder of Innovation Authority, has editorial responsibility for Experience Authority.",
       ],
     },
     {
@@ -365,7 +365,7 @@ editorialPages.about.sections.push({
       publisher.jurisdiction +
       ") operates EA. " +
       publisher.editorialResponsibility +
-      " is responsible for the publication. Contact: " +
+      ", founder of Innovation Authority, has editorial responsibility for Experience Authority. Contact: " +
       publisher.email +
       ".",
   ],
@@ -375,7 +375,7 @@ editorialPages.transparency.sections[3].paragraphs[1] =
   publisher.name +
   ". Editorial responsibility: " +
   publisher.editorialResponsibility +
-  ". Contact: " +
+  ", founder of Innovation Authority. Contact: " +
   publisher.email +
   ". Actual funding relationships and any future commercial services must be disclosed separately.";
 editorialPages.privacy.sections.push({

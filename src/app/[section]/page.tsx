@@ -42,7 +42,9 @@ export async function generateMetadata({ params }: Props) {
   };
   return pageMetadata(
     title,
-    editorialPages[section]?.intro || descriptions[section],
+    section === "about"
+      ? "Experience Authority is published by Innovation Authority Ltd. Sasa Spasic, founder of Innovation Authority, has editorial responsibility."
+      : editorialPages[section]?.intro || descriptions[section],
     `/${section}`,
     ["suggest", "corrections"].includes(section),
   );
