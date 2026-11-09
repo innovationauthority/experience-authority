@@ -1,9 +1,13 @@
 import type { NextConfig } from "next";
 import { indexingEnabled } from "./src/lib/seo";
 import { imageEdition } from "./src/lib/image-revisions";
+import { legacyIaRedirects } from "./src/lib/legacy-ia-redirects";
 
 const nextConfig: NextConfig = {
   poweredByHeader: false,
+  async redirects() {
+    return legacyIaRedirects();
+  },
   images: {
     localPatterns: [
       { pathname: "/images/**", search: "" },
