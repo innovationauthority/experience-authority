@@ -36,6 +36,8 @@ export type FinderQuery = {
   surprise?: string;
 };
 export function matchesFinder(item: FinderItem, query: FinderQuery) {
+  const search = (query.q ?? "").trim();
+  const isNewYorkCityAlias = search.toLowerCase() === "nyc";
   const profile = discoveryProfiles[item.slug];
   const interest = interestForSlug(query.interest);
   const haystack = normalizeSearch(
@@ -51,11 +53,13 @@ export function matchesFinder(item: FinderItem, query: FinderQuery) {
       ...(profile?.keywords ?? []),
     ].join(" "),
   );
-  const terms = normalizeSearch((query.q ?? "").trim())
+  const terms = normalizeSearch(search)
     .split(/\s+/)
     .filter(Boolean);
   return (
-    terms.every((term) => haystack.includes(term)) &&
+    (isNewYorkCityAlias
+      ? item.regionSlug === "new-york-city"
+      : terms.every((term) => haystack.includes(term))) &&
     (!interest || matchesInterest(item, interest)) &&
     (!query.place || item.countrySlug === query.place) &&
     (!query.region || item.regionSlug === query.region) &&

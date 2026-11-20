@@ -1,6 +1,22 @@
 /** Content hashes keep replaced photographs consistent across responsive image caches.
  * The media test requires an update when an original file changes. */
 export const imageRevisions: Record<string, string> = {
+  "/images/guides/sainte-suzanne-follow-reunion-vanilla.jpg": "cb024404133e",
+  "/images/guides/kotohira-knead-sanuki-udon.jpg": "878b79c10f52",
+  "/images/guides/kanazawa-dt-suzuki-water-mirror.jpg": "16a2545f079c",
+  "/images/guides/oslo-emanuel-vigeland-dark-museum.jpg": "ae6d55d1a7c3",
+  "/images/guides/saint-nazaire-airbus-atlantic-fuselage.jpg": "a52eaef0d00b",
+  "/images/guides/muharraq-pearling-path-houses.jpg": "d341684c265a",
+  "/images/guides/echizen-lift-washi-papyrus-house.jpg": "c3e5d492178a",
+  "/images/guides/corning-shape-glass-at-the-museum.jpg": "6ec60a6016e1",
+  "/images/guides/auckland-sail-ted-ashby.jpg": "bce2beaf5406",
+  "/images/guides/lahti-ski-jump-simulator.jpg": "347dbb911be3",
+  "/images/guides/tiritiri-matangi-listen-on-replanted-island.jpg": "ae1d81d4b506",
+  "/images/guides/lima-pantanos-de-villa-laguna-mayor.jpg": "1e33ab051591",
+  "/images/guides/beppu-takegawara-hot-sand-bath.jpg": "79039aecb4de",
+  "/images/guides/reykjavik-vesturbaejarlaug-neighbourhood-pool.jpg": "2672eb592f77",
+  "/images/guides/brussels-mim-listen-to-instruments.jpg": "e34598a10d58",
+  "/images/guides/sao-paulo-sunday-matinal-station-concert.jpg": "6a6cf7662dbe",
   "/images/guides/antwerp-red-star-line-follow-a-passenger.jpg": "9ee8efba1b6d",
   "/images/guides/antwerp-de-koninck-bolleke-brewery.jpg": "ef9d7e85e2e2",
   "/images/guides/matsuyama-castle-follow-the-gates.jpg": "502a82d9205e",
@@ -749,7 +765,7 @@ export const imageRevisions: Record<string, string> = {
 
 // A single manifest fingerprint fits Next's bounded localPatterns allowlist.
 // Tests require it to change when any original is added or replaced.
-export const imageEdition = "e1642a632b86";
+export const imageEdition = "11e16a2581a1";
 
 export function imageSource(src: string) {
   return imageRevisions[src] ? `${src}?v=${imageEdition}` : src;

@@ -1,4 +1,100 @@
 {
+  "/experiences/sainte-suzanne-follow-reunion-vanilla": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "france",
+    "regionSlug": "reunion"
+  },
+  "/experiences/kotohira-knead-sanuki-udon": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "japan",
+    "regionSlug": "kagawa"
+  },
+  "/experiences/kanazawa-dt-suzuki-water-mirror": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "japan",
+    "regionSlug": "kanazawa"
+  },
+  "/experiences/oslo-emanuel-vigeland-dark-museum": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "norway",
+    "regionSlug": "oslo"
+  },
+  "/experiences/saint-nazaire-airbus-atlantic-fuselage": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2026-12-18",
+    "countrySlug": "france",
+    "regionSlug": "saint-nazaire"
+  },
+  "/experiences/muharraq-pearling-path-houses": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "bahrain",
+    "regionSlug": "muharraq"
+  },
+  "/experiences/echizen-lift-washi-papyrus-house": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "japan",
+    "regionSlug": "echizen"
+  },
+  "/experiences/corning-shape-glass-at-the-museum": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "united-states",
+    "regionSlug": "corning"
+  },
+  "/experiences/auckland-sail-ted-ashby": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "new-zealand",
+    "regionSlug": "auckland"
+  },
+  "/experiences/lahti-ski-jump-simulator": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "finland",
+    "regionSlug": "lahti"
+  },
+  "/experiences/tiritiri-matangi-listen-on-replanted-island": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "new-zealand",
+    "regionSlug": "auckland"
+  },
+  "/experiences/lima-pantanos-de-villa-laguna-mayor": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "peru",
+    "regionSlug": "lima"
+  },
+  "/experiences/beppu-takegawara-hot-sand-bath": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "japan",
+    "regionSlug": "beppu"
+  },
+  "/experiences/reykjavik-vesturbaejarlaug-neighbourhood-pool": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "iceland",
+    "regionSlug": "reykjavik"
+  },
+  "/experiences/brussels-mim-listen-to-instruments": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "belgium",
+    "regionSlug": "brussels"
+  },
+  "/experiences/sao-paulo-sunday-matinal-station-concert": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "brazil",
+    "regionSlug": "sao-paulo"
+  },
   "/experiences/antwerp-red-star-line-follow-a-passenger": {
     "availableFrom": "2026-11-04",
     "reviewBy": "2026-12-23",

@@ -1,5 +1,6 @@
 import { publishedEditorialPathways as editorialPathways } from "./editorial-pathways";
 import { discoveryProfiles } from "./discovery-profiles";
+import { edition76 } from "./discovery-batch-76";
 
 export const fields = [
   {
@@ -134,6 +135,7 @@ export const interests: readonly Interest[] = [
 ];
 /** Visitor navigation is independent of the six historical publishing allocations. */
 const designGuideSlugs = [
+  ...edition76["design-innovation"],
   "singapore-red-dot-compare-design-objects",
   "goyang-motorstudio-car-safety-design",
   "wolfsburg-autostadt-car-tower",
