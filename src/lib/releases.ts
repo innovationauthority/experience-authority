@@ -1,4 +1,5 @@
 import { edition76 } from "./discovery-batch-76";
+import { edition77 } from "./discovery-batch-77";
 import { discoveryBatch69 } from "./discovery-batch-69";
 import { discoveryBatch68 } from "./discovery-batch-68";
 import { discoveryBatch67 } from "./discovery-batch-67";
@@ -32,7 +33,13 @@ import { edition20261027 } from "./discovery-batch-58";
 
 /** Publication dates are distinct from source-check dates. Older undated guides are not backfilled. */
 export const guideReleases = [
-  { date: "2026-11-20", slugs: Object.values(edition76).flat() },
+  {
+    date: "2026-11-20",
+    slugs: [
+      ...Object.values(edition77).flat(),
+      ...Object.values(edition76).flat(),
+    ],
+  },
   {
     date: "2026-11-04",
     slugs: [

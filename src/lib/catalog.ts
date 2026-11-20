@@ -1,6 +1,7 @@
 import { publishedEditorialPathways as editorialPathways } from "./editorial-pathways";
 import { discoveryProfiles } from "./discovery-profiles";
 import { edition76 } from "./discovery-batch-76";
+import { edition77 } from "./discovery-batch-77";
 
 export const fields = [
   {
@@ -135,6 +136,7 @@ export const interests: readonly Interest[] = [
 ];
 /** Visitor navigation is independent of the six historical publishing allocations. */
 const designGuideSlugs = [
+  ...edition77["design-innovation"],
   ...edition76["design-innovation"],
   "singapore-red-dot-compare-design-objects",
   "goyang-motorstudio-car-safety-design",
@@ -348,6 +350,15 @@ export function filterExperiences(items: PublicExperience[], query: Query) {
   );
 }
 export const territories = [
+  {
+    slug: "cuba",
+    name: "Cuba",
+    region: "havana",
+    regionName: "Havana",
+    intro:
+      "Begin in Havana’s Vedado district with an evening that moves between a converted factory’s art and music spaces.",
+    image: null,
+  },
   {
     slug: "ecuador",
     name: "Ecuador",
@@ -1476,6 +1487,7 @@ const additionalRegionNames: Readonly<Record<string, string>> = {
   "thailand/chiang-mai": "Chiang Mai area",
   "australia/sydney": "Sydney",
   "switzerland/geneva": "Geneva",
+  "south-africa/paarl": "Paarl",
 };
 
 /** Shared destination identity. A venue or street must never name an entire area. */

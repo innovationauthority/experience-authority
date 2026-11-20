@@ -1,3 +1,4 @@
+import { guideBatch77 } from "../src/lib/guide-batch-77";
 import test from "node:test";
 import assert from "node:assert/strict";
 import { statSync } from "node:fs";
@@ -17,11 +18,13 @@ import { guideMediaFor, imageCreditText } from "../src/lib/media";
 import { editorialPathways } from "../src/lib/editorial-pathways";
 import { publishedReleases } from "../src/lib/releases";
 
+const guideBatch77Ids = new Set(guideBatch77.map((guide) => guide.id));
+
 test("28 October weekly pass adds eighteen net-new guides, three per primary area", () => {
   const slugs = Object.values(edition20261028).flat() as readonly string[];
   assert.equal(slugs.length, 18);
   assert.equal(new Set(slugs).size, 18);
-  assert.equal(publicGuides.length, 753);
+  assert.equal(publicGuides.filter((guide) => !guideBatch77Ids.has(guide.id)).length, 753);
   assert.deepEqual([...slugs].sort(), guideBatch60.map((g) => g.slug).sort());
   const previous = publicGuides.filter(
     (g) =>

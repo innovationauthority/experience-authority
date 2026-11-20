@@ -42,8 +42,8 @@ test("Arcachon stays a bay-wide chapter regardless of guide order or a more spec
   }
 });
 
-test("guide set contains 753 distinct, sourced public experiences, not Selected or demo records", () => {
-  assert.equal(publicGuides.length, 753);
+test("guide set contains 837 distinct, sourced public experiences, not Selected or demo records", () => {
+  assert.equal(publicGuides.length, 837);
   assert.equal(
     new Set(publicGuides.map((p) => p.id)).size,
     publicGuides.length,
@@ -52,7 +52,7 @@ test("guide set contains 753 distinct, sourced public experiences, not Selected 
     new Set(publicGuides.map((p) => p.slug)).size,
     publicGuides.length,
   );
-  assert.equal(new Set(publicGuides.map((p) => p.countrySlug)).size, 112);
+  assert.equal(new Set(publicGuides.map((p) => p.countrySlug)).size, 113);
   assert.equal(
     new Set(territories.map((place) => place.slug)).size,
     territories.length,
@@ -437,16 +437,20 @@ test("new regions are derived from real coverage and recommendations favour a re
     [
     "beppu",
     "echizen",
+    "fukuoka",
     "hokkaido",
     "ikeda",
     "kagawa",
+    "kamakura",
     "kanazawa",
       "karuizawa",
       "kasukabe",
+    "kinosaki",
       "koyasan",
       "kumano-kodo",
       "kyoto",
       "matsuyama",
+    "nagoya",
       "naoshima",
       "nara",
       "osaka",
@@ -469,6 +473,7 @@ test("new regions are derived from real coverage and recommendations favour a re
       "bilbao",
       "girona",
       "granada",
+      "hondarribia",
       "jerez-de-la-frontera",
       "laguardia",
       "madrid",

@@ -1,4 +1,508 @@
 {
+  "/experiences/hondarribia-fishing-port-and-grilled-fish": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "spain",
+    "regionSlug": "hondarribia"
+  },
+  "/experiences/taste-a-vila-franca-queijada-at-the-bakery-that-makes-it": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "portugal",
+    "regionSlug": "vila-franca-do-campo"
+  },
+  "/experiences/laguiole-jeune-montagne-cheesemaking-and-tasting": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "france",
+    "regionSlug": "laguiole"
+  },
+  "/experiences/order-kebab-and-pistachio-baklava-at-a-gaziantep-family-table": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "turkiye",
+    "regionSlug": "gaziantep"
+  },
+  "/experiences/bangkok-jay-fai-crab-omelette-wok": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "thailand",
+    "regionSlug": "bangkok"
+  },
+  "/experiences/find-buenos-airess-bodegon-in-a-palermo-milanesa": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "argentina",
+    "regionSlug": "buenos-aires"
+  },
+  "/experiences/taste-wine-and-cheese-together-on-a-paarl-farm": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "south-africa",
+    "regionSlug": "paarl"
+  },
+  "/experiences/try-a-jamaican-patty-in-the-courtyard-at-devon-house": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "jamaica",
+    "regionSlug": "kingston-jamaica"
+  },
+  "/experiences/turn-an-oaxacan-market-basket-into-lunch": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "mexico",
+    "regionSlug": "oaxaca-city"
+  },
+  "/experiences/taste-what-different-casks-do-to-tasmanian-whisky-in-hobart": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "australia",
+    "regionSlug": "hobart"
+  },
+  "/experiences/taste-the-difference-a-barrel-battery-makes-in-spilamberto": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "italy",
+    "regionSlug": "spilamberto"
+  },
+  "/experiences/walk-between-monumental-sculptures-in-the-middle-of-des-moines": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "united-states",
+    "regionSlug": "des-moines"
+  },
+  "/experiences/follow-a-material-through-quitos-pre-columbian-collection": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "ecuador",
+    "regionSlug": "quito"
+  },
+  "/experiences/see-what-hobart-artists-put-inside-a-sandstone-temple": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "australia",
+    "regionSlug": "hobart"
+  },
+  "/experiences/step-into-one-of-seouls-former-oil-tanks": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "south-korea",
+    "regionSlug": "seoul"
+  },
+  "/experiences/follow-the-stairwell-through-victor-hortas-brussels-house": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "belgium",
+    "regionSlug": "brussels"
+  },
+  "/experiences/read-one-gallery-through-afro-brazilian-artists-in-ibirapuera": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "brazil",
+    "regionSlug": "sao-paulo"
+  },
+  "/experiences/compare-the-structure-of-two-indian-textiles-in-ahmedabad": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "india",
+    "regionSlug": "ahmedabad"
+  },
+  "/experiences/read-a-single-work-in-sydneys-white-rabbit-gallery": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "australia",
+    "regionSlug": "sydney"
+  },
+  "/experiences/read-a-pre-columbian-textile-by-following-one-thread-in-lima": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "peru",
+    "regionSlug": "lima"
+  },
+  "/experiences/visit-the-lisbon-rooms-where-fernando-pessoa-wrote-as-several-people": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "portugal",
+    "regionSlug": "lisbon"
+  },
+  "/experiences/watch-kinetic-sculpture-find-its-pace-in-new-plymouth": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2026-12-05",
+    "countrySlug": "new-zealand",
+    "regionSlug": "new-plymouth"
+  },
+  "/experiences/follow-daily-life-through-a-1930s-rotterdam-house": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "netherlands",
+    "regionSlug": "rotterdam"
+  },
+  "/experiences/trace-the-glass-wall-around-brnos-onyx-living-room": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "czechia",
+    "regionSlug": "brno"
+  },
+  "/experiences/read-mechanical-time-at-la-chaux-de-fonds-carillon": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "switzerland",
+    "regionSlug": "la-chaux-de-fonds"
+  },
+  "/experiences/follow-jute-fibre-through-a-dundee-mill": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "dundee"
+  },
+  "/experiences/compare-the-outline-of-steam-and-maglev-in-nagoya": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "japan",
+    "regionSlug": "nagoya"
+  },
+  "/experiences/trace-the-old-path-of-iron-at-carrie-blast-furnaces": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "united-states",
+    "regionSlug": "pittsburgh"
+  },
+  "/experiences/look-at-working-objects-in-joze-plecniks-ljubljana-house": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "slovenia",
+    "regionSlug": "ljubljana"
+  },
+  "/experiences/see-what-a-stationary-steam-engine-did-in-chemnitz": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "germany",
+    "regionSlug": "chemnitz"
+  },
+  "/experiences/trace-pratos-cloth-from-fibre-to-a-finished-sample": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "italy",
+    "regionSlug": "prato"
+  },
+  "/experiences/look-up-at-a-scientific-dataset-in-norrkoping": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "sweden",
+    "regionSlug": "norrkoping"
+  },
+  "/experiences/go-behind-the-scenes-in-gatesheads-former-flour-mill": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "gateshead"
+  },
+  "/experiences/cut-a-simple-carved-motif-in-kamakura": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "japan",
+    "regionSlug": "kamakura"
+  },
+  "/experiences/follow-a-cartoon-into-an-aubusson-tapestry": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2026-12-31",
+    "countrySlug": "france",
+    "regionSlug": "aubusson"
+  },
+  "/experiences/stoke-gladstone-try-the-potters-wheel": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "stoke-on-trent"
+  },
+  "/experiences/follow-ajloun-olive-oil-to-the-soap-house-in-orjan": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "jordan",
+    "regionSlug": "orjan"
+  },
+  "/experiences/draw-a-line-in-wax-at-yogyakartas-batik-museum": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "indonesia",
+    "regionSlug": "yogyakarta"
+  },
+  "/experiences/learn-the-start-of-a-cape-breton-fiddle-phrase-in-judique": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "canada",
+    "regionSlug": "judique"
+  },
+  "/experiences/try-blowing-glass-at-limmareds-working-glasshouse": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "sweden",
+    "regionSlug": "limmared"
+  },
+  "/experiences/follow-a-design-from-yarn-to-machine-at-tilburgs-textiellab": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "netherlands",
+    "regionSlug": "tilburg"
+  },
+  "/experiences/put-a-painted-motif-on-a-ceramic-piece-in-deruta": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "italy",
+    "regionSlug": "deruta"
+  },
+  "/experiences/watch-one-wooden-ring-become-a-line-of-toy-animals-in-seiffen": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "germany",
+    "regionSlug": "seiffen"
+  },
+  "/experiences/lausanne-olympic-park-steps-from-the-lake": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "switzerland",
+    "regionSlug": "lausanne"
+  },
+  "/experiences/doha-sports-museum-activation-zone": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "qatar",
+    "regionSlug": "doha"
+  },
+  "/experiences/catch-a-first-inland-wave-outside-bristol": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "united-kingdom",
+    "regionSlug": "easter-compton"
+  },
+  "/experiences/arrive-in-lyons-former-docklands-by-river-shuttle": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "france",
+    "regionSlug": "lyon"
+  },
+  "/experiences/sydney-harbour-bridge-south-east-pylon": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "australia",
+    "regionSlug": "sydney"
+  },
+  "/experiences/paddle-bilbaos-river-through-the-former-industrial-city": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "spain",
+    "regionSlug": "bilbao"
+  },
+  "/experiences/watch-a-rotterdam-bus-become-a-boat-on-the-maas": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "netherlands",
+    "regionSlug": "rotterdam"
+  },
+  "/experiences/antwerp-sint-annatunnel-wooden-escalators": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "belgium",
+    "regionSlug": "antwerp"
+  },
+  "/experiences/take-fukuokas-exterior-tube-slide-beside-the-baseball-dome": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "japan",
+    "regionSlug": "fukuoka"
+  },
+  "/experiences/change-light-and-sound-in-medellins-sala-abierta": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "colombia",
+    "regionSlug": "medellin"
+  },
+  "/experiences/compare-orchids-from-ecuadors-mountain-forests-under-glass": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "ecuador",
+    "regionSlug": "quito"
+  },
+  "/experiences/watch-a-wetland-do-part-of-the-work-of-an-urban-water-system": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "south-africa",
+    "regionSlug": "cape-town"
+  },
+  "/experiences/walk-into-kaohsiungs-restored-chouchai-wetland": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "taiwan",
+    "regionSlug": "kaohsiung"
+  },
+  "/experiences/listen-for-wetland-birds-at-colombos-diyasaru-park": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "sri-lanka",
+    "regionSlug": "thalawathugoda"
+  },
+  "/experiences/look-for-endemic-pitcher-plants-on-mahes-granite-ridge": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "seychelles",
+    "regionSlug": "mahe"
+  },
+  "/experiences/follow-helsinkis-reed-bed-boardwalk-to-a-birdwatching-tower": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "finland",
+    "regionSlug": "helsinki"
+  },
+  "/experiences/move-from-st-louis-into-a-tropical-forest-under-one-dome": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "united-states",
+    "regionSlug": "st-louis"
+  },
+  "/experiences/read-the-change-from-coastal-fynbos-to-mountain-shade-above-bettys-bay": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "south-africa",
+    "regionSlug": "bettys-bay"
+  },
+  "/experiences/watch-raptors-pass-a-working-migration-count-at-cape-may": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2026-11-30",
+    "countrySlug": "united-states",
+    "regionSlug": "cape-may"
+  },
+  "/experiences/look-for-wetland-birds-beside-buenos-airess-lago-lugano": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "argentina",
+    "regionSlug": "buenos-aires"
+  },
+  "/experiences/move-between-thermal-pools-beneath-bad-wildbads-historic-halls": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "germany",
+    "regionSlug": "bad-wildbad"
+  },
+  "/experiences/follow-the-water-of-the-tamina-gorge-into-bad-ragaz": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "switzerland",
+    "regionSlug": "bad-ragaz"
+  },
+  "/experiences/spend-a-slow-morning-in-budapests-dandar-baths": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "hungary",
+    "regionSlug": "budapest"
+  },
+  "/experiences/make-an-evening-walk-between-kinosakis-public-baths": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "japan",
+    "regionSlug": "kinosaki"
+  },
+  "/experiences/try-a-herbal-foot-bath-in-seouls-medicine-market-district": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "south-korea",
+    "regionSlug": "seoul"
+  },
+  "/experiences/swim-beside-the-atlantic-at-sea-point-pavilion": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "south-africa",
+    "regionSlug": "cape-town"
+  },
+  "/experiences/swim-in-heated-salt-water-above-dunedins-st-clair-beach": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "new-zealand",
+    "regionSlug": "dunedin"
+  },
+  "/experiences/walk-between-the-mineral-water-pavilions-in-sao-lourenco": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "brazil",
+    "regionSlug": "sao-lourenco"
+  },
+  "/experiences/book-a-short-sulphur-bath-under-tbilisis-brick-domes": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "georgia",
+    "regionSlug": "tbilisi"
+  },
+  "/experiences/take-time-between-aachens-warm-mineral-pools": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "germany",
+    "regionSlug": "aachen"
+  },
+  "/experiences/listen-to-how-taiwanese-pop-crossed-a-generation-in-taipei": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "taiwan",
+    "regionSlug": "taipei"
+  },
+  "/experiences/follow-a-memphis-soul-session-through-the-reconstruction-of-studio-a": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "united-states",
+    "regionSlug": "memphis"
+  },
+  "/experiences/montevideo-sala-zitarrosa-coltrane-quintet": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2026-12-02",
+    "countrySlug": "uruguay",
+    "regionSlug": "montevideo"
+  },
+  "/experiences/havana-eyeife-at-fabrica-de-arte-cubano": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2026-12-12",
+    "countrySlug": "cuba",
+    "regionSlug": "havana"
+  },
+  "/experiences/hear-a-colombian-ensemble-in-a-concert-hall-on-bogotas-northern-edge": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2026-12-20",
+    "countrySlug": "colombia",
+    "regionSlug": "bogota"
+  },
+  "/experiences/accra-omar-sterling-victory-through-harmony": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2026-12-04",
+    "countrySlug": "ghana",
+    "regionSlug": "accra"
+  },
+  "/experiences/listen-for-the-exchange-of-melody-and-rhythm-at-mumbais-ncpa": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2026-12-06",
+    "countrySlug": "india",
+    "regionSlug": "mumbai"
+  },
+  "/experiences/clermont-ferrand-bal-barre-bourree": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2026-11-29",
+    "countrySlug": "france",
+    "regionSlug": "clermont-ferrand"
+  },
+  "/experiences/hear-one-instrument-at-a-time-at-leipzigs-bach-museum": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "germany",
+    "regionSlug": "leipzig"
+  },
+  "/experiences/auckland-holy-trinity-nine-lessons-and-carols": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2026-12-20",
+    "countrySlug": "new-zealand",
+    "regionSlug": "auckland"
+  },
+  "/experiences/try-giving-tempo-to-a-recorded-viennese-orchestra": {
+    "availableFrom": "2026-11-20",
+    "reviewBy": "2027-01-08",
+    "countrySlug": "austria",
+    "regionSlug": "vienna"
+  },
   "/experiences/sainte-suzanne-follow-reunion-vanilla": {
     "availableFrom": "2026-11-20",
     "reviewBy": "2027-01-08",

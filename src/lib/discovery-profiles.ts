@@ -1,3 +1,4 @@
+import { discoveryBatch77 } from "./discovery-batch-77";
 import { discoveryBatch76 } from "./discovery-batch-76";
 import { discoveryBatch69 } from "./discovery-batch-69";
 import { discoveryBatch68 } from "./discovery-batch-68";
@@ -56,6 +57,7 @@ export type DiscoveryProfile = {
 /** Editorial planning lenses, based on the scope and duration stated in each guide.
  * These are not live session lengths, availability or suitability guarantees. */
 export const discoveryProfiles: Record<string, DiscoveryProfile> = {
+  ...discoveryBatch77,
   ...discoveryBatch76,
   "antwerp-red-star-line-follow-a-passenger": {
     modes: ["watch-listen"],
