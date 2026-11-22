@@ -8,6 +8,7 @@ import {
   type PublicExperience,
 } from "@/lib/catalog";
 import { guideMediaFor, imageCreditText } from "@/lib/media";
+import { homeCoverPhotoSizes } from "@/lib/image-sizing";
 import { heroLeadPositions } from "@/lib/home-curation";
 
 export function HomeHero({
@@ -33,6 +34,7 @@ export function HomeHero({
               ?.name || item.field,
           image: item.image,
           imageAlt: item.imageAlt,
+          coverSizes: homeCoverPhotoSizes(item.image),
           sourceUrl: media.sourceUrl,
           credit: imageCreditText(media),
           leadPosition: heroLeadPositions[item.slug],

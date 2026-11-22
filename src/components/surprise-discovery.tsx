@@ -18,9 +18,11 @@ export type SurpriseItem = DiscoveryChoice & {
 export function SurpriseDiscovery({
   items,
   children,
+  returnTo,
 }: {
   items: SurpriseItem[];
   children: ReactNode;
+  returnTo: string;
 }) {
   const { data, ready } = usePassport();
   const [seen, setSeen] = useState<string[]>([]);
@@ -96,7 +98,10 @@ export function SurpriseDiscovery({
               <dd>{current.participation}</dd>
             </div>
           </dl>
-          <Link className="text-link" href={`/experiences/${current.slug}`}>
+          <Link
+            className="text-link"
+            href={`/experiences/${current.slug}?from=${encodeURIComponent(returnTo)}`}
+          >
             Read the guide and access details{" "}
             <ArrowRight size={17} aria-hidden="true" />
           </Link>

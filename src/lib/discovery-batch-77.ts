@@ -387,7 +387,7 @@ export const discoveryBatch77: Record<string, DiscoveryProfile> = {
     keywords: ["Splashtours Rotterdam", "Rotterdam", "Netherlands"],
   },
   "antwerp-sint-annatunnel-wooden-escalators": {
-    modes: ["outdoors", "hands-on"],
+    modes: [],
     time: "short",
     keywords: ["Sint-Annatunnel", "Antwerp", "Belgium"],
   },

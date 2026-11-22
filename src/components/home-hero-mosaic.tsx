@@ -13,6 +13,7 @@ export type HomeHeroStory = {
   field: string;
   image: string;
   imageAlt: string;
+  coverSizes: string;
   sourceUrl: string;
   credit: string;
   leadPosition?: string;
@@ -41,7 +42,7 @@ function HeroStory({
           priority={primary}
           sizes={
             primary
-              ? "(max-width: 700px) 700px, 1100px"
+              ? item.coverSizes
               : "(max-width: 700px) 1px, (max-width: 1100px) 35vw, 27vw"
           }
           style={

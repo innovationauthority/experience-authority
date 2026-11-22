@@ -528,9 +528,14 @@ export const guideBatch43: PublicExperience[] = [
     participation: "Guide-led architecture visit. No performance is included",
     access:
       "Choose an English guided-tour slot directly through Casa da Música at Av. da Boavista 604-610. Check the room programme and current fee. No EA booking or partnership is implied.",
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-22",
+      reviewBy: "2027-01-15",
+      accessUrl: "https://casadamusica.com/en/a-casa/guided-tours/",
+      sources: [
         {
           title: "Casa da Música: guided tours",
           url: "https://casadamusica.com/en/a-casa/guided-tours/",
@@ -542,8 +547,7 @@ export const guideBatch43: PublicExperience[] = [
           note: "Separate open-visit format, preventing a false claim that every visit requires the same guide.",
         },
       ],
-      "2026-11-20",
-    ),
+    },
   },
   {
     id: "london-soane-house",

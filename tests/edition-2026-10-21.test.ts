@@ -130,7 +130,7 @@ test("new visitor roles and current operating constraints stay explicit", () => 
   );
   assert.match(
     byId("taipei-suho-papermaking").responsibility,
-    /20 October to 1 November 2026/,
+    /current notices for any galleries that are temporarily closed/,
   );
   assert.match(
     byId("taipei-suho-papermaking").responsibility,

@@ -1,6 +1,10 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { matchesFinder, finderUrl } from "../src/lib/experience-finder";
+import {
+  matchesFinder,
+  finderUrl,
+  compassReturnHref,
+} from "../src/lib/experience-finder";
 import { publicGuides } from "../src/lib/public-guides";
 
 test("discovery matches multiword intent and accents while intersecting participation, place and time", () => {
@@ -27,6 +31,11 @@ test("discovery matches multiword intent and accents while intersecting particip
   )!;
   assert.ok(matchesFinder(halloumi, { q: "halloumi", time: "full-day" }));
   assert.ok(!matchesFinder(halloumi, { q: "halloumi", time: "half-day" }));
+  const tunnel = publicGuides.find(
+    (item) => item.slug === "antwerp-sint-annatunnel-wooden-escalators",
+  )!;
+  assert.ok(matchesFinder(tunnel, { q: "Antwerp", time: "short" }));
+  assert.ok(!matchesFinder(tunnel, { mode: "outdoors" }));
 });
 test("finder links preserve combined choices and escape user queries", () => {
   const href = finderUrl({
@@ -44,4 +53,30 @@ test("finder links preserve combined choices and escape user queries", () => {
     "hands-on",
   );
   assert.equal(finderUrl({ q: " ", view: "grid" }), "/explore");
+});
+
+test("a guide can return to the exact Compass search using a safe local result link", () => {
+  const from =
+    finderUrl({
+      q: "Antwerp & café",
+      place: "belgium",
+      region: "antwerp",
+      view: "list",
+    }) + "#compass-results";
+  assert.equal(compassReturnHref(from), from);
+  assert.equal(
+    compassReturnHref("/explore?unknown=1&q=tea#compass-results"),
+    "/explore?q=tea#compass-results",
+  );
+  assert.equal(
+    compassReturnHref("/explore#compass-results"),
+    "/explore#compass-results",
+  );
+  assert.equal(
+    compassReturnHref("//example.org/explore#compass-results"),
+    undefined,
+  );
+  assert.equal(compassReturnHref("/explore/other#compass-results"), undefined);
+  assert.equal(compassReturnHref("/explore#another-anchor"), undefined);
+  assert.equal(compassReturnHref([from, from]), undefined);
 });

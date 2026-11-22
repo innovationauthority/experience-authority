@@ -1,6 +1,362 @@
 import type { GuideReview } from "./catalog";
 /** Prior source reviews retained for historical eligibility checks, never a fallback for expired current evidence. */
 export const guideReviewHistory: Record<string, GuideReview[]> = {
+  "follow-the-building-around-the-music": [
+    {
+      "basis": "public_sources",
+      "scope": "public_programme",
+      "requiresSpecialPermission": false,
+      "checkedOn": "2026-09-27",
+      "reviewBy": "2026-11-20",
+      "accessUrl": "https://casadamusica.com/en/a-casa/guided-tours/",
+      "sources": [
+        {
+          "title": "Casa da Música: guided tours",
+          "url": "https://casadamusica.com/en/a-casa/guided-tours/",
+          "note": "Direct duration, price, language and booking description."
+        },
+        {
+          "title": "Casa da Música: open tours",
+          "url": "https://casadamusica.com/en/a-casa/open-tours/",
+          "note": "Separate open-visit format, preventing a false claim that every visit requires the same guide."
+        }
+      ]
+    }
+  ],
+  "follow-kyotos-river-gorge-by-slow-train": [
+    {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-10-21",
+      reviewBy: "2026-11-21",
+      accessUrl: "https://www.sagano-kanko.co.jp/en/train-info/",
+      sources: [
+        {
+          title: "Sagano Scenic Railway: train information",
+          url: "https://www.sagano-kanko.co.jp/en/train-info/",
+          note: "Route, running times and date-specific operations.",
+        },
+        {
+          title: "Sagano Scenic Railway: FAQ",
+          url: "https://www.sagano-kanko.co.jp/en/faq/",
+          note: "Separate one-way tickets, JR Pass exclusion, open car and station/wheelchair constraints.",
+        },
+      ],
+    }
+  ],
+  "climb-a-buenos-aires-building-written-like-a-poem": [
+    {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-10-21",
+      reviewBy: "2026-11-21",
+      accessUrl: "https://palaciobarolotours.com.ar/visitas-guiadas-diurnas/",
+      sources: [
+        {
+          title: "Palacio Barolo Tours: daytime visits",
+          url: "https://palaciobarolotours.com.ar/visitas-guiadas-diurnas/",
+          note: "Bilingual tour, duration, fourteen elevator floors plus eight stair floors, balcony and weather warnings.",
+        },
+        {
+          title: "Palacio Barolo: official building site",
+          url: "https://palaciobarolo.com.ar/?lang=en",
+          note: "Building identity and architectural context, separate from live ticket availability.",
+        },
+      ],
+    }
+  ],
+  "stretch-the-dough-before-tasting-naples": [
+    {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-10-21",
+      reviewBy: "2026-11-21",
+      accessUrl:
+        "https://www.pizzanapoletana.org/en/pizzaiolo_napoletano_per_un_giorno",
+      sources: [
+        {
+          title: "AVPN: Neapolitan Pizza Maker for one day",
+          url: "https://www.pizzanapoletana.org/en/pizzaiolo_napoletano_per_un_giorno",
+          note: "Specific amateur class, three-hour sequence, Italian/English, reservation and age-label discrepancy.",
+        },
+        {
+          title: "AVPN: training courses and Naples school",
+          url: "https://www.pizzanapoletana.org/en/corsi",
+          note: "Distinguishes amateur and professional courses and confirms Via Capodimonte 19a.",
+        },
+      ],
+    }
+  ],
+  "choose-lisbon-by-the-fish-inside-the-tin": [
+    {
+      basis: "public_sources",
+      scope: "public_hospitality",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-10-21",
+      reviewBy: "2026-11-21",
+      accessUrl: "https://www.lojascomhistoria.pt/lojas/conserveira-de-lisboa",
+      sources: [
+        {
+          title: "Lisbon Shops with History: Conserveira de Lisboa",
+          url: "https://www.lojascomhistoria.pt/lojas/conserveira-de-lisboa",
+          note: "Municipal record for this specific shop, its history, address and published hours. Operator website unavailable at check.",
+        },
+        {
+          title: "ConVida: Conserveira de Lisboa",
+          url: "https://convida.pt/lisboa/conserveira-de-lisboa/",
+          note: "Independent current city-guide corroboration of the Bacalhoeiros shop, not verification of stock or food quality.",
+        },
+      ],
+    }
+  ],
+  "give-a-prague-marionette-its-first-movement": [
+    {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-10-21",
+      reviewBy: "2026-11-21",
+      accessUrl: "https://www.marionety.com/workshop/",
+      sources: [
+        {
+          title: "Marionety Truhlář: small-marionette workshop",
+          url: "https://www.marionety.com/workshop/",
+          note: "Publicly indexed specific workshop, prepared components, three-to-four-hour duration and booking lead time. Direct automated request blocked.",
+        },
+        {
+          title: "Prague City Tourism: Truhlář Marionettes",
+          url: "https://prague.eu/en/objevujte/truhlar-marionettes/",
+          note: "City-tourism corroboration, Boleslavská 11 and appointment-only access.",
+        },
+      ],
+    }
+  ],
+  "read-melbourne-from-a-city-circle-tram": [
+    {
+      basis: "public_sources",
+      scope: "public_admission",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-10-21",
+      reviewBy: "2026-11-21",
+      accessUrl: "https://transport.vic.gov.au/route/timetable/15834",
+      sources: [
+        {
+          title: "Transport Victoria: 35 City Circle timetable",
+          url: "https://transport.vic.gov.au/route/timetable/15834",
+          note: "Current official Route 35 identity, timetable and service checking. Direct automated request blocked.",
+        },
+        {
+          title: "Visit Melbourne: getting around",
+          url: "https://www.visitmelbourne.com/Regions/Melbourne/practical-information/Getting-around.aspx",
+          note: "Official Victoria tourism description of the free clockwise W-Class service and commentary. Publicly indexed source checked.",
+        },
+        {
+          title: "Visit Victoria: public transport",
+          url: "https://www.visitvictoria.com/practical-information/getting-here-and-around/public-transport",
+          note: "Official visitor guidance explicitly states that the City Circle tram is not wheelchair accessible.",
+        },
+      ],
+    }
+  ],
+  "look-out-from-inside-romes-city-wall": [
+    {
+      basis: "public_sources",
+      scope: "public_admission",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-10-21",
+      reviewBy: "2026-11-21",
+      accessUrl:
+        "https://www.museodellemuraroma.it/en/informazioni_pratiche/biglietti",
+      sources: [
+        {
+          title: "Museo delle Mura: admission",
+          url: "https://www.museodellemuraroma.it/en/informazioni_pratiche/biglietti",
+          note: "Free-entry heading, capacity limits, notices and inconsistent generic group-ticket wording.",
+        },
+        {
+          title: "Museo delle Mura: history",
+          url: "https://museodellemuraroma.it/en/il_museo/storia",
+          note: "Gate, later adaptations and establishment of the museum, not a promise of an unchanged ancient interior.",
+        },
+        {
+          title: "Museo delle Mura: accessibility",
+          url: "https://museodellemuraroma.it/en/node/1000031",
+          note: "Stairs, lack of lift and separate arrangements for supported sensory visits.",
+        },
+      ],
+    }
+  ],
+  "walk-into-lisbons-unheated-garden": [
+    {
+      basis: "public_sources",
+      scope: "public_admission",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-10-21",
+      reviewBy: "2026-11-21",
+      accessUrl:
+        "https://www.lisboa.pt/pontos-de-interesse/detalhe/estufa-fria-de-lisboa",
+      sources: [
+        {
+          title: "Lisbon municipality: Estufa Fria",
+          url: "https://www.lisboa.pt/pontos-de-interesse/detalhe/estufa-fria-de-lisboa",
+          note: "Municipal identity, location, three named sections and Tuesday-to-Sunday access. Publicly indexed content checked after automated request blocked.",
+        },
+        {
+          title: "Estufa Fria: official presentation leaflet",
+          url: "https://estufafria.lisboa.pt/fileadmin/estufa_fria/explorar/FolhetoApresentacao_EstufaFriaLisboa.pdf",
+          note: "Seasonal opening pattern, last admission and published holiday closures. Recheck current notices for exceptions.",
+        },
+      ],
+    }
+  ],
+  "hear-ghent-played-from-above-the-square": [
+    {
+      basis: "public_sources",
+      scope: "public_observation",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-10-21",
+      reviewBy: "2026-11-21",
+      accessUrl: "https://visit.gent.be/en/see-do/ghent-belfry",
+      sources: [
+        {
+          title: "Visit Gent: Ghent Belfry",
+          url: "https://visit.gent.be/en/see-do/ghent-belfry",
+          note: "Current Sunday 11:00–12:00 live carillonneur listing, summer-only Saturday distinction and tower-access limitations.",
+        },
+        {
+          title: "Ghent Historic Houses: the carillon",
+          url: "https://historischehuizen.stad.gent/de/belfried/geschich-te-und-geschich-ten/das-carillon",
+          note: "Municipal heritage context for the bells and mechanism, not confirmation of an individual future session.",
+        },
+      ],
+    }
+  ],
+  "compose-a-berlin-scent-by-smelling-before-naming": [
+    {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-10-21",
+      reviewBy: "2026-11-21",
+      accessUrl:
+        "https://www.frau-tonis-parfum.com/shop/en/Fragrance-Workshop-1-pers-225.html",
+      sources: [
+        {
+          title: "Frau Tonis: one-person fragrance workshop",
+          url: "https://www.frau-tonis-parfum.com/shop/en/Fragrance-Workshop-1-pers-225.html",
+          note: "Specific approximately one-hour product and fifty-millilitre composition.",
+        },
+        {
+          title: "Frau Tonis: workshop FAQ",
+          url: "https://www.frau-tonis-parfum.com/en/faq/",
+          note: "House-fragrance combination, voucher-first booking and paid companions.",
+        },
+        {
+          title: "Frau Tonis: appointment request",
+          url: "https://www.frau-tonis-parfum.com/shop/termin-buchung/",
+          note: "A request needs separate confirmation before the appointment is binding.",
+        },
+      ],
+    }
+  ],
+  "lift-a-sheet-of-paper-from-a-taipei-rooftop-vat": [
+    {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-10-21",
+      reviewBy: "2026-11-21",
+      accessUrl:
+        "https://www.suhopaper.org.tw/index.php?route=information/information&information_id=98",
+      sources: [
+        {
+          title: "Suho Paper Museum: making experience",
+          url: "https://www.suhopaper.org.tw/index.php?route=information/information&information_id=98",
+          note: "Fourth-floor making, forty-minute session, drying time, age, capacity and reservation conditions.",
+        },
+        {
+          title: "Suho Paper Museum: current visitor information",
+          url: "https://www.suhopaper.org.tw/index.php?route=information/information&information_id=88",
+          note: "Opening days, 20 October to 1 November exhibition changes, companion admission and recording restrictions.",
+        },
+      ],
+    }
+  ],
+  "walk-from-bondi-to-tamarama-with-time-to-look": [
+    {
+      basis: "public_sources",
+      scope: "public_observation",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-10-21",
+      reviewBy: "2026-11-21",
+      accessUrl:
+        "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves/hunter_park",
+      sources: [
+        {
+          title: "Waverley Council: Hunter Park",
+          url: "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves/hunter_park",
+          note: "Official South Bondi location and public coastal-path approach, separate from pool admission.",
+        },
+        {
+          title: "Waverley Council: North Bronte cliff remediation",
+          url: "https://haveyoursay.waverley.nsw.gov.au/nth-bronte-cliff-remediation",
+          note: "Continuing rockfall-related closures on the longer walk. The suggested outing is deliberately limited to Tamarama.",
+        },
+      ],
+    }
+  ],
+  "step-off-madrids-timetable-at-chamberi": [
+    {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-10-21",
+      reviewBy: "2026-11-21",
+      accessUrl: "https://museosmetromadrid.es/estacion-de-chamberi_0/",
+      sources: [
+        {
+          title: "Museos Metro Madrid: Estación de Chamberí",
+          url: "https://museosmetromadrid.es/estacion-de-chamberi_0/",
+          note: "History, free reserved guided visit, approximate duration, opening pattern and reduced-mobility statement.",
+        },
+        {
+          title: "Museos Metro Madrid: public heritage spaces",
+          url: "https://museosmetromadrid.es/",
+          note: "Official reservation route and distinction from the network's other visitable museums.",
+        },
+      ],
+    }
+  ],
+  "give-kyoto-an-ordinary-bathhouse-evening": [
+    {
+      basis: "public_sources",
+      scope: "public_hospitality",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-10-21",
+      reviewBy: "2026-11-21",
+      accessUrl: "https://1010.kyoto/spot/funaokaonsen/",
+      sources: [
+        {
+          title: "Kyoto bathhouse union: Funaoka Onsen, Japanese listing",
+          url: "https://1010.kyoto/spot/funaokaonsen/",
+          note: "Current Japanese hours and Tuesday closure. Translated listings conflict and should not override confirmation.",
+        },
+        {
+          title: "Kyoto bathhouse union: how to use a sentō",
+          url: "https://1010.kyoto/how_to_use/",
+          note: "Unclothed shared bathing, washing first, towels outside tubs and optional facility cautions.",
+        },
+        {
+          title: "Kyoto City Tourism: Funaoka Onsen",
+          url: "https://ja.kyoto.travel/tourism/single01.php?category_id=2&tourism_id=2483",
+          note: "1923 founding and registered cultural-heritage context, not a construction date for every present building or current operating hours.",
+        },
+      ],
+    }
+  ],
   "let-a-paris-guinguette-open-the-evening": [
     {
       "basis": "public_sources",

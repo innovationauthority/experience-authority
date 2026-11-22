@@ -43,7 +43,8 @@ export default function NewGuides() {
     <div className="wrap page-section new-guides-page">
       <PageIntro eyebrow="Fresh ways into a place" title="New discoveries.">
         <p>
-          Our latest guides. One more reason to be curious. Or try{" "}
+          Browse the latest edition or explore the archive by place and
+          interest.{" "}
           <Link className="text-link" href="/today">
             Daily discovery ↗
           </Link>

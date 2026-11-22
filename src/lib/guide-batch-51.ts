@@ -460,8 +460,8 @@ export const guideBatch51: PublicExperience[] = [
       basis: "public_sources",
       scope: "public_programme",
       requiresSpecialPermission: false,
-      checkedOn: "2026-10-21",
-      reviewBy: "2026-11-21",
+      checkedOn: "2026-11-22",
+      reviewBy: "2026-12-22",
       accessUrl: "https://www.sagano-kanko.co.jp/en/train-info/",
       sources: [
         {
@@ -626,8 +626,8 @@ export const guideBatch51: PublicExperience[] = [
       basis: "public_sources",
       scope: "public_programme",
       requiresSpecialPermission: false,
-      checkedOn: "2026-10-21",
-      reviewBy: "2026-11-21",
+      checkedOn: "2026-11-22",
+      reviewBy: "2027-01-15",
       accessUrl: "https://palaciobarolotours.com.ar/visitas-guiadas-diurnas/",
       sources: [
         {

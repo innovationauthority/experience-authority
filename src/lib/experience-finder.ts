@@ -53,9 +53,7 @@ export function matchesFinder(item: FinderItem, query: FinderQuery) {
       ...(profile?.keywords ?? []),
     ].join(" "),
   );
-  const terms = normalizeSearch(search)
-    .split(/\s+/)
-    .filter(Boolean);
+  const terms = normalizeSearch(search).split(/\s+/).filter(Boolean);
   return (
     (isNewYorkCityAlias
       ? item.regionSlug === "new-york-city"
@@ -70,21 +68,45 @@ export function matchesFinder(item: FinderItem, query: FinderQuery) {
   );
 }
 
+const finderKeys = [
+  "q",
+  "interest",
+  "place",
+  "region",
+  "field",
+  "mode",
+  "time",
+  "view",
+  "surprise",
+] as const satisfies readonly (keyof FinderQuery)[];
+
+export function readFinderQuery(
+  read: (key: keyof FinderQuery) => unknown,
+): FinderQuery {
+  return Object.fromEntries(
+    finderKeys.map((key) => {
+      const value = read(key);
+      return [key, typeof value === "string" ? value.slice(0, 200) : ""];
+    }),
+  );
+}
+
 export function finderUrl(query: FinderQuery) {
   const params = new URLSearchParams();
-  for (const key of [
-    "q",
-    "interest",
-    "place",
-    "region",
-    "field",
-    "mode",
-    "time",
-    "view",
-    "surprise",
-  ] as const) {
+  for (const key of finderKeys) {
     const value = query[key]?.trim();
     if (value && !(key === "view" && value === "grid")) params.set(key, value);
   }
   return `/explore${params.size ? `?${params}` : ""}`;
+}
+
+export function compassReturnHref(from: unknown) {
+  const match =
+    typeof from === "string" &&
+    /^\/explore(?:\?([^#]*))?#compass-results$/.exec(from);
+  if (!match) return undefined;
+  const params = new URLSearchParams(match[1]);
+  return (
+    finderUrl(readFinderQuery((key) => params.get(key))) + "#compass-results"
+  );
 }

@@ -2202,8 +2202,8 @@
     "regionSlug": "lucerne"
   },
   "/experiences/follow-kyotos-river-gorge-by-slow-train": {
-    "availableFrom": "2026-10-21",
-    "reviewBy": "2026-11-21",
+    "availableFrom": "2026-11-22",
+    "reviewBy": "2026-12-22",
     "countrySlug": "japan",
     "regionSlug": "kyoto"
   },
@@ -2220,8 +2220,8 @@
     "regionSlug": "stockholm"
   },
   "/experiences/climb-a-buenos-aires-building-written-like-a-poem": {
-    "availableFrom": "2026-10-21",
-    "reviewBy": "2026-11-21",
+    "availableFrom": "2026-11-22",
+    "reviewBy": "2027-01-15",
     "countrySlug": "argentina",
     "regionSlug": "buenos-aires"
   },
@@ -2916,14 +2916,14 @@
     "regionSlug": "montreal"
   },
   "/experiences/stretch-the-dough-before-tasting-naples": {
-    "availableFrom": "2026-10-21",
-    "reviewBy": "2026-11-21",
+    "availableFrom": "2026-11-22",
+    "reviewBy": "2027-01-15",
     "countrySlug": "italy",
     "regionSlug": "naples"
   },
   "/experiences/choose-lisbon-by-the-fish-inside-the-tin": {
-    "availableFrom": "2026-10-21",
-    "reviewBy": "2026-11-21",
+    "availableFrom": "2026-11-22",
+    "reviewBy": "2027-01-15",
     "countrySlug": "portugal",
     "regionSlug": "lisbon"
   },
@@ -2934,8 +2934,8 @@
     "regionSlug": "ponikla"
   },
   "/experiences/give-a-prague-marionette-its-first-movement": {
-    "availableFrom": "2026-10-21",
-    "reviewBy": "2026-11-21",
+    "availableFrom": "2026-11-22",
+    "reviewBy": "2027-01-15",
     "countrySlug": "czechia",
     "regionSlug": "prague"
   },
@@ -2952,8 +2952,8 @@
     "regionSlug": "paris"
   },
   "/experiences/read-melbourne-from-a-city-circle-tram": {
-    "availableFrom": "2026-10-21",
-    "reviewBy": "2026-11-21",
+    "availableFrom": "2026-11-22",
+    "reviewBy": "2026-12-22",
     "countrySlug": "australia",
     "regionSlug": "melbourne"
   },
@@ -2970,8 +2970,8 @@
     "regionSlug": "london"
   },
   "/experiences/look-out-from-inside-romes-city-wall": {
-    "availableFrom": "2026-10-21",
-    "reviewBy": "2026-11-21",
+    "availableFrom": "2026-11-22",
+    "reviewBy": "2027-01-15",
     "countrySlug": "italy",
     "regionSlug": "rome"
   },
@@ -2988,8 +2988,8 @@
     "regionSlug": "new-york-city"
   },
   "/experiences/walk-into-lisbons-unheated-garden": {
-    "availableFrom": "2026-10-21",
-    "reviewBy": "2026-11-21",
+    "availableFrom": "2026-11-22",
+    "reviewBy": "2027-01-15",
     "countrySlug": "portugal",
     "regionSlug": "lisbon"
   },
@@ -3000,8 +3000,8 @@
     "regionSlug": "copenhagen"
   },
   "/experiences/hear-ghent-played-from-above-the-square": {
-    "availableFrom": "2026-10-21",
-    "reviewBy": "2026-11-21",
+    "availableFrom": "2026-11-22",
+    "reviewBy": "2027-01-15",
     "countrySlug": "belgium",
     "regionSlug": "ghent"
   },
@@ -3042,14 +3042,14 @@
     "regionSlug": "edinburgh"
   },
   "/experiences/compose-a-berlin-scent-by-smelling-before-naming": {
-    "availableFrom": "2026-10-21",
-    "reviewBy": "2026-11-21",
+    "availableFrom": "2026-11-22",
+    "reviewBy": "2027-01-15",
     "countrySlug": "germany",
     "regionSlug": "berlin"
   },
   "/experiences/lift-a-sheet-of-paper-from-a-taipei-rooftop-vat": {
-    "availableFrom": "2026-10-21",
-    "reviewBy": "2026-11-21",
+    "availableFrom": "2026-11-22",
+    "reviewBy": "2027-01-15",
     "countrySlug": "taiwan",
     "regionSlug": "taipei"
   },
@@ -3066,8 +3066,8 @@
     "regionSlug": "toronto"
   },
   "/experiences/walk-from-bondi-to-tamarama-with-time-to-look": {
-    "availableFrom": "2026-10-21",
-    "reviewBy": "2026-11-21",
+    "availableFrom": "2026-11-22",
+    "reviewBy": "2026-12-22",
     "countrySlug": "australia",
     "regionSlug": "sydney"
   },
@@ -3078,8 +3078,8 @@
     "regionSlug": "porto"
   },
   "/experiences/step-off-madrids-timetable-at-chamberi": {
-    "availableFrom": "2026-10-21",
-    "reviewBy": "2026-11-21",
+    "availableFrom": "2026-11-22",
+    "reviewBy": "2026-12-22",
     "countrySlug": "spain",
     "regionSlug": "madrid"
   },
@@ -3096,8 +3096,8 @@
     "regionSlug": "berlin"
   },
   "/experiences/give-kyoto-an-ordinary-bathhouse-evening": {
-    "availableFrom": "2026-10-21",
-    "reviewBy": "2026-11-21",
+    "availableFrom": "2026-11-22",
+    "reviewBy": "2027-01-15",
     "countrySlug": "japan",
     "regionSlug": "kyoto"
   },
@@ -3726,8 +3726,8 @@
     "regionSlug": "barcelona"
   },
   "/experiences/follow-the-building-around-the-music": {
-    "availableFrom": "2026-09-27",
-    "reviewBy": "2026-11-20",
+    "availableFrom": "2026-11-22",
+    "reviewBy": "2027-01-15",
     "countrySlug": "portugal",
     "regionSlug": "porto"
   },

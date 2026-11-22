@@ -1,11 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import {
   browseInterests as interests,
   interestForSlug,
   matchesInterest,
+  areaOptions,
 } from "@/lib/catalog";
 import {
   areaKey,
@@ -19,6 +19,13 @@ import { ExperienceCardView } from "./experience-card";
 import { ProgressiveGrid } from "./progressive-grid";
 
 type ReleaseItem = CardExperience & { date: string };
+const allReleases = {
+  period: "",
+  interest: "",
+  country: "",
+  region: "",
+  personal: false,
+};
 const releaseDate = new Intl.DateTimeFormat("en-GB", {
   day: "numeric",
   month: "long",
@@ -37,10 +44,8 @@ export function NewGuideBrowser({
 }) {
   const { data, ready } = usePassport();
   const [editionCount, setEditionCount] = useState(1);
-  const [period, setPeriod] = useState("");
-  const [interest, setInterest] = useState("");
-  const [country, setCountry] = useState("");
-  const [personal, setPersonal] = useState(false);
+  const [filters, setFilters] = useState(allReleases);
+  const { period, interest, country, region, personal } = filters;
   const saved = Object.keys(data.saved);
   const areas = savedAreas(allPlaces, saved);
   const weekCount = items.filter((item) =>
@@ -58,6 +63,7 @@ export function NewGuideBrowser({
       (!period || withinPublicationWeek(item.date, today)) &&
       (!selectedInterest || matchesInterest(item, selectedInterest)) &&
       (!country || item.countrySlug === country) &&
+      (!region || item.regionSlug === region) &&
       (!personal ||
         (areas.has(areaKey(item) || "") && !saved.includes(item.id))),
   );
@@ -65,11 +71,12 @@ export function NewGuideBrowser({
   const countries = [
     ...new Map(items.map((item) => [item.countrySlug, item.country])).entries(),
   ].sort((a, b) => a[1].localeCompare(b[1]));
-  function reset() {
-    setPeriod("");
-    setInterest("");
-    setCountry("");
-    setPersonal(false);
+  const cityOptions = areaOptions(items, country);
+  const hasFilters = Boolean(period || interest || country || region);
+  const countLabel = `${visible.length} ${visible.length === 1 ? "matching guide" : "matching guides"} in the archive`;
+  function change(next: typeof allReleases) {
+    setFilters(next);
+    setEditionCount(1);
   }
 
   return (
@@ -80,24 +87,20 @@ export function NewGuideBrowser({
             <strong>{weekCount}</strong>{" "}
             {weekCount === 1 ? "new guide" : "new guides"} in the past 7 days
           </p>
-          <Link className="text-link" href="/today">
-            One discovery for today ↗
-          </Link>
         </div>
         <details className="new-filter-disclosure">
           <summary>
-            Refine by date, interest or place
-            {period || interest || country ? " · filters active" : ""}
+            Filter by date, interest or place
+            {hasFilters ? " · filters active" : ""}
           </summary>
           <div className="local-planning-filters new-guide-filters">
             <label>
               Published
               <select
                 value={period}
-                onChange={(event) => {
-                  setPeriod(event.target.value);
-                  setEditionCount(1);
-                }}
+                onChange={(event) =>
+                  change({ ...filters, period: event.target.value })
+                }
               >
                 <option value="">All publication dates</option>
                 <option value="week">Past 7 days</option>
@@ -107,10 +110,9 @@ export function NewGuideBrowser({
               What interests you
               <select
                 value={interest}
-                onChange={(event) => {
-                  setInterest(event.target.value);
-                  setEditionCount(1);
-                }}
+                onChange={(event) =>
+                  change({ ...filters, interest: event.target.value })
+                }
               >
                 <option value="">All interests</option>
                 {interests
@@ -128,10 +130,13 @@ export function NewGuideBrowser({
               Country or territory
               <select
                 value={country}
-                onChange={(event) => {
-                  setCountry(event.target.value);
-                  setEditionCount(1);
-                }}
+                onChange={(event) =>
+                  change({
+                    ...filters,
+                    country: event.target.value,
+                    region: "",
+                  })
+                }
               >
                 <option value="">Anywhere</option>
                 {countries.map(([slug, name]) => (
@@ -141,38 +146,73 @@ export function NewGuideBrowser({
                 ))}
               </select>
             </label>
+            {cityOptions.length > 0 && (
+              <label>
+                City or area
+                <select
+                  value={region ? `${country}|${region}` : ""}
+                  onChange={(event) => {
+                    const [selectedCountry, selectedRegion = ""] =
+                      event.target.value.split("|");
+                    change({
+                      ...filters,
+                      country: selectedCountry || country,
+                      region: selectedRegion,
+                    });
+                  }}
+                >
+                  <option value="">
+                    {country ? "Every area here" : "Anywhere"}
+                  </option>
+                  {cityOptions.map(({ key, label }) => (
+                    <option key={key} value={key}>
+                      {label}
+                    </option>
+                  ))}
+                </select>
+              </label>
+            )}
           </div>
         </details>
         {ready && areas.size > 0 && (
           <div className="new-personal">
-            <>
-              <button
-                type="button"
-                className="button button-outline"
-                aria-pressed={personal}
-                onClick={() => {
-                  setPersonal(!personal);
-                  setCountry("");
-                  setInterest("");
-                  setPeriod(!personal ? "week" : "");
-                }}
-              >
-                {personal
-                  ? "Show all places again"
-                  : `New in my saved places (${inSavedPlaces.length})`}
-              </button>
-              <p>
-                Same cities and areas, not whole countries. Already saved guides
-                are excluded. Private in this browser.
-              </p>
-            </>
+            <button
+              type="button"
+              className="button button-outline"
+              aria-pressed={personal}
+              onClick={() =>
+                change({
+                  ...allReleases,
+                  personal: !personal,
+                  period: personal ? "" : "week",
+                })
+              }
+            >
+              {personal
+                ? "Show all places again"
+                : `New in my saved places (${inSavedPlaces.length})`}
+            </button>
+            <p>
+              See unsaved guides from the same cities or areas. Private in this
+              browser.
+            </p>
           </div>
         )}
       </div>
-      <p className="destination-result" role="status">
-        {visible.length}{" "}
-        {visible.length === 1 ? "guide matches" : "guides match"} your choices.
-      </p>
+      <div className={hasFilters ? "new-filter-result" : "sr-only"}>
+        <p className="destination-result" role="status" aria-atomic="true">
+          {hasFilters ? countLabel : ""}
+        </p>
+        {hasFilters && visible.length > 0 && (
+          <button
+            className="reset-link"
+            type="button"
+            onClick={() => change(allReleases)}
+          >
+            Clear filters
+          </button>
+        )}
+      </div>
       {!visible.length && (
         <div className="finder-empty">
           <h2>
@@ -180,11 +220,12 @@ export function NewGuideBrowser({
               ? "Nothing new for these saved places yet."
               : "No new guide fits this combination yet."}
           </h2>
-          <p>
-            Your saved experiences are unchanged. Explore another place or widen
-            the publication dates.
-          </p>
-          <button type="button" className="button button-dark" onClick={reset}>
+          <p>Try another city or area, or widen the publication dates.</p>
+          <button
+            type="button"
+            className="button button-dark"
+            onClick={() => change(allReleases)}
+          >
             See all published guides
           </button>
         </div>
@@ -197,10 +238,9 @@ export function NewGuideBrowser({
             <div className="section-heading">
               <div>
                 <p className="eyebrow">
-                  {group.length} {group.length === 1 ? "guide" : "guides"}
-                  {interest || country || personal
-                    ? " in this view"
-                    : " published"}
+                  {!hasFilters && date === items[0]?.date
+                    ? "Latest edition"
+                    : `${group.length} ${group.length === 1 ? "guide" : "guides"}`}
                 </p>
                 <h2>
                   <time dateTime={date}>{label}</time>
@@ -208,7 +248,7 @@ export function NewGuideBrowser({
               </div>
             </div>
             <ProgressiveGrid
-              key={`${date}:${period}:${interest}:${country}:${personal}`}
+              key={`${date}:${period}:${interest}:${country}:${region}:${personal}`}
               heading={`Guides published ${label}`}
               surface={`new-guides-${date}`}
             >

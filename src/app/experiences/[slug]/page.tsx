@@ -12,6 +12,7 @@ import {
   StatusBadge,
 } from "@/components/editorial";
 import { getExperience, getExperiences } from "@/lib/data";
+import { compassReturnHref } from "@/lib/experience-finder";
 import { guideMediaFor } from "@/lib/media";
 import { PhotoViewer } from "@/components/photo-viewer";
 import { ShareButton } from "@/components/share-button";
@@ -65,13 +66,14 @@ export default async function Experience({ params, searchParams }: Props) {
   const item = getExperience((await params).slug);
   if (!item) notFound();
   const { from } = await searchParams;
-  const returnTo =
+  const destinationHref =
     typeof from === "string" &&
     /^\/places\/[a-z0-9-]+(?:\/[a-z0-9-]+)?(?:\?[a-z0-9&=-]+)?#local-guides$/.test(
       from,
     )
       ? from
       : undefined;
+  const compassHref = compassReturnHref(from) || "/explore";
   const media = guideMediaFor(item.id);
   const interest = browseInterests.find((entry) =>
     matchesInterest(item, entry),
@@ -90,10 +92,14 @@ export default async function Experience({ params, searchParams }: Props) {
       {structuredData && <StructuredData data={structuredData} />}
       <div className="detail-toolbar wrap">
         <nav aria-label="Breadcrumb">
-          {returnTo ? (
-            <a href={returnTo}>← Back to destination</a>
+          {destinationHref ? (
+            <a href={destinationHref}>← Back to destination</a>
           ) : (
-            <Link href="/explore">← Back to Compass</Link>
+            <Link href={compassHref}>
+              {compassHref === "/explore"
+                ? "← Back to Compass"
+                : "← Back to results"}
+            </Link>
           )}
         </nav>
         <div className="detail-toolbar-actions">
@@ -183,10 +189,7 @@ export default async function Experience({ params, searchParams }: Props) {
                 rel="noopener noreferrer"
               >
                 Visit official website <span aria-hidden="true">↗</span>
-                <span className="sr-only">
-                  {" "}
-                  (opens a new tab)
-                </span>
+                <span className="sr-only"> (opens a new tab)</span>
               </a>
               <span className="small-note">
                 Save an idea or start a day. Book directly with the host.

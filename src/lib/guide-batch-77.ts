@@ -2351,7 +2351,7 @@ const records: EditionGuide[] = [
       "The cited visitor sources support the public activity and conditions described here. EA’s review is based on public sources. Check the host’s latest notices for your date.",
     access:
       "Antwerp and De Lijn identify the Sint-Annatunnel as a public pedestrian and cycle connection. Check current reports for closures, lift access and escalator works.",
-    participation: "Public activity with venue-specific conditions.",
+    participation: "A self-guided pedestrian crossing beneath the river.",
     duration:
       "Allow 30 to 45 minutes for the crossings and a short stop on Linkeroever.",
     guideReview: {

@@ -4,7 +4,7 @@ import { CompassBrowser } from "@/components/compass-browser";
 import { getExperiences } from "@/lib/data";
 import { pageMetadata } from "@/lib/seo";
 import { orderExperienceDirectory } from "@/lib/home-curation";
-import type { FinderQuery } from "@/lib/experience-finder";
+import { readFinderQuery } from "@/lib/experience-finder";
 import { canSurprise } from "@/lib/discovery-choices";
 import { guideMediaFor } from "@/lib/media";
 import { toCardExperience } from "@/lib/catalog-projections";
@@ -22,22 +22,7 @@ export async function generateMetadata({ searchParams }: Props) {
 }
 export default async function Explore({ searchParams }: Props) {
   const raw = await searchParams;
-  const query: FinderQuery = Object.fromEntries(
-    [
-      "q",
-      "field",
-      "interest",
-      "place",
-      "region",
-      "mode",
-      "time",
-      "view",
-      "surprise",
-    ].map((key) => [
-      key,
-      typeof raw[key] === "string" ? raw[key].slice(0, 200) : "",
-    ]),
-  );
+  const query = readFinderQuery((key) => raw[key]);
   const items = orderExperienceDirectory(getExperiences());
   return (
     <div className="wrap page-section compass-page">

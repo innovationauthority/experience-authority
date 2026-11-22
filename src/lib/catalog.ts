@@ -1504,6 +1504,23 @@ export function regionDisplayName(
   );
 }
 
+/** Distinct areas available in a picker, scoped to a country when selected. */
+export function areaOptions(
+  items: Pick<PublicExperience, "countrySlug" | "country" | "regionSlug" | "place">[],
+  country?: string,
+) {
+  const areas = new Map<string, { key: string; label: string }>();
+  for (const item of items) {
+    const { countrySlug, regionSlug } = item;
+    if (!regionSlug || (country && countrySlug !== country)) continue;
+    const key = `${countrySlug}|${regionSlug}`;
+    if (areas.has(key)) continue;
+    const name = regionDisplayName(countrySlug, regionSlug, item.place);
+    areas.set(key, { key, label: country ? name : `${name}, ${item.country}` });
+  }
+  return [...areas.values()].sort((a, b) => a.label.localeCompare(b.label));
+}
+
 /** Derive region coverage from actual public records, not one fixed region per country. */
 export function regionsForCountry(country: string, items: PublicExperience[]) {
   const regions = new Map<string, string>();

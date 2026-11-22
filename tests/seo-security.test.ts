@@ -123,7 +123,12 @@ test("demo, protected and paused records never enter discovery feeds", () => {
   );
 });
 
-test("destination lists describe only visible guides and journal pages enter the released sitemap", () => {
+test("destination lists describe only visible guides and journal pages enter the released sitemap", (t) => {
+  // Source reviews expire, so this catalogue fixture needs an explicit date.
+  t.mock.timers.enable({
+    apis: ["Date"],
+    now: new Date("2026-11-22T12:00:00Z"),
+  });
   const local = publicGuides.filter(
     (item) => item.countrySlug === "japan" && item.regionSlug === "kyoto",
   );

@@ -4,13 +4,14 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { Search, LayoutGrid, List, ArrowRight, X } from "lucide-react";
 import {
+  areaOptions,
   browseInterests as interests,
   matchesInterest,
-  regionDisplayName,
 } from "@/lib/catalog";
 import {
   matchesFinder,
   finderUrl,
+  readFinderQuery,
   timeFits,
   participationModes,
   type FinderQuery,
@@ -81,21 +82,7 @@ export function CompassBrowser({
   useEffect(() => {
     const restore = () => {
       const params = new URLSearchParams(window.location.search);
-      setQuery(
-        Object.fromEntries(
-          [
-            "q",
-            "interest",
-            "place",
-            "region",
-            "field",
-            "mode",
-            "time",
-            "view",
-            "surprise",
-          ].map((key) => [key, params.get(key) || ""]),
-        ),
-      );
+      setQuery(readFinderQuery((key) => params.get(key)));
     };
     window.addEventListener("popstate", restore);
     return () => window.removeEventListener("popstate", restore);
@@ -127,29 +114,11 @@ export function CompassBrowser({
   const places = [
     ...new Map(items.map((item) => [item.countrySlug, item.country])).entries(),
   ].sort((a, b) => a[1].localeCompare(b[1]));
-  const areas = [
-    ...new Map(
-      items
-        .filter(
-          (item) =>
-            item.regionSlug &&
-            (!query.place || item.countrySlug === query.place),
-        )
-        .map((item) => [
-          `${item.countrySlug}|${item.regionSlug}`,
-          {
-            countrySlug: item.countrySlug,
-            country: item.country,
-            regionSlug: item.regionSlug!,
-            place: regionDisplayName(
-              item.countrySlug,
-              item.regionSlug!,
-              item.place,
-            ),
-          },
-        ]),
-    ).entries(),
-  ].sort((a, b) => a[1].place.localeCompare(b[1].place));
+  const areas = useMemo(
+    () => areaOptions(items, query.place),
+    [items, query.place],
+  );
+  const returnTo = finderUrl(query) + "#compass-results";
   const activeInterests = interests.filter((interest) =>
     items.some((item) => matchesInterest(item, interest)),
   );
@@ -251,16 +220,15 @@ export function CompassBrowser({
                 onChange={(event) => {
                   const [place = "", region = ""] =
                     event.target.value.split("|");
-                  change({ ...query, place, region });
+                  change({ ...query, place: place || query.place, region });
                 }}
               >
                 <option value="">
                   {query.place ? "Every area here" : "Anywhere"}
                 </option>
-                {areas.map(([value, area]) => (
-                  <option key={value} value={value}>
-                    {area.place}
-                    {!query.place && `, ${area.country}`}
+                {areas.map(({ key, label }) => (
+                  <option key={key} value={key}>
+                    {label}
                   </option>
                 ))}
               </select>
@@ -416,9 +384,15 @@ export function CompassBrowser({
         <SurpriseDiscovery
           key={JSON.stringify({ ...query, view: "" })}
           items={surpriseMatches.map(({ choice }) => choice)}
+          returnTo={returnTo}
         >
           {surpriseMatches.map(({ item, index }) => (
-            <ExperienceCardView key={item.id} item={item} index={index} />
+            <ExperienceCardView
+              key={item.id}
+              item={item}
+              index={index}
+              returnTo={returnTo}
+            />
           ))}
         </SurpriseDiscovery>
       ) : matches.length ? (
@@ -427,7 +401,12 @@ export function CompassBrowser({
         >
           <h2 className="sr-only">Experiences in this direction</h2>
           {visibleMatches.map(({ item, index }) => (
-            <ExperienceCardView key={item.id} item={item} index={index} />
+            <ExperienceCardView
+              key={item.id}
+              item={item}
+              index={index}
+              returnTo={returnTo}
+            />
           ))}
         </div>
       ) : (

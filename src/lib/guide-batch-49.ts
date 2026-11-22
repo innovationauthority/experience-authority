@@ -224,9 +224,15 @@ export const guideBatch49: PublicExperience[] = [
       "Use Frau Tonis's official one-person workshop product and its appointment process for Zimmerstraße 13. A purchased voucher alone is not a dated reservation. No reproduction of another brand's perfume or EA booking is promised.",
     ...common,
     ...guideImage("berlin-frau-tonis-scent"),
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-22",
+      reviewBy: "2027-01-15",
+      accessUrl:
+        "https://www.frau-tonis-parfum.com/shop/en/Fragrance-Workshop-1-pers-225.html",
+      sources: [
         {
           title: "Frau Tonis: one-person fragrance workshop",
           url: "https://www.frau-tonis-parfum.com/shop/en/Fragrance-Workshop-1-pers-225.html",
@@ -243,8 +249,7 @@ export const guideBatch49: PublicExperience[] = [
           note: "A request needs separate confirmation before the appointment is binding.",
         },
       ],
-      "2026-11-21",
-    ),
+    },
   },
   {
     id: "taipei-suho-papermaking",
@@ -266,18 +271,24 @@ export const guideBatch49: PublicExperience[] = [
     humanReturn:
       "Hold an ordinary sheet up to the light when you get home and look for its structure.",
     responsibility:
-      "The fourth-floor session takes about forty minutes plus fifteen for drying and packing. The museum lists age three and above, with adult supervision to be confirmed. Tuesday to Friday sessions are 10:30 and 14:30, with an additional 15:30 session on Saturdays. Capacity is limited. Arrive around thirty minutes early for on-site registration or follow the linked individual booking's check-in deadline. A companion needs admission. Confirm teaching language, stairs or lift access and assistance before booking. From 20 October to 1 November 2026 floors one and two are changing exhibitions, while the third-floor collection and fourth-floor making remain open. Do not photograph restricted displays or record video without permission.",
+      "The fourth-floor session takes about forty minutes plus fifteen for drying and packing. The museum lists age three and above, with adult supervision to be confirmed. Tuesday to Friday sessions are 10:30 and 14:30, with an additional 15:30 session on Saturdays. Capacity is limited. Arrive around thirty minutes early for on-site registration or follow the linked individual booking's check-in deadline. A companion needs admission. Confirm teaching language, stairs or lift access and assistance before booking. Check the museum's current notices for any galleries that are temporarily closed. Do not photograph restricted displays or record video without permission.",
     evidence:
-      "The museum's current experience and visitor pages establish the session, floor, age, drying interval and temporary exhibition changes. EA has not taken the class or assessed materials. Conflicting older translated prices are not quoted as current.",
+      "The museum's current experience and visitor pages establish the session, floor, age, drying interval and entry conditions. EA has not taken the class or assessed materials. Conflicting older translated prices are not quoted as current.",
     duration: "About 40 minutes making, then 15 minutes drying",
     participation: "Instructed sheet-making at the rooftop workshop",
     access:
       "Check the official experience page and its reservation link for 68, Section 2, Chang'an East Road. The museum normally opens Tuesday to Saturday. Check holiday closures and the precise arrival deadline. Admission alone does not guarantee a class place.",
     ...common,
     ...guideImage("taipei-suho-papermaking"),
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-22",
+      reviewBy: "2027-01-15",
+      accessUrl:
+        "https://www.suhopaper.org.tw/index.php?route=information/information&information_id=98",
+      sources: [
         {
           title: "Suho Paper Museum: making experience",
           url: "https://www.suhopaper.org.tw/index.php?route=information/information&information_id=98",
@@ -286,11 +297,10 @@ export const guideBatch49: PublicExperience[] = [
         {
           title: "Suho Paper Museum: current visitor information",
           url: "https://www.suhopaper.org.tw/index.php?route=information/information&information_id=88",
-          note: "Opening days, 20 October to 1 November exhibition changes, companion admission and recording restrictions.",
+          note: "Opening days, companion admission and recording restrictions.",
         },
       ],
-      "2026-11-21",
-    ),
+    },
   },
   {
     id: "hong-kong-star-ferry-crossing",
@@ -409,9 +419,15 @@ export const guideBatch49: PublicExperience[] = [
       "Check Waverley Council's current notices and the South Bondi approach before setting out. Use public paths only and stop at Tamarama. No guided walk, swim, pool ticket or onward coastal access is implied.",
     ...common,
     ...guideImage("sydney-bondi-tamarama-walk"),
-    guideReview: review(
-      "public_observation",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_observation",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-22",
+      reviewBy: "2026-12-22",
+      accessUrl:
+        "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves/hunter_park",
+      sources: [
         {
           title: "Waverley Council: Hunter Park",
           url: "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves/hunter_park",
@@ -422,9 +438,13 @@ export const guideBatch49: PublicExperience[] = [
           url: "https://haveyoursay.waverley.nsw.gov.au/nth-bronte-cliff-remediation",
           note: "Continuing rockfall-related closures on the longer walk. The suggested outing is deliberately limited to Tamarama.",
         },
+        {
+          title: "Waverley Council: Tamarama Park",
+          url: "https://www.waverley.nsw.gov.au/recreation/parks_and_reserves/tamarama_park",
+          note: "Coastal walk destination and facilities above Tamarama Beach. On-site barriers and current notices take precedence.",
+        },
       ],
-      "2026-11-21",
-    ),
+    },
   },
   {
     id: "porto-serralves-treetop",
@@ -503,9 +523,14 @@ export const guideBatch49: PublicExperience[] = [
       "Reserve Estación de Chamberí through Museos Metro Madrid for Plaza de Chamberí. Do not substitute another metro museum or assume an ordinary transport ticket provides museum entry. No EA reservation is implied.",
     ...common,
     ...guideImage("madrid-chamberi-metro-museum"),
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-22",
+      reviewBy: "2026-12-22",
+      accessUrl: "https://museosmetromadrid.es/estacion-de-chamberi_0/",
+      sources: [
         {
           title: "Museos Metro Madrid: Estación de Chamberí",
           url: "https://museosmetromadrid.es/estacion-de-chamberi_0/",
@@ -517,8 +542,7 @@ export const guideBatch49: PublicExperience[] = [
           note: "Official reservation route and distinction from the network's other visitable museums.",
         },
       ],
-      "2026-11-21",
-    ),
+    },
   },
   {
     id: "paris-music-museum-listening",
@@ -632,9 +656,14 @@ export const guideBatch49: PublicExperience[] = [
       "Use the Kyoto bathhouse union's Japanese Funaoka listing for 82-1 Murasakino Minamifunaoka-chō and verify current conditions. This is a paid public bath, not a private session, photography visit or EA reservation.",
     ...common,
     ...guideImage("kyoto-funaoka-sento"),
-    guideReview: review(
-      "public_hospitality",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_hospitality",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-22",
+      reviewBy: "2027-01-15",
+      accessUrl: "https://1010.kyoto/spot/funaokaonsen/",
+      sources: [
         {
           title: "Kyoto bathhouse union: Funaoka Onsen, Japanese listing",
           url: "https://1010.kyoto/spot/funaokaonsen/",
@@ -651,8 +680,7 @@ export const guideBatch49: PublicExperience[] = [
           note: "1923 founding and registered cultural-heritage context, not a construction date for every present building or current operating hours.",
         },
       ],
-      "2026-11-21",
-    ),
+    },
   },
   {
     id: "florence-oblate-library-pause",

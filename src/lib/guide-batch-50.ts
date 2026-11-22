@@ -89,9 +89,15 @@ export const guideBatch50: PublicExperience[] = [
       "Reserve the dated amateur class through AVPN's official page for Via Capodimonte 19a. Check cancellation terms and the confirmation, not a similarly named school elsewhere. A professional course and the optional city tour are separate products.",
     ...common,
     ...guideImage("naples-avpn-pizza-day"),
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-22",
+      reviewBy: "2027-01-15",
+      accessUrl:
+        "https://www.pizzanapoletana.org/en/pizzaiolo_napoletano_per_un_giorno",
+      sources: [
         {
           title: "AVPN: Neapolitan Pizza Maker for one day",
           url: "https://www.pizzanapoletana.org/en/pizzaiolo_napoletano_per_un_giorno",
@@ -103,8 +109,7 @@ export const guideBatch50: PublicExperience[] = [
           note: "Distinguishes amateur and professional courses and confirms Via Capodimonte 19a.",
         },
       ],
-      "2026-11-21",
-    ),
+    },
   },
   {
     id: "lisbon-conserveira-counter",
@@ -136,9 +141,14 @@ export const guideBatch50: PublicExperience[] = [
       "Use the municipal listing to identify the Rua dos Bacalhoeiros shop and confirm current service. No advance permission is needed for ordinary shopping. A purchase does not include a tasting session, table or EA reservation.",
     ...common,
     ...guideImage("lisbon-conserveira-counter"),
-    guideReview: review(
-      "public_hospitality",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_hospitality",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-22",
+      reviewBy: "2027-01-15",
+      accessUrl: "https://www.lojascomhistoria.pt/lojas/conserveira-de-lisboa",
+      sources: [
         {
           title: "Lisbon Shops with History: Conserveira de Lisboa",
           url: "https://www.lojascomhistoria.pt/lojas/conserveira-de-lisboa",
@@ -150,8 +160,7 @@ export const guideBatch50: PublicExperience[] = [
           note: "Independent current city-guide corroboration of the Bacalhoeiros shop, not verification of stock or food quality.",
         },
       ],
-      "2026-11-21",
-    ),
+    },
   },
   {
     id: "ponikla-rautis-bead-ornament",
@@ -217,20 +226,25 @@ export const guideBatch50: PublicExperience[] = [
     responsibility:
       "The operator describes three to four hours and asks for reservations at least two working days ahead. The studio is appointment-only. Published capacity statements differ, so confirm the actual group size rather than relying on a maximum. The general recommendation is age six and above, with parental involvement for younger children subject to agreement. Ask about language, tools, assistance, materials and step-free access before paying. The city listing places the studio at Boleslavská 11. Use the venue on your confirmation. A take-home DIY kit and three- or seven-day carving courses are different products.",
     evidence:
-      "The operator's publicly indexed workshop description confirms prepared wooden components, duration and advance reservation. Prague City Tourism corroborates the workshop, address and appointment-only access. Direct automated access to the operator was blocked during this check. EA has not attended, assessed instruction or confirmed a particular appointment.",
+      "The workshop's own page describes the small marionette course, prepared parts and age range. Prague City Tourism lists the studio and confirms appointment-based access. EA has not attended, assessed instruction or confirmed a specific slot.",
     duration: "About 3 to 4 hours at the confirmed appointment",
     participation: "Supervised construction from prepared wooden components",
     access:
-      "Arrange the small-marionette workshop through Marionety Truhlář's official workshop page and obtain confirmation before travelling. An ordinary advertised workshop booking is required, not a private studio invitation or an EA arrangement.",
+      "Ask Marionety Truhlář for the small-marionette workshop and a confirmed appointment. The studio lists this course for adults and children aged six and older. Confirm the exact workshop address, language and duration before travelling.",
     ...common,
     ...guideImage("prague-truhlar-marionette"),
-    guideReview: review(
-      "public_programme",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_programme",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-22",
+      reviewBy: "2027-01-15",
+      accessUrl: "https://www.marionety.com/small-marionette-workshop/",
+      sources: [
         {
           title: "Marionety Truhlář: small-marionette workshop",
-          url: "https://www.marionety.com/workshop/",
-          note: "Publicly indexed specific workshop, prepared components, three-to-four-hour duration and booking lead time. Direct automated request blocked.",
+          url: "https://www.marionety.com/small-marionette-workshop/",
+          note: "Small workshop for individuals and groups, prepared marionette pieces, minimum age six and advance arrangements.",
         },
         {
           title: "Prague City Tourism: Truhlář Marionettes",
@@ -238,8 +252,7 @@ export const guideBatch50: PublicExperience[] = [
           note: "City-tourism corroboration, Boleslavská 11 and appointment-only access.",
         },
       ],
-      "2026-11-21",
-    ),
+    },
   },
   {
     id: "kyoto-yamamoto-roketsu",
@@ -353,7 +366,7 @@ export const guideBatch50: PublicExperience[] = [
     responsibility:
       "Official Victoria visitor information describes clockwise operation. Use Transport Victoria's current Route 35 timetable and alerts for actual departures rather than old bidirectional maps. Heritage vehicles have steps and are not equivalent to an accessible low-floor tram. Check the vehicle and stop requirements for your mobility needs and use accessible network alternatives when needed. Capacity and service disruptions can mean a wait. Commentary is not a live interpreter. Normal fares can apply on other services or outside the Free Tram Zone. Do not lean out, block doors or stand in a roadway for a photograph.",
     evidence:
-      "Transport Victoria maintains the live Route 35 timetable. Victoria's official visitor information confirms the free clockwise heritage service and commentary. Direct automated requests were blocked, while the publicly indexed official pages remained available for source checking. EA has not ridden the service or confirmed a particular vehicle's departure and access.",
+      "Transport Victoria maintains the Route 35 timetable. Victoria's official visitor information confirms the free clockwise heritage service and commentary. EA has not ridden the service or confirmed a particular departure, vehicle or boarding arrangement.",
     duration:
       "Allow about an hour for a circuit, with extra time for waits or stops",
     participation:
@@ -362,9 +375,14 @@ export const guideBatch50: PublicExperience[] = [
       "Use Transport Victoria's Route 35 listing and service alerts, then the correct signed stop. Ordinary travel is free on this service. Do not treat that as a citywide fare exemption or a guarantee of seat availability.",
     ...common,
     ...guideImage("melbourne-city-circle-tram"),
-    guideReview: review(
-      "public_admission",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_admission",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-22",
+      reviewBy: "2026-12-22",
+      accessUrl: "https://transport.vic.gov.au/route/timetable/15834",
+      sources: [
         {
           title: "Transport Victoria: 35 City Circle timetable",
           url: "https://transport.vic.gov.au/route/timetable/15834",
@@ -381,8 +399,7 @@ export const guideBatch50: PublicExperience[] = [
           note: "Official visitor guidance explicitly states that the City Circle tram is not wheelchair accessible.",
         },
       ],
-      "2026-11-21",
-    ),
+    },
   },
   {
     id: "wellington-kelburn-cable-car",
@@ -507,9 +524,15 @@ export const guideBatch50: PublicExperience[] = [
       "Use the official Museo delle Mura information for Via di Porta San Sebastiano 18 and check its notices. Individual admission and organised groups differ. No independent access to closed towers, archaeological areas or the complete wall circuit is implied. No EA booking is included.",
     ...common,
     ...guideImage("rome-museo-delle-mura"),
-    guideReview: review(
-      "public_admission",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_admission",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-22",
+      reviewBy: "2027-01-15",
+      accessUrl:
+        "https://www.museodellemuraroma.it/en/informazioni_pratiche/biglietti",
+      sources: [
         {
           title: "Museo delle Mura: admission",
           url: "https://www.museodellemuraroma.it/en/informazioni_pratiche/biglietti",
@@ -526,8 +549,7 @@ export const guideBatch50: PublicExperience[] = [
           note: "Stairs, lack of lift and separate arrangements for supported sensory visits.",
         },
       ],
-      "2026-11-21",
-    ),
+    },
   },
   {
     id: "berlin-museum-der-dinge",
@@ -646,29 +668,33 @@ export const guideBatch50: PublicExperience[] = [
     responsibility:
       "The municipality lists Tuesday to Sunday opening, with Monday closure. The published seasonal pattern changes from summer 10:00 to 19:00 to winter 09:00 to 17:00 at the last Sunday in October, with last entry thirty minutes before closing. Recheck the current notice rather than using summer hours for a winter visit. Published holiday closures include 1 January, 1 May and 25 December. Check admission and concessions separately. Damp paths, steps and differing sections can affect access. Stay on the visitor route, do not touch or collect plants and ask about your mobility needs before travel. No guided botanical session or medical benefit is implied.",
     evidence:
-      "Lisbon's municipal listing confirms the public garden and its three sections. The official presentation leaflet supplies the seasonal timetable and visitor context. Direct automated pages were blocked, so their publicly indexed official content was checked instead. EA has not visited, inspected path conditions or verified a particular day's full access.",
+      "The garden's visit page gives seasonal hours, ticketing and circulation guidance. Lisbon's municipal listing identifies the three garden sections. EA has not visited, inspected path conditions or confirmed that all areas will be open on a given day.",
     duration: "Allow 45 to 75 minutes before last admission",
     participation: "Independent botanical-garden walk at a slower pace",
     access:
-      "Check the municipal Estufa Fria information for Parque Eduardo VII and the current ticket and opening notices. This is public garden admission, not a spa, private greenhouse appointment or guaranteed access to every area.",
+      "Use the garden's official visit page for opening hours and ticketing at Parque Eduardo VII. Last admission is 30 minutes before closing. Children and teenagers under 18 must be accompanied by an adult.",
     ...common,
     ...guideImage("lisbon-estufa-fria-pause"),
-    guideReview: review(
-      "public_admission",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_admission",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-22",
+      reviewBy: "2027-01-15",
+      accessUrl: "https://estufafria.lisboa.pt/visitar",
+      sources: [
         {
-          title: "Lisbon municipality: Estufa Fria",
-          url: "https://www.lisboa.pt/pontos-de-interesse/detalhe/estufa-fria-de-lisboa",
-          note: "Municipal identity, location, three named sections and Tuesday-to-Sunday access. Publicly indexed content checked after automated request blocked.",
+          title: "Estufa Fria de Lisboa: visit",
+          url: "https://estufafria.lisboa.pt/visitar",
+          note: "Seasonal schedules, last admission, same-day ticketing, stairs, slopes and restrictions for minors.",
         },
         {
-          title: "Estufa Fria: official presentation leaflet",
-          url: "https://estufafria.lisboa.pt/fileadmin/estufa_fria/explorar/FolhetoApresentacao_EstufaFriaLisboa.pdf",
-          note: "Seasonal opening pattern, last admission and published holiday closures. Recheck current notices for exceptions.",
+          title: "City of Lisbon: Estufa Fria",
+          url: "https://www.lisboa.pt/espacos-e-servicos/detalhe/estufa-fria-de-lisboa",
+          note: "Park location and municipal garden with cold, hot and dry sections.",
         },
       ],
-      "2026-11-21",
-    ),
+    },
   },
   {
     id: "copenhagen-glyptotek-winter-garden",
@@ -747,9 +773,14 @@ export const guideBatch50: PublicExperience[] = [
       "Use Visit Gent's Belfry information and current notices, then choose a lawful public place around the tower. Listening outside does not require a tower ticket. The museum route and any special concert arrangements are separate.",
     ...common,
     ...guideImage("ghent-sunday-carillon"),
-    guideReview: review(
-      "public_observation",
-      [
+    guideReview: {
+      basis: "public_sources",
+      scope: "public_observation",
+      requiresSpecialPermission: false,
+      checkedOn: "2026-11-22",
+      reviewBy: "2027-01-15",
+      accessUrl: "https://visit.gent.be/en/see-do/ghent-belfry",
+      sources: [
         {
           title: "Visit Gent: Ghent Belfry",
           url: "https://visit.gent.be/en/see-do/ghent-belfry",
@@ -761,8 +792,7 @@ export const guideBatch50: PublicExperience[] = [
           note: "Municipal heritage context for the bells and mechanism, not confirmation of an individual future session.",
         },
       ],
-      "2026-11-21",
-    ),
+    },
   },
   {
     id: "dublin-ifi-archive-lunchtime",

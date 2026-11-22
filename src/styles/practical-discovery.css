@@ -248,11 +248,8 @@ body {
     font-size: 42px;
     line-height: 1.05;
   }
-  .new-guides-page .new-guide-summary {
-    gap: 8px;
-  }
-  .new-guides-page .new-guide-summary > a {
-    display: none;
+  .new-guides-page .new-guide-tools {
+    padding: 12px 16px;
   }
   .journey-place-grid {
     grid-template-columns: 1fr;
